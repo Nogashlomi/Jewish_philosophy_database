@@ -1,0 +1,91 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Maimonides
+jp:GuideOfPerplexed a jp:HistoricalWork ;
+    rdfs:label "Guide of the Perplexed" ;
+    jp:author jp:Maimonides .
+
+jp:MishnehTorah a jp:HistoricalWork ;
+    rdfs:label "Mishneh Torah" ;
+    jp:author jp:Maimonides .
+
+jp:MaasehMerkavah a jp:HistoricalWork ;
+    rdfs:label "Ma‛aseh Merkavah" ;
+    jp:author jp:Maimonides .
+
+# Solomon ibn Gabirol
+jp:FonsVitae a jp:HistoricalWork ;
+    rdfs:label "Fons Vitae - Meqor hayyim" ;
+    jp:author jp:SolomonIbnGabirol .
+
+jp:FonteDellaVita a jp:HistoricalWork ;
+    rdfs:label "Fonte della vita" ;
+    jp:author jp:SolomonIbnGabirol .
+
+# Abraham ibn Ezra
+jp:BookOfReasons a jp:HistoricalWork ;
+    rdfs:label "The Book of Reasons" ;
+    jp:author jp:AbrahamIbnEzra .
+
+jp:HayBenMeqitz a jp:HistoricalWork ;
+    rdfs:label "Hay ben Meqitz" ;
+    jp:author jp:AbrahamIbnEzra .
+
+# Joseph ibn Saddiq
+jp:TheMicrocosm a jp:HistoricalWork ;
+    rdfs:label "The Microcosm" ;
+    jp:author jp:JosephIbnSaddiq .
+
+# Levi ben Abraham
+jp:LivyatHenAccount a jp:HistoricalWork ;
+    rdfs:label "Livyat Hen: Account of Creation" ;
+    jp:author jp:LeviBenAbraham .
+
+jp:LivyatHenQuality a jp:HistoricalWork ;
+    rdfs:label "Livyat Hen: The Quality of Prophecy and the Secrets of the Torah" ;
+    jp:author jp:LeviBenAbraham .
+
+# Solomon ben Judah of Lunel
+jp:HesheqShelomo a jp:HistoricalWork ;
+    rdfs:label "Hesheq Shelomo. Commentary on the Kuzari" ;
+    jp:author jp:SolomonBenJudahOfLunel .
+
+# Gersonides
+jp:WarsOfTheLord a jp:HistoricalWork ;
+    rdfs:label "Wars of the Lord" ;
+    jp:author jp:Gersonides .
+
+jp:SeferHaSekhelWeHaMuskalot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Sekhel we-ha-muskalot" ;
+    jp:author jp:Gersonides .
+
+# Abraham ibn Daud
+jp:AlTehiKetz a jp:HistoricalWork ;
+    rdfs:label "Al Tehi Ketz" ;
+    jp:author jp:AbrahamIbnDaud .
+
+# Meir Aldabi
+jp:ShevileEmunah a jp:HistoricalWork ;
+    rdfs:label "Shevile Emunah" ;
+    jp:author jp:MeirAldabi .
+
+# Judah ben Solomon
+jp:MidrashHaHokhmah a jp:HistoricalWork ;
+    rdfs:label "Midrash ha-Hokhmah" ;
+    jp:author jp:JudahBenSolomon .
+
+# Abraham Avigdor
+jp:SegullatMelakhim a jp:HistoricalWork ;
+    rdfs:label "Segullat Melakhim" ;
+    jp:author jp:AbrahamAvigdor .
+
+# Shem-Tov Falaquera
+jp:OpuscoloDellaContesa a jp:HistoricalWork ;
+    rdfs:label "Opuscolo della contesa" ;
+    jp:author jp:ShemTovFalaquera .
+
+# Judah Abravanel / Leone Ebreo
+jp:DialoghiDAmore a jp:HistoricalWork ;
+    rdfs:label "Dialoghi d'Amore" ;
+    jp:author jp:JudahAbravanel .

@@ -1,4 +1,0 @@
-SELECT * {
-   ?s ?p ?o
-   LATERAL { SELECT (123 As ?o) {} }
-}

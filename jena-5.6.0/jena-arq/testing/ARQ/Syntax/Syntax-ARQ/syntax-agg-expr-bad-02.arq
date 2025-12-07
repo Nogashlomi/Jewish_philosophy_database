@@ -1,2 +1,0 @@
-PREFIX : <http://example/>
-SELECT ?Z {} HAVING (COUNT(AVG(?x)) > 0)

@@ -1,0 +1,85 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix : <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+########################################################
+# MODERN SCHOLARLY WORKS (2003-2007) – SAMPLE
+########################################################
+
+# Solomon Ibn Gabirol, Fons Vitae – Critical Edition & Translation by Roberto Gatti
+:Roberto_Gatti_FonsVitae_2001 a :ScholarlyWork ;
+    rdfs:label "Roberto Gatti, 2001" ;
+    dcterms:creator :Roberto_Gatti ;
+    :historicalWork :Fons_Vitae ;
+    :typeOfScholarlyWork :CriticalEdition .
+
+# Solomon Ibn Gabirol, Fonte della Vita – Translation by Marienza Benedetto
+:Marienza_Benedetto_FonteDellaVita_2007 a :ScholarlyWork ;
+    rdfs:label "Marienza Benedetto, 2007" ;
+    dcterms:creator :Marienza_Benedetto ;
+    :historicalWork :Fonte_della_Vita ;
+    :typeOfScholarlyWork :Translation .
+
+# Abraham Ibn Ezra, Book of Reasons – Critical Edition & Translation by Shlomo Sela
+:Shlomo_Sela_BookOfReasons_2007 a :ScholarlyWork ;
+    rdfs:label "Shlomo Sela, 2007" ;
+    dcterms:creator :Shlomo_Sela ;
+    :historicalWork :Book_of_Reasons ;
+    :typeOfScholarlyWork :CriticalEdition .
+
+# Joseph Ibn Saddiq, The Microcosm – Translation by Jacob Haberman
+:Jacob_Haberman_Microcosm_2003 a :ScholarlyWork ;
+    rdfs:label "Jacob Haberman, 2003" ;
+    dcterms:creator :Jacob_Haberman ;
+    :historicalWork :The_Microcosm ;
+    :typeOfScholarlyWork :Translation .
+
+# Maimonides, La Guida dei perplessi – Translation by Mauro Zonta
+:Mauro_Zonta_Guide_Perplexed_2003 a :ScholarlyWork ;
+    rdfs:label "Mauro Zonta, 2003" ;
+    dcterms:creator :Mauro_Zonta ;
+    :historicalWork :Guide_of_the_Perplexed ;
+    :typeOfScholarlyWork :Translation .
+
+# Maimonides, Book of Love (Mishneh Torah, vol.2) – Translation by Menachem Kellner
+:Menachem_Kellner_BookOfLove_2004 a :ScholarlyWork ;
+    rdfs:label "Menachem Kellner, 2004" ;
+    dcterms:creator :Menachem_Kellner ;
+    :historicalWork :Book_of_Love ;
+    :typeOfScholarlyWork :Translation .
+
+# Samuel Ibn Tibbon, Glosses to Guide of the Perplexed – in Fraenkel edition
+:Carlos_Fraenkel_Glosses_2007 a :ScholarlyWork ;
+    rdfs:label "Carlos Fraenkel, 2007" ;
+    dcterms:creator :Carlos_Fraenkel ;
+    :historicalWork :Guide_of_the_Perplexed ;
+    :typeOfScholarlyWork :ScholarlyStudy .
+
+# Samuel Ibn Tibbon, Commentary on Ecclesiastes – Translation by James T. Robinson
+:James_Robinson_Ecclesiastes_2007 a :ScholarlyWork ;
+    rdfs:label "James T. Robinson, 2007" ;
+    dcterms:creator :James_Robinson ;
+    :historicalWork :Commentary_on_Ecclesiastes ;
+    :typeOfScholarlyWork :Translation .
+
+# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2004)
+:Haim_Kreisel_LivyatHen_2004 a :ScholarlyWork ;
+    rdfs:label "Haim Kreisel, 2004" ;
+    dcterms:creator :Haim_Kreisel ;
+    :historicalWork :Livyat_Hen ;
+    :typeOfScholarlyWork :CriticalEdition .
+
+# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2007)
+:Haim_Kreisel_LivyatHen_2007 a :ScholarlyWork ;
+    rdfs:label "Haim Kreisel, 2007" ;
+    dcterms:creator :Haim_Kreisel ;
+    :historicalWork :Livyat_Hen ;
+    :typeOfScholarlyWork :CriticalEdition .
+
+# Solomon ben Judah of Lunel, Hesheq Shelomo – Critical Edition by Dov Schwartz
+:Dov_Schwartz_HesheqShelomo_2007 a :ScholarlyWork ;
+    rdfs:label "Dov Schwartz, 2007" ;
+    dcterms:creator :Dov_Schwartz ;
+    :historicalWork :Hesheq_Shelomo ;
+    :typeOfScholarlyWork :CriticalEdition .

@@ -1,3 +1,0 @@
-PREFIX : <http://example/> 
-SELECT *
-WHERE { <\u0078> :p ?x }

@@ -1,0 +1,56 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:AlfredIvry a jp:ModernPerson ;
+    rdfs:label "Alfred Ivry" .
+
+jp:MauroZonta a jp:ModernPerson ;
+    rdfs:label "Mauro Zonta" .
+
+jp:MenachemKellner a jp:ModernPerson ;
+    rdfs:label "Menachem Kellner" .
+
+jp:RobertoGatti a jp:ModernPerson ;
+    rdfs:label "Roberto Gatti" .
+
+jp:MarienzaBenedetto a jp:ModernPerson ;
+    rdfs:label "Marienza Benedetto" .
+
+jp:PasqualePorro a jp:ModernPerson ;
+    rdfs:label "Pasquale Porro" .
+
+jp:ShlomoSela a jp:ModernPerson ;
+    rdfs:label "Shlomo Sela" .
+
+jp:JacobHaberman a jp:ModernPerson ;
+    rdfs:label "Jacob Haberman" .
+
+jp:CarlosFraenkel a jp:ModernPerson ;
+    rdfs:label "Carlos Fraenkel" .
+
+jp:JamesTRobinson a jp:ModernPerson ;
+    rdfs:label "James T. Robinson" .
+
+jp:HaimKreisel a jp:ModernPerson ;
+    rdfs:label "Haim Kreisel" .
+
+jp:DovSchwartz a jp:ModernPerson ;
+    rdfs:label "Dov Schwartz" .
+
+jp:AlfredLIvry a jp:ModernPerson ;
+    rdfs:label "Alfred L. Ivry" .
+
+jp:SassonHoresh a jp:ModernPerson ;
+    rdfs:label "Sasson Horesh" .
+
+jp:YairShiffman a jp:ModernPerson ;
+    rdfs:label "Yair Shiffman" .
+
+jp:AmiraEran a jp:ModernPerson ;
+    rdfs:label "Amira Eran" .
+
+jp:ResianneFontaine a jp:ModernPerson ;
+    rdfs:label "Resianne Fontaine" .
+
+jp:CharlesManekin a jp:ModernPerson ;
+    rdfs:label "Charles Manekin" .

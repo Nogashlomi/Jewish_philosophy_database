@@ -1,8 +1,0 @@
-PREFIX cdt:    <http://w3id.org/awslabs/neptune/SPARQL-CDTs/>
-
-
-# list with one string
-ASK {
-	BIND(cdt:List("a") AS ?list)
-	FILTER(?list = "['a']"^^cdt:List)
-}

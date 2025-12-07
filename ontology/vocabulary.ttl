@@ -1,0 +1,151 @@
+#######################################################################
+# MEDIEVAL–JEWISH–PHILOSOPHY ONTOLOGY (JPO)
+# Vocabulary / Ontology (flat version, all English, no subclasses)
+#######################################################################
+
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#######################################################################
+# ONTOLOGY DECLARATION
+#######################################################################
+
+jp: a owl:Ontology ;
+    rdfs:label "Medieval Jewish Philosophy Ontology (JPO)" ;
+    dcterms:creator "YOUR NAME" ;
+    dcterms:description "Ontology for historical Jewish philosophers, their works, and modern scholarly resources." ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+
+#######################################################################
+# CLASSES
+#######################################################################
+
+jp:HistoricalPerson a owl:Class ;
+    rdfs:label "Historical Person" ;
+    rdfs:comment "A pre-modern person relevant to Jewish philosophy." .
+
+jp:HistoricalWork a owl:Class ;
+    rdfs:label "Historical Work" ;
+    rdfs:comment "A primary historical or medieval text authored by a historical person." .
+
+jp:ScholarlyWork a owl:Class ;
+    rdfs:label "Scholarly Work" ;
+    rdfs:comment "A modern scholarly work such as an edition, or an intellectual biography." .
+
+jp:HistoricalLanguage a owl:Class ;
+    rdfs:label "Historical Language" ;
+    rdfs:comment "A historical or classical language used in medieval Jewish texts." .
+
+jp:Subject a owl:Class ;
+    rdfs:label "Subject" ;
+    rdfs:comment "A topical subject area of a work: astronomy, theology, philosophy, etc." .
+
+#######################################################################
+# OBJECT PROPERTIES
+#######################################################################
+
+jp:writtenBy a owl:ObjectProperty ;
+    rdfs:label "written by" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates that a historical work was authored by a historical person." .
+
+jp:aboutPerson a owl:ObjectProperty ;
+    rdfs:label "about person" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "A scholarly work that discusses a historical figure." .
+
+jp:aboutWork a owl:ObjectProperty ;
+    rdfs:label "about work" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:HistoricalWork ;
+    rdfs:comment "A scholarly work that studies or analyzes a historical text." .
+
+jp:writtenInLanguage a owl:ObjectProperty ;
+    rdfs:label "written in language" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalLanguage ;
+    rdfs:comment "Associates a historical text with the historical language it was written in." .
+
+jp:hasSubject a owl:ObjectProperty ;
+    rdfs:label "has subject" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:Subject ;
+    rdfs:comment "Associates a historical work with its subject or topical classification." .
+
+jp:authorityLink a owl:ObjectProperty ;
+    rdfs:label "authority link" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "Links a historical person to external authority identifiers (Wikidata, VIAF...). Values can be added later." .
+
+jp:Mention a owl:Class ;
+    rdfs:label "Mention" ;
+    rdfs:comment "Represents a reference from a historical work to another historical entity (person or work), including the type of mention." .
+
+#######################################################################
+# DATATYPE PROPERTIES
+#######################################################################
+
+jp:title a owl:DatatypeProperty ;
+    rdfs:label "title" ;
+    rdfs:domain [ owl:unionOf ( jp:HistoricalWork jp:ScholarlyWork ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "A human-readable title of a historical or scholarly work." .
+
+jp:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Year of publication of a scholarly work." .
+
+jp:bibtexKey a owl:DatatypeProperty ;
+    rdfs:label "BibTeX key" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Citation key from the BibTeX file." .
+
+jp:bibtexType a owl:DatatypeProperty ;
+    rdfs:label "BibTeX type" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "BibTeX entry type (e.g., book, article)." .
+
+jp:creatorName a owl:DatatypeProperty ;
+    rdfs:label "creator name" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Names of modern creators (editors, translators, authors) stored as text." .
+# The work that contains the mention
+
+jp:mentionSource a owl:ObjectProperty ;
+    rdfs:label "mention source" ;
+    rdfs:domain jp:Mention ;
+    rdfs:range jp:HistoricalWork ;
+    rdfs:comment "The historical work that contains the mention." .
+
+# The target of the mention (can be a historical person or a historical work)
+jp:mentionTarget a owl:ObjectProperty ;
+    rdfs:label "mention target" ;
+    rdfs:domain jp:Mention ;
+    rdfs:range [ owl:unionOf ( jp:HistoricalWork jp:HistoricalPerson ) ] ;
+    rdfs:comment "The historical work or historical person that is being mentioned." .
+
+# Type of mention
+jp:mentionType a owl:DatatypeProperty ;
+    rdfs:label "mention type" ;
+    rdfs:domain jp:Mention ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type of mention, e.g., 'translation', 'commentary', or 'other mention'." .
+
+
+#######################################################################
+# END OF VOCABULARY
+#######################################################################
