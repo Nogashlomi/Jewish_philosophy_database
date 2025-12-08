@@ -1,0 +1,16 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Selected Subject vocabulary for Jewish Philosophy Ontology (JPO)
+
+jp:Astronomy a jp:Subject ;
+    rdfs:label "Astronomy" .
+
+jp:Philosophy a jp:Subject ;
+    rdfs:label "Philosophy" .
+
+jp:Religion a jp:Subject ;
+    rdfs:label "Religion" .
+
+jp:Medicine a jp:Subject ;
+    rdfs:label "Medicine" .

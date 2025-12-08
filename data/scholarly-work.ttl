@@ -1,85 +1,716 @@
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
-@prefix : <http://jewish_philosophy.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-########################################################
-# MODERN SCHOLARLY WORKS (2003-2007) – SAMPLE
-########################################################
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-# Solomon Ibn Gabirol, Fons Vitae – Critical Edition & Translation by Roberto Gatti
-:Roberto_Gatti_FonsVitae_2001 a :ScholarlyWork ;
-    rdfs:label "Roberto Gatti, 2001" ;
-    dcterms:creator :Roberto_Gatti ;
-    :historicalWork :Fons_Vitae ;
-    :typeOfScholarlyWork :CriticalEdition .
+#######################################################################
+# SCHOLARLY WORKS
+#######################################################################
 
-# Solomon Ibn Gabirol, Fonte della Vita – Translation by Marienza Benedetto
-:Marienza_Benedetto_FonteDellaVita_2007 a :ScholarlyWork ;
-    rdfs:label "Marienza Benedetto, 2007" ;
-    dcterms:creator :Marienza_Benedetto ;
-    :historicalWork :Fonte_della_Vita ;
-    :typeOfScholarlyWork :Translation .
+# Ivry2003
+jp:Ivry2003 a jp:ScholarlyWork ;
+    jp:creatorName "Alfred Ivry" ;
+    jp:title "Commission for Jewish Philosophy: Last Report" ;
+    jp:journal "Bulletin de philosophie médiévale" ;
+    jp:volume "45" ;
+    jp:pages "17-26" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "Ivry2003" ;
+    jp:bibtexType "article" .
 
-# Abraham Ibn Ezra, Book of Reasons – Critical Edition & Translation by Shlomo Sela
-:Shlomo_Sela_BookOfReasons_2007 a :ScholarlyWork ;
-    rdfs:label "Shlomo Sela, 2007" ;
-    dcterms:creator :Shlomo_Sela ;
-    :historicalWork :Book_of_Reasons ;
-    :typeOfScholarlyWork :CriticalEdition .
+# Gatti2001
+jp:Gatti2001 a jp:ScholarlyWork ;
+    jp:creatorName "Roberto Gatti" ;
+    jp:title "Fons Vitae - Meqor hayyim: Edizione critica e traduzione dell’Epitome ebraica dell’opera" ;
+    jp:publisher "il Melangolo" ;
+    jp:address "Genoa" ;
+    jp:year "2001"^^xsd:gYear ;
+    jp:bibtexKey "Gatti2001" ;
+    jp:bibtexType "book" .
 
-# Joseph Ibn Saddiq, The Microcosm – Translation by Jacob Haberman
-:Jacob_Haberman_Microcosm_2003 a :ScholarlyWork ;
-    rdfs:label "Jacob Haberman, 2003" ;
-    dcterms:creator :Jacob_Haberman ;
-    :historicalWork :The_Microcosm ;
-    :typeOfScholarlyWork :Translation .
+# Benedetto2007
+jp:Benedetto2007 a jp:ScholarlyWork ;
+    jp:creatorName "Marienza Benedetto" ;
+    jp:title "Fonte della vita. Con testo latino a fronte" ;
+    jp:publisher "Bompiani" ;
+    jp:address "Milano" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:note "Preface by Pasquale Porro" ;
+    jp:bibtexKey "Benedetto2007" ;
+    jp:bibtexType "book" .
 
-# Maimonides, La Guida dei perplessi – Translation by Mauro Zonta
-:Mauro_Zonta_Guide_Perplexed_2003 a :ScholarlyWork ;
-    rdfs:label "Mauro Zonta, 2003" ;
-    dcterms:creator :Mauro_Zonta ;
-    :historicalWork :Guide_of_the_Perplexed ;
-    :typeOfScholarlyWork :Translation .
+# IbnEzra2007
+jp:IbnEzra2007 a jp:ScholarlyWork ;
+    jp:creatorName "Abraham Ibn Ezra" ;
+    jp:title "The Book of Reasons: A parallel Hebrew-English critical edition of the two versions of the text" ;
+    jp:publisher "Brill Academic Publishers" ;
+    jp:address "Leiden" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "IbnEzra2007" ;
+    jp:bibtexType "book" .
 
-# Maimonides, Book of Love (Mishneh Torah, vol.2) – Translation by Menachem Kellner
-:Menachem_Kellner_BookOfLove_2004 a :ScholarlyWork ;
-    rdfs:label "Menachem Kellner, 2004" ;
-    dcterms:creator :Menachem_Kellner ;
-    :historicalWork :Book_of_Love ;
-    :typeOfScholarlyWork :Translation .
+# IbnSaddiq2003
+jp:IbnSaddiq2003 a jp:ScholarlyWork ;
+    jp:creatorName "Joseph Ibn Saddiq" ;
+    jp:title "The Microcosm" ;
+    jp:translator "Jacob Haberman" ;
+    jp:publisher "Fairleigh Dickinson University Press" ;
+    jp:address "Madison, New Jersey" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "IbnSaddiq2003" ;
+    jp:bibtexType "book" .
 
-# Samuel Ibn Tibbon, Glosses to Guide of the Perplexed – in Fraenkel edition
-:Carlos_Fraenkel_Glosses_2007 a :ScholarlyWork ;
-    rdfs:label "Carlos Fraenkel, 2007" ;
-    dcterms:creator :Carlos_Fraenkel ;
-    :historicalWork :Guide_of_the_Perplexed ;
-    :typeOfScholarlyWork :ScholarlyStudy .
+# Maimonides2003
+jp:Maimonides2003 a jp:ScholarlyWork ;
+    jp:creatorName "Maimonides" ;
+    jp:title "La Guida dei perplessi di Mosè Maimonide" ;
+    jp:translator "Mauro Zonta" ;
+    jp:publisher "U.T.E.T." ;
+    jp:address "Turin" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:note "New edition with preface 2005" ;
+    jp:bibtexKey "Maimonides2003" ;
+    jp:bibtexType "book" .
 
-# Samuel Ibn Tibbon, Commentary on Ecclesiastes – Translation by James T. Robinson
-:James_Robinson_Ecclesiastes_2007 a :ScholarlyWork ;
-    rdfs:label "James T. Robinson, 2007" ;
-    dcterms:creator :James_Robinson ;
-    :historicalWork :Commentary_on_Ecclesiastes ;
-    :typeOfScholarlyWork :Translation .
+# Maimonides2004
+jp:Maimonides2004 a jp:ScholarlyWork ;
+    jp:creatorName "Maimonides" ;
+    jp:title "Book of Love by Maimonides (Mishneh Torah, vol. 2)" ;
+    jp:translator "Menachem Kellner" ;
+    jp:publisher "Yale University Press" ;
+    jp:address "New Haven" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "Maimonides2004" ;
+    jp:bibtexType "book" .
 
-# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2004)
-:Haim_Kreisel_LivyatHen_2004 a :ScholarlyWork ;
-    rdfs:label "Haim Kreisel, 2004" ;
-    dcterms:creator :Haim_Kreisel ;
-    :historicalWork :Livyat_Hen ;
-    :typeOfScholarlyWork :CriticalEdition .
+# SamuelIbnTibbon2007a
+jp:SamuelIbnTibbon2007a a jp:ScholarlyWork ;
+    jp:creatorName "Samuel Ibn Tibbon" ;
+    jp:title "Glosses to Maimonides’ Guide of the Perplexed" ;
+    jp:editor "Carlos Fraenkel" ;
+    jp:bookTitle "From Maimonides to Samuel ibn Tibbon: The Transformation of the Dalalat al-Ha'irin into the Moreh ha-Nevukhim" ;
+    jp:publisher "Magnes Press" ;
+    jp:address "Jerusalem" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "SamuelIbnTibbon2007a" ;
+    jp:bibtexType "incollection" .
 
-# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2007)
-:Haim_Kreisel_LivyatHen_2007 a :ScholarlyWork ;
-    rdfs:label "Haim Kreisel, 2007" ;
-    dcterms:creator :Haim_Kreisel ;
-    :historicalWork :Livyat_Hen ;
-    :typeOfScholarlyWork :CriticalEdition .
+# SamuelIbnTibbon2007b
+jp:SamuelIbnTibbon2007b a jp:ScholarlyWork ;
+    jp:creatorName "Samuel Ibn Tibbon" ;
+    jp:title "Samuel Ibn Tibbon’s Commentary on Ecclesiastes: The Book of the Soul of Man (Texts and Studies in Medieval and Early Modern Judaism 20)" ;
+    jp:translator "James T. Robinson" ;
+    jp:publisher "Mohr Siebeck" ;
+    jp:address "Tübingen" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "SamuelIbnTibbon2007b" ;
+    jp:bibtexType "book" .
 
-# Solomon ben Judah of Lunel, Hesheq Shelomo – Critical Edition by Dov Schwartz
-:Dov_Schwartz_HesheqShelomo_2007 a :ScholarlyWork ;
-    rdfs:label "Dov Schwartz, 2007" ;
-    dcterms:creator :Dov_Schwartz ;
-    :historicalWork :Hesheq_Shelomo ;
-    :typeOfScholarlyWork :CriticalEdition .
+# LeviBenAbraham2004
+jp:LeviBenAbraham2004 a jp:ScholarlyWork ;
+    jp:creatorName "Levi Ben Abraham" ;
+    jp:title "Livyat Hen: Account of Creation by R. Levi ben Avraham" ;
+    jp:editor "Haim Kreisel" ;
+    jp:publisher "World Union of Jewish Studies" ;
+    jp:address "Jerusalem" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:note "Critical annotated edition with introduction and edition of section of poem Battei ha-Nefesh ve-ha-Lahashim" ;
+    jp:bibtexKey "LeviBenAbraham2004" ;
+    jp:bibtexType "book" .
+
+# LeviBenAbraham2007
+jp:LeviBenAbraham2007 a jp:ScholarlyWork ;
+    jp:creatorName "Levi Ben Abraham" ;
+    jp:title "Livyat Hen: The Quality of Prophecy and the Secrets of the Torah by R. Levi ben Avraham" ;
+    jp:editor "Haim Kreisel" ;
+    jp:publisher "Ben-Gurion University of the Negev Press" ;
+    jp:address "Beer-Sheva" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "LeviBenAbraham2007" ;
+    jp:bibtexType "book" .
+
+# SolomonBenJudah2007
+jp:SolomonBenJudah2007 a jp:ScholarlyWork ;
+    jp:creatorName "Solomon Ben Judah of Lunel" ;
+    jp:title "Hesheq Shelomo. Commentary on the Kuzari" ;
+    jp:editor "Dov Schwartz" ;
+    jp:publisher "Bar-Ilan University Press" ;
+    jp:address "Ramat-Gan" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "SolomonBenJudah2007" ;
+    jp:bibtexType "book" .
+
+# CCM2005
+jp:CCM2005 a jp:ScholarlyWork ;
+    jp:editor "K. Seeskin" ;
+    jp:title "The Cambridge Companion to Maimonides" ;
+    jp:publisher "Cambridge University Press" ;
+    jp:address "Cambridge" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "CCM2005" ;
+    jp:bibtexType "book" .
+
+# CCMJP2003
+jp:CCMJP2003 a jp:ScholarlyWork ;
+    jp:editor "D. H. Frank and O. Leaman" ;
+    jp:title "The Cambridge Companion to Medieval Jewish Philosophy" ;
+    jp:publisher "Cambridge University Press" ;
+    jp:address "Cambridge" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "CCMJP2003" ;
+    jp:bibtexType "book" .
+
+# ERTPM2006
+jp:ERTPM2006 a jp:ScholarlyWork ;
+    jp:editor "J. Hamesse and O. Weijers" ;
+    jp:title "Ecriture et réécriture des textes philosophiques médiévaux: Volume d'hommage offert à Colette Sirat" ;
+    jp:series "Textes et études du moyen âge 34" ;
+    jp:publisher "Brepols" ;
+    jp:address "Turnhout" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "ERTPM2006" ;
+    jp:bibtexType "book" .
+
+# IIPM2006
+jp:IIPM2006 a jp:ScholarlyWork ;
+    jp:editor "M. C. Pacheco and J. F. Meirinhos" ;
+    jp:title "Intellect et imagination dans la Philosophie Médievale/Intellect and Imagination in the Medieval Philosophy/Intelecto e imaginaçao na Filosofia Medieval" ;
+    jp:series "Actes du XIe Congrès International de Philosophie Médievale (S.I.E.P.M) Porto du 26 au 31 août 2002" ;
+    jp:publisher "Brepols" ;
+    jp:address "Turnhout" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "IIPM2006" ;
+    jp:bibtexType "book" .
+
+# MMDCC2004
+jp:MMDCC2004 a jp:ScholarlyWork ;
+    jp:editor "G. Hasselhoff and O. Fraisse" ;
+    jp:title "Moses Maimonides (1138-1204). His Religious, Scientific, and Philosophical Wirkungsgeschichte in Different Cultural Contexts" ;
+    jp:publisher "Ergon Verlag" ;
+    jp:address "Würzburg" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "MMDCC2004" ;
+    jp:bibtexType "book" .
+
+# MTG2003
+jp:MTG2003 a jp:ScholarlyWork ;
+    jp:editor "C. Sirat, S. Klein-Braslavy and O. Weijers" ;
+    jp:title "Les méthodes de travail de Gersonide et le maniement du savoir chez les scolastiques" ;
+    jp:publisher "Librairie philosophique J. Vrin" ;
+    jp:address "Paris" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "MTG2003" ;
+    jp:bibtexType "book" .
+#######################################################################
+# SCHOLARLY WORKS - PART 2
+#######################################################################
+
+# Albertini2006a
+jp:Albertini2006a a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "Bagdad und Jerusalem als Städte des Friedens nach der frühmittelalterlichen Religionsphilosophie im Judentum und im Islam" ;
+    jp:journal "Jahrbuch der Religionsphilosophie" ;
+    jp:volume "5" ;
+    jp:pages "199-213" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "Albertini2006a" ;
+    jp:bibtexType "article" .
+
+# Albertini2004
+jp:Albertini2004 a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "Das Verhältnis von Gesetz, Gemeinde und der kommenden Welt in Hilkhot De‛ot von Moses Maimonides" ;
+    jp:journal "Kirche und Israel" ;
+    jp:volume "2" ;
+    jp:pages "106-120" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "Albertini2004" ;
+    jp:bibtexType "article" .
+
+# Albertini2007
+jp:Albertini2007 a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "Die religiöse und geschichtliche Gestalt Jesus’ von Nazareth im Denken Moses Maimonides" ;
+    jp:journal "Zeitschrift für Neues Testamen" ;
+    jp:volume "20" ;
+    jp:pages "38-45" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "Albertini2007" ;
+    jp:bibtexType "article" .
+
+# AlbertiniMMDCC2007
+jp:AlbertiniMMDCC2007 a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "Emmanuel Levinas’ Theological-Political Interpretation of Moses Maimonides" ;
+    jp:bookTitle "MMDCC" ;
+    jp:pages "573-585" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "AlbertiniMMDCC2007" ;
+    jp:bibtexType "incollection" .
+
+# Albertini2006b
+jp:Albertini2006b a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "Hiob 2, 1-7a: Aspekte zur Wette zwischen Gott und dem Satan in der jüdischen Philosophie des Mittelalters und der Neuzeit" ;
+    jp:journal "Frankfurter Judaistische Beiträge" ;
+    jp:volume "33" ;
+    jp:pages "69-79" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "Albertini2006b" ;
+    jp:bibtexType "article" .
+
+# Albertini2003
+jp:Albertini2003 a jp:ScholarlyWork ;
+    jp:creatorName "Francesca Albertini" ;
+    jp:title "The Influences of Saadya Gaon and Bachya Ibn Paquda on the Cohenian Concept of God's Uniqueness" ;
+    jp:journal "Archivio di Filosofia" ;
+    jp:volume "71" ;
+    jp:pages "183-198" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "Albertini2003" ;
+    jp:bibtexType "article" .
+
+# Blumenthal2005
+jp:Blumenthal2005 a jp:ScholarlyWork ;
+    jp:creatorName "David Blumenthal" ;
+    jp:title "Philosophic Mysticism: Essays in Rational Religion" ;
+    jp:publisher "Bar Ilan University Press" ;
+    jp:address "Ramat-Gan" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "Blumenthal2005" ;
+    jp:bibtexType "book" .
+
+# Davidson2004a
+jp:Davidson2004a a jp:ScholarlyWork ;
+    jp:creatorName "Herbert Davidson" ;
+    jp:title "Maimonides, Aristotle, and Avicenna" ;
+    jp:editor "R. Morelon and A. Hasnawi" ;
+    jp:bookTitle "De Zénon d’Élée à Poincaré: Recueil d’études en hommage à Roshdi Rashed" ;
+    jp:publisher "Peeters" ;
+    jp:address "Louvain" ;
+    jp:pages "719-734" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "Davidson2004a" ;
+    jp:bibtexType "incollection" .
+
+# Davidson2004b
+jp:Davidson2004b a jp:ScholarlyWork ;
+    jp:creatorName "Herbert Davidson" ;
+    jp:title "Moses Maimonides, The Man and His Works" ;
+    jp:publisher "Oxford University Press" ;
+    jp:address "New York" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "Davidson2004b" ;
+    jp:bibtexType "book" .
+
+# Davidson2005
+jp:Davidson2005 a jp:ScholarlyWork ;
+    jp:creatorName "Herbert Davidson" ;
+    jp:title "The First Two of the 248 Positive Commandments Believed to Have Been Given to Moses" ;
+    jp:bookTitle "Creation and Re-Creation in Jewish Thought: Festschrift in Honor of Joseph Dan" ;
+    jp:editor "R. Elior and P. Schafer" ;
+    jp:publisher "Mohr Siebeck" ;
+    jp:address "Tuebingen" ;
+    jp:pages "113-145" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "Davidson2005" ;
+    jp:bibtexType "incollection" .
+
+# DobbsWeinstein2003a
+jp:DobbsWeinstein2003a a jp:ScholarlyWork ;
+    jp:creatorName "Idit Dobbs-Weinstein" ;
+    jp:title "Jewish Philosophy" ;
+    jp:bookTitle "The Cambridge Companion to Medieval Philosophy" ;
+    jp:editor "S. McGrade" ;
+    jp:publisher "Cambridge University Press" ;
+    jp:address "Cambridge" ;
+    jp:pages "121-146" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "DobbsWeinstein2003a" ;
+    jp:bibtexType "incollection" .
+
+# DobbsWeinstein2006
+jp:DobbsWeinstein2006 a jp:ScholarlyWork ;
+    jp:creatorName "Idit Dobbs-Weinstein" ;
+    jp:title "Tensions Within and Between Maimonides’ and Gersonides’ Accounts of Prophecy" ;
+    jp:bookTitle "ERTPM" ;
+    jp:pages "63-87" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "DobbsWeinstein2006" ;
+    jp:bibtexType "incollection" .
+
+# DobbsWeinstein2004
+jp:DobbsWeinstein2004 a jp:ScholarlyWork ;
+    jp:creatorName "Idit Dobbs-Weinstein" ;
+    jp:title "Thinking Desire in Gersonides and Spinoza" ;
+    jp:bookTitle "Women and Gender in Jewish Philosophy" ;
+    jp:editor "H. Tirosh-Samuelson" ;
+    jp:publisher "Indiana University Press" ;
+    jp:address "Bloomington and Indianapolis" ;
+    jp:pages "51-77" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "DobbsWeinstein2004" ;
+    jp:bibtexType "incollection" .
+
+#######################################################################
+# SCHOLARLY WORKS - PART 3
+#######################################################################
+
+# Ehrlich2006
+jp:Ehrlich2006 a jp:ScholarlyWork ;
+    jp:creatorName "Dror Ehrlich" ;
+    jp:title "A Reassessment of Natural Law in Rabbi Joseph Albo’s Book of Principles" ;
+    jp:journal "Hebraic Political Studies" ;
+    jp:volume "1" ;
+    jp:pages "413-439" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "Ehrlich2006" ;
+    jp:bibtexType "article" .
+
+# Eran2007
+jp:Eran2007 a jp:ScholarlyWork ;
+    jp:creatorName "Amira Eran" ;
+    jp:title "Intuition and Inspiration: The Causes of Religious Philosophical Objection of Jewish Thinkers to Avicenna’s intellectual Prophecy (Hads)" ;
+    jp:journal "Jewish Studies Quarterly" ;
+    jp:volume "12" ;
+    jp:pages "39-71" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "Eran2007" ;
+    jp:bibtexType "article" .
+
+# FeldmanCCM
+jp:FeldmanCCM a jp:ScholarlyWork ;
+    jp:creatorName "Seymour Feldman" ;
+    jp:title "Maimonides – A Guide for Posterity" ;
+    jp:bookTitle "The Cambridge Companion to Maimonides" ;
+    jp:editor "K. Seeskin" ;
+    jp:pages "324-360" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "FeldmanCCM" ;
+    jp:bibtexType "incollection" .
+
+# Feldman2003
+jp:Feldman2003 a jp:ScholarlyWork ;
+    jp:creatorName "Seymour Feldman" ;
+    jp:title "Philosophy in a Time of Crisis: Don Isaac Abravanel: Defender of the Faith" ;
+    jp:publisher "Routledge" ;
+    jp:address "London" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "Feldman2003" ;
+    jp:bibtexType "book" .
+
+# FeldmanViator2005
+jp:FeldmanViator2005 a jp:ScholarlyWork ;
+    jp:creatorName "Seymour Feldman" ;
+    jp:title "Platonic Cosmologies in the Dialoghi d'Amore of Leone Ebreo (Judah Abravanel)" ;
+    jp:journal "Viator" ;
+    jp:volume "36" ;
+    jp:pages "557-582" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "FeldmanViator2005" ;
+    jp:bibtexType "article" .
+
+# FeldmanCCMJP
+jp:FeldmanCCMJP a jp:ScholarlyWork ;
+    jp:creatorName "Seymour Feldman" ;
+    jp:title "The End and Aftereffects of Medieval Jewish Philosophy" ;
+    jp:bookTitle "The Cambridge Companion to Medieval Jewish Philosophy" ;
+    jp:editor "D. H. Frank and O. Leaman" ;
+    jp:pages "414-445" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "FeldmanCCMJP" ;
+    jp:bibtexType "incollection" .
+
+# Fontaine2005a
+jp:Fontaine2005a a jp:ScholarlyWork ;
+    jp:creatorName "Resianne Fontaine" ;
+    jp:title "Abraham Ibn Daud’s Polemics against Muslims and Christians" ;
+    jp:bookTitle "The Three Rings: Textual Studies in the Historical Trialogue of Judaism, Christianity and Islam" ;
+    jp:editor "M. Poorthuis, B. Roggema, P. Valkenberg" ;
+    jp:publisher "Thomas Instituut / Peeters" ;
+    jp:address "Utrecht / Leuven" ;
+    jp:pages "19-34" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "Fontaine2005a" ;
+    jp:bibtexType "incollection" .
+
+# FontaineZutot2004
+jp:FontaineZutot2004 a jp:ScholarlyWork ;
+    jp:creatorName "Resianne Fontaine" ;
+    jp:title "An Unexpected Source of Meir Aldabi’s Shevile Emunah" ;
+    jp:journal "Zutot" ;
+    jp:pages "98-102" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "FontaineZutot2004" ;
+    jp:bibtexType "article" .
+
+# FontaineRosenthal2005
+jp:FontaineRosenthal2005 a jp:ScholarlyWork ;
+    jp:creatorName "Resianne Fontaine" ;
+    jp:title "Medieval Jewish Philosophy in the Collection of Leeser Rosenthal" ;
+    jp:journal "Studia Rosenthaliana" ;
+    jp:volume "38-39" ;
+    jp:pages "15-24" ;
+    jp:year "2005-2006" ;
+    jp:bibtexKey "FontaineRosenthal2005" ;
+    jp:bibtexType "article" .
+
+# FontaineERTPM
+jp:FontaineERTPM a jp:ScholarlyWork ;
+    jp:creatorName "Resianne Fontaine" ;
+    jp:title "The Theme of the Three Worlds in Judah ben Solomon’s Midrash ha-Hokhmah" ;
+    jp:bookTitle "Ecriture et réécriture des textes philosophiques médiévaux" ;
+    jp:pages "429-444" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "FontaineERTPM" ;
+    jp:bibtexType "incollection" .
+
+# FontaineBerger2006
+jp:FontaineBerger2006 a jp:ScholarlyWork ;
+    jp:creatorName "Resianne Fontaine and Shlomo Berger" ;
+    jp:title "‘Something on Every Subject’: on Pre-Modern Hebrew and Yiddish Encyclopedias" ;
+    jp:journal "Journal of Modern Jewish Studies" ;
+    jp:volume "5" ;
+    jp:pages "269-284" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "FontaineBerger2006" ;
+    jp:bibtexType "article" .
+
+# Fontaine2007
+jp:Fontaine2007 a jp:ScholarlyWork ;
+    jp:editor "Resianne Fontaine, Andrea Schatz, Irene Zwiep" ;
+    jp:title "Sepharad in Ashkenaz: Medieval Knowledge and Eighteenth-Century Enlightened Jewish Discourse" ;
+    jp:publisher "Royal Netherlands Academy of Arts and Sciences" ;
+    jp:address "Amsterdam" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "Fontaine2007" ;
+    jp:bibtexType "book" .
+
+# Fraenkel2006
+jp:Fraenkel2006 a jp:ScholarlyWork ;
+    jp:creatorName "Carlos Fraenkel" ;
+    jp:title "Maimonides’ God and Spinoza’s Deus sive Natura" ;
+    jp:journal "Journal of the History of Philosophy" ;
+    jp:volume "44" ;
+    jp:pages "169-215" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "Fraenkel2006" ;
+    jp:bibtexType "article" .
+
+# Fraenkel2007a
+jp:Fraenkel2007a a jp:ScholarlyWork ;
+    jp:creatorName "Carlos Fraenkel" ;
+    jp:title "Maimonides, Spinoza, Solomon Maimon and the Completion of the Copernican Revolution in Philosophy" ;
+    jp:bookTitle "Sepharad in Ashkenaz: Medieval Knowledge and Eighteenth-Century Enlightened Jewish Discourse" ;
+    jp:editor "R. Fontaine, A. Schatz, I. Zwiep" ;
+    jp:pages "193-220" ;
+    jp:publisher "Royal Netherlands Academy of Arts and Sciences" ;
+    jp:address "Amsterdam" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "Fraenkel2007a" ;
+    jp:bibtexType "incollection" .
+
+# Fraenkel2004
+jp:Fraenkel2004 a jp:ScholarlyWork ;
+    jp:creatorName "Carlos Fraenkel" ;
+    jp:title "The Problem of Anthropomorphism in a Hitherto Unknown Passage from Samuel ibn Tibbon’s Ma’amar Yiqqawu ha-Mayim and in a Newly-Discovered Letter by David ben Saul" ;
+    jp:journal "Jewish Studies Quarterly" ;
+    jp:volume "11" ;
+    jp:pages "83-126" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "Fraenkel2004" ;
+    jp:bibtexType "article" .
+
+# Freudenthal2005a
+jp:Freudenthal2005a a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "A Twelfth-Century Provençal Amateur of Neoplatonic Philosophy in Hebrew: R. Asher b. Meshullam of Lunel" ;
+    jp:journal "Chora" ;
+    jp:volume "3-4" ;
+    jp:pages "155-182" ;
+    jp:year "2005-2006" ;
+    jp:bibtexKey "Freudenthal2005a" ;
+    jp:bibtexType "article" .
+
+# Freudenthal2005b
+jp:Freudenthal2005b a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "Die zwei Leben der mittelalterlichen hebräischen Wissenschaft" ;
+    jp:journal "Kalonymos" ;
+    jp:volume "8/2" ;
+    jp:pages "6-9" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "Freudenthal2005b" ;
+    jp:bibtexType "article" .
+
+#######################################################################
+# SCHOLARLY WORKS - PART 4
+#######################################################################
+
+# Freudenthal2005c
+jp:Freudenthal2005c a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "Die zwei Leben der mittelalterlichen hebräischen Wissenschaft" ;
+    jp:journal "Kalonymos" ;
+    jp:volume "8/3" ;
+    jp:pages "1-5" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "Freudenthal2005c" ;
+    jp:bibtexType "article" .
+
+# Freudenthal2002
+jp:Freudenthal2002 a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "Four Implicit Quotations of Philosophical Sources in Maimonides’ Guide of the Perplexed" ;
+    jp:journal "Zutot" ;
+    jp:pages "114-125" ;
+    jp:year "2002"^^xsd:gYear ;
+    jp:bibtexKey "Freudenthal2002" ;
+    jp:bibtexType "article" .
+
+# FreudenthalMTG
+jp:FreudenthalMTG a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "Gersonide, génie solitaire" ;
+    jp:bookTitle "Les méthodes de travail de Gersonide et le maniement du savoir chez les scolastiques" ;
+    jp:editor "C. Sirat, S. Klein-Braslavy, O. Weijers" ;
+    jp:pages "291-317" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "FreudenthalMTG" ;
+    jp:bibtexType "incollection" .
+
+# FreudenthalJQR2003
+jp:FreudenthalJQR2003 a jp:ScholarlyWork ;
+    jp:creatorName "Gad Freudenthal" ;
+    jp:title "Ketav ha-da`at or Sefer ha-Sekhel we-ha-muskalot: The Medieval Hebrew Translations of al-Fârâbî's Risâlah fî'l-‘aql. A Study in Text History and in the Evolution of Medieval Hebrew Philosophical Terminology" ;
+    jp:journal "Jewish Quarterly Review" ;
+    jp:volume "93" ;
+    jp:pages "29-115" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "FreudenthalJQR2003" ;
+    jp:bibtexType "article" .
+
+# kreisel2006christian
+jp:kreisel2006christian a jp:ScholarlyWork ;
+    jp:creatorName "Howard Kreisel" ;
+    jp:title "Christian Influences on Levi ben Avraham's Livyat Hen" ;
+    jp:journal "Studia Hebraica" ;
+    jp:volume "6" ;
+    jp:pages "45-53" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "kreisel2006christian" ;
+    jp:bibtexType "article" .
+
+# kreisel2006esotericism
+jp:kreisel2006esotericism a jp:ScholarlyWork ;
+    jp:creatorName "Howard Kreisel" ;
+    jp:title "Esotericism to Exotericism: From Maimonides to Gersonides" ;
+    jp:bookTitle "Study and Knowledge in Jewish Thought" ;
+    jp:editor "Howard Kreisel" ;
+    jp:publisher "Ben-Gurion University of the Negev Press" ;
+    jp:address "Beer-Sheva" ;
+    jp:pages "165-184" ;
+    jp:year "2006"^^xsd:gYear ;
+    jp:bibtexKey "kreisel2006esotericism" ;
+    jp:bibtexType "incollection" .
+
+# kreisel_ccm
+jp:kreisel_ccm a jp:ScholarlyWork ;
+    jp:creatorName "Howard Kreisel" ;
+    jp:title "Maimonides’ Political Philosophy" ;
+    jp:bookTitle "CCM" ;
+    jp:pages "193-220" ;
+    jp:bibtexKey "kreisel_ccm" ;
+    jp:bibtexType "incollection" .
+
+# kreisel_maase
+jp:kreisel_maase a jp:ScholarlyWork ;
+    jp:creatorName "Howard Kreisel" ;
+    jp:title "The Writing and Rewriting of Ma‛ase Nissim by R. Nissim of Marseilles" ;
+    jp:journal "ERTPM" ;
+    jp:pages "311-328" ;
+    jp:bibtexKey "kreisel_maase" ;
+    jp:bibtexType "article" .
+
+# langermann2002criticism
+jp:langermann2002criticism a jp:ScholarlyWork ;
+    jp:creatorName "Y. Tzvi Langermann" ;
+    jp:title "Criticism of Authority in Moses Maimonides and Fakhr al-Din al-Razi" ;
+    jp:journal "Early Science and Medicine" ;
+    jp:volume "7" ;
+    jp:pages "255-275" ;
+    jp:year "2002"^^xsd:gYear ;
+    jp:bibtexKey "langermann2002criticism" ;
+    jp:bibtexType "article" .
+
+# langermann2005ibnkammuna
+jp:langermann2005ibnkammuna a jp:ScholarlyWork ;
+    jp:creatorName "Y. Tzvi Langermann" ;
+    jp:title "Ibn Kammūna and the New Wisdom of the Thirteenth Century" ;
+    jp:journal "Arabic Sciences and Philosophy" ;
+    jp:volume "15" ;
+    jp:pages "277-327" ;
+    jp:year "2005"^^xsd:gYear ;
+    jp:bibtexKey "langermann2005ibnkammuna" ;
+    jp:bibtexType "article" .
+
+# langermann2007ibnkammuna
+jp:langermann2007ibnkammuna a jp:ScholarlyWork ;
+    jp:creatorName "Y. Tzvi Langermann" ;
+    jp:title "Ibn Kammūna at Aleppo" ;
+    jp:journal "Journal of the Royal Asiatic Society" ;
+    jp:volume "17" ;
+    jp:pages "1-19" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "langermann2007ibnkammuna" ;
+    jp:bibtexType "article" .
+
+# langermann2004miracles
+jp:langermann2004miracles a jp:ScholarlyWork ;
+    jp:creatorName "Y. Tzvi Langermann" ;
+    jp:title "Maimonides and Miracles: The Growth of a (Dis)belief" ;
+    jp:journal "Jewish History" ;
+    jp:volume "18" ;
+    jp:pages "147-172" ;
+    jp:year "2004"^^xsd:gYear ;
+    jp:bibtexKey "langermann2004miracles" ;
+    jp:bibtexType "article" .
+
+# langermann_ccmjp
+jp:langermann_ccmjp a jp:ScholarlyWork ;
+    jp:creatorName "Y. Tzvi Langermann" ;
+    jp:title "Maimonides and the Sciences" ;
+    jp:journal "CCMJP" ;
+    jp:pages "157-175" ;
+    jp:bibtexKey "langermann_ccmjp" ;
+    jp:bibtexType "article" .
+
+# lasker2003byzantine
+jp:lasker2003byzantine a jp:ScholarlyWork ;
+    jp:creatorName "Daniel J. Lasker" ;
+    jp:title "Byzantine Karaite Thought, 12th-16th Centuries" ;
+    jp:bookTitle "Karaite Judaism. A Guide to its History and Literary Sources" ;
+    jp:editor "M. Polliack" ;
+    jp:publisher "Brill" ;
+    jp:address "Leiden-Boston" ;
+    jp:pages "505-528" ;
+    jp:year "2003"^^xsd:gYear ;
+    jp:bibtexKey "lasker2003byzantine" ;
+    jp:bibtexType "incollection" .
+
+# lasker2007jewish
+jp:lasker2007jewish a jp:ScholarlyWork ;
+    jp:creatorName "Daniel J. Lasker" ;
+    jp:title "Jewish Philosophical Polemics against Christianity in the Middle Ages" ;
+    jp:bookTitle "Jewish Philosophical Polemics against Christianity in the Middle Ages" ;
+    jp:edition "2nd" ;
+    jp:publisher "Littman Library" ;
+    jp:address "Oxford" ;
+    jp:year "2007"^^xsd:gYear ;
+    jp:bibtexKey "lasker2007jewish" ;
+    jp:bibtexType "incollection" .

@@ -1,48 +1,341 @@
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
-@prefix : <http://jewish_philosophy.org/ontology#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-########################################################
-# RELATIONS – MODERN SCHOLARLY WORKS -> HISTORICAL WORKS / PERSONS
-########################################################
+#######################################################################
+# Mentions Part 1
+#######################################################################
 
-# Solomon Ibn Gabirol, Fons Vitae – Critical Edition & Translation by Roberto Gatti
-:Roberto_Gatti_FonsVitae_2001 :historicalWork :Fons_Vitae .
+jp:Ivry2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "Ivry2003" .
 
-# Solomon Ibn Gabirol, Fonte della Vita – Translation by Marienza Benedetto
-:Marienza_Benedetto_FonteDellaVita_2007 :historicalWork :Fonte_della_Vita .
+jp:Gatti2001 a jp:ScholarlyWork ;
+    jp:bibtexKey "Gatti2001" ;
+    jp:mentionTarget jp:FonsVitae, jp:MeqorHayyim .
 
-# Abraham Ibn Ezra, Book of Reasons – Critical Edition & Translation by Shlomo Sela
-:Shlomo_Sela_BookOfReasons_2007 :historicalWork :Book_of_Reasons .
+jp:Benedetto2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "Benedetto2007" ;
+    jp:mentionTarget jp:FonteDellaVita .
 
-# Joseph Ibn Saddiq, The Microcosm – Translation by Jacob Haberman
-:Jacob_Haberman_Microcosm_2003 :historicalWork :The_Microcosm .
+jp:IbnEzra2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "IbnEzra2007" ;
+    jp:mentionTarget jp:AbrahamIbnEzra .
 
-# Maimonides, La Guida dei perplessi – Translation by Mauro Zonta
-:Mauro_Zonta_Guide_Perplexed_2003 :historicalWork :Guide_of_the_Perplexed ;
-                                  :aboutPerson :Maimonides .
+jp:IbnSaddiq2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "IbnSaddiq2003" ;
+    jp:mentionTarget jp:JosephIbnSaddiq .
 
-# Maimonides, Book of Love (Mishneh Torah, vol.2) – Translation by Menachem Kellner
-:Menachem_Kellner_BookOfLove_2004 :historicalWork :Book_of_Love ;
-                                   :aboutPerson :Maimonides .
+jp:Maimonides2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "Maimonides2003" ;
+    jp:mentionTarget jp:Maimonides .
 
-# Samuel Ibn Tibbon, Glosses to Guide of the Perplexed – in Fraenkel edition
-:Carlos_Fraenkel_Glosses_2007 :historicalWork :Guide_of_the_Perplexed ;
-                                :aboutPerson :Maimonides .
+jp:Maimonides2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "Maimonides2004" ;
+    jp:mentionTarget jp:Maimonides .
 
-# Samuel Ibn Tibbon, Commentary on Ecclesiastes – Translation by James T. Robinson
-:James_Robinson_Ecclesiastes_2007 :historicalWork :Commentary_on_Ecclesiastes ;
-                                   :aboutPerson :Samuel_ibn_Tibbon .
+jp:SamuelIbnTibbon2007a a jp:ScholarlyWork ;
+    jp:bibtexKey "SamuelIbnTibbon2007a" ;
+    jp:mentionTarget jp:SamuelIbnTibbon, jp:Maimonides .
 
-# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2004)
-:Haim_Kreisel_LivyatHen_2004 :historicalWork :Livyat_Hen ;
-                              :aboutPerson :Levi_ben_Abraham .
+jp:SamuelIbnTibbon2007b a jp:ScholarlyWork ;
+    jp:bibtexKey "SamuelIbnTibbon2007b" ;
+    jp:mentionTarget jp:SamuelIbnTibbon .
 
-# Levi ben Abraham, Livyat Hen – Critical Edition by Haim Kreisel (2007)
-:Haim_Kreisel_LivyatHen_2007 :historicalWork :Livyat_Hen ;
-                              :aboutPerson :Levi_ben_Abraham .
+jp:LeviBenAbraham2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "LeviBenAbraham2004" ;
+    jp:mentionTarget jp:LeviBenAbraham .
 
-# Solomon ben Judah of Lunel, Hesheq Shelomo – Critical Edition by Dov Schwartz
-:Dov_Schwartz_HesheqShelomo_2007 :historicalWork :Hesheq_Shelomo ;
-                                   :aboutPerson :Solomon_ben_Judah_of_Lunel .
+jp:LeviBenAbraham2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "LeviBenAbraham2007" ;
+    jp:mentionTarget jp:LeviBenAbraham .
+
+jp:SolomonBenJudah2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "SolomonBenJudah2007" ;
+    jp:mentionTarget jp:SolomonBenJudahOfLunel .
+
+jp:MMDCC a jp:ScholarlyWork ;
+    jp:bibtexKey "MMDCC" ;
+    jp:mentionTarget jp:MosesMaimonides .
+
+jp:ALBERTINI2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "ALBERTINI2006" ;
+    jp:mentionTarget jp:SaadyaGaon, jp:BahyaIbnPaquda .
+
+jp:DAVIDSON2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "DAVIDSON2004" ;
+    jp:mentionTarget jp:MosesMaimonides .
+
+jp:DAVIDSON2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "DAVIDSON2005" ;
+    jp:mentionTarget jp:Moses .
+
+jp:DOBBS-WEINSTEIN2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "DOBBS-WEINSTEIN2003" ;
+    jp:mentionTarget jp:Maimonides, jp:Gersonides .
+
+jp:DOBBS-WEINSTEIN2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "DOBBS-WEINSTEIN2004" ;
+    jp:mentionTarget jp:Gersonides, jp:Spinoza .
+
+jp:FELDMAN2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "FELDMAN2005" ;
+    jp:mentionTarget jp:LeoneEbreo .
+
+jp:FONTAINE2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "FONTAINE2005" ;
+    jp:mentionTarget jp:AbrahamIbnDaud, jp:JudahBenSolomon .
+
+jp:FONTAINE2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "FONTAINE2004" ;
+    jp:mentionTarget jp:MeirAldabi .
+
+jp:FRAENKEL2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "FRAENKEL2006" ;
+    jp:mentionTarget jp:Maimonides, jp:Spinoza .
+
+jp:FRAENKEL2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "FRAENKEL2007" ;
+    jp:mentionTarget jp:Maimonides, jp:Spinoza, jp:SolomonMaimon .
+
+jp:FRAENKEL2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "FRAENKEL2004" ;
+    jp:mentionTarget jp:SamuelIbnTibbon, jp:DavidBenSaul .
+
+jp:FREUDENTHAL2002 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2002" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:FREUDENTHAL2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2003" ;
+    jp:mentionTarget jp:AlFarabi .
+
+jp:FREUDENTHAL2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2004" ;
+    jp:mentionTarget jp:Maimonides, jp:AlFarabi .
+
+jp:FREUDENTHAL2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2007" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:FREUDENTHAL2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2005" ;
+    jp:mentionTarget jp:Maimonides, jp:LeviBenGershom, jp:Ptolemy .
+
+jp:FREUDENTHAL2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "FREUDENTHAL2006" ;
+    jp:mentionTarget jp:AbrahamIbnEzra .
+
+jp:GATTI2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "GATTI2005" ;
+    jp:mentionTarget jp:BeReshit .
+
+jp:GATTI2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "GATTI2007" ;
+    jp:mentionTarget jp:ThomasAquinas, jp:Maimonides .
+
+jp:GATTI2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "GATTI2004" ;
+    jp:mentionTarget jp:Maimonides, jp:Gersonides .
+
+jp:GLASNER2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "GLASNER2003" ;
+    jp:mentionTarget jp:Gersonides .
+
+jp:GUIDI2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "GUIDI2003" ;
+    jp:mentionTarget jp:Maimonides, jp:Ficino .
+
+jp:GUIDI2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "GUIDI2006" ;
+    jp:mentionTarget jp:LeoneEbreo .
+
+jp:HARVEY2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2005" ;
+    jp:mentionTarget jp:Alghazali, jp:Maimonides .
+
+jp:HARVEY2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2003" ;
+    jp:mentionTarget jp:SaadiaGaon, jp:IbnDaud .
+
+jp:HARVEY2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2006" ;
+    jp:mentionTarget jp:SaadyaGaon .
+
+jp:HARVEY2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2005" ;
+    jp:mentionTarget jp:Falaquera .
+
+jp:HARVEY2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2007" ;
+    jp:mentionTarget jp:GreekLibrary, jp:EarlyEnlightenmentThinkers, jp:DeAnima .
+
+#######################################################################
+# Mentions Part 2
+#######################################################################
+
+jp:HARVEY2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2007" ;
+    jp:mentionTarget jp:JuliusGuttmann, jp:AbrahamAvigdor, jp:Maimonides, jp:SegullatMelakhim, jp:MishnehTorah .
+
+jp:HARVEY2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2004" ;
+    jp:mentionTarget jp:HasdayCrescas, jp:Maimonides .
+
+jp:HARVEY2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2005" ;
+    jp:mentionTarget jp:JudahHalevi, jp:Maimonides .
+
+jp:HARVEY2008 a jp:ScholarlyWork ;
+    jp:bibtexKey "HARVEY2008" ;
+    jp:mentionTarget jp:LeoStrauss, jp:GuideOfThePerplexed .
+
+jp:HUGHES2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "HUGHES2004" ;
+    jp:mentionTarget jp:AbrahamIbnEzra, jp:Avicenna, jp:JudahAbravanel .
+
+jp:IVRY2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "IVRY2007" ;
+    jp:mentionTarget jp:Maimonides, jp:Averroes .
+
+jp:IVRY2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "IVRY2005" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:IVRY a jp:ScholarlyWork ;
+    jp:bibtexKey "IVRY" ;
+    jp:mentionTarget jp:Maimonides, jp:GuideOfThePerplexed .
+
+jp:KASHER2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "KASHER2006" ;
+    jp:mentionTarget jp:Maimonides, jp:JudahHalevi, jp:BahyaIbnPaquda, jp:SeferHaKuzari .
+
+jp:LOBEL2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "LOBEL2006" ;
+    jp:mentionTarget jp:BahyaIbnPaquda, jp:Kuzari .
+
+jp:LOBEL2002 a jp:ScholarlyWork ;
+    jp:bibtexKey "LOBEL2002" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:LOBEL2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "LOBEL2005" ;
+    jp:mentionTarget jp:Halevi .
+
+jp:MANEKIN2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "MANEKIN2004" ;
+    jp:mentionTarget jp:Gersonides .
+
+jp:PUIGMONTADA2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "PUIGMONTADA2006" ;
+    jp:mentionTarget jp:EliahuDelMedigo, jp:Averroes .
+
+jp:PUIGMONTADA2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "PUIGMONTADA2007" ;
+    jp:mentionTarget jp:IbnHazm, jp:Maimonides .
+
+jp:PUIGMONTADA2003 a jp:ScholarlyWork ;
+    jp:bibtexKey "PUIGMONTADA2003" ;
+    jp:mentionTarget jp:MoshehIbnTibbon .
+
+jp:ROBINSON2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "ROBINSON2004" ;
+    jp:mentionTarget jp:SamuelIbnTibbon, jp:ImmanuelOfRome, jp:HasdaiCrescas, jp:Maimonides .
+
+jp:ROBINSON2007 a jp:ScholarlyWork ;
+    jp:bibtexKey "ROBINSON2007" ;
+    jp:mentionTarget jp:SamuelIbnTibbon .
+
+jp:ROBINSON2005 a jp:ScholarlyWork ;
+    jp:bibtexKey "ROBINSON2005" ;
+    jp:mentionTarget jp:IbnTibbonFamily, jp:IsaacAbarbanel .
+
+jp:RUBIO2006 a jp:ScholarlyWork ;
+    jp:bibtexKey "RUBIO2006" ;
+    jp:mentionTarget jp:Aquinas, jp:Maimonides .
+
+jp:RUDAVSKY2004 a jp:ScholarlyWork ;
+    jp:bibtexKey "RUDAVSKY2004" ;
+    jp:mentionTarget jp:Maimonides, jp:Aristotle .
+
+jp:seeskin2005_origin a jp:ScholarlyWork ;
+    jp:bibtexKey "seeskin2005_origin" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:seeskin2004_history a jp:ScholarlyWork ;
+    jp:bibtexKey "seeskin2004_history" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:seeskin2002_sanctity a jp:ScholarlyWork ;
+    jp:bibtexKey "seeskin2002_sanctity" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:seeskin2006_god a jp:ScholarlyWork ;
+    jp:bibtexKey "seeskin2006_god" ;
+    jp:mentionTarget jp:GodOfThePhilosophers .
+
+jp:sela2006_abrahamh a jp:ScholarlyWork ;
+    jp:bibtexKey "sela2006_abrahamh" ;
+    jp:mentionTarget jp:AbrahamBarHiyya .
+
+jp:sela2003_ibnezra a jp:ScholarlyWork ;
+    jp:bibtexKey "sela2003_ibnezra" ;
+    jp:mentionTarget jp:AbrahamIbnEzra .
+
+jp:sela2003_creacion a jp:ScholarlyWork ;
+    jp:bibtexKey "sela2003_creacion" ;
+    jp:mentionTarget jp:AbrahamIbnEzra .
+
+jp:sela2004_queries a jp:ScholarlyWork ;
+    jp:bibtexKey "sela2004_queries" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:smithuis2006_abraham a jp:ScholarlyWork ;
+    jp:bibtexKey "smithuis2006_abraham" ;
+    jp:mentionTarget jp:AbrahamIbnEzra .
+
+jp:stern2004_amalek a jp:ScholarlyWork ;
+    jp:bibtexKey "stern2004_amalek" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:stern_ccm a jp:ScholarlyWork ;
+    jp:bibtexKey "stern_ccm" ;
+    jp:mentionTarget jp:Maimonides .
+
+jp:tanenbaum2005_selihah a jp:ScholarlyWork ;
+    jp:bibtexKey "tanenbaum2005_selihah" ;
+    jp:mentionTarget jp:Selihah .
+
+jp:zonta2005_averroes a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2005_averroes" ;
+    jp:mentionTarget jp:Averroes, jp:Aristotle .
+
+jp:zonta2007_hebrew a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2007_hebrew" ;
+    jp:mentionTarget jp:Averroes .
+
+#######################################################################
+# Mentions Part 3
+#######################################################################
+
+jp:zonta2004_library a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2004_library" ;
+    jp:mentionTarget jp:ShemTovIbnFalaquera .
+
+jp:zonta2005_tradurre a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2005_tradurre" ;
+    jp:mentionTarget jp:Aristotle .
+
+jp:zonta2005_zoologist a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2005_zoologist" ;
+    jp:mentionTarget jp:Maimonides, jp:Aristotle .
+
+jp:zonta2005_avicenna a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2005_avicenna" ;
+    jp:mentionTarget jp:Maimonides, jp:Avicenna .
+
+jp:zonta2005_tratise a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2005_tratise" ;
+    jp:mentionTarget jp:MosesIbnEzra, jp:Maimonides .
+
+jp:zonta2006_sources a jp:ScholarlyWork ;
+    jp:bibtexKey "zonta2006_sources" ;
+    jp:mentionTarget jp:YehudahMesserLeon, jp:Aristotle .

@@ -1,57 +1,124 @@
-#this file include names of historical works and their authors
-
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-# Maimonides
-jp:GuideOfThePerplexed a jp:HistoricalWork ;
-    rdfs:label "Guide of the Perplexed" ;
-    jp:author jp:Maimonides .
 
-jp:MishnehTorah a jp:HistoricalWork ;
-    rdfs:label "Mishneh Torah" ;
-    jp:author jp:Maimonides .
+jp:MosesMaimonides a jp:HistoricalPerson ;
+    rdfs:label "Moses Maimonides" .
 
-jp:MaasehMerkavah a jp:HistoricalWork ;
-    rdfs:label "Ma‛aseh Merkavah" ;
-    jp:author jp:Maimonides .
+jp:AbrahamIbnDaud a jp:HistoricalPerson ;
+    rdfs:label "Ibn Da’ud (Abraham Ibn Daud)" .
 
-# Gersonides
-jp:WarsOfTheLord a jp:HistoricalWork ;
-    rdfs:label "Wars of the Lord" ;
-    jp:author jp:Gersonides .
+jp:Gersonides a jp:HistoricalPerson ;
+    rdfs:label "Gersonides (Levi ben Gershom)" .
 
-jp:SeferHaSekhelWeHaMuskalot a jp:HistoricalWork ;
-    rdfs:label "Sefer ha-Sekhel we-ha-muskalot" ;
-    jp:author jp:Gersonides .
+jp:Averroes a jp:HistoricalPerson ;
+    rdfs:label "Averroes (Ibn Rushd)" .
 
-# Abraham ibn Daud
-jp:AlTehiKetz a jp:HistoricalWork ;
-    rdfs:label "Al Tehi Ketz" ;
-    jp:author jp:AbrahamIbnDaud .
+jp:SaadyaGaon a jp:HistoricalPerson ;
+    rdfs:label "Saadya Gaon" .
 
-# Meir Aldabi
-jp:ShevileEmunah a jp:HistoricalWork ;
-    rdfs:label "Shevile Emunah" ;
-    jp:author jp:MeirAldabi .
+jp:SolomonIbnGabirol a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Gabirol" .
 
-# Judah ben Solomon
-jp:MidrashHaHokhmah a jp:HistoricalWork ;
-    rdfs:label "Midrash ha-Hokhmah" ;
-    jp:author jp:JudahBenSolomon .
+jp:BahyaIbnPaquda a jp:HistoricalPerson ;
+    rdfs:label "Bahya ibn Paquda" .
 
-# Abraham ibn Ezra
-jp:HayBenMeqitz a jp:HistoricalWork ;
-    rdfs:label "Hay ben Meqitz" ;
-    jp:author jp:AbrahamIbnEzra .
+jp:JudahHaLevi a jp:HistoricalPerson ;
+    rdfs:label "Judah ha-Levi" .
 
-# Abraham Avigdor
-jp:SegullatMelakhim a jp:HistoricalWork ;
-    rdfs:label "Segullat Melakhim" ;
-    jp:author jp:AbrahamAvigdor .
+jp:AbrahamBarHiyya a jp:HistoricalPerson ;
+    rdfs:label "Abraham Bar Hiyya" .
 
-# Shem-Tov Falaquera
-jp:OpuscoloDellaContesa a jp:HistoricalWork ;
-    rdfs:label "Opuscolo della contesa" ;
-    jp:author jp:ShemTovFalaquera .
+jp:AbrahamIbnEzra a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Ezra" .
 
+jp:JudahBenSolomon a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon" .
+
+jp:ShemTovFalaquera a jp:HistoricalPerson ;
+    rdfs:label "Shem-Tov Falaquera (Joseph ibn Falaquera)" .
+
+jp:LeviBenAbraham a jp:HistoricalPerson ;
+    rdfs:label "Levi ben Abraham (Levi ben Avraham)" .
+
+jp:MeirAldabi a jp:HistoricalPerson ;
+    rdfs:label "Meir Aldabi" .
+
+jp:AbrahamAvigdor a jp:HistoricalPerson ;
+    rdfs:label "Abraham Avigdor" .
+
+jp:MosesIbnTibbon a jp:HistoricalPerson ;
+    rdfs:label "Moses ibn Tibbon" .
+
+jp:MosesNarboni a jp:HistoricalPerson ;
+    rdfs:label "Moses Narboni" .
+
+jp:SolomonBenJudahLunel a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Judah of Lunel" .
+
+jp:DonIsaacAbravanel a jp:HistoricalPerson ;
+    rdfs:label "Don Isaac Abravanel / Judah Abravanel" .
+
+jp:SamuelIbnTibbon a jp:HistoricalPerson ;
+    rdfs:label "Samuel ibn Tibbon" .
+
+jp:DavidBenSaul a jp:HistoricalPerson ;
+    rdfs:label "David ben Saul" .
+
+jp:AsherBenMeshullamLunel a jp:HistoricalPerson ;
+    rdfs:label "Asher b. Meshullam of Lunel" .
+
+jp:AlFarabi a jp:HistoricalPerson ;
+    rdfs:label "Al-Fârâbî" .
+
+jp:Spinoza a jp:HistoricalPerson ;
+    rdfs:label "Spinoza" .
+
+jp:SolomonMaimon a jp:HistoricalPerson ;
+    rdfs:label "Solomon Maimon" .
+
+jp:ThomasAquinas a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas" .
+
+jp:HasdayCrescas a jp:HistoricalPerson ;
+    rdfs:label "Hasday Crescas" .
+
+jp:FakhrAlDinRazi a jp:HistoricalPerson ;
+    rdfs:label "Fakhr al-Din al-Razi" .
+
+jp:IbnKammuna a jp:HistoricalPerson ;
+    rdfs:label "Ibn Kammūna" .
+
+jp:EliahuDelMedigo a jp:HistoricalPerson ;
+    rdfs:label "Eliahu del Medigo" .
+
+jp:IbnHazm a jp:HistoricalPerson ;
+    rdfs:label "Ibn Hazm" .
+
+jp:MosesIbnEzra a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn ‘Ezra" .
+
+jp:YehudahMesserLeon a jp:HistoricalPerson ;
+    rdfs:label "Yehudah Messer Leon" .
+
+jp:Aristotle a jp:HistoricalPerson ;
+    rdfs:label "Aristotle" .
+
+jp:Avicenna a jp:HistoricalPerson ;
+    rdfs:label "Avicenna (Ibn Sina)" .
+
+jp:RNissimMarseilles a jp:HistoricalPerson ;
+    rdfs:label "R. Nissim of Marseilles" .
+
+
+# 1 — Missing from your original list
+jp:JosephIbnSaddiq a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Saddiq" .
+
+# 2 — Missing: The son of Don Isaac (Judah/Leone Ebreo)
+jp:IsaacAbravanel a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abravanel (Judah Abravanel)" .
+
+# 3 — Optional: If you want a separate entry for “Leone Ebreo”
+jp:LeoneEbreo a jp:HistoricalPerson ;
+    rdfs:label "Leone Ebreo" .

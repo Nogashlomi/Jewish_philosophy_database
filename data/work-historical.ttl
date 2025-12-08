@@ -1,91 +1,219 @@
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Maimonides
-jp:GuideOfPerplexed a jp:HistoricalWork ;
-    rdfs:label "Guide of the Perplexed" ;
-    jp:author jp:Maimonides .
+
+### Abraham ibn Da’ud
+jp:ExaltedFaith a jp:HistoricalWork ;
+    jp:title "Exalted Faith" ;
+    jp:writtenBy jp:AbrahamIbnDaud .
+
+jp:PolemicsAgainstMuslimsChristians a jp:HistoricalWork ;
+    jp:title "Polemics against Muslims and Christians" ;
+    jp:writtenBy jp:AbrahamIbnDaud .
+
+jp:TheThreeRings a jp:HistoricalWork ;
+    jp:title "The Three Rings" ;
+    jp:writtenBy jp:AbrahamIbnDaud .
+
+### Abraham ibn Ezra
+jp:BookOfReasons a jp:HistoricalWork ;
+    jp:title "The Book of Reasons" ;
+    jp:writtenBy jp:AbrahamIbnEzra .
+
+jp:HayyBenMeqitz a jp:HistoricalWork ;
+    jp:title "Scholarly Writings; Hayy ben Meqitz" ;
+    jp:writtenBy jp:AbrahamIbnEzra .
+
+jp:CommentaryOnGenesis_IbnEzra a jp:HistoricalWork ;
+    jp:title "Commentaries on Genesis" ;
+    jp:writtenBy jp:AbrahamIbnEzra .
+
+jp:AstrologicalWorks_IbnEzra a jp:HistoricalWork ;
+    jp:title "Astrological works" ;
+    jp:writtenBy jp:AbrahamIbnEzra .
+
+### Al-Fârâbî
+jp:RisalahFiAlAql a jp:HistoricalWork ;
+    jp:title "Risâlah fî'l-‘aql" ;
+    jp:writtenBy jp:AlFarabi .
+
+### Averroes
+jp:MiddleCommentaryDeAnima a jp:HistoricalWork ;
+    jp:title "Middle Commentary on Aristotle’s De Anima" ;
+    jp:writtenBy jp:Averroes .
+
+### Avicenna
+jp:HayyIbnYaqzan_Avicenna a jp:HistoricalWork ;
+    jp:title "Hayy ibn Yaqzân" ;
+    jp:writtenBy jp:Avicenna .
+
+### Bahya ibn Paquda
+jp:Kuzari_BahyaMistake a jp:HistoricalWork ;
+    jp:title "Sefer ha-Kuzari" ;
+    jp:writtenBy jp:BahyaIbnPaquda .
+
+jp:DutiesOfTheHeart a jp:HistoricalWork ;
+    jp:title "Duties of the Heart" ;
+    jp:writtenBy jp:BahyaIbnPaquda .
+
+### David ben Saul
+jp:Letter_DavidBenSaul a jp:HistoricalWork ;
+    jp:title "Letter (philosophical discussion)" ;
+    jp:writtenBy jp:DavidBenSaul .
+
+### Don Isaac Abravanel
+jp:DefenderOfTheFaith a jp:HistoricalWork ;
+    jp:title "Defender of the Faith" ;
+    jp:writtenBy jp:DonIsaacAbravanel .
+
+### Eliahu del Medigo
+jp:TranslationAverroesEpitome a jp:HistoricalWork ;
+    jp:title "Translation of Averroes’ Epitome Acerca del Alma" ;
+    jp:writtenBy jp:EliahuDelMedigo .
+
+### Falaquera
+jp:OpuscoloDellaContesa a jp:HistoricalWork ;
+    jp:title "Opuscolo della contesa" ;
+    jp:writtenBy jp:ShemTovFalaquera .
+
+### Gersonides (Levi ben Gershom)
+jp:WarsOfTheLord a jp:HistoricalWork ;
+    jp:title "Wars of the Lord" ;
+    jp:writtenBy jp:Gersonides .
+
+jp:SeferHaSekhel a jp:HistoricalWork ;
+    jp:title "Sefer ha-Sekhel we-ha-muskalot" ;
+    jp:writtenBy jp:Gersonides .
+
+jp:CommentaryPtolemyAstronomy a jp:HistoricalWork ;
+    jp:title "Commentary on Ptolemy’s Astronomy" ;
+    jp:writtenBy jp:Gersonides .
+
+### Hasday Crescas
+jp:AntiAristotelianWorks_Crescas a jp:HistoricalWork ;
+    jp:title "Anti-Aristotelian philosophical works" ;
+    jp:writtenBy jp:HasdayCrescas .
+
+### Ibn Kammuna
+jp:VariousPhilosophicalWorks_IbnKammuna a jp:HistoricalWork ;
+    jp:title "Various philosophical works" ;
+    jp:writtenBy jp:IbnKammuna .
+
+### Isaac Abravanel (Judah/Leone Ebreo)
+jp:DialoghiDAmore_Abravanel a jp:HistoricalWork ;
+    jp:title "Dialoghi d'Amore" ;
+    jp:writtenBy jp:IsaacAbravanel .
+
+### Joseph ibn Saddiq
+jp:Microcosm a jp:HistoricalWork ;
+    jp:title "The Microcosm" ;
+    jp:writtenBy jp:JosephIbnSaddiq .
+
+### Judah ben Solomon
+jp:MidrashHaHokhmah a jp:HistoricalWork ;
+    jp:title "Midrash ha-Hokhmah" ;
+    jp:writtenBy jp:JudahBenSolomon .
+
+### Judah Halevi
+jp:Kuzari_JudahHalevi a jp:HistoricalWork ;
+    jp:title "Kuzari" ;
+    jp:writtenBy jp:JudahHaLevi .
+
+### Levi ben Abraham (Levi ben Avraham)
+jp:LivyatHen_AccountOfCreation a jp:HistoricalWork ;
+    jp:title "Livyat Hen: Account of Creation" ;
+    jp:writtenBy jp:LeviBenAbraham .
+
+jp:LivyatHen_Prophecy a jp:HistoricalWork ;
+    jp:title "Livyat Hen: The Quality of Prophecy and the Secrets of the Torah" ;
+    jp:writtenBy jp:LeviBenAbraham .
+
+jp:LivyatHen a jp:HistoricalWork ;
+    jp:title "Livyat Hen" ;
+    jp:writtenBy jp:LeviBenAbraham .
+
+### Maimonides
+jp:GuideOfThePerplexed a jp:HistoricalWork ;
+    jp:title "Guide of the Perplexed" ;
+    jp:writtenBy jp:MosesMaimonides .
 
 jp:MishnehTorah a jp:HistoricalWork ;
-    rdfs:label "Mishneh Torah" ;
-    jp:author jp:Maimonides .
+    jp:title "Mishneh Torah" ;
+    jp:writtenBy jp:MosesMaimonides .
 
-jp:MaasehMerkavah a jp:HistoricalWork ;
-    rdfs:label "Ma‛aseh Merkavah" ;
-    jp:author jp:Maimonides .
+jp:BookOfLove_MishnehTorah a jp:HistoricalWork ;
+    jp:title "Book of Love (Mishneh Torah, vol. 2)" ;
+    jp:writtenBy jp:MosesMaimonides .
 
-# Solomon ibn Gabirol
+### Meir Aldabi
+jp:ShevileEmunah a jp:HistoricalWork ;
+    jp:title "Shevile Emunah" ;
+    jp:writtenBy jp:MeirAldabi .
+
+### Moses ibn Tibbon
+jp:HebrewTranslation_MiddleCommentaryDeAnima a jp:HistoricalWork ;
+    jp:title "Hebrew translation of Averroes’ Middle Commentary on Aristotle’s De Anima" ;
+    jp:writtenBy jp:MosesIbnTibbon .
+
+### Moses Narboni
+jp:CommentaryOnHayyIbnYaqzan a jp:HistoricalWork ;
+    jp:title "Commentary on Ibn Tufayl’s Hayy ibn Yaqzân" ;
+    jp:writtenBy jp:MosesNarboni .
+
+### Moses Ibn ‘Ezra
+jp:TreatiseOfTheGarden a jp:HistoricalWork ;
+    jp:title "Treatise of the Garden" ;
+    jp:writtenBy jp:MosesIbnEzra .
+
+### Asher b. Meshullam of Lunel
+jp:NeoplatonicWritings_Asher a jp:HistoricalWork ;
+    jp:title "Various Neoplatonic works in Hebrew" ;
+    jp:writtenBy jp:AsherBenMeshullamLunel .
+
+### R. Nissim of Marseilles
+jp:MaaseNissim a jp:HistoricalWork ;
+    jp:title "Ma‛ase Nissim" ;
+    jp:writtenBy jp:RNissimMarseilles .
+
+### Saadia Gaon
+jp:VariousPhilosophicalWorks_Saadia a jp:HistoricalWork ;
+    jp:title "Various philosophical works" ;
+    jp:writtenBy jp:SaadyaGaon .
+
+### Samuel ibn Tibbon
+jp:GlossesToGuide a jp:HistoricalWork ;
+    jp:title "Glosses to Maimonides' Guide of the Perplexed" ;
+    jp:writtenBy jp:SamuelIbnTibbon .
+
+jp:CommentaryEcclesiastes_IbnTibbon a jp:HistoricalWork ;
+    jp:title "Commentary on Ecclesiastes; The Book of the Soul of Man" ;
+    jp:writtenBy jp:SamuelIbnTibbon .
+
+jp:MaamarYiqqawuHaMayim a jp:HistoricalWork ;
+    jp:title "Ma’amar Yiqqawu ha-Mayim" ;
+    jp:writtenBy jp:SamuelIbnTibbon .
+
+### Shem Tov Ibn Falaquera
+jp:ArabicLibrary_HebrewTransmission a jp:HistoricalWork ;
+    jp:title "Arabic Library (Hebrew transmission)" ;
+    jp:writtenBy jp:ShemTovFalaquera .
+
+### Solomon ben Judah of Lunel
+jp:HesheqShelomo a jp:HistoricalWork ;
+    jp:title "Hesheq Shelomo (Commentary on the Kuzari)" ;
+    jp:writtenBy jp:SolomonBenJudahLunel .
+
+### Solomon ibn Gabirol
 jp:FonsVitae a jp:HistoricalWork ;
-    rdfs:label "Fons Vitae - Meqor hayyim" ;
-    jp:author jp:SolomonIbnGabirol .
+    jp:title "Fons Vitae (Meqor hayyim)" ;
+    jp:writtenBy jp:SolomonIbnGabirol .
 
 jp:FonteDellaVita a jp:HistoricalWork ;
-    rdfs:label "Fonte della vita" ;
-    jp:author jp:SolomonIbnGabirol .
+    jp:title "Fonte della vita" ;
+    jp:writtenBy jp:SolomonIbnGabirol .
 
-# Abraham ibn Ezra
-jp:BookOfReasons a jp:HistoricalWork ;
-    rdfs:label "The Book of Reasons" ;
-    jp:author jp:AbrahamIbnEzra .
-
-jp:HayBenMeqitz a jp:HistoricalWork ;
-    rdfs:label "Hay ben Meqitz" ;
-    jp:author jp:AbrahamIbnEzra .
-
-# Joseph ibn Saddiq
-jp:TheMicrocosm a jp:HistoricalWork ;
-    rdfs:label "The Microcosm" ;
-    jp:author jp:JosephIbnSaddiq .
-
-# Levi ben Abraham
-jp:LivyatHenAccount a jp:HistoricalWork ;
-    rdfs:label "Livyat Hen: Account of Creation" ;
-    jp:author jp:LeviBenAbraham .
-
-jp:LivyatHenQuality a jp:HistoricalWork ;
-    rdfs:label "Livyat Hen: The Quality of Prophecy and the Secrets of the Torah" ;
-    jp:author jp:LeviBenAbraham .
-
-# Solomon ben Judah of Lunel
-jp:HesheqShelomo a jp:HistoricalWork ;
-    rdfs:label "Hesheq Shelomo. Commentary on the Kuzari" ;
-    jp:author jp:SolomonBenJudahOfLunel .
-
-# Gersonides
-jp:WarsOfTheLord a jp:HistoricalWork ;
-    rdfs:label "Wars of the Lord" ;
-    jp:author jp:Gersonides .
-
-jp:SeferHaSekhelWeHaMuskalot a jp:HistoricalWork ;
-    rdfs:label "Sefer ha-Sekhel we-ha-muskalot" ;
-    jp:author jp:Gersonides .
-
-# Abraham ibn Daud
-jp:AlTehiKetz a jp:HistoricalWork ;
-    rdfs:label "Al Tehi Ketz" ;
-    jp:author jp:AbrahamIbnDaud .
-
-# Meir Aldabi
-jp:ShevileEmunah a jp:HistoricalWork ;
-    rdfs:label "Shevile Emunah" ;
-    jp:author jp:MeirAldabi .
-
-# Judah ben Solomon
-jp:MidrashHaHokhmah a jp:HistoricalWork ;
-    rdfs:label "Midrash ha-Hokhmah" ;
-    jp:author jp:JudahBenSolomon .
-
-# Abraham Avigdor
-jp:SegullatMelakhim a jp:HistoricalWork ;
-    rdfs:label "Segullat Melakhim" ;
-    jp:author jp:AbrahamAvigdor .
-
-# Shem-Tov Falaquera
-jp:OpuscoloDellaContesa a jp:HistoricalWork ;
-    rdfs:label "Opuscolo della contesa" ;
-    jp:author jp:ShemTovFalaquera .
-
-# Judah Abravanel / Leone Ebreo
-jp:DialoghiDAmore a jp:HistoricalWork ;
-    rdfs:label "Dialoghi d'Amore" ;
-    jp:author jp:JudahAbravanel .
+### Yehudah Messer Leon
+jp:CommentaryOnAristotlePhysics a jp:HistoricalWork ;
+    jp:title "Commentary on Aristotle’s Physics" ;
+    jp:writtenBy jp:YehudahMesserLeon .
