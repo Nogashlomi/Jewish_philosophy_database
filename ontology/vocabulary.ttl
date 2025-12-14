@@ -47,6 +47,20 @@ jp:Subject a owl:Class ;
     rdfs:comment "A topical subject area of a work: astronomy, theology, philosophy, etc." .
 
 #######################################################################
+# TEMPORAL AND SPATIAL CLASSES
+#######################################################################
+
+jp:TimeRelation a owl:Class ;
+    rdfs:label "Time Relation" ;
+    rdfs:comment "A temporal assertion relating an entity to a time span, e.g., birth, death, activity." .
+
+jp:PlaceRelation a owl:Class ;
+    rdfs:label "Place Relation" ;
+    rdfs:comment "A spatial assertion relating an entity to a place, e.g., birth, death, residence, travel." .
+
+
+
+#######################################################################
 # OBJECT PROPERTIES
 #######################################################################
 
@@ -89,6 +103,37 @@ jp:authorityLink a owl:ObjectProperty ;
 jp:Mention a owl:Class ;
     rdfs:label "Mention" ;
     rdfs:comment "Represents a reference from a historical work to another historical entity (person or work), including the type of mention." .
+
+jp:hasTimeRelation a owl:ObjectProperty ;
+    rdfs:label "has time relation" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range jp:TimeRelation ;
+    rdfs:comment "Links an entity to a time assertion." .
+
+jp:timeType a owl:ObjectProperty ;
+    rdfs:label "time type" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "The kind of temporal relation, e.g., birth, death, activity." .
+
+jp:hasPlaceRelation a owl:ObjectProperty ;
+    rdfs:label "has place relation" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range jp:PlaceRelation ;
+    rdfs:comment "Links an entity to a place assertion." .
+
+jp:placeType a owl:ObjectProperty ;
+    rdfs:label "place type" ;
+    rdfs:domain jp:PlaceRelation ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "The kind of place relation, e.g., birth, death, residence, travel." .
+
+jp:relatedPlace a owl:ObjectProperty ;
+    rdfs:label "related place" ;
+    rdfs:domain jp:PlaceRelation ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "The place associated with this relation." .
+
 
 #######################################################################
 # DATATYPE PROPERTIES
@@ -144,6 +189,18 @@ jp:mentionType a owl:DatatypeProperty ;
     rdfs:domain jp:Mention ;
     rdfs:range xsd:string ;
     rdfs:comment "Type of mention, e.g., 'translation', 'commentary', or 'other mention'." .
+
+jp:timeFrom a owl:DatatypeProperty ;
+    rdfs:label "time from" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Start of the time interval (or single year)." .
+
+jp:timeUntil a owl:DatatypeProperty ;
+    rdfs:label "time until" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "End of the time interval (or single year)." .
 
 
 #######################################################################

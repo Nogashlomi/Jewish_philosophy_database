@@ -1,5 +1,7 @@
+languages.ttl
 person-historical.ttl
-person-modern.ttl
 relations.ttl
+scholarly_works.ttl
+subjects.ttl
 work-historical.ttl
-work-scholarly-modern.ttl
+

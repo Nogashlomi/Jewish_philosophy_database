@@ -3,122 +3,199 @@
 
 
 jp:MosesMaimonides a jp:HistoricalPerson ;
-    rdfs:label "Moses Maimonides" .
+    rdfs:label "Maimonides" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q127398> ;
+    jp:authorityLink <https://viaf.org/viaf/100185495> .
 
 jp:AbrahamIbnDaud a jp:HistoricalPerson ;
-    rdfs:label "Ibn Da’ud (Abraham Ibn Daud)" .
+    rdfs:label "Abraham ibn Daud" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q330821> ;
+    jp:authorityLink <https://viaf.org/viaf/288108695> .
 
 jp:Gersonides a jp:HistoricalPerson ;
-    rdfs:label "Gersonides (Levi ben Gershom)" .
+    rdfs:label "Gersonides" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q353633> ; 
+    jp:authorityLink <https://viaf.org/viaf/59118174> .
+
 
 jp:Averroes a jp:HistoricalPerson ;
-    rdfs:label "Averroes (Ibn Rushd)" .
+    rdfs:label "Averroes" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q39837> ;
+    jp:authorityLink <https://viaf.org/viaf/19688718> .
+
 
 jp:SaadyaGaon a jp:HistoricalPerson ;
-    rdfs:label "Saadya Gaon" .
+    rdfs:label "Saadya Gaon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q328748> ;
+    jp:authorityLink <https://viaf.org/viaf/95159227> .
 
 jp:SolomonIbnGabirol a jp:HistoricalPerson ;
-    rdfs:label "Solomon ibn Gabirol" .
+    rdfs:label "Solomon ibn Gabirol" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q239355> ; 
+    jp:authorityLink <https://viaf.org/viaf/100186412> .
 
 jp:BahyaIbnPaquda a jp:HistoricalPerson ;
-    rdfs:label "Bahya ibn Paquda" .
+    rdfs:label "Bahya ibn Paquda" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q762229> ;
+    jp:authorityLink <https://viaf.org/viaf/88916251> .
 
 jp:JudahHaLevi a jp:HistoricalPerson ;
-    rdfs:label "Judah ha-Levi" .
+    rdfs:label "Judah ha-Levi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q299200> ;
+    jp:authorityLink <https://viaf.org/viaf/3179151778213218130001> .
 
 jp:AbrahamBarHiyya a jp:HistoricalPerson ;
-    rdfs:label "Abraham Bar Hiyya" .
+    rdfs:label "Abraham Bar Hiyya" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q31439> ;
+    jp:authorityLink <http://viaf.org/viaf/81287> .
 
 jp:AbrahamIbnEzra a jp:HistoricalPerson ;
-    rdfs:label "Abraham ibn Ezra" .
+    rdfs:label "Abraham ibn Ezra" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q270670> ;
+    jp:authorityLink <http://viaf.org/viaf/90633023> .
 
 jp:JudahBenSolomon a jp:HistoricalPerson ;
-    rdfs:label "Judah ben Solomon" .
+    rdfs:label "Judah ben Solomon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q56063581> ;
+    jp:authorityLink <http://viaf.org/viaf/39272010> .
 
 jp:ShemTovFalaquera a jp:HistoricalPerson ;
-    rdfs:label "Shem-Tov Falaquera (Joseph ibn Falaquera)" .
+    rdfs:label "Shem-Tov Falaquera" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1383938> ;
+    jp:authorityLink <http://viaf.org/viaf/71428967> .
 
 jp:LeviBenAbraham a jp:HistoricalPerson ;
-    rdfs:label "Levi ben Abraham (Levi ben Avraham)" .
+    rdfs:label "Levi ben Abraham" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q4256415> ;
+    jp:authorityLink <http://viaf.org/viaf/98000663> .
+
 
 jp:MeirAldabi a jp:HistoricalPerson ;
-    rdfs:label "Meir Aldabi" .
+    rdfs:label "Meir Aldabi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6810276> ;
+    jp:authorityLink <http://viaf.org/viaf/136787156> .
+
 
 jp:AbrahamAvigdor a jp:HistoricalPerson ;
-    rdfs:label "Abraham Avigdor" .
+    rdfs:label "Abraham Avigdor" ;
+    jp: authorityLink <http://viaf.org/viaf/317277681> .
 
 jp:MosesIbnTibbon a jp:HistoricalPerson ;
-    rdfs:label "Moses ibn Tibbon" .
+    rdfs:label "Moses ibn Tibbon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q181498> ;
+    jp:authorityLink <http://viaf.org/viaf/64172358> .
 
 jp:MosesNarboni a jp:HistoricalPerson ;
-    rdfs:label "Moses Narboni" .
+    rdfs:label "Moses Narboni" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1852000> ;
+    jp:authorityLink <http://viaf.org/viaf/293459163> .
 
 jp:SolomonBenJudahLunel a jp:HistoricalPerson ;
-    rdfs:label "Solomon ben Judah of Lunel" .
+    rdfs:label "Solomon ben Judah of Lunel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q7558786> ;
+    jp:authorityLink <http://viaf.org/viaf/71181723> .
 
 jp:DonIsaacAbravanel a jp:HistoricalPerson ;
-    rdfs:label "Don Isaac Abravanel / Judah Abravanel" .
+    rdfs:label "Don Isaac Abravanel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q319902> ;
+    jp:authorityLink <http://viaf.org/viaf/36986982> .
 
 jp:SamuelIbnTibbon a jp:HistoricalPerson ;
-    rdfs:label "Samuel ibn Tibbon" .
+    rdfs:label "Samuel ibn Tibbon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q338123> ;
+    jp:authorityLink <http://viaf.org/viaf/97166726> .
 
 jp:DavidBenSaul a jp:HistoricalPerson ;
     rdfs:label "David ben Saul" .
 
 jp:AsherBenMeshullamLunel a jp:HistoricalPerson ;
-    rdfs:label "Asher b. Meshullam of Lunel" .
+    rdfs:label "Asher b. Meshullam of Lunel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q4804863> ;
+    jp:authorityLink <http://viaf.org/viaf/97462536> .
 
 jp:AlFarabi a jp:HistoricalPerson ;
-    rdfs:label "Al-Fârâbî" .
+    rdfs:label "Farabi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q160460> ;
+    jp:authorityLink <http://viaf.org/viaf/105133145> .
 
 jp:Spinoza a jp:HistoricalPerson ;
-    rdfs:label "Spinoza" .
+    rdfs:label "Spinoza" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q35802> ;
+    jp:authorityLink <http://viaf.org/viaf/22149024> .
 
 jp:SolomonMaimon a jp:HistoricalPerson ;
-    rdfs:label "Solomon Maimon" .
+    rdfs:label "Solomon Maimon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q465763> ;
+    jp:authorityLink <http://viaf.org/viaf/68940347> .
 
 jp:ThomasAquinas a jp:HistoricalPerson ;
-    rdfs:label "Thomas Aquinas" .
+    rdfs:label "Thomas Aquinas" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q9438> ;
+    jp:authorityLink <http://viaf.org/viaf/100910150> .
 
 jp:HasdayCrescas a jp:HistoricalPerson ;
-    rdfs:label "Hasday Crescas" .
+    rdfs:label "Hasday Crescas" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q528415> ;
+    jp:authorityLink <http://viaf.org/viaf/89645771> .
 
 jp:FakhrAlDinRazi a jp:HistoricalPerson ;
-    rdfs:label "Fakhr al-Din al-Razi" .
+    rdfs:label "Fakhr al-Din al-Razi" ; 
+    jp:authorityLink <https://www.wikidata.org/wiki/Q333703> ;
+    jp:authorityLink <http://viaf.org/viaf/90042555> .
 
 jp:IbnKammuna a jp:HistoricalPerson ;
-    rdfs:label "Ibn Kammūna" .
+    rdfs:label "Ibn Kammūna" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q639821> ;
+    jp:authorityLink <http://viaf.org/viaf/88120156> .
 
 jp:EliahuDelMedigo a jp:HistoricalPerson ;
     rdfs:label "Eliahu del Medigo" .
 
 jp:IbnHazm a jp:HistoricalPerson ;
-    rdfs:label "Ibn Hazm" .
+    rdfs:label "Ibn Hazm" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q317787> ;
+    jp:authorityLink <http://viaf.org/viaf/44300351> .
 
 jp:MosesIbnEzra a jp:HistoricalPerson ;
-    rdfs:label "Moses Ibn ‘Ezra" .
+    rdfs:label "Moses Ibn Ezra" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q719393> ;
+    jp:authorityLink <http://viaf.org/viaf/86836195> .
 
 jp:YehudahMesserLeon a jp:HistoricalPerson ;
-    rdfs:label "Yehudah Messer Leon" .
+    rdfs:label "Yehudah Messer Leon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q669640> ;
+    jp:authorityLink <http://viaf.org/viaf/89803764> .
 
 jp:Aristotle a jp:HistoricalPerson ;
-    rdfs:label "Aristotle" .
+    rdfs:label "Aristotle" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q868> ;
+    jp:authorityLink <http://viaf.org/viaf/7524651> .
 
 jp:Avicenna a jp:HistoricalPerson ;
-    rdfs:label "Avicenna (Ibn Sina)" .
+    rdfs:label "Avicenna" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q8011> ;
+    jp:authorityLink <http://viaf.org/viaf/89770781> .
 
 jp:RNissimMarseilles a jp:HistoricalPerson ;
-    rdfs:label "R. Nissim of Marseilles" .
+    rdfs:label "Nissim of Marseilles" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q21657722> ;
+    jp:authorityLink <http://viaf.org/viaf/76547720> .
 
 
 # 1 — Missing from your original list
 jp:JosephIbnSaddiq a jp:HistoricalPerson ;
-    rdfs:label "Joseph ibn Saddiq" .
+    rdfs:label "Joseph ibn Saddiq" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q958426> ;
+    jp:authorityLink <http://viaf.org/viaf/6325192> .
 
 # 2 — Missing: The son of Don Isaac (Judah/Leone Ebreo)
 jp:IsaacAbravanel a jp:HistoricalPerson ;
-    rdfs:label "Isaac Abravanel (Judah Abravanel)" .
+    rdfs:label "Isaac Abravanel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q319902> ;
+    jp:authorityLink <http://viaf.org/viaf/36986982> .
 
 # 3 — Optional: If you want a separate entry for “Leone Ebreo”
 jp:LeoneEbreo a jp:HistoricalPerson ;
-    rdfs:label "Leone Ebreo" .
+    rdfs:label "Judah Leon Abravanel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q467062> ;
+    jp:authorityLink <http://viaf.org/viaf/100176804> .
