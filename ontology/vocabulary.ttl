@@ -209,6 +209,18 @@ jp:placeType a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     rdfs:comment "The kind of place relation, e.g., birth, death, residence, travel." .
 
+jp:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain jp:Place ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Latitude of a place (WGS84)." .
+
+jp:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain jp:Place ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Longitude of a place (WGS84)." .
+
 
 #######################################################################
 # END OF VOCABULARY

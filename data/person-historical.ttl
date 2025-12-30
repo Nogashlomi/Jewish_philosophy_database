@@ -41,89 +41,9 @@ jp:Q1237726 a jp:HistoricalPerson ;
     rdfs:label "Dominicus Gundissalinus" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q1237726> .
 
-jp:Q12405859 a jp:HistoricalPerson ;
-    rdfs:label "Daniel J. Lasker" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q12405859> .
-
 jp:Q127398 a jp:HistoricalPerson ;
     rdfs:label "Moshe ben Maimon" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q127398> .
-
-jp:Q127399 a jp:HistoricalPerson ;
-    rdfs:label "Q127399" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127399> .
-
-jp:Q127400 a jp:HistoricalPerson ;
-    rdfs:label "Lew Wyld" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127400> .
-
-jp:Q127401 a jp:HistoricalPerson ;
-    rdfs:label "K-14 process" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127401> .
-
-jp:Q127402 a jp:HistoricalPerson ;
-    rdfs:label "Diaporthaceae" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127402> .
-
-jp:Q127403 a jp:HistoricalPerson ;
-    rdfs:label "list of presidents of Bulgaria" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127403> .
-
-jp:Q127404 a jp:HistoricalPerson ;
-    rdfs:label "Q127404" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127404> .
-
-jp:Q127405 a jp:HistoricalPerson ;
-    rdfs:label "Alfredo Versace" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127405> .
-
-jp:Q127406 a jp:HistoricalPerson ;
-    rdfs:label "Samuel Francis Du Pont" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127406> .
-
-jp:Q127407 a jp:HistoricalPerson ;
-    rdfs:label "Utva Trojka" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127407> .
-
-jp:Q127408 a jp:HistoricalPerson ;
-    rdfs:label "Wonderbook" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127408> .
-
-jp:Q127409 a jp:HistoricalPerson ;
-    rdfs:label "Atkins v. Virginia" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127409> .
-
-jp:Q127410 a jp:HistoricalPerson ;
-    rdfs:label "Khiri Rat Nikhom" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127410> .
-
-jp:Q127411 a jp:HistoricalPerson ;
-    rdfs:label "Fujiwara no Takaiko" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127411> .
-
-jp:Q127412 a jp:HistoricalPerson ;
-    rdfs:label "fetch-and-add" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127412> .
-
-jp:Q127413 a jp:HistoricalPerson ;
-    rdfs:label "2nd Parachute Division" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127413> .
-
-jp:Q127414 a jp:HistoricalPerson ;
-    rdfs:label "Henry's Crime" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127414> .
-
-jp:Q127415 a jp:HistoricalPerson ;
-    rdfs:label "Giuseppe Olmo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127415> .
-
-jp:Q127416 a jp:HistoricalPerson ;
-    rdfs:label "Piet van der Horst" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q127416> .
-
-jp:Q130221 a jp:HistoricalPerson ;
-    rdfs:label "Frederick II, Holy Roman Emperor" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q130221> .
 
 jp:Q1350978 a jp:HistoricalPerson ;
     rdfs:label "Yehuda Alharizi" ;
@@ -141,14 +61,6 @@ jp:Q1389056 a jp:HistoricalPerson ;
     rdfs:label "Harry Austryn Wolfson" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q1389056> .
 
-jp:Q144 a jp:HistoricalPerson ;
-    rdfs:label "dog" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q144> .
-
-jp:Q1525696 a jp:HistoricalPerson ;
-    rdfs:label "Ibn Tibbon" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q1525696> .
-
 jp:Q154751 a jp:HistoricalPerson ;
     rdfs:label "Nicholas of Cusa" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q154751> .
@@ -156,62 +68,6 @@ jp:Q154751 a jp:HistoricalPerson ;
 jp:Q160460 a jp:HistoricalPerson ;
     rdfs:label "Farabi" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q160460> .
-
-jp:Q160461 a jp:HistoricalPerson ;
-    rdfs:label "Burghammer" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160461> .
-
-jp:Q160462 a jp:HistoricalPerson ;
-    rdfs:label "Preititz" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160462> .
-
-jp:Q160463 a jp:HistoricalPerson ;
-    rdfs:label "list of Sorbian visual artists" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160463> .
-
-jp:Q160464 a jp:HistoricalPerson ;
-    rdfs:label "button" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160464> .
-
-jp:Q160465 a jp:HistoricalPerson ;
-    rdfs:label "Peschen" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160465> .
-
-jp:Q160466 a jp:HistoricalPerson ;
-    rdfs:label "Siebitz" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160466> .
-
-jp:Q160467 a jp:HistoricalPerson ;
-    rdfs:label "Charles Edward, Duke of Saxe-Coburg and Gotha" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160467> .
-
-jp:Q160468 a jp:HistoricalPerson ;
-    rdfs:label "Großhänchen" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160468> .
-
-jp:Q160469 a jp:HistoricalPerson ;
-    rdfs:label "Tupolev Tu-124" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160469> .
-
-jp:Q160470 a jp:HistoricalPerson ;
-    rdfs:label "Telnet" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160470> .
-
-jp:Q160471 a jp:HistoricalPerson ;
-    rdfs:label "Texas Wendish Heritage Museum" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160471> .
-
-jp:Q160472 a jp:HistoricalPerson ;
-    rdfs:label "Marc-André ter Stegen" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160472> .
-
-jp:Q160473 a jp:HistoricalPerson ;
-    rdfs:label "Bornitz" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160473> .
-
-jp:Q160474 a jp:HistoricalPerson ;
-    rdfs:label "usufruct" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q160474> .
 
 jp:Q16130600 a jp:HistoricalPerson ;
     rdfs:label "Yosef ben Shalom Ashkenazi" ;
@@ -252,18 +108,6 @@ jp:Q193660 a jp:HistoricalPerson ;
 jp:Q194803 a jp:HistoricalPerson ;
     rdfs:label "Yefet ben Ali" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q194803> .
-
-jp:Q1949040 a jp:HistoricalPerson ;
-    rdfs:label "Mose" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q1949040> .
-
-jp:Q1995603 a jp:HistoricalPerson ;
-    rdfs:label "Brethren of Purity" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q1995603> .
-
-jp:Q2054380 a jp:HistoricalPerson ;
-    rdfs:label "Zanobi Machiavelli" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q2054380> .
 
 jp:Q21657722 a jp:HistoricalPerson ;
     rdfs:label "Nissim ben Moshe de Marseille" ;
@@ -337,10 +181,6 @@ jp:Q299200 a jp:HistoricalPerson ;
     rdfs:label "Judah Halevi" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q299200> .
 
-jp:Q302961 a jp:HistoricalPerson ;
-    rdfs:label "Aaron ben Joseph of Constantinople" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q302961> .
-
 jp:Q310777 a jp:HistoricalPerson ;
     rdfs:label "Nicole Oresme" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q310777> .
@@ -349,29 +189,9 @@ jp:Q310821 a jp:HistoricalPerson ;
     rdfs:label "Akiva ben Joseph" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q310821> .
 
-jp:Q314 a jp:HistoricalPerson ;
-    rdfs:label "funeral litre" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q314> .
-
 jp:Q31439 a jp:HistoricalPerson ;
     rdfs:label "Abraham bar Hiyya" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q31439> .
-
-jp:Q31440 a jp:HistoricalPerson ;
-    rdfs:label "Q31440" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q31440> .
-
-jp:Q31441 a jp:HistoricalPerson ;
-    rdfs:label "Artyom Kozlov" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q31441> .
-
-jp:Q31442 a jp:HistoricalPerson ;
-    rdfs:label "Emiliano Sala" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q31442> .
-
-jp:Q317131 a jp:HistoricalPerson ;
-    rdfs:label "Vincent Ferrer" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q317131> .
 
 jp:Q317787 a jp:HistoricalPerson ;
     rdfs:label "Ibn Hazm" ;
@@ -437,21 +257,9 @@ jp:Q6302105 a jp:HistoricalPerson ;
     rdfs:label "Judah Moscato" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q6302105> .
 
-jp:Q6379210 a jp:HistoricalPerson ;
-    rdfs:label "Kavi Kant" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q6379210> .
-
 jp:Q639821 a jp:HistoricalPerson ;
     rdfs:label "Ibn Kammuna" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q639821> .
-
-jp:Q639822 a jp:HistoricalPerson ;
-    rdfs:label "Egnatius Lucillianus" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q639822> .
-
-jp:Q639823 a jp:HistoricalPerson ;
-    rdfs:label "Andreea Stefanescu" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q639823> .
 
 jp:Q66292 a jp:HistoricalPerson ;
     rdfs:label "Salomon Munk" ;
@@ -493,14 +301,6 @@ jp:Q723531 a jp:HistoricalPerson ;
     rdfs:label "Nissim of Gerona" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q723531> .
 
-jp:Q723532 a jp:HistoricalPerson ;
-    rdfs:label "Q723532" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q723532> .
-
-jp:Q744494 a jp:HistoricalPerson ;
-    rdfs:label "Peter Nigri" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q744494> .
-
 jp:Q7459732 a jp:HistoricalPerson ;
     rdfs:label "Sforno" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q7459732> .
@@ -537,10 +337,6 @@ jp:Q77144 a jp:HistoricalPerson ;
     rdfs:label "Leo Strauss" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q77144> .
 
-jp:Q78906 a jp:HistoricalPerson ;
-    rdfs:label "Moritz Steinschneider" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q78906> .
-
 jp:Q796587 a jp:HistoricalPerson ;
     rdfs:label "Shams Tabrizi" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q796587> .
@@ -548,10 +344,6 @@ jp:Q796587 a jp:HistoricalPerson ;
 jp:Q8011 a jp:HistoricalPerson ;
     rdfs:label "Avicenna" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q8011> .
-
-jp:Q823146 a jp:HistoricalPerson ;
-    rdfs:label "Bernat Metge" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q823146> .
 
 jp:Q859 a jp:HistoricalPerson ;
     rdfs:label "Plato" ;
@@ -561,17 +353,9 @@ jp:Q868 a jp:HistoricalPerson ;
     rdfs:label "Aristotle" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q868> .
 
-jp:Q87718096 a jp:HistoricalPerson ;
-    rdfs:label "Jehudà from Rome" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q87718096> .
-
 jp:Q8778 a jp:HistoricalPerson ;
     rdfs:label "Galen" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q8778> .
-
-jp:Q9181 a jp:HistoricalPerson ;
-    rdfs:label "Abraham" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9181> .
 
 jp:Q9397 a jp:HistoricalPerson ;
     rdfs:label "Zhu Xi" ;
@@ -581,463 +365,6 @@ jp:Q9438 a jp:HistoricalPerson ;
     rdfs:label "Thomas Aquinas" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q9438> .
 
-jp:Q953988 a jp:HistoricalPerson ;
-    rdfs:label "Immanuel the Roman" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q953988> .
-
 jp:Q9546 a jp:HistoricalPerson ;
     rdfs:label "Al-Ghazali" ;
     jp:authorityLink <https://www.wikidata.org/wiki/Q9546> .
-
-jp:Q9547 a jp:HistoricalPerson ;
-    rdfs:label "Pecco" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9547> .
-
-jp:Q9548 a jp:HistoricalPerson ;
-    rdfs:label "Grace Hopper Celebration of Women in Computing" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9548> .
-
-jp:Q9549 a jp:HistoricalPerson ;
-    rdfs:label "Pecetto Torinese" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9549> .
-
-jp:Q9550 a jp:HistoricalPerson ;
-    rdfs:label "Katrina Kaif" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9550> .
-
-jp:Q9551 a jp:HistoricalPerson ;
-    rdfs:label "Perosa Argentina" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9551> .
-
-jp:Q9552 a jp:HistoricalPerson ;
-    rdfs:label "Perosa Canavese" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9552> .
-
-jp:Q9553 a jp:HistoricalPerson ;
-    rdfs:label "iPhoto" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q9553> .
-
-jp:Q958426 a jp:HistoricalPerson ;
-    rdfs:label "Joseph ibn Tzaddik" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q958426> .
-
-jp:Q958438 a jp:HistoricalPerson ;
-    rdfs:label "Jacob Anatoli" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q958438> .
-
-jp:Q959392 a jp:HistoricalPerson ;
-    rdfs:label "Joseph Caspi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q959392> .
-
-jp:Q962334 a jp:HistoricalPerson ;
-    rdfs:label "Hillel ben Samuel" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q962334> .
-
-jp:Q982075 a jp:HistoricalPerson ;
-    rdfs:label "Jose ben Halafta" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q982075> .
-
-jp:Q988828 a jp:HistoricalPerson ;
-    rdfs:label "Moses van Uyttenbroeck" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q988828> .
-
-jp:Q330821 a jp:HistoricalPerson ;
-    rdfs:label "Abraham ibn Daud" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q330821> .
-
-jp:Q333703 a jp:HistoricalPerson ;
-    rdfs:label "Fakhr al-Din al-Razi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q333703> .
-
-jp:Q338123 a jp:HistoricalPerson ;
-    rdfs:label "Samuel ibn Tibbon" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q338123> .
-
-jp:Q3460413 a jp:HistoricalPerson ;
-    rdfs:label "Saadia" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q3460413> .
-
-jp:Q3471276 a jp:HistoricalPerson ;
-    rdfs:label "Samuel de Marseille" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q3471276> .
-
-jp:Q348287 a jp:HistoricalPerson ;
-    rdfs:label "Kalonymus ben Kalonymus" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q348287> .
-
-jp:Q353633 a jp:HistoricalPerson ;
-    rdfs:label "Gersonides" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353633> .
-
-jp:Q353634 a jp:HistoricalPerson ;
-    rdfs:label "Eddy Serri" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353634> .
-
-jp:Q353635 a jp:HistoricalPerson ;
-    rdfs:label "Aninoasa" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353635> .
-
-jp:Q353636 a jp:HistoricalPerson ;
-    rdfs:label "The Call" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353636> .
-
-jp:Q353637 a jp:HistoricalPerson ;
-    rdfs:label "A. H. Tammsaare" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353637> .
-
-jp:Q353638 a jp:HistoricalPerson ;
-    rdfs:label "Q353638" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q353638> .
-
-jp:Q35802 a jp:HistoricalPerson ;
-    rdfs:label "Benedictus de Spinoza" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q35802> .
-
-jp:Q360366 a jp:HistoricalPerson ;
-    rdfs:label "Nicomachus" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q360366> .
-
-jp:Q365183 a jp:HistoricalPerson ;
-    rdfs:label "Themistius" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q365183> .
-
-jp:Q36565003 a jp:HistoricalPerson ;
-    rdfs:label "Gina Luzzatto" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q36565003> .
-
-jp:Q380647 a jp:HistoricalPerson ;
-    rdfs:label "Giles of Rome" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q380647> .
-
-jp:Q3914710 a jp:HistoricalPerson ;
-    rdfs:label "Ali ibn Tahir al-Sulami" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q3914710> .
-
-jp:Q395689 a jp:HistoricalPerson ;
-    rdfs:label "Agostino Nifo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q395689> .
-
-jp:Q39837 a jp:HistoricalPerson ;
-    rdfs:label "Averroes" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39837> .
-
-jp:Q39838 a jp:HistoricalPerson ;
-    rdfs:label "Lonate Ceppino" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39838> .
-
-jp:Q39839 a jp:HistoricalPerson ;
-    rdfs:label "Valeggio" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39839> .
-
-jp:Q39840 a jp:HistoricalPerson ;
-    rdfs:label "Cadegliano Viconago" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39840> .
-
-jp:Q39841 a jp:HistoricalPerson ;
-    rdfs:label "Radio Studio 54 Network" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39841> .
-
-jp:Q39842 a jp:HistoricalPerson ;
-    rdfs:label "Caravate" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39842> .
-
-jp:Q39843 a jp:HistoricalPerson ;
-    rdfs:label "Godiasco Salice Terme" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39843> .
-
-jp:Q39844 a jp:HistoricalPerson ;
-    rdfs:label "1860s" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39844> .
-
-jp:Q39845 a jp:HistoricalPerson ;
-    rdfs:label "Marnate" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39845> .
-
-jp:Q39846 a jp:HistoricalPerson ;
-    rdfs:label "Ranco" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39846> .
-
-jp:Q39847 a jp:HistoricalPerson ;
-    rdfs:label "1870s" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39847> .
-
-jp:Q39848 a jp:HistoricalPerson ;
-    rdfs:label "Marchirolo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39848> .
-
-jp:Q39849 a jp:HistoricalPerson ;
-    rdfs:label "Robbio" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39849> .
-
-jp:Q39850 a jp:HistoricalPerson ;
-    rdfs:label "19" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39850> .
-
-jp:Q39851 a jp:HistoricalPerson ;
-    rdfs:label "Masciago Primo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39851> .
-
-jp:Q39852 a jp:HistoricalPerson ;
-    rdfs:label "Agra" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39852> .
-
-jp:Q39853 a jp:HistoricalPerson ;
-    rdfs:label "Ruino" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39853> .
-
-jp:Q39854 a jp:HistoricalPerson ;
-    rdfs:label "Alleghe" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39854> .
-
-jp:Q39855 a jp:HistoricalPerson ;
-    rdfs:label "Oliva Gessi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39855> .
-
-jp:Q39856 a jp:HistoricalPerson ;
-    rdfs:label "Ágreda" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39856> .
-
-jp:Q39857 a jp:HistoricalPerson ;
-    rdfs:label "Rea" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39857> .
-
-jp:Q39858 a jp:HistoricalPerson ;
-    rdfs:label "Pointe-au-Père Lighthouse" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39858> .
-
-jp:Q39859 a jp:HistoricalPerson ;
-    rdfs:label "Pancarana" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39859> .
-
-jp:Q39860 a jp:HistoricalPerson ;
-    rdfs:label "Porto Valtravaglia" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39860> .
-
-jp:Q39861 a jp:HistoricalPerson ;
-    rdfs:label "Hirundinidae" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39861> .
-
-jp:Q39862 a jp:HistoricalPerson ;
-    rdfs:label "Menarola" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39862> .
-
-jp:Q39863 a jp:HistoricalPerson ;
-    rdfs:label "Retorbido" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39863> .
-
-jp:Q39864 a jp:HistoricalPerson ;
-    rdfs:label "Pentecost" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39864> .
-
-jp:Q39865 a jp:HistoricalPerson ;
-    rdfs:label "Spa" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39865> .
-
-jp:Q39866 a jp:HistoricalPerson ;
-    rdfs:label "Monticelli Pavese" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39866> .
-
-jp:Q39867 a jp:HistoricalPerson ;
-    rdfs:label "Q39867" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39867> .
-
-jp:Q39868 a jp:HistoricalPerson ;
-    rdfs:label "Albonese" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39868> .
-
-jp:Q39869 a jp:HistoricalPerson ;
-    rdfs:label "Q39869" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39869> .
-
-jp:Q39870 a jp:HistoricalPerson ;
-    rdfs:label ".by" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39870> .
-
-jp:Q39871 a jp:HistoricalPerson ;
-    rdfs:label "Q39871" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39871> .
-
-jp:Q39872 a jp:HistoricalPerson ;
-    rdfs:label "Q39872" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39872> .
-
-jp:Q39873 a jp:HistoricalPerson ;
-    rdfs:label "Mezzago" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39873> .
-
-jp:Q39874 a jp:HistoricalPerson ;
-    rdfs:label "Q39874" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39874> .
-
-jp:Q39875 a jp:HistoricalPerson ;
-    rdfs:label "Q39875" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39875> .
-
-jp:Q39876 a jp:HistoricalPerson ;
-    rdfs:label "Rivamonte Agordino" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39876> .
-
-jp:Q39877 a jp:HistoricalPerson ;
-    rdfs:label "FC Petržalka" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39877> .
-
-jp:Q39878 a jp:HistoricalPerson ;
-    rdfs:label ".fj" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39878> .
-
-jp:Q39879 a jp:HistoricalPerson ;
-    rdfs:label "Monte Carlo integration" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39879> .
-
-jp:Q39880 a jp:HistoricalPerson ;
-    rdfs:label "Pietra de' Giorgi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39880> .
-
-jp:Q39881 a jp:HistoricalPerson ;
-    rdfs:label "Q39881" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39881> .
-
-jp:Q39882 a jp:HistoricalPerson ;
-    rdfs:label "Eurocopter EC130" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q39882> .
-
-jp:Q4022814 a jp:HistoricalPerson ;
-    rdfs:label "Yohanan Alemanno" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4022814> .
-
-jp:Q4115259 a jp:HistoricalPerson ;
-    rdfs:label "Abd al-Karīm ibn Hawāzin Qushayri" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4115259> .
-
-jp:Q4256415 a jp:HistoricalPerson ;
-    rdfs:label "Levi ben Abraham ben Hayyim" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4256415> .
-
-jp:Q4256416 a jp:HistoricalPerson ;
-    rdfs:label "Q4256416" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4256416> .
-
-jp:Q460650 a jp:HistoricalPerson ;
-    rdfs:label "Isaac ben Sheshet" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q460650> .
-
-jp:Q461521 a jp:HistoricalPerson ;
-    rdfs:label "Profiat Duran" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q461521> .
-
-jp:Q461640 a jp:HistoricalPerson ;
-    rdfs:label "Isaac ben Joseph ibn Pulgar" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q461640> .
-
-jp:Q462009 a jp:HistoricalPerson ;
-    rdfs:label "Joshua Lorki" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q462009> .
-
-jp:Q463405 a jp:HistoricalPerson ;
-    rdfs:label "Elia del Medigo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q463405> .
-
-jp:Q464940 a jp:HistoricalPerson ;
-    rdfs:label "Pedro Rodríguez" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q464940> .
-
-jp:Q465763 a jp:HistoricalPerson ;
-    rdfs:label "Salomon Maimon" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q465763> .
-
-jp:Q4669185 a jp:HistoricalPerson ;
-    rdfs:label "Abraham Solomon ben Isaac ben Samuel Catalan" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4669185> .
-
-jp:Q467062 a jp:HistoricalPerson ;
-    rdfs:label "Judah Leon Abravanel" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q467062> .
-
-jp:Q47502084 a jp:HistoricalPerson ;
-    rdfs:label "Philippe Hugodot" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q47502084> .
-
-jp:Q4804863 a jp:HistoricalPerson ;
-    rdfs:label "Asher ben Meshullam" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q4804863> .
-
-jp:Q52101533 a jp:HistoricalPerson ;
-    rdfs:label "Todros Todrosi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q52101533> .
-
-jp:Q5241453 a jp:HistoricalPerson ;
-    rdfs:label "David ben Judah Messer Leon" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q5241453> .
-
-jp:Q528415 a jp:HistoricalPerson ;
-    rdfs:label "Hasdai Crescas" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528415> .
-
-jp:Q528416 a jp:HistoricalPerson ;
-    rdfs:label "St. Anthony" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528416> .
-
-jp:Q528417 a jp:HistoricalPerson ;
-    rdfs:label "North Macedonia women's national football team" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528417> .
-
-jp:Q528418 a jp:HistoricalPerson ;
-    rdfs:label "Karl Bremer" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528418> .
-
-jp:Q528419 a jp:HistoricalPerson ;
-    rdfs:label "Dietmannsried" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528419> .
-
-jp:Q528420 a jp:HistoricalPerson ;
-    rdfs:label "Stefano Lilipaly" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528420> .
-
-jp:Q528421 a jp:HistoricalPerson ;
-    rdfs:label "Nelly Kaplan" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528421> .
-
-jp:Q528422 a jp:HistoricalPerson ;
-    rdfs:label "Ostatovica" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528422> .
-
-jp:Q528423 a jp:HistoricalPerson ;
-    rdfs:label "Kampuchea" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528423> .
-
-jp:Q528424 a jp:HistoricalPerson ;
-    rdfs:label "Büchenbeuren" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528424> .
-
-jp:Q528425 a jp:HistoricalPerson ;
-    rdfs:label "Anchor Township" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528425> .
-
-jp:Q528426 a jp:HistoricalPerson ;
-    rdfs:label "Alex Smith" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528426> .
-
-jp:Q528427 a jp:HistoricalPerson ;
-    rdfs:label "Landepéreuse" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528427> .
-
-jp:Q528428 a jp:HistoricalPerson ;
-    rdfs:label "Douglas Fairbanks Jr." ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528428> .
-
-jp:Q528429 a jp:HistoricalPerson ;
-    rdfs:label "Bryconamericus andresoi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528429> .
-
-jp:Q528430 a jp:HistoricalPerson ;
-    rdfs:label "Q528430" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q528430> .
-
-jp:Q5360885 a jp:HistoricalPerson ;
-    rdfs:label "Elijah Bashyazi" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q5360885> .
-
-jp:Q5360886 a jp:HistoricalPerson ;
-    rdfs:label "Elijah ben Joseph Habillo" ;
-    jp:authorityLink <https://www.wikidata.org/wiki/Q5360886> .
-

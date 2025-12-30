@@ -1,207 +1,89 @@
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-
-jp:Q101081 a jp:Place ;
-    rdfs:label "Provence" .
-
-jp:Q101625 a jp:Place ;
-    rdfs:label "Marrakesh" .
-
-jp:Q10305 a jp:Place ;
-    rdfs:label "Zaragoza" .
-
-jp:Q10400 a jp:Place ;
-    rdfs:label "Almería" .
-
-jp:Q116415 a jp:Place ;
-    rdfs:label "Gordo trolo" .
-
-jp:Q117211 a jp:Place ;
-    rdfs:label "Roccasecca" .
-
-jp:Q12155 a jp:Place ;
-    rdfs:label "Soria" .
-
-jp:Q1218 a jp:Place ;
-    rdfs:label "Jerusalem" .
-
-jp:Q12246 a jp:Place ;
-    rdfs:label "Huelva" .
-
-jp:Q13373 a jp:Place ;
-    rdfs:label "Lucca" .
-
-jp:Q142410 a jp:Place ;
-    rdfs:label "Dreux" .
-
-jp:Q1492 a jp:Place ;
-    rdfs:label "Barcelona" .
-
-jp:Q1524 a jp:Place ;
-    rdfs:label "Athens" .
-
-jp:Q1530 a jp:Place ;
-    rdfs:label "Baghdad" .
-
-jp:Q1615333 a jp:Place ;
-    rdfs:label "Rijnsburg" .
-
-jp:Q174019 a jp:Place ;
-    rdfs:label "Béziers" .
-
-jp:Q1775258 a jp:Place ;
-    rdfs:label "Fossanova Abbey" .
-
-jp:Q187796 a jp:Place ;
-    rdfs:label "Orange" .
-
-jp:Q188155 a jp:Place ;
-    rdfs:label "Gorgan" .
-
-jp:Q2028 a jp:Place ;
-    rdfs:label "Verona" .
-
-jp:Q203299 a jp:Place ;
-    rdfs:label "Faiyum" .
-
-jp:Q21235810 a jp:Place ;
-    rdfs:label "Chalcis" .
-
-jp:Q220 a jp:Place ;
-    rdfs:label "Rome" .
-
-jp:Q2250761 a jp:Place ;
-    rdfs:label "Zukau Barok" .
-
-jp:Q23482 a jp:Place ;
-    rdfs:label "Marseille" .
-
-jp:Q243846 a jp:Place ;
-    rdfs:label "Hillah" .
-
-jp:Q244747 a jp:Place ;
-    rdfs:label "Tudela" .
-
-jp:Q2603120 a jp:Place ;
-    rdfs:label "Zebrzydowa" .
-
-jp:Q2634 a jp:Place ;
-    rdfs:label "Naples" .
-
-jp:Q268025 a jp:Place ;
-    rdfs:label "Vauvert" .
-
-jp:Q274183 a jp:Place ;
-    rdfs:label "Bagnols-sur-Cèze" .
-
-jp:Q28587 a jp:Place ;
-    rdfs:label "Hamadan" .
-
-jp:Q29 a jp:Place ;
-    rdfs:label "Spain" .
-
-jp:Q30974 a jp:Place ;
-    rdfs:label "Rouen" .
-
-jp:Q318082 a jp:Place ;
-    rdfs:label "Lunel" .
-
-jp:Q3415 a jp:Place ;
-    rdfs:label "Ancona" .
-
-jp:Q36600 a jp:Place ;
-    rdfs:label "The Hague" .
-
-jp:Q3766 a jp:Place ;
-    rdfs:label "Damascus" .
-
-jp:Q4072887 a jp:Place ;
-    rdfs:label "Afshona" .
-
-jp:Q42053 a jp:Place ;
-    rdfs:label "Isfahan" .
-
-jp:Q4446399 a jp:Place ;
-    rdfs:label "Sura" .
-
-jp:Q45313 a jp:Place ;
-    rdfs:label "Herat" .
-
-jp:Q46165 a jp:Place ;
-    rdfs:label "Montecchio Maggiore" .
-
-jp:Q472925 a jp:Place ;
-    rdfs:label "Urgench" .
-
-jp:Q48292 a jp:Place ;
-    rdfs:label "Arles" .
-
-jp:Q501114 a jp:Place ;
-    rdfs:label "Villefranche-de-Conflent" .
-
-jp:Q5764 a jp:Place ;
-    rdfs:label "Bukhara" .
-
-jp:Q5818 a jp:Place ;
-    rdfs:label "Córdoba" .
-
-jp:Q5836 a jp:Place ;
-    rdfs:label "Toledo" .
-
-jp:Q597 a jp:Place ;
-    rdfs:label "Lisbon" .
-
-jp:Q6247 a jp:Place ;
-    rdfs:label "Mantua" .
-
-jp:Q636188 a jp:Place ;
-    rdfs:label "Ray" .
-
-jp:Q6397 a jp:Place ;
-    rdfs:label "Avignon" .
-
-jp:Q641 a jp:Place ;
-    rdfs:label "Venice" .
-
-jp:Q642046 a jp:Place ;
-    rdfs:label "Calahorra" .
-
-jp:Q6555 a jp:Place ;
-    rdfs:label "Narbonne" .
-
-jp:Q6730 a jp:Place ;
-    rdfs:label "Perpignan" .
-
-jp:Q692363 a jp:Place ;
-    rdfs:label "Podbrzezie Dolne" .
-
-jp:Q727 a jp:Place ;
-    rdfs:label "Amsterdam" .
-
-jp:Q744631 a jp:Place ;
-    rdfs:label "Assos" .
-
-jp:Q809821 a jp:Place ;
-    rdfs:label "Voorburg" .
-
-jp:Q84 a jp:Place ;
-    rdfs:label "London" .
-
-jp:Q846127 a jp:Place ;
-    rdfs:label "Stageira" .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Sample cleaned places with coordinates
+jp:Q79 a jp:Place ;
+    rdfs:label "Egypt" ;
+    jp:latitude 29.0^^xsd:decimal ;
+    jp:longitude 27.0^^xsd:decimal .
 
 jp:Q85 a jp:Place ;
-    rdfs:label "Cairo" .
+    rdfs:label "Cairo" ;
+    jp:latitude 31.235833333^^xsd:decimal ;
+    jp:longitude 30.044444444^^xsd:decimal .
 
-jp:Q8810 a jp:Place ;
-    rdfs:label "Granada" .
+jp:Q641 a jp:Place ;
+    rdfs:label "Venice" ;
+    jp:latitude 12.331944444^^xsd:decimal ;
+    jp:longitude 45.439722222^^xsd:decimal .
 
-jp:Q8818 a jp:Place ;
-    rdfs:label "Valencia" .
+jp:Q1492 a jp:Place ;
+    rdfs:label "Barcelona" ;
+    jp:latitude 2.176944444^^xsd:decimal ;
+    jp:longitude 41.3825^^xsd:decimal .
 
-jp:Q8851 a jp:Place ;
-    rdfs:label "Málaga" .
+jp:Q220 a jp:Place ;
+    rdfs:label "Rome" ;
+    jp:latitude 12.482777777^^xsd:decimal ;
+    jp:longitude 41.893055555^^xsd:decimal .
 
-jp:Q956911 a jp:Place ;
-    rdfs:label "Otrar" .
+jp:Q490 a jp:Place ;
+    rdfs:label "Milan" ;
+    jp:latitude 9.19^^xsd:decimal ;
+    jp:longitude 45.466944444^^xsd:decimal .
+
+jp:Q1218 a jp:Place ;
+    rdfs:label "Jerusalem" ;
+    jp:latitude 35.225555555^^xsd:decimal ;
+    jp:longitude 31.778888888^^xsd:decimal .
+
+jp:Q87 a jp:Place ;
+    rdfs:label "Alexandria" ;
+    jp:latitude 29.8925^^xsd:decimal ;
+    jp:longitude 31.1975^^xsd:decimal .
+
+jp:Q145 a jp:Place ;
+    rdfs:label "United Kingdom" ;
+    jp:latitude -2.0^^xsd:decimal ;
+    jp:longitude 54.6^^xsd:decimal .
+
+jp:Q29 a jp:Place ;
+    rdfs:label "Spain" ;
+    jp:latitude -3.5^^xsd:decimal ;
+    jp:longitude 40.2^^xsd:decimal .
+
+jp:Q90 a jp:Place ;
+    rdfs:label "Paris" ;
+    jp:latitude 2.352222222^^xsd:decimal ;
+    jp:longitude 48.856666666^^xsd:decimal .
+
+jp:Q60 a jp:Place ;
+    rdfs:label "New York City" ;
+    jp:latitude -73.920277777^^xsd:decimal ;
+    jp:longitude 40.728138888^^xsd:decimal .
+
+jp:Q64 a jp:Place ;
+    rdfs:label "Berlin" ;
+    jp:latitude 13.383333333^^xsd:decimal ;
+    jp:longitude 52.516666666^^xsd:decimal .
+
+jp:Q71 a jp:Place ;
+    rdfs:label "Geneva" ;
+    jp:latitude 6.15^^xsd:decimal ;
+    jp:longitude 46.2^^xsd:decimal .
+
+jp:Q1741 a jp:Place ;
+    rdfs:label "Vienna" ;
+    jp:latitude 16.3725^^xsd:decimal ;
+    jp:longitude 48.208333333^^xsd:decimal .
+
+jp:Q1781 a jp:Place ;
+    rdfs:label "Budapest" ;
+    jp:latitude 19.040833333^^xsd:decimal ;
+    jp:longitude 47.498333333^^xsd:decimal .
+
+jp:Q1794 a jp:Place ;
+    rdfs:label "Frankfurt" ;
+    jp:latitude 8.682222222^^xsd:decimal ;
+    jp:longitude 50.110555555^^xsd:decimal .
