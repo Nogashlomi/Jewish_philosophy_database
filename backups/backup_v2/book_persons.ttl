@@ -1,0 +1,2491 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:BookPerson_P0001 a jp:HistoricalPerson ;
+    rdfs:label "(1991): 235–47; idem" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0002 a jp:HistoricalPerson ;
+    rdfs:label "(Pseudo?-)Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0003 a jp:HistoricalPerson ;
+    rdfs:label "(or 1267?) Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0004 a jp:HistoricalPerson ;
+    rdfs:label "(or 1322) Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0005 a jp:HistoricalPerson ;
+    rdfs:label "(or 1477) Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0006 a jp:HistoricalPerson ;
+    rdfs:label "-to-Hebrew translation of book VIII, part 2, chapters 1 and 2 of this work, in addition to those by Zerah. iah and Qalonymos, by a certain “Narwinio” or “Garwino,” executed between 1316 and 1350." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0007 a jp:HistoricalPerson ;
+    rdfs:label "1050–75 Judah ben David H. ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0008 a jp:HistoricalPerson ;
+    rdfs:label "1136 Muh. ammad Ibn J ¯abir al-Battani" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0009 a jp:HistoricalPerson ;
+    rdfs:label "1160 (and before 1270) Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0010 a jp:HistoricalPerson ;
+    rdfs:label "1167 Judah ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0011 a jp:HistoricalPerson ;
+    rdfs:label "1170 Bah. ya Ibn Paqudah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0012 a jp:HistoricalPerson ;
+    rdfs:label "1170 Jonah Ibn Janah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0013 a jp:HistoricalPerson ;
+    rdfs:label "1170 Moses Ibn Ezra" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0014 a jp:HistoricalPerson ;
+    rdfs:label "1171 Jonah Ibn Janah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0015 a jp:HistoricalPerson ;
+    rdfs:label "1187? Gerardus Cremonensis" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0016 a jp:HistoricalPerson ;
+    rdfs:label "1200 A verroes Junior" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0017 a jp:HistoricalPerson ;
+    rdfs:label "1200 Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0018 a jp:HistoricalPerson ;
+    rdfs:label "1200? Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0019 a jp:HistoricalPerson ;
+    rdfs:label "1200? Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0020 a jp:HistoricalPerson ;
+    rdfs:label "1200? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0021 a jp:HistoricalPerson ;
+    rdfs:label "1200? Jonah Ibn Janah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0022 a jp:HistoricalPerson ;
+    rdfs:label "1200? Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0023 a jp:HistoricalPerson ;
+    rdfs:label "1200? Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0024 a jp:HistoricalPerson ;
+    rdfs:label "1205–13 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0025 a jp:HistoricalPerson ;
+    rdfs:label "1210–30 Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0026 a jp:HistoricalPerson ;
+    rdfs:label "1210–30 Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0027 a jp:HistoricalPerson ;
+    rdfs:label "1210–30 Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0028 a jp:HistoricalPerson ;
+    rdfs:label "1216–18 H. unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0029 a jp:HistoricalPerson ;
+    rdfs:label "1230 Euclid" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0030 a jp:HistoricalPerson ;
+    rdfs:label "1240 Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0031 a jp:HistoricalPerson ;
+    rdfs:label "1250 Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0032 a jp:HistoricalPerson ;
+    rdfs:label "1250 Jordanus Rufus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0033 a jp:HistoricalPerson ;
+    rdfs:label "1250? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0034 a jp:HistoricalPerson ;
+    rdfs:label "1250–1300 Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0035 a jp:HistoricalPerson ;
+    rdfs:label "1253 Brunus de Longoburgo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0036 a jp:HistoricalPerson ;
+    rdfs:label "1254–60 Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0037 a jp:HistoricalPerson ;
+    rdfs:label "1260? Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0038 a jp:HistoricalPerson ;
+    rdfs:label "1260? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0039 a jp:HistoricalPerson ;
+    rdfs:label "1260? Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0040 a jp:HistoricalPerson ;
+    rdfs:label "1260? Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0041 a jp:HistoricalPerson ;
+    rdfs:label "1265 Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0042 a jp:HistoricalPerson ;
+    rdfs:label "1270 Abu l-Faraj Ibn al-T. ayyib" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0043 a jp:HistoricalPerson ;
+    rdfs:label "1270 Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0044 a jp:HistoricalPerson ;
+    rdfs:label "1270? Pseudo-Empedocles" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0045 a jp:HistoricalPerson ;
+    rdfs:label "1270? Solomon Ibn Gabirol" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0046 a jp:HistoricalPerson ;
+    rdfs:label "1272? Euclid" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0047 a jp:HistoricalPerson ;
+    rdfs:label "1274 J¯abir Ibn Aﬂah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0048 a jp:HistoricalPerson ;
+    rdfs:label "1277–90 Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0049 a jp:HistoricalPerson ;
+    rdfs:label "1277–90 Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0050 a jp:HistoricalPerson ;
+    rdfs:label "1277–90 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0051 a jp:HistoricalPerson ;
+    rdfs:label "1277–90 Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0052 a jp:HistoricalPerson ;
+    rdfs:label "1280 Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0053 a jp:HistoricalPerson ;
+    rdfs:label "1280 Abu Ma" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0054 a jp:HistoricalPerson ;
+    rdfs:label "1280 Abu l-Qasim Ammar al-Mawsili" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0055 a jp:HistoricalPerson ;
+    rdfs:label "1280 Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0056 a jp:HistoricalPerson ;
+    rdfs:label "1280 Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0057 a jp:HistoricalPerson ;
+    rdfs:label "1280 Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0058 a jp:HistoricalPerson ;
+    rdfs:label "1280 J¯abir Ibn Aﬂah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0059 a jp:HistoricalPerson ;
+    rdfs:label "1280 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0060 a jp:HistoricalPerson ;
+    rdfs:label "1280 Pseudo-Ptolemy (Abu Ja Ah. mad Ibn Yusuf )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0061 a jp:HistoricalPerson ;
+    rdfs:label "1280? Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0062 a jp:HistoricalPerson ;
+    rdfs:label "1280–1300 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0063 a jp:HistoricalPerson ;
+    rdfs:label "1280–1300? Nicholas Praepositus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0064 a jp:HistoricalPerson ;
+    rdfs:label "1280–1300? Ruggerus (Panormitanus?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0065 a jp:HistoricalPerson ;
+    rdfs:label "1292?A b u H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0066 a jp:HistoricalPerson ;
+    rdfs:label "1295 Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0067 a jp:HistoricalPerson ;
+    rdfs:label "12th cent. Masha" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0068 a jp:HistoricalPerson ;
+    rdfs:label "12th cent. al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0069 a jp:HistoricalPerson ;
+    rdfs:label "1300 Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0070 a jp:HistoricalPerson ;
+    rdfs:label "1300 Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0071 a jp:HistoricalPerson ;
+    rdfs:label "1300 Pseudo-Aristotle (Luqa bar Sarabiyyun)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0072 a jp:HistoricalPerson ;
+    rdfs:label "1303 Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0073 a jp:HistoricalPerson ;
+    rdfs:label "1304 A verroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0074 a jp:HistoricalPerson ;
+    rdfs:label "1306? (Pseudo?-)Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0075 a jp:HistoricalPerson ;
+    rdfs:label "1306? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0076 a jp:HistoricalPerson ;
+    rdfs:label "1306? Armengaudus Blasius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0077 a jp:HistoricalPerson ;
+    rdfs:label "1312? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0078 a jp:HistoricalPerson ;
+    rdfs:label "1313 Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0079 a jp:HistoricalPerson ;
+    rdfs:label "1313 Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0080 a jp:HistoricalPerson ;
+    rdfs:label "1315? Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0081 a jp:HistoricalPerson ;
+    rdfs:label "1315? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0082 a jp:HistoricalPerson ;
+    rdfs:label "1315? Dominicus Gundisalvus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0083 a jp:HistoricalPerson ;
+    rdfs:label "1317? Archimedes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0084 a jp:HistoricalPerson ;
+    rdfs:label "1317? Eutocius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0085 a jp:HistoricalPerson ;
+    rdfs:label "1319 Al-Mu Ibn Hud" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0086 a jp:HistoricalPerson ;
+    rdfs:label "1320 A verroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0087 a jp:HistoricalPerson ;
+    rdfs:label "1320 Abd al-Rah. man ben Tahir" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0088 a jp:HistoricalPerson ;
+    rdfs:label "1320 Abu al-Abbas Ah. mad ben Qasim" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0089 a jp:HistoricalPerson ;
+    rdfs:label "1320 Abu al-H. ajjaj Ibn Talmus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0090 a jp:HistoricalPerson ;
+    rdfs:label "1320 Abu al-Qasim ben Idris" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0091 a jp:HistoricalPerson ;
+    rdfs:label "1320 Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0092 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0093 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Angel of Camerino" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0094 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0095 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Pseudo-Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0096 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0097 a jp:HistoricalPerson ;
+    rdfs:label "1320–30 Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0098 a jp:HistoricalPerson ;
+    rdfs:label "1320–40 Ibn Bajja" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0099 a jp:HistoricalPerson ;
+    rdfs:label "1327 Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0100 a jp:HistoricalPerson ;
+    rdfs:label "1330 (Pseudo-)al-F¯ar¯ab¯ı (Avicenna?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0101 a jp:HistoricalPerson ;
+    rdfs:label "1330 (or 1320–50) Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0102 a jp:HistoricalPerson ;
+    rdfs:label "1330 A verroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0103 a jp:HistoricalPerson ;
+    rdfs:label "1330 al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0104 a jp:HistoricalPerson ;
+    rdfs:label "1331? Joseph ben Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0105 a jp:HistoricalPerson ;
+    rdfs:label "1337 Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0106 a jp:HistoricalPerson ;
+    rdfs:label "1340 Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0107 a jp:HistoricalPerson ;
+    rdfs:label "1344 Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0108 a jp:HistoricalPerson ;
+    rdfs:label "1347 Abu Abdallah Muh. ammad al-Tabrizi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0109 a jp:HistoricalPerson ;
+    rdfs:label "1348 Gentile da Foligno" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0110 a jp:HistoricalPerson ;
+    rdfs:label "1360? Joseph ben Abraham Ibn Waqar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0111 a jp:HistoricalPerson ;
+    rdfs:label "1364 Johannes Jacobi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0112 a jp:HistoricalPerson ;
+    rdfs:label "1370 Abraham Ibn Daud" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0113 a jp:HistoricalPerson ;
+    rdfs:label "1370 Johannes cum barba (Cenobarba?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0114 a jp:HistoricalPerson ;
+    rdfs:label "1370–1400 Bernardus Alberti" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0115 a jp:HistoricalPerson ;
+    rdfs:label "1375 “Bryson" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0116 a jp:HistoricalPerson ;
+    rdfs:label "1392–1402 Johannes de Tornamira" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0117 a jp:HistoricalPerson ;
+    rdfs:label "1392–1402 Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0118 a jp:HistoricalPerson ;
+    rdfs:label "1396 Ah. mad Ibn Muh. ammad Ibn al-Banna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0119 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0120 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Abu H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0121 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Ah . mad Ibn al-Muthanna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0122 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0123 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0124 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0125 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Joseph Ibn S . addiq" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0126 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Judah ben Samuel Ibn Bal" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0127 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0128 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Pseudo-Aristotle (Isaac Israeli)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0129 a jp:HistoricalPerson ;
+    rdfs:label "13th cent.? Pseudo-Macer Floridus (Odo de Meudon)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0130 a jp:HistoricalPerson ;
+    rdfs:label "14 th cent.? Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0131 a jp:HistoricalPerson ;
+    rdfs:label "1400 Albert of Orlam ¨unde" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0132 a jp:HistoricalPerson ;
+    rdfs:label "1400 Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0133 a jp:HistoricalPerson ;
+    rdfs:label "1400 Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0134 a jp:HistoricalPerson ;
+    rdfs:label "1400? Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0135 a jp:HistoricalPerson ;
+    rdfs:label "1402 Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0136 a jp:HistoricalPerson ;
+    rdfs:label "1408 Joseph ha-Lorqi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0137 a jp:HistoricalPerson ;
+    rdfs:label "1410 Matthaeus Platearius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0138 a jp:HistoricalPerson ;
+    rdfs:label "1411 Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0139 a jp:HistoricalPerson ;
+    rdfs:label "1420–30 (Pseudo-) Dioscorides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0140 a jp:HistoricalPerson ;
+    rdfs:label "1421 Hermannus Contractus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0141 a jp:HistoricalPerson ;
+    rdfs:label "1434 Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0142 a jp:HistoricalPerson ;
+    rdfs:label "1440? Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0143 a jp:HistoricalPerson ;
+    rdfs:label "1448 Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0144 a jp:HistoricalPerson ;
+    rdfs:label "1450 Abu Kamil Shuja" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0145 a jp:HistoricalPerson ;
+    rdfs:label "1450 Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0146 a jp:HistoricalPerson ;
+    rdfs:label "1450 Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0147 a jp:HistoricalPerson ;
+    rdfs:label "1450 Pseudo-Robert Grosseteste" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0148 a jp:HistoricalPerson ;
+    rdfs:label "1450 Robert Grosseteste" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0149 a jp:HistoricalPerson ;
+    rdfs:label "1450–1500 Pseudo-Marsilius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0150 a jp:HistoricalPerson ;
+    rdfs:label "1450–1550 Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0151 a jp:HistoricalPerson ;
+    rdfs:label "1450–60 Abu l-H. asan Kushyar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0152 a jp:HistoricalPerson ;
+    rdfs:label "1456 Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0153 a jp:HistoricalPerson ;
+    rdfs:label "1462 Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0154 a jp:HistoricalPerson ;
+    rdfs:label "1472? Isaac ben Sid and Judah ben Moses ha-Kohen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0155 a jp:HistoricalPerson ;
+    rdfs:label "1473? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0156 a jp:HistoricalPerson ;
+    rdfs:label "1473? Antoni Andreu" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0157 a jp:HistoricalPerson ;
+    rdfs:label "1473? Bartolomeo Manfredi Dell’Orologio" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0158 a jp:HistoricalPerson ;
+    rdfs:label "1473? Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0159 a jp:HistoricalPerson ;
+    rdfs:label "1473? Giovanni Bianchini" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0160 a jp:HistoricalPerson ;
+    rdfs:label "1473? Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0161 a jp:HistoricalPerson ;
+    rdfs:label "1473? Vicent Ferrer" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0162 a jp:HistoricalPerson ;
+    rdfs:label "1473–5 Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0163 a jp:HistoricalPerson ;
+    rdfs:label "1475 Johannes de Janduno" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0164 a jp:HistoricalPerson ;
+    rdfs:label "1480 Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0165 a jp:HistoricalPerson ;
+    rdfs:label "1480 Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0166 a jp:HistoricalPerson ;
+    rdfs:label "1480–1505 Pseudo-Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0167 a jp:HistoricalPerson ;
+    rdfs:label "1485 Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0168 a jp:HistoricalPerson ;
+    rdfs:label "1492 Albert of Orlam ¨unde" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0169 a jp:HistoricalPerson ;
+    rdfs:label "1492? Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0170 a jp:HistoricalPerson ;
+    rdfs:label "1498? Ibn Abi l-Rijal" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0171 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? (Pseudo-)Paulus de Aegina" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0172 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? (after previous one?) Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0173 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? (certainly before ca. 1480) Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0174 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu Abdallah Muh. ammad al-Tabrizi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0175 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0176 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu Bakr al-Razi (?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0177 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0178 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0179 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu l-H . asan Sufyan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0180 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu l-Qasim Ibn Idris" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0181 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0182 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Aegidius de Arelate" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0183 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0184 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Ali Ibn Ridwan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0185 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Ali al-Qurashi Ibn al-Naﬁs" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0186 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0187 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Anonymous ( Judah?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0188 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Archimedes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0189 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0190 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0191 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0192 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0193 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Cordone de Papia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0194 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0195 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Gentile da Foligno" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0196 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Guilielmus de Congenis" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0197 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Guilielmus de Saliceto" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0198 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? H . unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0199 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0200 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? J ¯abir Ibn Aﬂah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0201 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Johannes Platearius junior" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0202 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Johannes de Parma" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0203 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Judah ben David H . ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0204 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Lanfrancus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0205 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Magister Gualtierus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0206 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Matthaeus Gallus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0207 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Maurus de Salerno" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0208 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0209 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Moskion (Muscio)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0210 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0211 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Plato “the Arab" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0212 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Pseudo-Euclid" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0213 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Pseudo-Galen or Rufus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0214 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0215 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Raimundus Lullus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0216 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Ruggerus Panormitanus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0217 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Sahl Ibn Bishr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0218 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Theodoricus Borgognoni" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0219 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Ubayd IbnAli Ibn Jurji (or Juraja)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0220 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Umayya Ibn Abi l-Salt" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0221 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Yuhanna Ibn Masawayh (junior?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0222 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Yuhanna Ibn Masawayh (senior?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0223 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? Zayn al-Din al-Jurjani" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0224 a jp:HistoricalPerson ;
+    rdfs:label "14th cent.? “Petrocellus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0225 a jp:HistoricalPerson ;
+    rdfs:label "15th cent. Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0226 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0227 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0228 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0229 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0230 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Hermannus Contractus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0231 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Jean de Saint-Aimand" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0232 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Johannes Jacobi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0233 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Martinus de Lucena" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0234 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Petrus de Tussignano" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0235 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0236 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0237 a jp:HistoricalPerson ;
+    rdfs:label "15th cent.? Tura de Castello of Bologna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0238 a jp:HistoricalPerson ;
+    rdfs:label "2 th cent. Abu l-Faraj Harun" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0239 a jp:HistoricalPerson ;
+    rdfs:label "2 th cent.? Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0240 a jp:HistoricalPerson ;
+    rdfs:label "956 (and before 1140) Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0241 a jp:HistoricalPerson ;
+    rdfs:label "? Abu l-Qasim Ibn al-Saffar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0242 a jp:HistoricalPerson ;
+    rdfs:label "? Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0243 a jp:HistoricalPerson ;
+    rdfs:label "? Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0244 a jp:HistoricalPerson ;
+    rdfs:label "? Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0245 a jp:HistoricalPerson ;
+    rdfs:label "? Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0246 a jp:HistoricalPerson ;
+    rdfs:label "? Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0247 a jp:HistoricalPerson ;
+    rdfs:label "? Bartolomeo Montagnana" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0248 a jp:HistoricalPerson ;
+    rdfs:label "? Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0249 a jp:HistoricalPerson ;
+    rdfs:label "? Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0250 a jp:HistoricalPerson ;
+    rdfs:label "? Gilbertus Anglicus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0251 a jp:HistoricalPerson ;
+    rdfs:label "? Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0252 a jp:HistoricalPerson ;
+    rdfs:label "? Ibrahim al-Zarkali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0253 a jp:HistoricalPerson ;
+    rdfs:label "? Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0254 a jp:HistoricalPerson ;
+    rdfs:label "? Johannes Platearius senior and others (collection of quotations)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0255 a jp:HistoricalPerson ;
+    rdfs:label "? Magister Gualtierus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0256 a jp:HistoricalPerson ;
+    rdfs:label "? Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0257 a jp:HistoricalPerson ;
+    rdfs:label "? Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0258 a jp:HistoricalPerson ;
+    rdfs:label "? Thabit Ibn Qurra" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0259 a jp:HistoricalPerson ;
+    rdfs:label "? Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0260 a jp:HistoricalPerson ;
+    rdfs:label "?A b u Abdallah Ibn Mu" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0261 a jp:HistoricalPerson ;
+    rdfs:label "?A bu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0262 a jp:HistoricalPerson ;
+    rdfs:label "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0263 a jp:HistoricalPerson ;
+    rdfs:label "A vicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0264 a jp:HistoricalPerson ;
+    rdfs:label "Abd al-Rah. im Ibn Waﬁd" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0265 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Avigdor" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0266 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Daud" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0267 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Ezra" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0268 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn H. asdai" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0269 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Nah. mias" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0270 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Shalom" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0271 a jp:HistoricalPerson ;
+    rdfs:label "Abraham bar H. iyya" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0272 a jp:HistoricalPerson ;
+    rdfs:label "Abu Bakr al-Khasibi (Albubather)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0273 a jp:HistoricalPerson ;
+    rdfs:label "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0274 a jp:HistoricalPerson ;
+    rdfs:label "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0275 a jp:HistoricalPerson ;
+    rdfs:label "Abu Sa (Abu Sa l -Ala Ibn Sahl?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0276 a jp:HistoricalPerson ;
+    rdfs:label "Abu l-Abbas Ah. mad al-Farghani" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0277 a jp:HistoricalPerson ;
+    rdfs:label "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0278 a jp:HistoricalPerson ;
+    rdfs:label "Ah . it.uv of Palermo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0279 a jp:HistoricalPerson ;
+    rdfs:label "Ah. mad Ibn al-Muthanna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0280 a jp:HistoricalPerson ;
+    rdfs:label "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0281 a jp:HistoricalPerson ;
+    rdfs:label "Al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0282 a jp:HistoricalPerson ;
+    rdfs:label "Al-H. asan Ibn al-Haytham" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0283 a jp:HistoricalPerson ;
+    rdfs:label "Al-Kindi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0284 a jp:HistoricalPerson ;
+    rdfs:label "Alexander of Aphrodisias" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0285 a jp:HistoricalPerson ;
+    rdfs:label "Alexandrian Compendia of Galen’s Sixteen Works" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0286 a jp:HistoricalPerson ;
+    rdfs:label "Ali Ibn Ridwan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0287 a jp:HistoricalPerson ;
+    rdfs:label "Ali ben al-Abbas al-Majusi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0288 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0289 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (known only through Moses Narboni’s commentary)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0290 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (probably Qalonymos ben Qalonymos; ed. by Moses of Beaucaire)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0291 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (quoted by Moses Almosnino, 16th-cent." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0292 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (same as previous text)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0293 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (same as previous translation)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0294 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (same as previous)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0295 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous (trans. commented by Moses Narboni)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0296 a jp:HistoricalPerson ;
+    rdfs:label "Anonymous for “Giles”" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0297 a jp:HistoricalPerson ;
+    rdfs:label "Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0298 a jp:HistoricalPerson ;
+    rdfs:label "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0299 a jp:HistoricalPerson ;
+    rdfs:label "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0300 a jp:HistoricalPerson ;
+    rdfs:label "Arnaldus de Villanova (?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0301 a jp:HistoricalPerson ;
+    rdfs:label "Around 1200 Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0302 a jp:HistoricalPerson ;
+    rdfs:label "Around 1200 Saadia Gaon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0303 a jp:HistoricalPerson ;
+    rdfs:label "Asher ben Moses Valabregue" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0304 a jp:HistoricalPerson ;
+    rdfs:label "Autolycus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0305 a jp:HistoricalPerson ;
+    rdfs:label "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0306 a jp:HistoricalPerson ;
+    rdfs:label "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0307 a jp:HistoricalPerson ;
+    rdfs:label "Bah. ya Ibn Paqudah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0308 a jp:HistoricalPerson ;
+    rdfs:label "Barukh Ibn Ya" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0309 a jp:HistoricalPerson ;
+    rdfs:label "Benjamin ben Isaac of Carcassonne" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0310 a jp:HistoricalPerson ;
+    rdfs:label "Benveniste Ibn Labi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0311 a jp:HistoricalPerson ;
+    rdfs:label "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0312 a jp:HistoricalPerson ;
+    rdfs:label "Boethius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0313 a jp:HistoricalPerson ;
+    rdfs:label "Bonafus Bonﬁl Astruc" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0314 a jp:HistoricalPerson ;
+    rdfs:label "Bonsenior ben H. asdai" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0315 a jp:HistoricalPerson ;
+    rdfs:label "Books 1 and 2 were edited" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0316 a jp:HistoricalPerson ;
+    rdfs:label "Books 1 and 2 were employed by S. Harvey in his Ph.D. dissertation" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0317 a jp:HistoricalPerson ;
+    rdfs:label "Constantinus Africanus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0318 a jp:HistoricalPerson ;
+    rdfs:label "Critical ed. in S. Abramson" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0319 a jp:HistoricalPerson ;
+    rdfs:label "David Ibn Shoshan (from" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0320 a jp:HistoricalPerson ;
+    rdfs:label "David ben Jacob Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0321 a jp:HistoricalPerson ;
+    rdfs:label "David ben Yom T . ov Ibn Bilia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0322 a jp:HistoricalPerson ;
+    rdfs:label "Discovered by G. Bos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0323 a jp:HistoricalPerson ;
+    rdfs:label "E d .A .L .I v r y" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0324 a jp:HistoricalPerson ;
+    rdfs:label "E d .B .R .G o l d s t e i n" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0325 a jp:HistoricalPerson ;
+    rdfs:label "E d .G .B o s" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0326 a jp:HistoricalPerson ;
+    rdfs:label "E d .I .S c h r e i b e r" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0327 a jp:HistoricalPerson ;
+    rdfs:label "E d .J .W .N u t t" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0328 a jp:HistoricalPerson ;
+    rdfs:label "E d .L .V .B e r m a n" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0329 a jp:HistoricalPerson ;
+    rdfs:label "E d .M .C o h e n" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0330 a jp:HistoricalPerson ;
+    rdfs:label "E d .M .Z o n t a" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0331 a jp:HistoricalPerson ;
+    rdfs:label "E d .S .F r i e d" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0332 a jp:HistoricalPerson ;
+    rdfs:label "E d .S .F r i e d l¨ander" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0333 a jp:HistoricalPerson ;
+    rdfs:label "Eli H . abillo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0334 a jp:HistoricalPerson ;
+    rdfs:label "English trans. by H. Tunik Goldstein" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0335 a jp:HistoricalPerson ;
+    rdfs:label "Estori ben Moses ha-Parh. i" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0336 a jp:HistoricalPerson ;
+    rdfs:label "Euclid" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0337 a jp:HistoricalPerson ;
+    rdfs:label "Fakhr al-Din al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0338 a jp:HistoricalPerson ;
+    rdfs:label "French trans. by T . L ´evy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0339 a jp:HistoricalPerson ;
+    rdfs:label "Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0340 a jp:HistoricalPerson ;
+    rdfs:label "Geminus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0341 a jp:HistoricalPerson ;
+    rdfs:label "Gerardus Cremonensis" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0342 a jp:HistoricalPerson ;
+    rdfs:label "Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0343 a jp:HistoricalPerson ;
+    rdfs:label "Guy de Chauliac" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0344 a jp:HistoricalPerson ;
+    rdfs:label "H . ayyim Ibn Vivas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0345 a jp:HistoricalPerson ;
+    rdfs:label "H . ayyim Messer Vital" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0346 a jp:HistoricalPerson ;
+    rdfs:label "H. unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0347 a jp:HistoricalPerson ;
+    rdfs:label "Hezekiah bar H. alafta" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0348 a jp:HistoricalPerson ;
+    rdfs:label "Hillel of Verona" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0349 a jp:HistoricalPerson ;
+    rdfs:label "Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0350 a jp:HistoricalPerson ;
+    rdfs:label "Ibid." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0351 a jp:HistoricalPerson ;
+    rdfs:label "Ibid.; see also T . L´evy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0352 a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Samh." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0353 a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0354 a jp:HistoricalPerson ;
+    rdfs:label "Identiﬁed by B. Richler" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0355 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abu l-Khayr (from" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0356 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Albalag" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0357 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0358 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Israeli (obviously not the philosopher)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0359 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Natan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0360 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Pulgar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0361 a jp:HistoricalPerson ;
+    rdfs:label "Isaac al-Ah . dab" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0362 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Abraham Cabret" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0363 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Eliezer ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0364 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Joseph al-Fasi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0365 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Judah of" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0366 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Sid and Judah ben Moses ha-Kohen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0367 a jp:HistoricalPerson ;
+    rdfs:label "Israel ben Joseph ha-Levi Caslari" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0368 a jp:HistoricalPerson ;
+    rdfs:label "Jacob" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0369 a jp:HistoricalPerson ;
+    rdfs:label "Jacob Anatoli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0370 a jp:HistoricalPerson ;
+    rdfs:label "Jacob al-Corsono" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0371 a jp:HistoricalPerson ;
+    rdfs:label "Jacob al-Corsono (the author himself )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0372 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Joseph ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0373 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Judah Cabret" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0374 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0375 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Makhir Ibn Tibbon (lost translation)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0376 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ha-Qatan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0377 a jp:HistoricalPerson ;
+    rdfs:label "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0378 a jp:HistoricalPerson ;
+    rdfs:label "Jean de Saint-Aimand" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0379 a jp:HistoricalPerson ;
+    rdfs:label "Jekutiel ben Solomon (Bonsenyor Salamon) of" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0380 a jp:HistoricalPerson ;
+    rdfs:label "Jesaiah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0381 a jp:HistoricalPerson ;
+    rdfs:label "Johann von Gmunden" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0382 a jp:HistoricalPerson ;
+    rdfs:label "Johannes Pauli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0383 a jp:HistoricalPerson ;
+    rdfs:label "Johannes cum barba (Cenobarba?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0384 a jp:HistoricalPerson ;
+    rdfs:label "John Holywood ( Johannes de Sacrobosco)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0385 a jp:HistoricalPerson ;
+    rdfs:label "Jonah Ibn Janah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0386 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Ibn Waqqar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0387 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Qimh . i" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0388 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Benveniste Vidal" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0389 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Isaac Ibn Waqar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0390 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Isaac Ibn Waqar (the author himself )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0391 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Joshua Vives of Lorca" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0392 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ha-Lorqi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0393 a jp:HistoricalPerson ;
+    rdfs:label "Joshua Shatibi of Jativa" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0394 a jp:HistoricalPerson ;
+    rdfs:label "Joshua of Bologna" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0395 a jp:HistoricalPerson ;
+    rdfs:label "Judah Ibn Cardinal" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0396 a jp:HistoricalPerson ;
+    rdfs:label "Judah Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0397 a jp:HistoricalPerson ;
+    rdfs:label "Judah Romano" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0398 a jp:HistoricalPerson ;
+    rdfs:label "Judah Shalom" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0399 a jp:HistoricalPerson ;
+    rdfs:label "Judah al-H . arizi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0400 a jp:HistoricalPerson ;
+    rdfs:label "Judah al-H. arizi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0401 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben David H. ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0402 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Samuel Shalom" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0403 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon Natan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0404 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon Natan (translation revised by Natan ben Shelemiah)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0405 a jp:HistoricalPerson ;
+    rdfs:label "Judah ha-Kohen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0406 a jp:HistoricalPerson ;
+    rdfs:label "Judah ha-Kohen (the author himself )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0407 a jp:HistoricalPerson ;
+    rdfs:label "Judah ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0408 a jp:HistoricalPerson ;
+    rdfs:label "J¯abir Ibn Aﬂah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0409 a jp:HistoricalPerson ;
+    rdfs:label "Language tyrb[h @w`lh qwdqdb yjrkhh llkh Arabic Saadia ben Maimon Ibn Danan (the author himself )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0410 a jp:HistoricalPerson ;
+    rdfs:label "Leon Joseph of Carcassonne" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0411 a jp:HistoricalPerson ;
+    rdfs:label "Maestro Dardi of Pisa" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0412 a jp:HistoricalPerson ;
+    rdfs:label "Manekin" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0413 a jp:HistoricalPerson ;
+    rdfs:label "Meir Alguadez" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0414 a jp:HistoricalPerson ;
+    rdfs:label "Menelaus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0415 a jp:HistoricalPerson ;
+    rdfs:label "Meshullam ben Jonah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0416 a jp:HistoricalPerson ;
+    rdfs:label "Mordekhai Finzi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0417 a jp:HistoricalPerson ;
+    rdfs:label "Moses Galliano" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0418 a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn H . abib" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0419 a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn Lanis (Lajis/Lijas)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0420 a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0421 a jp:HistoricalPerson ;
+    rdfs:label "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0422 a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Elijah (Galliano)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0423 a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Immanuel" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0424 a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Samuel of Roquemaure" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0425 a jp:HistoricalPerson ;
+    rdfs:label "Moses ha-Dayyan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0426 a jp:HistoricalPerson ;
+    rdfs:label "Moses ha-Kohen Ibn Gikatilla" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0427 a jp:HistoricalPerson ;
+    rdfs:label "Moses of Beaucaire (revised version of the previous translation by Qalonymos ben Qalonymos)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0428 a jp:HistoricalPerson ;
+    rdfs:label "Muh. ammad al-Hassar" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0429 a jp:HistoricalPerson ;
+    rdfs:label "Nah . um ha-Ma" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0430 a jp:HistoricalPerson ;
+    rdfs:label "Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0431 a jp:HistoricalPerson ;
+    rdfs:label "Nicholas Praepositus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0432 a jp:HistoricalPerson ;
+    rdfs:label "Nicholas of Damascus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0433 a jp:HistoricalPerson ;
+    rdfs:label "Nicomachus of Gerasa" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0434 a jp:HistoricalPerson ;
+    rdfs:label "Nissim ben Solomon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0435 a jp:HistoricalPerson ;
+    rdfs:label "Nur al-Din al-Bitruji" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0436 a jp:HistoricalPerson ;
+    rdfs:label "Obadiah ben Samuel ha-Sefaradi Northern" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0437 a jp:HistoricalPerson ;
+    rdfs:label "On the excerpts of this work" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0438 a jp:HistoricalPerson ;
+    rdfs:label "On this work and its possible authorship" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0439 a jp:HistoricalPerson ;
+    rdfs:label "Only parts of this commentary were translated and inserted into Falaquera’s Opinions of the Philosophers ; they also circulated as an independent text" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0440 a jp:HistoricalPerson ;
+    rdfs:label "Only some fragments of this translation are extant; they were published by A. Altmann" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0441 a jp:HistoricalPerson ;
+    rdfs:label "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0442 a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0443 a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0444 a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0445 a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0446 a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Ptolemy (Abu Ja Ah. mad Ibn Yusuf )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0447 a jp:HistoricalPerson ;
+    rdfs:label "Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0448 a jp:HistoricalPerson ;
+    rdfs:label "Qalonymos Todrosi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0449 a jp:HistoricalPerson ;
+    rdfs:label "Qalonymos ben Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0450 a jp:HistoricalPerson ;
+    rdfs:label "Qalonymos ben Qalonymos (then revised by the translator himself )" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0451 a jp:HistoricalPerson ;
+    rdfs:label "Raimundus Lullus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0452 a jp:HistoricalPerson ;
+    rdfs:label "S e eG .V a j d a" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0453 a jp:HistoricalPerson ;
+    rdfs:label "Saadia Gaon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0454 a jp:HistoricalPerson ;
+    rdfs:label "Saadia ben Maimon Ibn Danan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0455 a jp:HistoricalPerson ;
+    rdfs:label "Samuel Benveniste" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0456 a jp:HistoricalPerson ;
+    rdfs:label "Samuel Ibn Motot" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0457 a jp:HistoricalPerson ;
+    rdfs:label "Samuel Ibn Motot (in his commentary on the Book of Creation)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0458 a jp:HistoricalPerson ;
+    rdfs:label "Samuel Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0459 a jp:HistoricalPerson ;
+    rdfs:label "Samuel ben Judah of Marseilles" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0460 a jp:HistoricalPerson ;
+    rdfs:label "Samuel ben Judah of Marseilles’ revision of Jacob ben Makhir Ibn Tibbon’s version" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0461 a jp:HistoricalPerson ;
+    rdfs:label "Samuel ben Solomon ben Natan" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0462 a jp:HistoricalPerson ;
+    rdfs:label "Second half of 13th cent. (1250–70?) Matthaeus Platearius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0463 a jp:HistoricalPerson ;
+    rdfs:label "Second half of 13th cent. (1250–70?) Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0464 a jp:HistoricalPerson ;
+    rdfs:label "Second half of 13th cent. (1250–70?) Pseudo-Avicenna (H. unayn Ibn Ish. aq?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0465 a jp:HistoricalPerson ;
+    rdfs:label "Shalom Anavi Turkey (" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0466 a jp:HistoricalPerson ;
+    rdfs:label "Shem T . ov Ibn Falaquera" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0467 a jp:HistoricalPerson ;
+    rdfs:label "Shem T . ov ben Isaac of" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0468 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Avigdor" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0469 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Avigdor, assisted by his father Abraham Avigdor" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0470 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Davin of Rodez" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0471 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Davin of Rodez (two versions)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0472 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Ayyub" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0473 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Daud" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0474 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Gabirol" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0475 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Labi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0476 a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Pater of Burgos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0477 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Elijah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0478 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Joseph Ibn Ayyub" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0479 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Moses Melguiri" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0480 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Moses Shalom" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0481 a jp:HistoricalPerson ;
+    rdfs:label "Solomon of" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0482 a jp:HistoricalPerson ;
+    rdfs:label "Steinschneider (Hebraeischen ¨Ubersetzungen" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0483 a jp:HistoricalPerson ;
+    rdfs:label "Taddeo Alderotti" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0484 a jp:HistoricalPerson ;
+    rdfs:label "Tanh . um ben Moses of Beaucaire" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0485 a jp:HistoricalPerson ;
+    rdfs:label "Text, With English Translation and Commentary, ed. A. Hyman (Cambridge, MA, and Jerusalem, 1986)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0486 a jp:HistoricalPerson ;
+    rdfs:label "Thabit Ibn Qurra" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0487 a jp:HistoricalPerson ;
+    rdfs:label "Themistius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0488 a jp:HistoricalPerson ;
+    rdfs:label "Theodosius" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0489 a jp:HistoricalPerson ;
+    rdfs:label "Theophilus “Philaretus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0490 a jp:HistoricalPerson ;
+    rdfs:label "This partial translation (in reality" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0491 a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0492 a jp:HistoricalPerson ;
+    rdfs:label "Thomas Bricot" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0493 a jp:HistoricalPerson ;
+    rdfs:label "Three anonymous translators" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0494 a jp:HistoricalPerson ;
+    rdfs:label "Todros (ben) Moses (Yom T. ov) “Bondia”" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0495 a jp:HistoricalPerson ;
+    rdfs:label "Todros Todrosi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0496 a jp:HistoricalPerson ;
+    rdfs:label "Todros ben Moses Yom T. ov “Bondia”" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0497 a jp:HistoricalPerson ;
+    rdfs:label "Tradition,” Aram" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0498 a jp:HistoricalPerson ;
+    rdfs:label "Tradition: The Hebrew Approach to Aristotle’s Zoological Writings and to Their Ancient and Medieval Commentators in the Middle Ages,” pp. 44–68 in C. Steel, G. Guldentops, and P . Beullens, eds., Aristotle’s Animals in the Middle Ages and Renaissance (Leuven, 1999)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0499 a jp:HistoricalPerson ;
+    rdfs:label "Translation of Moses ben Samuel Ibn Tibbon ( Jerusalem, 2003)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0500 a jp:HistoricalPerson ;
+    rdfs:label "Translation of Ramon Llull’s Ars Brevis,” Traditio 54 (1999): 283–300. A critical edition, by H. Hames, is in progress." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0501 a jp:HistoricalPerson ;
+    rdfs:label "Translation,” Journal of Semitic Studies 2 (1957): 232–42." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0502 a jp:HistoricalPerson ;
+    rdfs:label "Translations of Averroes’ Physical Questions and Moses Narboni’s Commentaries,” (in Hebrew), Qiryat Sefer 57 (1982): 715–24." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0503 a jp:HistoricalPerson ;
+    rdfs:label "Trotula Salernitanus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0504 a jp:HistoricalPerson ;
+    rdfs:label "Two anonymous translators" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0505 a jp:HistoricalPerson ;
+    rdfs:label "Umayya Ibn Abi l-Salt" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0506 a jp:HistoricalPerson ;
+    rdfs:label "Version of Samuel ben Judah ( Jerusalem, 1999)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0507 a jp:HistoricalPerson ;
+    rdfs:label "Versions (New Haven and London, 1967)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0508 a jp:HistoricalPerson ;
+    rdfs:label "William Batecombe" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0509 a jp:HistoricalPerson ;
+    rdfs:label "William Ockham" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0510 a jp:HistoricalPerson ;
+    rdfs:label "Y uhanna Ibn Masawayh (senior or junior?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0511 a jp:HistoricalPerson ;
+    rdfs:label "Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0512 a jp:HistoricalPerson ;
+    rdfs:label "Zerah . iah ha-Levi Saladin" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0513 a jp:HistoricalPerson ;
+    rdfs:label "Zonta" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0514 a jp:HistoricalPerson ;
+    rdfs:label "al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0515 a jp:HistoricalPerson ;
+    rdfs:label "and Arabic: A Critical Edition and English Translation of the Newly-Found Extant Fragments,” Studies in Arabic and Islamic Culture 2 (2006): 185–254." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0516 a jp:HistoricalPerson ;
+    rdfs:label "and Occitanian Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0517 a jp:HistoricalPerson ;
+    rdfs:label "around 1380 Georgios Khrysokokkas" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0518 a jp:HistoricalPerson ;
+    rdfs:label "around 1380? (Pseudo-)Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0519 a jp:HistoricalPerson ;
+    rdfs:label "between 1244 and 1283 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0520 a jp:HistoricalPerson ;
+    rdfs:label "between 1418 and 1510 Balasconus de Taranto (from Portugal)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0521 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1160 (and before 1270?) Dominicus Gundisalvus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0522 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1210–30 Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0523 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1320 Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0524 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1320? Dino Del Garbo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0525 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1350 Franciscus de Bononia" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0526 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1350 Paulus de Sophia (Spira?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0527 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1356 Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0528 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1390 Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0529 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1450–60 Saladino di Ascoli (Piceno)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0530 a jp:HistoricalPerson ;
+    rdfs:label "ca. 1470 Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0531 a jp:HistoricalPerson ;
+    rdfs:label "from the Original Arabic by R. Moses Gikati lia of" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0532 a jp:HistoricalPerson ;
+    rdfs:label "manuscript, see also M. Zonta, “Aristotle’s De Anima and De Generatione et corruptione in Medieval Hebrew Tradition: New Details Regarding T extual History Coming from a Neglected Manuscript,” pp. 91–101 in R. Fontaine et al, eds., Studies in the History of Culture and Science (Leiden, 2011)." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0533 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent. Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0534 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent. Yuhanna Ibn Masawayh (junior?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0535 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0536 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Guillaume de Conches" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0537 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Moses ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0538 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Pseudo-Guillaume de Conches" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0539 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Qusta Ibn Luqa" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0540 a jp:HistoricalPerson ;
+    rdfs:label "of 13th cent.? Yuhanna Ibn Sarabiyyun" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0541 a jp:HistoricalPerson ;
+    rdfs:label "of 15th cent. Luca Pacioli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0542 a jp:HistoricalPerson ;
+    rdfs:label "of 15th cent. Ulugh Begh" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0543 a jp:HistoricalPerson ;
+    rdfs:label "of 15th cent.? Ah. mad Ibn Ah. mad al-Sanbati" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0544 a jp:HistoricalPerson ;
+    rdfs:label "of 15th cent.? Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0545 a jp:HistoricalPerson ;
+    rdfs:label "of 15th cent.? Umr Ibn Muh. ammad" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0546 a jp:HistoricalPerson ;
+    rdfs:label "or before Abu H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0547 a jp:HistoricalPerson ;
+    rdfs:label "or before Averroes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0548 a jp:HistoricalPerson ;
+    rdfs:label "or before Ibn Tufayl" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0549 a jp:HistoricalPerson ;
+    rdfs:label "or before Umayya Ibn Abi l-Salt" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0550 a jp:HistoricalPerson ;
+    rdfs:label "or earlier H . unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0551 a jp:HistoricalPerson ;
+    rdfs:label "redaction based upon the Latin version, see R. Glasner, “The Hebrew Version of De caelo et mundo Attributed to Ibn Sina,” Arabic Sciences and Philosophy" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0552 a jp:HistoricalPerson ;
+    rdfs:label "second half of 14th c.ent Guy de Chauliac" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0553 a jp:HistoricalPerson ;
+    rdfs:label "second half of 14th cent. Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0554 a jp:HistoricalPerson ;
+    rdfs:label "second half of 14th cent. Ibn Abi l-Rijal" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0555 a jp:HistoricalPerson ;
+    rdfs:label "section." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0556 a jp:HistoricalPerson ;
+    rdfs:label "text, compared to the Latin translation by Gerardus Cremonensis) (hnwkth twdwsy) ynagrpla Arabic and Latin Jacob Anatoli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0557 a jp:HistoricalPerson ;
+    rdfs:label "text: G. Bos, Maimonides Medical Aphorisms: Treatises 1–5 : A Parallel Arabic-English Edition (Provo, 2004); idem, Maimonides Medical Aphorisms: Treatises 6–9: A Parallel Arabic-English Edition (Provo, 2007). Only chapter 25 of the Hebrew version was published in a noncritical edition by S. Muenter, Rabbenu Moˇseh ben Maimon, Pirqei Mo ˇseh (bi-refu ), be-targumo ˇsel R. Natan ha-Me ( Jerusalem, 1941), pp. 323–98. On the textual history of this work by Maimonides, see G. Bos, “Maimonides’ Medical Aphorisms: Towards a Critical Edition and Revised English Translation,” Korot 12 (1996–7): 35–79." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0558 a jp:HistoricalPerson ;
+    rdfs:label "trans. ( 2) !ym`h !x[ rps Latin Judah Romano" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0559 a jp:HistoricalPerson ;
+    rdfs:label "trans. @wyrhb frqwba rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0560 a jp:HistoricalPerson ;
+    rdfs:label "trans. [[wntmh rwdkb sqwlwf rmam Arabic Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0561 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Constantinus Africanus !yd[smh rps Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0562 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Constantinus Africanus bytn ryay Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0563 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Constantinus Africanus twl[mh rps Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0564 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Costantinus Africanus @t`h twarm Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0565 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Faraj Ibn Salim (Farragius) ‘[y`wm’ arqn dyh tkalmm @y[h rmam Latin Jacob ben Joseph ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0566 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis #ljtm gzm [wr rps Latin David ben Abraham Caslari" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0567 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis ( 1) twmdqh b”lh rmam Latin Hillel of Verona" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0568 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis ( 4) twbsh rps Latin Eli H . abillo" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0569 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis (parts) rwsnmla Latin Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0570 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis @wrjah twxbqth rps / ynwayprs rps Latin Moses ben Mazliah." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0571 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Gerardus Cremonensis hfbhh ylk ytpwm / !ytpwm hrwm rmam Latin Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0572 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. abib Ibn Bahriz, plus additions by others (including al-Kindi) aqytamtyrah rps Arabic Qalonymos ben Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0573 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq !yrqmhw !yaljh rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0574 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq !yydwjh !yylwjh tghnh Arabic Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0575 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq !yyrdsklal !yrwxyqh rps Arabic Samson ben Solomon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0576 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq @arjb rps Arabic Boniac Solomon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0577 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq gnlwqbw anqjb Arabic Qalonymos ben Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0578 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq h[ydyh tmdqh Arabic Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0579 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq swnylag `wrypb farqbal !yqrph rps Arabic Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0580 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq swnylgl hghnhh rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0581 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq twxrahw twmymhw !ynmzbw !yrywab rps Arabic Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0582 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq wfsral dsphhw hywhh rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0583 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq, Latin trans. by Gerardus Cremonensis twjg`hw twdyj Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0584 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq, Latin trans. twnjmh lkl #samh Latin “Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0585 a jp:HistoricalPerson ;
+    rdfs:label "trans. by H. unayn Ibn Ish. aq, books 1–4 twy[bf twla` Arabic Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0586 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn (1) `pnh rps Arabic Samuel ben Judah of Marseilles" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0587 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn (2) `pnb rmam Arabic Samuel ben Judah of Marseilles (revision of the previous trans.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0588 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn and Isa Ibn Zur wfsral `pnh rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0589 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn and Thabit Ibn Qurra !yjmxh rps Arabic Qalonymos ben Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0590 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn and Thabit Ibn Qurra twntmh rps Arabic Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0591 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn and Thabit Ibn Qurra ‘dml’ twab !`rnh rmam `wryp Arabic Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0592 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Ish. aq Ibn H. unayn twyrwdkh twnwmtb swalym rps Arabic Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0593 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Istafan Ibn Basil and Isa Ibn Yah. ya `wmy`h tylkt rps Arabic Qalonymos ben Qalonymos" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0594 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Jean de Murs and Jean de Lign `eres (1) twjwl Latin Moses of N ˆımes" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0595 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Jean de Murs and Jean de Lign `eres (2) twjwl Latin Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0596 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Johannes Hispanus hnwkth tmkjm lwdgh awbm Latin Jacob ben Elijah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0597 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Plato Tiburtinus (1) !yr[` ham Latin Jacob ben Elijah" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0598 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Qusta Ibn Luqa ( 1) rwdkb swyswdwat rps Arabic Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0599 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Qusta Ibn Luqa ( 2) rwdkb swyswdwat rps Arabic Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0600 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Qusta Ibn Luqa hnwwfxabw rwdkb Arabic Qalonymos ben Qalonymos (two versions)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0601 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Simon de Genoa !yapwrh tr`m Latin Bonafus Bonﬁl Astruc" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0602 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Thabit Ibn Qurra (1) hlwg[h tjy`mb sydymykra rps Arabic Anonymous (not Qalonymos ben Qalonymos!)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0603 a jp:HistoricalPerson ;
+    rdfs:label "trans. by William of Moerbeke wfsral [bfh rja` hm rps Latin Barukh Ibn Ya" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0604 a jp:HistoricalPerson ;
+    rdfs:label "trans. by William of Moerbeke, books I–IV y[bfh [m`h @m !yrmam ’d l[ `wryp Latin Judah Messer Leon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0605 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Yah. ya Ibn Adi swayfsmat `wrp ![ wfsral !lw[hw !ym`h rps Arabic Zerah . iah H. en" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0606 a jp:HistoricalPerson ;
+    rdfs:label "trans. by Yah. ya Ibn al-Bit.riq !ym`h twtwa Arabic Samuel Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0607 a jp:HistoricalPerson ;
+    rdfs:label "trans. by al-H. ajjaj Ibn Yusuf and Ish. aq Ibn H. unayn, revised by Thabit Ibn Qurra (2) sydylqal twdwsy / !y`rw` Arabic Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0608 a jp:HistoricalPerson ;
+    rdfs:label "trans. by al-H. ajjaj Ibn Yusuf and Ish. aq Ibn H. unayn, revised by Thabit Ibn Qurra (3) sydylqal twdwsy / !y`rw` Arabic Jacob ben Makhir Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0609 a jp:HistoricalPerson ;
+    rdfs:label "trans. frqwpal !yrywahw twmymh rps swnylag wrab` hmm bw`jh Arabic Solomon ben Natan ha-Me" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0610 a jp:HistoricalPerson ;
+    rdfs:label "trans. rxqh !ybkwkh tmkj Arabic Moses Ibn Tibbon" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0611 a jp:HistoricalPerson ;
+    rdfs:label "trans. ryfabwblal twdlwmh rps Latin Isaac Abu l-Khayr (from" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0612 a jp:HistoricalPerson ;
+    rdfs:label "trans. wtybb !dah tghnh rds Arabic David ben Solomon Ibn Ya" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0613 a jp:HistoricalPerson ;
+    rdfs:label "translation, part of chapter 1 (1150–60) Latin Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0614 a jp:HistoricalPerson ;
+    rdfs:label "translation, see G. Vajda, Recherches sur la philosophie et la kabbale dans la pens ´ee juive du Moyen Age (Paris and The Hague, 1962), p. 119." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0615 a jp:HistoricalPerson ;
+    rdfs:label "translations by Natan ha-Me and ha-Lorqi, but may involve direct consultation of the Arabic text." ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0616 a jp:HistoricalPerson ;
+    rdfs:label "translations by al-H. ajjaj Ibn Yusuf and Ish. aq Ibn H. unayn, compared to the Latin translation by Gerardus Cremonensis yfsgmla arqnh lwdgh rwbyjh Arabic and Latin Jacob Anatoli" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0617 a jp:HistoricalPerson ;
+    rdfs:label "translator) Title of the Hebrew Translation (if known) Language of Translated T ext Hebrew Translator Country" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0618 a jp:HistoricalPerson ;
+    rdfs:label "work) !yarmh rps Arabic Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0619 a jp:HistoricalPerson ;
+    rdfs:label "“Brethren of Purity” (Abu l-Qasim Maslama al-Majriti?)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0620 a jp:HistoricalPerson ;
+    rdfs:label "“Do ha-Edomi” (pseud.)" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0621 a jp:HistoricalPerson ;
+    rdfs:label "“Petrocellus" ;
+    jp:hasSource jp:Source_Freudenthal .
+
+jp:BookPerson_P0622 a jp:HistoricalPerson ;
+    rdfs:label "ﬁrst decades of the 12th cent. Saadia Gaon" ;
+    jp:hasSource jp:Source_Freudenthal .
+

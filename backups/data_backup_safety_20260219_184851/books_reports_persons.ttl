@@ -1,0 +1,46 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Person_Q11362 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Bajja" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q11362" ;
+    jp:birthYear 1095 ;
+    jp:deathYear 1139 ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Person_Q251259 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tufayl" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q251259" ;
+    jp:birthYear 1110 ;
+    jp:deathYear 1185 ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Person_Q39837 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Rushd" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q39837" ;
+    jp:birthYear 1126 ;
+    jp:deathYear 1198 ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Person_Q8011 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Sina" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q8011" ;
+    jp:birthYear 980 ;
+    jp:deathYear 1037 ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Person_Q859 a jp:HistoricalPerson ;
+    rdfs:label "Plato" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q859" ;
+    jp:birthYear -427 ;
+    jp:deathYear -347 ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Person_Q9546 a jp:HistoricalPerson ;
+    rdfs:label "al-Ghazali" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q9546" ;
+    jp:birthYear 1058 ;
+    jp:deathYear 1111 ;
+    jp:hasSource jp:Source_BooksReports .
+

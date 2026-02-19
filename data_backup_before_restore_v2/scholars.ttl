@@ -1,0 +1,264 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Scholar_ACKERMANA a jp:Scholar ;
+    rdfs:label "ACKERMAN, A" .
+
+jp:Scholar_ALBERTINIFRANCESCA a jp:Scholar ;
+    rdfs:label "ALBERTINI, FRANCESCA" .
+
+jp:Scholar_BENEDETTOM a jp:Scholar ;
+    rdfs:label "BENEDETTO, M" .
+
+jp:Scholar_BLUMENTHALD a jp:Scholar ;
+    rdfs:label "BLUMENTHAL, D" .
+
+jp:Scholar_BLUMENTHALDAVID a jp:Scholar ;
+    rdfs:label "BLUMENTHAL, DAVID" .
+
+jp:Scholar_CG83101 a jp:Scholar ;
+    rdfs:label "CG, 83-101" .
+
+jp:Scholar_DAVIDSONH a jp:Scholar ;
+    rdfs:label "DAVIDSON, H" .
+
+jp:Scholar_DAVIDSONHERBERT a jp:Scholar ;
+    rdfs:label "DAVIDSON, HERBERT" .
+
+jp:Scholar_DOBBSWEINSTEINIDIT a jp:Scholar ;
+    rdfs:label "DOBBS-WEINSTEIN, IDIT" .
+
+jp:Scholar_EHRLICHD a jp:Scholar ;
+    rdfs:label "EHRLICH, D" .
+
+jp:Scholar_EHRLICHDROR a jp:Scholar ;
+    rdfs:label "EHRLICH, DROR" .
+
+jp:Scholar_ERANAMIRA a jp:Scholar ;
+    rdfs:label "ERAN, AMIRA" .
+
+jp:Scholar_FELDMANSEYMOUR a jp:Scholar ;
+    rdfs:label "FELDMAN, SEYMOUR" .
+
+jp:Scholar_FENTONP a jp:Scholar ;
+    rdfs:label "FENTON, P" .
+
+jp:Scholar_FONTAINER a jp:Scholar ;
+    rdfs:label "FONTAINE, R" .
+
+jp:Scholar_FONTAINERESIANNE a jp:Scholar ;
+    rdfs:label "FONTAINE, RESIANNE" .
+
+jp:Scholar_FONTAINERESIANNEANDREASCHATZANDIRENEZWIEPeds a jp:Scholar ;
+    rdfs:label "FONTAINE, RESIANNE, ANDREA SCHATZ, AND IRENE ZWIEP (eds.)" .
+
+jp:Scholar_FRAENKELCARLOS a jp:Scholar ;
+    rdfs:label "FRAENKEL, CARLOS" .
+
+jp:Scholar_FREUDENTHALGAD a jp:Scholar ;
+    rdfs:label "FREUDENTHAL, GAD" .
+
+jp:Scholar_GATTIR a jp:Scholar ;
+    rdfs:label "GATTI, R" .
+
+jp:Scholar_GATTIROBERTO a jp:Scholar ;
+    rdfs:label "GATTI, ROBERTO" .
+
+jp:Scholar_GAZIELA a jp:Scholar ;
+    rdfs:label "GAZIEL, A" .
+
+jp:Scholar_GLASNERR a jp:Scholar ;
+    rdfs:label "GLASNER, R" .
+
+jp:Scholar_GLASNERRUTH a jp:Scholar ;
+    rdfs:label "GLASNER, RUTH" .
+
+jp:Scholar_GOODMANLE a jp:Scholar ;
+    rdfs:label "GOODMAN, L.E" .
+
+jp:Scholar_GUIDIANGELA a jp:Scholar ;
+    rdfs:label "GUIDI, ANGELA" .
+
+jp:Scholar_HALPEREC a jp:Scholar ;
+    rdfs:label "HALPER, E.C" .
+
+jp:Scholar_HALPERY a jp:Scholar ;
+    rdfs:label "HALPER, Y" .
+
+jp:Scholar_HARVEYS a jp:Scholar ;
+    rdfs:label "HARVEY, S" .
+
+jp:Scholar_HARVEYSTEVEN a jp:Scholar ;
+    rdfs:label "HARVEY, STEVEN" .
+
+jp:Scholar_HARVEYWARRENZEV a jp:Scholar ;
+    rdfs:label "HARVEY, WARREN ZEV" .
+
+jp:Scholar_HARVEYWZ a jp:Scholar ;
+    rdfs:label "HARVEY, W.Z" .
+
+jp:Scholar_HUGHESAARON a jp:Scholar ;
+    rdfs:label "HUGHES, AARON" .
+
+jp:Scholar_HUGHESAW a jp:Scholar ;
+    rdfs:label "HUGHES, A.W" .
+
+jp:Scholar_III a jp:Scholar ;
+    rdfs:label "III" .
+
+jp:Scholar_IVRYA a jp:Scholar ;
+    rdfs:label "IVRY, A" .
+
+jp:Scholar_IVRYALFRED a jp:Scholar ;
+    rdfs:label "IVRY, ALFRED" .
+
+jp:Scholar_KASHERH a jp:Scholar ;
+    rdfs:label "KASHER, H" .
+
+jp:Scholar_KASHERHANNAH a jp:Scholar ;
+    rdfs:label "KASHER, HANNAH" .
+
+jp:Scholar_KELLNERM a jp:Scholar ;
+    rdfs:label "KELLNER, M" .
+
+jp:Scholar_KELLNERMENACHEM a jp:Scholar ;
+    rdfs:label "KELLNER, MENACHEM" .
+
+jp:Scholar_KLEINBRASLAVYS a jp:Scholar ;
+    rdfs:label "KLEIN-BRASLAVY, S" .
+
+jp:Scholar_KLEINBRASLAVYSARA a jp:Scholar ;
+    rdfs:label "KLEIN-BRASLAVY, SARA" .
+
+jp:Scholar_KOZODOYM a jp:Scholar ;
+    rdfs:label "KOZODOY, M" .
+
+jp:Scholar_KREISELH a jp:Scholar ;
+    rdfs:label "KREISEL, H" .
+
+jp:Scholar_KREISELHOWARDHAIM a jp:Scholar ;
+    rdfs:label "KREISEL, HOWARD (HAIM)" .
+
+jp:Scholar_LANGERMANNY a jp:Scholar ;
+    rdfs:label "LANGERMANN, Y" .
+
+jp:Scholar_LASKERDANIELJ a jp:Scholar ;
+    rdfs:label "LASKER, DANIEL J" .
+
+jp:Scholar_LASKERDJ a jp:Scholar ;
+    rdfs:label "LASKER, D.J" .
+
+jp:Scholar_LEMLERD a jp:Scholar ;
+    rdfs:label "LEMLER, D" .
+
+jp:Scholar_LERNERBD a jp:Scholar ;
+    rdfs:label "LERNER, B.D" .
+
+jp:Scholar_LERNERBERELDOV a jp:Scholar ;
+    rdfs:label "LERNER, BEREL DOV" .
+
+jp:Scholar_LOBELD a jp:Scholar ;
+    rdfs:label "LOBEL, D" .
+
+jp:Scholar_LOBELDIANA a jp:Scholar ;
+    rdfs:label "LOBEL, DIANA" .
+
+jp:Scholar_MACFARLANDJ a jp:Scholar ;
+    rdfs:label "MACFARLAND, J" .
+
+jp:Scholar_MANEKINCH a jp:Scholar ;
+    rdfs:label "MANEKIN, C.H" .
+
+jp:Scholar_MANEKINCHARLES a jp:Scholar ;
+    rdfs:label "MANEKIN, CHARLES" .
+
+jp:Scholar_MELAMEDA a jp:Scholar ;
+    rdfs:label "MELAMED, A" .
+
+jp:Scholar_MOTZKINAL a jp:Scholar ;
+    rdfs:label "MOTZKIN, A.L" .
+
+jp:Scholar_PARENSJ a jp:Scholar ;
+    rdfs:label "PARENS, J" .
+
+jp:Scholar_PUIGMONTADAJ a jp:Scholar ;
+    rdfs:label "PUIG MONTADA, J" .
+
+jp:Scholar_PUIGMONTADAJOSEP a jp:Scholar ;
+    rdfs:label "PUIG MONTADA, JOSEP" .
+
+jp:Scholar_ROBINSONJAMEST a jp:Scholar ;
+    rdfs:label "ROBINSON, JAMES T" .
+
+jp:Scholar_ROBINSONJT a jp:Scholar ;
+    rdfs:label "ROBINSON, J.T" .
+
+jp:Scholar_RUBIOMERCEDES a jp:Scholar ;
+    rdfs:label "RUBIO, MERCEDES" .
+
+jp:Scholar_RUDAVSKYTAMARM a jp:Scholar ;
+    rdfs:label "RUDAVSKY, TAMAR M" .
+
+jp:Scholar_RUDAVSKYTM a jp:Scholar ;
+    rdfs:label "RUDAVSKY, T.M" .
+
+jp:Scholar_SADIKS a jp:Scholar ;
+    rdfs:label "SADIK, S" .
+
+jp:Scholar_SCHWARTZD a jp:Scholar ;
+    rdfs:label "SCHWARTZ, D" .
+
+jp:Scholar_SCHWARTZDOV a jp:Scholar ;
+    rdfs:label "SCHWARTZ, DOV" .
+
+jp:Scholar_SCHWARTZY a jp:Scholar ;
+    rdfs:label "SCHWARTZ, Y" .
+
+jp:Scholar_SEESKINK a jp:Scholar ;
+    rdfs:label "SEESKIN K" .
+
+jp:Scholar_SEESKINKENNETH a jp:Scholar ;
+    rdfs:label "SEESKIN, KENNETH" .
+
+jp:Scholar_SELAS a jp:Scholar ;
+    rdfs:label "SELA, S" .
+
+jp:Scholar_SELASHLOMO a jp:Scholar ;
+    rdfs:label "SELA, SHLOMO" .
+
+jp:Scholar_SH a jp:Scholar ;
+    rdfs:label "SH" .
+
+jp:Scholar_SMITHUISRENATE a jp:Scholar ;
+    rdfs:label "SMITHUIS, RENATE" .
+
+jp:Scholar_STERNJ a jp:Scholar ;
+    rdfs:label "STERN, J" .
+
+jp:Scholar_STERNJOSEF a jp:Scholar ;
+    rdfs:label "STERN, JOSEF" .
+
+jp:Scholar_SZLAJENF a jp:Scholar ;
+    rdfs:label "SZLAJEN, F" .
+
+jp:Scholar_TANENBAUMADENA a jp:Scholar ;
+    rdfs:label "TANENBAUM, ADENA" .
+
+jp:Scholar_WEISSR a jp:Scholar ;
+    rdfs:label "WEISS, R" .
+
+jp:Scholar_XIIXIV a jp:Scholar ;
+    rdfs:label "XII- XIV)" .
+
+jp:Scholar_XIinCosmogonieecosmologienelMedioevoed a jp:Scholar ;
+    rdfs:label "XI)”, in Cosmogonie e cosmologie nel Medioevo, ed" .
+
+jp:Scholar_YODRevuedestudeshbraquesetjuive2220194977 a jp:Scholar ;
+    rdfs:label "YOD, Revue des études  hébraïques et juive 22) 2019, 49-77" .
+
+jp:Scholar_ZONTAM a jp:Scholar ;
+    rdfs:label "ZONTA, M" .
+
+jp:Scholar_ZONTAMAURO a jp:Scholar ;
+    rdfs:label "ZONTA, MAURO" .
+

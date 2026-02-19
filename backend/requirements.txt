@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+rdflib
+pyshacl
+jinja2
+python-multipart
+pydantic

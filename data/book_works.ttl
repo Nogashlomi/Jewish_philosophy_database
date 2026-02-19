@@ -1,0 +1,3664 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:BookWork_W0001 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Book of Creation (1) (hryxy rps l[ `wrp)" ;
+    jp:authorName "Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the Book of Creation (1) (hryxy rps l[ `wrp)" .
+
+jp:BookWork_W0002 a jp:HistoricalWork ;
+    rdfs:label "Book of Hollow Verbs and Book of Reduplicated Verbs (1) lpkh yl[p rps , jwnh twytwa rps" ;
+    jp:authorName "Judah ben David H. ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Hollow Verbs and Book of Reduplicated Verbs (1) lpkh yl[p rps , jwnh twytwa rps" .
+
+jp:BookWork_W0003 a jp:HistoricalWork ;
+    rdfs:label "Tables !ybkwkh twklhm @wb`j rps" ;
+    jp:authorName "Muh. ammad Ibn J ¯abir al-Battani" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Tables !ybkwkh twklhm @wb`j rps" .
+
+jp:BookWork_W0004 a jp:HistoricalWork ;
+    rdfs:label "Book of Vocalization, Book of Hollow Verbs, and Book of Reduplicated Verbs (2) dwqnh rps, lpkh yl[p rps, jwnh twytwa rps" ;
+    jp:authorName "Judah ben David H. ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Vocalization, Book of Hollow Verbs, and Book of Reduplicated Verbs (2) dwqnh rps, lpkh yl[p rps, jwnh twytwa rps" .
+
+jp:BookWork_W0005 a jp:HistoricalWork ;
+    rdfs:label "Book on Lunar and Solar Eclipses `m`hw hnblh twrdqb rps" ;
+    jp:authorName "Masha" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Lunar and Solar Eclipses `m`hw hnblh twrdqb rps" .
+
+jp:BookWork_W0006 a jp:HistoricalWork ;
+    rdfs:label "Book of Interrogations twla`h rps" ;
+    jp:authorName "Masha" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Interrogations twla`h rps" .
+
+jp:BookWork_W0007 a jp:HistoricalWork ;
+    rdfs:label "On the Intellect (1) t[dh btk" ;
+    jp:authorName "al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Intellect (1) t[dh btk" .
+
+jp:BookWork_W0008 a jp:HistoricalWork ;
+    rdfs:label "Commentary on al-Khwarizmi’s Astronomical Tables (1) yna’twmla twjwl ym[f" ;
+    jp:authorName "Ah. mad Ibn al-Muthanna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on al-Khwarizmi’s Astronomical Tables (1) yna’twmla twjwl ym[f" .
+
+jp:BookWork_W0009 a jp:HistoricalWork ;
+    rdfs:label "De anima, old" ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "De anima, old" .
+
+jp:BookWork_W0010 a jp:HistoricalWork ;
+    rdfs:label "On the Soul `pnh rps" ;
+    jp:authorName "Dominicus Gundisalvus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Soul `pnh rps" .
+
+jp:BookWork_W0011 a jp:HistoricalWork ;
+    rdfs:label "The Duties of the Hearts (1) twbblh twbwj" ;
+    jp:authorName "Bah. ya Ibn Paqudah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Duties of the Hearts (1) twbblh twbwj" .
+
+jp:BookWork_W0012 a jp:HistoricalWork ;
+    rdfs:label "Book of the Khazar (1) yrzwkh rps" ;
+    jp:authorName "Judah ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Khazar (1) yrzwkh rps" .
+
+jp:BookWork_W0013 a jp:HistoricalWork ;
+    rdfs:label "The Correction of the Soul’s Dispositions `pnh twdm @wqt" ;
+    jp:authorName "Solomon Ibn Gabirol" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Correction of the Soul’s Dispositions `pnh twdm @wqt" .
+
+jp:BookWork_W0014 a jp:HistoricalWork ;
+    rdfs:label "Book of the Khazar (2)" ;
+    jp:authorName "Judah ha-Levi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Khazar (2)" .
+
+jp:BookWork_W0015 a jp:HistoricalWork ;
+    rdfs:label "The Duties of the Hearts (2)" ;
+    jp:authorName "Bah. ya Ibn Paqudah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Duties of the Hearts (2)" .
+
+jp:BookWork_W0016 a jp:HistoricalWork ;
+    rdfs:label "T h eT r e a t i s eo f the Garden, part I (perhaps including the entire book) !`wbh tgwr[" ;
+    jp:authorName "Moses Ibn Ezra" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "T h eT r e a t i s eo f the Garden, part I (perhaps including the entire book) !`wbh tgwr[" .
+
+jp:BookWork_W0017 a jp:HistoricalWork ;
+    rdfs:label "Book of Admonition hrahh rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Admonition hrahh rps" .
+
+jp:BookWork_W0018 a jp:HistoricalWork ;
+    rdfs:label "Book of Roots (1), as far as lamed !y`rw`h rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Roots (1), as far as lamed !y`rw`h rps" .
+
+jp:BookWork_W0019 a jp:HistoricalWork ;
+    rdfs:label "Book of Roots (2), as far as lamed (?!y`rw`h rps)" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Roots (2), as far as lamed (?!y`rw`h rps)" .
+
+jp:BookWork_W0020 a jp:HistoricalWork ;
+    rdfs:label "Book of Variegated Flower-Beds hmqrh rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Variegated Flower-Beds hmqrh rps" .
+
+jp:BookWork_W0021 a jp:HistoricalWork ;
+    rdfs:label "Book of Roots (3) !y`rw`h rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Roots (3) !y`rw`h rps" .
+
+jp:BookWork_W0022 a jp:HistoricalWork ;
+    rdfs:label "Book of the Intellectual Spheres (1) (twynwy[rh twlwg[h rps )" ;
+    jp:authorName "Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Intellectual Spheres (1) (twynwy[rh twlwg[h rps )" .
+
+jp:BookWork_W0023 a jp:HistoricalWork ;
+    rdfs:label "Generalities of Medicine (Kulliyyat) (1) llkm" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Generalities of Medicine (Kulliyyat) (1) llkm" .
+
+jp:BookWork_W0024 a jp:HistoricalWork ;
+    rdfs:label "Book of the Beliefs and Opinions tw[dhw twnwmah rps" ;
+    jp:authorName "Saadia Gaon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Beliefs and Opinions tw[dhw twnwmah rps" .
+
+jp:BookWork_W0025 a jp:HistoricalWork ;
+    rdfs:label "On Urines !ynt`h twarm" ;
+    jp:authorName "Gerardus Cremonensis" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Urines !ynt`h twarm" .
+
+jp:BookWork_W0026 a jp:HistoricalWork ;
+    rdfs:label "The Art of Medicine," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Art of Medicine," .
+
+jp:BookWork_W0027 a jp:HistoricalWork ;
+    rdfs:label "Prognostics with Galen’s Commentary," ;
+    jp:authorName "Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Prognostics with Galen’s Commentary," .
+
+jp:BookWork_W0028 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Galen’s Commentary on Hippocrates’ Aphorisms,L a t i n trans. by Constantinus Africanus rwga" ;
+    jp:authorName "H. unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Introduction to Galen’s Commentary on Hippocrates’ Aphorisms,L a t i n trans. by Constantinus Africanus rwga" .
+
+jp:BookWork_W0029 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Galen’s Art of Medicine ,L a t i n trans. by Constantinus Africanus tybh qdb" ;
+    jp:authorName "H. unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Introduction to Galen’s Art of Medicine ,L a t i n trans. by Constantinus Africanus tybh qdb" .
+
+jp:BookWork_W0030 a jp:HistoricalWork ;
+    rdfs:label "The Complete Art (of Medicine) ,L a t i n trans. tyawprh hkalmh !l`" ;
+    jp:authorName "Ali ben al-Abbas al-Majusi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Complete Art (of Medicine) ,L a t i n trans. tyawprh hkalmh !l`" .
+
+jp:BookWork_W0031 a jp:HistoricalWork ;
+    rdfs:label "(Medical) Assistance," ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "(Medical) Assistance," .
+
+jp:BookWork_W0032 a jp:HistoricalWork ;
+    rdfs:label "Provisions for the Traveler (1)," ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Provisions for the Traveler (1)," .
+
+jp:BookWork_W0033 a jp:HistoricalWork ;
+    rdfs:label "Book on Particular Diets," ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Particular Diets," .
+
+jp:BookWork_W0034 a jp:HistoricalWork ;
+    rdfs:label "Book on Urines (1)," ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Urines (1)," .
+
+jp:BookWork_W0035 a jp:HistoricalWork ;
+    rdfs:label "Book on Fevers (1)," ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Fevers (1)," .
+
+jp:BookWork_W0036 a jp:HistoricalWork ;
+    rdfs:label "Perfection of the Nature and the Temperament gzmhw [bfh tml`h" ;
+    jp:authorName "Constantinus Africanus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Perfection of the Nature and the Temperament gzmhw [bfh tml`h" .
+
+jp:BookWork_W0037 a jp:HistoricalWork ;
+    rdfs:label "The Way of Medical Treatment twypwgh twrhfhw !y`wbkh" ;
+    jp:authorName "Gerardus Cremonensis" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Way of Medical Treatment twypwgh twrhfhw !y`wbkh" .
+
+jp:BookWork_W0038 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium) (1) @fqh jwqyrh" ;
+    jp:authorName "Nicholas Praepositus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Prescriptions (Antidotarium) (1) @fqh jwqyrh" .
+
+jp:BookWork_W0039 a jp:HistoricalWork ;
+    rdfs:label "” On Pulses and On Urines @t`h rps, qpdh rps" ;
+    jp:authorName "Theophilus “Philaretus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "” On Pulses and On Urines @t`h rps, qpdh rps" .
+
+jp:BookWork_W0040 a jp:HistoricalWork ;
+    rdfs:label "On the Passions of Women,v e r s i o nB !ah rps" ;
+    jp:authorName "Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Passions of Women,v e r s i o nB !ah rps" .
+
+jp:BookWork_W0041 a jp:HistoricalWork ;
+    rdfs:label "On the Conditions of Women,v e r s i o n3 rtsh rps" ;
+    jp:authorName "Trotula Salernitanus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Conditions of Women,v e r s i o n3 rtsh rps" .
+
+jp:BookWork_W0042 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Galen’s Art of Medicine hnfq hkalm `wryp" ;
+    jp:authorName "Ali Ibn Ridwan" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Galen’s Art of Medicine hnfq hkalm `wryp" .
+
+jp:BookWork_W0043 a jp:HistoricalWork ;
+    rdfs:label "Sophistics aynfsps" ;
+    jp:authorName "Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Sophistics aynfsps" .
+
+jp:BookWork_W0044 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Conditions of the Demonstrative Syllogism ytpwmh `qhh yantb rmam" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Conditions of the Demonstrative Syllogism ytpwmh `qhh yantb rmam" .
+
+jp:BookWork_W0045 a jp:HistoricalWork ;
+    rdfs:label "two Epistles on the Possibility of the Conjunction with the Active Intellect twr`pa trga; l[wph lk`b twqbdh twr`pa trga rxqh twqbdh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "two Epistles on the Possibility of the Conjunction with the Active Intellect twr`pa trga; l[wph lk`b twqbdh twr`pa trga rxqh twqbdh" .
+
+jp:BookWork_W0046 a jp:HistoricalWork ;
+    rdfs:label "On Whether the Active Intellect Unites with the Material Intellect @yn[h hzb (d`r @bl =) wnbl rja rmam" ;
+    jp:authorName "A verroes Junior" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Whether the Active Intellect Unites with the Material Intellect @yn[h hzb (d`r @bl =) wnbl rja rmam" .
+
+jp:BookWork_W0047 a jp:HistoricalWork ;
+    rdfs:label "The Book of Adjustment haw`hh rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Book of Adjustment haw`hh rps" .
+
+jp:BookWork_W0048 a jp:HistoricalWork ;
+    rdfs:label "Book of Criticism hg`hh rps" ;
+    jp:authorName "Jonah Ibn Janah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Criticism hg`hh rps" .
+
+jp:BookWork_W0049 a jp:HistoricalWork ;
+    rdfs:label "Moral Epistle rswmh trga" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Moral Epistle rswmh trga" .
+
+jp:BookWork_W0050 a jp:HistoricalWork ;
+    rdfs:label "Book on the Ban of Burying, Compendium by Abu Sayyid Ubaydallah yrw`ah [w`y rwxyq swnylgl hrwbqh rwsya rps" ;
+    jp:authorName "Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on the Ban of Burying, Compendium by Abu Sayyid Ubaydallah yrw`ah [w`y rwxyq swnylgl hrwbqh rwsya rps" .
+
+jp:BookWork_W0051 a jp:HistoricalWork ;
+    rdfs:label "Introductory Epistle on Logic (1) @wyghh tkalml h[xhb ybarapla [`y yba trga" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introductory Epistle on Logic (1) @wyghh tkalml h[xhb ybarapla [`y yba trga" .
+
+jp:BookWork_W0052 a jp:HistoricalWork ;
+    rdfs:label "Introductory Epistle on Logic (2) @wyghh tkalm tjytpb ybarapla rxn wba trga" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introductory Epistle on Logic (2) @wyghh tkalm tjytpb ybarapla rxn wba trga" .
+
+jp:BookWork_W0053 a jp:HistoricalWork ;
+    rdfs:label "Introductory Epistle on Logic (3) @wyghl hr`yhb !yqrp" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introductory Epistle on Logic (3) @wyghl hr`yhb !yqrp" .
+
+jp:BookWork_W0054 a jp:HistoricalWork ;
+    rdfs:label "Chapters on Logic (1) @wygh tkalmb ...!yqrph !h hla" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Chapters on Logic (1) @wygh tkalmb ...!yqrph !h hla" .
+
+jp:BookWork_W0055 a jp:HistoricalWork ;
+    rdfs:label "Chapters on Logic (2) rbdh twnmwab ...!yllwk !yqrp" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Chapters on Logic (2) rbdh twnmwab ...!yllwk !yqrp" .
+
+jp:BookWork_W0056 a jp:HistoricalWork ;
+    rdfs:label "Chapters on Logic (3) @wyghh tkalmb ...wml`y !yqrp" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Chapters on Logic (3) @wyghh tkalmb ...wml`y !yqrp" .
+
+jp:BookWork_W0057 a jp:HistoricalWork ;
+    rdfs:label "Chapters on Logic (4) la ^rfxy` !ynyyn[h lk $wbq !hb `y` !yqrp .... rwbdh tmkjb lyjtmh !t[ydy" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Chapters on Logic (4) la ^rfxy` !ynyyn[h lk $wbq !hb `y` !yqrp .... rwbdh tmkjb lyjtmh !t[ydy" .
+
+jp:BookWork_W0058 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Isagoge (1) awbm" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Isagoge (1) awbm" .
+
+jp:BookWork_W0059 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Isagoge (2) awbmh ...rja rwxq" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Isagoge (2) awbmh ...rja rwxq" .
+
+jp:BookWork_W0060 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Isagoge (3) ygwgasya" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Isagoge (3) ygwgasya" .
+
+jp:BookWork_W0061 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Categories (1) twrmamh rps ...sayrwqyfq" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Categories (1) twrmamh rps ...sayrwqyfq" .
+
+jp:BookWork_W0062 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Categories (2) twrmamh rps ...sayrwqyfq" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Categories (2) twrmamh rps ...sayrwqyfq" .
+
+jp:BookWork_W0063 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Categories (3) twrmamh rps ...sayrwqyfq" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Categories (3) twrmamh rps ...sayrwqyfq" .
+
+jp:BookWork_W0064 a jp:HistoricalWork ;
+    rdfs:label "Treatise on De interpretatione (1) hxylmh rps ...sannymayryb" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on De interpretatione (1) hxylmh rps ...sannymayryb" .
+
+jp:BookWork_W0065 a jp:HistoricalWork ;
+    rdfs:label "Treatise on De interpretatione (2) hxylmh rps ...sannymayryb" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on De interpretatione (2) hxylmh rps ...sannymayryb" .
+
+jp:BookWork_W0066 a jp:HistoricalWork ;
+    rdfs:label "Treatise on De interpretatione (3) hxylmh rps ...sannymayryb" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on De interpretatione (3) hxylmh rps ...sannymayryb" .
+
+jp:BookWork_W0067 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Prior Analytics (1) `qyhh" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Prior Analytics (1) `qyhh" .
+
+jp:BookWork_W0068 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Prior Analytics (2) `qyhh" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Prior Analytics (2) `qyhh" .
+
+jp:BookWork_W0069 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Topics (1) jwxynh twnmwa" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Topics (1) jwxynh twnmwa" .
+
+jp:BookWork_W0070 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Topics (2) jwxynh twnmwa" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Topics (2) jwxynh twnmwa" .
+
+jp:BookWork_W0071 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Sophistics ha[fh" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Sophistics ha[fh" .
+
+jp:BookWork_W0072 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on the Categories (or perhaps, Long Commentary on Some Obscure Points of the Categories ) “hxrt !`b whnk drpn qrp wa trga”" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long Commentary on the Categories (or perhaps, Long Commentary on Some Obscure Points of the Categories ) “hxrt !`b whnk drpn qrp wa trga”" .
+
+jp:BookWork_W0073 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on De interpretatione hxylmh rps l[ `wrp" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long Commentary on De interpretatione hxylmh rps l[ `wrp" .
+
+jp:BookWork_W0074 a jp:HistoricalWork ;
+    rdfs:label "Short Treatise on the Asymptotic Property of the Hyperbola" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Short Treatise on the Asymptotic Property of the Hyperbola" .
+
+jp:BookWork_W0075 a jp:HistoricalWork ;
+    rdfs:label "The Lamps of Lights (1) twrwah tyk`m" ;
+    jp:authorName "Abu H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Lamps of Lights (1) twrwah tyk`m" .
+
+jp:BookWork_W0076 a jp:HistoricalWork ;
+    rdfs:label "The Lamps of Lights (2) twyhwla twrwam" ;
+    jp:authorName "Abu H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Lamps of Lights (2) twyhwla twrwam" .
+
+jp:BookWork_W0077 a jp:HistoricalWork ;
+    rdfs:label "The Book of Microcosm @fq !lw[ rps" ;
+    jp:authorName "Joseph Ibn S . addiq" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Book of Microcosm @fq !lw[ rps" .
+
+jp:BookWork_W0078 a jp:HistoricalWork ;
+    rdfs:label "The Book of Deﬁnitions (1) twrdghh rps awhw, ylar`yh qjxy rwbyj" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Book of Deﬁnitions (1) twrdghh rps awhw, ylar`yh qjxy rwbyj" .
+
+jp:BookWork_W0079 a jp:HistoricalWork ;
+    rdfs:label "On the Elements twdwsyh r[`" ;
+    jp:authorName "Pseudo-Aristotle (Isaac Israeli)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Elements twdwsyh r[`" .
+
+jp:BookWork_W0080 a jp:HistoricalWork ;
+    rdfs:label "Book of Spirit and Soul `pnhw jwrh rps" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Spirit and Soul `pnhw jwrh rps" .
+
+jp:BookWork_W0081 a jp:HistoricalWork ;
+    rdfs:label "On the Intellect (2) twlk`wmhw lk`h rmam" ;
+    jp:authorName "Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Intellect (2) twlk`wmhw lk`h rmam" .
+
+jp:BookWork_W0082 a jp:HistoricalWork ;
+    rdfs:label "Commentary on al-Khwarizmi’s Astronomical Tables (2) ymzrawkla twjwl ym[f" ;
+    jp:authorName "Ah . mad Ibn al-Muthanna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on al-Khwarizmi’s Astronomical Tables (2) ymzrawkla twjwl ym[f" .
+
+jp:BookWork_W0083 a jp:HistoricalWork ;
+    rdfs:label "On the Virtues of Herbs (fragment)" ;
+    jp:authorName "Pseudo-Macer Floridus (Odo de Meudon)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Virtues of Herbs (fragment)" .
+
+jp:BookWork_W0084 a jp:HistoricalWork ;
+    rdfs:label "Generalities of Medicine (Kulliyyat) (2) hawprb llwkh rps" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Generalities of Medicine (Kulliyyat) (2) hawprb llwkh rps" .
+
+jp:BookWork_W0085 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Theriac qayrtb rmam" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Theriac qayrtb rmam" .
+
+jp:BookWork_W0086 a jp:HistoricalWork ;
+    rdfs:label "Simple (Medicines) for the Cure of the Illnesses of the Body #wgh ylwj tawprb !yfw`p" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Simple (Medicines) for the Cure of the Illnesses of the Body #wgh ylwj tawprb !yfw`p" .
+
+jp:BookWork_W0087 a jp:HistoricalWork ;
+    rdfs:label "Book on Fevers (2) twjdqb !ynw`arh yrbdm rbwjm rps" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Fevers (2) twjdqb !ynw`arh yrbdm rbwjm rps" .
+
+jp:BookWork_W0088 a jp:HistoricalWork ;
+    rdfs:label "On Hemorrhoids (1) !yrwjfh tawprb rmam" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Hemorrhoids (1) !yrwjfh tawprb rmam" .
+
+jp:BookWork_W0089 a jp:HistoricalWork ;
+    rdfs:label "On Sexual Intercourse (1) lg`mh rmam" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Sexual Intercourse (1) lg`mh rmam" .
+
+jp:BookWork_W0090 a jp:HistoricalWork ;
+    rdfs:label "On Asthma (1)( trxqh rps)" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Asthma (1)( trxqh rps)" .
+
+jp:BookWork_W0091 a jp:HistoricalWork ;
+    rdfs:label "Book of Homonyms, On" ;
+    jp:authorName "Judah ben Samuel Ibn Bal" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Hebrew" ;
+    jp:title "Book of Homonyms, On" .
+
+jp:BookWork_W0092 a jp:HistoricalWork ;
+    rdfs:label "The Aided Doctor (al-Mansuri) (1)," ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Aided Doctor (al-Mansuri) (1)," .
+
+jp:BookWork_W0093 a jp:HistoricalWork ;
+    rdfs:label "The Guide of the Perplexed (1) !ykwbnh hrwm" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Guide of the Perplexed (1) !ykwbnh hrwm" .
+
+jp:BookWork_W0094 a jp:HistoricalWork ;
+    rdfs:label "The Guide of the Perplexed (2) !ykwbnh hrwm" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Guide of the Perplexed (2) !ykwbnh hrwm" .
+
+jp:BookWork_W0095 a jp:HistoricalWork ;
+    rdfs:label "Meteorologica," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Meteorologica," .
+
+jp:BookWork_W0096 a jp:HistoricalWork ;
+    rdfs:label "Book of the Apple jwpth rps" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Apple jwpth rps" .
+
+jp:BookWork_W0097 a jp:HistoricalWork ;
+    rdfs:label "The Balance of Actions qdx ynzam" ;
+    jp:authorName "Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Balance of Actions qdx ynzam" .
+
+jp:BookWork_W0098 a jp:HistoricalWork ;
+    rdfs:label "Book of the Elements (1) twdwsyh rps" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Elements (1) twdwsyh rps" .
+
+jp:BookWork_W0099 a jp:HistoricalWork ;
+    rdfs:label "Book of the Elements (2) twdwsyh rps" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Elements (2) twdwsyh rps" .
+
+jp:BookWork_W0100 a jp:HistoricalWork ;
+    rdfs:label "Opinions of the Philosophers !ypwswlyph yrswm" ;
+    jp:authorName "H. unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Opinions of the Philosophers !ypwswlyph yrswm" .
+
+jp:BookWork_W0101 a jp:HistoricalWork ;
+    rdfs:label "Elements," ;
+    jp:authorName "Euclid" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Elements," .
+
+jp:BookWork_W0102 a jp:HistoricalWork ;
+    rdfs:label "The Almagest," ;
+    jp:authorName "Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Almagest," .
+
+jp:BookWork_W0103 a jp:HistoricalWork ;
+    rdfs:label "The Elements of Astronomy (" ;
+    jp:authorName "Abu l-Abbas Ah. mad al-Farghani" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Elements of Astronomy (" .
+
+jp:BookWork_W0104 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Ptolemy’s Almagest yfsgmla rwxyq" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Ptolemy’s Almagest yfsgmla rwxyq" .
+
+jp:BookWork_W0105 a jp:HistoricalWork ;
+    rdfs:label "Explanation of Ptolemy’s Almagest" ;
+    jp:authorName "Thabit Ibn Qurra" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Explanation of Ptolemy’s Almagest" .
+
+jp:BookWork_W0106 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Isagoge awbml y[xmah rwabh" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Isagoge awbml y[xmah rwabh" .
+
+jp:BookWork_W0107 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Categories twrmaml y[xmah rwabh" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Categories twrmaml y[xmah rwabh" .
+
+jp:BookWork_W0108 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on De interpretatione hxylml y[xmah rwabh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on De interpretatione hxylml y[xmah rwabh" .
+
+jp:BookWork_W0109 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Syllogism `qyhl y[xmah rwabh" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Syllogism `qyhl y[xmah rwabh" .
+
+jp:BookWork_W0110 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Demonstration tpwml y[xmah rwabh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Demonstration tpwml y[xmah rwabh" .
+
+jp:BookWork_W0111 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Book of Creation (4) (hryxy rps l[ `wrp)" ;
+    jp:authorName "Dunash ben Tamim" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the Book of Creation (4) (hryxy rps l[ `wrp)" .
+
+jp:BookWork_W0112 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s De anima `pnh rps yllk" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s De anima `pnh rps yllk" .
+
+jp:BookWork_W0113 a jp:HistoricalWork ;
+    rdfs:label "On the Regimen of Health twayrbh tghnhb rmam" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Regimen of Health twayrbh tghnhb rmam" .
+
+jp:BookWork_W0114 a jp:HistoricalWork ;
+    rdfs:label "The Learning of Science hmkjh `rdm" ;
+    jp:authorName "Judah ha-Kohen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Learning of Science hmkjh `rdm" .
+
+jp:BookWork_W0115 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Phenomena," ;
+    jp:authorName "Geminus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introduction to Phenomena," .
+
+jp:BookWork_W0116 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s Physics y[bfh [m`h yllk" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s Physics y[bfh [m`h yllk" .
+
+jp:BookWork_W0117 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s De caelo et mundo !lw[hw !ym`h yllk" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s De caelo et mundo !lw[hw !ym`h yllk" .
+
+jp:BookWork_W0118 a jp:HistoricalWork ;
+    rdfs:label "On the Political Regime twaxmnh twljth rps" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Political Regime twaxmnh twljth rps" .
+
+jp:BookWork_W0119 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s De generatione dsphhw hywhh rps" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s De generatione dsphhw hywhh rps" .
+
+jp:BookWork_W0120 a jp:HistoricalWork ;
+    rdfs:label "Book of the Intellectual Spheres (2) twynwy[rh twlwg[h rps" ;
+    jp:authorName "Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Intellectual Spheres (2) twynwy[rh twlwg[h rps" .
+
+jp:BookWork_W0121 a jp:HistoricalWork ;
+    rdfs:label "The Enumeration of the Sciences (1) hmkj ty`ar" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Enumeration of the Sciences (1) hmkj ty`ar" .
+
+jp:BookWork_W0122 a jp:HistoricalWork ;
+    rdfs:label "Consultancy in Case of Diarrhea lw`l`h tmw[rt l[ by`hl hbw`t" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Consultancy in Case of Diarrhea lw`l`h tmw[rt l[ by`hl hbw`t" .
+
+jp:BookWork_W0123 a jp:HistoricalWork ;
+    rdfs:label "The Medicine for Horses (Hippiatria) (wtawprw swsh lwpyfb )" ;
+    jp:authorName "Jordanus Rufus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Medicine for Horses (Hippiatria) (wtawprw swsh lwpyfb )" .
+
+jp:BookWork_W0124 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s Meteorologica twnwyl[ twtwa rps" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s Meteorologica twnwyl[ twtwa rps" .
+
+jp:BookWork_W0125 a jp:HistoricalWork ;
+    rdfs:label "The Short Prior Analytics `qyhh twkyab rja @fq rwxyq" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Short Prior Analytics `qyhh twkyab rja @fq rwxyq" .
+
+jp:BookWork_W0126 a jp:HistoricalWork ;
+    rdfs:label "Great Book of Surgery twtyrk rps" ;
+    jp:authorName "Brunus de Longoburgo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Great Book of Surgery twtyrk rps" .
+
+jp:BookWork_W0127 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s Parva Naturalia `jwmhw `wjh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s Parva Naturalia `jwmhw `wjh" .
+
+jp:BookWork_W0128 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Art of Logic (1) @wyghh twlm" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Art of Logic (1) @wyghh twlm" .
+
+jp:BookWork_W0129 a jp:HistoricalWork ;
+    rdfs:label "Book of Praxis (1) `wmy`h rps" ;
+    jp:authorName "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Praxis (1) `wmy`h rps" .
+
+jp:BookWork_W0130 a jp:HistoricalWork ;
+    rdfs:label "Paraphrase of Aristotle’s Metaphysics, book XII," ;
+    jp:authorName "Themistius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Paraphrase of Aristotle’s Metaphysics, book XII," .
+
+jp:BookWork_W0131 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium) (1) @ydbarqa" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Prescriptions (Antidotarium) (1) @ydbarqa" .
+
+jp:BookWork_W0132 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s Metaphysics ([bfh rja` hm rwxyq )" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s Metaphysics ([bfh rja` hm rwxyq )" .
+
+jp:BookWork_W0133 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s De caelo (!lw[hw !ym`h rpsl d`r @b rwayb)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s De caelo (!lw[hw !ym`h rpsl d`r @b rwayb)" .
+
+jp:BookWork_W0134 a jp:HistoricalWork ;
+    rdfs:label "On the Principles of Astronomy hnwktb rmam" ;
+    jp:authorName "Nur al-Din al-Bitruji" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Principles of Astronomy hnwktb rmam" .
+
+jp:BookWork_W0135 a jp:HistoricalWork ;
+    rdfs:label "Provisions for the Traveler (2) !ykrdh tdyx" ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Provisions for the Traveler (2) !ykrdh tdyx" .
+
+jp:BookWork_W0136 a jp:HistoricalWork ;
+    rdfs:label "Poem on Medicine (Cantica) (1), with Averroes’ commentary hzwgra rwayb" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Poem on Medicine (Cantica) (1), with Averroes’ commentary hzwgra rwayb" .
+
+jp:BookWork_W0137 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s De anima (1) (`pnh rpsl d`r @b rwayb)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s De anima (1) (`pnh rpsl d`r @b rwayb)" .
+
+jp:BookWork_W0138 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium) (2) @ydbarqa" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Prescriptions (Antidotarium) (2) @ydbarqa" .
+
+jp:BookWork_W0139 a jp:HistoricalWork ;
+    rdfs:label "Book of the Pure Good (Liber de causis)," ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book of the Pure Good (Liber de causis)," .
+
+jp:BookWork_W0140 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Hippocrates’ Aphorisms," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Hippocrates’ Aphorisms," .
+
+jp:BookWork_W0141 a jp:HistoricalWork ;
+    rdfs:label "Poem on Medicine (Cantica) (2) !yzwrjh rps" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Poem on Medicine (Cantica) (2) !yzwrjh rps" .
+
+jp:BookWork_W0142 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s De anima (2) `pnh rps rwayb" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s De anima (2) `pnh rps rwayb" .
+
+jp:BookWork_W0143 a jp:HistoricalWork ;
+    rdfs:label "Problemata physica," ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Problemata physica," .
+
+jp:BookWork_W0144 a jp:HistoricalWork ;
+    rdfs:label "The Aided Doctor (Al-Mansuri) (2) yrwxnmla rps" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Aided Doctor (Al-Mansuri) (2) yrwxnmla rps" .
+
+jp:BookWork_W0145 a jp:HistoricalWork ;
+    rdfs:label "Chapters on the Art of Logic @wygh" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Chapters on the Art of Logic @wygh" .
+
+jp:BookWork_W0146 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle’s Historia Animalium (parts) (wfsral !yyj yl[b rpsm) !yfwqyl" ;
+    jp:authorName "Abu l-Faraj Ibn al-T. ayyib" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Aristotle’s Historia Animalium (parts) (wfsral !yyj yl[b rpsm) !yfwqyl" .
+
+jp:BookWork_W0147 a jp:HistoricalWork ;
+    rdfs:label "Source of Life (sections) !yyj rwqm rpsm !yfwqyl" ;
+    jp:authorName "Solomon Ibn Gabirol" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Source of Life (sections) !yyj rwqm rpsm !yfwqyl" .
+
+jp:BookWork_W0148 a jp:HistoricalWork ;
+    rdfs:label "Book of the Five Substances (sections) !ymx[b sylqdnb rpsm !yfwqyl) (h`ymjh" ;
+    jp:authorName "Pseudo-Empedocles" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Five Substances (sections) !ymx[b sylqdnb rpsm !yfwqyl) (h`ymjh" .
+
+jp:BookWork_W0149 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Premises of Euclid’s Elements rmamh tjytp `wryp" ;
+    jp:authorName "Al-H. asan Ibn al-Haytham" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the Premises of Euclid’s Elements rmamh tjytp `wryp" .
+
+jp:BookWork_W0150 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Euclid’s Elements, introduction to books I and V (rmamh) tjytpl `wryp" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Euclid’s Elements, introduction to books I and V (rmamh) tjytpl `wryp" .
+
+jp:BookWork_W0151 a jp:HistoricalWork ;
+    rdfs:label "Spherics," ;
+    jp:authorName "Theodosius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Spherics," .
+
+jp:BookWork_W0152 a jp:HistoricalWork ;
+    rdfs:label "Arithmetic @wb`j" ;
+    jp:authorName "Muh. ammad al-Hassar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Arithmetic @wb`j" .
+
+jp:BookWork_W0153 a jp:HistoricalWork ;
+    rdfs:label "Spherics," ;
+    jp:authorName "Menelaus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Spherics," .
+
+jp:BookWork_W0154 a jp:HistoricalWork ;
+    rdfs:label "On the Conﬁguration of the World (1) hnwkth rps" ;
+    jp:authorName "Al-H. asan Ibn al-Haytham" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Conﬁguration of the World (1) hnwkth rps" .
+
+jp:BookWork_W0155 a jp:HistoricalWork ;
+    rdfs:label "Astrolabe blrfxah `wryp" ;
+    jp:authorName "Abu l-Qasim Ibn al-Saffar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Astrolabe blrfxah `wryp" .
+
+jp:BookWork_W0156 a jp:HistoricalWork ;
+    rdfs:label "The Calendar (Al-Saﬁha) ‘hjypx’ arqnh jwlb h`[mh trga" ;
+    jp:authorName "Ibrahim al-Zarkali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Calendar (Al-Saﬁha) ‘hjypx’ arqnh jwlb h`[mh trga" .
+
+jp:BookWork_W0157 a jp:HistoricalWork ;
+    rdfs:label "The Short Canon (1) @fqh rdsh" ;
+    jp:authorName "A vicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Short Canon (1) @fqh rdsh" .
+
+jp:BookWork_W0158 a jp:HistoricalWork ;
+    rdfs:label "Postulates (Data)," ;
+    jp:authorName "Euclid" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Postulates (Data)," .
+
+jp:BookWork_W0159 a jp:HistoricalWork ;
+    rdfs:label "Optics," ;
+    jp:authorName "Euclid" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Optics," .
+
+jp:BookWork_W0160 a jp:HistoricalWork ;
+    rdfs:label "On the Rotating Sphere ," ;
+    jp:authorName "Autolycus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Rotating Sphere ," .
+
+jp:BookWork_W0161 a jp:HistoricalWork ;
+    rdfs:label "Correction of Ptolemy’s Almagest (1) yfsgmla rwxyq" ;
+    jp:authorName "J¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Correction of Ptolemy’s Almagest (1) yfsgmla rwxyq" .
+
+jp:BookWork_W0162 a jp:HistoricalWork ;
+    rdfs:label "Correction of Ptolemy’s Almagest (2) yfsgmla rwxyq" ;
+    jp:authorName "J¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Correction of Ptolemy’s Almagest (2) yfsgmla rwxyq" .
+
+jp:BookWork_W0163 a jp:HistoricalWork ;
+    rdfs:label "Medical Aphorisms (1) h`m yqrp" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Medical Aphorisms (1) h`m yqrp" .
+
+jp:BookWork_W0164 a jp:HistoricalWork ;
+    rdfs:label "Composite Medicines According to Genera (Katagenos) , books I–III," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Composite Medicines According to Genera (Katagenos) , books I–III," .
+
+jp:BookWork_W0165 a jp:HistoricalWork ;
+    rdfs:label "Book on Illnesses and their Symptoms," ;
+    jp:authorName "Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Illnesses and their Symptoms," .
+
+jp:BookWork_W0166 a jp:HistoricalWork ;
+    rdfs:label "On Poisons (2)( dbknh rmam)" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Poisons (2)( dbknh rmam)" .
+
+jp:BookWork_W0167 a jp:HistoricalWork ;
+    rdfs:label "On Sexual Intercourse (2) lg`mh rmam" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Sexual Intercourse (2) lg`mh rmam" .
+
+jp:BookWork_W0168 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Hippocrates’ Aphorisms (2) (frqwba yqrpl `wryp )" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Hippocrates’ Aphorisms (2) (frqwba yqrpl `wryp )" .
+
+jp:BookWork_W0169 a jp:HistoricalWork ;
+    rdfs:label "On Superfetation," ;
+    jp:authorName "Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Superfetation," .
+
+jp:BookWork_W0170 a jp:HistoricalWork ;
+    rdfs:label "On Hemorrhoids (2) !yrwjfb rmam" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Hemorrhoids (2) !yrwjfb rmam" .
+
+jp:BookWork_W0171 a jp:HistoricalWork ;
+    rdfs:label "On the Regimen of Health," ;
+    jp:authorName "Pseudo-Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Regimen of Health," .
+
+jp:BookWork_W0172 a jp:HistoricalWork ;
+    rdfs:label "Canon (1) llwkh rps wrwayb, @wnqh rps" ;
+    jp:authorName "A vicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Canon (1) llwkh rps wrwayb, @wnqh rps" .
+
+jp:BookWork_W0173 a jp:HistoricalWork ;
+    rdfs:label "On the Origin of the Eclipses and the Aspect of the Planets l[w twrwamh twql tbs l[ rmam !hyfp`mw tkl ybkwk yfbm" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Origin of the Eclipses and the Aspect of the Planets l[w twrwamh twql tbs l[ rmam !hyfp`mw tkl ybkwk yfbm" .
+
+jp:BookWork_W0174 a jp:HistoricalWork ;
+    rdfs:label "Canon (2), books I-II @wnqla" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Canon (2), books I-II @wnqla" .
+
+jp:BookWork_W0175 a jp:HistoricalWork ;
+    rdfs:label "Correction of Ptolemy’s Almagest (3) yfsgmla rwxyq" ;
+    jp:authorName "J¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Correction of Ptolemy’s Almagest (3) yfsgmla rwxyq" .
+
+jp:BookWork_W0176 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Hippocrates’ Prognostics," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Hippocrates’ Prognostics," .
+
+jp:BookWork_W0177 a jp:HistoricalWork ;
+    rdfs:label "On Airs, Times, Waters and Places," ;
+    jp:authorName "Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Airs, Times, Waters and Places," .
+
+jp:BookWork_W0178 a jp:HistoricalWork ;
+    rdfs:label "On the Cure of the Eye (jbw`mh)" ;
+    jp:authorName "Abu l-Qasim Ammar al-Mawsili" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Cure of the Eye (jbw`mh)" .
+
+jp:BookWork_W0179 a jp:HistoricalWork ;
+    rdfs:label "Epistle about Forgetfulness (1) hjwl` trga" ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Epistle about Forgetfulness (1) hjwl` trga" .
+
+jp:BookWork_W0180 a jp:HistoricalWork ;
+    rdfs:label "Medical Aphorisms (2) h`m yqrp" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Medical Aphorisms (2) h`m yqrp" .
+
+jp:BookWork_W0181 a jp:HistoricalWork ;
+    rdfs:label "Hundred Aphorisms (Centiloquium)," ;
+    jp:authorName "Pseudo-Ptolemy (Abu Ja Ah. mad Ibn Yusuf )" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Hundred Aphorisms (Centiloquium)," .
+
+jp:BookWork_W0182 a jp:HistoricalWork ;
+    rdfs:label "Great Introduction," ;
+    jp:authorName "Abu Ma" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Great Introduction," .
+
+jp:BookWork_W0183 a jp:HistoricalWork ;
+    rdfs:label "Book of Foods and Medicines twnwzmh rps" ;
+    jp:authorName "Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Foods and Medicines twnwzmh rps" .
+
+jp:BookWork_W0184 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Art of Logic (2) @wyghh twlm" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Art of Logic (2) @wyghh twlm" .
+
+jp:BookWork_W0185 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium) (2) !wyrafwdyfna" ;
+    jp:authorName "Nicholas Praepositus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Prescriptions (Antidotarium) (2) !wyrafwdyfna" .
+
+jp:BookWork_W0186 a jp:HistoricalWork ;
+    rdfs:label "Book on Oil and Water !ymhw @m`h rps" ;
+    jp:authorName "Ruggerus (Panormitanus?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Oil and Water !ymhw @m`h rps" .
+
+jp:BookWork_W0187 a jp:HistoricalWork ;
+    rdfs:label "On Acute Illnesses," ;
+    jp:authorName "Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Acute Illnesses," .
+
+jp:BookWork_W0188 a jp:HistoricalWork ;
+    rdfs:label "The Book of Division and Lessening #wlyjhw qwlyjh rps" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Book of Division and Lessening #wlyjhw qwlyjh rps" .
+
+jp:BookWork_W0189 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Physics (1) d`r @b rwayb ,wfsral y[bfh [m`h rps" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Physics (1) d`r @b rwayb ,wfsral y[bfh [m`h rps" .
+
+jp:BookWork_W0190 a jp:HistoricalWork ;
+    rdfs:label "De generatione et corruptione," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "De generatione et corruptione," .
+
+jp:BookWork_W0191 a jp:HistoricalWork ;
+    rdfs:label "Paraphrase of Aristotle’s De caelo," ;
+    jp:authorName "Themistius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Paraphrase of Aristotle’s De caelo," .
+
+jp:BookWork_W0192 a jp:HistoricalWork ;
+    rdfs:label "De anima," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "De anima," .
+
+jp:BookWork_W0193 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Metaphysics (1) wfsral [bfh rja` hmm d`r @b rwayb" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Metaphysics (1) wfsral [bfh rja` hmm d`r @b rwayb" .
+
+jp:BookWork_W0194 a jp:HistoricalWork ;
+    rdfs:label "Book of the Pure Good (Liber de causis) (2) rwmgh bwfb rwaybh" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Pure Good (Liber de causis) (2) rwmgh bwfb rwaybh" .
+
+jp:BookWork_W0195 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Quiddity of the Soul `pnh twhmb rmam" ;
+    jp:authorName "Pseudo-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Quiddity of the Soul `pnh twhmb rmam" .
+
+jp:BookWork_W0196 a jp:HistoricalWork ;
+    rdfs:label "Book of Praxis (2) !l`h $pjh" ;
+    jp:authorName "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Praxis (2) !l`h $pjh" .
+
+jp:BookWork_W0197 a jp:HistoricalWork ;
+    rdfs:label "Epitome of the Organon @wygh tkalm lkm rwxyq" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Epitome of the Organon @wygh tkalm lkm rwxyq" .
+
+jp:BookWork_W0198 a jp:HistoricalWork ;
+    rdfs:label "Intentions of the Philosophers,p a r t s1 and 2 (1) !ypwswlyph tw[d" ;
+    jp:authorName "A bu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Intentions of the Philosophers,p a r t s1 and 2 (1) !ypwswlyph tw[d" .
+
+jp:BookWork_W0199 a jp:HistoricalWork ;
+    rdfs:label "Intentions of the Philosophers,p a r t3 (1) !ypwswlyph tw[d" ;
+    jp:authorName "A b u H . amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Intentions of the Philosophers,p a r t3 (1) !ypwswlyph tw[d" .
+
+jp:BookWork_W0200 a jp:HistoricalWork ;
+    rdfs:label "Book of Praxis (3), book 1 (?) #wryx" ;
+    jp:authorName "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Praxis (3), book 1 (?) #wryx" .
+
+jp:BookWork_W0201 a jp:HistoricalWork ;
+    rdfs:label "On the Preservation of Human Life !yyj trym`" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Preservation of Human Life !yyj trym`" .
+
+jp:BookWork_W0202 a jp:HistoricalWork ;
+    rdfs:label "On Prognosis (1) h[ydyh tmdqhw !yylwbg !ymy" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Prognosis (1) h[ydyh tmdqhw !yylwbg !ymy" .
+
+jp:BookWork_W0203 a jp:HistoricalWork ;
+    rdfs:label "Surgery," ;
+    jp:authorName "Y uhanna Ibn Masawayh (senior or junior?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery," .
+
+jp:BookWork_W0204 a jp:HistoricalWork ;
+    rdfs:label "Book on Paralysis (part of the Arnaldina?) @y`ylarph rmam" ;
+    jp:authorName "Arnaldus de Villanova (?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Paralysis (part of the Arnaldina?) @y`ylarph rmam" .
+
+jp:BookWork_W0205 a jp:HistoricalWork ;
+    rdfs:label "On Poisons !ysrab rmam" ;
+    jp:authorName "Magister Gualtierus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Poisons !ysrab rmam" .
+
+jp:BookWork_W0206 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Hippocrates’ On Airs, Waters and Places," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Hippocrates’ On Airs, Waters and Places," .
+
+jp:BookWork_W0207 a jp:HistoricalWork ;
+    rdfs:label "The Regimen of Acute Illnesses twdjh tghnhb rwbyj" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Regimen of Acute Illnesses twdjh tghnhb rwbyj" .
+
+jp:BookWork_W0208 a jp:HistoricalWork ;
+    rdfs:label "The Method for Unnatural Treatment hlwbjth jwl" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Method for Unnatural Treatment hlwbjth jwl" .
+
+jp:BookWork_W0209 a jp:HistoricalWork ;
+    rdfs:label "Book on Animals (= Historia, De partibus,a n dDe generatione animalium)," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Animals (= Historia, De partibus,a n dDe generatione animalium)," .
+
+jp:BookWork_W0210 a jp:HistoricalWork ;
+    rdfs:label "Book on Minerals !ynbah rps" ;
+    jp:authorName "Pseudo-Aristotle (Luqa bar Sarabiyyun)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Minerals !ynbah rps" .
+
+jp:BookWork_W0211 a jp:HistoricalWork ;
+    rdfs:label "Book on Universal Diets [bfb !ynw`arh yrmamm rbwjm rps !hytwl[wtw !twjwkw twnwzmh" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Universal Diets [bfb !ynw`arh yrmamm rbwjm rps !hytwl[wtw !twjwkw twnwzmh" .
+
+jp:BookWork_W0212 a jp:HistoricalWork ;
+    rdfs:label "Abbreviatio of Peter of Spain’s Tractatus wfsyral @wyghh rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Abbreviatio of Peter of Spain’s Tractatus wfsyral @wyghh rps" .
+
+jp:BookWork_W0213 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Art of Logic (3) @wyghh twlm" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Art of Logic (3) @wyghh twlm" .
+
+jp:BookWork_W0214 a jp:HistoricalWork ;
+    rdfs:label "On the Substance of Heaven (De substantia orbis) (1) lglgh !x[b rmam" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Substance of Heaven (De substantia orbis) (1) lglgh !x[b rmam" .
+
+jp:BookWork_W0215 a jp:HistoricalWork ;
+    rdfs:label "Physical (and Metaphysical) Questions !yy[bfh !y`wrdh rps" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Physical (and Metaphysical) Questions !yy[bfh !y`wrdh rps" .
+
+jp:BookWork_W0216 a jp:HistoricalWork ;
+    rdfs:label "On the First Matter and On the Meaning of Forms;A b uJ a Ibn Sabiq,On the First Matter rmam ;twrwxh @yn[b rmam ;@w`arh rmjb rmam @w`arh rmjb" ;
+    jp:authorName "Abu l-Qasim Ibn Idris" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the First Matter and On the Meaning of Forms;A b uJ a Ibn Sabiq,On the First Matter rmam ;twrwxh @yn[b rmam ;@w`arh rmjb rmam @w`arh rmjb" .
+
+jp:BookWork_W0217 a jp:HistoricalWork ;
+    rdfs:label "Decisive Treatise twqbdh @m hmkjhw hrwth @yb` hmb rmanh ldbh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Decisive Treatise twqbdh @m hmkjhw hrwth @yb` hmb rmanh ldbh" .
+
+jp:BookWork_W0218 a jp:HistoricalWork ;
+    rdfs:label "Appendix to the Decisive Treatise (1 and 2)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Appendix to the Decisive Treatise (1 and 2)" .
+
+jp:BookWork_W0219 a jp:HistoricalWork ;
+    rdfs:label "Disclosure of the Proof Methods Concerning the Principles of Religion tdh twrbsb twyarh ykrd" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Disclosure of the Proof Methods Concerning the Principles of Religion tdh twrbsb twyarh ykrd" .
+
+jp:BookWork_W0220 a jp:HistoricalWork ;
+    rdfs:label "Book of Deﬁnitions (2) ylar`yh qjxy rwbyj" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Deﬁnitions (2) ylar`yh qjxy rwbyj" .
+
+jp:BookWork_W0221 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the 25 Propositions of Maimonides’ Guide of the Perplexed (1) !ykwbn hrwmb` twmdqh h“k `wryp" ;
+    jp:authorName "Abu Abdallah Muh. ammad al-Tabrizi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the 25 Propositions of Maimonides’ Guide of the Perplexed (1) !ykwbn hrwmb` twmdqh h“k `wryp" .
+
+jp:BookWork_W0222 a jp:HistoricalWork ;
+    rdfs:label "Explanation of Aristotle’s Purpose in his Metaphysics [bfh rja` hm rpsb wfsra tnwwkb rmam" ;
+    jp:authorName "Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Explanation of Aristotle’s Purpose in his Metaphysics [bfh rja` hm rpsb wfsra tnwwkb rmam" .
+
+jp:BookWork_W0223 a jp:HistoricalWork ;
+    rdfs:label "Exhortation on the Way to Happiness hjlxhh ^rd l[ hr[hh" ;
+    jp:authorName "Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Exhortation on the Way to Happiness hjlxhh ^rd l[ hr[hh" .
+
+jp:BookWork_W0224 a jp:HistoricalWork ;
+    rdfs:label "Selected Aphorisms !yqwlj !yqrp" ;
+    jp:authorName "Al-F ¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Selected Aphorisms !yqwlj !yqrp" .
+
+jp:BookWork_W0225 a jp:HistoricalWork ;
+    rdfs:label "Book of Mirrors (an" ;
+    jp:authorName "Pseudo-Euclid" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Mirrors (an" .
+
+jp:BookWork_W0226 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Menelaus’ Spherics `walyml tykwtyjh hnwmtb rwbdh" ;
+    jp:authorName "J ¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Menelaus’ Spherics `walyml tykwtyjh hnwmtb rwbdh" .
+
+jp:BookWork_W0227 a jp:HistoricalWork ;
+    rdfs:label "The Measurement of the Circle," ;
+    jp:authorName "Archimedes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Measurement of the Circle," .
+
+jp:BookWork_W0228 a jp:HistoricalWork ;
+    rdfs:label "The Measurement of the Circle, anonymous" ;
+    jp:authorName "Archimedes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Measurement of the Circle, anonymous" .
+
+jp:BookWork_W0229 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Astrology ylar`yh rxb @b lwa` !kjhl !yllk" ;
+    jp:authorName "Sahl Ibn Bishr" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introduction to Astrology ylar`yh rxb @b lwa` !kjhl !yllk" .
+
+jp:BookWork_W0230 a jp:HistoricalWork ;
+    rdfs:label "Encyclopedia, section on music (corresponding to part of Al-F ¯ar¯ab¯ı, The Great Book on Music )" ;
+    jp:authorName "Umayya Ibn Abi l-Salt" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Encyclopedia, section on music (corresponding to part of Al-F ¯ar¯ab¯ı, The Great Book on Music )" .
+
+jp:BookWork_W0231 a jp:HistoricalWork ;
+    rdfs:label "Book of Crisis ," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Crisis ," .
+
+jp:BookWork_W0232 a jp:HistoricalWork ;
+    rdfs:label "De Substantia Orbis: Critical Edition of the" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Hebrew" ;
+    jp:title "De Substantia Orbis: Critical Edition of the" .
+
+jp:BookWork_W0233 a jp:HistoricalWork ;
+    rdfs:label "Treatise on Phlebotomy," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Treatise on Phlebotomy," .
+
+jp:BookWork_W0234 a jp:HistoricalWork ;
+    rdfs:label "Regimen for the Epileptic Boy," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Regimen for the Epileptic Boy," .
+
+jp:BookWork_W0235 a jp:HistoricalWork ;
+    rdfs:label "On Melancholy," ;
+    jp:authorName "Pseudo-Galen or Rufus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Melancholy," .
+
+jp:BookWork_W0236 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Galen’s Work on Urine," ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Galen’s Work on Urine," .
+
+jp:BookWork_W0237 a jp:HistoricalWork ;
+    rdfs:label "On the Aspects of Urine @t`h twarm" ;
+    jp:authorName "Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Aspects of Urine @t`h twarm" .
+
+jp:BookWork_W0238 a jp:HistoricalWork ;
+    rdfs:label "On Poisons twmh !s ynyn[b apwrh swlwpl rps" ;
+    jp:authorName "(Pseudo-)Paulus de Aegina" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Poisons twmh !s ynyn[b apwrh swlwpl rps" .
+
+jp:BookWork_W0239 a jp:HistoricalWork ;
+    rdfs:label "” On Phlebotomy" ;
+    jp:authorName "Plato “the Arab" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "” On Phlebotomy" .
+
+jp:BookWork_W0240 a jp:HistoricalWork ;
+    rdfs:label "The Short Canon (2) @wfq @wnaq arqn rps" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Short Canon (2) @wfq @wnaq arqn rps" .
+
+jp:BookWork_W0241 a jp:HistoricalWork ;
+    rdfs:label "On Cardiac Drugs (1) !yybl !yms" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Cardiac Drugs (1) !yybl !yms" .
+
+jp:BookWork_W0242 a jp:HistoricalWork ;
+    rdfs:label "On Cardiac Drugs (2)," ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Cardiac Drugs (2)," .
+
+jp:BookWork_W0243 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Galen’s Art of Medicine ,L a t i n trans. by Marcus Toletanus (1 and 2) wayxynawy / awbm" ;
+    jp:authorName "H . unayn Ibn Ish. aq" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Introduction to Galen’s Art of Medicine ,L a t i n trans. by Marcus Toletanus (1 and 2) wayxynawy / awbm" .
+
+jp:BookWork_W0244 a jp:HistoricalWork ;
+    rdfs:label "Commentary on H. unayn Ibn Ish. aq’s Introduction to Galen’s Art of Medicine wayxynawy `wryp" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on H. unayn Ibn Ish. aq’s Introduction to Galen’s Art of Medicine wayxynawy `wryp" .
+
+jp:BookWork_W0245 a jp:HistoricalWork ;
+    rdfs:label "Aphorisms hawprh @m twr[h" ;
+    jp:authorName "Yuhanna Ibn Masawayh (senior?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Aphorisms hawprh @m twr[h" .
+
+jp:BookWork_W0246 a jp:HistoricalWork ;
+    rdfs:label "General Canons and Simple Medicines (2)," ;
+    jp:authorName "Yuhanna Ibn Masawayh (junior?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "General Canons and Simple Medicines (2)," .
+
+jp:BookWork_W0247 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium) (1, 2, 3,a n d4)," ;
+    jp:authorName "Yuhanna Ibn Masawayh (junior?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Prescriptions (Antidotarium) (1, 2, 3,a n d4)," .
+
+jp:BookWork_W0248 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine (1 and 2)," ;
+    jp:authorName "Yuhanna Ibn Masawayh (junior?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Practical Medicine (1 and 2)," .
+
+jp:BookWork_W0249 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Avicenna’s Canon zygwmh rps" ;
+    jp:authorName "Ali al-Qurashi Ibn al-Naﬁs" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Avicenna’s Canon zygwmh rps" .
+
+jp:BookWork_W0250 a jp:HistoricalWork ;
+    rdfs:label "On the Illnesses of the Joints ," ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Illnesses of the Joints ," .
+
+jp:BookWork_W0251 a jp:HistoricalWork ;
+    rdfs:label "On the Illnesses of Children (1 and 2) yzar ypk !yr[nh ylwjm ; !ynfqh !yr[nh tghnhm" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Illnesses of Children (1 and 2) yzar ypk !yr[nh ylwjm ; !ynfqh !yr[nh tghnhm" .
+
+jp:BookWork_W0252 a jp:HistoricalWork ;
+    rdfs:label "Razi’s Medical Aphorisms yzar yqrp" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Razi’s Medical Aphorisms yzar yqrp" .
+
+jp:BookWork_W0253 a jp:HistoricalWork ;
+    rdfs:label "On the Properties, Utilities, and Damages of the Limbs of Animals ,L a t i n trans. !qzyhw !hytwyl[wtw !yyj yl[b yrbya twlwgsm" ;
+    jp:authorName "Abu Bakr al-Razi (?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Properties, Utilities, and Damages of the Limbs of Animals ,L a t i n trans. !qzyhw !hytwyl[wtw !yyj yl[b yrbya twlwgsm" .
+
+jp:BookWork_W0254 a jp:HistoricalWork ;
+    rdfs:label "Apology of the Careless Physician !yrqmh @m hawprh tkalmb hrqy` hmb rmam" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Apology of the Careless Physician !yrqmh @m hawprh tkalmb hrqy` hmb rmam" .
+
+jp:BookWork_W0255 a jp:HistoricalWork ;
+    rdfs:label "On Phlebotomy hzqhb rmam" ;
+    jp:authorName "Abu Bakr al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Phlebotomy hzqhb rmam" .
+
+jp:BookWork_W0256 a jp:HistoricalWork ;
+    rdfs:label "On Sexual Impotence lg`mh fw[ymb rmam" ;
+    jp:authorName "Ubayd IbnAli Ibn Jurji (or Juraja)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Sexual Impotence lg`mh fw[ymb rmam" .
+
+jp:BookWork_W0257 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Galen’s Elements hnfq hkalm `wryp" ;
+    jp:authorName "Ali Ibn Ridwan" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Galen’s Elements hnfq hkalm `wryp" .
+
+jp:BookWork_W0258 a jp:HistoricalWork ;
+    rdfs:label "Simple Medicines (!yms tmy`r)" ;
+    jp:authorName "Abu l-H . asan Sufyan" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Simple Medicines (!yms tmy`r)" .
+
+jp:BookWork_W0259 a jp:HistoricalWork ;
+    rdfs:label "Book of Praxis (4) twawprh `wmy`" ;
+    jp:authorName "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Praxis (4) twawprh `wmy`" .
+
+jp:BookWork_W0260 a jp:HistoricalWork ;
+    rdfs:label "The Relief llwkh qljh" ;
+    jp:authorName "Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Relief llwkh qljh" .
+
+jp:BookWork_W0261 a jp:HistoricalWork ;
+    rdfs:label "On the Regimen of Health twayrbh tghnh" ;
+    jp:authorName "Abu Marwan Ibn Zuhr" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Regimen of Health twayrbh tghnh" .
+
+jp:BookWork_W0262 a jp:HistoricalWork ;
+    rdfs:label "Bed of Perfume !`wbh tgwr[" ;
+    jp:authorName "Anonymous ( Judah?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Bed of Perfume !`wbh tgwr[" .
+
+jp:BookWork_W0263 a jp:HistoricalWork ;
+    rdfs:label "Medical Encyclopedia (hawprb lwdg rwbj) Persian Anonymous Greece or Turkey?" ;
+    jp:authorName "Zayn al-Din al-Jurjani" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "Medical Encyclopedia (hawprb lwdg rwbj) Persian Anonymous Greece or Turkey?" .
+
+jp:BookWork_W0264 a jp:HistoricalWork ;
+    rdfs:label "Book on Urines (2)," ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Urines (2)," .
+
+jp:BookWork_W0265 a jp:HistoricalWork ;
+    rdfs:label "Book on Urines (3) @t`h twyrwh rwayb" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Urines (3) @t`h twyrwh rwayb" .
+
+jp:BookWork_W0266 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Hippocrates’ Aphorisms (3) (frqwba yqrpl `wryp )" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Hippocrates’ Aphorisms (3) (frqwba yqrpl `wryp )" .
+
+jp:BookWork_W0267 a jp:HistoricalWork ;
+    rdfs:label "The Regimen of Health (1) twayrbh tghnh" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Regimen of Health (1) twayrbh tghnh" .
+
+jp:BookWork_W0268 a jp:HistoricalWork ;
+    rdfs:label "The Regimen of Health, Catalan trans. by Berenguer C¸a Riera twayrbh tghnh Catalan Joseph ben Judah ha-Sefaradi ?147" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "The Regimen of Health, Catalan trans. by Berenguer C¸a Riera twayrbh tghnh Catalan Joseph ben Judah ha-Sefaradi ?147" .
+
+jp:BookWork_W0269 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine (1, 2,a n d3) hnydbwnra;( ? ) hnfqh hkalmh; aqyfarp" ;
+    jp:authorName "Johannes de Parma" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Practical Medicine (1, 2,a n d3) hnydbwnra;( ? ) hnfqh hkalmh; aqyfarp" .
+
+jp:BookWork_W0270 a jp:HistoricalWork ;
+    rdfs:label "On Prognosis (2) !ylwbgh rps" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Prognosis (2) !ylwbgh rps" .
+
+jp:BookWork_W0271 a jp:HistoricalWork ;
+    rdfs:label "Little (Medical) Praxis alwqyfrp" ;
+    jp:authorName "Cordone de Papia" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Little (Medical) Praxis alwqyfrp" .
+
+jp:BookWork_W0272 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine hqyfrp Italian Anonymous Italy?" ;
+    jp:authorName "Gentile da Foligno" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "Practical Medicine hqyfrp Italian Anonymous Italy?" .
+
+jp:BookWork_W0273 a jp:HistoricalWork ;
+    rdfs:label "three short treatises about pregnancies (?) tlpml t`wbjt" ;
+    jp:authorName "Aegidius de Arelate" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "three short treatises about pregnancies (?) tlpml t`wbjt" .
+
+jp:BookWork_W0274 a jp:HistoricalWork ;
+    rdfs:label "Flower of Medicine hawprh jrp" ;
+    jp:authorName "Magister Gualtierus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Flower of Medicine hawprh jrp" .
+
+jp:BookWork_W0275 a jp:HistoricalWork ;
+    rdfs:label "Surgery haygrwr`m rps" ;
+    jp:authorName "Guilielmus de Congenis" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery haygrwr`m rps" .
+
+jp:BookWork_W0276 a jp:HistoricalWork ;
+    rdfs:label "Surgery (1 and 2), books I–III haygwryx rps ;haygwryx" ;
+    jp:authorName "Guilielmus de Saliceto" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery (1 and 2), books I–III haygwryx rps ;haygwryx" .
+
+jp:BookWork_W0277 a jp:HistoricalWork ;
+    rdfs:label "On Preservation and Cure, introduction (yllkh rmaml hmdqh )" ;
+    jp:authorName "Guilielmus de Saliceto" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Preservation and Cure, introduction (yllkh rmaml hmdqh )" .
+
+jp:BookWork_W0278 a jp:HistoricalWork ;
+    rdfs:label "Short Surgery and Compendium of the Prescriptions (Antidotarium) twpwrth h`[m yrafwfyfnab ;anyqnrpnla" ;
+    jp:authorName "Lanfrancus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Short Surgery and Compendium of the Prescriptions (Antidotarium) twpwrth h`[m yrafwfyfnab ;anyqnrpnla" .
+
+jp:BookWork_W0279 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine, revised by Giovanni Passavanti dyh tkalmb tml`n hmkj" ;
+    jp:authorName "Lanfrancus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Practical Medicine, revised by Giovanni Passavanti dyh tkalmb tml`n hmkj" .
+
+jp:BookWork_W0280 a jp:HistoricalWork ;
+    rdfs:label "On Urine !yalj ynmysb rmam" ;
+    jp:authorName "Matthaeus Gallus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Urine !yalj ynmysb rmam" .
+
+jp:BookWork_W0281 a jp:HistoricalWork ;
+    rdfs:label "On Urine (1 and 2) @t`h twarm" ;
+    jp:authorName "Maurus de Salerno" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Urine (1 and 2) @t`h twarm" .
+
+jp:BookWork_W0282 a jp:HistoricalWork ;
+    rdfs:label "On Phlebotomy twzqh rps" ;
+    jp:authorName "Maurus de Salerno" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Phlebotomy twzqh rps" .
+
+jp:BookWork_W0283 a jp:HistoricalWork ;
+    rdfs:label "On Births (Gynaikeia) (from Soranus)," ;
+    jp:authorName "Moskion (Muscio)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Births (Gynaikeia) (from Soranus)," .
+
+jp:BookWork_W0284 a jp:HistoricalWork ;
+    rdfs:label "On Women’s Medical Problems (Pessaria)," ;
+    jp:authorName "Moskion (Muscio)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Women’s Medical Problems (Pessaria)," .
+
+jp:BookWork_W0285 a jp:HistoricalWork ;
+    rdfs:label "” On Cures (1) aqysyp" ;
+    jp:authorName "“Petrocellus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "” On Cures (1) aqysyp" .
+
+jp:BookWork_W0286 a jp:HistoricalWork ;
+    rdfs:label "Treasure of the Poor (1, 2 and 3) !yldh rxwa; !yyn[h rxwa" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Treasure of the Poor (1, 2 and 3) !yldh rxwa; !yyn[h rxwa" .
+
+jp:BookWork_W0287 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine twdm rps" ;
+    jp:authorName "Johannes Platearius junior" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Practical Medicine twdm rps" .
+
+jp:BookWork_W0288 a jp:HistoricalWork ;
+    rdfs:label "The Tree of Science, passage on the composition of medicines !ymsh tbkrhb @wmar wrf`yaml rmam" ;
+    jp:authorName "Raimundus Lullus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Tree of Science, passage on the composition of medicines !ymsh tbkrhb @wmar wrf`yaml rmam" .
+
+jp:BookWork_W0289 a jp:HistoricalWork ;
+    rdfs:label "Book on the Secrets of Nature or “Quintae essentiae” haysn`ya afnyq ...arqnh,’ hh twhmhm" ;
+    jp:authorName "Raimundus Lullus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on the Secrets of Nature or “Quintae essentiae” haysn`ya afnyq ...arqnh,’ hh twhmhm" .
+
+jp:BookWork_W0290 a jp:HistoricalWork ;
+    rdfs:label "Surgery dyh tkalm / aygwryx" ;
+    jp:authorName "Ruggerus Panormitanus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery dyh tkalm / aygwryx" .
+
+jp:BookWork_W0291 a jp:HistoricalWork ;
+    rdfs:label "as revised by Rolandus Capelluti, “Rolandine” Surgery (1 and 2) hnydnlwr; !y[gnhw twrwbjh rps" ;
+    jp:authorName "Ruggerus Panormitanus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "as revised by Rolandus Capelluti, “Rolandine” Surgery (1 and 2) hnydnlwr; !y[gnhw twrwbjh rps" .
+
+jp:BookWork_W0292 a jp:HistoricalWork ;
+    rdfs:label "Practical Medicine hqyfrp" ;
+    jp:authorName "Ruggerus Panormitanus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Practical Medicine hqyfrp" .
+
+jp:BookWork_W0293 a jp:HistoricalWork ;
+    rdfs:label "Surgery hawpr rps" ;
+    jp:authorName "Theodoricus Borgognoni" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery hawpr rps" .
+
+jp:BookWork_W0294 a jp:HistoricalWork ;
+    rdfs:label "Epistle about Forgetfulness (2) @wrkzh dylwy` hmbw hjk`b rmam" ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Epistle about Forgetfulness (2) @wrkzh dylwy` hmbw hjk`b rmam" .
+
+jp:BookWork_W0295 a jp:HistoricalWork ;
+    rdfs:label "Book of Hollow Verbs (3) (lpkh yl[p rps )" ;
+    jp:authorName "Judah ben David H . ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Hollow Verbs (3) (lpkh yl[p rps )" .
+
+jp:BookWork_W0296 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Aristotle’s De partibus and De generatione animalium (wfsral !yyj yl[bh rps rwab)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Aristotle’s De partibus and De generatione animalium (wfsral !yyj yl[bh rps rwab)" .
+
+jp:BookWork_W0297 a jp:HistoricalWork ;
+    rdfs:label "On the Grades of Medicine twgrdmh rps" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Grades of Medicine twgrdmh rps" .
+
+jp:BookWork_W0298 a jp:HistoricalWork ;
+    rdfs:label "On Purgatives !yllwk !y`rw`" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Purgatives !yllwk !y`rw`" .
+
+jp:BookWork_W0299 a jp:HistoricalWork ;
+    rdfs:label "Prescriptions (Antidotarium)" ;
+    jp:authorName "Armengaudus Blasius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Prescriptions (Antidotarium)" .
+
+jp:BookWork_W0300 a jp:HistoricalWork ;
+    rdfs:label "On Evacuation !yswbykh rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Evacuation !yswbykh rps" .
+
+jp:BookWork_W0301 a jp:HistoricalWork ;
+    rdfs:label "The Principles of Medicine hawprh y`rw`b dwm[h rps" ;
+    jp:authorName "Ali Ibn Ridwan" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Principles of Medicine hawprh y`rw`b dwm[h rps" .
+
+jp:BookWork_W0302 a jp:HistoricalWork ;
+    rdfs:label "On Phlebotomy hzqhb rmamh" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Phlebotomy hzqhb rmamh" .
+
+jp:BookWork_W0303 a jp:HistoricalWork ;
+    rdfs:label "Book on Clyster and Colic," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Clyster and Colic," .
+
+jp:BookWork_W0304 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Five Regular Polyhedra" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on the Five Regular Polyhedra" .
+
+jp:BookWork_W0305 a jp:HistoricalWork ;
+    rdfs:label "The Cutting Figure tykwtyjh hnwmth rps" ;
+    jp:authorName "Thabit Ibn Qurra" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Cutting Figure tykwtyjh hnwmth rps" .
+
+jp:BookWork_W0306 a jp:HistoricalWork ;
+    rdfs:label "Booklet on the Triangle `lw`mh rwbydh" ;
+    jp:authorName "Abu Sa (Abu Sa l -Ala Ibn Sahl?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Booklet on the Triangle `lw`mh rwbydh" .
+
+jp:BookWork_W0307 a jp:HistoricalWork ;
+    rdfs:label "Book on Geometrical Problems trwb`tb !yla`m rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book on Geometrical Problems trwb`tb !yla`m rps" .
+
+jp:BookWork_W0308 a jp:HistoricalWork ;
+    rdfs:label "Treatise on Cylinders and Cones !yddwjmhw twnwwfxab rmam" ;
+    jp:authorName "Ibn al-Samh" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on Cylinders and Cones !yddwjmhw twnwwfxab rmam" .
+
+jp:BookWork_W0309 a jp:HistoricalWork ;
+    rdfs:label "Resolution of the Doubts Concerning the Last Premise in Apollonius’ Conic Sections !yfwrjh rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Resolution of the Doubts Concerning the Last Premise in Apollonius’ Conic Sections !yfwrjh rps" .
+
+jp:BookWork_W0310 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Topics jwxynl y[xmah rwabh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Topics jwxynl y[xmah rwabh" .
+
+jp:BookWork_W0311 a jp:HistoricalWork ;
+    rdfs:label "Book of the Pure Good (Liber de causis),L a t i n trans. by Gerardus Cremonensis (3) twyhlah yjrp / twbsh rps" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book of the Pure Good (Liber de causis),L a t i n trans. by Gerardus Cremonensis (3) twyhlah yjrp / twbsh rps" .
+
+jp:BookWork_W0312 a jp:HistoricalWork ;
+    rdfs:label "On the Causes and the Process of Universality (De causis et processu universitatis), book II, 3, 2" ;
+    jp:authorName "Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Causes and the Process of Universality (De causis et processu universitatis), book II, 3, 2" .
+
+jp:BookWork_W0313 a jp:HistoricalWork ;
+    rdfs:label "On the Intellect (3) lk`wmw lyk`mw lk`b" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Intellect (3) lk`wmw lyk`mw lk`b" .
+
+jp:BookWork_W0314 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Premises of Euclid’s Elements, book X rmamh tjytp `wryp" ;
+    jp:authorName "Al-H. asan Ibn al-Haytham" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the Premises of Euclid’s Elements, book X rmamh tjytp `wryp" .
+
+jp:BookWork_W0315 a jp:HistoricalWork ;
+    rdfs:label "Hundred Aphorisms (Centiloquium) (2) !yrwbd ham arqnw ...swymlfbl yrph rps !yhrba @b dmja rp[g wba w`ryp," ;
+    jp:authorName "Pseudo-Ptolemy (Abu Ja Ah. mad Ibn Yusuf )" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Hundred Aphorisms (Centiloquium) (2) !yrwbd ham arqnw ...swymlfbl yrph rps !yhrba @b dmja rp[g wba w`ryp," .
+
+jp:BookWork_W0316 a jp:HistoricalWork ;
+    rdfs:label "On Natal Horoscopes twdlwmb rmamh rwxyqb trga" ;
+    jp:authorName "Al-Kindi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Natal Horoscopes twdlwmb rmamh rwxyqb trga" .
+
+jp:BookWork_W0317 a jp:HistoricalWork ;
+    rdfs:label "The Sufﬁcient Treatise on Humidities and Rain and On the Causes Attributed to the Celestial Bodies twl[b trga ,rfmbw twyjlb tqpsmh trga !ynwyl[h !y`yah la twsjwymh" ;
+    jp:authorName "Al-Kindi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Sufﬁcient Treatise on Humidities and Rain and On the Causes Attributed to the Celestial Bodies twl[b trga ,rfmbw twyjlb tqpsmh trga !ynwyl[h !y`yah la twsjwymh" .
+
+jp:BookWork_W0318 a jp:HistoricalWork ;
+    rdfs:label "De plantis," ;
+    jp:authorName "Nicholas of Damascus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "De plantis," .
+
+jp:BookWork_W0319 a jp:HistoricalWork ;
+    rdfs:label "Enumeration of the Sciences (2) twmkjh rpsmb rmam" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Enumeration of the Sciences (2) twmkjh rpsmb rmam" .
+
+jp:BookWork_W0320 a jp:HistoricalWork ;
+    rdfs:label "Propaedeutic to the Study of Philosophy twmkjh tayrq rwdsb trga" ;
+    jp:authorName "Al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Propaedeutic to the Study of Philosophy twmkjh tayrq rwdsb trga" .
+
+jp:BookWork_W0321 a jp:HistoricalWork ;
+    rdfs:label "The Cutting Figure `walyml tykwtyjh hnwmtb rwbdh" ;
+    jp:authorName "J¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Cutting Figure `walyml tykwtyjh hnwmtb rwbdh" .
+
+jp:BookWork_W0322 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on Aristotle’s Physics (wfsral y[bfh [m`h rps `wryp)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long Commentary on Aristotle’s Physics (wfsral y[bfh [m`h rps `wryp)" .
+
+jp:BookWork_W0323 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on Aristotle’s Metaphysics (1) (wfsral [bfh rja` hm rps `wryp)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long Commentary on Aristotle’s Metaphysics (1) (wfsral [bfh rja` hm rps `wryp)" .
+
+jp:BookWork_W0324 a jp:HistoricalWork ;
+    rdfs:label "On the Substance of Heaven (De substantia orbis) , anonymous" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Substance of Heaven (De substantia orbis) , anonymous" .
+
+jp:BookWork_W0325 a jp:HistoricalWork ;
+    rdfs:label "On Spirit and Breathing (De spiritu et respiratione) yznk`ah dbknh jah rwbyj ,hmy`nhw jwrh rps" ;
+    jp:authorName "Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Spirit and Breathing (De spiritu et respiratione) yznk`ah dbknh jah rwbyj ,hmy`nhw jwrh rps" .
+
+jp:BookWork_W0326 a jp:HistoricalWork ;
+    rdfs:label "On the Soul (De anima), book III, treatises 1–2 yznk`ah lwdgh !kjh rwbyj ...y`yl`h `pnh rps" ;
+    jp:authorName "Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Soul (De anima), book III, treatises 1–2 yznk`ah lwdgh !kjh rwbyj ...y`yl`h `pnh rps" .
+
+jp:BookWork_W0327 a jp:HistoricalWork ;
+    rdfs:label "On One and Unity (De uno et unitate) (falsely ascribed to Boethius) swayxyawb !kjh rwbyj ,twdjahw djah rmam" ;
+    jp:authorName "Dominicus Gundisalvus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On One and Unity (De uno et unitate) (falsely ascribed to Boethius) swayxyawb !kjh rwbyj ,twdjahw djah rmam" .
+
+jp:BookWork_W0328 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Physics (2) (wfsral y[bfh [m`h rps rwayb)" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Physics (2) (wfsral y[bfh [m`h rps rwayb)" .
+
+jp:BookWork_W0329 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s De generatione (wfsral dsphhw hywhh rps rwayb)" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s De generatione (wfsral dsphhw hywhh rps rwayb)" .
+
+jp:BookWork_W0330 a jp:HistoricalWork ;
+    rdfs:label "Epistle 22 (second part) !yyj yl[b trga" ;
+    jp:authorName "“Brethren of Purity” (Abu l-Qasim Maslama al-Majriti?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Epistle 22 (second part) !yyj yl[b trga" .
+
+jp:BookWork_W0331 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Meteorology twnwyl[h twtwah rps rwayb" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Meteorology twnwyl[h twtwah rps rwayb" .
+
+jp:BookWork_W0332 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Metaphysics (2) (wfsral [bfh rja` hm rps rwayb )" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Metaphysics (2) (wfsral [bfh rja` hm rps rwayb )" .
+
+jp:BookWork_W0333 a jp:HistoricalWork ;
+    rdfs:label "Introduction to Arithmetic ," ;
+    jp:authorName "Nicomachus of Gerasa" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Introduction to Arithmetic ," .
+
+jp:BookWork_W0334 a jp:HistoricalWork ;
+    rdfs:label "The Sphere and the Cylinder," ;
+    jp:authorName "Archimedes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Sphere and the Cylinder," .
+
+jp:BookWork_W0335 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Archimedes’ Sphere and Cylinder," ;
+    jp:authorName "Eutocius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Archimedes’ Sphere and Cylinder," .
+
+jp:BookWork_W0336 a jp:HistoricalWork ;
+    rdfs:label "Planetary Hypotheses," ;
+    jp:authorName "Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Planetary Hypotheses," .
+
+jp:BookWork_W0337 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Menelaus’ Spherics" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Menelaus’ Spherics" .
+
+jp:BookWork_W0338 a jp:HistoricalWork ;
+    rdfs:label "The Perfectionment, section including a version of Thabit Ibn Qurra, On Amicable Numbers" ;
+    jp:authorName "Al-Mu Ibn Hud" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Perfectionment, section including a version of Thabit Ibn Qurra, On Amicable Numbers" .
+
+jp:BookWork_W0339 a jp:HistoricalWork ;
+    rdfs:label "On Being and Essence (De ente et essentia) `rwdh dbknh jah rwbyj ,twayxmhw axmnh rmam" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Being and Essence (De ente et essentia) `rwdh dbknh jah rwbyj ,twayxmhw axmnh rmam" .
+
+jp:BookWork_W0340 a jp:HistoricalWork ;
+    rdfs:label "Book of Urines (4) @t`h t[ydyb !ynw`arh yrmamb rbwjm rps" ;
+    jp:authorName "Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Urines (4) @t`h t[ydyb !ynw`arh yrmamb rbwjm rps" .
+
+jp:BookWork_W0341 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Peter of Spain’s Tractatus swnpsyh swrfpl `afqrf" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Peter of Spain’s Tractatus swnpsyh swrfpl `afqrf" .
+
+jp:BookWork_W0342 a jp:HistoricalWork ;
+    rdfs:label "Logical Questions d`r @bal twyrbd twla`" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Logical Questions d`r @bal twyrbd twla`" .
+
+jp:BookWork_W0343 a jp:HistoricalWork ;
+    rdfs:label "Logical Question IX yr`pah rwbj ;d`r @bal twyrbd twla` hnw`arh hnwmtb yjrkhhw" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Logical Question IX yr`pah rwbj ;d`r @bal twyrbd twla` hnw`arh hnwmtb yjrkhhw" .
+
+jp:BookWork_W0344 a jp:HistoricalWork ;
+    rdfs:label "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" ;
+    jp:authorName "Abu al-Qasim ben Idris" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" .
+
+jp:BookWork_W0345 a jp:HistoricalWork ;
+    rdfs:label "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" ;
+    jp:authorName "Abu al-H. ajjaj Ibn Talmus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" .
+
+jp:BookWork_W0346 a jp:HistoricalWork ;
+    rdfs:label "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" ;
+    jp:authorName "Abu al-Abbas Ah. mad ben Qasim" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" .
+
+jp:BookWork_W0347 a jp:HistoricalWork ;
+    rdfs:label "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" ;
+    jp:authorName "Abd al-Rah. man ben Tahir" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Logical Questions of the Philosophers !ypwswlpl r`a ...twyrbdh twla`h" .
+
+jp:BookWork_W0348 a jp:HistoricalWork ;
+    rdfs:label "Surgery (Prescriptions) wnydm t`wbjth h`[mw haygwryx rps" ;
+    jp:authorName "Dino Del Garbo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Surgery (Prescriptions) wnydm t`wbjth h`[mw haygwryx rps" .
+
+jp:BookWork_W0349 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on Aristotle’s Metaphysics (2) (wfsral [bfh rja` hm rps `wryp)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long Commentary on Aristotle’s Metaphysics (2) (wfsral [bfh rja` hm rps `wryp)" .
+
+jp:BookWork_W0350 a jp:HistoricalWork ;
+    rdfs:label "Summa Theologiae, part I, question 15 (“on ideas”) wnywqad wsmwf !kjl ...!yl`mhb rmam" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summa Theologiae, part I, question 15 (“on ideas”) wnywqad wsmwf !kjl ...!yl`mhb rmam" .
+
+jp:BookWork_W0351 a jp:HistoricalWork ;
+    rdfs:label "Opuscule on Fallacies, introduction wnyqam smwf !kjl @wyghh tkalmm ha[fhh rmam" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Opuscule on Fallacies, introduction wnyqam smwf !kjl @wyghh tkalmm ha[fhh rmam" .
+
+jp:BookWork_W0352 a jp:HistoricalWork ;
+    rdfs:label "Treatise on the Faculties of the Soul ,rwxyqb !hyqwlyjw `pnh twjwk yldbh rmam `rwdh dbknh jah rwbyj" ;
+    jp:authorName "Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Treatise on the Faculties of the Soul ,rwxyqb !hyqwlyjw `pnh twjwk yldbh rmam `rwdh dbknh jah rwbyj" .
+
+jp:BookWork_W0353 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle’s De anima , book III !ypwswlyph rybal y`yl`h `pnh rps swydyaya dbknh jah rwayb ![ slyfwfsyra" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Aristotle’s De anima , book III !ypwswlyph rybal y`yl`h `pnh rps swydyaya dbknh jah rwayb ![ slyfwfsyra" .
+
+jp:BookWork_W0354 a jp:HistoricalWork ;
+    rdfs:label "On the Pluriﬁcation of Possible Intellect swydyaya dbknh jal lk`h tryps rmam" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Pluriﬁcation of Possible Intellect swydyaya dbknh jal lk`h tryps rmam" .
+
+jp:BookWork_W0355 a jp:HistoricalWork ;
+    rdfs:label "On the Faculties of the Human Soul swydyaya !kjh rwbyj ,ty`pn hmkjb rxq rmam" ;
+    jp:authorName "Pseudo-Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Faculties of the Human Soul swydyaya !kjh rwbyj ,ty`pn hmkjb rxq rmam" .
+
+jp:BookWork_W0356 a jp:HistoricalWork ;
+    rdfs:label "On Simple and Mixed Syllogisms in Each Figure lkb tbrw[mhw hfw`ph !y`qhh tywwh rmam dbknh jah rwbyj ,hnwmt" ;
+    jp:authorName "Pseudo-Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Simple and Mixed Syllogisms in Each Figure lkb tbrw[mhw hfw`ph !y`qhh tywwh rmam dbknh jah rwbyj ,hnwmt" .
+
+jp:BookWork_W0357 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle’s Physics, book IV, third part (lectiones 18–28) rmamhm y`yl`h qljh awh` @mzh rmam !ypwswlyph rybal [m`h rpsm y[ybrh swydyaya dbknh jah rwayb ![ slyfwfsyra" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Aristotle’s Physics, book IV, third part (lectiones 18–28) rmamhm y`yl`h qljh awh` @mzh rmam !ypwswlyph rybal [m`h rpsm y[ybrh swydyaya dbknh jah rwayb ![ slyfwfsyra" .
+
+jp:BookWork_W0358 a jp:HistoricalWork ;
+    rdfs:label "Theorems on Being and Essence, I–VIII swaydyaya dbknh jal twhmhw tw`yh rps" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Theorems on Being and Essence, I–VIII swaydyaya dbknh jal twhmhw tw`yh rps" .
+
+jp:BookWork_W0359 a jp:HistoricalWork ;
+    rdfs:label "Summa de creaturis, part II, treatise 1, question 21 harmb tqqjnh hrwxh rmam" ;
+    jp:authorName "Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summa de creaturis, part II, treatise 1, question 21 harmb tqqjnh hrwxh rmam" .
+
+jp:BookWork_W0360 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Demonstration tpwmh rps l[ swaydayal ynwygh rmam" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Demonstration tpwmh rps l[ swaydayal ynwygh rmam" .
+
+jp:BookWork_W0361 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Rhetoric hxlhh tmkj l[ ...rmam" ;
+    jp:authorName "Giles of Rome" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Rhetoric hxlhh tmkj l[ ...rmam" .
+
+jp:BookWork_W0362 a jp:HistoricalWork ;
+    rdfs:label "De fallaciis wnywqam w`mwf lwdgh !kjl rmam" ;
+    jp:authorName "Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "De fallaciis wnywqam w`mwf lwdgh !kjl rmam" .
+
+jp:BookWork_W0363 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Categories ...swlyyna dbknh jal ynwygh rmam" ;
+    jp:authorName "Angel of Camerino" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on the Categories ...swlyyna dbknh jal ynwygh rmam" .
+
+jp:BookWork_W0364 a jp:HistoricalWork ;
+    rdfs:label "Commentary on De interpretatione ...swlyyna dbknh jal ynwygh rmam" ;
+    jp:authorName "Angel of Camerino" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on De interpretatione ...swlyyna dbknh jal ynwygh rmam" .
+
+jp:BookWork_W0365 a jp:HistoricalWork ;
+    rdfs:label "Letter of Farewell trgal ^`mnh rmam" ;
+    jp:authorName "Ibn Bajja" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Letter of Farewell trgal ^`mnh rmam" .
+
+jp:BookWork_W0366 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Plato’s Republic !yrmamh whwllky` hm tf`ph hnydmh tghnhb @wflpal !ysjwymh" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Plato’s Republic !yrmamh whwllky` hm tf`ph hnydmh tghnhb @wflpal !ysjwymh" .
+
+jp:BookWork_W0367 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on Aristotle’s Nicomachean Ethics (wfsral twdmh rps rwayb)" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on Aristotle’s Nicomachean Ethics (wfsral twdmh rps rwayb)" .
+
+jp:BookWork_W0368 a jp:HistoricalWork ;
+    rdfs:label "On the Conﬁguration of the World (2) (hnwktb rmam)" ;
+    jp:authorName "Al-H. asan Ibn al-Haytham" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Conﬁguration of the World (2) (hnwktb rmam)" .
+
+jp:BookWork_W0369 a jp:HistoricalWork ;
+    rdfs:label "On the Soul, book I," ;
+    jp:authorName "Alexander of Aphrodisias" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Soul, book I," .
+
+jp:BookWork_W0370 a jp:HistoricalWork ;
+    rdfs:label "Incoherence of the Philosophers (1) (hlphh tlph)" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Incoherence of the Philosophers (1) (hlphh tlph)" .
+
+jp:BookWork_W0371 a jp:HistoricalWork ;
+    rdfs:label "The Regimen of Health (2) twayrbh tghnhb rmam" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Regimen of Health (2) twayrbh tghnhb rmam" .
+
+jp:BookWork_W0372 a jp:HistoricalWork ;
+    rdfs:label "“Arnaldina” agnydbnra" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "“Arnaldina” agnydbnra" .
+
+jp:BookWork_W0373 a jp:HistoricalWork ;
+    rdfs:label "Intentions of the Philosophers (2) (two times) !ypwswlyph twnwwk" ;
+    jp:authorName "Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Intentions of the Philosophers (2) (two times) !ypwswlyph twnwwk" .
+
+jp:BookWork_W0374 a jp:HistoricalWork ;
+    rdfs:label "Epitome of the Organon @wygh tkalm lkm rwxyq" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Epitome of the Organon @wygh tkalm lkm rwxyq" .
+
+jp:BookWork_W0375 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Organon @wyghl rwayb" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Organon @wyghl rwayb" .
+
+jp:BookWork_W0376 a jp:HistoricalWork ;
+    rdfs:label "Treatise on Rhetoric hxlhh rps" ;
+    jp:authorName "al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on Rhetoric hxlhh rps" .
+
+jp:BookWork_W0377 a jp:HistoricalWork ;
+    rdfs:label "Treatise on Poetics ry`h rps" ;
+    jp:authorName "al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise on Poetics ry`h rps" .
+
+jp:BookWork_W0378 a jp:HistoricalWork ;
+    rdfs:label "The Sources of Questions !y`wrdh fp`m @y[" ;
+    jp:authorName "(Pseudo-)al-F¯ar¯ab¯ı (Avicenna?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Sources of Questions !y`wrdh fp`m @y[" .
+
+jp:BookWork_W0379 a jp:HistoricalWork ;
+    rdfs:label "Compendium of Isaac Israeli’s Foundation of the World !lw[ dwsy rwxyq" ;
+    jp:authorName "Joseph ben Isaac Israeli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of Isaac Israeli’s Foundation of the World !lw[ dwsy rwxyq" .
+
+jp:BookWork_W0380 a jp:HistoricalWork ;
+    rdfs:label "The Salvation,s e c t i o n so n physics and metaphysics `pnh tlxh" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Salvation,s e c t i o n so n physics and metaphysics `pnh tlxh" .
+
+jp:BookWork_W0381 a jp:HistoricalWork ;
+    rdfs:label "three metaphysical questions, one of which corresponds to the Physical Question n. 9 wqljb anys @ba l[ hg`h d`r @bal rmam harwh d`r @bal rmam ;twaxmnh rmamb wyl[ gy`h` hm l[ anys @bal !wdqh t[db rmam ;!dwqh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "three metaphysical questions, one of which corresponds to the Physical Question n. 9 wqljb anys @ba l[ hg`h d`r @bal rmam harwh d`r @bal rmam ;twaxmnh rmamb wyl[ gy`h` hm l[ anys @bal !wdqh t[db rmam ;!dwqh" .
+
+jp:BookWork_W0382 a jp:HistoricalWork ;
+    rdfs:label "Eastern Investigations, Demonstration !yfwqyl" ;
+    jp:authorName "Fakhr al-Din al-Razi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Eastern Investigations, Demonstration !yfwqyl" .
+
+jp:BookWork_W0383 a jp:HistoricalWork ;
+    rdfs:label "Treatises on Logic, Long Commentary on book VIII of the Topics !yfwqyl" ;
+    jp:authorName "al-F¯ar¯ab¯ı" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatises on Logic, Long Commentary on book VIII of the Topics !yfwqyl" .
+
+jp:BookWork_W0384 a jp:HistoricalWork ;
+    rdfs:label "T h eC u r e( o nP a r t so ft h e Syllogism and Demonstration) !yfwqyl" ;
+    jp:authorName "A vicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "T h eC u r e( o nP a r t so ft h e Syllogism and Demonstration) !yfwqyl" .
+
+jp:BookWork_W0385 a jp:HistoricalWork ;
+    rdfs:label "Paraphrase of the Syllogism !yfwqyl" ;
+    jp:authorName "Themistius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Paraphrase of the Syllogism !yfwqyl" .
+
+jp:BookWork_W0386 a jp:HistoricalWork ;
+    rdfs:label "Criterion of Knowledge !yfwqyl" ;
+    jp:authorName "Al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Criterion of Knowledge !yfwqyl" .
+
+jp:BookWork_W0387 a jp:HistoricalWork ;
+    rdfs:label "La ﬁlosoﬁa antica , pp. 245–7." ;
+    jp:authorName "Zonta" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "La ﬁlosoﬁa antica , pp. 245–7." .
+
+jp:BookWork_W0388 a jp:HistoricalWork ;
+    rdfs:label "Long and Middle Commentaries on Demonstration, Middle Commentary on the Topics !yfwqyl" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Long and Middle Commentaries on Demonstration, Middle Commentary on the Topics !yfwqyl" .
+
+jp:BookWork_W0389 a jp:HistoricalWork ;
+    rdfs:label "Correction of Ptolemy’s Almagest (4) yfsygm rwxyq" ;
+    jp:authorName "J¯abir Ibn Aﬂah" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Correction of Ptolemy’s Almagest (4) yfsygm rwxyq" .
+
+jp:BookWork_W0390 a jp:HistoricalWork ;
+    rdfs:label "On the Twilight and On the Rising Clouds rj`h dwm[b trga ;`m`h twrdqb trga" ;
+    jp:authorName "A b u Abdallah Ibn Mu" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Twilight and On the Rising Clouds rj`h dwm[b trga ;`m`h twrdqb trga" .
+
+jp:BookWork_W0391 a jp:HistoricalWork ;
+    rdfs:label "On the Movement of Fixed Stars !ymyyqh !ybkwkh t[wntb rmam" ;
+    jp:authorName "Ibrahim al-Zarkali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On the Movement of Fixed Stars !ymyyqh !ybkwkh t[wntb rmam" .
+
+jp:BookWork_W0392 a jp:HistoricalWork ;
+    rdfs:label "On Different Kinds of Bad Temperament," ;
+    jp:authorName "Galen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Different Kinds of Bad Temperament," .
+
+jp:BookWork_W0393 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Rhetoric hxlhl y[xmah rwabh" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Rhetoric hxlhl y[xmah rwabh" .
+
+jp:BookWork_W0394 a jp:HistoricalWork ;
+    rdfs:label "Middle Commentary on the Poetics ry`l y[xmah rwabh" ;
+    jp:authorName "A verroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Middle Commentary on the Poetics ry`l y[xmah rwabh" .
+
+jp:BookWork_W0395 a jp:HistoricalWork ;
+    rdfs:label "The Health of Life (!yyjh twayrb) `jnh rw[ tlwgsb rmam" ;
+    jp:authorName "Johannes Pauli" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Health of Life (!yyjh twayrb) `jnh rw[ tlwgsb rmam" .
+
+jp:BookWork_W0396 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Alexander of Aphrodisias’ On the Intellect d`r @b `wryp ![ lk`b rdnskla rmam" ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on Alexander of Aphrodisias’ On the Intellect d`r @b `wryp ![ lk`b rdnskla rmam" .
+
+jp:BookWork_W0397 a jp:HistoricalWork ;
+    rdfs:label "Intentions of the Philosophers (3) !ypwswlyph twnwwk" ;
+    jp:authorName "Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Intentions of the Philosophers (3) !ypwswlyph twnwwk" .
+
+jp:BookWork_W0398 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the 25 Propositions of Maimonides’ Guide of the Perplexed (2) twmdqh h“k `wryp" ;
+    jp:authorName "Abu Abdallah Muh. ammad al-Tabrizi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Commentary on the 25 Propositions of Maimonides’ Guide of the Perplexed (2) twmdqh h“k `wryp" .
+
+jp:BookWork_W0399 a jp:HistoricalWork ;
+    rdfs:label "(Medical) Advice hx[" ;
+    jp:authorName "Gentile da Foligno" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "(Medical) Advice hx[" .
+
+jp:BookWork_W0400 a jp:HistoricalWork ;
+    rdfs:label "Consultation about the Plague rbdh l[ ...hx[" ;
+    jp:authorName "Franciscus de Bononia" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Consultation about the Plague rbdh l[ ...hx[" .
+
+jp:BookWork_W0401 a jp:HistoricalWork ;
+    rdfs:label "On Plague (?rbdb hghnh)" ;
+    jp:authorName "Paulus de Sophia (Spira?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Plague (?rbdb hghnh)" .
+
+jp:BookWork_W0402 a jp:HistoricalWork ;
+    rdfs:label "(Medical) Advice hx[" ;
+    jp:authorName "Johannes cum barba (Cenobarba?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "(Medical) Advice hx[" .
+
+jp:BookWork_W0403 a jp:HistoricalWork ;
+    rdfs:label "Book of Simple Medicines and Practical Medicine rxq @wdrwg ;`arh ty`arm" ;
+    jp:authorName "Abd al-Rah. im Ibn Waﬁd" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Simple Medicines and Practical Medicine rxq @wdrwg ;`arh ty`arm" .
+
+jp:BookWork_W0404 a jp:HistoricalWork ;
+    rdfs:label "On Asthma (2) trxqh rps" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Asthma (2) trxqh rps" .
+
+jp:BookWork_W0405 a jp:HistoricalWork ;
+    rdfs:label "On Wine twnyyb rwbdh" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Wine twnyyb rwbdh" .
+
+jp:BookWork_W0406 a jp:HistoricalWork ;
+    rdfs:label "Lily of Medicine (1) twawprh jrp" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Lily of Medicine (1) twawprh jrp" .
+
+jp:BookWork_W0407 a jp:HistoricalWork ;
+    rdfs:label "Treatise Reconciling Philosophy and Religious Law !ylbwqmhw !ynyngfxahw !ypwswlyph tmksh rps" ;
+    jp:authorName "Joseph ben Abraham Ibn Waqar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Treatise Reconciling Philosophy and Religious Law !ylbwqmhw !ynyngfxahw !ypwswlyph tmksh rps" .
+
+jp:BookWork_W0408 a jp:HistoricalWork ;
+    rdfs:label "Medical Compendium twawprh yrwxyq" ;
+    jp:authorName "Gilbertus Anglicus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Medical Compendium twawprh yrwxyq" .
+
+jp:BookWork_W0409 a jp:HistoricalWork ;
+    rdfs:label "Secret of Medicine (1) hqyfrp / hkalmh dws" ;
+    jp:authorName "Johannes Jacobi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Secret of Medicine (1) hqyfrp / hkalmh dws" .
+
+jp:BookWork_W0410 a jp:HistoricalWork ;
+    rdfs:label "The Exalted Faith (1) hmrh hnwmah" ;
+    jp:authorName "Abraham Ibn Daud" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Exalted Faith (1) hmrh hnwmah" .
+
+jp:BookWork_W0411 a jp:HistoricalWork ;
+    rdfs:label "Book of the Intellectual Spheres, chapters 1–4" ;
+    jp:authorName "Ibn al-Sid al-Batalyawsi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of the Intellectual Spheres, chapters 1–4" .
+
+jp:BookWork_W0412 a jp:HistoricalWork ;
+    rdfs:label "Introduction to the Art (of Medicine) hkalmb awbm" ;
+    jp:authorName "Bernardus Alberti" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Introduction to the Art (of Medicine) hkalmb awbm" .
+
+jp:BookWork_W0413 a jp:HistoricalWork ;
+    rdfs:label "On Plague rbdhw rywah `wpy[b / hla rz[" ;
+    jp:authorName "Johannes cum barba (Cenobarba?)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Plague rbdhw rywah `wpy[b / hla rz[" .
+
+jp:BookWork_W0414 a jp:HistoricalWork ;
+    rdfs:label "” Economics," ;
+    jp:authorName "“Bryson" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "” Economics," .
+
+jp:BookWork_W0415 a jp:HistoricalWork ;
+    rdfs:label "Astrolabe blrwfxa tyy`[ rwayb" ;
+    jp:authorName "Jacob al-Corsono" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Astrolabe blrwfxa tyy`[ rwayb" .
+
+jp:BookWork_W0416 a jp:HistoricalWork ;
+    rdfs:label "Parabolas abwn alywwd fbnra yqrp" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Parabolas abwn alywwd fbnra yqrp" .
+
+jp:BookWork_W0417 a jp:HistoricalWork ;
+    rdfs:label "On Fevers (?) !yr[nh awbm" ;
+    jp:authorName "Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Fevers (?) !yr[nh awbm" .
+
+jp:BookWork_W0418 a jp:HistoricalWork ;
+    rdfs:label "On Asthma (3) trxqh rps" ;
+    jp:authorName "Moses Maimonides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "On Asthma (3) trxqh rps" .
+
+jp:BookWork_W0419 a jp:HistoricalWork ;
+    rdfs:label "On the Judgments in Astronomy (1) (summarized) !ybkwkh yfp`mb ...rmam" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Judgments in Astronomy (1) (summarized) !ybkwkh yfp`mb ...rmam" .
+
+jp:BookWork_W0420 a jp:HistoricalWork ;
+    rdfs:label "On Digestive and Purgative Things (1) hlgm" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Digestive and Purgative Things (1) hlgm" .
+
+jp:BookWork_W0421 a jp:HistoricalWork ;
+    rdfs:label "Lily of Medicine (2) hawprh @`w`" ;
+    jp:authorName "Bernardus de Gordon" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Lily of Medicine (2) hawprh @`w`" .
+
+jp:BookWork_W0422 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) (1) awbm" ;
+    jp:authorName "Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) (1) awbm" .
+
+jp:BookWork_W0423 a jp:HistoricalWork ;
+    rdfs:label "The Exalted Faith (2) ha`nh hnwmah" ;
+    jp:authorName "Abraham Ibn Daud" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Exalted Faith (2) ha`nh hnwmah" .
+
+jp:BookWork_W0424 a jp:HistoricalWork ;
+    rdfs:label "Astrology (1)( hnbmh !wqm ypl tyawprh hnjbah )" ;
+    jp:authorName "Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Astrology (1)( hnbmh !wqm ypl tyawprh hnjbah )" .
+
+jp:BookWork_W0425 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) and On Urines (yrwfaqypyralq) ^wkyzh rps" ;
+    jp:authorName "Johannes de Tornamira" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) and On Urines (yrwfaqypyralq) ^wkyzh rps" .
+
+jp:BookWork_W0426 a jp:HistoricalWork ;
+    rdfs:label "On the Judgments of Astronomy (2) fp`mb !ynp" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Judgments of Astronomy (2) fp`mb !ynp" .
+
+jp:BookWork_W0427 a jp:HistoricalWork ;
+    rdfs:label "On Digestive and Purgative Things (2) twbkrhh yr[`" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Digestive and Purgative Things (2) twbkrhh yr[`" .
+
+jp:BookWork_W0428 a jp:HistoricalWork ;
+    rdfs:label "Treasure of the Poor, chapters on fever twjdqh twdws" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Treasure of the Poor, chapters on fever twjdqh twdws" .
+
+jp:BookWork_W0429 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) (2) awbm" ;
+    jp:authorName "Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Book IX of al-Razi’s “Aided Doctor” (al-Mansuri) (2) awbm" .
+
+jp:BookWork_W0430 a jp:HistoricalWork ;
+    rdfs:label "Introduction to the Beginners !ylyjtmh ry`ym" ;
+    jp:authorName "Gerardus de Solo" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Introduction to the Beginners !ylyjtmh ry`ym" .
+
+jp:BookWork_W0431 a jp:HistoricalWork ;
+    rdfs:label "Encyclopedia, section on arithmetic (corresponding to Avicenna, The Cure, section on arithmetic)" ;
+    jp:authorName "Umayya Ibn Abi l-Salt" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Encyclopedia, section on arithmetic (corresponding to Avicenna, The Cure, section on arithmetic)" .
+
+jp:BookWork_W0432 a jp:HistoricalWork ;
+    rdfs:label "Astronomical Tables hnwkt twjwl" ;
+    jp:authorName "Joseph ben Isaac Ibn Waqar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Astronomical Tables hnwkt twjwl" .
+
+jp:BookWork_W0433 a jp:HistoricalWork ;
+    rdfs:label "The World’s Sphere !ynpwah harm" ;
+    jp:authorName "John Holywood ( Johannes de Sacrobosco)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The World’s Sphere !ynpwah harm" .
+
+jp:BookWork_W0434 a jp:HistoricalWork ;
+    rdfs:label "Compendium of the Arithmetical Rules hwsmh rysm" ;
+    jp:authorName "Ah. mad Ibn Muh. ammad Ibn al-Banna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Compendium of the Arithmetical Rules hwsmh rysm" .
+
+jp:BookWork_W0435 a jp:HistoricalWork ;
+    rdfs:label "The Cure, section on geometry" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "The Cure, section on geometry" .
+
+jp:BookWork_W0436 a jp:HistoricalWork ;
+    rdfs:label "Summa naturalium (1) !ym`h rps ,!ym`h twtwa !ydspnw !yywhw !lw[hw" ;
+    jp:authorName "Albert of Orlam ¨unde" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summa naturalium (1) !ym`h rps ,!ym`h twtwa !ydspnw !yywhw !lw[hw" .
+
+jp:BookWork_W0437 a jp:HistoricalWork ;
+    rdfs:label "Tractatus (1) @wygh" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Tractatus (1) @wygh" .
+
+jp:BookWork_W0438 a jp:HistoricalWork ;
+    rdfs:label "Nicomachean Ethics,L a t i n trans. by Robert Grosseteste, as corrected by William of Moerbeke wfsral twdmh rps" ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Nicomachean Ethics,L a t i n trans. by Robert Grosseteste, as corrected by William of Moerbeke wfsral twdmh rps" .
+
+jp:BookWork_W0439 a jp:HistoricalWork ;
+    rdfs:label "Tractatus (2) @wygh" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Tractatus (2) @wygh" .
+
+jp:BookWork_W0440 a jp:HistoricalWork ;
+    rdfs:label "ibid., p. 396." ;
+    jp:authorName "Manekin" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "ibid., p. 396." .
+
+jp:BookWork_W0441 a jp:HistoricalWork ;
+    rdfs:label "Lapidary wyrdypl" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Lapidary wyrdypl" .
+
+jp:BookWork_W0442 a jp:HistoricalWork ;
+    rdfs:label "The Celestial Sphere (Planisferium)," ;
+    jp:authorName "Ptolemy" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Celestial Sphere (Planisferium)," .
+
+jp:BookWork_W0443 a jp:HistoricalWork ;
+    rdfs:label "Speciﬁc (Medicines) twlwgs" ;
+    jp:authorName "Martinus de Lucena" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Speciﬁc (Medicines) twlwgs" .
+
+jp:BookWork_W0444 a jp:HistoricalWork ;
+    rdfs:label "Table on Short Life fbnra awbm" ;
+    jp:authorName "Arnaldus de Villanova" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Table on Short Life fbnra awbm" .
+
+jp:BookWork_W0445 a jp:HistoricalWork ;
+    rdfs:label "On the Plague rbdb rmam" ;
+    jp:authorName "Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Plague rbdb rmam" .
+
+jp:BookWork_W0446 a jp:HistoricalWork ;
+    rdfs:label "Secret of Medicine (2) hqyfrph dws" ;
+    jp:authorName "Johannes Jacobi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Secret of Medicine (2) hqyfrph dws" .
+
+jp:BookWork_W0447 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Nicholas’ Prescriptions (Antidotarium) (1) blwqynm yfwfyfnad rwayb l[ hrbyj ...h[xh" ;
+    jp:authorName "Jean de Saint-Aimand" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Nicholas’ Prescriptions (Antidotarium) (1) blwqynm yfwfyfnad rwayb l[ hrbyj ...h[xh" .
+
+jp:BookWork_W0448 a jp:HistoricalWork ;
+    rdfs:label "On Plague hawprb yqb wnyyny`wf yd wrdyp yrf`m !kjh rwbyj" ;
+    jp:authorName "Petrus de Tussignano" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Plague hawprb yqb wnyyny`wf yd wrdyp yrf`m !kjh rwbyj" .
+
+jp:BookWork_W0449 a jp:HistoricalWork ;
+    rdfs:label "On the Utility of Porretta’s Waters hfyrwp ymm tl[wth" ;
+    jp:authorName "Tura de Castello of Bologna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Utility of Porretta’s Waters hfyrwp ymm tl[wth" .
+
+jp:BookWork_W0450 a jp:HistoricalWork ;
+    rdfs:label "On Herbs (in Medicine) !twjwkw !yb`[h rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Herbs (in Medicine) !twjwkw !yb`[h rps" .
+
+jp:BookWork_W0451 a jp:HistoricalWork ;
+    rdfs:label "(Medical) Substitutes or “Quidproquo” wqwrpfywq" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "(Medical) Substitutes or “Quidproquo” wqwrpfywq" .
+
+jp:BookWork_W0452 a jp:HistoricalWork ;
+    rdfs:label "On the Astrolabe (1) (@yblwrfxah rps)" ;
+    jp:authorName "Hermannus Contractus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Astrolabe (1) (@yblwrfxah rps)" .
+
+jp:BookWork_W0453 a jp:HistoricalWork ;
+    rdfs:label "Theory of the Planets (1) d`r @b w`rpw swlwfwfsyra wrbj !ytr`mh t[b` rps" ;
+    jp:authorName "Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Theory of the Planets (1) d`r @b w`rpw swlwfwfsyra wrbj !ytr`mh t[b` rps" .
+
+jp:BookWork_W0454 a jp:HistoricalWork ;
+    rdfs:label "Canon (3), book I and treatise 1 of book II (@wnqh rps)" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Canon (3), book I and treatise 1 of book II (@wnqh rps)" .
+
+jp:BookWork_W0455 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Nicholas’ Prescriptions (Antidotarium) (2) (!wyrfwdyfna)" ;
+    jp:authorName "Jean de Saint-Aimand" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Nicholas’ Prescriptions (Antidotarium) (2) (!wyrfwdyfna)" .
+
+jp:BookWork_W0456 a jp:HistoricalWork ;
+    rdfs:label "Astrology (2) !ynpl !ynp" ;
+    jp:authorName "Pseudo-Hippocrates" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Astrology (2) !ynpl !ynp" .
+
+jp:BookWork_W0457 a jp:HistoricalWork ;
+    rdfs:label "Medical Treatise twl[mh !rg" ;
+    jp:authorName "Joseph ha-Lorqi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Medical Treatise twl[mh !rg" .
+
+jp:BookWork_W0458 a jp:HistoricalWork ;
+    rdfs:label "On Simple Medicines (Circa instans) (2)" ;
+    jp:authorName "Matthaeus Platearius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Simple Medicines (Circa instans) (2)" .
+
+jp:BookWork_W0459 a jp:HistoricalWork ;
+    rdfs:label "Incoherence of the Philosophers !ypwswlyph tlph" ;
+    jp:authorName "Abu H. amid al-Ghazali" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Incoherence of the Philosophers !ypwswlyph tlph" .
+
+jp:BookWork_W0460 a jp:HistoricalWork ;
+    rdfs:label "The Consolation of Philosophy, Catalan trans. by Pere Saplana and Antoni Ginebreda (1) y`pn by`m !jnm Catalan Samuel Benveniste Spain (Balaguer in Catalonia)245" ;
+    jp:authorName "Boethius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "The Consolation of Philosophy, Catalan trans. by Pere Saplana and Antoni Ginebreda (1) y`pn by`m !jnm Catalan Samuel Benveniste Spain (Balaguer in Catalonia)245" .
+
+jp:BookWork_W0461 a jp:HistoricalWork ;
+    rdfs:label "” On Cures (2) @wyqn" ;
+    jp:authorName "“Petrocellus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "” On Cures (2) @wyqn" .
+
+jp:BookWork_W0462 a jp:HistoricalWork ;
+    rdfs:label "On the Astrolabe (2) gwlwrf`a rps" ;
+    jp:authorName "Hermannus Contractus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On the Astrolabe (2) gwlwrf`a rps" .
+
+jp:BookWork_W0463 a jp:HistoricalWork ;
+    rdfs:label "(Medical) Substitutes," ;
+    jp:authorName "(Pseudo-) Dioscorides" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "(Medical) Substitutes," .
+
+jp:BookWork_W0464 a jp:HistoricalWork ;
+    rdfs:label "The Consolation of Philosophy (2) aypwswlyph tmjn" ;
+    jp:authorName "Boethius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Consolation of Philosophy (2) aypwswlyph tmjn" .
+
+jp:BookWork_W0465 a jp:HistoricalWork ;
+    rdfs:label "Book of Praxis (5)," ;
+    jp:authorName "Abu l-Qasim al-Zahrawi" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book of Praxis (5)," .
+
+jp:BookWork_W0466 a jp:HistoricalWork ;
+    rdfs:label "Provisions for the Traveller (3)," ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Provisions for the Traveller (3)," .
+
+jp:BookWork_W0467 a jp:HistoricalWork ;
+    rdfs:label "Economics,L a t i n trans. by Durandus de Alvernia ‘`qymwnwqya’ arqnh ,tybh tghnh rps" ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Economics,L a t i n trans. by Durandus de Alvernia ‘`qymwnwqya’ arqnh ,tybh tghnh rps" .
+
+jp:BookWork_W0468 a jp:HistoricalWork ;
+    rdfs:label "Oxford Tables" ;
+    jp:authorName "William Batecombe" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Oxford Tables" .
+
+jp:BookWork_W0469 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle’s De anima (wnywqam wsamwf `ryp r`a ...`pnh rps rwayb)" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Aristotle’s De anima (wnywqam wsamwf `ryp r`a ...`pnh rps rwayb)" .
+
+jp:BookWork_W0470 a jp:HistoricalWork ;
+    rdfs:label "Summary of Aristotle’s Physics `y`naynwqyll [m`h rps" ;
+    jp:authorName "Robert Grosseteste" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summary of Aristotle’s Physics `y`naynwqyll [m`h rps" .
+
+jp:BookWork_W0471 a jp:HistoricalWork ;
+    rdfs:label "Book on Soul `y`nyaynwqyl ypk `pnh rps" ;
+    jp:authorName "Pseudo-Robert Grosseteste" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Soul `y`nyaynwqyl ypk `pnh rps" .
+
+jp:BookWork_W0472 a jp:HistoricalWork ;
+    rdfs:label "Theory of Planets (2) tkl ybkwk h[b` @wy[" ;
+    jp:authorName "Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Theory of Planets (2) tkl ybkwk h[b` @wy[" .
+
+jp:BookWork_W0473 a jp:HistoricalWork ;
+    rdfs:label "Algebra" ;
+    jp:authorName "Abu Kamil Shuja" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Algebra" .
+
+jp:BookWork_W0474 a jp:HistoricalWork ;
+    rdfs:label "Tractatus (3) wnap` wrfayp wrf`mm @wyghh" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Tractatus (3) wnap` wrfayp wrf`mm @wyghh" .
+
+jp:BookWork_W0475 a jp:HistoricalWork ;
+    rdfs:label "Arithmetic !yrq[h @wy[" ;
+    jp:authorName "Abu l-H. asan Kushyar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Arithmetic !yrq[h @wy[" .
+
+jp:BookWork_W0476 a jp:HistoricalWork ;
+    rdfs:label "On Drugs !yjqwrh ynyn[ llwk rps" ;
+    jp:authorName "Saladino di Ascoli (Piceno)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Drugs !yjqwrh ynyn[ llwk rps" .
+
+jp:BookWork_W0477 a jp:HistoricalWork ;
+    rdfs:label "Tractatus (4) hypwswlypb rwbyj" ;
+    jp:authorName "Peter of Spain" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Tractatus (4) hypwswlypb rwbyj" .
+
+jp:BookWork_W0478 a jp:HistoricalWork ;
+    rdfs:label "Quaestiones (on the Isagoge, Categories and De interpretatione) twrmam ,awbm l[ twbw`thw twla`h wyyly`rm !kjhl hxylmw" ;
+    jp:authorName "Pseudo-Marsilius" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Quaestiones (on the Isagoge, Categories and De interpretatione) twrmam ,awbm l[ twbw`thw twla`h wyyly`rm !kjhl hxylmw" .
+
+jp:BookWork_W0479 a jp:HistoricalWork ;
+    rdfs:label "Medicine of the Arms (?) twawprh tkalmb rz ’gla @b rps" ;
+    jp:authorName "Abu Ja Ah. mad Ibn al-Jazzar" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Medicine of the Arms (?) twawprh tkalmb rz ’gla @b rps" .
+
+jp:BookWork_W0480 a jp:HistoricalWork ;
+    rdfs:label "Book of Hollow Verbs (4) lpkh yl[p rps" ;
+    jp:authorName "Judah ben David H. ayyuj" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Book of Hollow Verbs (4) lpkh yl[p rps" .
+
+jp:BookWork_W0481 a jp:HistoricalWork ;
+    rdfs:label "Alphonsine Tables," ;
+    jp:authorName "Isaac ben Sid and Judah ben Moses ha-Kohen" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Alphonsine Tables," .
+
+jp:BookWork_W0482 a jp:HistoricalWork ;
+    rdfs:label "De fallaciis ad quosdam nobiles artistas ha[fh" ;
+    jp:authorName "Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "De fallaciis ad quosdam nobiles artistas ha[fh" .
+
+jp:BookWork_W0483 a jp:HistoricalWork ;
+    rdfs:label "The Aspect of the Stars !ybkwkh tyarm" ;
+    jp:authorName "Johann von Gmunden" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "The Aspect of the Stars !ybkwkh tyarm" .
+
+jp:BookWork_W0484 a jp:HistoricalWork ;
+    rdfs:label "Short Book of Surgery rxq awdyg" ;
+    jp:authorName "Guy de Chauliac" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Short Book of Surgery rxq awdyg" .
+
+jp:BookWork_W0485 a jp:HistoricalWork ;
+    rdfs:label "On Fevers twjdqh ghnm l[ rxq llk" ;
+    jp:authorName "Taddeo Alderotti" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Fevers twjdqh ghnm l[ rxq llk" .
+
+jp:BookWork_W0486 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on Aristotle’s De anima ," ;
+    jp:authorName "Averroes" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Long Commentary on Aristotle’s De anima ," .
+
+jp:BookWork_W0487 a jp:HistoricalWork ;
+    rdfs:label "Summa logicae, book I, chapters 14–17 @wygh" ;
+    jp:authorName "William Ockham" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summa logicae, book I, chapters 14–17 @wygh" .
+
+jp:BookWork_W0488 a jp:HistoricalWork ;
+    rdfs:label "On Soul’s Powers (De potentiis animae) (abridged) wnyqa yd `amwf !kjl `pnh twjwkb rmam" ;
+    jp:authorName "Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Soul’s Powers (De potentiis animae) (abridged) wnyqa yd `amwf !kjl `pnh twjwkb rmam" .
+
+jp:BookWork_W0489 a jp:HistoricalWork ;
+    rdfs:label "Disputed Questions on Soul `pnb twla`" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Disputed Questions on Soul `pnb twla`" .
+
+jp:BookWork_W0490 a jp:HistoricalWork ;
+    rdfs:label "On Being and Essence (2) twhmhw axmnh @yn[ rmam" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Being and Essence (2) twhmhw axmnh @yn[ rmam" .
+
+jp:BookWork_W0491 a jp:HistoricalWork ;
+    rdfs:label "On Universals (inc. Circa universalia) llwkh @yn[b" ;
+    jp:authorName "Pseudo-Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Universals (inc. Circa universalia) llwkh @yn[b" .
+
+jp:BookWork_W0492 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s Physics y[bfh [m`h rps" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s Physics y[bfh [m`h rps" .
+
+jp:BookWork_W0493 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s De generatione dsphhw hywhh rps" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s De generatione dsphhw hywhh rps" .
+
+jp:BookWork_W0494 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s De anima `pnh rps" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s De anima `pnh rps" .
+
+jp:BookWork_W0495 a jp:HistoricalWork ;
+    rdfs:label "What Is Necessary in (the Grammar of ) the" ;
+    jp:authorName "Saadia ben Maimon Ibn Danan" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Hebrew" ;
+    jp:title "What Is Necessary in (the Grammar of ) the" .
+
+jp:BookWork_W0496 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s Parva Naturalia rps ,twrkzhw hrykz rps ,`jwmw `wj rps !rwxyqw !yyjh ^rwa rps ,hxyqyw hny`" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s Parva Naturalia rps ,twrkzhw hrykz rps ,`jwmw `wj rps !rwxyqw !yyjh ^rwa rps ,hxyqyw hny`" .
+
+jp:BookWork_W0497 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s De caelo !lw[hw !ym`h rps" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s De caelo !lw[hw !ym`h rps" .
+
+jp:BookWork_W0498 a jp:HistoricalWork ;
+    rdfs:label "Questions on Thomas Aquinas’ On Being and Essence twhmbw axmnb rmam twla`" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Thomas Aquinas’ On Being and Essence twhmbw axmnb rmam twla`" .
+
+jp:BookWork_W0499 a jp:HistoricalWork ;
+    rdfs:label "Description of the “Celidario” wayradylyx arqnh yymym` ylkb rmamh" ;
+    jp:authorName "Bartolomeo Manfredi Dell’Orologio" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Description of the “Celidario” wayradylyx arqnh yymym` ylkb rmamh" .
+
+jp:BookWork_W0500 a jp:HistoricalWork ;
+    rdfs:label "Astronomical Tables twjwl" ;
+    jp:authorName "Giovanni Bianchini" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Astronomical Tables twjwl" .
+
+jp:BookWork_W0501 a jp:HistoricalWork ;
+    rdfs:label "Book of Geometry hdydmh rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book of Geometry hdydmh rps" .
+
+jp:BookWork_W0502 a jp:HistoricalWork ;
+    rdfs:label "Theory of Planets (3)" ;
+    jp:authorName "Gerardus de Sabbioneta" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Theory of Planets (3)" .
+
+jp:BookWork_W0503 a jp:HistoricalWork ;
+    rdfs:label "Treatise of Algebra (alabagwma rb’gla rwxq) Italian Mordekhai Finzi Italy (Mantua)267" ;
+    jp:authorName "Maestro Dardi of Pisa" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:title "Treatise of Algebra (alabagwma rb’gla rwxq) Italian Mordekhai Finzi Italy (Mantua)267" .
+
+jp:BookWork_W0504 a jp:HistoricalWork ;
+    rdfs:label "Physics," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Physics," .
+
+jp:BookWork_W0505 a jp:HistoricalWork ;
+    rdfs:label "On Fevers (1) twjdqhb llk" ;
+    jp:authorName "Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Fevers (1) twjdqhb llk" .
+
+jp:BookWork_W0506 a jp:HistoricalWork ;
+    rdfs:label "Medical Advices hx[h" ;
+    jp:authorName "Bartolomeo Montagnana" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Medical Advices hx[h" .
+
+jp:BookWork_W0507 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s Metaphysics ynwfna !kjhl [bfh rja` hm rps l[ twla` byrdna" ;
+    jp:authorName "Antoni Andreu" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s Metaphysics ynwfna !kjhl [bfh rja` hm rps l[ twla` byrdna" .
+
+jp:BookWork_W0508 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s Nicomachean Ethics twdmh rps" ;
+    jp:authorName "Jean Letourneur ( Johannes Versor)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s Nicomachean Ethics twdmh rps" .
+
+jp:BookWork_W0509 a jp:HistoricalWork ;
+    rdfs:label "Question on the Unity of the Universal llwkb dbkn rmam" ;
+    jp:authorName "Vicent Ferrer" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Question on the Unity of the Universal llwkb dbkn rmam" .
+
+jp:BookWork_W0510 a jp:HistoricalWork ;
+    rdfs:label "Short Art `anydnwmyr / hrxq hkalm" ;
+    jp:authorName "Raimundus Lullus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Short Art `anydnwmyr / hrxq hkalm" .
+
+jp:BookWork_W0511 a jp:HistoricalWork ;
+    rdfs:label "Questions on Aristotle’s De anima" ;
+    jp:authorName "Johannes de Janduno" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions on Aristotle’s De anima" .
+
+jp:BookWork_W0512 a jp:HistoricalWork ;
+    rdfs:label "Questions twbw`tw twla`" ;
+    jp:authorName "Pseudo-Albertus Magnus" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Questions twbw`tw twla`" .
+
+jp:BookWork_W0513 a jp:HistoricalWork ;
+    rdfs:label "Nicomachean Ethics,L a t i n trans. by Leonardo Bruni and Ioannes Argyropulos twdmh rps" ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Nicomachean Ethics,L a t i n trans. by Leonardo Bruni and Ioannes Argyropulos twdmh rps" .
+
+jp:BookWork_W0514 a jp:HistoricalWork ;
+    rdfs:label "Economics, books I and III," ;
+    jp:authorName "Pseudo-Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Economics, books I and III," .
+
+jp:BookWork_W0515 a jp:HistoricalWork ;
+    rdfs:label "On Fevers (2) (?twjdqhb)" ;
+    jp:authorName "Antonius Guainerius of Pavia" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "On Fevers (2) (?twjdqhb)" .
+
+jp:BookWork_W0516 a jp:HistoricalWork ;
+    rdfs:label "Metaphysics, books I–XII," ;
+    jp:authorName "Aristotle" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Metaphysics, books I–XII," .
+
+jp:BookWork_W0517 a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle’s Metaphysics (?wnyqam samwfl [bfh rja` hm rps rwayb)" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Commentary on Aristotle’s Metaphysics (?wnyqam samwfl [bfh rja` hm rps rwayb)" .
+
+jp:BookWork_W0518 a jp:HistoricalWork ;
+    rdfs:label "Summa naturalium (2) ty[bfh aypwswlyph rwxyq / !yyn[h rxwa" ;
+    jp:authorName "Albert of Orlam ¨unde" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Summa naturalium (2) ty[bfh aypwswlyph rwxyq / !yyn[h rxwa" .
+
+jp:BookWork_W0519 a jp:HistoricalWork ;
+    rdfs:label "Disputed Question on Spiritual Creatures" ;
+    jp:authorName "Thomas Aquinas" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Disputed Question on Spiritual Creatures" .
+
+jp:BookWork_W0520 a jp:HistoricalWork ;
+    rdfs:label "Short Treatise on Natural Philosophy !da twdlwt" ;
+    jp:authorName "Thomas Bricot" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Short Treatise on Natural Philosophy !da twdlwt" .
+
+jp:BookWork_W0521 a jp:HistoricalWork ;
+    rdfs:label "Canon (4) @wnaqh" ;
+    jp:authorName "Avicenna" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Arabic" ;
+    jp:title "Canon (4) @wnaqh" .
+
+jp:BookWork_W0522 a jp:HistoricalWork ;
+    rdfs:label "Book on Nativities," ;
+    jp:authorName "Abu Bakr al-Khasibi (Albubather)" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book on Nativities," .
+
+jp:BookWork_W0523 a jp:HistoricalWork ;
+    rdfs:label "Complete (Astronomical) Treatise,L a t i n trans. by Egidio de’ T ebaldi (2) ly’gar @b yl[l rps" ;
+    jp:authorName "Ibn Abi l-Rijal" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Complete (Astronomical) Treatise,L a t i n trans. by Egidio de’ T ebaldi (2) ly’gar @b yl[l rps" .
+
+jp:BookWork_W0524 a jp:HistoricalWork ;
+    rdfs:label "Book of Medicines and (Medical) Qualities twlwgsw twawpr rps" ;
+    jp:authorName "Anonymous" ;
+    jp:hasSource jp:Source_Freudenthal ;
+    jp:language "Latin" ;
+    jp:title "Book of Medicines and (Medical) Qualities twlwgsw twawpr rps" .
+

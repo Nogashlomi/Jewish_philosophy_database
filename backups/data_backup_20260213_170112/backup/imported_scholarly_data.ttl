@@ -1,0 +1,1751 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://jewish_philosophy.org/scholarly/SW_Abram_2022> a jp:ScholarlyWork ;
+    rdfs:label "The Popularization of Philosophy in Medieval Islam, Judaism, and Christianity" ;
+    jp:aboutPerson <http://jewish_philosophy.org/id/Aaron_b._Elijah>,
+        <http://jewish_philosophy.org/id/Abba_Mari_b._Eligdor>,
+        <http://jewish_philosophy.org/id/Abraham_Avigdor>,
+        <http://jewish_philosophy.org/id/Abraham_Bedersi>,
+        <http://jewish_philosophy.org/id/Abraham_Ibn_Nahmias>,
+        <http://jewish_philosophy.org/id/Abraham_Shalom>,
+        <http://jewish_philosophy.org/id/Abraham_Yagel>,
+        <http://jewish_philosophy.org/id/Abraham_de_Balmes>,
+        <http://jewish_philosophy.org/id/Abravanel_Isaac>,
+        <http://jewish_philosophy.org/id/Abū_Abd_al-Rahman_Ibn_Tahir>,
+        <http://jewish_philosophy.org/id/Abū_Muhammad_ibn_Malih_al-Raqqād>,
+        <http://jewish_philosophy.org/id/Abū_l-Hajjāj_ibn_Tumlūs>,
+        <http://jewish_philosophy.org/id/Abū_l-Maālī>,
+        <http://jewish_philosophy.org/id/Abū_l-Qāsim_ibn_Idrīs>,
+        <http://jewish_philosophy.org/id/Abū_l-_Abbās_Ahmad_b._Qasim>,
+        <http://jewish_philosophy.org/id/Abū_l-_Abbās_Yahyā>,
+        <http://jewish_philosophy.org/id/Adelard_of_Bath>,
+        <http://jewish_philosophy.org/id/Aegidius_of_Gandavo>,
+        <http://jewish_philosophy.org/id/Aelianus>,
+        <http://jewish_philosophy.org/id/Ahmad_b._Qāsim>,
+        <http://jewish_philosophy.org/id/Al-Harizi_Judah>,
+        <http://jewish_philosophy.org/id/Albert_Orlamünde>,
+        <http://jewish_philosophy.org/id/Albert_the_Great>,
+        <http://jewish_philosophy.org/id/Albrecht_Eva>,
+        <http://jewish_philosophy.org/id/Alexander_of_Alessandria>,
+        <http://jewish_philosophy.org/id/Alexander_of_Aphrodisias>,
+        <http://jewish_philosophy.org/id/Almoli_Solomon>,
+        <http://jewish_philosophy.org/id/Alonso_Manuel>,
+        <http://jewish_philosophy.org/id/Alpago_(Alpagus)_Andrea>,
+        <http://jewish_philosophy.org/id/Angelo_da_Camerino>,
+        <http://jewish_philosophy.org/id/Anonymous_commentators>,
+        <http://jewish_philosophy.org/id/Antonius_Andreas>,
+        <http://jewish_philosophy.org/id/Apollonius>,
+        <http://jewish_philosophy.org/id/Archimedes>,
+        <http://jewish_philosophy.org/id/Augustine>,
+        <http://jewish_philosophy.org/id/Averroes>,
+        <http://jewish_philosophy.org/id/Avigdor>,
+        <http://jewish_philosophy.org/id/Avigdor_Joseph>,
+        <http://jewish_philosophy.org/id/Azariah_b._Joseph_ibn_Abba_Mari>,
+        <http://jewish_philosophy.org/id/Bacon_Roger>,
+        <http://jewish_philosophy.org/id/Baeumker_Clemens>,
+        <http://jewish_philosophy.org/id/Barthélemy_di_Brugis>,
+        <http://jewish_philosophy.org/id/Baruch_ibn_Baruch>,
+        <http://jewish_philosophy.org/id/Baruch_ibn_Yaīsh>,
+        <http://jewish_philosophy.org/id/Bashyatchi_Elijah>,
+        <http://jewish_philosophy.org/id/Basilius_Magnus>,
+        <http://jewish_philosophy.org/id/Becq_Annie>,
+        <http://jewish_philosophy.org/id/Benjacob_I.>,
+        <http://jewish_philosophy.org/id/Berechiah_ha-Naqdan>,
+        <http://jewish_philosophy.org/id/Biesterfeldt_H._Н.>,
+        <http://jewish_philosophy.org/id/Binkley_P.>,
+        <http://jewish_philosophy.org/id/Bitrūjī_Abū_Ishāq>,
+        <http://jewish_philosophy.org/id/Blumberg_Harry>,
+        <http://jewish_philosophy.org/id/Bonafed_Solomon>,
+        <http://jewish_philosophy.org/id/Bonfil_Robert>,
+        <http://jewish_philosophy.org/id/Brüll_N.>,
+        <http://jewish_philosophy.org/id/Burana_Giovanni>,
+        <http://jewish_philosophy.org/id/Burnett_Charles>,
+        <http://jewish_philosophy.org/id/Caleb_Afendopolo>,
+        <http://jewish_philosophy.org/id/Campanini_Saverio>,
+        <http://jewish_philosophy.org/id/Carpi_Daniel>,
+        <http://jewish_philosophy.org/id/Casiri_Miguel>,
+        <http://jewish_philosophy.org/id/Cassel_David>,
+        <http://jewish_philosophy.org/id/Chahlane_Ahmed>,
+        <http://jewish_philosophy.org/id/Cicero>,
+        <http://jewish_philosophy.org/id/Constantine_the_African>,
+        <http://jewish_philosophy.org/id/Correns_Paul>,
+        <http://jewish_philosophy.org/id/Crescas_Hasdai>,
+        <http://jewish_philosophy.org/id/Danou_C._F.>,
+        <http://jewish_philosophy.org/id/David_Longo>,
+        <http://jewish_philosophy.org/id/David_R.>,
+        <http://jewish_philosophy.org/id/David_b._Judah_Messer_Leon>,
+        <http://jewish_philosophy.org/id/David_de_Dinanto>,
+        <http://jewish_philosophy.org/id/David_ha-Sefardi>,
+        <http://jewish_philosophy.org/id/David_ibn_Bilia>,
+        <http://jewish_philosophy.org/id/David_ibn_Shoshan_b._Samuel>,
+        <http://jewish_philosophy.org/id/David_of_Tivoli>,
+        <http://jewish_philosophy.org/id/De_Rijk_L._M.>,
+        <http://jewish_philosophy.org/id/De_Rossi_Giovanni>,
+        <http://jewish_philosophy.org/id/Dino_di_Firenze>,
+        <http://jewish_philosophy.org/id/Domingo_Gundisalvi>,
+        <http://jewish_philosophy.org/id/Dukes_Leopold>,
+        <http://jewish_philosophy.org/id/Dunlop_Douglas>,
+        <http://jewish_philosophy.org/id/Duns_Scotus>,
+        <http://jewish_philosophy.org/id/Duran_Simon_ben_Zemah>,
+        <http://jewish_philosophy.org/id/Edelmann_H.>,
+        <http://jewish_philosophy.org/id/Ehrlich_Dror>,
+        <http://jewish_philosophy.org/id/Eleazar_Ashkenazi>,
+        <http://jewish_philosophy.org/id/Eli_(Habillo?)>,
+        <http://jewish_philosophy.org/id/Eli_Habillo>,
+        <http://jewish_philosophy.org/id/Elijah_(Elia)_del_Medigo>,
+        <http://jewish_philosophy.org/id/Elijah_Mizrahi>,
+        <http://jewish_philosophy.org/id/Elijah_b._Eliezer>,
+        <http://jewish_philosophy.org/id/Empedocles>,
+        <http://jewish_philosophy.org/id/Endress_Gerhard>,
+        <http://jewish_philosophy.org/id/Euclid>,
+        <http://jewish_philosophy.org/id/Eudemus>,
+        <http://jewish_philosophy.org/id/Fabricius_Johann>,
+        <http://jewish_philosophy.org/id/Falaquera_Shem_Tov_b._Joseph>,
+        <http://jewish_philosophy.org/id/Farghānī_Abū_l-Abbās_al->,
+        <http://jewish_philosophy.org/id/Farissol_Abraham>,
+        <http://jewish_philosophy.org/id/Flavius_Mithridates>,
+        <http://jewish_philosophy.org/id/Florence_Maruc_C._363>,
+        <http://jewish_philosophy.org/id/Fontaine_Resianne>,
+        <http://jewish_philosophy.org/id/Forte_Doron>,
+        <http://jewish_philosophy.org/id/Fowler_R.>,
+        <http://jewish_philosophy.org/id/Frankl_P._F.>,
+        <http://jewish_philosophy.org/id/Frederick_II>,
+        <http://jewish_philosophy.org/id/Freudenthal_Gad>,
+        <http://jewish_philosophy.org/id/Furlani_Giuseppe>,
+        <http://jewish_philosophy.org/id/Fārābī_Abū_Nasr_al->,
+        <http://jewish_philosophy.org/id/Gatigno_Ezra_b._Solomon>,
+        <http://jewish_philosophy.org/id/Gatti_Roberto>,
+        <http://jewish_philosophy.org/id/Gedaliah_Ibn_Yahyā>,
+        <http://jewish_philosophy.org/id/Geminus>,
+        <http://jewish_philosophy.org/id/Gentile_di_Foligno>,
+        <http://jewish_philosophy.org/id/Gerard_of_Cremona>,
+        <http://jewish_philosophy.org/id/Gershom_ben_Solomon>,
+        <http://jewish_philosophy.org/id/Gersonides_(Levi_ben_Gershom)>,
+        <http://jewish_philosophy.org/id/Geyer_Bernhard>,
+        <http://jewish_philosophy.org/id/Ghazālī_Abū_Hamid_al->,
+        <http://jewish_philosophy.org/id/Giles_of_Rome_(Aegidius_de_Columna)>,
+        <http://jewish_philosophy.org/id/Ginebreda_Antoni>,
+        <http://jewish_philosophy.org/id/Glasner_Ruth>,
+        <http://jewish_philosophy.org/id/Grabmann_Martin>,
+        <http://jewish_philosophy.org/id/Grant_Edward>,
+        <http://jewish_philosophy.org/id/Gross_H.>,
+        <http://jewish_philosophy.org/id/Guetta_Alessandro>,
+        <http://jewish_philosophy.org/id/Gundisalvi_(Gundissalinus)_Domingo>,
+        <http://jewish_philosophy.org/id/Gutas_Dimitri>,
+        <http://jewish_philosophy.org/id/Guttmann_Jacob>,
+        <http://jewish_philosophy.org/id/Güdemann_Moritz>,
+        <http://jewish_philosophy.org/id/Halkin_Abraham>,
+        <http://jewish_philosophy.org/id/Harvey_Steven>,
+        <http://jewish_philosophy.org/id/Haskins_Charles>,
+        <http://jewish_philosophy.org/id/Hasse_Dag>,
+        <http://jewish_philosophy.org/id/Hauréau_Jean_Barthélmy>,
+        <http://jewish_philosophy.org/id/Heidenheim_Wolf>,
+        <http://jewish_philosophy.org/id/Helias_Cretensis>,
+        <http://jewish_philosophy.org/id/Hermes>,
+        <http://jewish_philosophy.org/id/Hillel_ben_Samuel>,
+        <http://jewish_philosophy.org/id/Hippocrates>,
+        <http://jewish_philosophy.org/id/Homer>,
+        <http://jewish_philosophy.org/id/Hunayn_ibn_Ishaq>,
+        <http://jewish_philosophy.org/id/Hājjī_Khalifah>,
+        <http://jewish_philosophy.org/id/Ibn_Abi_Amir_al-Manşür>,
+        <http://jewish_philosophy.org/id/Ibn_Abī_Uşaybiah>,
+        <http://jewish_philosophy.org/id/Ibn_Aflah_Jābir>,
+        <http://jewish_philosophy.org/id/Ibn_Aqnīn_Joseph_b._Judah>,
+        <http://jewish_philosophy.org/id/Ibn_Ayyub_Solomon>,
+        <http://jewish_philosophy.org/id/Ibn_Bulat_Judah>,
+        <http://jewish_philosophy.org/id/Ibn_Bājjah_Abū_Bakr>,
+        <http://jewish_philosophy.org/id/Ibn_Daud_Solomon>,
+        <http://jewish_philosophy.org/id/Ibn_Ezra_Abraham>,
+        <http://jewish_philosophy.org/id/Ibn_Gabirol_Solomon>,
+        <http://jewish_philosophy.org/id/Ibn_Habib_Moses>,
+        <http://jewish_philosophy.org/id/Ibn_Janāh_Jonah_abū_l-Walīd>,
+        <http://jewish_philosophy.org/id/Ibn_Masawayh_Yūhannā>,
+        <http://jewish_philosophy.org/id/Ibn_Ridwan_Alī>,
+        <http://jewish_philosophy.org/id/Ibn_Shem_Tov_Joseph_b._Shem_Tov>,
+        <http://jewish_philosophy.org/id/Ibn_Tibbon_Judah>,
+        <http://jewish_philosophy.org/id/Ibn_Tibbon_Moses>,
+        <http://jewish_philosophy.org/id/Ibn_Tibbon_Samuel>,
+        <http://jewish_philosophy.org/id/Ibn_Tufayl_Abū_Bakr>,
+        <http://jewish_philosophy.org/id/Ibn_Yahya_Judah>,
+        <http://jewish_philosophy.org/id/Ibn_Zaddik_Joseph>,
+        <http://jewish_philosophy.org/id/Ibn_Zuhr_Abū_Marwān>,
+        <http://jewish_philosophy.org/id/Ibn_al-Haytham_al-Hasan>,
+        <http://jewish_philosophy.org/id/Ibn_al-Jazzār>,
+        <http://jewish_philosophy.org/id/Ibn_al-Tayyib>,
+        <http://jewish_philosophy.org/id/Isaac_Aboab>,
+        <http://jewish_philosophy.org/id/Isaac_Israeli>,
+        <http://jewish_philosophy.org/id/Isaac_Kimhi>,
+        <http://jewish_philosophy.org/id/Isaac_Latif>,
+        <http://jewish_philosophy.org/id/Isaiah_di_Trani>,
+        <http://jewish_philosophy.org/id/Ivry_Alfred>,
+        <http://jewish_philosophy.org/id/Jacob_Anatoli>,
+        <http://jewish_philosophy.org/id/Jacob_b._Makhir>,
+        <http://jewish_philosophy.org/id/Jean_Letourneur_(Versor)>,
+        <http://jewish_philosophy.org/id/Jedaiah_ha-Penini>,
+        <http://jewish_philosophy.org/id/Jellinek_Adolph>,
+        <http://jewish_philosophy.org/id/Joel_Manuel>,
+        <http://jewish_philosophy.org/id/Johannes_Hispalensis>,
+        <http://jewish_philosophy.org/id/Jonah_abū_l-Walīd_b._Janāḥ>,
+        <http://jewish_philosophy.org/id/Joseph_(?)>,
+        <http://jewish_philosophy.org/id/Joseph_Colon>,
+        <http://jewish_philosophy.org/id/Joseph_b._Isaac_Muqatil>,
+        <http://jewish_philosophy.org/id/Joseph_b._Moses_Qilti>,
+        <http://jewish_philosophy.org/id/Joseph_ben_Baruch_of_Urbino>,
+        <http://jewish_philosophy.org/id/Joseph_del_Medigo>,
+        <http://jewish_philosophy.org/id/Joseph_ibn_Kaspi>,
+        <http://jewish_philosophy.org/id/Jospe_Raphael>,
+        <http://jewish_philosophy.org/id/Jourdain_Aimable>,
+        <http://jewish_philosophy.org/id/Jourdain_Charles>,
+        <http://jewish_philosophy.org/id/Judah_Halevy>,
+        <http://jewish_philosophy.org/id/Judah_Kohen>,
+        <http://jewish_philosophy.org/id/Judah_Romano>,
+        <http://jewish_philosophy.org/id/Judah_Shalom>,
+        <http://jewish_philosophy.org/id/Judah_b._Moses_ibn_Hayyim>,
+        <http://jewish_philosophy.org/id/Judah_b._Samuel_ibn_Abbās>,
+        <http://jewish_philosophy.org/id/Judah_b._Solomon_ha-Kohen_ibn_Matqah>,
+        <http://jewish_philosophy.org/id/Jābir_ibn_Aflah>,
+        <http://jewish_philosophy.org/id/Kaufmann_David>,
+        <http://jewish_philosophy.org/id/Khwarizmī_al->,
+        <http://jewish_philosophy.org/id/Kleven_Terence>,
+        <http://jewish_philosophy.org/id/Kuyt_Annelies>,
+        <http://jewish_philosophy.org/id/Landauer_S.>,
+        <http://jewish_philosophy.org/id/Langermann_Y._T.>,
+        <http://jewish_philosophy.org/id/Lasinio_Fausto>,
+        <http://jewish_philosophy.org/id/Leclerc_Lucien>,
+        <http://jewish_philosophy.org/id/Levi_b._Gershom>,
+        <http://jewish_philosophy.org/id/Llull_Ramon>,
+        <http://jewish_philosophy.org/id/Loewenthal_Abraham>,
+        <http://jewish_philosophy.org/id/Maestro_Leon>,
+        <http://jewish_philosophy.org/id/Maimonides_(Moses_ben_Maimon)>,
+        <http://jewish_philosophy.org/id/Majūsī_Alī_ibn_al-Abbās>,
+        <http://jewish_philosophy.org/id/Malter_Henry>,
+        <http://jewish_philosophy.org/id/Manekin_Charles_H.>,
+        <http://jewish_philosophy.org/id/Manoah_Shoeli>,
+        <http://jewish_philosophy.org/id/Mantino_Jacob>,
+        <http://jewish_philosophy.org/id/Meir_Aldabi>,
+        <http://jewish_philosophy.org/id/Meirinhos_José>,
+        <http://jewish_philosophy.org/id/Menelaus>,
+        <http://jewish_philosophy.org/id/Minio-Paluello_L.>,
+        <http://jewish_philosophy.org/id/Mordecai_Natan>,
+        <http://jewish_philosophy.org/id/Moses_Almosnino>,
+        <http://jewish_philosophy.org/id/Moses_Taku>,
+        <http://jewish_philosophy.org/id/Moses_b._Judah_Galiano>,
+        <http://jewish_philosophy.org/id/Moses_b._Samuel>,
+        <http://jewish_philosophy.org/id/Moses_ben_Solomon_of_Salerno>,
+        <http://jewish_philosophy.org/id/Moses_da_Rieti>,
+        <http://jewish_philosophy.org/id/Moses_ibn_Lajis>,
+        <http://jewish_philosophy.org/id/Moses_of_Narbonne_(Narboni)>,
+        <http://jewish_philosophy.org/id/Munk_Solomon>,
+        <http://jewish_philosophy.org/id/Natan_Isaac>,
+        <http://jewish_philosophy.org/id/Natan_ha-Meati>,
+        <http://jewish_philosophy.org/id/Neubauer_Adolf>,
+        <http://jewish_philosophy.org/id/Niccolò_da_Fava_the_Elder>,
+        <http://jewish_philosophy.org/id/Nicholas_Trevet>,
+        <http://jewish_philosophy.org/id/Nicomachus>,
+        <http://jewish_philosophy.org/id/Nuriel_Avraham>,
+        <http://jewish_philosophy.org/id/Parmenides>,
+        <http://jewish_philosophy.org/id/Paul_of_Venice>,
+        <http://jewish_philosophy.org/id/Perreau_Pietro>,
+        <http://jewish_philosophy.org/id/Petrus_Hispanus>,
+        <http://jewish_philosophy.org/id/Petrus_Lombardus>,
+        <http://jewish_philosophy.org/id/Piccolomini_Alessandro>,
+        <http://jewish_philosophy.org/id/Pico_de_la_Mirandola>,
+        <http://jewish_philosophy.org/id/Pines_Shlomo>,
+        <http://jewish_philosophy.org/id/Plessner_Martin>,
+        <http://jewish_philosophy.org/id/Polonus_Jacobus>,
+        <http://jewish_philosophy.org/id/Porphyry>,
+        <http://jewish_philosophy.org/id/Prantl_Karl>,
+        <http://jewish_philosophy.org/id/Profiat_Duran>,
+        <http://jewish_philosophy.org/id/Protagoras>,
+        <http://jewish_philosophy.org/id/Pseudo-Aquinas>,
+        <http://jewish_philosophy.org/id/Pseudo-Avicenna>,
+        <http://jewish_philosophy.org/id/Pseudo-Grosseteste>,
+        <http://jewish_philosophy.org/id/Pseudo_(?)-Giles_of_Rome_(Aegidius_de_Columna)>,
+        <http://jewish_philosophy.org/id/Pseudo_(?)-Marsilius_of_Inghen>,
+        <http://jewish_philosophy.org/id/Ptolemy>,
+        <http://jewish_philosophy.org/id/Qiftī_Alī_ibn_Yūsuf>,
+        <http://jewish_philosophy.org/id/Quintilian>,
+        <http://jewish_philosophy.org/id/Qustā_ibn_Lūqā>,
+        <http://jewish_philosophy.org/id/Radulphus_Brito>,
+        <http://jewish_philosophy.org/id/Regev_Shaul>,
+        <http://jewish_philosophy.org/id/Renan_Ernest>,
+        <http://jewish_philosophy.org/id/Ribémont_B.>,
+        <http://jewish_philosophy.org/id/Rigo_Caterina>,
+        <http://jewish_philosophy.org/id/Robert_of_Anjou>,
+        <http://jewish_philosophy.org/id/Robinson_James>,
+        <http://jewish_philosophy.org/id/Rose_Valentin>,
+        <http://jewish_philosophy.org/id/Rosenberg_Shalom>,
+        <http://jewish_philosophy.org/id/Roth_Pinchas>,
+        <http://jewish_philosophy.org/id/Rothschild_Jean-Pierre>,
+        <http://jewish_philosophy.org/id/Rāzī_Abū_Bakr_Muhammad>,
+        <http://jewish_philosophy.org/id/Sachs_S.>,
+        <http://jewish_philosophy.org/id/Sackson_Adrian>,
+        <http://jewish_philosophy.org/id/Sacrobosco_Johannes_de>,
+        <http://jewish_philosophy.org/id/Samarqandī_al->,
+        <http://jewish_philosophy.org/id/Samuel_b._Benveniste>,
+        <http://jewish_philosophy.org/id/Samuel_b._Judah_of_Marseilles>,
+        <http://jewish_philosophy.org/id/Saplana_Pere>,
+        <http://jewish_philosophy.org/id/Sar_Shalom>,
+        <http://jewish_philosophy.org/id/Schwartz_Dov>,
+        <http://jewish_philosophy.org/id/Schwartz_Yosef>,
+        <http://jewish_philosophy.org/id/Scot_Michael>,
+        <http://jewish_philosophy.org/id/Sermoneta_Joseph_(Giuseppe)>,
+        <http://jewish_philosophy.org/id/Shatzmiller>,
+        <http://jewish_philosophy.org/id/Shelemiah_in_Lunel>,
+        <http://jewish_philosophy.org/id/Shem_Tov_ibn_Shem_Tov>,
+        <http://jewish_philosophy.org/id/Shemariah_ha-Ikriti>,
+        <http://jewish_philosophy.org/id/Sirat_Colette>,
+        <http://jewish_philosophy.org/id/Sisa_ben_Shoshan>,
+        <http://jewish_philosophy.org/id/Solomon_Yarhi>,
+        <http://jewish_philosophy.org/id/Solomon_ben_Joseph_ibn_Ayyub>,
+        <http://jewish_philosophy.org/id/Solomon_ben_Moses_of_Melgueiri>,
+        <http://jewish_philosophy.org/id/Solomon_ha-Levi_b._Isaac>,
+        <http://jewish_philosophy.org/id/Solomon_ibn_Verga>,
+        <http://jewish_philosophy.org/id/Spruyt_Joke>,
+        <http://jewish_philosophy.org/id/Stern_S._M.>,
+        <http://jewish_philosophy.org/id/Taitazak>,
+        <http://jewish_philosophy.org/id/Tamani_Giuseppe>,
+        <http://jewish_philosophy.org/id/Teicher_J._L.>,
+        <http://jewish_philosophy.org/id/Themistius>,
+        <http://jewish_philosophy.org/id/Theodosius>,
+        <http://jewish_philosophy.org/id/Theophrastus>,
+        <http://jewish_philosophy.org/id/Thomas_Aquinas_(attr.)>,
+        <http://jewish_philosophy.org/id/Thomas_Bricot>,
+        <http://jewish_philosophy.org/id/Thorndike_Lynn>,
+        <http://jewish_philosophy.org/id/Tobi_Y.>,
+        <http://jewish_philosophy.org/id/Todros_Todrosi>,
+        <http://jewish_philosophy.org/id/Vajda_Georges>,
+        <http://jewish_philosophy.org/id/Vincent_Ferrer>,
+        <http://jewish_philosophy.org/id/Vincent_of_Beauvais>,
+        <http://jewish_philosophy.org/id/Visi_Támas>,
+        <http://jewish_philosophy.org/id/Vittorino>,
+        <http://jewish_philosophy.org/id/Voorbij_Johannes>,
+        <http://jewish_philosophy.org/id/Walter_Burley>,
+        <http://jewish_philosophy.org/id/William_Ockham>,
+        <http://jewish_philosophy.org/id/William_of_Luna>,
+        <http://jewish_philosophy.org/id/William_of_Moerbeke>,
+        <http://jewish_philosophy.org/id/William_of_Saliceto>,
+        <http://jewish_philosophy.org/id/Wolf_Johann_Christoph>,
+        <http://jewish_philosophy.org/id/Wolfson_Harry_Austryn>,
+        <http://jewish_philosophy.org/id/Wüstenfeld_Ferdinand>,
+        <http://jewish_philosophy.org/id/Yallon_H.>,
+        <http://jewish_philosophy.org/id/Zahalon_Jacob>,
+        <http://jewish_philosophy.org/id/Zedekiah_b._Abraham_Rofe_(Anaw)>,
+        <http://jewish_philosophy.org/id/Zimmels_Bernhard>,
+        <http://jewish_philosophy.org/id/Zonta_Mauro>,
+        <http://jewish_philosophy.org/id/Zotenberg_Hermann>,
+        <http://jewish_philosophy.org/id/Zuckermann_B.>,
+        <http://jewish_philosophy.org/id/Zunz_Leopold>,
+        <http://jewish_philosophy.org/id/Zwiep_Irene_E.>,
+        jp:NW_7,
+        jp:Q102851,
+        jp:Q31439,
+        jp:Q328748,
+        jp:Q329773,
+        jp:Q669640,
+        jp:Q8011,
+        jp:Q859,
+        jp:Q868,
+        jp:Q8778,
+        jp:Q9438 ;
+    jp:aboutWork <http://jewish_philosophy.org/work/A_Bundle_of_Silver>,
+        <http://jewish_philosophy.org/work/A_Small_Sanctuary>,
+        <http://jewish_philosophy.org/work/Acute_Diseases>,
+        <http://jewish_philosophy.org/work/Almagest>,
+        <http://jewish_philosophy.org/work/Antidotarium>,
+        <http://jewish_philosophy.org/work/Ars_brevis>,
+        <http://jewish_philosophy.org/work/Book_of_Fevers>,
+        <http://jewish_philosophy.org/work/Book_of_the_Sphere>,
+        <http://jewish_philosophy.org/work/Book_on_the_Soul>,
+        <http://jewish_philosophy.org/work/Canon>,
+        <http://jewish_philosophy.org/work/Categories>,
+        <http://jewish_philosophy.org/work/Categories_and_De_Interpretatione>,
+        <http://jewish_philosophy.org/work/Collector_for_All_Camps>,
+        <http://jewish_philosophy.org/work/Commentaries_on_the_Isagoge_and_Categories>,
+        <http://jewish_philosophy.org/work/Commentary_on_De_Anima>,
+        <http://jewish_philosophy.org/work/Commentary_on_Ecclesiastes>,
+        <http://jewish_philosophy.org/work/Commentary_on_Platos_Republic>,
+        <http://jewish_philosophy.org/work/Commentary_on_Song_of_Songs>,
+        <http://jewish_philosophy.org/work/Commentary_on_the_Compendium_of_Logic>,
+        <http://jewish_philosophy.org/work/Commentary_on_the_De_anima>,
+        <http://jewish_philosophy.org/work/Commentary_on_the_Metaphysics>,
+        <http://jewish_philosophy.org/work/De_Anima>,
+        <http://jewish_philosophy.org/work/De_anima>,
+        <http://jewish_philosophy.org/work/De_coelo_et_mundo>,
+        <http://jewish_philosophy.org/work/De_consolatione_philosophiae>,
+        <http://jewish_philosophy.org/work/De_mistione_propositionis_de_inesse_et_necessariae>,
+        <http://jewish_philosophy.org/work/De_modo_discernendi_demonstrationem_propter_quid_e>,
+        <http://jewish_philosophy.org/work/De_negativa_necessaria_et_negativa_possibili>,
+        <http://jewish_philosophy.org/work/De_notificatione_generis_et_speciei>,
+        <http://jewish_philosophy.org/work/De_plurificatione_intellectus_possibilis>,
+        <http://jewish_philosophy.org/work/De_universalibus>,
+        <http://jewish_philosophy.org/work/De_uno_et_unitate>,
+        <http://jewish_philosophy.org/work/Fons_vitae>,
+        <http://jewish_philosophy.org/work/Gloss_Commentary_on_the_Tractatus>,
+        <http://jewish_philosophy.org/work/Isagoge>,
+        <http://jewish_philosophy.org/work/Isagoge_and_Categories>,
+        <http://jewish_philosophy.org/work/Judahs_Offering>,
+        <http://jewish_philosophy.org/work/Kuzari>,
+        <http://jewish_philosophy.org/work/Letter_on_Psychology>,
+        <http://jewish_philosophy.org/work/Letter_on_the_Intellect>,
+        <http://jewish_philosophy.org/work/Letter_to_Samuel_Ibn_Tibbon>,
+        <http://jewish_philosophy.org/work/Linstrumento_della_Filosofia>,
+        <http://jewish_philosophy.org/work/Logic>,
+        <http://jewish_philosophy.org/work/Logical_Questions>,
+        <http://jewish_philosophy.org/work/Magen_Avot>,
+        <http://jewish_philosophy.org/work/Microcosm>,
+        <http://jewish_philosophy.org/work/My_Uncle_and_My_Nephew>,
+        <http://jewish_philosophy.org/work/Philosophia_pauperum>,
+        <http://jewish_philosophy.org/work/Philosophical_Anthology>,
+        <http://jewish_philosophy.org/work/Prior_Analytics>,
+        <http://jewish_philosophy.org/work/Quaestiones_in_Veterem_artem>,
+        <http://jewish_philosophy.org/work/Quaestiones_naturales>,
+        <http://jewish_philosophy.org/work/Quaestiones_super_XII_libros_Metaphysicorum>,
+        <http://jewish_philosophy.org/work/Quaestiones_super_libros_De_anima>,
+        <http://jewish_philosophy.org/work/Rules_of_Logic>,
+        <http://jewish_philosophy.org/work/Summa_conservationis_corporis>,
+        <http://jewish_philosophy.org/work/Summa_totius_logicae>,
+        <http://jewish_philosophy.org/work/Summary_of_Physical_Philosophy>,
+        <http://jewish_philosophy.org/work/Textus_abbreviatus_Aristotelis_super_VIII_libros_P>,
+        <http://jewish_philosophy.org/work/The_Art_of_Logic>,
+        <http://jewish_philosophy.org/work/The_Gate_of_Heaven>,
+        <http://jewish_philosophy.org/work/The_Incoherence_of_the_Philosophers>,
+        <http://jewish_philosophy.org/work/The_Investigation_of_Wisdom>,
+        <http://jewish_philosophy.org/work/The_Light_of_the_Lord>,
+        <http://jewish_philosophy.org/work/The_Mantle_of_Elijah>,
+        <http://jewish_philosophy.org/work/The_Medicine_for_Healthy_Souls>,
+        <http://jewish_philosophy.org/work/The_Meditation_of_the_Sad_Soul>,
+        <http://jewish_philosophy.org/work/The_Paths_of_Faith>,
+        <http://jewish_philosophy.org/work/Tractatus>,
+        <http://jewish_philosophy.org/work/Tractatus_de_generatione_syllogismi>,
+        <http://jewish_philosophy.org/work/Tractatus_version>,
+        <http://jewish_philosophy.org/work/commentary_on_Ecclesiastes>,
+        <http://jewish_philosophy.org/work/commentary_on_the_De_consolatione_philosophiae>,
+        <http://jewish_philosophy.org/work/commentary_on_the_Liber_de_causis>,
+        <http://jewish_philosophy.org/work/translations_of_Aquinas_and_Letourneur>,
+        <http://jewish_philosophy.org/work/translations_of_Aristotle_and_Averroes> ;
+    jp:creatorName "Marieke Abram et al." ;
+    jp:year "2022" .
+
+<http://jewish_philosophy.org/id/Aaron_b._Elijah> a jp:HistoricalPerson ;
+    rdfs:label "Aaron b. Elijah" .
+
+<http://jewish_philosophy.org/id/Abba_Mari_b._Eligdor> a jp:HistoricalPerson ;
+    rdfs:label "Abba Mari b. Eligdor" .
+
+<http://jewish_philosophy.org/id/Abraham_Bedersi> a jp:HistoricalPerson ;
+    rdfs:label "Abraham Bedersi" .
+
+<http://jewish_philosophy.org/id/Abraham_Ibn_Nahmias> a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Nahmias" .
+
+<http://jewish_philosophy.org/id/Abraham_Yagel> a jp:HistoricalPerson ;
+    rdfs:label "Abraham Yagel" .
+
+<http://jewish_philosophy.org/id/Abraham_de_Balmes> a jp:HistoricalPerson ;
+    rdfs:label "Abraham de Balmes" .
+
+<http://jewish_philosophy.org/id/Abravanel_Isaac> a jp:HistoricalPerson ;
+    rdfs:label "Abravanel Isaac" .
+
+<http://jewish_philosophy.org/id/Abū_Muhammad_ibn_Malih_al-Raqqād> a jp:HistoricalPerson ;
+    rdfs:label "Abū Muhammad ibn Malih al-Raqqād" .
+
+<http://jewish_philosophy.org/id/Abū_l-Maālī> a jp:HistoricalPerson ;
+    rdfs:label "Abū l-Ma'ālī" .
+
+<http://jewish_philosophy.org/id/Abū_l-_Abbās_Yahyā> a jp:HistoricalPerson ;
+    rdfs:label "Abū l- Abbās Yahyā" .
+
+<http://jewish_philosophy.org/id/Aegidius_of_Gandavo> a jp:HistoricalPerson ;
+    rdfs:label "Aegidius of Gandavo" .
+
+<http://jewish_philosophy.org/id/Aelianus> a jp:HistoricalPerson ;
+    rdfs:label "Aelianus" .
+
+<http://jewish_philosophy.org/id/Ahmad_b._Qāsim> a jp:HistoricalPerson ;
+    rdfs:label "Ahmad b. Qāsim" .
+
+<http://jewish_philosophy.org/id/Al-Harizi_Judah> a jp:HistoricalPerson ;
+    rdfs:label "Al-Harizi Judah" .
+
+<http://jewish_philosophy.org/id/Albrecht_Eva> a jp:HistoricalPerson ;
+    rdfs:label "Albrecht Eva" .
+
+<http://jewish_philosophy.org/id/Alexander_of_Aphrodisias> a jp:HistoricalPerson ;
+    rdfs:label "Alexander of Aphrodisias" .
+
+<http://jewish_philosophy.org/id/Alonso_Manuel> a jp:HistoricalPerson ;
+    rdfs:label "Alonso Manuel" .
+
+<http://jewish_philosophy.org/id/Alpago_(Alpagus)_Andrea> a jp:HistoricalPerson ;
+    rdfs:label "Alpago (Alpagus) Andrea" .
+
+<http://jewish_philosophy.org/id/Apollonius> a jp:HistoricalPerson ;
+    rdfs:label "Apollonius" .
+
+<http://jewish_philosophy.org/id/Archimedes> a jp:HistoricalPerson ;
+    rdfs:label "Archimedes" .
+
+<http://jewish_philosophy.org/id/Augustine> a jp:HistoricalPerson ;
+    rdfs:label "Augustine" .
+
+<http://jewish_philosophy.org/id/Avigdor_Joseph> a jp:HistoricalPerson ;
+    rdfs:label "Avigdor Joseph" .
+
+<http://jewish_philosophy.org/id/Azariah_b._Joseph_ibn_Abba_Mari> a jp:HistoricalPerson ;
+    rdfs:label "Azariah b. Joseph ibn Abba Mari" .
+
+<http://jewish_philosophy.org/id/Bacon_Roger> a jp:HistoricalPerson ;
+    rdfs:label "Bacon Roger" .
+
+<http://jewish_philosophy.org/id/Baeumker_Clemens> a jp:HistoricalPerson ;
+    rdfs:label "Baeumker Clemens" .
+
+<http://jewish_philosophy.org/id/Barthélemy_di_Brugis> a jp:HistoricalPerson ;
+    rdfs:label "Barthélemy di Brugis" .
+
+<http://jewish_philosophy.org/id/Baruch_ibn_Yaīsh> a jp:HistoricalPerson ;
+    rdfs:label "Baruch ibn Ya'īsh" .
+
+<http://jewish_philosophy.org/id/Basilius_Magnus> a jp:HistoricalPerson ;
+    rdfs:label "Basilius Magnus" .
+
+<http://jewish_philosophy.org/id/Becq_Annie> a jp:HistoricalPerson ;
+    rdfs:label "Becq Annie" .
+
+<http://jewish_philosophy.org/id/Benjacob_I.> a jp:HistoricalPerson ;
+    rdfs:label "Benjacob I." .
+
+<http://jewish_philosophy.org/id/Biesterfeldt_H._Н.> a jp:HistoricalPerson ;
+    rdfs:label "Biesterfeldt H. Н." .
+
+<http://jewish_philosophy.org/id/Binkley_P.> a jp:HistoricalPerson ;
+    rdfs:label "Binkley P." .
+
+<http://jewish_philosophy.org/id/Bitrūjī_Abū_Ishāq> a jp:HistoricalPerson ;
+    rdfs:label "Bitrūjī Abū Ishāq" .
+
+<http://jewish_philosophy.org/id/Blumberg_Harry> a jp:HistoricalPerson ;
+    rdfs:label "Blumberg Harry" .
+
+<http://jewish_philosophy.org/id/Bonafed_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Bonafed Solomon" .
+
+<http://jewish_philosophy.org/id/Bonfil_Robert> a jp:HistoricalPerson ;
+    rdfs:label "Bonfil Robert" .
+
+<http://jewish_philosophy.org/id/Brüll_N.> a jp:HistoricalPerson ;
+    rdfs:label "Brüll N." .
+
+<http://jewish_philosophy.org/id/Burana_Giovanni> a jp:HistoricalPerson ;
+    rdfs:label "Burana Giovanni" .
+
+<http://jewish_philosophy.org/id/Burnett_Charles> a jp:HistoricalPerson ;
+    rdfs:label "Burnett Charles" .
+
+<http://jewish_philosophy.org/id/Caleb_Afendopolo> a jp:HistoricalPerson ;
+    rdfs:label "Caleb Afendopolo" .
+
+<http://jewish_philosophy.org/id/Campanini_Saverio> a jp:HistoricalPerson ;
+    rdfs:label "Campanini Saverio" .
+
+<http://jewish_philosophy.org/id/Carpi_Daniel> a jp:HistoricalPerson ;
+    rdfs:label "Carpi Daniel" .
+
+<http://jewish_philosophy.org/id/Casiri_Miguel> a jp:HistoricalPerson ;
+    rdfs:label "Casiri Miguel" .
+
+<http://jewish_philosophy.org/id/Cassel_David> a jp:HistoricalPerson ;
+    rdfs:label "Cassel David" .
+
+<http://jewish_philosophy.org/id/Chahlane_Ahmed> a jp:HistoricalPerson ;
+    rdfs:label "Chahlane Ahmed" .
+
+<http://jewish_philosophy.org/id/Cicero> a jp:HistoricalPerson ;
+    rdfs:label "Cicero" .
+
+<http://jewish_philosophy.org/id/Constantine_the_African> a jp:HistoricalPerson ;
+    rdfs:label "Constantine the African" .
+
+<http://jewish_philosophy.org/id/Correns_Paul> a jp:HistoricalPerson ;
+    rdfs:label "Correns Paul" .
+
+<http://jewish_philosophy.org/id/Danou_C._F.> a jp:HistoricalPerson ;
+    rdfs:label "Danou C. F." .
+
+<http://jewish_philosophy.org/id/David_Longo> a jp:HistoricalPerson ;
+    rdfs:label "David Longo" .
+
+<http://jewish_philosophy.org/id/David_R.> a jp:HistoricalPerson ;
+    rdfs:label "David R." .
+
+<http://jewish_philosophy.org/id/David_b._Judah_Messer_Leon> a jp:HistoricalPerson ;
+    rdfs:label "David b. Judah Messer Leon" .
+
+<http://jewish_philosophy.org/id/David_de_Dinanto> a jp:HistoricalPerson ;
+    rdfs:label "David de Dinanto" .
+
+<http://jewish_philosophy.org/id/David_ha-Sefardi> a jp:HistoricalPerson ;
+    rdfs:label "David ha-Sefardi" .
+
+<http://jewish_philosophy.org/id/David_of_Tivoli> a jp:HistoricalPerson ;
+    rdfs:label "David of Tivoli" .
+
+<http://jewish_philosophy.org/id/De_Rijk_L._M.> a jp:HistoricalPerson ;
+    rdfs:label "De Rijk L. M." .
+
+<http://jewish_philosophy.org/id/De_Rossi_Giovanni> a jp:HistoricalPerson ;
+    rdfs:label "De Rossi Giovanni" .
+
+<http://jewish_philosophy.org/id/Dino_di_Firenze> a jp:HistoricalPerson ;
+    rdfs:label "Dino di Firenze" .
+
+<http://jewish_philosophy.org/id/Dukes_Leopold> a jp:HistoricalPerson ;
+    rdfs:label "Dukes Leopold" .
+
+<http://jewish_philosophy.org/id/Dunlop_Douglas> a jp:HistoricalPerson ;
+    rdfs:label "Dunlop Douglas" .
+
+<http://jewish_philosophy.org/id/Duns_Scotus> a jp:HistoricalPerson ;
+    rdfs:label "Duns Scotus" .
+
+<http://jewish_philosophy.org/id/Edelmann_H.> a jp:HistoricalPerson ;
+    rdfs:label "Edelmann H." .
+
+<http://jewish_philosophy.org/id/Ehrlich_Dror> a jp:HistoricalPerson ;
+    rdfs:label "Ehrlich Dror" .
+
+<http://jewish_philosophy.org/id/Eleazar_Ashkenazi> a jp:HistoricalPerson ;
+    rdfs:label "Eleazar Ashkenazi" .
+
+<http://jewish_philosophy.org/id/Elijah_(Elia)_del_Medigo> a jp:HistoricalPerson ;
+    rdfs:label "Elijah (Elia) del Medigo" .
+
+<http://jewish_philosophy.org/id/Elijah_Mizrahi> a jp:HistoricalPerson ;
+    rdfs:label "Elijah Mizrahi" .
+
+<http://jewish_philosophy.org/id/Empedocles> a jp:HistoricalPerson ;
+    rdfs:label "Empedocles" .
+
+<http://jewish_philosophy.org/id/Endress_Gerhard> a jp:HistoricalPerson ;
+    rdfs:label "Endress Gerhard" .
+
+<http://jewish_philosophy.org/id/Euclid> a jp:HistoricalPerson ;
+    rdfs:label "Euclid" .
+
+<http://jewish_philosophy.org/id/Eudemus> a jp:HistoricalPerson ;
+    rdfs:label "Eudemus" .
+
+<http://jewish_philosophy.org/id/Fabricius_Johann> a jp:HistoricalPerson ;
+    rdfs:label "Fabricius Johann" .
+
+<http://jewish_philosophy.org/id/Farghānī_Abū_l-Abbās_al-> a jp:HistoricalPerson ;
+    rdfs:label "Farghānī Abū l-'Abbās al-" .
+
+<http://jewish_philosophy.org/id/Farissol_Abraham> a jp:HistoricalPerson ;
+    rdfs:label "Farissol Abraham" .
+
+<http://jewish_philosophy.org/id/Flavius_Mithridates> a jp:HistoricalPerson ;
+    rdfs:label "Flavius Mithridates" .
+
+<http://jewish_philosophy.org/id/Florence_Maruc_C._363> a jp:HistoricalPerson ;
+    rdfs:label "Florence Maruc C. 363" .
+
+<http://jewish_philosophy.org/id/Fontaine_Resianne> a jp:HistoricalPerson ;
+    rdfs:label "Fontaine Resianne" .
+
+<http://jewish_philosophy.org/id/Forte_Doron> a jp:HistoricalPerson ;
+    rdfs:label "Forte Doron" .
+
+<http://jewish_philosophy.org/id/Fowler_R.> a jp:HistoricalPerson ;
+    rdfs:label "Fowler R." .
+
+<http://jewish_philosophy.org/id/Frankl_P._F.> a jp:HistoricalPerson ;
+    rdfs:label "Frankl P. F." .
+
+<http://jewish_philosophy.org/id/Frederick_II> a jp:HistoricalPerson ;
+    rdfs:label "Frederick II" .
+
+<http://jewish_philosophy.org/id/Freudenthal_Gad> a jp:HistoricalPerson ;
+    rdfs:label "Freudenthal Gad" .
+
+<http://jewish_philosophy.org/id/Furlani_Giuseppe> a jp:HistoricalPerson ;
+    rdfs:label "Furlani Giuseppe" .
+
+<http://jewish_philosophy.org/id/Gatigno_Ezra_b._Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Gatigno Ezra b. Solomon" .
+
+<http://jewish_philosophy.org/id/Gatti_Roberto> a jp:HistoricalPerson ;
+    rdfs:label "Gatti Roberto" .
+
+<http://jewish_philosophy.org/id/Gedaliah_Ibn_Yahyā> a jp:HistoricalPerson ;
+    rdfs:label "Gedaliah Ibn Yahyā" .
+
+<http://jewish_philosophy.org/id/Geminus> a jp:HistoricalPerson ;
+    rdfs:label "Geminus" .
+
+<http://jewish_philosophy.org/id/Gentile_di_Foligno> a jp:HistoricalPerson ;
+    rdfs:label "Gentile di Foligno" .
+
+<http://jewish_philosophy.org/id/Gerard_of_Cremona> a jp:HistoricalPerson ;
+    rdfs:label "Gerard of Cremona" .
+
+<http://jewish_philosophy.org/id/Geyer_Bernhard> a jp:HistoricalPerson ;
+    rdfs:label "Geyer Bernhard" .
+
+<http://jewish_philosophy.org/id/Ginebreda_Antoni> a jp:HistoricalPerson ;
+    rdfs:label "Ginebreda Antoni" .
+
+<http://jewish_philosophy.org/id/Glasner_Ruth> a jp:HistoricalPerson ;
+    rdfs:label "Glasner Ruth" .
+
+<http://jewish_philosophy.org/id/Grabmann_Martin> a jp:HistoricalPerson ;
+    rdfs:label "Grabmann Martin" .
+
+<http://jewish_philosophy.org/id/Grant_Edward> a jp:HistoricalPerson ;
+    rdfs:label "Grant Edward" .
+
+<http://jewish_philosophy.org/id/Gross_H.> a jp:HistoricalPerson ;
+    rdfs:label "Gross H." .
+
+<http://jewish_philosophy.org/id/Guetta_Alessandro> a jp:HistoricalPerson ;
+    rdfs:label "Guetta Alessandro" .
+
+<http://jewish_philosophy.org/id/Gutas_Dimitri> a jp:HistoricalPerson ;
+    rdfs:label "Gutas Dimitri" .
+
+<http://jewish_philosophy.org/id/Guttmann_Jacob> a jp:HistoricalPerson ;
+    rdfs:label "Guttmann Jacob" .
+
+<http://jewish_philosophy.org/id/Güdemann_Moritz> a jp:HistoricalPerson ;
+    rdfs:label "Güdemann Moritz" .
+
+<http://jewish_philosophy.org/id/Halkin_Abraham> a jp:HistoricalPerson ;
+    rdfs:label "Halkin Abraham" .
+
+<http://jewish_philosophy.org/id/Harvey_Steven> a jp:HistoricalPerson ;
+    rdfs:label "Harvey Steven" .
+
+<http://jewish_philosophy.org/id/Haskins_Charles> a jp:HistoricalPerson ;
+    rdfs:label "Haskins Charles" .
+
+<http://jewish_philosophy.org/id/Hasse_Dag> a jp:HistoricalPerson ;
+    rdfs:label "Hasse Dag" .
+
+<http://jewish_philosophy.org/id/Hauréau_Jean_Barthélmy> a jp:HistoricalPerson ;
+    rdfs:label "Hauréau Jean Barthélmy" .
+
+<http://jewish_philosophy.org/id/Heidenheim_Wolf> a jp:HistoricalPerson ;
+    rdfs:label "Heidenheim Wolf" .
+
+<http://jewish_philosophy.org/id/Helias_Cretensis> a jp:HistoricalPerson ;
+    rdfs:label "Helias Cretensis" .
+
+<http://jewish_philosophy.org/id/Hermes> a jp:HistoricalPerson ;
+    rdfs:label "Hermes" .
+
+<http://jewish_philosophy.org/id/Hillel_ben_Samuel> a jp:HistoricalPerson ;
+    rdfs:label "Hillel ben Samuel" .
+
+<http://jewish_philosophy.org/id/Homer> a jp:HistoricalPerson ;
+    rdfs:label "Homer" .
+
+<http://jewish_philosophy.org/id/Hunayn_ibn_Ishaq> a jp:HistoricalPerson ;
+    rdfs:label "Hunayn ibn Ishaq" .
+
+<http://jewish_philosophy.org/id/Hājjī_Khalifah> a jp:HistoricalPerson ;
+    rdfs:label "Hājjī Khalifah" .
+
+<http://jewish_philosophy.org/id/Ibn_Abi_Amir_al-Manşür> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Abi 'Amir al-Manşür" .
+
+<http://jewish_philosophy.org/id/Ibn_Abī_Uşaybiah> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Abī Uşaybi'ah" .
+
+<http://jewish_philosophy.org/id/Ibn_Aflah_Jābir> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Aflah Jābir" .
+
+<http://jewish_philosophy.org/id/Ibn_Ayyub_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Ayyub Solomon" .
+
+<http://jewish_philosophy.org/id/Ibn_Bulat_Judah> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Bulat Judah" .
+
+<http://jewish_philosophy.org/id/Ibn_Bājjah_Abū_Bakr> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Bājjah Abū Bakr" .
+
+<http://jewish_philosophy.org/id/Ibn_Daud_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Daud Solomon" .
+
+<http://jewish_philosophy.org/id/Ibn_Ezra_Abraham> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Ezra Abraham" .
+
+<http://jewish_philosophy.org/id/Ibn_Habib_Moses> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Habib Moses" .
+
+<http://jewish_philosophy.org/id/Ibn_Janāh_Jonah_abū_l-Walīd> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Janāh Jonah abū l-Walīd" .
+
+<http://jewish_philosophy.org/id/Ibn_Ridwan_Alī> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Ridwan 'Alī" .
+
+<http://jewish_philosophy.org/id/Ibn_Tibbon_Judah> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tibbon Judah" .
+
+<http://jewish_philosophy.org/id/Ibn_Tibbon_Samuel> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tibbon Samuel" .
+
+<http://jewish_philosophy.org/id/Ibn_Tufayl_Abū_Bakr> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tufayl Abū Bakr" .
+
+<http://jewish_philosophy.org/id/Ibn_Yahya_Judah> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Yahya Judah" .
+
+<http://jewish_philosophy.org/id/Ibn_Zuhr_Abū_Marwān> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Zuhr Abū Marwān" .
+
+<http://jewish_philosophy.org/id/Ibn_al-Haytham_al-Hasan> a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Haytham al-Hasan" .
+
+<http://jewish_philosophy.org/id/Ibn_al-Jazzār> a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Jazzār" .
+
+<http://jewish_philosophy.org/id/Ibn_al-Tayyib> a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Tayyib" .
+
+<http://jewish_philosophy.org/id/Isaac_Aboab> a jp:HistoricalPerson ;
+    rdfs:label "Isaac Aboab" .
+
+<http://jewish_philosophy.org/id/Isaac_Kimhi> a jp:HistoricalPerson ;
+    rdfs:label "Isaac Kimhi" .
+
+<http://jewish_philosophy.org/id/Isaac_Latif> a jp:HistoricalPerson ;
+    rdfs:label "Isaac Latif" .
+
+<http://jewish_philosophy.org/id/Isaiah_di_Trani> a jp:HistoricalPerson ;
+    rdfs:label "Isaiah di Trani" .
+
+<http://jewish_philosophy.org/id/Ivry_Alfred> a jp:HistoricalPerson ;
+    rdfs:label "Ivry Alfred" .
+
+<http://jewish_philosophy.org/id/Jacob_Anatoli> a jp:HistoricalPerson ;
+    rdfs:label "Jacob Anatoli" .
+
+<http://jewish_philosophy.org/id/Jacob_b._Makhir> a jp:HistoricalPerson ;
+    rdfs:label "Jacob b. Makhir" .
+
+<http://jewish_philosophy.org/id/Jellinek_Adolph> a jp:HistoricalPerson ;
+    rdfs:label "Jellinek Adolph" .
+
+<http://jewish_philosophy.org/id/Joel_Manuel> a jp:HistoricalPerson ;
+    rdfs:label "Joel Manuel" .
+
+<http://jewish_philosophy.org/id/Johannes_Hispalensis> a jp:HistoricalPerson ;
+    rdfs:label "Johannes Hispalensis" .
+
+<http://jewish_philosophy.org/id/Jonah_abū_l-Walīd_b._Janāḥ> a jp:HistoricalPerson ;
+    rdfs:label "Jonah abū l-Walīd b. Janāḥ" .
+
+<http://jewish_philosophy.org/id/Joseph_Colon> a jp:HistoricalPerson ;
+    rdfs:label "Joseph Colon" .
+
+<http://jewish_philosophy.org/id/Joseph_b._Isaac_Muqatil> a jp:HistoricalPerson ;
+    rdfs:label "Joseph b. Isaac Muqatil" .
+
+<http://jewish_philosophy.org/id/Joseph_ben_Baruch_of_Urbino> a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Baruch of Urbino" .
+
+<http://jewish_philosophy.org/id/Joseph_del_Medigo> a jp:HistoricalPerson ;
+    rdfs:label "Joseph del Medigo" .
+
+<http://jewish_philosophy.org/id/Jospe_Raphael> a jp:HistoricalPerson ;
+    rdfs:label "Jospe Raphael" .
+
+<http://jewish_philosophy.org/id/Jourdain_Aimable> a jp:HistoricalPerson ;
+    rdfs:label "Jourdain Aimable" .
+
+<http://jewish_philosophy.org/id/Jourdain_Charles> a jp:HistoricalPerson ;
+    rdfs:label "Jourdain Charles" .
+
+<http://jewish_philosophy.org/id/Judah_b._Samuel_ibn_Abbās> a jp:HistoricalPerson ;
+    rdfs:label "Judah b. Samuel ibn Abbās" .
+
+<http://jewish_philosophy.org/id/Jābir_ibn_Aflah> a jp:HistoricalPerson ;
+    rdfs:label "Jābir ibn Aflah" .
+
+<http://jewish_philosophy.org/id/Kaufmann_David> a jp:HistoricalPerson ;
+    rdfs:label "Kaufmann David" .
+
+<http://jewish_philosophy.org/id/Khwarizmī_al-> a jp:HistoricalPerson ;
+    rdfs:label "Khwarizmī al-" .
+
+<http://jewish_philosophy.org/id/Kleven_Terence> a jp:HistoricalPerson ;
+    rdfs:label "Kleven Terence" .
+
+<http://jewish_philosophy.org/id/Kuyt_Annelies> a jp:HistoricalPerson ;
+    rdfs:label "Kuyt Annelies" .
+
+<http://jewish_philosophy.org/id/Landauer_S.> a jp:HistoricalPerson ;
+    rdfs:label "Landauer S." .
+
+<http://jewish_philosophy.org/id/Langermann_Y._T.> a jp:HistoricalPerson ;
+    rdfs:label "Langermann Y. T." .
+
+<http://jewish_philosophy.org/id/Lasinio_Fausto> a jp:HistoricalPerson ;
+    rdfs:label "Lasinio Fausto" .
+
+<http://jewish_philosophy.org/id/Leclerc_Lucien> a jp:HistoricalPerson ;
+    rdfs:label "Leclerc Lucien" .
+
+<http://jewish_philosophy.org/id/Levi_b._Gershom> a jp:HistoricalPerson ;
+    rdfs:label "Levi b. Gershom" .
+
+<http://jewish_philosophy.org/id/Loewenthal_Abraham> a jp:HistoricalPerson ;
+    rdfs:label "Loewenthal Abraham" .
+
+<http://jewish_philosophy.org/id/Majūsī_Alī_ibn_al-Abbās> a jp:HistoricalPerson ;
+    rdfs:label "Majūsī 'Alī ibn al-'Abbās" .
+
+<http://jewish_philosophy.org/id/Malter_Henry> a jp:HistoricalPerson ;
+    rdfs:label "Malter Henry" .
+
+<http://jewish_philosophy.org/id/Manekin_Charles_H.> a jp:HistoricalPerson ;
+    rdfs:label "Manekin Charles H." .
+
+<http://jewish_philosophy.org/id/Manoah_Shoeli> a jp:HistoricalPerson ;
+    rdfs:label "Manoah Sho'eli" .
+
+<http://jewish_philosophy.org/id/Mantino_Jacob> a jp:HistoricalPerson ;
+    rdfs:label "Mantino Jacob" .
+
+<http://jewish_philosophy.org/id/Meirinhos_José> a jp:HistoricalPerson ;
+    rdfs:label "Meirinhos José" .
+
+<http://jewish_philosophy.org/id/Menelaus> a jp:HistoricalPerson ;
+    rdfs:label "Menelaus" .
+
+<http://jewish_philosophy.org/id/Minio-Paluello_L.> a jp:HistoricalPerson ;
+    rdfs:label "Minio-Paluello L." .
+
+<http://jewish_philosophy.org/id/Moses_Almosnino> a jp:HistoricalPerson ;
+    rdfs:label "Moses Almosnino" .
+
+<http://jewish_philosophy.org/id/Moses_Taku> a jp:HistoricalPerson ;
+    rdfs:label "Moses Taku" .
+
+<http://jewish_philosophy.org/id/Moses_ben_Solomon_of_Salerno> a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Solomon of Salerno" .
+
+<http://jewish_philosophy.org/id/Moses_ibn_Lajis> a jp:HistoricalPerson ;
+    rdfs:label "Moses ibn Lajis" .
+
+<http://jewish_philosophy.org/id/Moses_of_Narbonne_(Narboni)> a jp:HistoricalPerson ;
+    rdfs:label "Moses of Narbonne (Narboni)" .
+
+<http://jewish_philosophy.org/id/Munk_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Munk Solomon" .
+
+<http://jewish_philosophy.org/id/Natan_Isaac> a jp:HistoricalPerson ;
+    rdfs:label "Natan Isaac" .
+
+<http://jewish_philosophy.org/id/Natan_ha-Meati> a jp:HistoricalPerson ;
+    rdfs:label "Natan ha-Meati" .
+
+<http://jewish_philosophy.org/id/Neubauer_Adolf> a jp:HistoricalPerson ;
+    rdfs:label "Neubauer Adolf" .
+
+<http://jewish_philosophy.org/id/Niccolò_da_Fava_the_Elder> a jp:HistoricalPerson ;
+    rdfs:label "Niccolò da Fava the Elder" .
+
+<http://jewish_philosophy.org/id/Nicomachus> a jp:HistoricalPerson ;
+    rdfs:label "Nicomachus" .
+
+<http://jewish_philosophy.org/id/Nuriel_Avraham> a jp:HistoricalPerson ;
+    rdfs:label "Nuriel Avraham" .
+
+<http://jewish_philosophy.org/id/Parmenides> a jp:HistoricalPerson ;
+    rdfs:label "Parmenides" .
+
+<http://jewish_philosophy.org/id/Paul_of_Venice> a jp:HistoricalPerson ;
+    rdfs:label "Paul of Venice" .
+
+<http://jewish_philosophy.org/id/Perreau_Pietro> a jp:HistoricalPerson ;
+    rdfs:label "Perreau Pietro" .
+
+<http://jewish_philosophy.org/id/Petrus_Lombardus> a jp:HistoricalPerson ;
+    rdfs:label "Petrus Lombardus" .
+
+<http://jewish_philosophy.org/id/Pico_de_la_Mirandola> a jp:HistoricalPerson ;
+    rdfs:label "Pico de la Mirandola" .
+
+<http://jewish_philosophy.org/id/Pines_Shlomo> a jp:HistoricalPerson ;
+    rdfs:label "Pines Shlomo" .
+
+<http://jewish_philosophy.org/id/Plessner_Martin> a jp:HistoricalPerson ;
+    rdfs:label "Plessner Martin" .
+
+<http://jewish_philosophy.org/id/Polonus_Jacobus> a jp:HistoricalPerson ;
+    rdfs:label "Polonus Jacobus" .
+
+<http://jewish_philosophy.org/id/Porphyry> a jp:HistoricalPerson ;
+    rdfs:label "Porphyry" .
+
+<http://jewish_philosophy.org/id/Prantl_Karl> a jp:HistoricalPerson ;
+    rdfs:label "Prantl Karl" .
+
+<http://jewish_philosophy.org/id/Profiat_Duran> a jp:HistoricalPerson ;
+    rdfs:label "Profiat Duran" .
+
+<http://jewish_philosophy.org/id/Protagoras> a jp:HistoricalPerson ;
+    rdfs:label "Protagoras" .
+
+<http://jewish_philosophy.org/id/Qiftī_Alī_ibn_Yūsuf> a jp:HistoricalPerson ;
+    rdfs:label "Qiftī 'Alī ibn Yūsuf" .
+
+<http://jewish_philosophy.org/id/Quintilian> a jp:HistoricalPerson ;
+    rdfs:label "Quintilian" .
+
+<http://jewish_philosophy.org/id/Qustā_ibn_Lūqā> a jp:HistoricalPerson ;
+    rdfs:label "Qustā ibn Lūqā" .
+
+<http://jewish_philosophy.org/id/Regev_Shaul> a jp:HistoricalPerson ;
+    rdfs:label "Regev Shaul" .
+
+<http://jewish_philosophy.org/id/Renan_Ernest> a jp:HistoricalPerson ;
+    rdfs:label "Renan Ernest" .
+
+<http://jewish_philosophy.org/id/Ribémont_B.> a jp:HistoricalPerson ;
+    rdfs:label "Ribémont B." .
+
+<http://jewish_philosophy.org/id/Rigo_Caterina> a jp:HistoricalPerson ;
+    rdfs:label "Rigo Caterina" .
+
+<http://jewish_philosophy.org/id/Robert_of_Anjou> a jp:HistoricalPerson ;
+    rdfs:label "Robert of Anjou" .
+
+<http://jewish_philosophy.org/id/Robinson_James> a jp:HistoricalPerson ;
+    rdfs:label "Robinson James" .
+
+<http://jewish_philosophy.org/id/Rose_Valentin> a jp:HistoricalPerson ;
+    rdfs:label "Rose Valentin" .
+
+<http://jewish_philosophy.org/id/Rosenberg_Shalom> a jp:HistoricalPerson ;
+    rdfs:label "Rosenberg Shalom" .
+
+<http://jewish_philosophy.org/id/Roth_Pinchas> a jp:HistoricalPerson ;
+    rdfs:label "Roth Pinchas" .
+
+<http://jewish_philosophy.org/id/Rothschild_Jean-Pierre> a jp:HistoricalPerson ;
+    rdfs:label "Rothschild Jean-Pierre" .
+
+<http://jewish_philosophy.org/id/Rāzī_Abū_Bakr_Muhammad> a jp:HistoricalPerson ;
+    rdfs:label "Rāzī Abū Bakr Muhammad" .
+
+<http://jewish_philosophy.org/id/Sachs_S.> a jp:HistoricalPerson ;
+    rdfs:label "Sachs S." .
+
+<http://jewish_philosophy.org/id/Sackson_Adrian> a jp:HistoricalPerson ;
+    rdfs:label "Sackson Adrian" .
+
+<http://jewish_philosophy.org/id/Samarqandī_al-> a jp:HistoricalPerson ;
+    rdfs:label "Samarqandī al-" .
+
+<http://jewish_philosophy.org/id/Samuel_b._Benveniste> a jp:HistoricalPerson ;
+    rdfs:label "Samuel b. Benveniste" .
+
+<http://jewish_philosophy.org/id/Samuel_b._Judah_of_Marseilles> a jp:HistoricalPerson ;
+    rdfs:label "Samuel b. Judah of Marseilles" .
+
+<http://jewish_philosophy.org/id/Saplana_Pere> a jp:HistoricalPerson ;
+    rdfs:label "Saplana Pere" .
+
+<http://jewish_philosophy.org/id/Sar_Shalom> a jp:HistoricalPerson ;
+    rdfs:label "Sar Shalom" .
+
+<http://jewish_philosophy.org/id/Schwartz_Dov> a jp:HistoricalPerson ;
+    rdfs:label "Schwartz Dov" .
+
+<http://jewish_philosophy.org/id/Schwartz_Yosef> a jp:HistoricalPerson ;
+    rdfs:label "Schwartz Yosef" .
+
+<http://jewish_philosophy.org/id/Sermoneta_Joseph_(Giuseppe)> a jp:HistoricalPerson ;
+    rdfs:label "Sermoneta Joseph (Giuseppe)" .
+
+<http://jewish_philosophy.org/id/Shatzmiller> a jp:HistoricalPerson ;
+    rdfs:label "Shatzmiller" .
+
+<http://jewish_philosophy.org/id/Shelemiah_in_Lunel> a jp:HistoricalPerson ;
+    rdfs:label "Shelemiah in Lunel" .
+
+<http://jewish_philosophy.org/id/Shem_Tov_ibn_Shem_Tov> a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ibn Shem Tov" .
+
+<http://jewish_philosophy.org/id/Sirat_Colette> a jp:HistoricalPerson ;
+    rdfs:label "Sirat Colette" .
+
+<http://jewish_philosophy.org/id/Sisa_ben_Shoshan> a jp:HistoricalPerson ;
+    rdfs:label "Sisa ben Shoshan" .
+
+<http://jewish_philosophy.org/id/Solomon_Yarhi> a jp:HistoricalPerson ;
+    rdfs:label "Solomon Yarhi" .
+
+<http://jewish_philosophy.org/id/Solomon_ben_Joseph_ibn_Ayyub> a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Joseph ibn Ayyub" .
+
+<http://jewish_philosophy.org/id/Solomon_ben_Moses_of_Melgueiri> a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Moses of Melgueiri" .
+
+<http://jewish_philosophy.org/id/Solomon_ha-Levi_b._Isaac> a jp:HistoricalPerson ;
+    rdfs:label "Solomon ha-Levi b. Isaac" .
+
+<http://jewish_philosophy.org/id/Solomon_ibn_Verga> a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Verga" .
+
+<http://jewish_philosophy.org/id/Spruyt_Joke> a jp:HistoricalPerson ;
+    rdfs:label "Spruyt Joke" .
+
+<http://jewish_philosophy.org/id/Stern_S._M.> a jp:HistoricalPerson ;
+    rdfs:label "Stern S. M." .
+
+<http://jewish_philosophy.org/id/Tamani_Giuseppe> a jp:HistoricalPerson ;
+    rdfs:label "Tamani Giuseppe" .
+
+<http://jewish_philosophy.org/id/Teicher_J._L.> a jp:HistoricalPerson ;
+    rdfs:label "Teicher J. L." .
+
+<http://jewish_philosophy.org/id/Themistius> a jp:HistoricalPerson ;
+    rdfs:label "Themistius" .
+
+<http://jewish_philosophy.org/id/Theodosius> a jp:HistoricalPerson ;
+    rdfs:label "Theodosius" .
+
+<http://jewish_philosophy.org/id/Theophrastus> a jp:HistoricalPerson ;
+    rdfs:label "Theophrastus" .
+
+<http://jewish_philosophy.org/id/Thorndike_Lynn> a jp:HistoricalPerson ;
+    rdfs:label "Thorndike Lynn" .
+
+<http://jewish_philosophy.org/id/Tobi_Y.> a jp:HistoricalPerson ;
+    rdfs:label "Tobi Y." .
+
+<http://jewish_philosophy.org/id/Todros_Todrosi> a jp:HistoricalPerson ;
+    rdfs:label "Todros Todrosi" .
+
+<http://jewish_philosophy.org/id/Vajda_Georges> a jp:HistoricalPerson ;
+    rdfs:label "Vajda Georges" .
+
+<http://jewish_philosophy.org/id/Vincent_of_Beauvais> a jp:HistoricalPerson ;
+    rdfs:label "Vincent of Beauvais" .
+
+<http://jewish_philosophy.org/id/Visi_Támas> a jp:HistoricalPerson ;
+    rdfs:label "Visi Támas" .
+
+<http://jewish_philosophy.org/id/Vittorino> a jp:HistoricalPerson ;
+    rdfs:label "Vittorino" .
+
+<http://jewish_philosophy.org/id/Voorbij_Johannes> a jp:HistoricalPerson ;
+    rdfs:label "Voorbij Johannes" .
+
+<http://jewish_philosophy.org/id/Walter_Burley> a jp:HistoricalPerson ;
+    rdfs:label "Walter Burley" .
+
+<http://jewish_philosophy.org/id/William_of_Luna> a jp:HistoricalPerson ;
+    rdfs:label "William of Luna" .
+
+<http://jewish_philosophy.org/id/William_of_Moerbeke> a jp:HistoricalPerson ;
+    rdfs:label "William of Moerbeke" .
+
+<http://jewish_philosophy.org/id/Wolf_Johann_Christoph> a jp:HistoricalPerson ;
+    rdfs:label "Wolf Johann Christoph" .
+
+<http://jewish_philosophy.org/id/Wolfson_Harry_Austryn> a jp:HistoricalPerson ;
+    rdfs:label "Wolfson Harry Austryn" .
+
+<http://jewish_philosophy.org/id/Wüstenfeld_Ferdinand> a jp:HistoricalPerson ;
+    rdfs:label "Wüstenfeld Ferdinand" .
+
+<http://jewish_philosophy.org/id/Yallon_H.> a jp:HistoricalPerson ;
+    rdfs:label "Yallon H." .
+
+<http://jewish_philosophy.org/id/Zahalon_Jacob> a jp:HistoricalPerson ;
+    rdfs:label "Zahalon Jacob" .
+
+<http://jewish_philosophy.org/id/Zedekiah_b._Abraham_Rofe_(Anaw)> a jp:HistoricalPerson ;
+    rdfs:label "Zedekiah b. Abraham Rofe (Anaw)" .
+
+<http://jewish_philosophy.org/id/Zimmels_Bernhard> a jp:HistoricalPerson ;
+    rdfs:label "Zimmels Bernhard" .
+
+<http://jewish_philosophy.org/id/Zonta_Mauro> a jp:HistoricalPerson ;
+    rdfs:label "Zonta Mauro" .
+
+<http://jewish_philosophy.org/id/Zotenberg_Hermann> a jp:HistoricalPerson ;
+    rdfs:label "Zotenberg Hermann" .
+
+<http://jewish_philosophy.org/id/Zuckermann_B.> a jp:HistoricalPerson ;
+    rdfs:label "Zuckermann B." .
+
+<http://jewish_philosophy.org/id/Zunz_Leopold> a jp:HistoricalPerson ;
+    rdfs:label "Zunz Leopold" .
+
+<http://jewish_philosophy.org/id/Zwiep_Irene_E.> a jp:HistoricalPerson ;
+    rdfs:label "Zwiep Irene E." .
+
+<http://jewish_philosophy.org/work/A_Bundle_of_Silver> a jp:HistoricalWork ;
+    rdfs:label "A Bundle of Silver" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Joseph_ibn_Kaspi> .
+
+<http://jewish_philosophy.org/work/A_Small_Sanctuary> a jp:HistoricalWork ;
+    rdfs:label "A Small Sanctuary" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Moses_da_Rieti> .
+
+<http://jewish_philosophy.org/work/Acute_Diseases> a jp:HistoricalWork ;
+    rdfs:label "Acute Diseases" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Hippocrates> .
+
+<http://jewish_philosophy.org/work/Almagest> a jp:HistoricalWork ;
+    rdfs:label "Almagest" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ptolemy> .
+
+<http://jewish_philosophy.org/work/Antidotarium> a jp:HistoricalWork ;
+    rdfs:label "Antidotarium" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ibn_Masawayh_Yūhannā> .
+
+<http://jewish_philosophy.org/work/Ars_brevis> a jp:HistoricalWork ;
+    rdfs:label "Ars brevis" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Llull_Ramon> .
+
+<http://jewish_philosophy.org/work/Book_of_Fevers> a jp:HistoricalWork ;
+    rdfs:label "Book of Fevers" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Isaac_Israeli> .
+
+<http://jewish_philosophy.org/work/Book_of_the_Sphere> a jp:HistoricalWork ;
+    rdfs:label "Book of the Sphere" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Sacrobosco_Johannes_de> .
+
+<http://jewish_philosophy.org/work/Book_on_the_Soul> a jp:HistoricalWork ;
+    rdfs:label "Book on the Soul" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Falaquera_Shem_Tov_b._Joseph> .
+
+<http://jewish_philosophy.org/work/Canon> a jp:HistoricalWork ;
+    rdfs:label "Canon" ;
+    jp:writtenBy jp:Q8011 .
+
+<http://jewish_philosophy.org/work/Categories> a jp:HistoricalWork ;
+    rdfs:label "Categories" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Fārābī_Abū_Nasr_al->,
+        <http://jewish_philosophy.org/id/Gersonides_(Levi_ben_Gershom)> .
+
+<http://jewish_philosophy.org/work/Categories_and_De_Interpretatione> a jp:HistoricalWork ;
+    rdfs:label "Categories and De Interpretatione" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Angelo_da_Camerino> .
+
+<http://jewish_philosophy.org/work/Collector_for_All_Camps> a jp:HistoricalWork ;
+    rdfs:label "Collector for All Camps" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Almoli_Solomon> .
+
+<http://jewish_philosophy.org/work/Commentaries_on_the_Isagoge_and_Categories> a jp:HistoricalWork ;
+    rdfs:label "Commentaries on the Isagoge and Categories" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Moses_b._Samuel> .
+
+<http://jewish_philosophy.org/work/Commentary_on_De_Anima> a jp:HistoricalWork ;
+    rdfs:label "Commentary on De Anima" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Thomas_Aquinas_(attr.)> .
+
+<http://jewish_philosophy.org/work/Commentary_on_Ecclesiastes> a jp:HistoricalWork ;
+    rdfs:label "Commentary on Ecclesiastes" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/David_ibn_Shoshan_b._Samuel>,
+        <http://jewish_philosophy.org/id/Taitazak> .
+
+<http://jewish_philosophy.org/work/Commentary_on_Platos_Republic> a jp:HistoricalWork ;
+    rdfs:label "Commentary on Plato's Republic" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Averroes> .
+
+<http://jewish_philosophy.org/work/Commentary_on_Song_of_Songs> a jp:HistoricalWork ;
+    rdfs:label "Commentary on Song of Songs" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ibn_Tibbon_Moses> .
+
+<http://jewish_philosophy.org/work/Commentary_on_the_Compendium_of_Logic> a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Compendium of Logic" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Mordecai_Natan> .
+
+<http://jewish_philosophy.org/work/Commentary_on_the_De_anima> a jp:HistoricalWork ;
+    rdfs:label "Commentary on the De anima" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Albert_the_Great> .
+
+<http://jewish_philosophy.org/work/Commentary_on_the_Metaphysics> a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Metaphysics" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Alexander_of_Alessandria>,
+        jp:Q329773 .
+
+<http://jewish_philosophy.org/work/De_Anima> a jp:HistoricalWork ;
+    rdfs:label "De Anima" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Gundisalvi_(Gundissalinus)_Domingo> .
+
+<http://jewish_philosophy.org/work/De_anima> a jp:HistoricalWork ;
+    rdfs:label "De anima" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Pseudo-Grosseteste> .
+
+<http://jewish_philosophy.org/work/De_coelo_et_mundo> a jp:HistoricalWork ;
+    rdfs:label "De coelo et mundo" ;
+    jp:writtenBy jp:Q868 .
+
+<http://jewish_philosophy.org/work/De_consolatione_philosophiae> a jp:HistoricalWork ;
+    rdfs:label "De consolatione philosophiae" ;
+    jp:writtenBy jp:Q102851 .
+
+<http://jewish_philosophy.org/work/De_mistione_propositionis_de_inesse_et_necessariae> a jp:HistoricalWork ;
+    rdfs:label "De mistione propositionis de inesse et necessariae" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abū_l-Hajjāj_ibn_Tumlūs> .
+
+<http://jewish_philosophy.org/work/De_modo_discernendi_demonstrationem_propter_quid_e> a jp:HistoricalWork ;
+    rdfs:label "De modo discernendi demonstrationem propter quid et demonstr. quia" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abū_l-_Abbās_Ahmad_b._Qasim> .
+
+<http://jewish_philosophy.org/work/De_negativa_necessaria_et_negativa_possibili> a jp:HistoricalWork ;
+    rdfs:label "De negativa necessaria et negativa possibili" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abū_Abd_al-Rahman_Ibn_Tahir> .
+
+<http://jewish_philosophy.org/work/De_notificatione_generis_et_speciei> a jp:HistoricalWork ;
+    rdfs:label "De notificatione generis et speciei" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abū_l-Qāsim_ibn_Idrīs> .
+
+<http://jewish_philosophy.org/work/De_plurificatione_intellectus_possibilis> a jp:HistoricalWork ;
+    rdfs:label "De plurificatione intellectus possibilis" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Giles_of_Rome_(Aegidius_de_Columna)> .
+
+<http://jewish_philosophy.org/work/De_universalibus> a jp:HistoricalWork ;
+    rdfs:label "De universalibus" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Vincent_Ferrer> .
+
+<http://jewish_philosophy.org/work/De_uno_et_unitate> a jp:HistoricalWork ;
+    rdfs:label "De uno et unitate" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Domingo_Gundisalvi> .
+
+<http://jewish_philosophy.org/work/Fons_vitae> a jp:HistoricalWork ;
+    rdfs:label "Fons vitae" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ibn_Gabirol_Solomon> .
+
+<http://jewish_philosophy.org/work/Gloss_Commentary_on_the_Tractatus> a jp:HistoricalWork ;
+    rdfs:label "Gloss Commentary on the Tractatus" ;
+    jp:writtenBy jp:NW_7 .
+
+<http://jewish_philosophy.org/work/Isagoge> a jp:HistoricalWork ;
+    rdfs:label "Isagoge" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Anonymous_commentators>,
+        <http://jewish_philosophy.org/id/Avigdor>,
+        <http://jewish_philosophy.org/id/Eli_(Habillo?)>,
+        <http://jewish_philosophy.org/id/Ibn_Shem_Tov_Joseph_b._Shem_Tov>,
+        <http://jewish_philosophy.org/id/Joseph_(?)>,
+        jp:Q669640 .
+
+<http://jewish_philosophy.org/work/Isagoge_and_Categories> a jp:HistoricalWork ;
+    rdfs:label "Isagoge and Categories" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Judah_Kohen> .
+
+<http://jewish_philosophy.org/work/Judahs_Offering> a jp:HistoricalWork ;
+    rdfs:label "Judah's Offering" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Joseph_b._Moses_Qilti> .
+
+<http://jewish_philosophy.org/work/Kuzari> a jp:HistoricalWork ;
+    rdfs:label "Kuzari" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Judah_Halevy> .
+
+<http://jewish_philosophy.org/work/Letter_on_Psychology> a jp:HistoricalWork ;
+    rdfs:label "Letter on Psychology" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Pseudo-Avicenna> .
+
+<http://jewish_philosophy.org/work/Letter_on_the_Intellect> a jp:HistoricalWork ;
+    rdfs:label "Letter on the Intellect" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Jedaiah_ha-Penini> .
+
+<http://jewish_philosophy.org/work/Letter_to_Samuel_Ibn_Tibbon> a jp:HistoricalWork ;
+    rdfs:label "Letter to Samuel Ibn Tibbon" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Maimonides_(Moses_ben_Maimon)> .
+
+<http://jewish_philosophy.org/work/Linstrumento_della_Filosofia> a jp:HistoricalWork ;
+    rdfs:label "L'instrumento della Filosofia" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Piccolomini_Alessandro> .
+
+<http://jewish_philosophy.org/work/Logic> a jp:HistoricalWork ;
+    rdfs:label "Logic" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Elijah_b._Eliezer>,
+        <http://jewish_philosophy.org/id/Shemariah_ha-Ikriti> .
+
+<http://jewish_philosophy.org/work/Logical_Questions> a jp:HistoricalWork ;
+    rdfs:label "Logical Questions" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Pseudo_(?)-Marsilius_of_Inghen> .
+
+<http://jewish_philosophy.org/work/Magen_Avot> a jp:HistoricalWork ;
+    rdfs:label "Magen Avot" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Duran_Simon_ben_Zemah> .
+
+<http://jewish_philosophy.org/work/Microcosm> a jp:HistoricalWork ;
+    rdfs:label "Microcosm" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ibn_Zaddik_Joseph> .
+
+<http://jewish_philosophy.org/work/My_Uncle_and_My_Nephew> a jp:HistoricalWork ;
+    rdfs:label "My Uncle and My Nephew" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Berechiah_ha-Naqdan> .
+
+<http://jewish_philosophy.org/work/Philosophia_pauperum> a jp:HistoricalWork ;
+    rdfs:label "Philosophia pauperum" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Albert_Orlamünde> .
+
+<http://jewish_philosophy.org/work/Philosophical_Anthology> a jp:HistoricalWork ;
+    rdfs:label "Philosophical Anthology" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Judah_Romano> .
+
+<http://jewish_philosophy.org/work/Prior_Analytics> a jp:HistoricalWork ;
+    rdfs:label "Prior Analytics" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Maestro_Leon> .
+
+<http://jewish_philosophy.org/work/Quaestiones_in_Veterem_artem> a jp:HistoricalWork ;
+    rdfs:label "Quaestiones in Veterem artem" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Radulphus_Brito> .
+
+<http://jewish_philosophy.org/work/Quaestiones_naturales> a jp:HistoricalWork ;
+    rdfs:label "Quaestiones naturales" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Adelard_of_Bath> .
+
+<http://jewish_philosophy.org/work/Quaestiones_super_XII_libros_Metaphysicorum> a jp:HistoricalWork ;
+    rdfs:label "Quaestiones super XII libros Metaphysicorum" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Antonius_Andreas> .
+
+<http://jewish_philosophy.org/work/Quaestiones_super_libros_De_anima> a jp:HistoricalWork ;
+    rdfs:label "Quaestiones super libros De anima" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Jean_Letourneur_(Versor)> .
+
+<http://jewish_philosophy.org/work/Rules_of_Logic> a jp:HistoricalWork ;
+    rdfs:label "Rules of Logic" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/David_ibn_Bilia> .
+
+<http://jewish_philosophy.org/work/Summa_conservationis_corporis> a jp:HistoricalWork ;
+    rdfs:label "Summa conservationis corporis" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/William_of_Saliceto> .
+
+<http://jewish_philosophy.org/work/Summa_totius_logicae> a jp:HistoricalWork ;
+    rdfs:label "Summa totius logicae" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/William_Ockham> .
+
+<http://jewish_philosophy.org/work/Summary_of_Physical_Philosophy> a jp:HistoricalWork ;
+    rdfs:label "Summary of Physical Philosophy" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abraham_Shalom> .
+
+<http://jewish_philosophy.org/work/Textus_abbreviatus_Aristotelis_super_VIII_libros_P> a jp:HistoricalWork ;
+    rdfs:label "Textus abbreviatus Aristotelis super VIII libros Physicae" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Thomas_Bricot> .
+
+<http://jewish_philosophy.org/work/The_Art_of_Logic> a jp:HistoricalWork ;
+    rdfs:label "The Art of Logic" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Judah_b._Moses_ibn_Hayyim>,
+        <http://jewish_philosophy.org/id/Moses_b._Judah_Galiano> .
+
+<http://jewish_philosophy.org/work/The_Gate_of_Heaven> a jp:HistoricalWork ;
+    rdfs:label "The Gate of Heaven" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Gershom_ben_Solomon> .
+
+<http://jewish_philosophy.org/work/The_Incoherence_of_the_Philosophers> a jp:HistoricalWork ;
+    rdfs:label "The Incoherence of the Philosophers" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ghazālī_Abū_Hamid_al-> .
+
+<http://jewish_philosophy.org/work/The_Investigation_of_Wisdom> a jp:HistoricalWork ;
+    rdfs:label "The Investigation of Wisdom" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Judah_b._Solomon_ha-Kohen_ibn_Matqah> .
+
+<http://jewish_philosophy.org/work/The_Light_of_the_Lord> a jp:HistoricalWork ;
+    rdfs:label "The Light of the Lord" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Crescas_Hasdai> .
+
+<http://jewish_philosophy.org/work/The_Mantle_of_Elijah> a jp:HistoricalWork ;
+    rdfs:label "The Mantle of Elijah" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Bashyatchi_Elijah> .
+
+<http://jewish_philosophy.org/work/The_Medicine_for_Healthy_Souls> a jp:HistoricalWork ;
+    rdfs:label "The Medicine for Healthy Souls" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Ibn_Aqnīn_Joseph_b._Judah> .
+
+<http://jewish_philosophy.org/work/The_Meditation_of_the_Sad_Soul> a jp:HistoricalWork ;
+    rdfs:label "The Meditation of the Sad Soul" ;
+    jp:writtenBy jp:Q31439 .
+
+<http://jewish_philosophy.org/work/The_Paths_of_Faith> a jp:HistoricalWork ;
+    rdfs:label "The Paths of Faith" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Meir_Aldabi> .
+
+<http://jewish_philosophy.org/work/Tractatus> a jp:HistoricalWork ;
+    rdfs:label "Tractatus" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Petrus_Hispanus> .
+
+<http://jewish_philosophy.org/work/Tractatus_de_generatione_syllogismi> a jp:HistoricalWork ;
+    rdfs:label "Tractatus de generatione syllogismi" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Pseudo_(?)-Giles_of_Rome_(Aegidius_de_Columna)> .
+
+<http://jewish_philosophy.org/work/Tractatus_version> a jp:HistoricalWork ;
+    rdfs:label "Tractatus version" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Abraham_Avigdor>,
+        <http://jewish_philosophy.org/id/Judah_Shalom> .
+
+<http://jewish_philosophy.org/work/commentary_on_Ecclesiastes> a jp:HistoricalWork ;
+    rdfs:label "commentary on Ecclesiastes" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Baruch_ibn_Baruch> .
+
+<http://jewish_philosophy.org/work/commentary_on_the_De_consolatione_philosophiae> a jp:HistoricalWork ;
+    rdfs:label "commentary on the De consolatione philosophiae" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Nicholas_Trevet>,
+        <http://jewish_philosophy.org/id/Pseudo-Aquinas> .
+
+<http://jewish_philosophy.org/work/commentary_on_the_Liber_de_causis> a jp:HistoricalWork ;
+    rdfs:label "commentary on the Liber de causis" ;
+    jp:writtenBy jp:Q9438 .
+
+<http://jewish_philosophy.org/work/translations_of_Aquinas_and_Letourneur> a jp:HistoricalWork ;
+    rdfs:label "translations of Aquinas and Letourneur" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Eli_Habillo> .
+
+<http://jewish_philosophy.org/work/translations_of_Aristotle_and_Averroes> a jp:HistoricalWork ;
+    rdfs:label "translations of Aristotle and Averroes" ;
+    jp:writtenBy <http://jewish_philosophy.org/id/Scot_Michael> .
+
+<http://jewish_philosophy.org/id/Abraham_Avigdor> a jp:HistoricalPerson ;
+    rdfs:label "Abraham Avigdor" .
+
+<http://jewish_philosophy.org/id/Abraham_Shalom> a jp:HistoricalPerson ;
+    rdfs:label "Abraham Shalom" .
+
+<http://jewish_philosophy.org/id/Abū_Abd_al-Rahman_Ibn_Tahir> a jp:HistoricalPerson ;
+    rdfs:label "Abū Abd al-Rahman Ibn Tahir" .
+
+<http://jewish_philosophy.org/id/Abū_l-Hajjāj_ibn_Tumlūs> a jp:HistoricalPerson ;
+    rdfs:label "Abū l-Hajjāj ibn Tumlūs" .
+
+<http://jewish_philosophy.org/id/Abū_l-Qāsim_ibn_Idrīs> a jp:HistoricalPerson ;
+    rdfs:label "Abū l-Qāsim ibn Idrīs" .
+
+<http://jewish_philosophy.org/id/Abū_l-_Abbās_Ahmad_b._Qasim> a jp:HistoricalPerson ;
+    rdfs:label "Abū l- Abbās Ahmad b. Qasim" .
+
+<http://jewish_philosophy.org/id/Adelard_of_Bath> a jp:HistoricalPerson ;
+    rdfs:label "Adelard of Bath" .
+
+<http://jewish_philosophy.org/id/Albert_Orlamünde> a jp:HistoricalPerson ;
+    rdfs:label "Albert Orlamünde" .
+
+<http://jewish_philosophy.org/id/Albert_the_Great> a jp:HistoricalPerson ;
+    rdfs:label "Albert the Great" .
+
+<http://jewish_philosophy.org/id/Alexander_of_Alessandria> a jp:HistoricalPerson ;
+    rdfs:label "Alexander of Alessandria" .
+
+<http://jewish_philosophy.org/id/Almoli_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Almoli Solomon" .
+
+<http://jewish_philosophy.org/id/Angelo_da_Camerino> a jp:HistoricalPerson ;
+    rdfs:label "Angelo da Camerino" .
+
+<http://jewish_philosophy.org/id/Anonymous_commentators> a jp:HistoricalPerson ;
+    rdfs:label "Anonymous commentators" .
+
+<http://jewish_philosophy.org/id/Antonius_Andreas> a jp:HistoricalPerson ;
+    rdfs:label "Antonius Andreas" .
+
+<http://jewish_philosophy.org/id/Averroes> a jp:HistoricalPerson ;
+    rdfs:label "Averroes" .
+
+<http://jewish_philosophy.org/id/Avigdor> a jp:HistoricalPerson ;
+    rdfs:label "Avigdor" .
+
+<http://jewish_philosophy.org/id/Baruch_ibn_Baruch> a jp:HistoricalPerson ;
+    rdfs:label "Baruch ibn Baruch" .
+
+<http://jewish_philosophy.org/id/Bashyatchi_Elijah> a jp:HistoricalPerson ;
+    rdfs:label "Bashyatchi Elijah" .
+
+<http://jewish_philosophy.org/id/Berechiah_ha-Naqdan> a jp:HistoricalPerson ;
+    rdfs:label "Berechiah ha-Naqdan" .
+
+<http://jewish_philosophy.org/id/Crescas_Hasdai> a jp:HistoricalPerson ;
+    rdfs:label "Crescas Hasdai" .
+
+<http://jewish_philosophy.org/id/David_ibn_Bilia> a jp:HistoricalPerson ;
+    rdfs:label "David ibn Bilia" .
+
+<http://jewish_philosophy.org/id/David_ibn_Shoshan_b._Samuel> a jp:HistoricalPerson ;
+    rdfs:label "David ibn Shoshan b. Samuel" .
+
+<http://jewish_philosophy.org/id/Domingo_Gundisalvi> a jp:HistoricalPerson ;
+    rdfs:label "Domingo Gundisalvi" .
+
+<http://jewish_philosophy.org/id/Duran_Simon_ben_Zemah> a jp:HistoricalPerson ;
+    rdfs:label "Duran Simon ben Zemah" .
+
+<http://jewish_philosophy.org/id/Eli_(Habillo?)> a jp:HistoricalPerson ;
+    rdfs:label "Eli (Habillo?)" .
+
+<http://jewish_philosophy.org/id/Eli_Habillo> a jp:HistoricalPerson ;
+    rdfs:label "Eli Habillo" .
+
+<http://jewish_philosophy.org/id/Elijah_b._Eliezer> a jp:HistoricalPerson ;
+    rdfs:label "Elijah b. Eliezer" .
+
+<http://jewish_philosophy.org/id/Falaquera_Shem_Tov_b._Joseph> a jp:HistoricalPerson ;
+    rdfs:label "Falaquera Shem Tov b. Joseph" .
+
+<http://jewish_philosophy.org/id/Fārābī_Abū_Nasr_al-> a jp:HistoricalPerson ;
+    rdfs:label "Fārābī Abū Nasr al-" .
+
+<http://jewish_philosophy.org/id/Gershom_ben_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Gershom ben Solomon" .
+
+<http://jewish_philosophy.org/id/Gersonides_(Levi_ben_Gershom)> a jp:HistoricalPerson ;
+    rdfs:label "Gersonides (Levi ben Gershom)" .
+
+<http://jewish_philosophy.org/id/Ghazālī_Abū_Hamid_al-> a jp:HistoricalPerson ;
+    rdfs:label "Ghazālī Abū Hamid al-" .
+
+<http://jewish_philosophy.org/id/Giles_of_Rome_(Aegidius_de_Columna)> a jp:HistoricalPerson ;
+    rdfs:label "Giles of Rome (Aegidius de Columna)" .
+
+<http://jewish_philosophy.org/id/Gundisalvi_(Gundissalinus)_Domingo> a jp:HistoricalPerson ;
+    rdfs:label "Gundisalvi (Gundissalinus) Domingo" .
+
+<http://jewish_philosophy.org/id/Hippocrates> a jp:HistoricalPerson ;
+    rdfs:label "Hippocrates" .
+
+<http://jewish_philosophy.org/id/Ibn_Aqnīn_Joseph_b._Judah> a jp:HistoricalPerson ;
+    rdfs:label "Ibn 'Aqnīn Joseph b. Judah" .
+
+<http://jewish_philosophy.org/id/Ibn_Gabirol_Solomon> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Gabirol Solomon" .
+
+<http://jewish_philosophy.org/id/Ibn_Masawayh_Yūhannā> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Masawayh Yūhannā" .
+
+<http://jewish_philosophy.org/id/Ibn_Shem_Tov_Joseph_b._Shem_Tov> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Shem Tov Joseph b. Shem Tov" .
+
+<http://jewish_philosophy.org/id/Ibn_Tibbon_Moses> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tibbon Moses" .
+
+<http://jewish_philosophy.org/id/Ibn_Zaddik_Joseph> a jp:HistoricalPerson ;
+    rdfs:label "Ibn Zaddik Joseph" .
+
+<http://jewish_philosophy.org/id/Isaac_Israeli> a jp:HistoricalPerson ;
+    rdfs:label "Isaac Israeli" .
+
+<http://jewish_philosophy.org/id/Jean_Letourneur_(Versor)> a jp:HistoricalPerson ;
+    rdfs:label "Jean Letourneur (Versor)" .
+
+<http://jewish_philosophy.org/id/Jedaiah_ha-Penini> a jp:HistoricalPerson ;
+    rdfs:label "Jedaiah ha-Penini" .
+
+<http://jewish_philosophy.org/id/Joseph_(?)> a jp:HistoricalPerson ;
+    rdfs:label "Joseph (?)" .
+
+<http://jewish_philosophy.org/id/Joseph_b._Moses_Qilti> a jp:HistoricalPerson ;
+    rdfs:label "Joseph b. Moses Qilti" .
+
+<http://jewish_philosophy.org/id/Joseph_ibn_Kaspi> a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Kaspi" .
+
+<http://jewish_philosophy.org/id/Judah_Halevy> a jp:HistoricalPerson ;
+    rdfs:label "Judah Halevy" .
+
+<http://jewish_philosophy.org/id/Judah_Kohen> a jp:HistoricalPerson ;
+    rdfs:label "Judah Kohen" .
+
+<http://jewish_philosophy.org/id/Judah_Romano> a jp:HistoricalPerson ;
+    rdfs:label "Judah Romano" .
+
+<http://jewish_philosophy.org/id/Judah_Shalom> a jp:HistoricalPerson ;
+    rdfs:label "Judah Shalom" .
+
+<http://jewish_philosophy.org/id/Judah_b._Moses_ibn_Hayyim> a jp:HistoricalPerson ;
+    rdfs:label "Judah b. Moses ibn Hayyim" .
+
+<http://jewish_philosophy.org/id/Judah_b._Solomon_ha-Kohen_ibn_Matqah> a jp:HistoricalPerson ;
+    rdfs:label "Judah b. Solomon ha-Kohen ibn Matqah" .
+
+<http://jewish_philosophy.org/id/Llull_Ramon> a jp:HistoricalPerson ;
+    rdfs:label "Llull Ramon" .
+
+<http://jewish_philosophy.org/id/Maestro_Leon> a jp:HistoricalPerson ;
+    rdfs:label "Maestro Leon" .
+
+<http://jewish_philosophy.org/id/Maimonides_(Moses_ben_Maimon)> a jp:HistoricalPerson ;
+    rdfs:label "Maimonides (Moses ben Maimon)" .
+
+<http://jewish_philosophy.org/id/Meir_Aldabi> a jp:HistoricalPerson ;
+    rdfs:label "Meir Aldabi" .
+
+<http://jewish_philosophy.org/id/Mordecai_Natan> a jp:HistoricalPerson ;
+    rdfs:label "Mordecai Natan" .
+
+<http://jewish_philosophy.org/id/Moses_b._Judah_Galiano> a jp:HistoricalPerson ;
+    rdfs:label "Moses b. Judah Galiano" .
+
+<http://jewish_philosophy.org/id/Moses_b._Samuel> a jp:HistoricalPerson ;
+    rdfs:label "Moses b. Samuel" .
+
+<http://jewish_philosophy.org/id/Moses_da_Rieti> a jp:HistoricalPerson ;
+    rdfs:label "Moses da Rieti" .
+
+<http://jewish_philosophy.org/id/Nicholas_Trevet> a jp:HistoricalPerson ;
+    rdfs:label "Nicholas Trevet" .
+
+<http://jewish_philosophy.org/id/Petrus_Hispanus> a jp:HistoricalPerson ;
+    rdfs:label "Petrus Hispanus" .
+
+<http://jewish_philosophy.org/id/Piccolomini_Alessandro> a jp:HistoricalPerson ;
+    rdfs:label "Piccolomini Alessandro" .
+
+<http://jewish_philosophy.org/id/Pseudo-Aquinas> a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Aquinas" .
+
+<http://jewish_philosophy.org/id/Pseudo-Avicenna> a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Avicenna" .
+
+<http://jewish_philosophy.org/id/Pseudo-Grosseteste> a jp:HistoricalPerson ;
+    rdfs:label "Pseudo-Grosseteste" .
+
+<http://jewish_philosophy.org/id/Pseudo_(?)-Giles_of_Rome_(Aegidius_de_Columna)> a jp:HistoricalPerson ;
+    rdfs:label "Pseudo (?)-Giles of Rome (Aegidius de Columna)" .
+
+<http://jewish_philosophy.org/id/Pseudo_(?)-Marsilius_of_Inghen> a jp:HistoricalPerson ;
+    rdfs:label "Pseudo (?)-Marsilius of Inghen" .
+
+<http://jewish_philosophy.org/id/Ptolemy> a jp:HistoricalPerson ;
+    rdfs:label "Ptolemy" .
+
+<http://jewish_philosophy.org/id/Radulphus_Brito> a jp:HistoricalPerson ;
+    rdfs:label "Radulphus Brito" .
+
+<http://jewish_philosophy.org/id/Sacrobosco_Johannes_de> a jp:HistoricalPerson ;
+    rdfs:label "Sacrobosco Johannes de" .
+
+<http://jewish_philosophy.org/id/Scot_Michael> a jp:HistoricalPerson ;
+    rdfs:label "Scot Michael" .
+
+<http://jewish_philosophy.org/id/Shemariah_ha-Ikriti> a jp:HistoricalPerson ;
+    rdfs:label "Shemariah ha-Ikriti" .
+
+<http://jewish_philosophy.org/id/Taitazak> a jp:HistoricalPerson ;
+    rdfs:label "Taitazak" .
+
+<http://jewish_philosophy.org/id/Thomas_Aquinas_(attr.)> a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas (attr.)" .
+
+<http://jewish_philosophy.org/id/Thomas_Bricot> a jp:HistoricalPerson ;
+    rdfs:label "Thomas Bricot" .
+
+<http://jewish_philosophy.org/id/Vincent_Ferrer> a jp:HistoricalPerson ;
+    rdfs:label "Vincent Ferrer" .
+
+<http://jewish_philosophy.org/id/William_Ockham> a jp:HistoricalPerson ;
+    rdfs:label "William Ockham" .
+
+<http://jewish_philosophy.org/id/William_of_Saliceto> a jp:HistoricalPerson ;
+    rdfs:label "William of Saliceto" .
+

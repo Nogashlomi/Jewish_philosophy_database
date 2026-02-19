@@ -1,0 +1,706 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:W_001 a jp:HistoricalWork ;
+    jp:title "Kitāb al-Mi’a (Book of the Hundred)" .
+
+jp:W_002 a jp:HistoricalWork ;
+    jp:title "Ma’amar Yiqqawu ha-Mayim" .
+
+jp:W_003 a jp:HistoricalWork ;
+    jp:title "Book of Job" .
+
+jp:W_004 a jp:HistoricalWork ;
+    jp:title "Revealer of Secrets" .
+
+jp:W_005 a jp:HistoricalWork ;
+    jp:title "Summulae Logicales" .
+
+jp:W_006 a jp:HistoricalWork ;
+    jp:title "Livre des causes" .
+
+jp:W_007 a jp:HistoricalWork ;
+    jp:title "Shaʿare Ṣedeq" .
+
+jp:W_008 a jp:HistoricalWork ;
+    jp:title "Metafisica" .
+
+jp:W_009 a jp:HistoricalWork ;
+    jp:title "Maamar ha-eḥad ve-ha-aḥdut (De unitate et uno)" .
+
+jp:W_010 a jp:HistoricalWork ;
+    jp:title "De consolatione philosophiae" .
+
+jp:W_011 a jp:HistoricalWork ;
+    jp:title "The Governance of the Solitary" .
+
+jp:W_012 a jp:HistoricalWork ;
+    jp:title "Sefer ha-nefeš (Tractatus de anima)" .
+
+jp:W_013 a jp:HistoricalWork ;
+    jp:title "Guide of the Perplexed" .
+
+jp:W_014 a jp:HistoricalWork ;
+    jp:title "Guide of the Perplexed I.17" .
+
+jp:W_015 a jp:HistoricalWork ;
+    jp:title "Mishneh Torah, vol. 2" .
+
+jp:W_016 a jp:HistoricalWork ;
+    jp:title "Quaestio de attributis" .
+
+jp:W_017 a jp:HistoricalWork ;
+    jp:title "Ma‛aseh Merkavah" .
+
+jp:W_018 a jp:HistoricalWork ;
+    jp:title "Mishneh Torah" .
+
+jp:W_019 a jp:HistoricalWork ;
+    jp:title "Guide, II, 24" .
+
+jp:W_020 a jp:HistoricalWork ;
+    jp:title "Guide 2:24" .
+
+jp:W_021 a jp:HistoricalWork ;
+    jp:title "The Guide for the Perplexed" .
+
+jp:W_022 a jp:HistoricalWork ;
+    jp:title "Guide" .
+
+jp:W_023 a jp:HistoricalWork ;
+    jp:title "Guida dei perplessi" .
+
+jp:W_024 a jp:HistoricalWork ;
+    jp:title "Pugio fidei" .
+
+jp:W_025 a jp:HistoricalWork ;
+    jp:title "Epistle on Astrology" .
+
+jp:W_026 a jp:HistoricalWork ;
+    jp:title "Sefer ha-Mitsvot" .
+
+jp:W_027 a jp:HistoricalWork ;
+    jp:title "Dux neutrorum" .
+
+jp:W_028 a jp:HistoricalWork ;
+    jp:title "Commentary on the Mishnah" .
+
+jp:W_029 a jp:HistoricalWork ;
+    jp:title "Thirteen Principles" .
+
+jp:W_030 a jp:HistoricalWork ;
+    jp:title "Principle K" .
+
+jp:W_031 a jp:HistoricalWork ;
+    jp:title "Treatise on the Art of Logic" .
+
+jp:W_032 a jp:HistoricalWork ;
+    jp:title "Moreh ha-Nevukhim" .
+
+jp:W_033 a jp:HistoricalWork ;
+    jp:title "Sefer Melakhim" .
+
+jp:W_034 a jp:HistoricalWork ;
+    jp:title "Commentaries" .
+
+jp:W_035 a jp:HistoricalWork ;
+    jp:title "Sefer ha-Madda‘" .
+
+jp:W_036 a jp:HistoricalWork ;
+    jp:title "Maimonides’ Thirteen Principles" .
+
+jp:W_037 a jp:HistoricalWork ;
+    jp:title "Maimonidean Apocrypha" .
+
+jp:W_038 a jp:HistoricalWork ;
+    jp:title "Lehem Mishneh" .
+
+jp:W_039 a jp:HistoricalWork ;
+    jp:title "‘Dux neutrorum’" .
+
+jp:W_040 a jp:HistoricalWork ;
+    jp:title "Sh-h-r" .
+
+jp:W_041 a jp:HistoricalWork ;
+    jp:title "Logical Organon: Topica" .
+
+jp:W_042 a jp:HistoricalWork ;
+    jp:title "Epistle of the Debate" .
+
+jp:W_043 a jp:HistoricalWork ;
+    jp:title "Book of Dialectic" .
+
+jp:W_044 a jp:HistoricalWork ;
+    jp:title "Topics on Philosophy and the Holy Writ" .
+
+jp:W_045 a jp:HistoricalWork ;
+    jp:title "Hebrew Symposium" .
+
+jp:W_046 a jp:HistoricalWork ;
+    jp:title "Risâlah fî'l-‘aql" .
+
+jp:W_047 a jp:HistoricalWork ;
+    jp:title "Perush ha-Millot ha-Zarot" .
+
+jp:W_048 a jp:HistoricalWork ;
+    jp:title "Eisagoge" .
+
+jp:W_049 a jp:HistoricalWork ;
+    jp:title "Categories" .
+
+jp:W_050 a jp:HistoricalWork ;
+    jp:title "Lost Long Commentary/Gloss-Commentary on Aristotle’s Topics, Book VIII" .
+
+jp:W_051 a jp:HistoricalWork ;
+    jp:title "Plato’s Laws" .
+
+jp:W_052 a jp:HistoricalWork ;
+    jp:title "The Art of Dialectic" .
+
+jp:W_053 a jp:HistoricalWork ;
+    jp:title "Eighth Book of Aristotle’s Topics" .
+
+jp:W_054 a jp:HistoricalWork ;
+    jp:title "The Ethics" .
+
+jp:W_055 a jp:HistoricalWork ;
+    jp:title "Sefer Yesira" .
+
+jp:W_056 a jp:HistoricalWork ;
+    jp:title "De substantia orbis" .
+
+jp:W_057 a jp:HistoricalWork ;
+    jp:title "Shaʿar ha-Shamayim" .
+
+jp:W_058 a jp:HistoricalWork ;
+    jp:title "Sefer Peah" .
+
+jp:W_059 a jp:HistoricalWork ;
+    jp:title "Maamar ha-Taninim" .
+
+jp:W_060 a jp:HistoricalWork ;
+    jp:title "Perush ha-Azharot" .
+
+jp:W_061 a jp:HistoricalWork ;
+    jp:title "Guida dei Perplessi" .
+
+jp:W_062 a jp:HistoricalWork ;
+    jp:title "Maqāṣid al Falāsifah (Aims of the Philosophers)" .
+
+jp:W_063 a jp:HistoricalWork ;
+    jp:title "Ars brevis" .
+
+jp:W_064 a jp:HistoricalWork ;
+    jp:title "Book of Joshua" .
+
+jp:W_065 a jp:HistoricalWork ;
+    jp:title "Epitome" .
+
+jp:W_066 a jp:HistoricalWork ;
+    jp:title "Fonte della vita" .
+
+jp:W_067 a jp:HistoricalWork ;
+    jp:title "Le livre de l’amélioration des qualités de l’âme" .
+
+jp:W_068 a jp:HistoricalWork ;
+    jp:title "Sēfer ha-mūsār" .
+
+jp:W_069 a jp:HistoricalWork ;
+    jp:title "Eshkōl ha-kōfer" .
+
+jp:W_070 a jp:HistoricalWork ;
+    jp:title "Eshkol ha-kofer" .
+
+jp:W_071 a jp:HistoricalWork ;
+    jp:title "Hayy Ibn Yaqzan" .
+
+jp:W_072 a jp:HistoricalWork ;
+    jp:title "Commentary on the Torah" .
+
+jp:W_073 a jp:HistoricalWork ;
+    jp:title "Hay ben Meqitz" .
+
+jp:W_074 a jp:HistoricalWork ;
+    jp:title "Hayy ibn Yaqzân" .
+
+jp:W_075 a jp:HistoricalWork ;
+    jp:title "Book of Reasons" .
+
+jp:W_076 a jp:HistoricalWork ;
+    jp:title "Book of the World" .
+
+jp:W_077 a jp:HistoricalWork ;
+    jp:title "Yesod Mora" .
+
+jp:W_078 a jp:HistoricalWork ;
+    jp:title "Book of Elections" .
+
+jp:W_079 a jp:HistoricalWork ;
+    jp:title "Book of Interrogations" .
+
+jp:W_080 a jp:HistoricalWork ;
+    jp:title "Book of the Luminaries" .
+
+jp:W_081 a jp:HistoricalWork ;
+    jp:title "Book of Nativities" .
+
+jp:W_082 a jp:HistoricalWork ;
+    jp:title "Book of Revolution" .
+
+jp:W_083 a jp:HistoricalWork ;
+    jp:title "Torah Commentary" .
+
+jp:W_084 a jp:HistoricalWork ;
+    jp:title "Book of the Beginning of Wisdom" .
+
+jp:W_085 a jp:HistoricalWork ;
+    jp:title "Book of the Judgments of the Zodiacal Signs" .
+
+jp:W_086 a jp:HistoricalWork ;
+    jp:title "Liber Nativitatum" .
+
+jp:W_087 a jp:HistoricalWork ;
+    jp:title "Liber Abraham Iudei de Nativitatibus" .
+
+jp:W_088 a jp:HistoricalWork ;
+    jp:title "Liber Electionum" .
+
+jp:W_089 a jp:HistoricalWork ;
+    jp:title "Liber Interrogationum" .
+
+jp:W_090 a jp:HistoricalWork ;
+    jp:title "Tractatus Particulares" .
+
+jp:W_091 a jp:HistoricalWork ;
+    jp:title "Torah Commentaries" .
+
+jp:W_092 a jp:HistoricalWork ;
+    jp:title "Qohelet" .
+
+jp:W_093 a jp:HistoricalWork ;
+    jp:title "Secret of the Twelve" .
+
+jp:W_094 a jp:HistoricalWork ;
+    jp:title "Kitāb Kifāyat al-ʽĀbidīn" .
+
+jp:W_095 a jp:HistoricalWork ;
+    jp:title "Iḥyā’ ʽUlūm al-Dīn" .
+
+jp:W_096 a jp:HistoricalWork ;
+    jp:title "Qohelet (Ecclesiastes)" .
+
+jp:W_097 a jp:HistoricalWork ;
+    jp:title "Arabic Commentary on Lamentations" .
+
+jp:W_098 a jp:HistoricalWork ;
+    jp:title "Segullat Melakhim" .
+
+jp:W_099 a jp:HistoricalWork ;
+    jp:title "Aristotelian Syllogism" .
+
+jp:W_100 a jp:HistoricalWork ;
+    jp:title "The Law of Reason in the Kuzari" .
+
+jp:W_101 a jp:HistoricalWork ;
+    jp:title "Kuzari" .
+
+jp:W_102 a jp:HistoricalWork ;
+    jp:title "Sefer ha-Kuzari 1:1" .
+
+jp:W_103 a jp:HistoricalWork ;
+    jp:title "Dialoghi" .
+
+jp:W_104 a jp:HistoricalWork ;
+    jp:title "Sefer ha-Kuzari" .
+
+jp:W_105 a jp:HistoricalWork ;
+    jp:title "The Kuzari" .
+
+jp:W_106 a jp:HistoricalWork ;
+    jp:title "Astronomy" .
+
+jp:W_107 a jp:HistoricalWork ;
+    jp:title "Scroll of the Revealer" .
+
+jp:W_108 a jp:HistoricalWork ;
+    jp:title "Logica di Aristotele" .
+
+jp:W_109 a jp:HistoricalWork ;
+    jp:title "Tavole astronomiche" .
+
+jp:W_110 a jp:HistoricalWork ;
+    jp:title "Quaestio sollemnis de unitate universalis" .
+
+jp:W_111 a jp:HistoricalWork ;
+    jp:title "Quaestio de unitate universalis" .
+
+jp:W_112 a jp:HistoricalWork ;
+    jp:title "Mostrador de Justicia" .
+
+jp:W_113 a jp:HistoricalWork ;
+    jp:title "Commentary on Sefer Yetsira" .
+
+jp:W_114 a jp:HistoricalWork ;
+    jp:title "Kitâb al-Amânât" .
+
+jp:W_115 a jp:HistoricalWork ;
+    jp:title "Derekh ‘emunah" .
+
+jp:W_116 a jp:HistoricalWork ;
+    jp:title "Commentary on Aristotle’s Metaphysics" .
+
+jp:W_117 a jp:HistoricalWork ;
+    jp:title "ha-Emunah ha-Ramah" .
+
+jp:W_118 a jp:HistoricalWork ;
+    jp:title "Necessary Existent" .
+
+jp:W_119 a jp:HistoricalWork ;
+    jp:title "Psalm 139" .
+
+jp:W_120 a jp:HistoricalWork ;
+    jp:title "Genesis 1:11, 1:14, 1:20" .
+
+jp:W_121 a jp:HistoricalWork ;
+    jp:title "Commentary on Ecclesiastes" .
+
+jp:W_122 a jp:HistoricalWork ;
+    jp:title "Ma’amar Yikavu Ha’Mayim" .
+
+jp:W_123 a jp:HistoricalWork ;
+    jp:title "Ma’amar Yiqawu ha-Mayim" .
+
+jp:W_124 a jp:HistoricalWork ;
+    jp:title "Perush Qohelet" .
+
+jp:W_125 a jp:HistoricalWork ;
+    jp:title "Middle Commentary on Aristotle’s Metaphysics" .
+
+jp:W_126 a jp:HistoricalWork ;
+    jp:title "Milhamot ha-Shem, Libro sesto, Parte prima, cap. XI" .
+
+jp:W_127 a jp:HistoricalWork ;
+    jp:title "Meteorology" .
+
+jp:W_128 a jp:HistoricalWork ;
+    jp:title "Wars of the Lord" .
+
+jp:W_129 a jp:HistoricalWork ;
+    jp:title "Book of Animals" .
+
+jp:W_130 a jp:HistoricalWork ;
+    jp:title "Toʿaliyot" .
+
+jp:W_131 a jp:HistoricalWork ;
+    jp:title "Milḥamot Ha-Shem" .
+
+jp:W_132 a jp:HistoricalWork ;
+    jp:title "Guerres du Seigneur" .
+
+jp:W_133 a jp:HistoricalWork ;
+    jp:title "Opuscoli sulla felicità mentale" .
+
+jp:W_134 a jp:HistoricalWork ;
+    jp:title "De anima" .
+
+jp:W_135 a jp:HistoricalWork ;
+    jp:title "Paraphrase of Aristotle’s Metaphysics 12" .
+
+jp:W_136 a jp:HistoricalWork ;
+    jp:title "Aristotle Metaphysics 12" .
+
+jp:W_137 a jp:HistoricalWork ;
+    jp:title "Poetics" .
+
+jp:W_138 a jp:HistoricalWork ;
+    jp:title "Commento medio alla Metafisica" .
+
+jp:W_139 a jp:HistoricalWork ;
+    jp:title "Faṣl al-Maqāl" .
+
+jp:W_140 a jp:HistoricalWork ;
+    jp:title "Beḥinat ha-dat" .
+
+jp:W_141 a jp:HistoricalWork ;
+    jp:title "Fons Vitae" .
+
+jp:W_142 a jp:HistoricalWork ;
+    jp:title "De Generatione Animalium" .
+
+jp:W_143 a jp:HistoricalWork ;
+    jp:title "Metaphysics Delta" .
+
+jp:W_144 a jp:HistoricalWork ;
+    jp:title "Long Commentary on Aristotle's Metaphysics" .
+
+jp:W_145 a jp:HistoricalWork ;
+    jp:title "Long Commentary on Aristotle’s Metaphysics" .
+
+jp:W_146 a jp:HistoricalWork ;
+    jp:title "Middle Commentary on Book I of the Nicomachean Ethics" .
+
+jp:W_147 a jp:HistoricalWork ;
+    jp:title "Decisive Treatise" .
+
+jp:W_148 a jp:HistoricalWork ;
+    jp:title "Treatise on Divine Knowledge" .
+
+jp:W_149 a jp:HistoricalWork ;
+    jp:title "Metaphysics Δ" .
+
+jp:W_150 a jp:HistoricalWork ;
+    jp:title "Middle Commentary" .
+
+jp:W_151 a jp:HistoricalWork ;
+    jp:title "Method of Commenting on the Commentator" .
+
+jp:W_152 a jp:HistoricalWork ;
+    jp:title "Middle Commentary on Aristotle’s Topica" .
+
+jp:W_153 a jp:HistoricalWork ;
+    jp:title "Livyat Hen" .
+
+jp:W_154 a jp:HistoricalWork ;
+    jp:title "Ezer ha-Dat" .
+
+jp:W_155 a jp:HistoricalWork ;
+    jp:title "Teshuvat Apikoros" .
+
+jp:W_156 a jp:HistoricalWork ;
+    jp:title "ʿEzer ha-Dat" .
+
+jp:W_157 a jp:HistoricalWork ;
+    jp:title "Tešuvat Epiqoros" .
+
+jp:W_158 a jp:HistoricalWork ;
+    jp:title "Quaestio de efficientia mundi" .
+
+jp:W_159 a jp:HistoricalWork ;
+    jp:title "De Nervis et Sensu Tactus" .
+
+jp:W_160 a jp:HistoricalWork ;
+    jp:title "Sefer ha-Shir" .
+
+jp:W_161 a jp:HistoricalWork ;
+    jp:title "‘Sod Ha-Kaddish’" .
+
+jp:W_162 a jp:HistoricalWork ;
+    jp:title "Metaphysics" .
+
+jp:W_163 a jp:HistoricalWork ;
+    jp:title "Posterior Analytics" .
+
+jp:W_164 a jp:HistoricalWork ;
+    jp:title "The Definition of Fever" .
+
+jp:W_165 a jp:HistoricalWork ;
+    jp:title "Book of Principles" .
+
+jp:W_166 a jp:HistoricalWork ;
+    jp:title "Midrash ha-Hokhmah" .
+
+jp:W_167 a jp:HistoricalWork ;
+    jp:title "Midrash ha-ḥokmah" .
+
+jp:W_168 a jp:HistoricalWork ;
+    jp:title "Nicomachean Ethics" .
+
+jp:W_169 a jp:HistoricalWork ;
+    jp:title "Eben Ha-‘Ezer" .
+
+jp:W_170 a jp:HistoricalWork ;
+    jp:title "Sermons" .
+
+jp:W_171 a jp:HistoricalWork ;
+    jp:title "Nefuṣot Yehudah" .
+
+jp:W_172 a jp:HistoricalWork ;
+    jp:title "Commentary on Physics 1-4" .
+
+jp:W_173 a jp:HistoricalWork ;
+    jp:title "Commentary on Aristotle’s Physics" .
+
+jp:W_174 a jp:HistoricalWork ;
+    jp:title "Commentaries on Jonah" .
+
+jp:W_175 a jp:HistoricalWork ;
+    jp:title "The Song of Songs" .
+
+jp:W_176 a jp:HistoricalWork ;
+    jp:title "Treatise of the Garden" .
+
+jp:W_177 a jp:HistoricalWork ;
+    jp:title "Ma‛ase Nissim" .
+
+jp:W_178 a jp:HistoricalWork ;
+    jp:title "Pugio Fidei" .
+
+jp:W_179 a jp:HistoricalWork ;
+    jp:title "Die Philosophie des Judentums" .
+
+jp:W_180 a jp:HistoricalWork ;
+    jp:title "Duties of the Heart" .
+
+jp:W_181 a jp:HistoricalWork ;
+    jp:title "Political Philosophy" .
+
+jp:W_182 a jp:HistoricalWork ;
+    jp:title "Salvation (Al-Najāt)" .
+
+jp:W_183 a jp:HistoricalWork ;
+    jp:title "Zoology" .
+
+jp:W_184 a jp:HistoricalWork ;
+    jp:title "De Interpretatione 16a3-8" .
+
+jp:W_185 a jp:HistoricalWork ;
+    jp:title "EN 6.5.1140b16-17" .
+
+jp:W_186 a jp:HistoricalWork ;
+    jp:title "Metaphysics α ἔλλαττον" .
+
+jp:W_187 a jp:HistoricalWork ;
+    jp:title "De generatione et corruptione" .
+
+jp:W_188 a jp:HistoricalWork ;
+    jp:title "physics" .
+
+jp:W_189 a jp:HistoricalWork ;
+    jp:title "De ente et essentia" .
+
+jp:W_190 a jp:HistoricalWork ;
+    jp:title "Malmad ha-Talmidim" .
+
+jp:W_191 a jp:HistoricalWork ;
+    jp:title "Maimonidean Controversy" .
+
+jp:W_192 a jp:HistoricalWork ;
+    jp:title "al-Kitāb al-Khazarī" .
+
+jp:W_193 a jp:HistoricalWork ;
+    jp:title "Die Vollendung der Seele" .
+
+jp:W_194 a jp:HistoricalWork ;
+    jp:title "Tagmule ha-nefesh" .
+
+jp:W_195 a jp:HistoricalWork ;
+    jp:title "Dialogues of Love" .
+
+jp:W_196 a jp:HistoricalWork ;
+    jp:title "Jewish Neoplatonists" .
+
+jp:W_197 a jp:HistoricalWork ;
+    jp:title "Song of Songs" .
+
+jp:W_198 a jp:HistoricalWork ;
+    jp:title "De unitate universalis – Ma’amar nikhbad ba-kolel" .
+
+jp:W_199 a jp:HistoricalWork ;
+    jp:title "Sefer Ruah Ḥen" .
+
+jp:W_200 a jp:HistoricalWork ;
+    jp:title "Theological-Political Treatise" .
+
+jp:W_201 a jp:HistoricalWork ;
+    jp:title "Epistles" .
+
+jp:W_202 a jp:HistoricalWork ;
+    jp:title "Philosophical Psychology" .
+
+jp:W_203 a jp:HistoricalWork ;
+    jp:title "Medieval Jewish-Christian Polemic" .
+
+jp:W_204 a jp:HistoricalWork ;
+    jp:title "Bible Exegesis" .
+
+jp:W_205 a jp:HistoricalWork ;
+    jp:title "Talmud" .
+
+jp:W_206 a jp:HistoricalWork ;
+    jp:title "Maimonidean Philosophy" .
+
+jp:W_207 a jp:HistoricalWork ;
+    jp:title "Le guerre del Signore (Milhamot ha-Shem)" .
+
+jp:W_208 a jp:HistoricalWork ;
+    jp:title "Dalâlat al-Ḥâ’irîn (Guide des égarés)" .
+
+jp:W_209 a jp:HistoricalWork ;
+    jp:title "Maimonidean School of Provence" .
+
+jp:W_210 a jp:HistoricalWork ;
+    jp:title "BT Berachoth 33b" .
+
+jp:W_211 a jp:HistoricalWork ;
+    jp:title "Die Hebraeischen Uebersetzungen des Mittelalter" .
+
+jp:W_212 a jp:HistoricalWork ;
+    jp:title "Ahavah ba-Taʿanugim" .
+
+jp:W_213 a jp:HistoricalWork ;
+    jp:title "Sefer Beḥinat ha-Dat" .
+
+jp:W_214 a jp:HistoricalWork ;
+    jp:title "Torah" .
+
+jp:W_215 a jp:HistoricalWork ;
+    jp:title "Deuteronomy" .
+
+jp:W_216 a jp:HistoricalWork ;
+    jp:title "Zohar" .
+
+jp:W_217 a jp:HistoricalWork ;
+    jp:title "Ha-Emunah ha-Ramah" .
+
+jp:W_218 a jp:HistoricalWork ;
+    jp:title "Ha-Emunah ha-Niss’ah" .
+
+jp:W_219 a jp:HistoricalWork ;
+    jp:title "Profayt Duran" .
+
+jp:W_220 a jp:HistoricalWork ;
+    jp:title "guide to the perplexed" .
+
+jp:W_221 a jp:HistoricalWork ;
+    jp:title "The Binding of Isaac" .
+
+jp:W_222 a jp:HistoricalWork ;
+    jp:title "Guide for the Perplexed 2.24" .
+
+jp:W_223 a jp:HistoricalWork ;
+    jp:title "Exhalations" .
+
+jp:W_224 a jp:HistoricalWork ;
+    jp:title "Sefer Ahavah" .
+
+jp:W_225 a jp:HistoricalWork ;
+    jp:title "Medieval Karaism" .
+
+jp:W_226 a jp:HistoricalWork ;
+    jp:title "Gentile Science" .
+
+jp:W_227 a jp:HistoricalWork ;
+    jp:title "Medieval Hebrew Logic" .
+
+jp:W_228 a jp:HistoricalWork ;
+    jp:title "Christian Scholasticism" .
+
+jp:W_229 a jp:HistoricalWork ;
+    jp:title "Politics" .
+
+jp:W_230 a jp:HistoricalWork ;
+    jp:title "State" .
+
+jp:W_231 a jp:HistoricalWork ;
+    jp:title "Medieval Jewish Commentaries" .
+
+jp:W_232 a jp:HistoricalWork ;
+    jp:title "Medieval Jewish Thought" .
+
+jp:W_233 a jp:HistoricalWork ;
+    jp:title "Hebrew Aristotelianism" .
+
+jp:W_234 a jp:HistoricalWork ;
+    jp:title "Porphyry" .
+

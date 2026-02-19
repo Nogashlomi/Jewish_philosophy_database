@@ -1,0 +1,673 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Q102851 jp:hasTimeRelation jp:TR_Q102851 .
+
+jp:Q108445987 jp:hasTimeRelation jp:TR_Q108445987 .
+
+jp:Q11362 jp:hasTimeRelation jp:TR_Q11362 .
+
+jp:Q115067829 jp:hasTimeRelation jp:TR_Q115067829 .
+
+jp:Q1237726 jp:hasTimeRelation jp:TR_Q1237726 .
+
+jp:Q127398 jp:hasTimeRelation jp:TR_Q127398 .
+
+jp:Q1350978 jp:hasTimeRelation jp:TR_Q1350978 .
+
+jp:Q1372350 jp:hasTimeRelation jp:TR_Q1372350 .
+
+jp:Q1383938 jp:hasTimeRelation jp:TR_Q1383938 .
+
+jp:Q1389056 jp:hasTimeRelation jp:TR_Q1389056 .
+
+jp:Q154751 jp:hasTimeRelation jp:TR_Q154751 .
+
+jp:Q160460 jp:hasTimeRelation jp:TR_Q160460 .
+
+jp:Q16130600 jp:hasTimeRelation jp:TR_Q16130600 .
+
+jp:Q1673485 jp:hasTimeRelation jp:TR_Q1673485 .
+
+jp:Q1673518 jp:hasTimeRelation jp:TR_Q1673518 .
+
+jp:Q181498 jp:hasTimeRelation jp:TR_Q181498 .
+
+jp:Q182128 jp:hasTimeRelation jp:TR_Q182128 .
+
+jp:Q1852000 jp:hasTimeRelation jp:TR_Q1852000 .
+
+jp:Q189597 jp:hasTimeRelation jp:TR_Q189597 .
+
+jp:Q192374 jp:hasTimeRelation jp:TR_Q192374 .
+
+jp:Q193660 jp:hasTimeRelation jp:TR_Q193660 .
+
+jp:Q194803 jp:hasTimeRelation jp:TR_Q194803 .
+
+jp:Q2296753 jp:hasTimeRelation jp:TR_Q2296753 .
+
+jp:Q239355 jp:hasTimeRelation jp:TR_Q239355 .
+
+jp:Q2407102 jp:hasTimeRelation jp:TR_Q2407102 .
+
+jp:Q2423811 jp:hasTimeRelation jp:TR_Q2423811 .
+
+jp:Q251259 jp:hasTimeRelation jp:TR_Q251259 .
+
+jp:Q26456 jp:hasTimeRelation jp:TR_Q26456 .
+
+jp:Q270670 jp:hasTimeRelation jp:TR_Q270670 .
+
+jp:Q2822092 jp:hasTimeRelation jp:TR_Q2822092 .
+
+jp:Q2874503 jp:hasTimeRelation jp:TR_Q2874503 .
+
+jp:Q2897268 jp:hasTimeRelation jp:TR_Q2897268 .
+
+jp:Q2906881 jp:hasTimeRelation jp:TR_Q2906881 .
+
+jp:Q2909254 jp:hasTimeRelation jp:TR_Q2909254 .
+
+jp:Q2910908 jp:hasTimeRelation jp:TR_Q2910908 .
+
+jp:Q2911194 jp:hasTimeRelation jp:TR_Q2911194 .
+
+jp:Q2920042 jp:hasTimeRelation jp:TR_Q2920042 .
+
+jp:Q299200 jp:hasTimeRelation jp:TR_Q299200 .
+
+jp:Q310777 jp:hasTimeRelation jp:TR_Q310777 .
+
+jp:Q310821 jp:hasTimeRelation jp:TR_Q310821 .
+
+jp:Q31439 jp:hasTimeRelation jp:TR_Q31439 .
+
+jp:Q317787 jp:hasTimeRelation jp:TR_Q317787 .
+
+jp:Q319902 jp:hasTimeRelation jp:TR_Q319902 .
+
+jp:Q322560 jp:hasTimeRelation jp:TR_Q322560 .
+
+jp:Q323448 jp:hasTimeRelation jp:TR_Q323448 .
+
+jp:Q328748 jp:hasTimeRelation jp:TR_Q328748 .
+
+jp:Q329773 jp:hasTimeRelation jp:TR_Q329773 .
+
+jp:Q329866 jp:hasTimeRelation jp:TR_Q329866 .
+
+jp:Q536837 jp:hasTimeRelation jp:TR_Q536837 .
+
+jp:Q559622 jp:hasTimeRelation jp:TR_Q559622 .
+
+jp:Q56063581 jp:hasTimeRelation jp:TR_Q56063581 .
+
+jp:Q56248213 jp:hasTimeRelation jp:TR_Q56248213 .
+
+jp:Q5655018 jp:hasTimeRelation jp:TR_Q5655018 .
+
+jp:Q6126127 jp:hasTimeRelation jp:TR_Q6126127 .
+
+jp:Q6288216 jp:hasTimeRelation jp:TR_Q6288216 .
+
+jp:Q6302099 jp:hasTimeRelation jp:TR_Q6302099 .
+
+jp:Q6302105 jp:hasTimeRelation jp:TR_Q6302105 .
+
+jp:Q639821 jp:hasTimeRelation jp:TR_Q639821 .
+
+jp:Q66292 jp:hasTimeRelation jp:TR_Q66292 .
+
+jp:Q669640 jp:hasTimeRelation jp:TR_Q669640 .
+
+jp:Q676267 jp:hasTimeRelation jp:TR_Q676267 .
+
+jp:Q6810276 jp:hasTimeRelation jp:TR_Q6810276 .
+
+jp:Q6962196 jp:hasTimeRelation jp:TR_Q6962196 .
+
+jp:Q7068124 jp:hasTimeRelation jp:TR_Q7068124 .
+
+jp:Q7068219 jp:hasTimeRelation jp:TR_Q7068219 .
+
+jp:Q70899 jp:hasTimeRelation jp:TR_Q70899 .
+
+jp:Q719393 jp:hasTimeRelation jp:TR_Q719393 .
+
+jp:Q723531 jp:hasTimeRelation jp:TR_Q723531 .
+
+jp:Q751353 jp:hasTimeRelation jp:TR_Q751353 .
+
+jp:Q75333 jp:hasTimeRelation jp:TR_Q75333 .
+
+jp:Q762229 jp:hasTimeRelation jp:TR_Q762229 .
+
+jp:Q76548 jp:hasTimeRelation jp:TR_Q76548 .
+
+jp:Q76709 jp:hasTimeRelation jp:TR_Q76709 .
+
+jp:Q76710 jp:hasTimeRelation jp:TR_Q76710 .
+
+jp:Q76997 jp:hasTimeRelation jp:TR_Q76997 .
+
+jp:Q77144 jp:hasTimeRelation jp:TR_Q77144 .
+
+jp:Q796587 jp:hasTimeRelation jp:TR_Q796587 .
+
+jp:Q8011 jp:hasTimeRelation jp:TR_Q8011 .
+
+jp:Q859 jp:hasTimeRelation jp:TR_Q859 .
+
+jp:Q868 jp:hasTimeRelation jp:TR_Q868 .
+
+jp:Q8778 jp:hasTimeRelation jp:TR_Q8778 .
+
+jp:Q9397 jp:hasTimeRelation jp:TR_Q9397 .
+
+jp:Q9438 jp:hasTimeRelation jp:TR_Q9438 .
+
+jp:Q9546 jp:hasTimeRelation jp:TR_Q9546 .
+
+jp:TR_Q102851 a jp:TimeRelation ;
+    jp:timeFrom "480"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "524"^^xsd:gYear .
+
+jp:TR_Q108445987 a jp:TimeRelation ;
+    jp:timeFrom "1290"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death" ;
+    jp:timeUntil "1290"^^xsd:gYear .
+
+jp:TR_Q11362 a jp:TimeRelation ;
+    jp:timeFrom "1095"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1139"^^xsd:gYear .
+
+jp:TR_Q115067829 a jp:TimeRelation ;
+    jp:timeFrom "1877"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth" ;
+    jp:timeUntil "1877"^^xsd:gYear .
+
+jp:TR_Q1237726 a jp:TimeRelation ;
+    jp:timeFrom "1115"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1190"^^xsd:gYear .
+
+jp:TR_Q127398 a jp:TimeRelation ;
+    jp:timeFrom "1135"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth; date of birth" ;
+    jp:timeUntil "1204"^^xsd:gYear .
+
+jp:TR_Q1350978 a jp:TimeRelation ;
+    jp:timeFrom "1165"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1225"^^xsd:gYear .
+
+jp:TR_Q1372350 a jp:TimeRelation ;
+    jp:timeFrom "1236"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1305"^^xsd:gYear .
+
+jp:TR_Q1383938 a jp:TimeRelation ;
+    jp:timeFrom "1225"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1290"^^xsd:gYear .
+
+jp:TR_Q1389056 a jp:TimeRelation ;
+    jp:timeFrom "1887"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death; date of death" ;
+    jp:timeUntil "1974"^^xsd:gYear .
+
+jp:TR_Q154751 a jp:TimeRelation ;
+    jp:timeFrom "1401"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1464"^^xsd:gYear .
+
+jp:TR_Q160460 a jp:TimeRelation ;
+    jp:timeFrom "870"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "951"^^xsd:gYear .
+
+jp:TR_Q16130600 a jp:TimeRelation ;
+    jp:timeFrom "1250"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth" ;
+    jp:timeUntil "1250"^^xsd:gYear .
+
+jp:TR_Q1673485 a jp:TimeRelation ;
+    jp:timeFrom "1300"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1300"^^xsd:gYear .
+
+jp:TR_Q1673518 a jp:TimeRelation ;
+    jp:timeFrom "1210"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1280"^^xsd:gYear .
+
+jp:TR_Q181498 a jp:TimeRelation ;
+    jp:timeFrom "1195"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1274"^^xsd:gYear .
+
+jp:TR_Q182128 a jp:TimeRelation ;
+    jp:timeFrom "1463"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1494"^^xsd:gYear .
+
+jp:TR_Q1852000 a jp:TimeRelation ;
+    jp:timeFrom "1300"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1362"^^xsd:gYear .
+
+jp:TR_Q189597 a jp:TimeRelation ;
+    jp:timeFrom "-1"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "50"^^xsd:gYear .
+
+jp:TR_Q192374 a jp:TimeRelation ;
+    jp:timeFrom "1433"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1499"^^xsd:gYear .
+
+jp:TR_Q193660 a jp:TimeRelation ;
+    jp:timeFrom "1232"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1316"^^xsd:gYear .
+
+jp:TR_Q194803 a jp:TimeRelation ;
+    jp:timeFrom "950"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1010"^^xsd:gYear .
+
+jp:TR_Q2296753 a jp:TimeRelation ;
+    jp:timeFrom "715"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "795"^^xsd:gYear .
+
+jp:TR_Q239355 a jp:TimeRelation ;
+    jp:timeFrom "1020"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of birth; date of death; date of death; date of death" ;
+    jp:timeUntil "1070"^^xsd:gYear .
+
+jp:TR_Q2407102 a jp:TimeRelation ;
+    jp:timeFrom "1530"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1608"^^xsd:gYear .
+
+jp:TR_Q2423811 a jp:TimeRelation ;
+    jp:timeFrom "1100"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth" ;
+    jp:timeUntil "1100"^^xsd:gYear .
+
+jp:TR_Q251259 a jp:TimeRelation ;
+    jp:timeFrom "1110"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1185"^^xsd:gYear .
+
+jp:TR_Q26456 a jp:TimeRelation ;
+    jp:timeFrom "1040"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1105"^^xsd:gYear .
+
+jp:TR_Q270670 a jp:TimeRelation ;
+    jp:timeFrom "1092"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1167"^^xsd:gYear .
+
+jp:TR_Q2822092 a jp:TimeRelation ;
+    jp:timeFrom "970"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1010"^^xsd:gYear .
+
+jp:TR_Q2874503 a jp:TimeRelation ;
+    jp:timeFrom "1186"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1237"^^xsd:gYear .
+
+jp:TR_Q2897268 a jp:TimeRelation ;
+    jp:timeFrom "1513"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1585"^^xsd:gYear .
+
+jp:TR_Q2906881 a jp:TimeRelation ;
+    jp:timeFrom "1130"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1186"^^xsd:gYear .
+
+jp:TR_Q2909254 a jp:TimeRelation ;
+    jp:timeFrom "1929"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "2012"^^xsd:gYear .
+
+jp:TR_Q2910908 a jp:TimeRelation ;
+    jp:timeFrom "890"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "960"^^xsd:gYear .
+
+jp:TR_Q2911194 a jp:TimeRelation ;
+    jp:timeFrom "1917"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "2000"^^xsd:gYear .
+
+jp:TR_Q2920042 a jp:TimeRelation ;
+    jp:timeFrom "1908"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1990"^^xsd:gYear .
+
+jp:TR_Q299200 a jp:TimeRelation ;
+    jp:timeFrom "1075"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1141"^^xsd:gYear .
+
+jp:TR_Q310777 a jp:TimeRelation ;
+    jp:timeFrom "1320"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1382"^^xsd:gYear .
+
+jp:TR_Q310821 a jp:TimeRelation ;
+    jp:timeFrom "50"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "135"^^xsd:gYear .
+
+jp:TR_Q31439 a jp:TimeRelation ;
+    jp:timeFrom "1070"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1136"^^xsd:gYear .
+
+jp:TR_Q317787 a jp:TimeRelation ;
+    jp:timeFrom "994"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1064"^^xsd:gYear .
+
+jp:TR_Q319902 a jp:TimeRelation ;
+    jp:timeFrom "1437"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1508"^^xsd:gYear .
+
+jp:TR_Q322560 a jp:TimeRelation ;
+    jp:timeFrom "1270"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1347"^^xsd:gYear .
+
+jp:TR_Q323448 a jp:TimeRelation ;
+    jp:timeFrom "1240"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of death; date of birth" ;
+    jp:timeUntil "1292"^^xsd:gYear .
+
+jp:TR_Q328748 a jp:TimeRelation ;
+    jp:timeFrom "882"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "942"^^xsd:gYear .
+
+jp:TR_Q329773 a jp:TimeRelation ;
+    jp:timeFrom "1420"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1489"^^xsd:gYear .
+
+jp:TR_Q329866 a jp:TimeRelation ;
+    jp:timeFrom "1570"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1635"^^xsd:gYear .
+
+jp:TR_Q536837 a jp:TimeRelation ;
+    jp:timeFrom "832"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of birth; date of death" ;
+    jp:timeUntil "932"^^xsd:gYear .
+
+jp:TR_Q559622 a jp:TimeRelation ;
+    jp:timeFrom "1380"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1444"^^xsd:gYear .
+
+jp:TR_Q56063581 a jp:TimeRelation ;
+    jp:timeFrom "1215"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1215"^^xsd:gYear .
+
+jp:TR_Q56248213 a jp:TimeRelation ;
+    jp:timeFrom "1475"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death" ;
+    jp:timeUntil "1475"^^xsd:gYear .
+
+jp:TR_Q5655018 a jp:TimeRelation ;
+    jp:timeFrom "1052"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1127"^^xsd:gYear .
+
+jp:TR_Q6126127 a jp:TimeRelation ;
+    jp:timeFrom "1222"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1300"^^xsd:gYear .
+
+jp:TR_Q6288216 a jp:TimeRelation ;
+    jp:timeFrom "1400"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death; date of death" ;
+    jp:timeUntil "1480"^^xsd:gYear .
+
+jp:TR_Q6302099 a jp:TimeRelation ;
+    jp:timeFrom "1327"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1375"^^xsd:gYear .
+
+jp:TR_Q6302105 a jp:TimeRelation ;
+    jp:timeFrom "1530"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1593"^^xsd:gYear .
+
+jp:TR_Q639821 a jp:TimeRelation ;
+    jp:timeFrom "1215"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1284"^^xsd:gYear .
+
+jp:TR_Q66292 a jp:TimeRelation ;
+    jp:timeFrom "1803"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1867"^^xsd:gYear .
+
+jp:TR_Q669640 a jp:TimeRelation ;
+    jp:timeFrom "1422"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1498"^^xsd:gYear .
+
+jp:TR_Q676267 a jp:TimeRelation ;
+    jp:timeFrom "1246"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1310"^^xsd:gYear .
+
+jp:TR_Q6810276 a jp:TimeRelation ;
+    jp:timeFrom "1310"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1360"^^xsd:gYear .
+
+jp:TR_Q6962196 a jp:TimeRelation ;
+    jp:timeFrom "1493"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death" ;
+    jp:timeUntil "1493"^^xsd:gYear .
+
+jp:TR_Q7068124 a jp:TimeRelation ;
+    jp:timeFrom "1220"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1291"^^xsd:gYear .
+
+jp:TR_Q7068219 a jp:TimeRelation ;
+    jp:timeFrom "1198"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death" ;
+    jp:timeUntil "1198"^^xsd:gYear .
+
+jp:TR_Q70899 a jp:TimeRelation ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" .
+
+jp:TR_Q719393 a jp:TimeRelation ;
+    jp:timeFrom "1058"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death; date of death" ;
+    jp:timeUntil "1139"^^xsd:gYear .
+
+jp:TR_Q723531 a jp:TimeRelation ;
+    jp:timeFrom "1310"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1380"^^xsd:gYear .
+
+jp:TR_Q751353 a jp:TimeRelation ;
+    jp:timeFrom "1215"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1285"^^xsd:gYear .
+
+jp:TR_Q75333 a jp:TimeRelation ;
+    jp:timeFrom "1880"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1950"^^xsd:gYear .
+
+jp:TR_Q762229 a jp:TimeRelation ;
+    jp:timeFrom "1050"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death; date of death" ;
+    jp:timeUntil "1120"^^xsd:gYear .
+
+jp:TR_Q76548 a jp:TimeRelation ;
+    jp:timeFrom "1260"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1328"^^xsd:gYear .
+
+jp:TR_Q76709 a jp:TimeRelation ;
+    jp:timeFrom "1842"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1918"^^xsd:gYear .
+
+jp:TR_Q76710 a jp:TimeRelation ;
+    jp:timeFrom "1886"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1929"^^xsd:gYear .
+
+jp:TR_Q76997 a jp:TimeRelation ;
+    jp:timeFrom "1729"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1786"^^xsd:gYear .
+
+jp:TR_Q77144 a jp:TimeRelation ;
+    jp:timeFrom "1899"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1973"^^xsd:gYear .
+
+jp:TR_Q796587 a jp:TimeRelation ;
+    jp:timeFrom "1185"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1248"^^xsd:gYear .
+
+jp:TR_Q8011 a jp:TimeRelation ;
+    jp:timeFrom "980"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "1037"^^xsd:gYear .
+
+jp:TR_Q859 a jp:TimeRelation ;
+    jp:timeFrom "-42"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "-34"^^xsd:gYear .
+
+jp:TR_Q868 a jp:TimeRelation ;
+    jp:timeFrom "-38"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "-32"^^xsd:gYear .
+
+jp:TR_Q8778 a jp:TimeRelation ;
+    jp:timeFrom "129"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of death; date of birth" ;
+    jp:timeUntil "300"^^xsd:gYear .
+
+jp:TR_Q9397 a jp:TimeRelation ;
+    jp:timeFrom "1130"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1200"^^xsd:gYear .
+
+jp:TR_Q9438 a jp:TimeRelation ;
+    jp:timeFrom "1225"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of death" ;
+    jp:timeUntil "1274"^^xsd:gYear .
+
+jp:TR_Q9546 a jp:TimeRelation ;
+    jp:timeFrom "1056"^^xsd:gYear ;
+    jp:timeNote "Estimated from historical sources; birth and death years approximate" ;
+    jp:timeType "date of birth; date of birth; date of death" ;
+    jp:timeUntil "1111"^^xsd:gYear .
+

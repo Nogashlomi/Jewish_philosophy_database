@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ language.label }} - JPO{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ language.label }}</h1>
+    <p class="subtitle">Historical Language</p>
+
+    <h3>Works in this Language</h3>
+    {% if language.works %}
+    <ul>
+        {% for w in language.works %}
+        <li><a href="/works/{{ w.id }}">{{ w.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No works recorded in this language.</p>
+    {% endif %}
+</div>
+{% endblock %}

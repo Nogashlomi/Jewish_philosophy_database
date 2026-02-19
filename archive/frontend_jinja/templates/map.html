@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+{% block head %}
+<style>
+    #map {
+        height: 600px;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .controls {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Geographic Explorer</h1>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css">
+<style>
+    .noUi-connect {
+        background: #2980b9;
+    }
+
+    .noUi-horizontal {
+        height: 10px;
+    }
+
+    .noUi-handle {
+        height: 18px;
+        width: 18px;
+        top: -5px;
+        right: -9px;
+        border-radius: 50%;
+    }
+</style>
+
+<div class="controls">
+    <label>Time Range: <span id="yearDisplay">1000 - 1400</span></label>
+    <div id="timeSlider" style="margin-top: 15px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;"></div>
+    <p><small>Showing entities active within the selected range. (Entities with unknown dates are grey).</small></p>
+</div>
+
+<div id="map"></div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
+<script>
+    var map = L.map('map').setView([32.0, 35.0], 4); // Default view (Mediterranean)
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
+
+    var layerGroup = L.layerGroup().addTo(map);
+    var allFeatures = [];
+
+    // Initialize Slider
+    var slider = document.getElementById('timeSlider');
+    var display = document.getElementById('yearDisplay');
+
+    noUiSlider.create(slider, {
+        start: [1000, 1400],
+        connect: true,
+        range: {
+            'min': 0,
+            'max': 2000
+        },
+        step: 10,
+        tooltips: true,
+        format: {
+            to: function (value) {
+                return Math.round(value);
+            },
+            from: function (value) {
+                return Number(value);
+            }
+        }
+    });
+
+    // Load Data
+    fetch('/api/geojson')
+        .then(response => response.json())
+        .then(data => {
+            allFeatures = data.features;
+            updateMap(1000, 1400); // Initial render
+        });
+
+    slider.noUiSlider.on('update', function (values, handle) {
+        var start = Math.round(values[0]);
+        var end = Math.round(values[1]);
+        display.innerHTML = start + " - " + end;
+        updateMap(start, end);
+    });
+
+    function updateMap(filterStart, filterEnd) {
+        layerGroup.clearLayers();
+
+        allFeatures.forEach(f => {
+            var props = f.properties;
+            var isVisible = false;
+
+            var hasDates = props.start !== null || props.end !== null;
+
+            if (!hasDates) {
+                isVisible = true;
+            } else {
+                var entityStart = props.start !== null ? props.start : -9999;
+                var entityEnd = props.end !== null ? props.end : 9999;
+
+                // Check overlap
+                if (entityEnd >= filterStart && entityStart <= filterEnd) {
+                    isVisible = true;
+                }
+            }
+
+            if (isVisible) {
+                var color = hasDates ? '#e74c3c' : '#95a5a6'; // Red for dated, Grey for undated
+
+                var marker = L.circleMarker([f.geometry.coordinates[1], f.geometry.coordinates[0]], {
+                    radius: 8,
+                    fillColor: color,
+                    color: "#fff",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+
+                marker.bindPopup(`
+                    <b><a href="/persons/${props.person_id}">${props.person_label}</a></b><br>
+                    ${props.place_label}<br>
+                    <i>${props.type}</i><br>
+                    ${props.start || '?'} - ${props.end || '?'}
+                `);
+
+                layerGroup.addLayer(marker);
+            }
+        });
+    }
+
+</script>
+{% endblock %}

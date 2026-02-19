@@ -1,0 +1,31 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass jp:HistoricalPerson ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Every person should have at least one label/name." ;
+    ] ;
+    sh:property [
+        sh:path jp:authorityLink ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Info ;
+        sh:message "It is recommended to have an authority link (Wikidata, etc)." ;
+    ] .
+
+jp:WorkShape
+    a sh:NodeShape ;
+    sh:targetClass jp:HistoricalWork ;
+    sh:property [
+        sh:path jp:title ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Warning ;
+        sh:message "A work should have a title." ;
+    ] .

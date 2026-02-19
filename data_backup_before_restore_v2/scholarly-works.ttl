@@ -1,0 +1,3195 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:ScholarlyWork_H_100 a jp:ScholarlyWork ;
+    rdfs:label "Bagdad und Jerusalem als Städte des Friedens nach der frühmittelalterlichen Religionsphilosophie im Judentum und im Islam" ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Bagdad und Jerusalem als Städte des Friedens nach der frühmittelalterlichen Religionsphilosophie im Judentum und im Islam" .
+
+jp:ScholarlyWork_H_101 a jp:ScholarlyWork ;
+    rdfs:label "Das Verhältnis von Gesetz, Gemeinde und der kommenden Welt in Hilkhot De‛ot von Moses Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Das Verhältnis von Gesetz, Gemeinde und der kommenden Welt in Hilkhot De‛ot von Moses Maimonides" .
+
+jp:ScholarlyWork_H_102 a jp:ScholarlyWork ;
+    rdfs:label "Die religiöse und geschichtliche Gestalt Jesus’ von Nazareth im Denken Moses Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Die religiöse und geschichtliche Gestalt Jesus’ von Nazareth im Denken Moses Maimonides" .
+
+jp:ScholarlyWork_H_103 a jp:ScholarlyWork ;
+    rdfs:label "Emmanuel Levinas’ Theological-Political Interpretation of Moses Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Emmanuel Levinas’ Theological-Political Interpretation of Moses Maimonides" .
+
+jp:ScholarlyWork_H_104 a jp:ScholarlyWork ;
+    rdfs:label "“Hiob 2,1-7a: Aspekte zur Wette zwischen Gott und dem Satan in der jüdischen Philosophie des Mittelalters und der Neuzeit, in Frankfurter Judaistische Beiträge 33 (2006), 69-79." ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "“Hiob 2,1-7a: Aspekte zur Wette zwischen Gott und dem Satan in der jüdischen Philosophie des Mittelalters und der Neuzeit, in Frankfurter Judaistische Beiträge 33 (2006), 69-79." .
+
+jp:ScholarlyWork_H_105 a jp:ScholarlyWork ;
+    rdfs:label "The Influences of Saadya Gaon and Bachya Ibn Paquda on the Cohenian Concept of God's Uniqueness" ;
+    jp:aboutPerson jp:Person_Q728956 ;
+    jp:hasAuthor jp:Scholar_ALBERTINI_FRANCESCA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "The Influences of Saadya Gaon and Bachya Ibn Paquda on the Cohenian Concept of God's Uniqueness" .
+
+jp:ScholarlyWork_H_106 a jp:ScholarlyWork ;
+    rdfs:label "Philosophic Mysticism: Essays in Rational Religion" ;
+    jp:hasAuthor jp:Scholar_BLUMENTHAL_DAVID ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Philosophic Mysticism: Essays in Rational Religion" .
+
+jp:ScholarlyWork_H_107 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides, Aristotle, and Avicenna" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_HERBERT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides, Aristotle, and Avicenna" .
+
+jp:ScholarlyWork_H_108 a jp:ScholarlyWork ;
+    rdfs:label "Moses Maimonides, The Man and His Works" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_HERBERT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Moses Maimonides, The Man and His Works" .
+
+jp:ScholarlyWork_H_109 a jp:ScholarlyWork ;
+    rdfs:label "The First Two of the 248 Positive Commandments Believed to Have Been Given to Moses" ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_HERBERT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The First Two of the 248 Positive Commandments Believed to Have Been Given to Moses" .
+
+jp:ScholarlyWork_H_110 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_DOBBS_WEINSTEIN_IDIT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Jewish Philosophy" .
+
+jp:ScholarlyWork_H_111 a jp:ScholarlyWork ;
+    rdfs:label "Tensions Within and Between Maimonides’ and Gersonides’ Accounts of Prophecy" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_DOBBS_WEINSTEIN_IDIT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Tensions Within and Between Maimonides’ and Gersonides’ Accounts of Prophecy" .
+
+jp:ScholarlyWork_H_112 a jp:ScholarlyWork ;
+    rdfs:label "Thinking Desire in Gersonides and Spinoza" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_DOBBS_WEINSTEIN_IDIT ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Thinking Desire in Gersonides and Spinoza" .
+
+jp:ScholarlyWork_H_113 a jp:ScholarlyWork ;
+    rdfs:label "A Reassessment of Natural Law in Rabbi Joseph Albo’s Book of Principles" ;
+    jp:aboutPerson jp:Person_Q507563 ;
+    jp:hasAuthor jp:Scholar_EHRLICH_DROR ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "A Reassessment of Natural Law in Rabbi Joseph Albo’s Book of Principles" .
+
+jp:ScholarlyWork_H_114 a jp:ScholarlyWork ;
+    rdfs:label "Intuition and Inspiration: The Causes of Religious Philosophical Objection of Jewish Thinkers to Avicenna’s intellectual Prophecy (Hads)" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_ERAN_AMIRA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Intuition and Inspiration: The Causes of Religious Philosophical Objection of Jewish Thinkers to Avicenna’s intellectual Prophecy (Hads)" .
+
+jp:ScholarlyWork_H_115 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides – A Guide for Posterity" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_FELDMAN_SEYMOUR ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides – A Guide for Posterity" .
+
+jp:ScholarlyWork_H_116 a jp:ScholarlyWork ;
+    rdfs:label "Londin: Routledge 2003." ;
+    jp:hasAuthor jp:Scholar_FELDMAN_SEYMOUR ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Londin: Routledge 2003." .
+
+jp:ScholarlyWork_H_117 a jp:ScholarlyWork ;
+    rdfs:label "Platonic Cosmologies in the /Dialoghi d'Amore/ of Leone Ebreo (Judah Abravanel)" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_FELDMAN_SEYMOUR ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Platonic Cosmologies in the /Dialoghi d'Amore/ of Leone Ebreo (Judah Abravanel)" .
+
+jp:ScholarlyWork_H_118 a jp:ScholarlyWork ;
+    rdfs:label "The End and Aftereffects of Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_FELDMAN_SEYMOUR ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The End and Aftereffects of Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_119 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Daud’s Polemics against Muslims and Christians" ;
+    jp:aboutPerson jp:Person_Q330104 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_RESIANNE ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Abraham Ibn Daud’s Polemics against Muslims and Christians" .
+
+jp:ScholarlyWork_H_120 a jp:ScholarlyWork ;
+    rdfs:label "An Unexpected Source of Meir Aldabi’s Shevile Emunah" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_RESIANNE ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "An Unexpected Source of Meir Aldabi’s Shevile Emunah" .
+
+jp:ScholarlyWork_H_121 a jp:ScholarlyWork ;
+    rdfs:label "Medieval Jewish Philosophy in the Collection of Leeser Rosenthal" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_RESIANNE ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Medieval Jewish Philosophy in the Collection of Leeser Rosenthal" .
+
+jp:ScholarlyWork_H_122 a jp:ScholarlyWork ;
+    rdfs:label "The Theme of the Three Worlds in Judah ben Solomon’s Midrash ha-Hokhmah" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_RESIANNE ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Theme of the Three Worlds in Judah ben Solomon’s Midrash ha-Hokhmah" .
+
+jp:ScholarlyWork_H_123 a jp:ScholarlyWork ;
+    rdfs:label "Sepharad in Ashkenaz: Medieval Knowledge and Eighteenth-Century Enlightened Jewish Discourse" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_RESIANNE_ANDREA_SCHATZ_AND_IRENE_ZWIEP_eds ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Sepharad in Ashkenaz: Medieval Knowledge and Eighteenth-Century Enlightened Jewish Discourse" .
+
+jp:ScholarlyWork_H_124 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ God and Spinoza’s Deus sive Natura" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_FRAENKEL_CARLOS ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Maimonides’ God and Spinoza’s Deus sive Natura" .
+
+jp:ScholarlyWork_H_125 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides, Spinoza, Solomon Maimon and the Completion of the Copernican Revolution in Philosophy" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_FRAENKEL_CARLOS ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides, Spinoza, Solomon Maimon and the Completion of the Copernican Revolution in Philosophy" .
+
+jp:ScholarlyWork_H_126 a jp:ScholarlyWork ;
+    rdfs:label "The Problem of Anthropomorphism in a Hitherto Unknown Passage from Samuel ibn Tibbon’s Ma’amar Yiqqawu ha-Mayim and in a Newly-Discovered Letter by David ben Saul" ;
+    jp:hasAuthor jp:Scholar_FRAENKEL_CARLOS ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "The Problem of Anthropomorphism in a Hitherto Unknown Passage from Samuel ibn Tibbon’s Ma’amar Yiqqawu ha-Mayim and in a Newly-Discovered Letter by David ben Saul" .
+
+jp:ScholarlyWork_H_127 a jp:ScholarlyWork ;
+    rdfs:label "A Twelfth-Century Provençal Amateur of Neoplatonic Philosophy in Hebrew: R. Asher b. Meshullam of Lunel" ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "A Twelfth-Century Provençal Amateur of Neoplatonic Philosophy in Hebrew: R. Asher b. Meshullam of Lunel" .
+
+jp:ScholarlyWork_H_128 a jp:ScholarlyWork ;
+    rdfs:label "Die zwei Leben der mittelalterlichen hebräischen Wissenschaft," ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Die zwei Leben der mittelalterlichen hebräischen Wissenschaft," .
+
+jp:ScholarlyWork_H_129 a jp:ScholarlyWork ;
+    rdfs:label "Gersonide, génie solitaire" ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Gersonide, génie solitaire" .
+
+jp:ScholarlyWork_H_130 a jp:ScholarlyWork ;
+    rdfs:label "Ketav ha-da`at or Sefer ha-Sekhel we-ha-muskalot: The Medieval Hebrew Translations of al-Fârâbî's Risâlah fî'l-‘aql. A Study in Text History and in the Evolution of Medieval Hebrew Philosophical Terminology" ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Ketav ha-da`at or Sefer ha-Sekhel we-ha-muskalot: The Medieval Hebrew Translations of al-Fârâbî's Risâlah fî'l-‘aql. A Study in Text History and in the Evolution of Medieval Hebrew Philosophical Terminology" .
+
+jp:ScholarlyWork_H_131 a jp:ScholarlyWork ;
+    rdfs:label "La détermination partielle, biologique et climatologique, de la félicité humaine: Maïmonide versus al-Fârâbî à propos des influences célestes," ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La détermination partielle, biologique et climatologique, de la félicité humaine: Maïmonide versus al-Fârâbî à propos des influences célestes," .
+
+jp:ScholarlyWork_H_132 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on the Scope of Metaphysics alias Ma‛aseh Merkavah: the Evolution of his Views" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on the Scope of Metaphysics alias Ma‛aseh Merkavah: the Evolution of his Views" .
+
+jp:ScholarlyWork_H_133 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Philosophy of Science" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Philosophy of Science" .
+
+jp:ScholarlyWork_H_134 a jp:ScholarlyWork ;
+    rdfs:label "Science in the Medieval Hebrew and Arabic Traditions" ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Science in the Medieval Hebrew and Arabic Traditions" .
+
+jp:ScholarlyWork_H_135 a jp:ScholarlyWork ;
+    rdfs:label "The Biological Limitations of Man's Intellectual Perfection According to Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Biological Limitations of Man's Intellectual Perfection According to Maimonides" .
+
+jp:ScholarlyWork_H_136 a jp:ScholarlyWork ;
+    rdfs:label "The Cultural Identity of Jews in the Middle Ages," ;
+    jp:hasAuthor jp:Scholar_FREUDENTHAL_GAD ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "The Cultural Identity of Jews in the Middle Ages," .
+
+jp:ScholarlyWork_H_137 a jp:ScholarlyWork ;
+    rdfs:label "Be-re’shit" ;
+    jp:hasAuthor jp:Scholar_GATTI_ROBERTO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Be-re’shit" .
+
+jp:ScholarlyWork_H_138 a jp:ScholarlyWork ;
+    rdfs:label "Can Thomas Aquinas’ Notion of Creatio ab Aeterno Help Us in Looking into the Creation Puzzle in the Guide?" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_GATTI_ROBERTO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Can Thomas Aquinas’ Notion of Creatio ab Aeterno Help Us in Looking into the Creation Puzzle in the Guide?" .
+
+jp:ScholarlyWork_H_139 a jp:ScholarlyWork ;
+    rdfs:label "Ermeneutica e filosofia" ;
+    jp:hasAuthor jp:Scholar_GATTI_ROBERTO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ermeneutica e filosofia" .
+
+jp:ScholarlyWork_H_140 a jp:ScholarlyWork ;
+    rdfs:label "Genoa: il Melangolo, 2003." ;
+    jp:hasAuthor jp:Scholar_XII_XIV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Genoa: il Melangolo, 2003." .
+
+jp:ScholarlyWork_H_141 a jp:ScholarlyWork ;
+    rdfs:label "Il problema filosofico della creazione nella Guida dei perplessi di Maimonide, Materia giudaica" ;
+    jp:hasAuthor jp:Scholar_XII_XIV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Il problema filosofico della creazione nella Guida dei perplessi di Maimonide, Materia giudaica" .
+
+jp:ScholarlyWork_H_142 a jp:ScholarlyWork ;
+    rdfs:label "Sensory Experience and Metaphysics in Medieval Jewish Philosophy: Once Again on the Limitations of Human Knowledge according to Maimonides and Gersonides" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_XII_XIV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Sensory Experience and Metaphysics in Medieval Jewish Philosophy: Once Again on the Limitations of Human Knowledge according to Maimonides and Gersonides" .
+
+jp:ScholarlyWork_H_143 a jp:ScholarlyWork ;
+    rdfs:label "Dynamics" ;
+    jp:hasAuthor jp:Scholar_GLASNER_RUTH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Dynamics" .
+
+jp:ScholarlyWork_H_144 a jp:ScholarlyWork ;
+    rdfs:label "On the Question of Gersonides’ Acquaintance with Scholastic Philosophy" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_GLASNER_RUTH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "On the Question of Gersonides’ Acquaintance with Scholastic Philosophy" .
+
+jp:ScholarlyWork_H_145 a jp:ScholarlyWork ;
+    rdfs:label "On the Writing of Gersonides’ Philosophical Commentaries" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_GLASNER_RUTH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "On the Writing of Gersonides’ Philosophical Commentaries" .
+
+jp:ScholarlyWork_H_146 a jp:ScholarlyWork ;
+    rdfs:label "Textual Criticism in Hebrew Supercommentaries on Aristotle" ;
+    jp:hasAuthor jp:Scholar_GLASNER_RUTH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Textual Criticism in Hebrew Supercommentaries on Aristotle" .
+
+jp:ScholarlyWork_H_147 a jp:ScholarlyWork ;
+    rdfs:label "Platonismo e neoplatonismo nei Dialoghi d’amore di Leone Ebreo: Maimonide, Ficino e la definizione della material" ;
+    jp:hasAuthor jp:Scholar_GUIDI_ANGELA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Platonismo e neoplatonismo nei Dialoghi d’amore di Leone Ebreo: Maimonide, Ficino e la definizione della material" .
+
+jp:ScholarlyWork_H_148 a jp:ScholarlyWork ;
+    rdfs:label "Sapienza salomonica e sapere pagano: tradizione ebraica e neoplatonismo nei Dialoghi d'amore di Leone Ebreo" ;
+    jp:hasAuthor jp:Scholar_GUIDI_ANGELA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Sapienza salomonica e sapere pagano: tradizione ebraica e neoplatonismo nei Dialoghi d'amore di Leone Ebreo" .
+
+jp:ScholarlyWork_H_149 a jp:ScholarlyWork ;
+    rdfs:label "Alghazali and Maimonides and Their Books of Knowledge" ;
+    jp:aboutPerson jp:Person_Q9546 ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Alghazali and Maimonides and Their Books of Knowledge" .
+
+jp:ScholarlyWork_H_150 a jp:ScholarlyWork ;
+    rdfs:label "Arabic into Hebrew: the Hebrew Translation Movement and the Influence of Averroes upon Medieval Jewish Thought" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Arabic into Hebrew: the Hebrew Translation Movement and the Influence of Averroes upon Medieval Jewish Thought" .
+
+jp:ScholarlyWork_H_151 a jp:ScholarlyWork ;
+    rdfs:label "Die Einleitung des Autors als Schlüssel zum Verstehen von Strömungen mittelalterlicher jüdischer Philosophie: Von Saadia Gaon bis Ibn Da’ud" ;
+    jp:aboutPerson jp:Person_Q234850 ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Die Einleitung des Autors als Schlüssel zum Verstehen von Strömungen mittelalterlicher jüdischer Philosophie: Von Saadia Gaon bis Ibn Da’ud" .
+
+jp:ScholarlyWork_H_152 a jp:ScholarlyWork ;
+    rdfs:label "Islamic Philosophy and Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Islamic Philosophy and Jewish Philosophy" .
+
+jp:ScholarlyWork_H_153 a jp:ScholarlyWork ;
+    rdfs:label "Logistical and Other Otherworldly Problems in Saadya" ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Logistical and Other Otherworldly Problems in Saadya" .
+
+jp:ScholarlyWork_H_154 a jp:ScholarlyWork ;
+    rdfs:label "L’ “Opuscolo della contesa” di Falaquera" ;
+    jp:aboutPerson jp:Person_Q1247192 ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "L’ “Opuscolo della contesa” di Falaquera" .
+
+jp:ScholarlyWork_H_155 a jp:ScholarlyWork ;
+    rdfs:label "The Greek Library of the Medieval Jewish Philosophers" ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Greek Library of the Medieval Jewish Philosophers" .
+
+jp:ScholarlyWork_H_156 a jp:ScholarlyWork ;
+    rdfs:label "The Introductions of Early Enlightenment Thinkers as Harbingers of the Renewed Interest in the Medieval Jewish Philosophers" ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Introductions of Early Enlightenment Thinkers as Harbingers of the Renewed Interest in the Medieval Jewish Philosophers" .
+
+jp:ScholarlyWork_H_157 a jp:ScholarlyWork ;
+    rdfs:label "The Value of Julius Guttmann’s Die Philosophie des Judentums for Understanding Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HARVEY_STEVEN ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Value of Julius Guttmann’s Die Philosophie des Judentums for Understanding Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_158 a jp:ScholarlyWork ;
+    rdfs:label "Aggadah in Maimonides’ Mishneh Torah" ;
+    jp:aboutPerson jp:Person_W_Mishneh ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Aggadah in Maimonides’ Mishneh Torah" .
+
+jp:ScholarlyWork_H_159 a jp:ScholarlyWork ;
+    rdfs:label "De la notion d’intellect-intelligent-intelligible chez Maïmonide" ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "De la notion d’intellect-intelligent-intelligible chez Maïmonide" .
+
+jp:ScholarlyWork_H_160 a jp:ScholarlyWork ;
+    rdfs:label "Hasday Crescas contre Maïmonide sur la preuve physique de l’existence de Dieu" ;
+    jp:aboutPerson jp:Person_Q506720 ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Hasday Crescas contre Maïmonide sur la preuve physique de l’existence de Dieu" .
+
+jp:ScholarlyWork_H_161 a jp:ScholarlyWork ;
+    rdfs:label "Judah Halevi’s Political Philosophy and its Relevance for the State of Israel Today" ;
+    jp:aboutPerson jp:Person_Q239268 ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Judah Halevi’s Political Philosophy and its Relevance for the State of Israel Today" .
+
+jp:ScholarlyWork_H_162 a jp:ScholarlyWork ;
+    rdfs:label "Les nœuds du Guide des égarés: une critique de la lecture politique de Léo Strauss" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Les nœuds du Guide des égarés: une critique de la lecture politique de Léo Strauss" .
+
+jp:ScholarlyWork_H_163 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Place in the History of Philosophy" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Place in the History of Philosophy" .
+
+jp:ScholarlyWork_H_164 a jp:ScholarlyWork ;
+    rdfs:label "Three Theories of the Imagination in 12th-Century Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HARVEY_WARREN_ZEV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Three Theories of the Imagination in 12th-Century Jewish Philosophy" .
+
+jp:ScholarlyWork_H_166 a jp:ScholarlyWork ;
+    rdfs:label "The Texture of the Divine: Imagination in Medieval Islamic and Jewish Thought" ;
+    jp:hasAuthor jp:Scholar_HUGHES_AARON ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "The Texture of the Divine: Imagination in Medieval Islamic and Jewish Thought" .
+
+jp:ScholarlyWork_H_167 a jp:ScholarlyWork ;
+    rdfs:label "The Art of Dialogue in Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HUGHES_AARON ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "The Art of Dialogue in Jewish Philosophy" .
+
+jp:ScholarlyWork_H_168 a jp:ScholarlyWork ;
+    rdfs:label "The Art of Philosophy: The Use of Dialogue in Halevi’s Kuzari and Abravanel’s Dialoghi" ;
+    jp:aboutPerson jp:Person_W_Kuzari ;
+    jp:hasAuthor jp:Scholar_HUGHES_AARON ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "The Art of Philosophy: The Use of Dialogue in Halevi’s Kuzari and Abravanel’s Dialoghi" .
+
+jp:ScholarlyWork_H_169 a jp:ScholarlyWork ;
+    rdfs:label "’The Torah Speaks in the Language of Humans’: On Some Uses of Plato’s Theory of Myth in Medieval Islamic and Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HUGHES_AARON ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "’The Torah Speaks in the Language of Humans’: On Some Uses of Plato’s Theory of Myth in Medieval Islamic and Jewish Philosophy" .
+
+jp:ScholarlyWork_H_170 a jp:ScholarlyWork ;
+    rdfs:label "Transforming the Maimonidean Imagination: Aesthetics in the Renaissance Thought of Judah Abravanel" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_HUGHES_AARON ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Transforming the Maimonidean Imagination: Aesthetics in the Renaissance Thought of Judah Abravanel" .
+
+jp:ScholarlyWork_H_171 a jp:ScholarlyWork ;
+    rdfs:label "Conjunction in and of Maimonides and Averroes" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_IVRY_ALFRED ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Conjunction in and of Maimonides and Averroes" .
+
+jp:ScholarlyWork_H_173 a jp:ScholarlyWork ;
+    rdfs:label "Salomon Munk and the Science of Judaism Meet Maimonides’ Guide of the Perplexed," ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_IVRY_ALFRED ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Salomon Munk and the Science of Judaism Meet Maimonides’ Guide of the Perplexed," .
+
+jp:ScholarlyWork_H_174 a jp:ScholarlyWork ;
+    rdfs:label "The Guide and Maimonides’ Philosophical Sources" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_IVRY_ALFRED ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Guide and Maimonides’ Philosophical Sources" .
+
+jp:ScholarlyWork_H_175 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Midrash" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_IVRY_ALFRED ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides and Midrash" .
+
+jp:ScholarlyWork_H_176 a jp:ScholarlyWork ;
+    rdfs:label "“The Two Solomons and the Guide of the Perplexed, in" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_IVRY_ALFRED ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“The Two Solomons and the Guide of the Perplexed, in" .
+
+jp:ScholarlyWork_H_177 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides: Halakhic Philosopher or Philosophical Halakhist?" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KASHER_HANNAH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides: Halakhic Philosopher or Philosophical Halakhist?" .
+
+jp:ScholarlyWork_H_178 a jp:ScholarlyWork ;
+    rdfs:label "’Your Intention Is Pleasing to God, but Your Actions Are Not Pleasing’ (Sefer ha- Kuzari 1:1) (A Hypothetical Dialogue between Judah Halevi and Bahya ibn Paquda)" ;
+    jp:aboutPerson jp:Person_W_Kuzari ;
+    jp:hasAuthor jp:Scholar_KASHER_HANNAH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "’Your Intention Is Pleasing to God, but Your Actions Are Not Pleasing’ (Sefer ha- Kuzari 1:1) (A Hypothetical Dialogue between Judah Halevi and Bahya ibn Paquda)" .
+
+jp:ScholarlyWork_H_179 a jp:ScholarlyWork ;
+    rdfs:label "A Selected Bibliography of Studies on Maimonides, 1991-" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_MENACHEM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "A Selected Bibliography of Studies on Maimonides, 1991-" .
+
+jp:ScholarlyWork_H_180 a jp:ScholarlyWork ;
+    rdfs:label "Bibliographia Gersonideana 1992-2002" ;
+    jp:hasAuthor jp:Scholar_KELLNER_MENACHEM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Bibliographia Gersonideana 1992-2002" .
+
+jp:ScholarlyWork_H_181 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Confrontation with Mysticism" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_MENACHEM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Maimonides’ Confrontation with Mysticism" .
+
+jp:ScholarlyWork_H_182 a jp:ScholarlyWork ;
+    rdfs:label "Steven Schwarzschild, Moses Maimonides, and ‘Jewish Non-Jews’" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_MENACHEM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Steven Schwarzschild, Moses Maimonides, and ‘Jewish Non-Jews’" .
+
+jp:ScholarlyWork_H_183 a jp:ScholarlyWork ;
+    rdfs:label "Spiritual Life" ;
+    jp:hasAuthor jp:Scholar_KELLNER_MENACHEM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Spiritual Life" .
+
+jp:ScholarlyWork_H_184 a jp:ScholarlyWork ;
+    rdfs:label "Bible Commentary" ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_SARA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Bible Commentary" .
+
+jp:ScholarlyWork_H_185 a jp:ScholarlyWork ;
+    rdfs:label "Gersonides’ Methods of Inquiry in the Discussion on the Material Intellect in the Wars of the Lord" ;
+    jp:aboutPerson jp:Person_W_Wars ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_SARA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Gersonides’ Methods of Inquiry in the Discussion on the Material Intellect in the Wars of the Lord" .
+
+jp:ScholarlyWork_H_186 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides' Exoteric and Esoteric Biblical Interpretations in the Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_SARA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides' Exoteric and Esoteric Biblical Interpretations in the Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_187 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Strategy for Interpreting ‘Woman’ in the Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_SARA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Strategy for Interpreting ‘Woman’ in the Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_188 a jp:ScholarlyWork ;
+    rdfs:label "The Alexandrian Prologue-Paradigm in Gersonides' Writings" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_SARA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "The Alexandrian Prologue-Paradigm in Gersonides' Writings" .
+
+jp:ScholarlyWork_H_189 a jp:ScholarlyWork ;
+    rdfs:label "Christian Influences on Levi ben Avraham’s Livyat Hen" ;
+    jp:hasAuthor jp:Scholar_KREISEL_HOWARD_HAIM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Christian Influences on Levi ben Avraham’s Livyat Hen" .
+
+jp:ScholarlyWork_H_190 a jp:ScholarlyWork ;
+    rdfs:label "Esotericism to Exotericism: From Maimonides to Gersonides" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_KREISEL_HOWARD_HAIM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Esotericism to Exotericism: From Maimonides to Gersonides" .
+
+jp:ScholarlyWork_H_191 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Political Philosophy" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KREISEL_HOWARD_HAIM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Political Philosophy" .
+
+jp:ScholarlyWork_H_192 a jp:ScholarlyWork ;
+    rdfs:label "The Writing and Rewriting of Ma‛ase Nissim by R. Nissim of Marseilles" ;
+    jp:hasAuthor jp:Scholar_KREISEL_HOWARD_HAIM ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Writing and Rewriting of Ma‛ase Nissim by R. Nissim of Marseilles" .
+
+jp:ScholarlyWork_H_193 a jp:ScholarlyWork ;
+    rdfs:label "TZVI" ;
+    jp:hasAuthor jp:Scholar_LANGERMANN_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2002"^^xsd:gYear ;
+    jp:title "TZVI" .
+
+jp:ScholarlyWork_H_194 a jp:ScholarlyWork ;
+    rdfs:label "Ibn Kammūna and the New Wisdom of the Thirteenth Century" ;
+    jp:hasAuthor jp:Scholar_LANGERMANN_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Ibn Kammūna and the New Wisdom of the Thirteenth Century" .
+
+jp:ScholarlyWork_H_195 a jp:ScholarlyWork ;
+    rdfs:label "Ibn Kammūna at Aleppo" ;
+    jp:hasAuthor jp:Scholar_LANGERMANN_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Ibn Kammūna at Aleppo" .
+
+jp:ScholarlyWork_H_196 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Miracles: The Growth of a (Dis)belief" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LANGERMANN_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Maimonides and Miracles: The Growth of a (Dis)belief" .
+
+jp:ScholarlyWork_H_197 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and the Sciences" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LANGERMANN_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides and the Sciences" .
+
+jp:ScholarlyWork_H_198 a jp:ScholarlyWork ;
+    rdfs:label "Byzantine Karaite Thought, 12th-16th Centuries," ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Byzantine Karaite Thought, 12th-16th Centuries," .
+
+jp:ScholarlyWork_H_199 a jp:ScholarlyWork ;
+    rdfs:label "Imagination and Intellect in the Medieval Jewish Philosophical Polemics against Christianity" ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Imagination and Intellect in the Medieval Jewish Philosophical Polemics against Christianity" .
+
+jp:ScholarlyWork_H_200 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Philosophical Polemics against Christianity in the Middle Ages" ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Jewish Philosophical Polemics against Christianity in the Middle Ages" .
+
+jp:ScholarlyWork_H_201 a jp:ScholarlyWork ;
+    rdfs:label "Judah Halevi on Eschatology and Messianism" ;
+    jp:aboutPerson jp:Person_Q239268 ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Judah Halevi on Eschatology and Messianism" .
+
+jp:ScholarlyWork_H_202 a jp:ScholarlyWork ;
+    rdfs:label "Love of God and Knowledge of God in Maimonides' Philosophy," ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Love of God and Knowledge of God in Maimonides' Philosophy," .
+
+jp:ScholarlyWork_H_203 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and the Karaites: From Critic to Cultural Hero," ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides and the Karaites: From Critic to Cultural Hero," .
+
+jp:ScholarlyWork_H_204 a jp:ScholarlyWork ;
+    rdfs:label "Models of Spirituality in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Models of Spirituality in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_205 a jp:ScholarlyWork ;
+    rdfs:label "The Canon of Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "The Canon of Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_206 a jp:ScholarlyWork ;
+    rdfs:label "The Theory of Compensation (cIwad) in Rabbanite and Karaite Thought: Animal Sacrifices, Ritual Slaughter and Circumcision" ;
+    jp:hasAuthor jp:Scholar_LASKER_DANIEL_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "The Theory of Compensation (cIwad) in Rabbanite and Karaite Thought: Animal Sacrifices, Ritual Slaughter and Circumcision" .
+
+jp:ScholarlyWork_H_207 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Free Will at the Societal Level" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LERNER_BEREL_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Maimonides on Free Will at the Societal Level" .
+
+jp:ScholarlyWork_H_208 a jp:ScholarlyWork ;
+    rdfs:label "A Sufi-Jewish Dialogue: Philosophy and Mysticism in Bahya Ibn Paquda’s Duties of the Heart" ;
+    jp:aboutPerson jp:Person_W_Duties ;
+    jp:hasAuthor jp:Scholar_LOBEL_DIANA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "A Sufi-Jewish Dialogue: Philosophy and Mysticism in Bahya Ibn Paquda’s Duties of the Heart" .
+
+jp:ScholarlyWork_H_209 a jp:ScholarlyWork ;
+    rdfs:label "Ittisal and the Amr Ilahi: Divine Immanence and the World to Come in the Kuzari" ;
+    jp:aboutPerson jp:Person_W_Kuzari ;
+    jp:hasAuthor jp:Scholar_LOBEL_DIANA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ittisal and the Amr Ilahi: Divine Immanence and the World to Come in the Kuzari" .
+
+jp:ScholarlyWork_H_210 a jp:ScholarlyWork ;
+    rdfs:label "On the Lookout: A Sufi Riddle in Sulami, Qushayri, and Bahya Ibn Paquda" ;
+    jp:aboutPerson jp:Person_Q728956 ;
+    jp:hasAuthor jp:Scholar_LOBEL_DIANA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "On the Lookout: A Sufi Riddle in Sulami, Qushayri, and Bahya Ibn Paquda" .
+
+jp:ScholarlyWork_H_211 a jp:ScholarlyWork ;
+    rdfs:label "‘Silence is Praise to You’: Maimonides On Negative Theology, Looseness of Expression, and Religious Experience" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LOBEL_DIANA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2002"^^xsd:gYear ;
+    jp:title "‘Silence is Praise to You’: Maimonides On Negative Theology, Looseness of Expression, and Religious Experience" .
+
+jp:ScholarlyWork_H_213 a jp:ScholarlyWork ;
+    rdfs:label "Conservative Tendencies in Gersonides’ Religious Philosophy" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_MANEKIN_CHARLES ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Conservative Tendencies in Gersonides’ Religious Philosophy" .
+
+jp:ScholarlyWork_H_214 a jp:ScholarlyWork ;
+    rdfs:label "On Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_MANEKIN_CHARLES ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "On Maimonides" .
+
+jp:ScholarlyWork_H_215 a jp:ScholarlyWork ;
+    rdfs:label "Eliahu del Medigo, traductor del epítome de Averroes Acerca del Alma" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_JOSEP ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Eliahu del Medigo, traductor del epítome de Averroes Acerca del Alma" .
+
+jp:ScholarlyWork_H_216 a jp:ScholarlyWork ;
+    rdfs:label "Ibn Hazm y Maimónides ante el problema de la verdadera religión" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_JOSEP ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ibn Hazm y Maimónides ante el problema de la verdadera religión" .
+
+jp:ScholarlyWork_H_217 a jp:ScholarlyWork ;
+    rdfs:label "Maimónides, su epistemología" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_JOSEP ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimónides, su epistemología" .
+
+jp:ScholarlyWork_H_218 a jp:ScholarlyWork ;
+    rdfs:label "Mosheh Ibn Tibbon, un traductor literal" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_JOSEP ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Mosheh Ibn Tibbon, un traductor literal" .
+
+jp:ScholarlyWork_H_219 a jp:ScholarlyWork ;
+    rdfs:label "Seis figuras del pensamiento filosófico andalusí" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_JOSEP ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Seis figuras del pensamiento filosófico andalusí" .
+
+jp:ScholarlyWork_H_220 a jp:ScholarlyWork ;
+    rdfs:label "From Digression to Compilation: Samuel Ibn Tibbon and Immanuel of Rome on Genesis 1:11, 1:14, 1:20" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "From Digression to Compilation: Samuel Ibn Tibbon and Immanuel of Rome on Genesis 1:11, 1:14, 1:20" .
+
+jp:ScholarlyWork_H_221 a jp:ScholarlyWork ;
+    rdfs:label "Hasdai Crescas and Anti-Aristotelianism" ;
+    jp:aboutPerson jp:Person_Q506720 ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Hasdai Crescas and Anti-Aristotelianism" .
+
+jp:ScholarlyWork_H_222 a jp:ScholarlyWork ;
+    rdfs:label "Samuel Ibn Tibbon’s Commentary on Ecclesiastes, The Book of the Soul of Man (Texts and Studies in Medieval and Early Modern Judaism 20)" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "Samuel Ibn Tibbon’s Commentary on Ecclesiastes, The Book of the Soul of Man (Texts and Studies in Medieval and Early Modern Judaism 20)" .
+
+jp:ScholarlyWork_H_223 a jp:ScholarlyWork ;
+    rdfs:label "Some Remarks on the Source of Maimonides’ Plato in Guide of the Perplexed I.17" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Some Remarks on the Source of Maimonides’ Plato in Guide of the Perplexed I.17" .
+
+jp:ScholarlyWork_H_224 a jp:ScholarlyWork ;
+    rdfs:label "The Ibn Tibbon Family: A Dynasty of Translators in Medieval Provence" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Ibn Tibbon Family: A Dynasty of Translators in Medieval Provence" .
+
+jp:ScholarlyWork_H_225 a jp:ScholarlyWork ;
+    rdfs:label "Three Recent Books on Isaac Abarbanel/Abravanel (1437-1508/9)" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_ROBINSON_JAMES_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Three Recent Books on Isaac Abarbanel/Abravanel (1437-1508/9)" .
+
+jp:ScholarlyWork_H_226 a jp:ScholarlyWork ;
+    rdfs:label "Aquinas and Maimonides on the Possibility of the Knowledge of God: An Examination of The Quaestio de attributis (Amsterdam Studies in Jewish Thought 11)" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_RUBIO_MERCEDES ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Aquinas and Maimonides on the Possibility of the Knowledge of God: An Examination of The Quaestio de attributis (Amsterdam Studies in Jewish Thought 11)" .
+
+jp:ScholarlyWork_H_227 a jp:ScholarlyWork ;
+    rdfs:label "The Impact of Scholasticism upon Jewish Philosophy in the Fourteenth and Fifteenth Centuries" ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_TAMAR_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Impact of Scholasticism upon Jewish Philosophy in the Fourteenth and Fifteenth Centuries" .
+
+jp:ScholarlyWork_H_228 a jp:ScholarlyWork ;
+    rdfs:label "To Know What Is: Feminism, Metaphysics, and Epistemology" ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_TAMAR_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "To Know What Is: Feminism, Metaphysics, and Epistemology" .
+
+jp:ScholarlyWork_H_229 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Aristotle: Judaism and Science Reconsidered" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_TAMAR_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on Aristotle: Judaism and Science Reconsidered" .
+
+jp:ScholarlyWork_H_230 a jp:ScholarlyWork ;
+    rdfs:label "Central Problems of Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Central Problems of Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_231 a jp:ScholarlyWork ;
+    rdfs:label "Conceptions of Astral-Magic within Jewish Rationalism in the Byzantine Empire" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Conceptions of Astral-Magic within Jewish Rationalism in the Byzantine Empire" .
+
+jp:ScholarlyWork_H_232 a jp:ScholarlyWork ;
+    rdfs:label "Is It Possible to Write a History of Jewish Thought?" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Is It Possible to Write a History of Jewish Thought?" .
+
+jp:ScholarlyWork_H_233 a jp:ScholarlyWork ;
+    rdfs:label "Giosuè fermo veramente il sole? Aspetti della concezione del miracolo nella filosofia ebraica medievale" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Giosuè fermo veramente il sole? Aspetti della concezione del miracolo nella filosofia ebraica medievale" .
+
+jp:ScholarlyWork_H_234 a jp:ScholarlyWork ;
+    rdfs:label "La philosophie" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La philosophie" .
+
+jp:ScholarlyWork_H_235 a jp:ScholarlyWork ;
+    rdfs:label "Polemical and Esoterical Writing in The Guide of the Perplexed: Creation and the Teleological Issue" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Polemical and Esoterical Writing in The Guide of the Perplexed: Creation and the Teleological Issue" .
+
+jp:ScholarlyWork_H_236 a jp:ScholarlyWork ;
+    rdfs:label "Studies on Astral Magic in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_DOV ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Studies on Astral Magic in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_237 a jp:ScholarlyWork ;
+    rdfs:label "Seeskin, Kenneth" ;
+    jp:hasAuthor jp:Scholar_SEESKIN_KENNETH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Seeskin, Kenneth" .
+
+jp:ScholarlyWork_H_238 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Sense of History" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SEESKIN_KENNETH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "Maimonides’ Sense of History" .
+
+jp:ScholarlyWork_H_239 a jp:ScholarlyWork ;
+    rdfs:label "Sanctity and Silence: The Religious Significance of Maimonides’ Negative Theology" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SEESKIN_KENNETH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2002"^^xsd:gYear ;
+    jp:title "Sanctity and Silence: The Religious Significance of Maimonides’ Negative Theology" .
+
+jp:ScholarlyWork_H_240 a jp:ScholarlyWork ;
+    rdfs:label "The God of the Philosophers" ;
+    jp:hasAuthor jp:Scholar_SEESKIN_KENNETH ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "The God of the Philosophers" .
+
+jp:ScholarlyWork_H_241 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Bar Hiyya’s Astrological Work and Thought" ;
+    jp:hasAuthor jp:Scholar_SELA_SHLOMO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Abraham Bar Hiyya’s Astrological Work and Thought" .
+
+jp:ScholarlyWork_H_242 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra and the Rise of Medieval Hebrew Science" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_SELA_SHLOMO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra and the Rise of Medieval Hebrew Science" .
+
+jp:ScholarlyWork_H_243 a jp:ScholarlyWork ;
+    rdfs:label "La creación del mundo supralunar según Abraham Ibn Ezra: un estudio comparativo de sus dos comentarios a Génesis" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_SELA_SHLOMO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "La creación del mundo supralunar según Abraham Ibn Ezra: un estudio comparativo de sus dos comentarios a Génesis" .
+
+jp:ScholarlyWork_H_244 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra’s Astrological Works in Hebrew and Latin: New Discoveries and Exhaustive Listing" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_SMITHUIS_RENATE ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra’s Astrological Works in Hebrew and Latin: New Discoveries and Exhaustive Listing" .
+
+jp:ScholarlyWork_H_245 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Amalek, Self-Corrective Mechanisms, and the War against Idolatry" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_STERN_JOSEF ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on Amalek, Self-Corrective Mechanisms, and the War against Idolatry" .
+
+jp:ScholarlyWork_H_246 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Epistemology" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_STERN_JOSEF ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Epistemology" .
+
+jp:ScholarlyWork_H_247 a jp:ScholarlyWork ;
+    rdfs:label "The Andalusian Selihah and Its Individualistic Conception of Penitence" ;
+    jp:hasAuthor jp:Scholar_TANENBAUM_ADENA ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Andalusian Selihah and Its Individualistic Conception of Penitence" .
+
+jp:ScholarlyWork_H_248 a jp:ScholarlyWork ;
+    rdfs:label "A Case of ‘Author’s Variant Readings’ and the Textual History of Averroes’ Middle Commentary on Aristotle’s Metaphysics" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "A Case of ‘Author’s Variant Readings’ and the Textual History of Averroes’ Middle Commentary on Aristotle’s Metaphysics" .
+
+jp:ScholarlyWork_H_249 a jp:ScholarlyWork ;
+    rdfs:label "A Note about Two Newly-Discovered Hebrew Quotations of Averroes’ Works Lost in their Original Arabic Texts" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "A Note about Two Newly-Discovered Hebrew Quotations of Averroes’ Works Lost in their Original Arabic Texts" .
+
+jp:ScholarlyWork_H_250 a jp:ScholarlyWork ;
+    rdfs:label "Einige Bemerkungen über hebräische Scholastik im 15. Jahrhundert in Spanien und Italien" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:title "Einige Bemerkungen über hebräische Scholastik im 15. Jahrhundert in Spanien und Italien" .
+
+jp:ScholarlyWork_H_251 a jp:ScholarlyWork ;
+    rdfs:label "Hebrew Scholasticism in the Fifteenth Century" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "Hebrew Scholasticism in the Fifteenth Century" .
+
+jp:ScholarlyWork_H_252 a jp:ScholarlyWork ;
+    rdfs:label "Hebrew Transmission of Arabic Philosophy and Science: A Reconstruction of Shem Tov Ibn Falaquera’s ‘Arabic Library’" ;
+    jp:aboutPerson jp:Person_Q1247192 ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Hebrew Transmission of Arabic Philosophy and Science: A Reconstruction of Shem Tov Ibn Falaquera’s ‘Arabic Library’" .
+
+jp:ScholarlyWork_H_253 a jp:ScholarlyWork ;
+    rdfs:label "La perfezione della legge. Filosofia e diritto religioso nel pensiero ebraico medievale" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La perfezione della legge. Filosofia e diritto religioso nel pensiero ebraico medievale" .
+
+jp:ScholarlyWork_H_254 a jp:ScholarlyWork ;
+    rdfs:label "La ricerca recente sulla tradizione ebraica di Aristotele: lavori terminati e prospettive future" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La ricerca recente sulla tradizione ebraica di Aristotele: lavori terminati e prospettive future" .
+
+jp:ScholarlyWork_H_255 a jp:ScholarlyWork ;
+    rdfs:label "“La scienza ebraica di Al-Andalus nel secolo" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“La scienza ebraica di Al-Andalus nel secolo" .
+
+jp:ScholarlyWork_H_256 a jp:ScholarlyWork ;
+    rdfs:label "La tradizione ebraica medievale dei testi arabi" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La tradizione ebraica medievale dei testi arabi" .
+
+jp:ScholarlyWork_H_257 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides as Zoologist? – Some Remarks about a Summary of Aristotle’s Zoology Ascribed to Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides as Zoologist? – Some Remarks about a Summary of Aristotle’s Zoology Ascribed to Maimonides" .
+
+jp:ScholarlyWork_H_258 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Knowledge of Avicenna. Some Tentative Conclusions About a Debated Question" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Knowledge of Avicenna. Some Tentative Conclusions About a Debated Question" .
+
+jp:ScholarlyWork_H_259 a jp:ScholarlyWork ;
+    rdfs:label "Metaphysics in Medieval Hebrew Tradition. A Short Historical Sketch" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Metaphysics in Medieval Hebrew Tradition. A Short Historical Sketch" .
+
+jp:ScholarlyWork_H_260 a jp:ScholarlyWork ;
+    rdfs:label "Moses Ibn ‘Ezra’s ‘Treatise of the Garden’ and Maimonides’ ‘Guide of the Perplexed’" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:title "Moses Ibn ‘Ezra’s ‘Treatise of the Garden’ and Maimonides’ ‘Guide of the Perplexed’" .
+
+jp:ScholarlyWork_H_261 a jp:ScholarlyWork ;
+    rdfs:label "The Autumn of Medieval Jewish Philosophy: Latin Scholasticism in the Late-15th- Century Hebrew Philosophical Literature" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2004"^^xsd:gYear ;
+    jp:title "The Autumn of Medieval Jewish Philosophy: Latin Scholasticism in the Late-15th- Century Hebrew Philosophical Literature" .
+
+jp:ScholarlyWork_H_262 a jp:ScholarlyWork ;
+    rdfs:label "The Jewish Mediation in the Transmission of Arabo-Islamic Science and Philosophy to the Latin Middle Ages. Historical Overview and Perspectives of Research" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:title "The Jewish Mediation in the Transmission of Arabo-Islamic Science and Philosophy to the Latin Middle Ages. Historical Overview and Perspectives of Research" .
+
+jp:ScholarlyWork_H_263 a jp:ScholarlyWork ;
+    rdfs:label "The Knowledge of Latin Philosophical Literature among Jewish Philosophers in 15th Century Italy. Scholastic Sources in Yehudah Messer Leon’s Commentary on Aristotle’s Physics" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Knowledge of Latin Philosophical Literature among Jewish Philosophers in 15th Century Italy. Scholastic Sources in Yehudah Messer Leon’s Commentary on Aristotle’s Physics" .
+
+jp:ScholarlyWork_H_264 a jp:ScholarlyWork ;
+    rdfs:label "Traduzioni e commenti alla Guida dei perplessi nell’Europa del secolo XIII: a proposito di alcuni studi recenti" ;
+    jp:hasAuthor jp:Scholar_ZONTA_MAURO ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Traduzioni e commenti alla Guida dei perplessi nell’Europa del secolo XIII: a proposito di alcuni studi recenti" .
+
+jp:ScholarlyWork_H_266 a jp:ScholarlyWork ;
+    rdfs:label "Miracles in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_ACKERMAN_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Miracles in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_267 a jp:ScholarlyWork ;
+    rdfs:label "Zerahia Halevi and Thomas Aquinas on Vows" ;
+    jp:aboutPerson jp:Person_Q239268 ;
+    jp:hasAuthor jp:Scholar_ACKERMAN_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Zerahia Halevi and Thomas Aquinas on Vows" .
+
+jp:ScholarlyWork_H_268 a jp:ScholarlyWork ;
+    rdfs:label "‘Everything is in the Hands of Heaven, except the Fear of Heaven’ (BT Berachoth 33b). Determinism and Freedom in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_BENEDETTO_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "‘Everything is in the Hands of Heaven, except the Fear of Heaven’ (BT Berachoth 33b). Determinism and Freedom in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_269 a jp:ScholarlyWork ;
+    rdfs:label "La divisione delle scienze nell’enciclopedismo ebraico medievale: filosofia naturale, scienze matematiche e scienza divina nell’introduzione al Midrash ha-hokmah di Yehudah ha-Cohen" ;
+    jp:hasAuthor jp:Scholar_BENEDETTO_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La divisione delle scienze nell’enciclopedismo ebraico medievale: filosofia naturale, scienze matematiche e scienza divina nell’introduzione al Midrash ha-hokmah di Yehudah ha-Cohen" .
+
+jp:ScholarlyWork_H_270 a jp:ScholarlyWork ;
+    rdfs:label "Un enciclopedista ebreo alla corte di Federico" ;
+    jp:hasAuthor jp:Scholar_BENEDETTO_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Un enciclopedista ebreo alla corte di Federico" .
+
+jp:ScholarlyWork_H_271 a jp:ScholarlyWork ;
+    rdfs:label "A. Even-Chen’s The Binding of Isaac: Mystical and Philosophical Interpretations of the Bible" ;
+    jp:hasAuthor jp:Scholar_BLUMENTHAL_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "A. Even-Chen’s The Binding of Isaac: Mystical and Philosophical Interpretations of the Bible" .
+
+jp:ScholarlyWork_H_272 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides the Rationalist" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Maimonides the Rationalist" .
+
+jp:ScholarlyWork_H_273 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Divine Attributes as Equivocal Terms," ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on Divine Attributes as Equivocal Terms," .
+
+jp:ScholarlyWork_H_274 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Samuel ben Eli" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides and Samuel ben Eli" .
+
+jp:ScholarlyWork_H_275 a jp:ScholarlyWork ;
+    rdfs:label "The Problematic Passage in Guide for the Perplexed 2.24" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_DAVIDSON_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "The Problematic Passage in Guide for the Perplexed 2.24" .
+
+jp:ScholarlyWork_H_276 a jp:ScholarlyWork ;
+    rdfs:label "Does R. Joseph Albo Succeed in Proving the Dogmatic Necessity of Divine Retribution?" ;
+    jp:aboutPerson jp:Person_Q507563 ;
+    jp:hasAuthor jp:Scholar_EHRLICH_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Does R. Joseph Albo Succeed in Proving the Dogmatic Necessity of Divine Retribution?" .
+
+jp:ScholarlyWork_H_277 a jp:ScholarlyWork ;
+    rdfs:label "Hidden Apocalyptic Messianism in Late Medieval Jewish Thought" ;
+    jp:hasAuthor jp:Scholar_EHRLICH_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Hidden Apocalyptic Messianism in Late Medieval Jewish Thought" .
+
+jp:ScholarlyWork_H_278 a jp:ScholarlyWork ;
+    rdfs:label "Some Further Reflections Regarding the Talbott–Crisp Debate on the Augustinian Concept of Everlasting Punishment" ;
+    jp:hasAuthor jp:Scholar_EHRLICH_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Some Further Reflections Regarding the Talbott–Crisp Debate on the Augustinian Concept of Everlasting Punishment" .
+
+jp:ScholarlyWork_H_279 a jp:ScholarlyWork ;
+    rdfs:label "R. Joseph Albo’s Discussion of the Proofs for the Existence of God" ;
+    jp:aboutPerson jp:Person_Q507563 ;
+    jp:hasAuthor jp:Scholar_EHRLICH_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:title "R. Joseph Albo’s Discussion of the Proofs for the Existence of God" .
+
+jp:ScholarlyWork_H_280 a jp:ScholarlyWork ;
+    rdfs:label "An Epistle on Esoteric Matters by David II Maimonides from the Genizah" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FENTON_P ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "An Epistle on Esoteric Matters by David II Maimonides from the Genizah" .
+
+jp:ScholarlyWork_H_281 a jp:ScholarlyWork ;
+    rdfs:label "A Re-discovered Description of Maimonides by a Contemporary" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FENTON_P ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "A Re-discovered Description of Maimonides by a Contemporary" .
+
+jp:ScholarlyWork_H_282 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides— Father and Son: Continuity and Change" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FENTON_P ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides— Father and Son: Continuity and Change" .
+
+jp:ScholarlyWork_H_283 a jp:ScholarlyWork ;
+    rdfs:label "New Light on Maimonidean Writings on Metempsychosis and the Influence of Avicenna" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_FENTON_P ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "New Light on Maimonidean Writings on Metempsychosis and the Influence of Avicenna" .
+
+jp:ScholarlyWork_H_284 a jp:ScholarlyWork ;
+    rdfs:label "Averroes’ Commentary on Aristotle’s De Generatione Animalium and its Use in Two 13th century Hebrew Encyclopedias" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Averroes’ Commentary on Aristotle’s De Generatione Animalium and its Use in Two 13th century Hebrew Encyclopedias" .
+
+jp:ScholarlyWork_H_285 a jp:ScholarlyWork ;
+    rdfs:label "Exhalations and Other Meteorological Themes in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Exhalations and Other Meteorological Themes in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_286 a jp:ScholarlyWork ;
+    rdfs:label "For the Dossier of Abraham Ibn Daud: Some Observations on an Anonymous Commentary on his ha-Emunah ha-Ramah" ;
+    jp:aboutPerson jp:Person_Q330104 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "For the Dossier of Abraham Ibn Daud: Some Observations on an Anonymous Commentary on his ha-Emunah ha-Ramah" .
+
+jp:ScholarlyWork_H_287 a jp:ScholarlyWork ;
+    rdfs:label "‘“Happy is He Whose Sons are Boys”: Ibn Sina and Abraham Ibn Daud on Evil”, in The Arabic, Hebrew and Latin Reception of Avicenna’s Metaphysics, ed" ;
+    jp:aboutPerson jp:Person_Q330104 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "‘“Happy is He Whose Sons are Boys”: Ibn Sina and Abraham Ibn Daud on Evil”, in The Arabic, Hebrew and Latin Reception of Avicenna’s Metaphysics, ed" .
+
+jp:ScholarlyWork_H_288 a jp:ScholarlyWork ;
+    rdfs:label "Meteorology and Zoology in Medieval Hebrew Writings" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Meteorology and Zoology in Medieval Hebrew Writings" .
+
+jp:ScholarlyWork_H_289 a jp:ScholarlyWork ;
+    rdfs:label "“The Early Reception of Aristotle through Averroes in Medieval Jewish Philosophy: The Case of the Midrash ha-Hokhmah’, in" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“The Early Reception of Aristotle through Averroes in Medieval Jewish Philosophy: The Case of the Midrash ha-Hokhmah’, in" .
+
+jp:ScholarlyWork_H_290 a jp:ScholarlyWork ;
+    rdfs:label "The First Survey of the Metaphysics in Hebrew" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The First Survey of the Metaphysics in Hebrew" .
+
+jp:ScholarlyWork_H_291 a jp:ScholarlyWork ;
+    rdfs:label "Was Maimonides an Epigone?" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Was Maimonides an Epigone?" .
+
+jp:ScholarlyWork_H_292 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Philosophy on the Eve of the Age of Averroism: Ibn Daud’s Necessary Existent and His Use of Avicennian Science" ;
+    jp:aboutPerson jp:Person_Q330104 ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Jewish Philosophy on the Eve of the Age of Averroism: Ibn Daud’s Necessary Existent and His Use of Avicennian Science" .
+
+jp:ScholarlyWork_H_293 a jp:ScholarlyWork ;
+    rdfs:label "Nicomachus of Gerasa in Spain, circa 1100: Abraham bar Hiyya’s Testimony" ;
+    jp:hasAuthor jp:Scholar_FONTAINE_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Nicomachus of Gerasa in Spain, circa 1100: Abraham bar Hiyya’s Testimony" .
+
+jp:ScholarlyWork_H_294 a jp:ScholarlyWork ;
+    rdfs:label "Between Maimonideanism and Averroism: Gersonides’ Place within the Maimonidean Paradigm" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_GATTI_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Between Maimonideanism and Averroism: Gersonides’ Place within the Maimonidean Paradigm" .
+
+jp:ScholarlyWork_H_295 a jp:ScholarlyWork ;
+    rdfs:label "Lewi ben Gershom (Gersonide) commentatore di Averroé: il tema dell’immaginazione nel supercommentario al De anima" ;
+    jp:hasAuthor jp:Scholar_GATTI_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Lewi ben Gershom (Gersonide) commentatore di Averroé: il tema dell’immaginazione nel supercommentario al De anima" .
+
+jp:ScholarlyWork_H_296 a jp:ScholarlyWork ;
+    rdfs:label "“L’infinito fisico in Gersonide (Milhamot ha-Shem, Libro sesto, Parte prima, cap." ;
+    jp:aboutPerson jp:Person_W_Wars ;
+    jp:hasAuthor jp:Scholar_GATTI_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“L’infinito fisico in Gersonide (Milhamot ha-Shem, Libro sesto, Parte prima, cap." .
+
+jp:ScholarlyWork_H_298 a jp:ScholarlyWork ;
+    rdfs:label "Tra Maimonide e Averroé: la posizione di Gersonide all’interno della storia del pensiero ebraico" ;
+    jp:hasAuthor jp:Scholar_XI_in_Cosmogonie_e_cosmologie_nel_Medioevo_ed ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Tra Maimonide e Averroé: la posizione di Gersonide all’interno della storia del pensiero ebraico" .
+
+jp:ScholarlyWork_H_299 a jp:ScholarlyWork ;
+    rdfs:label "Gersonides’ Naturalistic Account of Providence in Light of the Book of Animals" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_GAZIEL_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Gersonides’ Naturalistic Account of Providence in Light of the Book of Animals" .
+
+jp:ScholarlyWork_H_300 a jp:ScholarlyWork ;
+    rdfs:label "Questions of Methodology in Aristotle's Zoology: A Medieval Perspective" ;
+    jp:hasAuthor jp:Scholar_GAZIEL_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Questions of Methodology in Aristotle's Zoology: A Medieval Perspective" .
+
+jp:ScholarlyWork_H_301 a jp:ScholarlyWork ;
+    rdfs:label "Spontaneous Generation in Medieval Jewish Philosophy and Theology" ;
+    jp:hasAuthor jp:Scholar_GAZIEL_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Spontaneous Generation in Medieval Jewish Philosophy and Theology" .
+
+jp:ScholarlyWork_H_302 a jp:ScholarlyWork ;
+    rdfs:label "The Evolution of the Genre of the Philosophical-Scientific Commentary: the Hebrew Supercommentaries on Aristotle’s Physics" ;
+    jp:hasAuthor jp:Scholar_GLASNER_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Evolution of the Genre of the Philosophical-Scientific Commentary: the Hebrew Supercommentaries on Aristotle’s Physics" .
+
+jp:ScholarlyWork_H_303 a jp:ScholarlyWork ;
+    rdfs:label "The Peculiar History of Aristotelianism among Spanish Jews" ;
+    jp:hasAuthor jp:Scholar_GLASNER_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Peculiar History of Aristotelianism among Spanish Jews" .
+
+jp:ScholarlyWork_H_304 a jp:ScholarlyWork ;
+    rdfs:label "Two Notes on the Identification of Some Anonymous Hebrew Commentaries on the Physics" ;
+    jp:hasAuthor jp:Scholar_GLASNER_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Two Notes on the Identification of Some Anonymous Hebrew Commentaries on the Physics" .
+
+jp:ScholarlyWork_H_305 a jp:ScholarlyWork ;
+    rdfs:label "Bahya and Maimonides on the Worth of Medicine" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Bahya and Maimonides on the Worth of Medicine" .
+
+jp:ScholarlyWork_H_306 a jp:ScholarlyWork ;
+    rdfs:label "Creation and Emanation" ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Creation and Emanation" .
+
+jp:ScholarlyWork_H_307 a jp:ScholarlyWork ;
+    rdfs:label "Creation and Evolution" ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Creation and Evolution" .
+
+jp:ScholarlyWork_H_308 a jp:ScholarlyWork ;
+    rdfs:label "Happiness: Jewish, Christian, and Muslim Perspectives" ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Happiness: Jewish, Christian, and Muslim Perspectives" .
+
+jp:ScholarlyWork_H_309 a jp:ScholarlyWork ;
+    rdfs:label "Individuality" ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Individuality" .
+
+jp:ScholarlyWork_H_310 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on the Soul," ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_GOODMAN_L_E ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on the Soul," .
+
+jp:ScholarlyWork_H_311 a jp:ScholarlyWork ;
+    rdfs:label "Torah as Political Philosophy: Maimonides and Spinoza on Divine Law" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_HALPER_E_C ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Torah as Political Philosophy: Maimonides and Spinoza on Divine Law" .
+
+jp:ScholarlyWork_H_312 a jp:ScholarlyWork ;
+    rdfs:label "The Convergence of Religious and Metaphysical Concepts: Mofet and Devequt in the Hebrew Translation of Averroes’ Long Commentary on Aristotle's Metaphysics" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_HALPER_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "The Convergence of Religious and Metaphysical Concepts: Mofet and Devequt in the Hebrew Translation of Averroes’ Long Commentary on Aristotle's Metaphysics" .
+
+jp:ScholarlyWork_H_313 a jp:ScholarlyWork ;
+    rdfs:label "Are the Medieval Hebrew Translations of Averroes’ Commentaries on Aristotle Still of Value and Worth Editing?" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Are the Medieval Hebrew Translations of Averroes’ Commentaries on Aristotle Still of Value and Worth Editing?" .
+
+jp:ScholarlyWork_H_314 a jp:ScholarlyWork ;
+    rdfs:label "Author’s Introductions as a Gauge for Monitoring Philosophic Influence: The Case of Alghazali" ;
+    jp:aboutPerson jp:Person_Q9546 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Author’s Introductions as a Gauge for Monitoring Philosophic Influence: The Case of Alghazali" .
+
+jp:ScholarlyWork_H_315 a jp:ScholarlyWork ;
+    rdfs:label "Avicenna’s Influence on Jewish Thought: Some Reflections" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Avicenna’s Influence on Jewish Thought: Some Reflections" .
+
+jp:ScholarlyWork_H_316 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Philosophy in Hebrew" ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Jewish Philosophy in Hebrew" .
+
+jp:ScholarlyWork_H_317 a jp:ScholarlyWork ;
+    rdfs:label "Logic, Theology, and the Beginning of Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Logic, Theology, and the Beginning of Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_318 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and the Art of Writing Introductions" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Maimonides and the Art of Writing Introductions" .
+
+jp:ScholarlyWork_H_319 a jp:ScholarlyWork ;
+    rdfs:label "Shem-Tov Falaquera, a Paragon of an Epigone, and the Epigone’s Importance for the Study of Jewish Intellectual History" ;
+    jp:aboutPerson jp:Person_Q1247192 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Shem-Tov Falaquera, a Paragon of an Epigone, and the Epigone’s Importance for the Study of Jewish Intellectual History" .
+
+jp:ScholarlyWork_H_320 a jp:ScholarlyWork ;
+    rdfs:label "The Introductions of Thirteenth-Century Arabic-to-Hebrew Translators of Philosophic and Scientific Texts" ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Introductions of Thirteenth-Century Arabic-to-Hebrew Translators of Philosophic and Scientific Texts" .
+
+jp:ScholarlyWork_H_321 a jp:ScholarlyWork ;
+    rdfs:label "When Did Jews Begin to Consider Averroes the Commentator?" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_HARVEY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "When Did Jews Begin to Consider Averroes the Commentator?" .
+
+jp:ScholarlyWork_H_322 a jp:ScholarlyWork ;
+    rdfs:label "Gersonides and Spinoza on Conatus" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Gersonides and Spinoza on Conatus" .
+
+jp:ScholarlyWork_H_323 a jp:ScholarlyWork ;
+    rdfs:label "Hasdai Crescas’s Aristotle: Transmission, Translation, Transformation" ;
+    jp:aboutPerson jp:Person_Q506720 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Hasdai Crescas’s Aristotle: Transmission, Translation, Transformation" .
+
+jp:ScholarlyWork_H_324 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Avicennianism" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Maimonides’ Avicennianism" .
+
+jp:ScholarlyWork_H_325 a jp:ScholarlyWork ;
+    rdfs:label "“Maimonides’ Critical Epistemology and Guide," ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“Maimonides’ Critical Epistemology and Guide," .
+
+jp:ScholarlyWork_H_326 a jp:ScholarlyWork ;
+    rdfs:label "Nicole Oresme and Ḥasdai Crescas on Many Worlds" ;
+    jp:aboutPerson jp:Person_Q506720 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Nicole Oresme and Ḥasdai Crescas on Many Worlds" .
+
+jp:ScholarlyWork_H_327 a jp:ScholarlyWork ;
+    rdfs:label "Shlomo Pines on Maimonides, Spinoza, and Kant" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Shlomo Pines on Maimonides, Spinoza, and Kant" .
+
+jp:ScholarlyWork_H_328 a jp:ScholarlyWork ;
+    rdfs:label "Spinoza on Ibn Ezra’s Secret of the Twelve" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_HARVEY_W_Z ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Spinoza on Ibn Ezra’s Secret of the Twelve" .
+
+jp:ScholarlyWork_H_329 a jp:ScholarlyWork ;
+    rdfs:label "A Note on the Reception History of the Dialoghi d’Amore: The Case of Abraham Kohen de Herrera" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "A Note on the Reception History of the Dialoghi d’Amore: The Case of Abraham Kohen de Herrera" .
+
+jp:ScholarlyWork_H_330 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Neoplatonists on Soul" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Jewish Neoplatonists on Soul" .
+
+jp:ScholarlyWork_H_331 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and the Pre-Maimonidean Jewish Philosophical Tradition According to Hermann Cohen" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Maimonides and the Pre-Maimonidean Jewish Philosophical Tradition According to Hermann Cohen" .
+
+jp:ScholarlyWork_H_332 a jp:ScholarlyWork ;
+    rdfs:label "Medieval Philosophers in Modern Jewish Philosophy: A Case Study of Dialogism" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Medieval Philosophers in Modern Jewish Philosophy: A Case Study of Dialogism" .
+
+jp:ScholarlyWork_H_333 a jp:ScholarlyWork ;
+    rdfs:label "Miraj and the Language of Legitimation in the Medieval Islamic and Jewish Philosophical Traditions" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Miraj and the Language of Legitimation in the Medieval Islamic and Jewish Philosophical Traditions" .
+
+jp:ScholarlyWork_H_334 a jp:ScholarlyWork ;
+    rdfs:label "Precursorship and the Forgetting of History: Franz Rosenzweig and Saadya Gaon on the Memory of Translation" ;
+    jp:aboutPerson jp:Person_Q234850 ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Precursorship and the Forgetting of History: Franz Rosenzweig and Saadya Gaon on the Memory of Translation" .
+
+jp:ScholarlyWork_H_335 a jp:ScholarlyWork ;
+    rdfs:label "The Art of Dialogue in Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "The Art of Dialogue in Jewish Philosophy" .
+
+jp:ScholarlyWork_H_336 a jp:ScholarlyWork ;
+    rdfs:label "The Invention of Jewish Identity: Bible, Philosophy, and the Art of Translation" ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "The Invention of Jewish Identity: Bible, Philosophy, and the Art of Translation" .
+
+jp:ScholarlyWork_H_337 a jp:ScholarlyWork ;
+    rdfs:label "The Reception of Yehudah Abravanel Among Conversos in the 17th Century: A Case Study of Abraham Kohen de Herrera" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "The Reception of Yehudah Abravanel Among Conversos in the 17th Century: A Case Study of Abraham Kohen de Herrera" .
+
+jp:ScholarlyWork_H_338 a jp:ScholarlyWork ;
+    rdfs:label "Translation and the Invention of Renaissance Jewish Culture: The Case of Judah Messer Leon and Judah Abravanel" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_HUGHES_A_W ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Translation and the Invention of Renaissance Jewish Culture: The Case of Judah Messer Leon and Judah Abravanel" .
+
+jp:ScholarlyWork_H_339 a jp:ScholarlyWork ;
+    rdfs:label "Guide 2:24 and All That (i)jâza" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_IVRY_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Guide 2:24 and All That (i)jâza" .
+
+jp:ScholarlyWork_H_340 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Psychology" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_IVRY_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Psychology" .
+
+jp:ScholarlyWork_H_341 a jp:ScholarlyWork ;
+    rdfs:label "Moses Maimonides: An Averroist avant la lettre?" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_IVRY_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Moses Maimonides: An Averroist avant la lettre?" .
+
+jp:ScholarlyWork_H_342 a jp:ScholarlyWork ;
+    rdfs:label "The Image of Moses in Maimonides’ Thought" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_IVRY_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Image of Moses in Maimonides’ Thought" .
+
+jp:ScholarlyWork_H_343 a jp:ScholarlyWork ;
+    rdfs:label "The Weight of Midrash on Rashi and Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_IVRY_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Weight of Midrash on Rashi and Maimonides" .
+
+jp:ScholarlyWork_H_344 a jp:ScholarlyWork ;
+    rdfs:label "The Dual Nature of the Biblical Angel in the Philosophy of Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KASHER_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Dual Nature of the Biblical Angel in the Philosophy of Maimonides" .
+
+jp:ScholarlyWork_H_345 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Critique of the Rabbinic Culture of His Day" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Critique of the Rabbinic Culture of His Day" .
+
+jp:ScholarlyWork_H_346 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides' Disputed Legacy" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides' Disputed Legacy" .
+
+jp:ScholarlyWork_H_347 a jp:ScholarlyWork ;
+    rdfs:label "Philosophical Themes in Maimonides’ Sefer Ahavah" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophical Themes in Maimonides’ Sefer Ahavah" .
+
+jp:ScholarlyWork_H_348 a jp:ScholarlyWork ;
+    rdfs:label "Rashi and Maimonides on Torah and the Cosmos" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Rashi and Maimonides on Torah and the Cosmos" .
+
+jp:ScholarlyWork_H_349 a jp:ScholarlyWork ;
+    rdfs:label "Science in the Bet Midrash: Studies in Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Science in the Bet Midrash: Studies in Maimonides" .
+
+jp:ScholarlyWork_H_350 a jp:ScholarlyWork ;
+    rdfs:label "Torah in the Observatory: Maimonides, Gersonides, Song of Songs" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_KELLNER_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Torah in the Observatory: Maimonides, Gersonides, Song of Songs" .
+
+jp:ScholarlyWork_H_351 a jp:ScholarlyWork ;
+    rdfs:label "Aristotle's Concept of Chance as an Investigative Tool in Gersonides' ‘Wars of the Lord’" ;
+    jp:aboutPerson jp:Person_W_Wars ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Aristotle's Concept of Chance as an Investigative Tool in Gersonides' ‘Wars of the Lord’" .
+
+jp:ScholarlyWork_H_352 a jp:ScholarlyWork ;
+    rdfs:label "Dialectic in Gersonides’ Biblical Commentaries" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Dialectic in Gersonides’ Biblical Commentaries" .
+
+jp:ScholarlyWork_H_353 a jp:ScholarlyWork ;
+    rdfs:label "Gersonides' Use of Aristotle’s Meteorology in his Accounts of Some Biblical Miracles" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Gersonides' Use of Aristotle’s Meteorology in his Accounts of Some Biblical Miracles" .
+
+jp:ScholarlyWork_H_354 a jp:ScholarlyWork ;
+    rdfs:label "Interpretative Riddles in Maimonides’ Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Interpretative Riddles in Maimonides’ Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_355 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides as Biblical Interpreter" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Maimonides as Biblical Interpreter" .
+
+jp:ScholarlyWork_H_356 a jp:ScholarlyWork ;
+    rdfs:label "Without any Doubt" ;
+    jp:hasAuthor jp:Scholar_KLEIN_BRASLAVY_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Without any Doubt" .
+
+jp:ScholarlyWork_H_357 a jp:ScholarlyWork ;
+    rdfs:label "No Perpetual Enemies: Maimonideanism in the Fifteenth Century" ;
+    jp:hasAuthor jp:Scholar_KOZODOY_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "No Perpetual Enemies: Maimonideanism in the Fifteenth Century" .
+
+jp:ScholarlyWork_H_358 a jp:ScholarlyWork ;
+    rdfs:label "From Esotericism to Science: The Account of the Chariot in Maimonidean Philosophy" ;
+    jp:hasAuthor jp:Scholar_KREISEL_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "From Esotericism to Science: The Account of the Chariot in Maimonidean Philosophy" .
+
+jp:ScholarlyWork_H_359 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on the Eternity of the World" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_KREISEL_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on the Eternity of the World" .
+
+jp:ScholarlyWork_H_360 a jp:ScholarlyWork ;
+    rdfs:label "Philosophical Interpretations of the Bible" ;
+    jp:hasAuthor jp:Scholar_KREISEL_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophical Interpretations of the Bible" .
+
+jp:ScholarlyWork_H_361 a jp:ScholarlyWork ;
+    rdfs:label "Reasons for the Commandments in Maimonides’ Guide of the Perplexed and in Provençal Jewish Philosophy" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_KREISEL_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Reasons for the Commandments in Maimonides’ Guide of the Perplexed and in Provençal Jewish Philosophy" .
+
+jp:ScholarlyWork_H_362 a jp:ScholarlyWork ;
+    rdfs:label "Can a Jewish Philosopher Love God?" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Can a Jewish Philosopher Love God?" .
+
+jp:ScholarlyWork_H_363 a jp:ScholarlyWork ;
+    rdfs:label "From Judah Hadassi to Elijah Bashyatchi: Studies in Late Medieval Karaite Philosophy" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "From Judah Hadassi to Elijah Bashyatchi: Studies in Late Medieval Karaite Philosophy" .
+
+jp:ScholarlyWork_H_364 a jp:ScholarlyWork ;
+    rdfs:label "Medieval Karaism and Science" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Medieval Karaism and Science" .
+
+jp:ScholarlyWork_H_365 a jp:ScholarlyWork ;
+    rdfs:label "Reflections of the Medieval Jewish-Christian Debate in the Theological-Political Treatise and the Epistles" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Reflections of the Medieval Jewish-Christian Debate in the Theological-Political Treatise and the Epistles" .
+
+jp:ScholarlyWork_H_366 a jp:ScholarlyWork ;
+    rdfs:label "The Impact of Interreligious Polemic on Medieval Philosophy" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Impact of Interreligious Polemic on Medieval Philosophy" .
+
+jp:ScholarlyWork_H_367 a jp:ScholarlyWork ;
+    rdfs:label "The Jewish Critique of Christianity – In Search of a New Narrative" ;
+    jp:hasAuthor jp:Scholar_LASKER_D_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "The Jewish Critique of Christianity – In Search of a New Narrative" .
+
+jp:ScholarlyWork_H_368 a jp:ScholarlyWork ;
+    rdfs:label "How Did the Prophets Know They Had Received Divine Revelation?" ;
+    jp:hasAuthor jp:Scholar_LERNER_B_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "How Did the Prophets Know They Had Received Divine Revelation?" .
+
+jp:ScholarlyWork_H_369 a jp:ScholarlyWork ;
+    rdfs:label "RaMBaM and Middle Knowledge: a Puzzle in the Lehem Mishneh" ;
+    jp:hasAuthor jp:Scholar_LERNER_B_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "RaMBaM and Middle Knowledge: a Puzzle in the Lehem Mishneh" .
+
+jp:ScholarlyWork_H_370 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra et Moïse Maïmonide cités par Spinoza ou l’impossibilité d’une philosophie juive" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_LEMLER_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra et Moïse Maïmonide cités par Spinoza ou l’impossibilité d’une philosophie juive" .
+
+jp:ScholarlyWork_H_371 a jp:ScholarlyWork ;
+    rdfs:label "Entre éternité et contingence: La loi chez Maïmonide" ;
+    jp:hasAuthor jp:Scholar_LEMLER_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Entre éternité et contingence: La loi chez Maïmonide" .
+
+jp:ScholarlyWork_H_372 a jp:ScholarlyWork ;
+    rdfs:label "Le paradoxe de Lorqi. Une croyance peut-elle être réfléchie ? (Sur l’épître de Yehosua’ Lorqi à Paul de Burgos sur la conversion)" ;
+    jp:hasAuthor jp:Scholar_LEMLER_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Le paradoxe de Lorqi. Une croyance peut-elle être réfléchie ? (Sur l’épître de Yehosua’ Lorqi à Paul de Burgos sur la conversion)" .
+
+jp:ScholarlyWork_H_373 a jp:ScholarlyWork ;
+    rdfs:label "Moïse politique ? Nouage et dénouage de la théorie et de la pratique dans la philosophie juive médiévale" ;
+    jp:hasAuthor jp:Scholar_LEMLER_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Moïse politique ? Nouage et dénouage de la théorie et de la pratique dans la philosophie juive médiévale" .
+
+jp:ScholarlyWork_H_374 a jp:ScholarlyWork ;
+    rdfs:label "Noachisme et Philosophie; Destin d’un thème talmudique de Maïmonide à H. Cohen en passant par Spinoza" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_LEMLER_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Noachisme et Philosophie; Destin d’un thème talmudique de Maïmonide à H. Cohen en passant par Spinoza" .
+
+jp:ScholarlyWork_H_375 a jp:ScholarlyWork ;
+    rdfs:label "Being and the Good: Maimonides on Ontological Beauty" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_LOBEL_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Being and the Good: Maimonides on Ontological Beauty" .
+
+jp:ScholarlyWork_H_376 a jp:ScholarlyWork ;
+    rdfs:label "Sufism and Philosophy in the Medieval Mediterranean World" ;
+    jp:hasAuthor jp:Scholar_LOBEL_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Sufism and Philosophy in the Medieval Mediterranean World" .
+
+jp:ScholarlyWork_H_377 a jp:ScholarlyWork ;
+    rdfs:label "Speaking about God: Bahya Ibn Paquda as Biblical Exegete" ;
+    jp:aboutPerson jp:Person_Q728956 ;
+    jp:hasAuthor jp:Scholar_LOBEL_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Speaking about God: Bahya Ibn Paquda as Biblical Exegete" .
+
+jp:ScholarlyWork_H_378 a jp:ScholarlyWork ;
+    rdfs:label "The Quest for God and the Good: World Philosophy as a Living Experience" ;
+    jp:hasAuthor jp:Scholar_LOBEL_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "The Quest for God and the Good: World Philosophy as a Living Experience" .
+
+jp:ScholarlyWork_H_379 a jp:ScholarlyWork ;
+    rdfs:label "AND J" ;
+    jp:hasAuthor jp:Scholar_MACFARLAND_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "AND J" .
+
+jp:ScholarlyWork_H_380 a jp:ScholarlyWork ;
+    rdfs:label "Ambiguities of Scriptural Exegesis: Joseph Ibn Kaspi on God’s Foreknowledge" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ambiguities of Scriptural Exegesis: Joseph Ibn Kaspi on God’s Foreknowledge" .
+
+jp:ScholarlyWork_H_381 a jp:ScholarlyWork ;
+    rdfs:label "Comments on Professor Kreisel’s Paper [on Maimonides on the Eternity of the World]" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Comments on Professor Kreisel’s Paper [on Maimonides on the Eternity of the World]" .
+
+jp:ScholarlyWork_H_382 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Philosophy in Arabic" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Jewish Philosophy in Arabic" .
+
+jp:ScholarlyWork_H_383 a jp:ScholarlyWork ;
+    rdfs:label "Logic in Medieval Jewish Culture" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Logic in Medieval Jewish Culture" .
+
+jp:ScholarlyWork_H_384 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and the Arabic Aristotelian Tradition of Epistemology" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides and the Arabic Aristotelian Tradition of Epistemology" .
+
+jp:ScholarlyWork_H_385 a jp:ScholarlyWork ;
+    rdfs:label "Moses Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Moses Maimonides" .
+
+jp:ScholarlyWork_H_386 a jp:ScholarlyWork ;
+    rdfs:label "On Humanist Logic Judaized - Then and Now: Two Models for the Appropriation of Gentile Science" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "On Humanist Logic Judaized - Then and Now: Two Models for the Appropriation of Gentile Science" .
+
+jp:ScholarlyWork_H_387 a jp:ScholarlyWork ;
+    rdfs:label "Propositions and Propositional Inference in Medieval Hebrew Logic" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Propositions and Propositional Inference in Medieval Hebrew Logic" .
+
+jp:ScholarlyWork_H_388 a jp:ScholarlyWork ;
+    rdfs:label "The Ambiguous Impact of Christian Scholasticism on Jewish Philosophy in the Late Middle Ages" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Ambiguous Impact of Christian Scholasticism on Jewish Philosophy in the Late Middle Ages" .
+
+jp:ScholarlyWork_H_389 a jp:ScholarlyWork ;
+    rdfs:label "The Genesis of Die Hebraeischen Uebersetzungen des Mittelalter" ;
+    jp:hasAuthor jp:Scholar_MANEKIN_C_H ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Genesis of Die Hebraeischen Uebersetzungen des Mittelalter" .
+
+jp:ScholarlyWork_H_390 a jp:ScholarlyWork ;
+    rdfs:label "Aristotle's Politics in Medieval and Renaissance Jewish Political Thought" ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Aristotle's Politics in Medieval and Renaissance Jewish Political Thought" .
+
+jp:ScholarlyWork_H_391 a jp:ScholarlyWork ;
+    rdfs:label "De la loi a la religion: Metamorphoses du concept de dath dans la tradition politique juives" ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "De la loi a la religion: Metamorphoses du concept de dath dans la tradition politique juives" .
+
+jp:ScholarlyWork_H_392 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Thirteen Principles: From Elith to Popular Culture" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Thirteen Principles: From Elith to Popular Culture" .
+
+jp:ScholarlyWork_H_393 a jp:ScholarlyWork ;
+    rdfs:label "‘Of Making Books There is no End' (Qoheleth 12:12): The History of Commentary, From Prohibition to Legitimation" ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "‘Of Making Books There is no End' (Qoheleth 12:12): The History of Commentary, From Prohibition to Legitimation" .
+
+jp:ScholarlyWork_H_394 a jp:ScholarlyWork ;
+    rdfs:label "Politics and the State" ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Politics and the State" .
+
+jp:ScholarlyWork_H_395 a jp:ScholarlyWork ;
+    rdfs:label "Wisdom Little Sister: Studies in Medieval and Renaissance Jewish Political Thought Boston: Academic Studies Press 2012." ;
+    jp:hasAuthor jp:Scholar_MELAMED_A ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Wisdom Little Sister: Studies in Medieval and Renaissance Jewish Political Thought Boston: Academic Studies Press 2012." .
+
+jp:ScholarlyWork_H_396 a jp:ScholarlyWork ;
+    rdfs:label "Philosophy and the Jewish Tradition, ed" ;
+    jp:hasAuthor jp:Scholar_MOTZKIN_A_L ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophy and the Jewish Tradition, ed" .
+
+jp:ScholarlyWork_H_397 a jp:ScholarlyWork ;
+    rdfs:label "Are Alfarabi and Maimonides Precursors to Kant?" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_PARENS_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Are Alfarabi and Maimonides Precursors to Kant?" .
+
+jp:ScholarlyWork_H_398 a jp:ScholarlyWork ;
+    rdfs:label "Escaping the Scholastic Paradigm: The Dispute between Strauss and His Contemporaries about How to Approach Islamic and Jewish Medieval Philosophy," ;
+    jp:hasAuthor jp:Scholar_PARENS_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Escaping the Scholastic Paradigm: The Dispute between Strauss and His Contemporaries about How to Approach Islamic and Jewish Medieval Philosophy," .
+
+jp:ScholarlyWork_H_399 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Spinoza: Their Conflicting Views of Human Nature" ;
+    jp:aboutPerson jp:Person_Q35802 ;
+    jp:hasAuthor jp:Scholar_PARENS_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Maimonides and Spinoza: Their Conflicting Views of Human Nature" .
+
+jp:ScholarlyWork_H_400 a jp:ScholarlyWork ;
+    rdfs:label "Showing Students the Importance of Political Philosophy in Medieval Islamic and Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_PARENS_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Showing Students the Importance of Political Philosophy in Medieval Islamic and Jewish Philosophy" .
+
+jp:ScholarlyWork_H_401 a jp:ScholarlyWork ;
+    rdfs:label "Strauss on Maimonides’s Secretive Political Science" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_PARENS_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Strauss on Maimonides’s Secretive Political Science" .
+
+jp:ScholarlyWork_H_402 a jp:ScholarlyWork ;
+    rdfs:label "Ḥasday ha-Sefardi and the Maimonidean Apocrypha" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ḥasday ha-Sefardi and the Maimonidean Apocrypha" .
+
+jp:ScholarlyWork_H_403 a jp:ScholarlyWork ;
+    rdfs:label "Maimónides esencial" ;
+    jp:hasAuthor jp:Scholar_PUIG_MONTADA_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Maimónides esencial" .
+
+jp:ScholarlyWork_H_404 a jp:ScholarlyWork ;
+    rdfs:label "Al-Farabi, Avicenna, and Averroes in Hebrew: Remarks on the Indirect Transmission of Arabic-Islamic Philosophy in Medieval Judaism" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Al-Farabi, Avicenna, and Averroes in Hebrew: Remarks on the Indirect Transmission of Arabic-Islamic Philosophy in Medieval Judaism" .
+
+jp:ScholarlyWork_H_405 a jp:ScholarlyWork ;
+    rdfs:label "Philosophy and Science in Medieval Jewish Commentaries on the Bible" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophy and Science in Medieval Jewish Commentaries on the Bible" .
+
+jp:ScholarlyWork_H_406 a jp:ScholarlyWork ;
+    rdfs:label "Philosophical Psychology, The Jewish Tradition" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophical Psychology, The Jewish Tradition" .
+
+jp:ScholarlyWork_H_407 a jp:ScholarlyWork ;
+    rdfs:label "Samuel Ibn Tibbon’s Perush ha-Millot ha-Zarot and al-Fārābī’s Eisagoge and Categories" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "Samuel Ibn Tibbon’s Perush ha-Millot ha-Zarot and al-Fārābī’s Eisagoge and Categories" .
+
+jp:ScholarlyWork_H_408 a jp:ScholarlyWork ;
+    rdfs:label "Secondary Forms of Philosophy: On the Teaching and Transmission of Philosophy in Non-Philosophical Literary Genres," ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Secondary Forms of Philosophy: On the Teaching and Transmission of Philosophy in Non-Philosophical Literary Genres," .
+
+jp:ScholarlyWork_H_409 a jp:ScholarlyWork ;
+    rdfs:label "Soul and Intellect in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Soul and Intellect in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_410 a jp:ScholarlyWork ;
+    rdfs:label "We Drink only from the Master’s Water: Maimonides and Maimonideanism in Southern France, 1200-1306" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_ROBINSON_J_T ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "We Drink only from the Master’s Water: Maimonides and Maimonideanism in Southern France, 1200-1306" .
+
+jp:ScholarlyWork_H_411 a jp:ScholarlyWork ;
+    rdfs:label "Gersonides" ;
+    jp:aboutPerson jp:Person_Q310862 ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_T_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Gersonides" .
+
+jp:ScholarlyWork_H_412 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_T_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Maimonides" .
+
+jp:ScholarlyWork_H_413 a jp:ScholarlyWork ;
+    rdfs:label "Time, Space and Cosmology in Medieval Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_RUDAVSKY_T_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Time, Space and Cosmology in Medieval Jewish Philosophy" .
+
+jp:ScholarlyWork_H_414 a jp:ScholarlyWork ;
+    rdfs:label "La dynamique du choix dans l’œuvre de Rabbi Bahya ibn Paquda" ;
+    jp:aboutPerson jp:Person_Q728956 ;
+    jp:hasAuthor jp:Scholar_SADIK_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "La dynamique du choix dans l’œuvre de Rabbi Bahya ibn Paquda" .
+
+jp:ScholarlyWork_H_415 a jp:ScholarlyWork ;
+    rdfs:label "Astral Magic and Specific Properties (Segullot) in Medieval Jewish Thought: Non Aristotelian Science and Theology" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Astral Magic and Specific Properties (Segullot) in Medieval Jewish Thought: Non Aristotelian Science and Theology" .
+
+jp:ScholarlyWork_H_416 a jp:ScholarlyWork ;
+    rdfs:label "China as International Dateline: The Count of the Days and the Mode of Dispute in Sefer ha-Kuzari" ;
+    jp:aboutPerson jp:Person_W_Kuzari ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "China as International Dateline: The Count of the Days and the Mode of Dispute in Sefer ha-Kuzari" .
+
+jp:ScholarlyWork_H_417 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides in Religious-Zionist Philosophy: Unity vs. Duality" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides in Religious-Zionist Philosophy: Unity vs. Duality" .
+
+jp:ScholarlyWork_H_418 a jp:ScholarlyWork ;
+    rdfs:label "The Separate Intellects and Maimonides’ Argumentation" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_D ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Separate Intellects and Maimonides’ Argumentation" .
+
+jp:ScholarlyWork_H_419 a jp:ScholarlyWork ;
+    rdfs:label "Divine Law and Human Justification in Medieval Jewish-Christian Polemic" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Divine Law and Human Justification in Medieval Jewish-Christian Polemic" .
+
+jp:ScholarlyWork_H_420 a jp:ScholarlyWork ;
+    rdfs:label "Eine neuthomistisch-christliche Brücke zum jüdischen Mittelalter. Jacob Guttmanns Darstellung jüdischer und christlicher Philosophien im Mittelalter" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Eine neuthomistisch-christliche Brücke zum jüdischen Mittelalter. Jacob Guttmanns Darstellung jüdischer und christlicher Philosophien im Mittelalter" .
+
+jp:ScholarlyWork_H_421 a jp:ScholarlyWork ;
+    rdfs:label "Final Phases of Medieval Hebraism: Jews and Christians between Bible Exegesis, Talmud and Maimonidean Philosophy" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Final Phases of Medieval Hebraism: Jews and Christians between Bible Exegesis, Talmud and Maimonidean Philosophy" .
+
+jp:ScholarlyWork_H_422 a jp:ScholarlyWork ;
+    rdfs:label "Images of Revelation and Spaces of Knowledge, The Jew, the Christian and the Christian-Jew: Jewish Apostates as Cultural Mediators in Medieval Spain" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Images of Revelation and Spaces of Knowledge, The Jew, the Christian and the Christian-Jew: Jewish Apostates as Cultural Mediators in Medieval Spain" .
+
+jp:ScholarlyWork_H_423 a jp:ScholarlyWork ;
+    rdfs:label "Maître Eckhart et Moïse Maïmonide. Du rationalisme judéo-arabe à la théologie vernaculaire chrétienne" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maître Eckhart et Moïse Maïmonide. Du rationalisme judéo-arabe à la théologie vernaculaire chrétienne" .
+
+jp:ScholarlyWork_H_424 a jp:ScholarlyWork ;
+    rdfs:label "Thirteenth Century Hebrew Psychological Discussion: The Role of Latin Sources in the Formation of Hebrew Aristotelianism" ;
+    jp:hasAuthor jp:Scholar_SCHWARTZ_Y ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Thirteenth Century Hebrew Psychological Discussion: The Role of Latin Sources in the Formation of Hebrew Aristotelianism" .
+
+jp:ScholarlyWork_H_425 a jp:ScholarlyWork ;
+    rdfs:label "Jewish Messianic Thoughts in an Age of Despair" ;
+    jp:hasAuthor jp:Scholar_SEESKIN_K ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Jewish Messianic Thoughts in an Age of Despair" .
+
+jp:ScholarlyWork_H_426 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Creation" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SEESKIN_K ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on Creation" .
+
+jp:ScholarlyWork_H_427 a jp:ScholarlyWork ;
+    rdfs:label "Miracles in Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_SEESKIN_K ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Miracles in Jewish Philosophy" .
+
+jp:ScholarlyWork_H_428 a jp:ScholarlyWork ;
+    rdfs:label "The Greek Background to Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_SEESKIN_K ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Greek Background to Jewish Philosophy" .
+
+jp:ScholarlyWork_H_429 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Māshā’allāh on the Ninth Orb of the Signs and Astrology" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_SELA_S ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Maimonides and Māshā’allāh on the Ninth Orb of the Signs and Astrology" .
+
+jp:ScholarlyWork_H_430 a jp:ScholarlyWork ;
+    rdfs:label "The Knot that Never Was" ;
+    jp:hasAuthor jp:Scholar_STERN_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "The Knot that Never Was" .
+
+jp:ScholarlyWork_H_431 a jp:ScholarlyWork ;
+    rdfs:label "The Maimonidean Parable, the Arabic Poetics, and the Garden of Eden" ;
+    jp:hasAuthor jp:Scholar_STERN_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "The Maimonidean Parable, the Arabic Poetics, and the Garden of Eden" .
+
+jp:ScholarlyWork_H_432 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on Wars and their Justification" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_STERN_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Maimonides on Wars and their Justification" .
+
+jp:ScholarlyWork_H_433 a jp:ScholarlyWork ;
+    rdfs:label "Meaning and Language" ;
+    jp:hasAuthor jp:Scholar_STERN_J ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Meaning and Language" .
+
+jp:ScholarlyWork_H_434 a jp:ScholarlyWork ;
+    rdfs:label "Amor y Diálogo: originalidad del pensamiento de Yehuda Abarbanel" ;
+    jp:aboutPerson jp:Person_Q311226 ;
+    jp:hasAuthor jp:Scholar_SZLAJEN_F ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Amor y Diálogo: originalidad del pensamiento de Yehuda Abarbanel" .
+
+jp:ScholarlyWork_H_435 a jp:ScholarlyWork ;
+    rdfs:label "“El Androcentrismo Medieval en el Judaísmo y la Transformación Filosófica de lo Femenino, in Sefárdica 17 (2008), 159-184." ;
+    jp:hasAuthor jp:Scholar_SZLAJEN_F ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "“El Androcentrismo Medieval en el Judaísmo y la Transformación Filosófica de lo Femenino, in Sefárdica 17 (2008), 159-184." .
+
+jp:ScholarlyWork_H_436 a jp:ScholarlyWork ;
+    rdfs:label "Maimónides: Aportes para el liderazgo en tiempos de crisis" ;
+    jp:hasAuthor jp:Scholar_SZLAJEN_F ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Maimónides: Aportes para el liderazgo en tiempos de crisis" .
+
+jp:ScholarlyWork_H_437 a jp:ScholarlyWork ;
+    rdfs:label "Comment on Seeskin and Kreisel’s Essays on Maimonides on Creation" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_WEISS_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Comment on Seeskin and Kreisel’s Essays on Maimonides on Creation" .
+
+jp:ScholarlyWork_H_438 a jp:ScholarlyWork ;
+    rdfs:label "Creation as Parable in Maimonides’ Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_WEISS_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "Creation as Parable in Maimonides’ Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_439 a jp:ScholarlyWork ;
+    rdfs:label "Four Parables about Peshat as Parable" ;
+    jp:hasAuthor jp:Scholar_WEISS_R ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Four Parables about Peshat as Parable" .
+
+jp:ScholarlyWork_H_440 a jp:ScholarlyWork ;
+    rdfs:label "About a 12th-century Judaeo-Arabic ‘Encyclopaedical’ Work: Moses Ibn Ezra’s Treatise of the Garden, Part 1" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "About a 12th-century Judaeo-Arabic ‘Encyclopaedical’ Work: Moses Ibn Ezra’s Treatise of the Garden, Part 1" .
+
+jp:ScholarlyWork_H_441 a jp:ScholarlyWork ;
+    rdfs:label "“About Todros Todrosi’s Medieval Hebrew Translation of al-Fārābī’s Lost Long Commentary/Gloss-Commentary on Aristotle’s Topics, Book" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“About Todros Todrosi’s Medieval Hebrew Translation of al-Fārābī’s Lost Long Commentary/Gloss-Commentary on Aristotle’s Topics, Book" .
+
+jp:ScholarlyWork_H_442 a jp:ScholarlyWork ;
+    rdfs:label "Ancient Philosophical Works and Commentaries Translated into Hebrew" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ancient Philosophical Works and Commentaries Translated into Hebrew" .
+
+jp:ScholarlyWork_H_443 a jp:ScholarlyWork ;
+    rdfs:label "Aristotle’s De anima and De generatione et corruptione in the Medieval Hebrew Tradition: New Details Regarding Textual History Coming from a Neglected Manuscript" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Aristotle’s De anima and De generatione et corruptione in the Medieval Hebrew Tradition: New Details Regarding Textual History Coming from a Neglected Manuscript" .
+
+jp:ScholarlyWork_H_444 a jp:ScholarlyWork ;
+    rdfs:label "Avicenna’s Metaphysics in the Medieval Hebrew Philosophical Tradition" ;
+    jp:aboutPerson jp:Person_Q8011 ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Avicenna’s Metaphysics in the Medieval Hebrew Philosophical Tradition" .
+
+jp:ScholarlyWork_H_445 a jp:ScholarlyWork ;
+    rdfs:label "Due nuove fonti filosofiche giudeo-arabe conosciute e impiegate da Giovanni Pico della Mirandola" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Due nuove fonti filosofiche giudeo-arabe conosciute e impiegate da Giovanni Pico della Mirandola" .
+
+jp:ScholarlyWork_H_446 a jp:ScholarlyWork ;
+    rdfs:label "Elementi per la storia di uno ‘Scotismo ebraico’" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:title "Elementi per la storia di uno ‘Scotismo ebraico’" .
+
+jp:ScholarlyWork_H_447 a jp:ScholarlyWork ;
+    rdfs:label "Guglielmo Raimondo Moncada traduttore di Maimonide" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Guglielmo Raimondo Moncada traduttore di Maimonide" .
+
+jp:ScholarlyWork_H_448 a jp:ScholarlyWork ;
+    rdfs:label "“Interpretazioni del concetto di sfera in Maimonide, in alcuni dei suoi commentatori e nei dizionari filosofici ebraici medievali (secoli" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“Interpretazioni del concetto di sfera in Maimonide, in alcuni dei suoi commentatori e nei dizionari filosofici ebraici medievali (secoli" .
+
+jp:ScholarlyWork_H_449 a jp:ScholarlyWork ;
+    rdfs:label "La ‘creazione dal nulla’ nella filosofia ebraica medievale in terra d’Islam" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La ‘creazione dal nulla’ nella filosofia ebraica medievale in terra d’Islam" .
+
+jp:ScholarlyWork_H_450 a jp:ScholarlyWork ;
+    rdfs:label "L’angelologia nell’ebraismo antico e medievale" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "L’angelologia nell’ebraismo antico e medievale" .
+
+jp:ScholarlyWork_H_451 a jp:ScholarlyWork ;
+    rdfs:label "La filosofia ebraica medievale e i suoi autori nella Spagna dei secoli XI-XII: questioni risolte e irrisolte, e spunti per la ricerca future" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2009"^^xsd:gYear ;
+    jp:title "La filosofia ebraica medievale e i suoi autori nella Spagna dei secoli XI-XII: questioni risolte e irrisolte, e spunti per la ricerca future" .
+
+jp:ScholarlyWork_H_452 a jp:ScholarlyWork ;
+    rdfs:label "La ‘Scolastica ebraica’: storia del fenomeno e storia della ricerca" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La ‘Scolastica ebraica’: storia del fenomeno e storia della ricerca" .
+
+jp:ScholarlyWork_H_453 a jp:ScholarlyWork ;
+    rdfs:label "Latin Scholastic Influences on Late Medieval Hebrew Physics: The State of the Art" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Latin Scholastic Influences on Late Medieval Hebrew Physics: The State of the Art" .
+
+jp:ScholarlyWork_H_454 a jp:ScholarlyWork ;
+    rdfs:label "Le origini letterarie e filosofiche delle versioni ebraiche del De consolatione philosophiae di Boezio" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Le origini letterarie e filosofiche delle versioni ebraiche del De consolatione philosophiae di Boezio" .
+
+jp:ScholarlyWork_H_455 a jp:ScholarlyWork ;
+    rdfs:label "Maimonide" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Maimonide" .
+
+jp:ScholarlyWork_H_456 a jp:ScholarlyWork ;
+    rdfs:label "‘Materia’ nella filosofia ebraica dell’Italia medievale" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "‘Materia’ nella filosofia ebraica dell’Italia medievale" .
+
+jp:ScholarlyWork_H_457 a jp:ScholarlyWork ;
+    rdfs:label "Medieval Hebrew Translations of Philosophical and Scientific Texts: A Chronological Table" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Medieval Hebrew Translations of Philosophical and Scientific Texts: A Chronological Table" .
+
+jp:ScholarlyWork_H_458 a jp:ScholarlyWork ;
+    rdfs:label "Quali scuole filosofiche greche influenzarono il pensiero filosofico ebraico medievale?" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Quali scuole filosofiche greche influenzarono il pensiero filosofico ebraico medievale?" .
+
+jp:ScholarlyWork_H_459 a jp:ScholarlyWork ;
+    rdfs:label "Sobre algunos aspectos de la “teologìa hebrea" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Sobre algunos aspectos de la “teologìa hebrea" .
+
+jp:ScholarlyWork_H_460 a jp:ScholarlyWork ;
+    rdfs:label "Structure and Sources of the Hebrew Commentary on Petrus Hispanus’s Summulae Logicales by Hezekiah bar Halafta, alias Bonenfant de Millau" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Structure and Sources of the Hebrew Commentary on Petrus Hispanus’s Summulae Logicales by Hezekiah bar Halafta, alias Bonenfant de Millau" .
+
+jp:ScholarlyWork_H_461 a jp:ScholarlyWork ;
+    rdfs:label "Textual Traditions" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Textual Traditions" .
+
+jp:ScholarlyWork_H_462 a jp:ScholarlyWork ;
+    rdfs:label "The Revisions of Qalonymos ben Qalonymos’s Medieval Hebrew Version of Averroes’s Middle Commentary on Aristotle’s Metaphysics" ;
+    jp:aboutPerson jp:Person_Q39837 ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:title "The Revisions of Qalonymos ben Qalonymos’s Medieval Hebrew Version of Averroes’s Middle Commentary on Aristotle’s Metaphysics" .
+
+jp:ScholarlyWork_H_463 a jp:ScholarlyWork ;
+    rdfs:label "“Traduzioni filosofico-scientifiche ed enciclopedie ebraiche alla corte di Federico II e dei suoi successori (secolo" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "“Traduzioni filosofico-scientifiche ed enciclopedie ebraiche alla corte di Federico II e dei suoi successori (secolo" .
+
+jp:ScholarlyWork_H_464 a jp:ScholarlyWork ;
+    rdfs:label "Two Implicit Sources of Judah Messer Leon’s Commentary on Physics 1-4" ;
+    jp:hasAuthor jp:Scholar_ZONTA_M ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:title "Two Implicit Sources of Judah Messer Leon’s Commentary on Physics 1-4" .
+
+jp:ScholarlyWork_H_588 a jp:ScholarlyWork ;
+    rdfs:label "CommIssIons Bulletin de Philosophie Médiévale 63 (2021), 531-554" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:title "CommIssIons Bulletin de Philosophie Médiévale 63 (2021), 531-554" .
+
+jp:ScholarlyWork_H_589 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra Latinus on Elections and Interrogations: A Parallel Latin-English Critical Edition of Liber Electionum, Liber Interro- Commission for Jewish Philosophy 545 gationum, and Tractatus Particulares, ed" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra Latinus on Elections and Interrogations: A Parallel Latin-English Critical Edition of Liber Electionum, Liber Interro- Commission for Jewish Philosophy 545 gationum, and Tractatus Particulares, ed" .
+
+jp:ScholarlyWork_H_590 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra Latinus: Henry Bate’ s Latin Versions of Abraham Ibn Ezra’ s Astrological Writings, With English Translation and a Collation with the Hebrew and French Source Texts, ed" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra Latinus: Henry Bate’ s Latin Versions of Abraham Ibn Ezra’ s Astrological Writings, With English Translation and a Collation with the Hebrew and French Source Texts, ed" .
+
+jp:ScholarlyWork_H_592 a jp:ScholarlyWork ;
+    rdfs:label "Milḥamot Ha-Shem (The Wars of the Lord)" ;
+    jp:aboutPerson jp:Person_W_Wars ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:title "Milḥamot Ha-Shem (The Wars of the Lord)" .
+
+jp:ScholarlyWork_H_593 a jp:ScholarlyWork ;
+    rdfs:label "Come l’uom si etterna: Traduzione annotata del Commento di Lewi ben Gershom (Gersonide) ai tre Opuscoli di ibn Rushd e figlio sulla felicità mentale" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "Come l’uom si etterna: Traduzione annotata del Commento di Lewi ben Gershom (Gersonide) ai tre Opuscoli di ibn Rushd e figlio sulla felicità mentale" .
+
+jp:ScholarlyWork_H_594 a jp:ScholarlyWork ;
+    rdfs:label "Moreh ha-Nevukhim (Guide of the Perplexed)" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:title "Moreh ha-Nevukhim (Guide of the Perplexed)" .
+
+jp:ScholarlyWork_H_595 a jp:ScholarlyWork ;
+    rdfs:label "迈蒙尼德：论知识 (Mishneh Torah, Sefer ha-Madda‘)" ;
+    jp:aboutPerson jp:Person_W_Mishneh ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "迈蒙尼德：论知识 (Mishneh Torah, Sefer ha-Madda‘)" .
+
+jp:ScholarlyWork_H_596 a jp:ScholarlyWork ;
+    rdfs:label "Medieval Jewish Philosophy and Authentic Jewish Piety: Yitzhak Baer and Julius Guttmann on Hasdai Crescas’s Philosophy" ;
+    jp:aboutPerson jp:Person_Q506720 ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Medieval Jewish Philosophy and Authentic Jewish Piety: Yitzhak Baer and Julius Guttmann on Hasdai Crescas’s Philosophy" .
+
+jp:ScholarlyWork_H_597 a jp:ScholarlyWork ;
+    rdfs:label "Between Impiety and Holiness: The Art of Prophecy in Mai- monides" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Between Impiety and Holiness: The Art of Prophecy in Mai- monides" .
+
+jp:ScholarlyWork_H_598 a jp:ScholarlyWork ;
+    rdfs:label "A Case of re-translatio studiorum: the Jewish Reception of Giles of Rome from the Middle Ages to Renaissance" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "A Case of re-translatio studiorum: the Jewish Reception of Giles of Rome from the Middle Ages to Renaissance" .
+
+jp:ScholarlyWork_H_599 a jp:ScholarlyWork ;
+    rdfs:label "An Ideology for Dependence? The Public Dimension of As- trology in the Jewish Middle Ages" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "An Ideology for Dependence? The Public Dimension of As- trology in the Jewish Middle Ages" .
+
+jp:ScholarlyWork_H_600 a jp:ScholarlyWork ;
+    rdfs:label "Geomancy and Other Forms of Divination in the Jewish Mid- dle Ages" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Geomancy and Other Forms of Divination in the Jewish Mid- dle Ages" .
+
+jp:ScholarlyWork_H_601 a jp:ScholarlyWork ;
+    rdfs:label "Tra illusione e scienza: la magia nel Medioevo ebraico" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Tra illusione e scienza: la magia nel Medioevo ebraico" .
+
+jp:ScholarlyWork_H_602 a jp:ScholarlyWork ;
+    rdfs:label "Philosophy and Scripture: Medieval Jewish Opinions on Cre- ation and the Laws of Nature" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophy and Scripture: Medieval Jewish Opinions on Cre- ation and the Laws of Nature" .
+
+jp:ScholarlyWork_H_603 a jp:ScholarlyWork ;
+    rdfs:label "A note to Falaquera’s ‘Definition of the terms’ in his Opinions of the Philosophers" ;
+    jp:aboutPerson jp:Person_Q1247192 ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "A note to Falaquera’s ‘Definition of the terms’ in his Opinions of the Philosophers" .
+
+jp:ScholarlyWork_H_604 a jp:ScholarlyWork ;
+    rdfs:label "Ibn Tibbon’s Secrets: Samuel Ibn Tibbon’s use of ‘Secrets of Torah’ and ‘Secrets of Faith’" ;
+    jp:hasAuthor jp:Scholar_III ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Ibn Tibbon’s Secrets: Samuel Ibn Tibbon’s use of ‘Secrets of Torah’ and ‘Secrets of Faith’" .
+
+jp:ScholarlyWork_H_760 a jp:ScholarlyWork ;
+    rdfs:label "s cHW aR tz , Y ., a" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "s cHW aR tz , Y ., a" .
+
+jp:ScholarlyWork_H_761 a jp:ScholarlyWork ;
+    rdfs:label "Adamo, Abramo, Mosè e Rabbi Akiba: quattro livelli di per - fezione umana nella lettura di Maimonide" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "Adamo, Abramo, Mosè e Rabbi Akiba: quattro livelli di per - fezione umana nella lettura di Maimonide" .
+
+jp:ScholarlyWork_H_762 a jp:ScholarlyWork ;
+    rdfs:label "Abraham Ibn Ezra as the Translator of Astrological and Astro- nomical Texts from Arabic into Hebrew: Sources and Methods" ;
+    jp:aboutPerson jp:Person_Q239276 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "Abraham Ibn Ezra as the Translator of Astrological and Astro- nomical Texts from Arabic into Hebrew: Sources and Methods" .
+
+jp:ScholarlyWork_H_763 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Modalities" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides’ Modalities" .
+
+jp:ScholarlyWork_H_764 a jp:ScholarlyWork ;
+    rdfs:label "Saadia on What is in the hearts of people when they reach the limits of endurance in a trial" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Saadia on What is in the hearts of people when they reach the limits of endurance in a trial" .
+
+jp:ScholarlyWork_H_765 a jp:ScholarlyWork ;
+    rdfs:label "Where is Maimonides’ Logic?" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Where is Maimonides’ Logic?" .
+
+jp:ScholarlyWork_H_766 a jp:ScholarlyWork ;
+    rdfs:label "Luzzatto’s Socrate and the History of Jewish Philosophy" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Luzzatto’s Socrate and the History of Jewish Philosophy" .
+
+jp:ScholarlyWork_H_767 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides, the Falasifa, and Al-Ghazali in Guide I: 69" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Maimonides, the Falasifa, and Al-Ghazali in Guide I: 69" .
+
+jp:ScholarlyWork_H_768 a jp:ScholarlyWork ;
+    rdfs:label "Profayt Duran’s Maʿaseh Efod: The Philosophical Grammar of a Converso" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Profayt Duran’s Maʿaseh Efod: The Philosophical Grammar of a Converso" .
+
+jp:ScholarlyWork_H_769 a jp:ScholarlyWork ;
+    rdfs:label "Introduction" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Introduction" .
+
+jp:ScholarlyWork_H_770 a jp:ScholarlyWork ;
+    rdfs:label "Pines’ Agendas for Reading the Guide from 1963 to 1979" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Pines’ Agendas for Reading the Guide from 1963 to 1979" .
+
+jp:ScholarlyWork_H_771 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and his Predecessors on Dying for God as ‘Sanc- tification of the Name of God’" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "Maimonides and his Predecessors on Dying for God as ‘Sanc- tification of the Name of God’" .
+
+jp:ScholarlyWork_H_772 a jp:ScholarlyWork ;
+    rdfs:label "What is Maimonidean Scepticsm?" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "What is Maimonidean Scepticsm?" .
+
+jp:ScholarlyWork_H_773 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides on ‘Useless Stories’ in the Bible" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Maimonides on ‘Useless Stories’ in the Bible" .
+
+jp:ScholarlyWork_H_774 a jp:ScholarlyWork ;
+    rdfs:label "Convivencia in the Medieval Islamic East: al-Raqqa, Mosul, Aleppo" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Convivencia in the Medieval Islamic East: al-Raqqa, Mosul, Aleppo" .
+
+jp:ScholarlyWork_H_775 a jp:ScholarlyWork ;
+    rdfs:label "The Literary Genizot: A Window to the Mediterranean Re- public of Letters" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "The Literary Genizot: A Window to the Mediterranean Re- public of Letters" .
+
+jp:ScholarlyWork_H_776 a jp:ScholarlyWork ;
+    rdfs:label "Logic as Interconfessional Weapon in the Early Islamicate World: Manṭiq, Qiyās, Kalām" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Logic as Interconfessional Weapon in the Early Islamicate World: Manṭiq, Qiyās, Kalām" .
+
+jp:ScholarlyWork_H_777 a jp:ScholarlyWork ;
+    rdfs:label "Philosophy" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Philosophy" .
+
+jp:ScholarlyWork_H_778 a jp:ScholarlyWork ;
+    rdfs:label "Andalus and Sefarad: On Philosophy and its History in Islamic Spain" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "Andalus and Sefarad: On Philosophy and its History in Islamic Spain" .
+
+jp:ScholarlyWork_H_779 a jp:ScholarlyWork ;
+    rdfs:label "Early Muslim and Jewish Kalām: The Enterprise of Reasoned Discourse" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Early Muslim and Jewish Kalām: The Enterprise of Reasoned Discourse" .
+
+jp:ScholarlyWork_H_780 a jp:ScholarlyWork ;
+    rdfs:label "The Elegance of Precision: On Pines’ Translation of the Liter- ary Parts of the Guide" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Elegance of Precision: On Pines’ Translation of the Liter- ary Parts of the Guide" .
+
+jp:ScholarlyWork_H_781 a jp:ScholarlyWork ;
+    rdfs:label "Comparison as Multifocal Approach: The Case of Arabic Phil- osophical Thought" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Comparison as Multifocal Approach: The Case of Arabic Phil- osophical Thought" .
+
+jp:ScholarlyWork_H_782 a jp:ScholarlyWork ;
+    rdfs:label "Happiness in Jewish-Hellenistic and Rabbinic Thought" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Happiness in Jewish-Hellenistic and Rabbinic Thought" .
+
+jp:ScholarlyWork_H_783 a jp:ScholarlyWork ;
+    rdfs:label "Rabbi Moise e Maestro Levi: Note sulla ricezione di Mai- monide e Gersonide nell’ebraismo erudito tra XVI e XVII secolo" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Rabbi Moise e Maestro Levi: Note sulla ricezione di Mai- monide e Gersonide nell’ebraismo erudito tra XVI e XVII secolo" .
+
+jp:ScholarlyWork_H_784 a jp:ScholarlyWork ;
+    rdfs:label "Alienated Wisdom: Enquiry into Jewish Philosophy and Scepti- cism" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:title "Alienated Wisdom: Enquiry into Jewish Philosophy and Scepti- cism" .
+
+jp:ScholarlyWork_H_785 a jp:ScholarlyWork ;
+    rdfs:label "Religious Unexclusiveness: the Strategic Relativism of Ye- hoshua’ ha-Lorki" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Religious Unexclusiveness: the Strategic Relativism of Ye- hoshua’ ha-Lorki" .
+
+jp:ScholarlyWork_H_786 a jp:ScholarlyWork ;
+    rdfs:label "Prime Matter as Wisdom in Geronese Kabbalah: Philosophical Precedents to the Elevated Ontological Status of the Hypostatic Female" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:title "Prime Matter as Wisdom in Geronese Kabbalah: Philosophical Precedents to the Elevated Ontological Status of the Hypostatic Female" .
+
+jp:ScholarlyWork_H_787 a jp:ScholarlyWork ;
+    rdfs:label "‘Spirit to Spirit’: The Imagery of the Kiss in the Zohar and its Possible Sources" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "‘Spirit to Spirit’: The Imagery of the Kiss in the Zohar and its Possible Sources" .
+
+jp:ScholarlyWork_H_788 a jp:ScholarlyWork ;
+    rdfs:label "Shanghai 2022." ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:title "Shanghai 2022." .
+
+jp:ScholarlyWork_H_789 a jp:ScholarlyWork ;
+    rdfs:label "From Tranquillity to Extra Effort: Some Notes on the Intro- duction and Conclusion of Maimonides’ Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "From Tranquillity to Extra Effort: Some Notes on the Intro- duction and Conclusion of Maimonides’ Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_790 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides and Zhu Xi on the Role of Classical Norms in the Pursuit of Human Perfection" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:title "Maimonides and Zhu Xi on the Role of Classical Norms in the Pursuit of Human Perfection" .
+
+jp:ScholarlyWork_H_791 a jp:ScholarlyWork ;
+    rdfs:label "Maimonides’ Examination of ‘The Account of the Beginning’: A Preliminary Study of One of the Two Foci in The Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:title "Maimonides’ Examination of ‘The Account of the Beginning’: A Preliminary Study of One of the Two Foci in The Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_792 a jp:ScholarlyWork ;
+    rdfs:label "What Is True Wisdom?: On Maimonides’ Interpretation of Jeremiah 9: 22-23 in the Last Chapter of The Guide of the Perplexed" ;
+    jp:aboutPerson jp:Person_W_Guide ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:title "What Is True Wisdom?: On Maimonides’ Interpretation of Jeremiah 9: 22-23 in the Last Chapter of The Guide of the Perplexed" .
+
+jp:ScholarlyWork_H_793 a jp:ScholarlyWork ;
+    rdfs:label "‘Innovations’ in the Scriptural Interpretation: A Cross-textual Reading of the Hermeneutic Practices in Maimonides and Zhu Xi" ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:title "‘Innovations’ in the Scriptural Interpretation: A Cross-textual Reading of the Hermeneutic Practices in Maimonides and Zhu Xi" .
+
+jp:ScholarlyWork_H_794 a jp:ScholarlyWork ;
+    rdfs:label "Yemeni Ismailism in Jewish Philosophy, Sixth/Twelfth to Eleventh/Seventeenth Centuries: A General Historical Sketch" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Yemeni Ismailism in Jewish Philosophy, Sixth/Twelfth to Eleventh/Seventeenth Centuries: A General Historical Sketch" .
+
+jp:ScholarlyWork_H_795 a jp:ScholarlyWork ;
+    rdfs:label "Studying Jewish Averroism: Historical Materials, Limits and a Future Challenge" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Studying Jewish Averroism: Historical Materials, Limits and a Future Challenge" .
+
+jp:ScholarlyWork_H_796 a jp:ScholarlyWork ;
+    rdfs:label "Alcuni appunti sul Boethius Hebraicus" ;
+    jp:aboutPerson jp:Person_Q41183 ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:title "Alcuni appunti sul Boethius Hebraicus" .
+
+jp:ScholarlyWork_H_797 a jp:ScholarlyWork ;
+    rdfs:label "La terminologia filosofica ebraica nei secoli XIII-XV nei suoi rapporti con le lingue di culture araba e latina: una serie di casi esemplifica- tivi" ;
+    jp:hasAuthor jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "La terminologia filosofica ebraica nei secoli XIII-XV nei suoi rapporti con le lingue di culture araba e latina: una serie di casi esemplifica- tivi" .
+
+jp:Scholar_BLUMENTHAL_D a jp:Scholar ;
+    rdfs:label "BLUMENTHAL, D" ;
+    jp:name "BLUMENTHAL, D" .
+
+jp:Scholar_BLUMENTHAL_DAVID a jp:Scholar ;
+    rdfs:label "BLUMENTHAL, DAVID" ;
+    jp:name "BLUMENTHAL, DAVID" .
+
+jp:Scholar_EHRLICH_DROR a jp:Scholar ;
+    rdfs:label "EHRLICH, DROR" ;
+    jp:name "EHRLICH, DROR" .
+
+jp:Scholar_ERAN_AMIRA a jp:Scholar ;
+    rdfs:label "ERAN, AMIRA" ;
+    jp:name "ERAN, AMIRA" .
+
+jp:Scholar_FONTAINE_RESIANNE_ANDREA_SCHATZ_AND_IRENE_ZWIEP_eds a jp:Scholar ;
+    rdfs:label "FONTAINE, RESIANNE, ANDREA SCHATZ, AND IRENE ZWIEP (eds.)" ;
+    jp:name "FONTAINE, RESIANNE, ANDREA SCHATZ, AND IRENE ZWIEP (eds.)" .
+
+jp:Scholar_HALPER_E_C a jp:Scholar ;
+    rdfs:label "HALPER, E.C" ;
+    jp:name "HALPER, E.C" .
+
+jp:Scholar_HALPER_Y a jp:Scholar ;
+    rdfs:label "HALPER, Y" ;
+    jp:name "HALPER, Y" .
+
+jp:Scholar_KASHER_H a jp:Scholar ;
+    rdfs:label "KASHER, H" ;
+    jp:name "KASHER, H" .
+
+jp:Scholar_KOZODOY_M a jp:Scholar ;
+    rdfs:label "KOZODOY, M" ;
+    jp:name "KOZODOY, M" .
+
+jp:Scholar_LERNER_BEREL_DOV a jp:Scholar ;
+    rdfs:label "LERNER, BEREL DOV" ;
+    jp:name "LERNER, BEREL DOV" .
+
+jp:Scholar_MACFARLAND_J a jp:Scholar ;
+    rdfs:label "MACFARLAND, J" ;
+    jp:name "MACFARLAND, J" .
+
+jp:Scholar_MOTZKIN_A_L a jp:Scholar ;
+    rdfs:label "MOTZKIN, A.L" ;
+    jp:name "MOTZKIN, A.L" .
+
+jp:Scholar_RUBIO_MERCEDES a jp:Scholar ;
+    rdfs:label "RUBIO, MERCEDES" ;
+    jp:name "RUBIO, MERCEDES" .
+
+jp:Scholar_SADIK_S a jp:Scholar ;
+    rdfs:label "SADIK, S" ;
+    jp:name "SADIK, S" .
+
+jp:Scholar_SELA_S a jp:Scholar ;
+    rdfs:label "SELA, S" ;
+    jp:name "SELA, S" .
+
+jp:Scholar_SMITHUIS_RENATE a jp:Scholar ;
+    rdfs:label "SMITHUIS, RENATE" ;
+    jp:name "SMITHUIS, RENATE" .
+
+jp:Scholar_TANENBAUM_ADENA a jp:Scholar ;
+    rdfs:label "TANENBAUM, ADENA" ;
+    jp:name "TANENBAUM, ADENA" .
+
+jp:Scholar_XI_in_Cosmogonie_e_cosmologie_nel_Medioevo_ed a jp:Scholar ;
+    rdfs:label "XI)”, in Cosmogonie e cosmologie nel Medioevo, ed" ;
+    jp:name "XI)”, in Cosmogonie e cosmologie nel Medioevo, ed" .
+
+jp:Scholar_ACKERMAN_A a jp:Scholar ;
+    rdfs:label "ACKERMAN, A" ;
+    jp:name "ACKERMAN, A" .
+
+jp:Scholar_GUIDI_ANGELA a jp:Scholar ;
+    rdfs:label "GUIDI, ANGELA" ;
+    jp:name "GUIDI, ANGELA" .
+
+jp:Scholar_KASHER_HANNAH a jp:Scholar ;
+    rdfs:label "KASHER, HANNAH" ;
+    jp:name "KASHER, HANNAH" .
+
+jp:Scholar_LERNER_B_D a jp:Scholar ;
+    rdfs:label "LERNER, B.D" ;
+    jp:name "LERNER, B.D" .
+
+jp:Scholar_MANEKIN_CHARLES a jp:Scholar ;
+    rdfs:label "MANEKIN, CHARLES" ;
+    jp:name "MANEKIN, CHARLES" .
+
+jp:Scholar_PUIG_MONTADA_J a jp:Scholar ;
+    rdfs:label "PUIG MONTADA, J" ;
+    jp:name "PUIG MONTADA, J" .
+
+jp:Scholar_STERN_JOSEF a jp:Scholar ;
+    rdfs:label "STERN, JOSEF" ;
+    jp:name "STERN, JOSEF" .
+
+jp:Scholar_BENEDETTO_M a jp:Scholar ;
+    rdfs:label "BENEDETTO, M" ;
+    jp:name "BENEDETTO, M" .
+
+jp:Scholar_DAVIDSON_HERBERT a jp:Scholar ;
+    rdfs:label "DAVIDSON, HERBERT" ;
+    jp:name "DAVIDSON, HERBERT" .
+
+jp:Scholar_DOBBS_WEINSTEIN_IDIT a jp:Scholar ;
+    rdfs:label "DOBBS-WEINSTEIN, IDIT" ;
+    jp:name "DOBBS-WEINSTEIN, IDIT" .
+
+jp:Scholar_FRAENKEL_CARLOS a jp:Scholar ;
+    rdfs:label "FRAENKEL, CARLOS" ;
+    jp:name "FRAENKEL, CARLOS" .
+
+jp:Scholar_GATTI_R a jp:Scholar ;
+    rdfs:label "GATTI, R" ;
+    jp:name "GATTI, R" .
+
+jp:Scholar_GATTI_ROBERTO a jp:Scholar ;
+    rdfs:label "GATTI, ROBERTO" ;
+    jp:name "GATTI, ROBERTO" .
+
+jp:Scholar_GAZIEL_A a jp:Scholar ;
+    rdfs:label "GAZIEL, A" ;
+    jp:name "GAZIEL, A" .
+
+jp:Scholar_GLASNER_R a jp:Scholar ;
+    rdfs:label "GLASNER, R" ;
+    jp:name "GLASNER, R" .
+
+jp:Scholar_RUDAVSKY_TAMAR_M a jp:Scholar ;
+    rdfs:label "RUDAVSKY, TAMAR M" ;
+    jp:name "RUDAVSKY, TAMAR M" .
+
+jp:Scholar_RUDAVSKY_T_M a jp:Scholar ;
+    rdfs:label "RUDAVSKY, T.M" ;
+    jp:name "RUDAVSKY, T.M" .
+
+jp:Scholar_SELA_SHLOMO a jp:Scholar ;
+    rdfs:label "SELA, SHLOMO" ;
+    jp:name "SELA, SHLOMO" .
+
+jp:Scholar_SZLAJEN_F a jp:Scholar ;
+    rdfs:label "SZLAJEN, F" ;
+    jp:name "SZLAJEN, F" .
+
+jp:Scholar_WEISS_R a jp:Scholar ;
+    rdfs:label "WEISS, R" ;
+    jp:name "WEISS, R" .
+
+jp:Scholar_XII_XIV a jp:Scholar ;
+    rdfs:label "XII- XIV)" ;
+    jp:name "XII- XIV)" .
+
+jp:Scholar_DAVIDSON_H a jp:Scholar ;
+    rdfs:label "DAVIDSON, H" ;
+    jp:name "DAVIDSON, H" .
+
+jp:Scholar_EHRLICH_D a jp:Scholar ;
+    rdfs:label "EHRLICH, D" ;
+    jp:name "EHRLICH, D" .
+
+jp:Scholar_FELDMAN_SEYMOUR a jp:Scholar ;
+    rdfs:label "FELDMAN, SEYMOUR" ;
+    jp:name "FELDMAN, SEYMOUR" .
+
+jp:Scholar_FENTON_P a jp:Scholar ;
+    rdfs:label "FENTON, P" ;
+    jp:name "FENTON, P" .
+
+jp:Scholar_FONTAINE_RESIANNE a jp:Scholar ;
+    rdfs:label "FONTAINE, RESIANNE" ;
+    jp:name "FONTAINE, RESIANNE" .
+
+jp:Scholar_GLASNER_RUTH a jp:Scholar ;
+    rdfs:label "GLASNER, RUTH" ;
+    jp:name "GLASNER, RUTH" .
+
+jp:Scholar_KREISEL_H a jp:Scholar ;
+    rdfs:label "KREISEL, H" ;
+    jp:name "KREISEL, H" .
+
+jp:Scholar_KREISEL_HOWARD_HAIM a jp:Scholar ;
+    rdfs:label "KREISEL, HOWARD (HAIM)" ;
+    jp:name "KREISEL, HOWARD (HAIM)" .
+
+jp:Scholar_LOBEL_D a jp:Scholar ;
+    rdfs:label "LOBEL, D" ;
+    jp:name "LOBEL, D" .
+
+jp:Scholar_LOBEL_DIANA a jp:Scholar ;
+    rdfs:label "LOBEL, DIANA" ;
+    jp:name "LOBEL, DIANA" .
+
+jp:Scholar_SCHWARTZ_D a jp:Scholar ;
+    rdfs:label "SCHWARTZ, D" ;
+    jp:name "SCHWARTZ, D" .
+
+jp:Scholar_SEESKIN_K a jp:Scholar ;
+    rdfs:label "SEESKIN K" ;
+    jp:name "SEESKIN K" .
+
+jp:Scholar_SEESKIN_KENNETH a jp:Scholar ;
+    rdfs:label "SEESKIN, KENNETH" ;
+    jp:name "SEESKIN, KENNETH" .
+
+jp:Scholar_STERN_J a jp:Scholar ;
+    rdfs:label "STERN, J" ;
+    jp:name "STERN, J" .
+
+jp:Scholar_HUGHES_AARON a jp:Scholar ;
+    rdfs:label "HUGHES, AARON" ;
+    jp:name "HUGHES, AARON" .
+
+jp:Scholar_IVRY_A a jp:Scholar ;
+    rdfs:label "IVRY, A" ;
+    jp:name "IVRY, A" .
+
+jp:Scholar_IVRY_ALFRED a jp:Scholar ;
+    rdfs:label "IVRY, ALFRED" ;
+    jp:name "IVRY, ALFRED" .
+
+jp:Scholar_KELLNER_MENACHEM a jp:Scholar ;
+    rdfs:label "KELLNER, MENACHEM" ;
+    jp:name "KELLNER, MENACHEM" .
+
+jp:Scholar_KLEIN_BRASLAVY_SARA a jp:Scholar ;
+    rdfs:label "KLEIN-BRASLAVY, SARA" ;
+    jp:name "KLEIN-BRASLAVY, SARA" .
+
+jp:Scholar_LANGERMANN_Y a jp:Scholar ;
+    rdfs:label "LANGERMANN, Y" ;
+    jp:name "LANGERMANN, Y" .
+
+jp:Scholar_LEMLER_D a jp:Scholar ;
+    rdfs:label "LEMLER, D" ;
+    jp:name "LEMLER, D" .
+
+jp:Scholar_PARENS_J a jp:Scholar ;
+    rdfs:label "PARENS, J" ;
+    jp:name "PARENS, J" .
+
+jp:Scholar_PUIG_MONTADA_JOSEP a jp:Scholar ;
+    rdfs:label "PUIG MONTADA, JOSEP" ;
+    jp:name "PUIG MONTADA, JOSEP" .
+
+jp:Scholar_ALBERTINI_FRANCESCA a jp:Scholar ;
+    rdfs:label "ALBERTINI, FRANCESCA" ;
+    jp:name "ALBERTINI, FRANCESCA" .
+
+jp:Scholar_GOODMAN_L_E a jp:Scholar ;
+    rdfs:label "GOODMAN, L.E" ;
+    jp:name "GOODMAN, L.E" .
+
+jp:Scholar_KELLNER_M a jp:Scholar ;
+    rdfs:label "KELLNER, M" ;
+    jp:name "KELLNER, M" .
+
+jp:Scholar_KLEIN_BRASLAVY_S a jp:Scholar ;
+    rdfs:label "KLEIN-BRASLAVY, S" ;
+    jp:name "KLEIN-BRASLAVY, S" .
+
+jp:Scholar_LASKER_D_J a jp:Scholar ;
+    rdfs:label "LASKER, D.J" ;
+    jp:name "LASKER, D.J" .
+
+jp:Scholar_MELAMED_A a jp:Scholar ;
+    rdfs:label "MELAMED, A" ;
+    jp:name "MELAMED, A" .
+
+jp:Scholar_ROBINSON_JAMES_T a jp:Scholar ;
+    rdfs:label "ROBINSON, JAMES T" ;
+    jp:name "ROBINSON, JAMES T" .
+
+jp:Scholar_SCHWARTZ_Y a jp:Scholar ;
+    rdfs:label "SCHWARTZ, Y" ;
+    jp:name "SCHWARTZ, Y" .
+
+jp:Scholar_HARVEY_WARREN_ZEV a jp:Scholar ;
+    rdfs:label "HARVEY, WARREN ZEV" ;
+    jp:name "HARVEY, WARREN ZEV" .
+
+jp:Scholar_HARVEY_W_Z a jp:Scholar ;
+    rdfs:label "HARVEY, W.Z" ;
+    jp:name "HARVEY, W.Z" .
+
+jp:Scholar_ROBINSON_J_T a jp:Scholar ;
+    rdfs:label "ROBINSON, J.T" ;
+    jp:name "ROBINSON, J.T" .
+
+jp:Scholar_SCHWARTZ_DOV a jp:Scholar ;
+    rdfs:label "SCHWARTZ, DOV" ;
+    jp:name "SCHWARTZ, DOV" .
+
+jp:Scholar_HARVEY_S a jp:Scholar ;
+    rdfs:label "HARVEY, S" ;
+    jp:name "HARVEY, S" .
+
+jp:Scholar_HARVEY_STEVEN a jp:Scholar ;
+    rdfs:label "HARVEY, STEVEN" ;
+    jp:name "HARVEY, STEVEN" .
+
+jp:Scholar_LASKER_DANIEL_J a jp:Scholar ;
+    rdfs:label "LASKER, DANIEL J" ;
+    jp:name "LASKER, DANIEL J" .
+
+jp:Scholar_FONTAINE_R a jp:Scholar ;
+    rdfs:label "FONTAINE, R" ;
+    jp:name "FONTAINE, R" .
+
+jp:Scholar_FREUDENTHAL_GAD a jp:Scholar ;
+    rdfs:label "FREUDENTHAL, GAD" ;
+    jp:name "FREUDENTHAL, GAD" .
+
+jp:Scholar_HUGHES_A_W a jp:Scholar ;
+    rdfs:label "HUGHES, A.W" ;
+    jp:name "HUGHES, A.W" .
+
+jp:Scholar_MANEKIN_C_H a jp:Scholar ;
+    rdfs:label "MANEKIN, C.H" ;
+    jp:name "MANEKIN, C.H" .
+
+jp:Scholar_ZONTA_MAURO a jp:Scholar ;
+    rdfs:label "ZONTA, MAURO" ;
+    jp:name "ZONTA, MAURO" .
+
+jp:Scholar_ZONTA_M a jp:Scholar ;
+    rdfs:label "ZONTA, M" ;
+    jp:name "ZONTA, M" .
+
+jp:Scholar_YOD_Revue_des_tudes_h_bra_ques_et_juive_22_2019_49_77 a jp:Scholar ;
+    rdfs:label "YOD, Revue des études hébraïques et juive 22) 2019, 49-77" ;
+    jp:name "YOD, Revue des études hébraïques et juive 22) 2019, 49-77" .
+

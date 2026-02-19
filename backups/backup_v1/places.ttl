@@ -1,0 +1,650 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Q5836 a jp:Place ;
+    rdfs:label "Toledo" ;
+    jp:latitude "39.866666666"^^xsd:decimal ;
+    jp:longitude "-4.033333333"^^xsd:decimal .
+
+jp:Q1085 a jp:Place ;
+    rdfs:label "Prague" ;
+    jp:latitude "50.0875"^^xsd:decimal ;
+    jp:longitude "14.421388888"^^xsd:decimal .
+
+jp:Q31487 a jp:Place ;
+    rdfs:label "Kraków" ;
+    jp:latitude "50.061388888"^^xsd:decimal ;
+    jp:longitude "19.937222222"^^xsd:decimal .
+
+jp:Q375228 a jp:Place ;
+    rdfs:label "Astryna" ;
+    jp:latitude "53.730555555"^^xsd:decimal ;
+    jp:longitude "24.530277777"^^xsd:decimal .
+
+jp:Q49111 a jp:Place ;
+    rdfs:label "Cambridge" ;
+    jp:latitude "42.375"^^xsd:decimal ;
+    jp:longitude "-71.106111111"^^xsd:decimal .
+
+jp:Q18986 a jp:Place ;
+    rdfs:label "Pergamon" ;
+    jp:latitude "39.116667"^^xsd:decimal ;
+    jp:longitude "27.183333"^^xsd:decimal .
+
+jp:Q220 a jp:Place ;
+    rdfs:label "Rome" ;
+    jp:latitude "41.893055555"^^xsd:decimal ;
+    jp:longitude "12.482777777"^^xsd:decimal .
+
+jp:Q6441 a jp:Place ;
+    rdfs:label "Montpellier" ;
+    jp:latitude "43.610919444"^^xsd:decimal ;
+    jp:longitude "3.877230555"^^xsd:decimal .
+
+jp:Q23482 a jp:Place ;
+    rdfs:label "Marseille" ;
+    jp:latitude "43.296666666"^^xsd:decimal ;
+    jp:longitude "5.376388888"^^xsd:decimal .
+
+jp:Q243846 a jp:Place ;
+    rdfs:label "Hillah" ;
+    jp:latitude "32.483333333"^^xsd:decimal ;
+    jp:longitude "44.433333333"^^xsd:decimal .
+
+jp:Q1530 a jp:Place ;
+    rdfs:label "Baghdad" ;
+    jp:latitude "33.315277777"^^xsd:decimal ;
+    jp:longitude "44.366111111"^^xsd:decimal .
+
+jp:Q1492 a jp:Place ;
+    rdfs:label "Barcelona" ;
+    jp:latitude "41.3825"^^xsd:decimal ;
+    jp:longitude "2.176944444"^^xsd:decimal .
+
+jp:Q6555 a jp:Place ;
+    rdfs:label "Narbonne" ;
+    jp:latitude "43.184722222"^^xsd:decimal ;
+    jp:longitude "3.003611111"^^xsd:decimal .
+
+jp:Q839456 a jp:Place ;
+    rdfs:label "Al-Fustat" ;
+    jp:latitude "30.005"^^xsd:decimal ;
+    jp:longitude "31.2375"^^xsd:decimal .
+
+jp:Q1218 a jp:Place ;
+    rdfs:label "Jerusalem" ;
+    jp:latitude "31.778888888"^^xsd:decimal ;
+    jp:longitude "35.225555555"^^xsd:decimal .
+
+jp:Q23792 a jp:Place ;
+    rdfs:label "Palestine" ;
+    jp:latitude "31.625321"^^xsd:decimal ;
+    jp:longitude "35.145264"^^xsd:decimal .
+
+jp:Q79 a jp:Place ;
+    rdfs:label "Egypt" ;
+    jp:latitude "27.0"^^xsd:decimal ;
+    jp:longitude "29.0"^^xsd:decimal .
+
+jp:Q1223508 a jp:Place ;
+    rdfs:label "Ohrid" ;
+    jp:latitude "41.116944444"^^xsd:decimal ;
+    jp:longitude "20.801944444"^^xsd:decimal .
+
+jp:Q82676 a jp:Place ;
+    rdfs:label "Figline Valdarno" ;
+    jp:latitude "43.616666666"^^xsd:decimal ;
+    jp:longitude "11.466666666"^^xsd:decimal .
+
+jp:Q368346 a jp:Place ;
+    rdfs:label "Villa Medici at Careggi" ;
+    jp:latitude "43.807917"^^xsd:decimal ;
+    jp:longitude "11.250282"^^xsd:decimal .
+
+jp:Q188155 a jp:Place ;
+    rdfs:label "Gorgan" ;
+    jp:latitude "36.846666666"^^xsd:decimal ;
+    jp:longitude "54.43"^^xsd:decimal .
+
+jp:Q472925 a jp:Place ;
+    rdfs:label "Urgench" ;
+    jp:latitude "41.5345"^^xsd:decimal ;
+    jp:longitude "60.6249"^^xsd:decimal .
+
+jp:Q636188 a jp:Place ;
+    rdfs:label "Ray" ;
+    jp:latitude "35.5975"^^xsd:decimal ;
+    jp:longitude "51.434444444"^^xsd:decimal .
+
+jp:Q4072887 a jp:Place ;
+    rdfs:label "Afshona" ;
+    jp:latitude "39.994444444"^^xsd:decimal ;
+    jp:longitude "64.379166666"^^xsd:decimal .
+
+jp:Q5764 a jp:Place ;
+    rdfs:label "Bukhara" ;
+    jp:latitude "39.774722222"^^xsd:decimal ;
+    jp:longitude "64.428611111"^^xsd:decimal .
+
+jp:Q28587 a jp:Place ;
+    rdfs:label "Hamadan" ;
+    jp:latitude "34.8"^^xsd:decimal ;
+    jp:longitude "48.516666666"^^xsd:decimal .
+
+jp:Q42053 a jp:Place ;
+    rdfs:label "Isfahan" ;
+    jp:latitude "32.6525"^^xsd:decimal ;
+    jp:longitude "51.675"^^xsd:decimal .
+
+jp:Q2471 a jp:Place ;
+    rdfs:label "Sanaa" ;
+    jp:latitude "15.35"^^xsd:decimal ;
+    jp:longitude "44.2"^^xsd:decimal .
+
+jp:Q569684 a jp:Place ;
+    rdfs:label "Kirchhain" ;
+    jp:latitude "50.816666666"^^xsd:decimal ;
+    jp:longitude "8.916666666"^^xsd:decimal .
+
+jp:Q28271 a jp:Place ;
+    rdfs:label "Annapolis" ;
+    jp:latitude "38.978611111"^^xsd:decimal ;
+    jp:longitude "-76.491944444"^^xsd:decimal .
+
+jp:Q173063 a jp:Place ;
+    rdfs:label "Castile" ;
+    jp:latitude "42.35"^^xsd:decimal ;
+    jp:longitude "-3.81666667"^^xsd:decimal .
+
+jp:Q29 a jp:Place ;
+    rdfs:label "Spain" ;
+    jp:latitude "40.2"^^xsd:decimal ;
+    jp:longitude "-3.5"^^xsd:decimal .
+
+jp:Q179293 a jp:Place ;
+    rdfs:label "Kingdom of Castile" .
+
+jp:Q597 a jp:Place ;
+    rdfs:label "Lisbon" ;
+    jp:latitude "38.708042"^^xsd:decimal ;
+    jp:longitude "-9.139016"^^xsd:decimal .
+
+jp:Q641 a jp:Place ;
+    rdfs:label "Venice" ;
+    jp:latitude "45.439722222"^^xsd:decimal ;
+    jp:longitude "12.331944444"^^xsd:decimal .
+
+jp:Q5818 a jp:Place ;
+    rdfs:label "Córdoba" ;
+    jp:latitude "37.89"^^xsd:decimal ;
+    jp:longitude "-4.78"^^xsd:decimal .
+
+jp:Q85 a jp:Place ;
+    rdfs:label "Cairo" ;
+    jp:latitude "30.044444444"^^xsd:decimal ;
+    jp:longitude "31.235833333"^^xsd:decimal .
+
+jp:Q41183 a jp:Place ;
+    rdfs:label "Aleppo" ;
+    jp:latitude "36.2"^^xsd:decimal ;
+    jp:longitude "37.16"^^xsd:decimal .
+
+jp:Q1055 a jp:Place ;
+    rdfs:label "Hamburg" ;
+    jp:latitude "53.55"^^xsd:decimal ;
+    jp:longitude "10.0"^^xsd:decimal .
+
+jp:Q1068 a jp:Place ;
+    rdfs:label "Wilhelmsburg" ;
+    jp:latitude "53.495"^^xsd:decimal ;
+    jp:longitude "10.011111111"^^xsd:decimal .
+
+jp:Q1803153 a jp:Place ;
+    rdfs:label "District of Flatow" .
+
+jp:Q19014 a jp:Place ;
+    rdfs:label "Garden of Eden" .
+
+jp:Q2 a jp:Place ;
+    rdfs:label "Earth" .
+
+jp:Q805 a jp:Place ;
+    rdfs:label "Yemen" ;
+    jp:latitude "15.5"^^xsd:decimal ;
+    jp:longitude "48.0"^^xsd:decimal .
+
+jp:Q782758 a jp:Place ;
+    rdfs:label "Subirats" ;
+    jp:latitude "41.384722222"^^xsd:decimal ;
+    jp:longitude "1.798055555"^^xsd:decimal .
+
+jp:Q744631 a jp:Place ;
+    rdfs:label "Assos" ;
+    jp:latitude "39.490556"^^xsd:decimal ;
+    jp:longitude "26.336667"^^xsd:decimal .
+
+jp:Q846127 a jp:Place ;
+    rdfs:label "Stageira" ;
+    jp:latitude "40.59083333"^^xsd:decimal ;
+    jp:longitude "23.79416667"^^xsd:decimal .
+
+jp:Q21235810 a jp:Place ;
+    rdfs:label "Chalcis" ;
+    jp:latitude "38.4624"^^xsd:decimal ;
+    jp:longitude "23.5971"^^xsd:decimal .
+
+jp:Q1524 a jp:Place ;
+    rdfs:label "Athens" ;
+    jp:latitude "37.984166666"^^xsd:decimal ;
+    jp:longitude "23.728055555"^^xsd:decimal .
+
+jp:Q131350 a jp:Place ;
+    rdfs:label "Nishapur" ;
+    jp:latitude "36.213333333"^^xsd:decimal ;
+    jp:longitude "58.795833333"^^xsd:decimal .
+
+jp:Q681427 a jp:Place ;
+    rdfs:label "Tus" ;
+    jp:latitude "36.486138888"^^xsd:decimal ;
+    jp:longitude "59.517555555"^^xsd:decimal .
+
+jp:Q3766 a jp:Place ;
+    rdfs:label "Damascus" ;
+    jp:latitude "33.513055555"^^xsd:decimal ;
+    jp:longitude "36.291944444"^^xsd:decimal .
+
+jp:Q530197 a jp:Place ;
+    rdfs:label "Coswig" ;
+    jp:latitude "51.883333333"^^xsd:decimal ;
+    jp:longitude "12.433333333"^^xsd:decimal .
+
+jp:Q64 a jp:Place ;
+    rdfs:label "Berlin" ;
+    jp:latitude "52.516666666"^^xsd:decimal ;
+    jp:longitude "13.383333333"^^xsd:decimal .
+
+jp:Q1741 a jp:Place ;
+    rdfs:label "Vienna" ;
+    jp:latitude "48.208333333"^^xsd:decimal ;
+    jp:longitude "16.3725"^^xsd:decimal .
+
+jp:Q2044 a jp:Place ;
+    rdfs:label "Florence" ;
+    jp:latitude "43.771388888"^^xsd:decimal ;
+    jp:longitude "11.254166666"^^xsd:decimal .
+
+jp:Q101625 a jp:Place ;
+    rdfs:label "Marrakesh" ;
+    jp:latitude "31.62947"^^xsd:decimal ;
+    jp:longitude "-7.98108"^^xsd:decimal .
+
+jp:Q284894 a jp:Place ;
+    rdfs:label "Tíjola" ;
+    jp:latitude "37.34646397"^^xsd:decimal ;
+    jp:longitude "-2.436483502"^^xsd:decimal .
+
+jp:Q8717 a jp:Place ;
+    rdfs:label "Seville" ;
+    jp:latitude "37.388611111"^^xsd:decimal ;
+    jp:longitude "-5.995555555"^^xsd:decimal .
+
+jp:Q8818 a jp:Place ;
+    rdfs:label "Valencia" ;
+    jp:latitude "39.47"^^xsd:decimal ;
+    jp:longitude "-0.376388888"^^xsd:decimal .
+
+jp:Q15679 a jp:Place ;
+    rdfs:label "Badajoz" ;
+    jp:latitude "38.87789"^^xsd:decimal ;
+    jp:longitude "-6.970609"^^xsd:decimal .
+
+jp:Q124554 a jp:Place ;
+    rdfs:label "Osimo" ;
+    jp:latitude "43.486080555"^^xsd:decimal ;
+    jp:longitude "13.4821"^^xsd:decimal .
+
+jp:Q6247 a jp:Place ;
+    rdfs:label "Mantua" ;
+    jp:latitude "45.156388888"^^xsd:decimal ;
+    jp:longitude "10.791111111"^^xsd:decimal .
+
+jp:Q87 a jp:Place ;
+    rdfs:label "Alexandria" ;
+    jp:latitude "31.1975"^^xsd:decimal ;
+    jp:longitude "29.8925"^^xsd:decimal .
+
+jp:Q318082 a jp:Place ;
+    rdfs:label "Lunel" ;
+    jp:latitude "43.676944444"^^xsd:decimal ;
+    jp:longitude "4.135277777"^^xsd:decimal .
+
+jp:Q7038 a jp:Place ;
+    rdfs:label "Girona" ;
+    jp:latitude "41.983333333"^^xsd:decimal ;
+    jp:longitude "2.816666666"^^xsd:decimal .
+
+jp:Q3185 a jp:Place ;
+    rdfs:label "Hildesheim" ;
+    jp:latitude "52.15"^^xsd:decimal ;
+    jp:longitude "9.95"^^xsd:decimal .
+
+jp:Q46165 a jp:Place ;
+    rdfs:label "Montecchio Maggiore" ;
+    jp:latitude "45.50369"^^xsd:decimal ;
+    jp:longitude "11.412"^^xsd:decimal .
+
+jp:Q8851 a jp:Place ;
+    rdfs:label "Málaga" ;
+    jp:latitude "36.716666666"^^xsd:decimal ;
+    jp:longitude "-4.416666666"^^xsd:decimal .
+
+jp:Q10305 a jp:Place ;
+    rdfs:label "Zaragoza" ;
+    jp:latitude "41.65"^^xsd:decimal ;
+    jp:longitude "-0.883333333"^^xsd:decimal .
+
+jp:Q179570 a jp:Place ;
+    rdfs:label "Kairouan" ;
+    jp:latitude "35.683333333"^^xsd:decimal ;
+    jp:longitude "10.1"^^xsd:decimal .
+
+jp:Q6259 a jp:Place ;
+    rdfs:label "Pavia" ;
+    jp:latitude "45.185280555"^^xsd:decimal ;
+    jp:longitude "9.155"^^xsd:decimal .
+
+jp:Q45 a jp:Place ;
+    rdfs:label "Portugal" ;
+    jp:latitude "38.7"^^xsd:decimal ;
+    jp:longitude "-9.183333333"^^xsd:decimal .
+
+jp:Q48195 a jp:Place ;
+    rdfs:label "Basra" ;
+    jp:latitude "30.515"^^xsd:decimal ;
+    jp:longitude "47.81"^^xsd:decimal .
+
+jp:Q6730 a jp:Place ;
+    rdfs:label "Perpignan" ;
+    jp:latitude "42.6975"^^xsd:decimal ;
+    jp:longitude "2.894722222"^^xsd:decimal .
+
+jp:Q12155 a jp:Place ;
+    rdfs:label "Soria" ;
+    jp:latitude "41.766666666"^^xsd:decimal ;
+    jp:longitude "-2.466666666"^^xsd:decimal .
+
+jp:Q1644430 a jp:Place ;
+    rdfs:label "Monreal del Campo" ;
+    jp:latitude "40.7894628"^^xsd:decimal ;
+    jp:longitude "-1.3535011"^^xsd:decimal .
+
+jp:Q244747 a jp:Place ;
+    rdfs:label "Tudela" ;
+    jp:latitude "42.065277777"^^xsd:decimal ;
+    jp:longitude "-1.606666666"^^xsd:decimal .
+
+jp:Q116415 a jp:Place ;
+    rdfs:label "Gordo trolo" ;
+    jp:latitude "41.4764273"^^xsd:decimal ;
+    jp:longitude "13.71206265"^^xsd:decimal .
+
+jp:Q117211 a jp:Place ;
+    rdfs:label "Roccasecca" ;
+    jp:latitude "41.55"^^xsd:decimal ;
+    jp:longitude "13.666666666"^^xsd:decimal .
+
+jp:Q1775258 a jp:Place ;
+    rdfs:label "Fossanova Abbey" ;
+    jp:latitude "41.43808"^^xsd:decimal ;
+    jp:longitude "13.195656"^^xsd:decimal .
+
+jp:Q8356 a jp:Place ;
+    rdfs:label "Valladolid" ;
+    jp:latitude "41.651980555"^^xsd:decimal ;
+    jp:longitude "-4.728561111"^^xsd:decimal .
+
+jp:Q9580 a jp:Place ;
+    rdfs:label "Burgos" ;
+    jp:latitude "42.340833333"^^xsd:decimal ;
+    jp:longitude "-3.699722222"^^xsd:decimal .
+
+jp:Q8826 a jp:Place ;
+    rdfs:label "Palma" ;
+    jp:latitude "39.566666666"^^xsd:decimal ;
+    jp:longitude "2.649722222"^^xsd:decimal .
+
+jp:51f3e6c2f4df00e1bea0bf2915860592 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/51f3e6c2f4df00e1bea0bf2915860592" .
+
+jp:Q80985 a jp:Place ;
+    rdfs:label "Fez" ;
+    jp:latitude "34.043333333"^^xsd:decimal ;
+    jp:longitude "-5.003333333"^^xsd:decimal .
+
+jp:Q11947752 a jp:Place ;
+    rdfs:label "Sarakusta" ;
+    jp:latitude "41.654366145"^^xsd:decimal ;
+    jp:longitude "-0.877563649"^^xsd:decimal .
+
+jp:Q207540 a jp:Place ;
+    rdfs:label "Lod" ;
+    jp:latitude "31.95"^^xsd:decimal ;
+    jp:longitude "34.9"^^xsd:decimal .
+
+jp:Q319242 a jp:Place ;
+    rdfs:label "Caesarea Maritima" ;
+    jp:latitude "32.5011"^^xsd:decimal ;
+    jp:longitude "34.8923"^^xsd:decimal .
+
+jp:Q80053 a jp:Place ;
+    rdfs:label "Tabriz" ;
+    jp:latitude "38.073888888"^^xsd:decimal ;
+    jp:longitude "46.296111111"^^xsd:decimal .
+
+jp:Q605105 a jp:Place ;
+    rdfs:label "Khoy" ;
+    jp:latitude "38.5517"^^xsd:decimal ;
+    jp:longitude "44.959541666"^^xsd:decimal .
+
+jp:Q2776808 a jp:Place ;
+    rdfs:label "Mitzpa" ;
+    jp:latitude "32.790555555"^^xsd:decimal ;
+    jp:longitude "35.509444444"^^xsd:decimal .
+
+jp:Q41621 a jp:Place ;
+    rdfs:label "Haifa" ;
+    jp:latitude "32.819166666"^^xsd:decimal ;
+    jp:longitude "34.999166666"^^xsd:decimal .
+
+jp:Q212793 a jp:Place ;
+    rdfs:label "Charenton-le-Pont" ;
+    jp:latitude "48.821388888"^^xsd:decimal ;
+    jp:longitude "2.411944444"^^xsd:decimal .
+
+jp:Q100065 a jp:Place ;
+    rdfs:label "Mirandola" ;
+    jp:latitude "44.88727"^^xsd:decimal ;
+    jp:longitude "11.06603"^^xsd:decimal .
+
+jp:Q101081 a jp:Place ;
+    rdfs:label "Provence" ;
+    jp:latitude "44.0"^^xsd:decimal ;
+    jp:longitude "6.0"^^xsd:decimal .
+
+jp:Q142410 a jp:Place ;
+    rdfs:label "Dreux" ;
+    jp:latitude "48.736388888"^^xsd:decimal ;
+    jp:longitude "1.365555555"^^xsd:decimal .
+
+jp:Q174019 a jp:Place ;
+    rdfs:label "Béziers" ;
+    jp:latitude "43.343333333"^^xsd:decimal ;
+    jp:longitude "3.216111111"^^xsd:decimal .
+
+jp:Q642046 a jp:Place ;
+    rdfs:label "Calahorra" ;
+    jp:latitude "42.303333333"^^xsd:decimal ;
+    jp:longitude "-1.964722222"^^xsd:decimal .
+
+jp:Q2028 a jp:Place ;
+    rdfs:label "Verona" ;
+    jp:latitude "45.438611111"^^xsd:decimal ;
+    jp:longitude "10.992777777"^^xsd:decimal .
+
+jp:Q13373 a jp:Place ;
+    rdfs:label "Lucca" ;
+    jp:latitude "43.85"^^xsd:decimal ;
+    jp:longitude "10.516666666"^^xsd:decimal .
+
+jp:Q30974 a jp:Place ;
+    rdfs:label "Rouen" ;
+    jp:latitude "49.443055555"^^xsd:decimal ;
+    jp:longitude "1.1025"^^xsd:decimal .
+
+jp:Q84 a jp:Place ;
+    rdfs:label "London" ;
+    jp:latitude "51.507222222"^^xsd:decimal ;
+    jp:longitude "-0.1275"^^xsd:decimal .
+
+jp:Q188743 a jp:Place ;
+    rdfs:label "Lisieux" ;
+    jp:latitude "49.145555555"^^xsd:decimal ;
+    jp:longitude "0.225555555"^^xsd:decimal .
+
+jp:Q516709 a jp:Place ;
+    rdfs:label "Fleury-sur-Orne" ;
+    jp:latitude "49.146111111"^^xsd:decimal ;
+    jp:longitude "-0.376388888"^^xsd:decimal .
+
+jp:Q530007 a jp:Place ;
+    rdfs:label "Tambach-Dietharz" ;
+    jp:latitude "50.79245"^^xsd:decimal ;
+    jp:longitude "10.61568"^^xsd:decimal .
+
+jp:Q59775089 a jp:Place ;
+    rdfs:label "Nessetal" ;
+    jp:latitude "51.007706"^^xsd:decimal ;
+    jp:longitude "10.667038"^^xsd:decimal .
+
+jp:Q1729 a jp:Place ;
+    rdfs:label "Erfurt" ;
+    jp:latitude "50.978055555"^^xsd:decimal ;
+    jp:longitude "11.028888888"^^xsd:decimal .
+
+jp:Q6397 a jp:Place ;
+    rdfs:label "Avignon" ;
+    jp:latitude "43.948611111"^^xsd:decimal ;
+    jp:longitude "4.808333333"^^xsd:decimal .
+
+jp:Q193896 a jp:Place ;
+    rdfs:label "Malta" ;
+    jp:latitude "35.883333333"^^xsd:decimal ;
+    jp:longitude "14.45"^^xsd:decimal .
+
+jp:Q487070 a jp:Place ;
+    rdfs:label "Dessau" ;
+    jp:latitude "51.834166666"^^xsd:decimal ;
+    jp:longitude "12.246111111"^^xsd:decimal .
+
+jp:Q956911 a jp:Place ;
+    rdfs:label "Otrar" ;
+    jp:latitude "42.8514829"^^xsd:decimal ;
+    jp:longitude "68.3029696"^^xsd:decimal .
+
+jp:Q203299 a jp:Place ;
+    rdfs:label "Faiyum" ;
+    jp:latitude "29.3"^^xsd:decimal ;
+    jp:longitude "30.833333333"^^xsd:decimal .
+
+jp:Q4446399 a jp:Place ;
+    rdfs:label "Sura" ;
+    jp:latitude "31.8833"^^xsd:decimal ;
+    jp:longitude "44.45"^^xsd:decimal .
+
+jp:Q162022 a jp:Place ;
+    rdfs:label "Mechelen" ;
+    jp:latitude "51.028055555"^^xsd:decimal ;
+    jp:longitude "4.480277777"^^xsd:decimal .
+
+jp:Q2248548 a jp:Place ;
+    rdfs:label "Tongerlo" ;
+    jp:latitude "51.1092"^^xsd:decimal ;
+    jp:longitude "4.915"^^xsd:decimal .
+
+jp:Q1794 a jp:Place ;
+    rdfs:label "Frankfurt" ;
+    jp:latitude "50.110555555"^^xsd:decimal ;
+    jp:longitude "8.682222222"^^xsd:decimal .
+
+jp:Q2865 a jp:Place ;
+    rdfs:label "Kassel" ;
+    jp:latitude "51.315777777"^^xsd:decimal ;
+    jp:longitude "9.497916666"^^xsd:decimal .
+
+jp:Q155622 a jp:Place ;
+    rdfs:label "Bernkastel-Kues" ;
+    jp:latitude "49.916111111"^^xsd:decimal ;
+    jp:longitude "7.069444444"^^xsd:decimal .
+
+jp:Q20579 a jp:Place ;
+    rdfs:label "Todi" ;
+    jp:latitude "42.783333333"^^xsd:decimal ;
+    jp:longitude "12.416666666"^^xsd:decimal .
+
+jp:Q66013 a jp:Place ;
+    rdfs:label "Głogów" ;
+    jp:latitude "51.658888888"^^xsd:decimal ;
+    jp:longitude "16.080277777"^^xsd:decimal .
+
+jp:Q275118 a jp:Place ;
+    rdfs:label "9th arrondissement of Paris" ;
+    jp:latitude "48.878280555"^^xsd:decimal ;
+    jp:longitude "2.336966666"^^xsd:decimal .
+
+jp:Q8810 a jp:Place ;
+    rdfs:label "Granada" ;
+    jp:latitude "37.175"^^xsd:decimal ;
+    jp:longitude "-3.6"^^xsd:decimal .
+
+jp:Q10400 a jp:Place ;
+    rdfs:label "Almería" ;
+    jp:latitude "36.841666666"^^xsd:decimal ;
+    jp:longitude "-2.463888888"^^xsd:decimal .
+
+jp:Q12246 a jp:Place ;
+    rdfs:label "Huelva" ;
+    jp:latitude "37.25"^^xsd:decimal ;
+    jp:longitude "-6.95"^^xsd:decimal .
+
+jp:Q15684 a jp:Place ;
+    rdfs:label "Segovia" ;
+    jp:latitude "40.948055555"^^xsd:decimal ;
+    jp:longitude "-4.118333333"^^xsd:decimal .
+
+jp:Q1198112 a jp:Place ;
+    rdfs:label "Youxi County" ;
+    jp:latitude "26.17254"^^xsd:decimal ;
+    jp:longitude "118.18485"^^xsd:decimal .
+
+jp:Q148 a jp:Place ;
+    rdfs:label "People's Republic of China" ;
+    jp:latitude "35.844722222"^^xsd:decimal ;
+    jp:longitude "103.451944444"^^xsd:decimal .
+
+jp:Q1720 a jp:Place ;
+    rdfs:label "Mainz" ;
+    jp:latitude "49.999444444"^^xsd:decimal ;
+    jp:longitude "8.273611111"^^xsd:decimal .
+
+jp:Q3852 a jp:Place ;
+    rdfs:label "Worms" ;
+    jp:latitude "49.6302618"^^xsd:decimal ;
+    jp:longitude "8.3620898"^^xsd:decimal .
+
+jp:Q5489 a jp:Place ;
+    rdfs:label "Troyes" ;
+    jp:latitude "48.298888888"^^xsd:decimal ;
+    jp:longitude "4.078055555"^^xsd:decimal .
+

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Historical Works</h1>
+<input type="text" id="filterInput" onkeyup="filterTable()" placeholder="Search titles..." style="margin-bottom: 20px;">
+<table id="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author(s)</th>
+            <th>Scholarly Mentions</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for w in works %}
+        <tr>
+            <td><a href="/works/{{ w.id }}"><b>{{ w.title }}</b></a></td>
+            <td>{{ w.authors }}</td>
+            <td>{{ w.mentionCount }}</td>
+            <td>
+                <a href="/works/{{ w.id }}" class="btn" style="padding: 0.2rem 0.5rem; font-size: 0.8rem;">View</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<script>
+    // Reuse simple filter logic or abstract to JS file
+    function filterTable() {
+        var input = document.getElementById("filterInput");
+        var filter = input.value.toUpperCase();
+        var table = document.getElementById("table");
+        var tr = table.getElementsByTagName("tr");
+        for (var i = 0; i < tr.length; i++) {
+            var td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                if (td.textContent.toUpperCase().indexOf(filter) > -1) { tr[i].style.display = ""; }
+                else { tr[i].style.display = "none"; }
+            }
+        }
+    }
+</script>
+{% endblock %}

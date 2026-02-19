@@ -1,0 +1,51 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Work_W_Consolation a jp:HistoricalWork ;
+    rdfs:label "Consolation of Philosophy" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Consolation of Philosophy" ;
+    jp:writtenBy jp:Person_Q41183 .
+
+jp:Work_W_Duties a jp:HistoricalWork ;
+    rdfs:label "Duties of the Heart" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Duties of the Heart" ;
+    jp:writtenBy jp:Person_Q728956 .
+
+jp:Work_W_Emunot a jp:HistoricalWork ;
+    rdfs:label "Emunot ve-Deot" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Emunot ve-Deot" ;
+    jp:writtenBy jp:Person_Q234850 .
+
+jp:Work_W_FonsVitae a jp:HistoricalWork ;
+    rdfs:label "Fons Vitae" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Fons Vitae" ;
+    jp:writtenBy jp:Person_Q239328 .
+
+jp:Work_W_Guide a jp:HistoricalWork ;
+    rdfs:label "Guide of the Perplexed" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Guide of the Perplexed" ;
+    jp:writtenBy jp:Person_Q127398 .
+
+jp:Work_W_Kuzari a jp:HistoricalWork ;
+    rdfs:label "The Kuzari" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "The Kuzari" ;
+    jp:writtenBy jp:Person_Q239268 .
+
+jp:Work_W_Mishneh a jp:HistoricalWork ;
+    rdfs:label "Mishneh Torah" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Mishneh Torah" ;
+    jp:writtenBy jp:Person_Q127398 .
+
+jp:Work_W_Wars a jp:HistoricalWork ;
+    rdfs:label "Wars of the Lord" ;
+    jp:hasSource jp:Source_Harvey ;
+    jp:title "Wars of the Lord" ;
+    jp:writtenBy jp:Person_Q310862 .
+

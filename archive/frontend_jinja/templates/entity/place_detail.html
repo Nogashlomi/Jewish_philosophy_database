@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ place.label }} - JPO{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ place.label }}</h1>
+    <p class="subtitle">Place</p>
+
+    <!-- Map Container -->
+    <div id="mini-map"
+        style="height: 200px; width: 100%; margin-bottom: 2rem; border-radius: 8px; border: 1px solid #ccc;"></div>
+
+    <h3>People Associated with this Place</h3>
+    {% if place.people %}
+    <ul>
+        {% for p in place.people %}
+        <li>
+            <a href="/persons/{{ p.id }}">{{ p.label }}</a>
+            <span style="color: #666; font-size: 0.9em;">({{ p.type }})</span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No persons recorded for this place.</p>
+    {% endif %}
+</div>
+{% endblock %}

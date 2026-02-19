@@ -4,7 +4,7 @@ import { entityService } from '../services/entityService';
 import type { LanguageList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2 } from 'lucide-react';
 import SourceFilter from '../components/SourceFilter';
-import { ColumnDef, flexRender, getCoreRowModel, getSortedRowModel, useReactTable, SortingState } from "@tanstack/react-table"
+import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
 
 // Simple DataTable component if not imported from shared
 function DataTable({ columns, data }: { columns: ColumnDef<LanguageList>[], data: LanguageList[] }) {

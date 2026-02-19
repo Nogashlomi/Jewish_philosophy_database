@@ -1,0 +1,444 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Place_1161811cf7b29259d98c6e9de14e1fca a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/1161811cf7b29259d98c6e9de14e1fca" ;
+    jp:authorityLink "http://www.wikidata.org/entity/1161811cf7b29259d98c6e9de14e1fca" .
+
+jp:Place_19f7bd3eedeece842d4476d0342ce410 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/19f7bd3eedeece842d4476d0342ce410" ;
+    jp:authorityLink "http://www.wikidata.org/entity/19f7bd3eedeece842d4476d0342ce410" .
+
+jp:Place_1a2b2ab4d03300216fe72531ed4c8c2d a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/1a2b2ab4d03300216fe72531ed4c8c2d" ;
+    jp:authorityLink "http://www.wikidata.org/entity/1a2b2ab4d03300216fe72531ed4c8c2d" .
+
+jp:Place_29befa1cc134b390eb73e99ec5506e77 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/29befa1cc134b390eb73e99ec5506e77" ;
+    jp:authorityLink "http://www.wikidata.org/entity/29befa1cc134b390eb73e99ec5506e77" .
+
+jp:Place_308106b1369281b1e9a208f0205afb30 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/308106b1369281b1e9a208f0205afb30" ;
+    jp:authorityLink "http://www.wikidata.org/entity/308106b1369281b1e9a208f0205afb30" .
+
+jp:Place_31c28d2265e28e895f1b8e1e8a1f9920 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/31c28d2265e28e895f1b8e1e8a1f9920" ;
+    jp:authorityLink "http://www.wikidata.org/entity/31c28d2265e28e895f1b8e1e8a1f9920" .
+
+jp:Place_411331aa7e1f4569fdb575af8d80464b a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/411331aa7e1f4569fdb575af8d80464b" ;
+    jp:authorityLink "http://www.wikidata.org/entity/411331aa7e1f4569fdb575af8d80464b" .
+
+jp:Place_579c07aa5db83f31b53f8acc0399a3d4 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/579c07aa5db83f31b53f8acc0399a3d4" ;
+    jp:authorityLink "http://www.wikidata.org/entity/579c07aa5db83f31b53f8acc0399a3d4" .
+
+jp:Place_782a570f8155bca59a35605da3dc2ae4 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/782a570f8155bca59a35605da3dc2ae4" ;
+    jp:authorityLink "http://www.wikidata.org/entity/782a570f8155bca59a35605da3dc2ae4" .
+
+jp:Place_8b7757504641a67f1896fbbddcb03366 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/8b7757504641a67f1896fbbddcb03366" ;
+    jp:authorityLink "http://www.wikidata.org/entity/8b7757504641a67f1896fbbddcb03366" .
+
+jp:Place_947a1e1f998bc91d44427e8aa5eac7b8 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/947a1e1f998bc91d44427e8aa5eac7b8" ;
+    jp:authorityLink "http://www.wikidata.org/entity/947a1e1f998bc91d44427e8aa5eac7b8" .
+
+jp:Place_Q1010 a jp:Place ;
+    rdfs:label "Maribor" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1010" ;
+    jp:coordinates "Point(15.633333333 46.55)" .
+
+jp:Place_Q1023466 a jp:Place ;
+    rdfs:label "Dolní Kounice" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1023466" ;
+    jp:coordinates "Point(16.46492889 49.070143005)" .
+
+jp:Place_Q10717 a jp:Place ;
+    rdfs:label "Georgetown" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q10717" ;
+    jp:coordinates "Point(-58.150833333 6.805833333)" .
+
+jp:Place_Q11057449 a jp:Place ;
+    rdfs:label "Saltsjöbaden Parish" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q11057449" ;
+    jp:coordinates "Point(18.29202222 59.27965)" .
+
+jp:Place_Q11748283 a jp:Place ;
+    rdfs:label "Kromołów" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q11748283" ;
+    jp:coordinates "Point(19.4936 50.495)" .
+
+jp:Place_Q11767 a jp:Place ;
+    rdfs:label "Mesopotamia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q11767" ;
+    jp:coordinates "Point(43.5 33.7)" .
+
+jp:Place_Q1184517 a jp:Place ;
+    rdfs:label "Prievaly" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1184517" ;
+    jp:coordinates "Point(17.34888889 48.55666667)" .
+
+jp:Place_Q124925 a jp:Place ;
+    rdfs:label "Senigallia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q124925" ;
+    jp:coordinates "Point(13.218333333 43.713055555)" .
+
+jp:Place_Q12816 a jp:Place ;
+    rdfs:label "Yonne" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q12816" ;
+    jp:coordinates "Point(3.566666666 47.8)" .
+
+jp:Place_Q12994 a jp:Place ;
+    rdfs:label "Bruges" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q12994" ;
+    jp:coordinates "Point(3.224166666 51.208888888)" .
+
+jp:Place_Q130135 a jp:Place ;
+    rdfs:label "Atlas Mountains" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q130135" ;
+    jp:coordinates "Point(-7.916111111 31.061944444)" .
+
+jp:Place_Q13422717 a jp:Place ;
+    rdfs:label "Grodno powet" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q13422717" .
+
+jp:Place_Q1436040 a jp:Place ;
+    rdfs:label "Mount Uhud" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1436040" ;
+    jp:coordinates "Point(39.62685 24.52097)" .
+
+jp:Place_Q153336 a jp:Place ;
+    rdfs:label "Minsk Ghetto" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q153336" ;
+    jp:coordinates "Point(27.542875 53.909786)" .
+
+jp:Place_Q167152 a jp:Place ;
+    rdfs:label "Soissons" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q167152" ;
+    jp:coordinates "Point(3.3225 49.381111111)" .
+
+jp:Place_Q171800 a jp:Place ;
+    rdfs:label "Évreux" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q171800" ;
+    jp:coordinates "Point(1.1525 49.023333333)" .
+
+jp:Place_Q173063 a jp:Place ;
+    rdfs:label "Castile" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q173063" ;
+    jp:coordinates "Point(-3.81666667 42.35)" .
+
+jp:Place_Q180139 a jp:Place ;
+    rdfs:label "Hradec Králové" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q180139" ;
+    jp:coordinates "Point(15.831944444 50.209166666)" .
+
+jp:Place_Q183405 a jp:Place ;
+    rdfs:label "Safi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q183405" ;
+    jp:coordinates "Point(-9.233333333 32.283333333)" .
+
+jp:Place_Q187796 a jp:Place ;
+    rdfs:label "Orange" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q187796" ;
+    jp:coordinates "Point(4.808888888 44.1375)" .
+
+jp:Place_Q20018403 a jp:Place ;
+    rdfs:label "Tunis eyalet" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q20018403" ;
+    jp:coordinates "Point(10.181666666 36.806388888)" .
+
+jp:Place_Q22642 a jp:Place ;
+    rdfs:label "Sarreguemines" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q22642" ;
+    jp:coordinates "Point(7.067222222 49.110555555)" .
+
+jp:Place_Q2339121 a jp:Place ;
+    rdfs:label "Long Grove" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2339121" ;
+    jp:coordinates "Point(-88.0064 42.2025)" .
+
+jp:Place_Q2356424 a jp:Place ;
+    rdfs:label "Joniškėlis" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2356424" ;
+    jp:coordinates "Point(24.169444444 56.025)" .
+
+jp:Place_Q24013046 a jp:Place ;
+    rdfs:label "Agramunt" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q24013046" ;
+    jp:coordinates "Point(1.09683 41.78686)" .
+
+jp:Place_Q2479614 a jp:Place ;
+    rdfs:label "Balfouria" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2479614" ;
+    jp:coordinates "Point(35.2963 32.6302)" .
+
+jp:Place_Q2540234 a jp:Place ;
+    rdfs:label "Demnate" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2540234" ;
+    jp:coordinates "Point(-7.036111111 31.731111111)" .
+
+jp:Place_Q2734 a jp:Place ;
+    rdfs:label "Skierniewice" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2734" ;
+    jp:coordinates "Point(20.1430044 51.9568581)" .
+
+jp:Place_Q28237 a jp:Place ;
+    rdfs:label "Lansing" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q28237" ;
+    jp:coordinates "Point(-84.5467 42.7335)" .
+
+jp:Place_Q284894 a jp:Place ;
+    rdfs:label "Tíjola" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q284894" ;
+    jp:coordinates "Point(-2.436483502 37.34646397)" .
+
+jp:Place_Q292455 a jp:Place ;
+    rdfs:label "At Tawilah" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q292455" ;
+    jp:coordinates "Point(43.739722222 15.495)" .
+
+jp:Place_Q2933 a jp:Place ;
+    rdfs:label "Asunción" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2933" ;
+    jp:coordinates "Point(-57.634444444 -25.28)" .
+
+jp:Place_Q3061250 a jp:Place ;
+    rdfs:label "Chaddleworth" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3061250" ;
+    jp:coordinates "Point(-1.405 51.496)" .
+
+jp:Place_Q319445 a jp:Place ;
+    rdfs:label "Biłgoraj" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q319445" ;
+    jp:coordinates "Point(22.733333333 50.55)" .
+
+jp:Place_Q320260 a jp:Place ;
+    rdfs:label "Coucy-le-Château-Auffrique" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q320260" ;
+    jp:coordinates "Point(3.3225 49.520277777)" .
+
+jp:Place_Q3437 a jp:Place ;
+    rdfs:label "Perugia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3437" ;
+    jp:coordinates "Point(12.3888 43.1121)" .
+
+jp:Place_Q345163 a jp:Place ;
+    rdfs:label "Łabiszyn" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q345163" ;
+    jp:coordinates "Point(17.914444444 52.953055555)" .
+
+jp:Place_Q3539308 a jp:Place ;
+    rdfs:label "Trinquetaille" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3539308" ;
+    jp:coordinates "Point(4.62222222 43.68055556)" .
+
+jp:Place_Q35484 a jp:Place ;
+    rdfs:label "Medina" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q35484" ;
+    jp:coordinates "Point(39.61 24.47)" .
+
+jp:Place_Q3599 a jp:Place ;
+    rdfs:label "Bicske" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3599" ;
+    jp:coordinates "Point(18.63625 47.490738888)" .
+
+jp:Place_Q3847041 a jp:Place ;
+    rdfs:label "Tepličany" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3847041" .
+
+jp:Place_Q386487 a jp:Place ;
+    rdfs:label "Mazyr" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q386487" ;
+    jp:coordinates "Point(29.233333333 52.05)" .
+
+jp:Place_Q3919506 a jp:Place ;
+    rdfs:label "Novaja Myš" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3919506" ;
+    jp:coordinates "Point(25.9 53.1333)" .
+
+jp:Place_Q399 a jp:Place ;
+    rdfs:label "Armenia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q399" ;
+    jp:coordinates "Point(44.95 40.383333)" .
+
+jp:Place_Q40 a jp:Place ;
+    rdfs:label "Austria" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q40" ;
+    jp:coordinates "Point(14.0 48.0)" .
+
+jp:Place_Q4072887 a jp:Place ;
+    rdfs:label "Afshona" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4072887" ;
+    jp:coordinates "Point(64.379166666 39.994444444)" .
+
+jp:Place_Q4114543 a jp:Place ;
+    rdfs:label "Jerusalem during the Second Temple Period" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4114543" .
+
+jp:Place_Q4192261 a jp:Place ;
+    rdfs:label "Zinkiv" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4192261" ;
+    jp:coordinates "Point(27.0754 49.0936)" .
+
+jp:Place_Q45883 a jp:Place ;
+    rdfs:label "Khotyn" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q45883" ;
+    jp:coordinates "Point(26.485972222 48.507777777)" .
+
+jp:Place_Q500560 a jp:Place ;
+    rdfs:label "Aflou" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q500560" ;
+    jp:coordinates "Point(2.102222222 34.112777777)" .
+
+jp:Place_Q5123 a jp:Place ;
+    rdfs:label "Monzón" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5123" ;
+    jp:coordinates "Point(0.183333333 41.9)" .
+
+jp:Place_Q5213666 a jp:Place ;
+    rdfs:label "Ilya" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5213666" ;
+    jp:coordinates "Point(27.29333333 54.4175)" .
+
+jp:Place_Q556200 a jp:Place ;
+    rdfs:label "Piła" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q556200" ;
+    jp:coordinates "Point(16.733333333 53.15)" .
+
+jp:Place_Q556312 a jp:Place ;
+    rdfs:label "Oettingen in Bayern" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q556312" ;
+    jp:coordinates "Point(10.583333333 48.95)" .
+
+jp:Place_Q567332 a jp:Place ;
+    rdfs:label "Annopol" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q567332" ;
+    jp:coordinates "Point(21.866666666 50.883333333)" .
+
+jp:Place_Q569868 a jp:Place ;
+    rdfs:label "Pale of Settlement" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q569868" .
+
+jp:Place_Q5705 a jp:Place ;
+    rdfs:label "Catalonia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5705" ;
+    jp:coordinates "Point(1.566666666 41.85)" .
+
+jp:Place_Q571191 a jp:Place ;
+    rdfs:label "Shavei Tzion" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q571191" ;
+    jp:coordinates "Point(35.0822 32.979597222)" .
+
+jp:Place_Q5776 a jp:Place ;
+    rdfs:label "Bethlehem" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5776" ;
+    jp:coordinates "Point(35.206111111 31.704444444)" .
+
+jp:Place_Q578823 a jp:Place ;
+    rdfs:label "Albertirsa" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q578823" ;
+    jp:coordinates "Point(19.606666666 47.24)" .
+
+jp:Place_Q5882 a jp:Place ;
+    rdfs:label "Ilok" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5882" ;
+    jp:coordinates "Point(19.372777777 45.2225)" .
+
+jp:Place_Q61835 a jp:Place ;
+    rdfs:label "Weikersheim" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q61835" ;
+    jp:coordinates "Point(9.899166666 49.481666666)" .
+
+jp:Place_Q623594 a jp:Place ;
+    rdfs:label "Zolochiv" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q623594" ;
+    jp:coordinates "Point(24.903061305 49.807490888)" .
+
+jp:Place_Q637954 a jp:Place ;
+    rdfs:label "Betar" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q637954" ;
+    jp:coordinates "Point(35.135556 31.73)" .
+
+jp:Place_Q653855 a jp:Place ;
+    rdfs:label "Cieszanów" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q653855" ;
+    jp:coordinates "Point(23.13163 50.24564)" .
+
+jp:Place_Q673412 a jp:Place ;
+    rdfs:label "La Seu d'Urgell" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q673412" ;
+    jp:coordinates "Point(1.458611111 42.357777777)" .
+
+jp:Place_Q681427 a jp:Place ;
+    rdfs:label "Tus" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q681427" ;
+    jp:coordinates "Point(59.517555555 36.486138888)" .
+
+jp:Place_Q70972 a jp:Place ;
+    rdfs:label "Kingdom of France" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q70972" .
+
+jp:Place_Q714249 a jp:Place ;
+    rdfs:label "Zaluzhzhia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q714249" ;
+    jp:coordinates "Point(22.854166666 48.357777777)" .
+
+jp:Place_Q775776 a jp:Place ;
+    rdfs:label "Bystřice" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q775776" ;
+    jp:coordinates "Point(14.667451342 49.732203439)" .
+
+jp:Place_Q776113 a jp:Place ;
+    rdfs:label "Nájera" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q776113" ;
+    jp:coordinates "Point(-2.734166666 42.415833333)" .
+
+jp:Place_Q782775 a jp:Place ;
+    rdfs:label "Lopera" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q782775" ;
+    jp:coordinates "Point(-4.215 37.945833333)" .
+
+jp:Place_Q7830 a jp:Place ;
+    rdfs:label "Sudak" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q7830" ;
+    jp:coordinates "Point(34.9725 44.851388888)" .
+
+jp:Place_Q795401 a jp:Place ;
+    rdfs:label "Spring Valley" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q795401" ;
+    jp:coordinates "Point(-74.0478 41.1144)" .
+
+jp:Place_Q796 a jp:Place ;
+    rdfs:label "Iraq" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q796" ;
+    jp:coordinates "Point(43.0 33.0)" .
+
+jp:Place_Q819126 a jp:Place ;
+    rdfs:label "Berestechko" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q819126" ;
+    jp:coordinates "Point(25.116666666 50.35)" .
+
+jp:Place_Q83324 a jp:Place ;
+    rdfs:label "Sibiu" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q83324" ;
+    jp:coordinates "Point(24.15 45.8)" .
+
+jp:Place_Q928392 a jp:Place ;
+    rdfs:label "Sierpc" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q928392" ;
+    jp:coordinates "Point(19.666666666 52.883333333)" .
+
+jp:Place_bce199912f636082c97fdcca2b3bff01 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/bce199912f636082c97fdcca2b3bff01" ;
+    jp:authorityLink "http://www.wikidata.org/entity/bce199912f636082c97fdcca2b3bff01" .
+
+jp:Place_c98ede63250335e5ec37a3a221e74941 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/c98ede63250335e5ec37a3a221e74941" ;
+    jp:authorityLink "http://www.wikidata.org/entity/c98ede63250335e5ec37a3a221e74941" .
+
+jp:Place_e8284a32093bb62d71b07f1f4efa1fc9 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/e8284a32093bb62d71b07f1f4efa1fc9" ;
+    jp:authorityLink "http://www.wikidata.org/entity/e8284a32093bb62d71b07f1f4efa1fc9" .
+

@@ -1,0 +1,123 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Person_Q1247192 a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ibn Falaquera" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q1247192" ;
+    jp:birthDate "1225"^^xsd:gYear ;
+    jp:deathDate "1290"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q127398 a jp:HistoricalPerson ;
+    rdfs:label "Maimonides" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q127398" ;
+    jp:birthDate "1138"^^xsd:gYear ;
+    jp:deathDate "1204"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q234850 a jp:HistoricalPerson ;
+    rdfs:label "Saadia Gaon" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q234850" ;
+    jp:birthDate "882"^^xsd:gYear ;
+    jp:deathDate "942"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q239268 a jp:HistoricalPerson ;
+    rdfs:label "Judah Halevi" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q239268" ;
+    jp:birthDate "1075"^^xsd:gYear ;
+    jp:deathDate "1141"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q239276 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Ezra" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q239276" ;
+    jp:birthDate "1089"^^xsd:gYear ;
+    jp:deathDate "1164"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q239328 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Gabirol" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q239328" ;
+    jp:birthDate "1021"^^xsd:gYear ;
+    jp:deathDate "1058"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q310862 a jp:HistoricalPerson ;
+    rdfs:label "Gersonides" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q310862" ;
+    jp:birthDate "1288"^^xsd:gYear ;
+    jp:deathDate "1344"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q311226 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abravanel" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q311226" ;
+    jp:birthDate "1437"^^xsd:gYear ;
+    jp:deathDate "1508"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q330104 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Daud" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q330104" ;
+    jp:birthDate "1110"^^xsd:gYear ;
+    jp:deathDate "1180"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q35802 a jp:HistoricalPerson ;
+    rdfs:label "Baruch Spinoza" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q35802" ;
+    jp:birthDate "1632"^^xsd:gYear ;
+    jp:deathDate "1677"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q39837 a jp:HistoricalPerson ;
+    rdfs:label "Averroes" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q39837" ;
+    jp:birthDate "1126"^^xsd:gYear ;
+    jp:deathDate "1198"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q41183 a jp:HistoricalPerson ;
+    rdfs:label "Boethius" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q41183" ;
+    jp:birthDate "480"^^xsd:gYear ;
+    jp:deathDate "524"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q506720 a jp:HistoricalPerson ;
+    rdfs:label "Hasdai Crescas" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q506720" ;
+    jp:birthDate "1340"^^xsd:gYear ;
+    jp:deathDate "1410"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q507563 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Albo" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q507563" ;
+    jp:birthDate "1380"^^xsd:gYear ;
+    jp:deathDate "1444"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q728956 a jp:HistoricalPerson ;
+    rdfs:label "Bahya ibn Paquda" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q728956" ;
+    jp:birthDate "1050"^^xsd:gYear ;
+    jp:deathDate "1120"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q8011 a jp:HistoricalPerson ;
+    rdfs:label "Avicenna" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q8011" ;
+    jp:birthDate "980"^^xsd:gYear ;
+    jp:deathDate "1037"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+
+jp:Person_Q9546 a jp:HistoricalPerson ;
+    rdfs:label "Al-Ghazali" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q9546" ;
+    jp:birthDate "1058"^^xsd:gYear ;
+    jp:deathDate "1111"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey .
+

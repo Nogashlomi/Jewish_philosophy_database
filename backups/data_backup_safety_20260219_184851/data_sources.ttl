@@ -1,0 +1,44 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Source 1: Steven Harvey Reports (original data)
+jp:Source_Harvey a jp:ScholarlyWork, jp:Source ;
+    rdfs:label "Steven Harvey Reports" ;
+    jp:title "Steven Harvey Reports" ;
+    jp:resourceType "Report" .
+
+# Source 2: Freudenthal Book (new book data)
+jp:Source_Freudenthal a jp:ScholarlyWork, jp:Source ;
+    rdfs:label "Science in Medieval Jewish Cultures" ;
+    jp:title "Science in Medieval Jewish Cultures" ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:publisher "Cambridge University Press" ;
+    jp:resourceType "Book" ;
+    jp:hasAuthor jp:Scholar_Freudenthal .
+
+jp:Scholar_Freudenthal a jp:Scholar ;
+    rdfs:label "Gad Freudenthal" ;
+    jp:name "Gad Freudenthal" ;
+    jp:role "Editor" .
+
+# Source 3: Wikidata (direct SPARQL query)
+jp:Source_Wikidata a jp:Source ;
+    rdfs:label "Wikidata" ;
+    jp:sourceTitle "Wikidata" ;
+    jp:sourcePublisher "Wikimedia Foundation" ;
+    jp:sourceURL "https://www.wikidata.org/" ;
+    jp:sourceDescription "Free and open knowledge base that can be read and edited by both humans and machines" .
+
+jp:Source_BooksReports a jp:Source ;
+    rdfs:label "Books and Reports" ;
+    jp:sourceTitle "Books and Reports Collection" ;
+    jp:sourcePublisher "Various" ;
+    jp:sourceDescription "Extracted data from scholarly books and reports on medieval Jewish philosophy" .
+
+jp:Source_NLI_Astronomy a jp:Source ;
+    rdfs:label "NLI MARC Astronomy" ;
+    jp:sourceTitle "National Library of Israel MARC Records - Astronomy Collection" ;
+    jp:sourcePublisher "National Library of Israel" ;
+    jp:sourceURL "https://www.nli.org.il/" ;
+    jp:sourceDescription "MARC bibliographic records for astronomy-related manuscripts and works" .

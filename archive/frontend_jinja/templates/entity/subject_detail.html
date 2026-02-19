@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ subject.label }} - JPO{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ subject.label }}</h1>
+    <p class="subtitle">Subject</p>
+
+    <h3>Works on this Subject</h3>
+    {% if subject.works %}
+    <ul>
+        {% for w in subject.works %}
+        <li><a href="/works/{{ w.id }}">{{ w.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No works recorded for this subject.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Work_Exalted_Faith a jp:HistoricalWork ;
+    rdfs:label "Exalted Faith" ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Work_Q22116664 a jp:HistoricalWork ;
+    rdfs:label "Fons Vitae" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q22116664" ;
+    jp:hasSource jp:Source_BooksReports .
+
+jp:Work_Q3296813 a jp:HistoricalWork ;
+    rdfs:label "Hayy ibn Yaqzan" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q3296813" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:language "Arabic" .
+
+jp:Work_Q42189176 a jp:HistoricalWork ;
+    rdfs:label "Duties of the Heart" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q42189176" ;
+    jp:hasSource jp:Source_BooksReports .
+

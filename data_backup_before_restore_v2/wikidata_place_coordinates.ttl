@@ -1,0 +1,6636 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Place_Q100 jp:latitude 4.236028e+01 ;
+    jp:longitude -7.105778e+01 .
+
+jp:Place_Q1000091 jp:latitude 5.016287e+01 ;
+    jp:longitude 1.627495e+01 .
+
+jp:Place_Q1000147 jp:latitude 5.053083e+01 ;
+    jp:longitude 1.871556e+01 .
+
+jp:Place_Q1000887 jp:latitude 3.203333e+01 ;
+    jp:longitude 3.488333e+01 .
+
+jp:Place_Q100188 jp:latitude 4.676891e+01 ;
+    jp:longitude 2.359066e+01 .
+
+jp:Place_Q1003997 jp:latitude 3.25e+01 ;
+    jp:longitude 3.49e+01 .
+
+jp:Place_Q1004265 jp:latitude 4.963333e+01 ;
+    jp:longitude 2.37e+01 .
+
+jp:Place_Q1004290 jp:latitude 5.626667e+01 ;
+    jp:longitude 2.153333e+01 .
+
+jp:Place_Q1004298 jp:latitude 5.441472e+01 ;
+    jp:longitude 2.322806e+01 .
+
+jp:Place_Q1004320 jp:latitude 5.526667e+01 ;
+    jp:longitude 2.348333e+01 .
+
+jp:Place_Q1005464 jp:latitude 5.326028e+01 ;
+    jp:longitude 1.982111e+01 .
+
+jp:Place_Q1005972 jp:latitude 5.191674e+01 ;
+    jp:longitude 1.724133e+01 .
+
+jp:Place_Q1006764 jp:latitude 5.175e+01 ;
+    jp:longitude 1.92e+01 .
+
+jp:Place_Q1007046 jp:latitude 4.06467e+01 ;
+    jp:longitude -8.36086e+01 .
+
+jp:Place_Q1007172 jp:latitude 5.22625e+01 ;
+    jp:longitude 6.7111e+00 .
+
+jp:Place_Q1007479 jp:latitude 5.254194e+01 ;
+    jp:longitude 1.883556e+01 .
+
+jp:Place_Q1008032 jp:latitude 4.828395e+01 ;
+    jp:longitude 2.144617e+01 .
+
+jp:Place_Q1008213 jp:latitude 4.881083e+01 ;
+    jp:longitude 1.941722e+01 .
+
+jp:Place_Q1008686 jp:latitude 4.910148e+01 ;
+    jp:longitude 1.637753e+01 .
+
+jp:Place_Q1008991 jp:latitude 4.93518e+01 ;
+    jp:longitude 1.730209e+01 .
+
+jp:Place_Q1009308 jp:latitude 3.383e+01 ;
+    jp:longitude -4.83e+00 .
+
+jp:Place_Q1009702 jp:latitude 4.87e+01 ;
+    jp:longitude 2.170667e+01 .
+
+jp:Place_Q101081 jp:latitude 4.4e+01 ;
+    jp:longitude 6e+00 .
+
+jp:Place_Q1011310 jp:latitude 4.955e+01 ;
+    jp:longitude 2.796667e+01 .
+
+jp:Place_Q1011334 jp:latitude 5.343722e+01 ;
+    jp:longitude 2.897056e+01 .
+
+jp:Place_Q1011641 jp:latitude 4.981631e+01 ;
+    jp:longitude 1.547692e+01 .
+
+jp:Place_Q1011718 jp:latitude 4.655562e+01 ;
+    jp:longitude 1.847774e+01 .
+
+jp:Place_Q1012604 jp:latitude 4.980964e+01 ;
+    jp:longitude 2.755931e+01 .
+
+jp:Place_Q1013233 jp:latitude 4.06522e+01 ;
+    jp:longitude -7.42602e+01 .
+
+jp:Place_Q1015152 jp:latitude 5.111778e+01 ;
+    jp:longitude 1.887e+01 .
+
+jp:Place_Q1015264 jp:latitude 5.486389e+01 ;
+    jp:longitude 2.421667e+01 .
+
+jp:Place_Q101625 jp:latitude 3.162947e+01 ;
+    jp:longitude -7.98108e+00 .
+
+jp:Place_Q1017 jp:latitude 5.077621e+01 ;
+    jp:longitude 6.083788e+00 .
+
+jp:Place_Q1017333 jp:latitude 3.132389e+01 ;
+    jp:longitude -4.2575e+00 .
+
+jp:Place_Q1017574 jp:latitude 4.806351e+01 ;
+    jp:longitude 2.141435e+01 .
+
+jp:Place_Q1017889 jp:latitude 4.916587e+01 ;
+    jp:longitude 1.388626e+01 .
+
+jp:Place_Q1018007 jp:latitude 5.553339e+01 ;
+    jp:longitude 3.759434e+01 .
+
+jp:Place_Q1018357 jp:latitude 4.818981e+01 ;
+    jp:longitude 2.127097e+01 .
+
+jp:Place_Q1018921 jp:latitude 3.165302e+01 ;
+    jp:longitude 3.522903e+01 .
+
+jp:Place_Q1019083 jp:latitude 4.917156e+01 ;
+    jp:longitude 1.751196e+01 .
+
+jp:Place_Q1019884 jp:latitude 4.991917e+01 ;
+    jp:longitude 2.372333e+01 .
+
+jp:Place_Q1019988 jp:latitude 5.063113e+01 ;
+    jp:longitude 1.578191e+01 .
+
+jp:Place_Q1020037 jp:latitude 4.997917e+01 ;
+    jp:longitude 2.407611e+01 .
+
+jp:Place_Q1020096 jp:latitude 4.965e+01 ;
+    jp:longitude 2.696667e+01 .
+
+jp:Place_Q1020122 jp:latitude 4.944722e+01 ;
+    jp:longitude 2.852306e+01 .
+
+jp:Place_Q1020341 jp:latitude 4.106917e+01 ;
+    jp:longitude -7.385972e+01 .
+
+jp:Place_Q1020441 jp:latitude 4.965111e+01 ;
+    jp:longitude 2.385583e+01 .
+
+jp:Place_Q1020927 jp:latitude 4.989345e+01 ;
+    jp:longitude 1.602856e+01 .
+
+jp:Place_Q1021080 jp:latitude 4.952755e+01 ;
+    jp:longitude 1.758634e+01 .
+
+jp:Place_Q1021826 jp:latitude 4.704342e+01 ;
+    jp:longitude 1.721193e+01 .
+
+jp:Place_Q1022 jp:latitude 4.87775e+01 ;
+    jp:longitude 9.18e+00 .
+
+jp:Place_Q102217 jp:latitude 5.518333e+01 ;
+    jp:longitude 3.016667e+01 .
+
+jp:Place_Q1022485 jp:latitude 4.9436e+01 ;
+    jp:longitude 2.7395e+01 .
+
+jp:Place_Q1022967 jp:latitude 4.873139e+01 ;
+    jp:longitude 1.740583e+01 .
+
+jp:Place_Q102317 jp:latitude 5.08725e+01 ;
+    jp:longitude 2.063194e+01 .
+
+jp:Place_Q1023454 jp:latitude 4.946615e+01 ;
+    jp:longitude 1.701505e+01 .
+
+jp:Place_Q102350 jp:latitude 5.0347e+01 ;
+    jp:longitude 1.8923e+01 .
+
+jp:Place_Q1023852 jp:latitude 5.445556e+01 ;
+    jp:longitude 2.271944e+01 .
+
+jp:Place_Q102397 jp:latitude 4.81e+01 ;
+    jp:longitude 2.078333e+01 .
+
+jp:Place_Q1024673 jp:latitude 5.462427e+01 ;
+    jp:longitude 2.281806e+01 .
+
+jp:Place_Q1025260 jp:latitude 4.911667e+01 ;
+    jp:longitude 2.038333e+01 .
+
+jp:Place_Q1025293 jp:latitude 3.178694e+01 ;
+    jp:longitude 3.522222e+01 .
+
+jp:Place_Q1025869 jp:latitude 5.356639e+01 ;
+    jp:longitude 2.61425e+01 .
+
+jp:Place_Q1025872 jp:latitude 5.502611e+01 ;
+    jp:longitude 3.079472e+01 .
+
+jp:Place_Q1025883 jp:latitude 5.345e+01 ;
+    jp:longitude 2.54e+01 .
+
+jp:Place_Q1026940 jp:latitude 4.979596e+01 ;
+    jp:longitude 2.537825e+01 .
+
+jp:Place_Q1027604 jp:latitude 4.898557e+01 ;
+    jp:longitude 1.738985e+01 .
+
+jp:Place_Q1027959 jp:latitude 4.974472e+01 ;
+    jp:longitude 1.692897e+01 .
+
+jp:Place_Q1027972 jp:latitude 4.885139e+01 ;
+    jp:longitude 2.127167e+01 .
+
+jp:Place_Q1028 jp:latitude 3.2e+01 ;
+    jp:longitude -6e+00 .
+
+jp:Place_Q1028027 jp:latitude 5.044389e+01 ;
+    jp:longitude 2.224083e+01 .
+
+jp:Place_Q1029645 jp:latitude 3.401472e+01 ;
+    jp:longitude 4.414556e+01 .
+
+jp:Place_Q10305 jp:latitude 4.165e+01 ;
+    jp:longitude -8.833333e-01 .
+
+jp:Place_Q1031574 jp:latitude 4.66864e+01 ;
+    jp:longitude 1.8445e+01 .
+
+jp:Place_Q103217 jp:latitude 5.080964e+01 ;
+    jp:longitude 1.912217e+01 .
+
+jp:Place_Q103892 jp:latitude 5.03e+01 ;
+    jp:longitude 1.878333e+01 .
+
+jp:Place_Q1040 jp:latitude 4.901667e+01 ;
+    jp:longitude 8.4e+00 .
+
+jp:Place_Q104028 jp:latitude 3.169889e+01 ;
+    jp:longitude 3.530639e+01 .
+
+jp:Place_Q104036 jp:latitude 5.738972e+01 ;
+    jp:longitude 2.156444e+01 .
+
+jp:Place_Q104302 jp:latitude 5.02884e+01 ;
+    jp:longitude 1.89628e+01 .
+
+jp:Place_Q104720 jp:latitude 5.193972e+01 ;
+    jp:longitude 1.5505e+01 .
+
+jp:Place_Q104725 jp:latitude 5.255e+01 ;
+    jp:longitude 1.97e+01 .
+
+jp:Place_Q104731 jp:latitude 5.273333e+01 ;
+    jp:longitude 1.525e+01 .
+
+jp:Place_Q104740 jp:latitude 5.141667e+01 ;
+    jp:longitude 2.115e+01 .
+
+jp:Place_Q1047661 jp:latitude 4.7848e+01 ;
+    jp:longitude 2.0226e+01 .
+
+jp:Place_Q104994 jp:latitude 3.405e+01 ;
+    jp:longitude -1.1825e+02 .
+
+jp:Place_Q1050 jp:latitude -2.648333e+01 ;
+    jp:longitude 3.143333e+01 .
+
+jp:Place_Q1050545 jp:latitude 4.83925e+01 ;
+    jp:longitude 2.20939e+01 .
+
+jp:Place_Q105060 jp:latitude 5.03e+01 ;
+    jp:longitude 1.916667e+01 .
+
+jp:Place_Q105084 jp:latitude 5.029417e+01 ;
+    jp:longitude 1.866583e+01 .
+
+jp:Place_Q105206 jp:latitude 4.8e+01 ;
+    jp:longitude 2.6e+01 .
+
+jp:Place_Q1055 jp:latitude 5.355e+01 ;
+    jp:longitude 1e+01 .
+
+jp:Place_Q106268 jp:latitude 5.333872e+01 ;
+    jp:longitude 1.504475e+01 .
+
+jp:Place_Q106281 jp:latitude 5.00125e+01 ;
+    jp:longitude 2.098833e+01 .
+
+jp:Place_Q1065497 jp:latitude 4.147639e+01 ;
+    jp:longitude -8.155167e+01 .
+
+jp:Place_Q106583 jp:latitude 4.98225e+01 ;
+    jp:longitude 1.904444e+01 .
+
+jp:Place_Q1066077 jp:latitude 4.548556e+01 ;
+    jp:longitude 4.379167e+00 .
+
+jp:Place_Q106681 jp:latitude 5.265e+01 ;
+    jp:longitude 1.905e+01 .
+
+jp:Place_Q10686 jp:latitude 5.459667e+01 ;
+    jp:longitude -5.93e+00 .
+
+jp:Place_Q1068701 jp:latitude 4.751667e+01 ;
+    jp:longitude 1.901667e+01 .
+
+jp:Place_Q10690 jp:latitude 5.148167e+01 ;
+    jp:longitude -3.179167e+00 .
+
+jp:Place_Q1070091 jp:latitude 4.795417e+01 ;
+    jp:longitude 1.765833e+01 .
+
+jp:Place_Q1070861 jp:latitude 4.712219e+01 ;
+    jp:longitude 1.716408e+01 .
+
+jp:Place_Q107094 jp:latitude 5.008333e+01 ;
+    jp:longitude 1.85e+01 .
+
+jp:Place_Q10710237 jp:latitude 5.985813e+01 ;
+    jp:longitude 1.763358e+01 .
+
+jp:Place_Q107126 jp:latitude 3.888028e+01 ;
+    jp:longitude -7.710833e+01 .
+
+jp:Place_Q1071502 jp:latitude 4.831667e+01 ;
+    jp:longitude 1.833333e+01 .
+
+jp:Place_Q1072930 jp:latitude 4.853889e+01 ;
+    jp:longitude 2.126667e+01 .
+
+jp:Place_Q1073406 jp:latitude 4.700242e+01 ;
+    jp:longitude 1.854768e+01 .
+
+jp:Place_Q10737004 jp:latitude 4.658333e+01 ;
+    jp:longitude 2.691667e+01 .
+
+jp:Place_Q107501 jp:latitude 4.899722e+01 ;
+    jp:longitude 2.378056e+00 .
+
+jp:Place_Q1076109 jp:latitude 5.303333e+01 ;
+    jp:longitude 2.41e+01 .
+
+jp:Place_Q1079847 jp:latitude 4.69835e+01 ;
+    jp:longitude 1.769408e+01 .
+
+jp:Place_Q1079857 jp:latitude 4.811667e+01 ;
+    jp:longitude 2.203333e+01 .
+
+jp:Place_Q1079866 jp:latitude 4.749556e+01 ;
+    jp:longitude 2.400694e+01 .
+
+jp:Place_Q10815719 jp:latitude 5.01858e+01 ;
+    jp:longitude 1.46594e+01 .
+
+jp:Place_Q1082492 jp:latitude 4.101611e+01 ;
+    jp:longitude -7.39825e+01 .
+
+jp:Place_Q1085 jp:latitude 5.00875e+01 ;
+    jp:longitude 1.442139e+01 .
+
+jp:Place_Q1087121 jp:latitude 4.0768e+01 ;
+    jp:longitude -7.42357e+01 .
+
+jp:Place_Q1088095 jp:latitude 4.0989e+01 ;
+    jp:longitude -7.40319e+01 .
+
+jp:Place_Q1088243 jp:latitude 4.683333e+01 ;
+    jp:longitude 2.168333e+01 .
+
+jp:Place_Q1088629 jp:latitude 4.09459e+01 ;
+    jp:longitude -7.42451e+01 .
+
+jp:Place_Q1088792 jp:latitude 4.009778e+01 ;
+    jp:longitude -7.421778e+01 .
+
+jp:Place_Q1089052 jp:latitude 4.995778e+01 ;
+    jp:longitude 2.083833e+01 .
+
+jp:Place_Q1089545 jp:latitude 4.090722e+01 ;
+    jp:longitude -7.407528e+01 .
+
+jp:Place_Q1092345 jp:latitude 4.56147e+01 ;
+    jp:longitude 1.93644e+01 .
+
+jp:Place_Q1093246 jp:latitude 4.796346e+01 ;
+    jp:longitude 2.401356e+01 .
+
+jp:Place_Q1093421 jp:latitude 4.827278e+01 ;
+    jp:longitude 2.437472e+01 .
+
+jp:Place_Q1093658 jp:latitude 4.8e+01 ;
+    jp:longitude 2.231667e+01 .
+
+jp:Place_Q1094180 jp:latitude 4.91706e+01 ;
+    jp:longitude 2.20405e+01 .
+
+jp:Place_Q109992 jp:latitude 5.21e+01 ;
+    jp:longitude 1.993333e+01 .
+
+jp:Place_Q110011 jp:latitude 5.417611e+01 ;
+    jp:longitude 1.557611e+01 .
+
+jp:Place_Q1104385 jp:latitude 4.875e+01 ;
+    jp:longitude 2.227139e+01 .
+
+jp:Place_Q1116324 jp:latitude 4.544611e+01 ;
+    jp:longitude 4.336667e+00 .
+
+jp:Place_Q11194 jp:latitude 4.385639e+01 ;
+    jp:longitude 1.841306e+01 .
+
+jp:Place_Q1125268 jp:latitude 4.754678e+01 ;
+    jp:longitude 1.826048e+01 .
+
+jp:Place_Q1126267 jp:latitude 4.001611e+01 ;
+    jp:longitude -7.959e+01 .
+
+jp:Place_Q11299 jp:latitude 4.072833e+01 ;
+    jp:longitude -7.399417e+01 .
+
+jp:Place_Q1131325 jp:latitude 5.022382e+01 ;
+    jp:longitude 1.238039e+01 .
+
+jp:Place_Q1132798 jp:latitude 3.275306e+01 ;
+    jp:longitude 3.527917e+01 .
+
+jp:Place_Q11341632 jp:latitude 4.926472e+01 ;
+    jp:longitude 1.656472e+01 .
+
+jp:Place_Q11390 jp:latitude 5.006667e+01 ;
+    jp:longitude 1.995e+01 .
+
+jp:Place_Q1141853 jp:latitude 4.682583e+01 ;
+    jp:longitude 2.859361e+01 .
+
+jp:Place_Q1143278 jp:latitude 5.14486e+01 ;
+    jp:longitude -3.369e-01 .
+
+jp:Place_Q1144835 jp:latitude 4.09972e+01 ;
+    jp:longitude -8.03444e+01 .
+
+jp:Place_Q115 jp:latitude 9e+00 ;
+    jp:longitude 4e+01 .
+
+jp:Place_Q115572 jp:latitude 3.956722e+01 ;
+    jp:longitude -1.206667e+00 .
+
+jp:Place_Q1156 jp:latitude 1.907583e+01 ;
+    jp:longitude 7.28775e+01 .
+
+jp:Place_Q1157215 jp:latitude 4.298333e+01 ;
+    jp:longitude 4.748333e+01 .
+
+jp:Place_Q1158045 jp:latitude 4.824972e+01 ;
+    jp:longitude 6.902222e+00 .
+
+jp:Place_Q1163150 jp:latitude 4.79055e+01 ;
+    jp:longitude 1.84955e+01 .
+
+jp:Place_Q116366 jp:latitude 5.224639e+01 ;
+    jp:longitude 2.099056e+01 .
+
+jp:Place_Q116417 jp:latitude 4.839405e+01 ;
+    jp:longitude 2.165611e+01 .
+
+jp:Place_Q11739677 jp:latitude 4.9979e+01 ;
+    jp:longitude 2.0039e+01 .
+
+jp:Place_Q1176573 jp:latitude 4.681771e+01 ;
+    jp:longitude 1.847437e+01 .
+
+jp:Place_Q1183952 jp:latitude 4.00961e+01 ;
+    jp:longitude -7.51294e+01 .
+
+jp:Place_Q1184622 jp:latitude 4.803972e+01 ;
+    jp:longitude 1.740778e+01 .
+
+jp:Place_Q1185749 jp:latitude 4.780167e+01 ;
+    jp:longitude 2.206056e+01 .
+
+jp:Place_Q1185959 jp:latitude 4.809636e+01 ;
+    jp:longitude 2.210066e+01 .
+
+jp:Place_Q1186235 jp:latitude 4.751667e+01 ;
+    jp:longitude 1.883333e+01 .
+
+jp:Place_Q1186706 jp:latitude 4.805e+01 ;
+    jp:longitude 2.236667e+01 .
+
+jp:Place_Q1189427 jp:latitude 4.68577e+01 ;
+    jp:longitude 2.216644e+01 .
+
+jp:Place_Q1190590 jp:latitude 3.415917e+01 ;
+    jp:longitude -1.185003e+02 .
+
+jp:Place_Q11953 jp:latitude 4.063333e+01 ;
+    jp:longitude -3.166667e+00 .
+
+jp:Place_Q11967 jp:latitude 4.21401e+01 ;
+    jp:longitude -4.088972e-01 .
+
+jp:Place_Q1199 jp:latitude 5.060803e+01 ;
+    jp:longitude 9.028472e+00 .
+
+jp:Place_Q1202211 jp:latitude 4.071611e+01 ;
+    jp:longitude -7.385e+01 .
+
+jp:Place_Q12040651 jp:latitude 3.208675e+01 ;
+    jp:longitude 3.483435e+01 .
+
+jp:Place_Q121157 jp:latitude 3.629749e+01 ;
+    jp:longitude 5.960592e+01 .
+
+jp:Place_Q121378 jp:latitude 3.96e+01 ;
+    jp:longitude 1.987e+01 .
+
+jp:Place_Q12155 jp:latitude 4.176667e+01 ;
+    jp:longitude -2.466667e+00 .
+
+jp:Place_Q12173867 jp:latitude 5.228472e+01 ;
+    jp:longitude 2.443056e+01 .
+
+jp:Place_Q1218 jp:latitude 3.177889e+01 ;
+    jp:longitude 3.522556e+01 .
+
+jp:Place_Q122073 jp:latitude 4.906667e+01 ;
+    jp:longitude 1.046667e+01 .
+
+jp:Place_Q1220774 jp:latitude 5.10794e+01 ;
+    jp:longitude 9.85093e+00 .
+
+jp:Place_Q12209416 jp:latitude 1.534961e+01 ;
+    jp:longitude 4.419478e+01 .
+
+jp:Place_Q1223508 jp:latitude 4.111694e+01 ;
+    jp:longitude 2.080194e+01 .
+
+jp:Place_Q123559 jp:latitude 3.7e+01 ;
+    jp:longitude -4e+00 .
+
+jp:Place_Q12404022 jp:latitude 1.26e+01 ;
+    jp:longitude 3.746667e+01 .
+
+jp:Place_Q12404506 jp:latitude 3.1765e+01 ;
+    jp:longitude 3.514944e+01 .
+
+jp:Place_Q12404509 jp:latitude 3.178333e+01 ;
+    jp:longitude 3.522125e+01 .
+
+jp:Place_Q12404547 jp:latitude 3.177384e+01 ;
+    jp:longitude 3.524307e+01 .
+
+jp:Place_Q124375 jp:latitude 4.643028e+01 ;
+    jp:longitude 2.031889e+01 .
+
+jp:Place_Q12439 jp:latitude 4.233167e+01 ;
+    jp:longitude -8.30475e+01 .
+
+jp:Place_Q124554 jp:latitude 4.348608e+01 ;
+    jp:longitude 1.34821e+01 .
+
+jp:Place_Q1251216 jp:latitude 5.536667e+01 ;
+    jp:longitude 2.388333e+01 .
+
+jp:Place_Q12548 jp:latitude 5e+01 ;
+    jp:longitude 1e+01 .
+
+jp:Place_Q12560 jp:latitude 4.1e+01 ;
+    jp:longitude 2.9e+01 .
+
+jp:Place_Q1260707 jp:latitude 4.904706e+01 ;
+    jp:longitude 1.760008e+01 .
+
+jp:Place_Q126084 jp:latitude 3.292611e+01 ;
+    jp:longitude 3.508389e+01 .
+
+jp:Place_Q126148 jp:latitude 3.577667e+01 ;
+    jp:longitude -5.803889e+00 .
+
+jp:Place_Q12631 jp:latitude 4.896556e+01 ;
+    jp:longitude 5.377778e+00 .
+
+jp:Place_Q126321 jp:latitude 4.784565e+01 ;
+    jp:longitude 1.652327e+01 .
+
+jp:Place_Q12661651 jp:latitude 5.579778e+01 ;
+    jp:longitude 2.164639e+01 .
+
+jp:Place_Q12675975 jp:latitude 5.4916e+01 ;
+    jp:longitude 2.3927e+01 .
+
+jp:Place_Q12676774 jp:latitude 5.6397e+01 ;
+    jp:longitude 2.2942e+01 .
+
+jp:Place_Q12717 jp:latitude 4.881667e+01 ;
+    jp:longitude 7.783333e+00 .
+
+jp:Place_Q12731261 jp:latitude 4.76755e+01 ;
+    jp:longitude 2.62356e+01 .
+
+jp:Place_Q12770 jp:latitude 4.988333e+01 ;
+    jp:longitude 2.416667e+00 .
+
+jp:Place_Q127856 jp:latitude 3.407306e+01 ;
+    jp:longitude -1.183994e+02 .
+
+jp:Place_Q128069 jp:latitude 4.30469e+01 ;
+    jp:longitude -7.614442e+01 .
+
+jp:Place_Q12812 jp:latitude 4.08125e+01 ;
+    jp:longitude 5.211111e-01 .
+
+jp:Place_Q12816876 jp:latitude 4.80203e+01 ;
+    jp:longitude 1.858341e+01 .
+
+jp:Place_Q12816920 jp:latitude 4.756667e+01 ;
+    jp:longitude 1.908333e+01 .
+
+jp:Place_Q12837 jp:latitude 4.024e+01 ;
+    jp:longitude -4.239167e+00 .
+
+jp:Place_Q128466 jp:latitude 4.879389e+01 ;
+    jp:longitude 2.361111e+00 .
+
+jp:Place_Q128499 jp:latitude 4.449944e+01 ;
+    jp:longitude 3.415528e+01 .
+
+jp:Place_Q1285677 jp:latitude 4.863699e+01 ;
+    jp:longitude 1.714849e+01 .
+
+jp:Place_Q12892 jp:latitude 5.122111e+01 ;
+    jp:longitude 4.399722e+00 .
+
+jp:Place_Q1295 jp:latitude 5.151389e+01 ;
+    jp:longitude 7.465278e+00 .
+
+jp:Place_Q129677 jp:latitude 5.126667e+01 ;
+    jp:longitude 3.021667e+01 .
+
+jp:Place_Q1297 jp:latitude 4.188194e+01 ;
+    jp:longitude -8.762778e+01 .
+
+jp:Place_Q1298082 jp:latitude 4.768833e+01 ;
+    jp:longitude 1.76225e+01 .
+
+jp:Place_Q130212 jp:latitude 4.719102e+01 ;
+    jp:longitude 1.841081e+01 .
+
+jp:Place_Q13029781 jp:latitude 5.455528e+01 ;
+    jp:longitude 2.696444e+01 .
+
+jp:Place_Q130994 jp:latitude 4.808111e+01 ;
+    jp:longitude 7.355e+00 .
+
+jp:Place_Q1310 jp:latitude 5.198333e+01 ;
+    jp:longitude 5.916667e+00 .
+
+jp:Place_Q131301 jp:latitude 3.473333e+01 ;
+    jp:longitude 3.671667e+01 .
+
+jp:Place_Q13134 jp:latitude 4.391015e+01 ;
+    jp:longitude 1.29133e+01 .
+
+jp:Place_Q131416 jp:latitude 4.205778e+01 ;
+    jp:longitude 4.828889e+01 .
+
+jp:Place_Q131491 jp:latitude 5.082083e+01 ;
+    jp:longitude -1.375e-01 .
+
+jp:Place_Q131605 jp:latitude 4.666956e+01 ;
+    jp:longitude 1.115942e+01 .
+
+jp:Place_Q131612 jp:latitude 4.781667e+01 ;
+    jp:longitude 1.625e+01 .
+
+jp:Place_Q131818 jp:latitude 3.569694e+01 ;
+    jp:longitude -6.330556e-01 .
+
+jp:Place_Q1324239 jp:latitude 3.388639e+01 ;
+    jp:longitude 9.795073e+00 .
+
+jp:Place_Q132671 jp:latitude 4.330083e+01 ;
+    jp:longitude -3.7e-01 .
+
+jp:Place_Q13298 jp:latitude 4.707083e+01 ;
+    jp:longitude 1.543861e+01 .
+
+jp:Place_Q133116 jp:latitude 4.325667e+01 ;
+    jp:longitude -7.986917e+01 .
+
+jp:Place_Q1333965 jp:latitude 5.025444e+01 ;
+    jp:longitude 2.865778e+01 .
+
+jp:Place_Q1335 jp:latitude -3.490592e+01 ;
+    jp:longitude -5.619131e+01 .
+
+jp:Place_Q13360 jp:latitude 4.47e+01 ;
+    jp:longitude 1.063333e+01 .
+
+jp:Place_Q13362 jp:latitude 4.483917e+01 ;
+    jp:longitude 1.16175e+01 .
+
+jp:Place_Q13367 jp:latitude 4.42225e+01 ;
+    jp:longitude 1.204083e+01 .
+
+jp:Place_Q13375 jp:latitude 4.371667e+01 ;
+    jp:longitude 1.04e+01 .
+
+jp:Place_Q13386 jp:latitude 4.035201e+01 ;
+    jp:longitude 1.816914e+01 .
+
+jp:Place_Q1342 jp:latitude 4.044167e+01 ;
+    jp:longitude -8e+01 .
+
+jp:Place_Q134287 jp:latitude 3.691667e+01 ;
+    jp:longitude 3.49e+01 .
+
+jp:Place_Q134494 jp:latitude 4.768417e+01 ;
+    jp:longitude 1.763444e+01 .
+
+jp:Place_Q1345 jp:latitude 3.995278e+01 ;
+    jp:longitude -7.516361e+01 .
+
+jp:Place_Q134674 jp:latitude 4.34925e+01 ;
+    jp:longitude -1.476389e+00 .
+
+jp:Place_Q134712 jp:latitude 5.592806e+01 ;
+    jp:longitude 2.331667e+01 .
+
+jp:Place_Q1348 jp:latitude 2.25675e+01 ;
+    jp:longitude 8.837e+01 .
+
+jp:Place_Q1350047 jp:latitude 5.213333e+01 ;
+    jp:longitude 6.616667e+00 .
+
+jp:Place_Q1351046 jp:latitude 5.455667e+01 ;
+    jp:longitude 2.335444e+01 .
+
+jp:Place_Q1352 jp:latitude 1.30825e+01 ;
+    jp:longitude 8.0275e+01 .
+
+jp:Place_Q135421 jp:latitude 3.308333e+01 ;
+    jp:longitude 3.515e+01 .
+
+jp:Place_Q135425 jp:latitude 3.27432e+01 ;
+    jp:longitude 3.50935e+01 .
+
+jp:Place_Q135667 jp:latitude 4.842333e+01 ;
+    jp:longitude 2.197972e+01 .
+
+jp:Place_Q135744 jp:latitude 2.930139e+01 ;
+    jp:longitude -9.479778e+01 .
+
+jp:Place_Q135818 jp:latitude 4.866528e+01 ;
+    jp:longitude 1.753722e+01 .
+
+jp:Place_Q1363802 jp:latitude 5.266667e+01 ;
+    jp:longitude 2.201667e+01 .
+
+jp:Place_Q1369658 jp:latitude 4.246444e+01 ;
+    jp:longitude -8.337639e+01 .
+
+jp:Place_Q1370292 jp:latitude 4.084167e+01 ;
+    jp:longitude -7.39375e+01 .
+
+jp:Place_Q137863 jp:latitude 5.513333e+01 ;
+    jp:longitude 2.615556e+01 .
+
+jp:Place_Q1378794 jp:latitude 3.309361e+01 ;
+    jp:longitude 4.458056e+01 .
+
+jp:Place_Q1379299 jp:latitude 3.841861e+01 ;
+    jp:longitude 2.714284e+01 .
+
+jp:Place_Q138229 jp:latitude 5.121278e+01 ;
+    jp:longitude 1.738306e+01 .
+
+jp:Place_Q138391 jp:latitude 4.091667e+01 ;
+    jp:longitude -7.417222e+01 .
+
+jp:Place_Q1384 jp:latitude 4.3e+01 ;
+    jp:longitude -7.5e+01 .
+
+jp:Place_Q138518 jp:latitude 4.035222e+01 ;
+    jp:longitude -7.465694e+01 .
+
+jp:Place_Q138578 jp:latitude 4.0745e+01 ;
+    jp:longitude -7.40325e+01 .
+
+jp:Place_Q1394500 jp:latitude 5.145e+01 ;
+    jp:longitude -1e-01 .
+
+jp:Place_Q139564 jp:latitude 3.93625e+01 ;
+    jp:longitude -7.4425e+01 .
+
+jp:Place_Q1397 jp:latitude 4.05e+01 ;
+    jp:longitude -8.25e+01 .
+
+jp:Place_Q13972 jp:latitude 5.838e+01 ;
+    jp:longitude 2.67225e+01 .
+
+jp:Place_Q1399108 jp:latitude 3.24719e+01 ;
+    jp:longitude 3.54812e+01 .
+
+jp:Place_Q1400 jp:latitude 4.1e+01 ;
+    jp:longitude -7.75e+01 .
+
+jp:Place_Q140147 jp:latitude 5.208472e+01 ;
+    jp:longitude 2.365694e+01 .
+
+jp:Place_Q140476 jp:latitude 5.216556e+01 ;
+    jp:longitude 1.789167e+01 .
+
+jp:Place_Q1405039 jp:latitude 5.16933e+01 ;
+    jp:longitude -2.17361e+00 .
+
+jp:Place_Q140671 jp:latitude 5.033333e+01 ;
+    jp:longitude 2.651667e+01 .
+
+jp:Place_Q1408 jp:latitude 4e+01 ;
+    jp:longitude -7.45e+01 .
+
+jp:Place_Q1410 jp:latitude 3.614e+01 ;
+    jp:longitude -5.35e+00 .
+
+jp:Place_Q1410457 jp:latitude 5.056894e+01 ;
+    jp:longitude 1.428916e+01 .
+
+jp:Place_Q1415052 jp:latitude 5.303889e+01 ;
+    jp:longitude 2.626639e+01 .
+
+jp:Place_Q142 jp:latitude 4.7e+01 ;
+    jp:longitude 2e+00 .
+
+jp:Place_Q142312 jp:latitude 4.45e+01 ;
+    jp:longitude -6.45e+01 .
+
+jp:Place_Q1425428 jp:latitude 5.497778e+01 ;
+    jp:longitude -1.613333e+00 .
+
+jp:Place_Q143140 jp:latitude 4.851167e+01 ;
+    jp:longitude 1.450611e+01 .
+
+jp:Place_Q1432 jp:latitude 5.118333e+01 ;
+    jp:longitude 1.016667e+01 .
+
+jp:Place_Q14323 jp:latitude 3.891583e+01 ;
+    jp:longitude -6.333333e+00 .
+
+jp:Place_Q1435 jp:latitude 4.581306e+01 ;
+    jp:longitude 1.597722e+01 .
+
+jp:Place_Q1439 jp:latitude 3.1e+01 ;
+    jp:longitude -1e+02 .
+
+jp:Place_Q14424 jp:latitude 4.645583e+01 ;
+    jp:longitude 1.69975e+01 .
+
+jp:Place_Q144880 jp:latitude 3.78e+01 ;
+    jp:longitude 2.075e+01 .
+
+jp:Place_Q1449 jp:latitude 4.440719e+01 ;
+    jp:longitude 8.933983e+00 .
+
+jp:Place_Q145 jp:latitude 5.46e+01 ;
+    jp:longitude -2e+00 .
+
+jp:Place_Q145002 jp:latitude 4.889417e+01 ;
+    jp:longitude 1.804056e+01 .
+
+jp:Place_Q145694 jp:latitude 4.2e+01 ;
+    jp:longitude 1.4e+01 .
+
+jp:Place_Q145719 jp:latitude 5.298528e+01 ;
+    jp:longitude 2.224222e+01 .
+
+jp:Place_Q145972 jp:latitude 5.072056e+01 ;
+    jp:longitude 2.325861e+01 .
+
+jp:Place_Q1461604 jp:latitude 5.03e+01 ;
+    jp:longitude 1.89e+01 .
+
+jp:Place_Q146317 jp:latitude 4.71e+01 ;
+    jp:longitude 1.791667e+01 .
+
+jp:Place_Q146342 jp:latitude 5.063333e+01 ;
+    jp:longitude 1.381667e+01 .
+
+jp:Place_Q146453 jp:latitude 4.904417e+01 ;
+    jp:longitude 2.435972e+01 .
+
+jp:Place_Q146456 jp:latitude 4.844139e+01 ;
+    jp:longitude 2.271361e+01 .
+
+jp:Place_Q146469 jp:latitude 4.818139e+01 ;
+    jp:longitude 2.329778e+01 .
+
+jp:Place_Q146497 jp:latitude 4.82025e+01 ;
+    jp:longitude 2.26375e+01 .
+
+jp:Place_Q146510 jp:latitude 4.805e+01 ;
+    jp:longitude 2.421667e+01 .
+
+jp:Place_Q146516 jp:latitude 4.801139e+01 ;
+    jp:longitude 2.357222e+01 .
+
+jp:Place_Q146557 jp:latitude 4.926e+01 ;
+    jp:longitude 2.4635e+01 .
+
+jp:Place_Q146595 jp:latitude 4.906694e+01 ;
+    jp:longitude 2.385139e+01 .
+
+jp:Place_Q147089 jp:latitude 3.861194e+01 ;
+    jp:longitude 2.742639e+01 .
+
+jp:Place_Q1472068 jp:latitude 3.92974e+01 ;
+    jp:longitude -7.65924e+01 .
+
+jp:Place_Q1476505 jp:latitude 4.07901e+01 ;
+    jp:longitude -7.39532e+01 .
+
+jp:Place_Q1479 jp:latitude 4.483778e+01 ;
+    jp:longitude -5.794444e-01 .
+
+jp:Place_Q148349 jp:latitude 5.14903e+01 ;
+    jp:longitude -1.193e-01 .
+
+jp:Place_Q1483822 jp:latitude 4.95392e+01 ;
+    jp:longitude 9.33167e+00 .
+
+jp:Place_Q148473 jp:latitude 4.901667e+01 ;
+    jp:longitude 2.58e+01 .
+
+jp:Place_Q148483 jp:latitude 4.819528e+01 ;
+    jp:longitude 7.318333e+00 .
+
+jp:Place_Q14859 jp:latitude 4.93e+01 ;
+    jp:longitude 1.058333e+01 .
+
+jp:Place_Q1486 jp:latitude -3.459972e+01 ;
+    jp:longitude -5.838194e+01 .
+
+jp:Place_Q148661 jp:latitude 4.789722e+01 ;
+    jp:longitude 7.355833e+00 .
+
+jp:Place_Q14889 jp:latitude 4.932917e+01 ;
+    jp:longitude 1.102083e+01 .
+
+jp:Place_Q1489 jp:latitude 1.935377e+01 ;
+    jp:longitude -9.913589e+01 .
+
+jp:Place_Q148928 jp:latitude 4.966161e+01 ;
+    jp:longitude 2.514693e+01 .
+
+jp:Place_Q149024 jp:latitude 5.058333e+01 ;
+    jp:longitude 2.763333e+01 .
+
+jp:Place_Q149118 jp:latitude 4.825e+01 ;
+    jp:longitude 2.519167e+01 .
+
+jp:Place_Q149159 jp:latitude 4.943333e+01 ;
+    jp:longitude 2.598333e+01 .
+
+jp:Place_Q1492 jp:latitude 4.13825e+01 ;
+    jp:longitude 2.176944e+00 .
+
+jp:Place_Q14953 jp:latitude 5.198333e+01 ;
+    jp:longitude 8.8e+00 .
+
+jp:Place_Q14960 jp:latitude 4.919528e+01 ;
+    jp:longitude 1.660833e+01 .
+
+jp:Place_Q149787 jp:latitude 5.15837e+01 ;
+    jp:longitude -2.252e-01 .
+
+jp:Place_Q1505099 jp:latitude 5.39875e+01 ;
+    jp:longitude 2.039583e+01 .
+
+jp:Place_Q15111616 jp:latitude 5.051588e+01 ;
+    jp:longitude 1.41482e+01 .
+
+jp:Place_Q1511813 jp:latitude 4.071722e+01 ;
+    jp:longitude -7.398972e+01 .
+
+jp:Place_Q151198 jp:latitude 4.82699e+01 ;
+    jp:longitude 1.14683e+01 .
+
+jp:Place_Q15180 jp:latitude 6.5e+01 ;
+    jp:longitude 9e+01 .
+
+jp:Place_Q151920 jp:latitude 3.278972e+01 ;
+    jp:longitude 3.552472e+01 .
+
+jp:Place_Q152010 jp:latitude 5.263111e+01 ;
+    jp:longitude 2.205306e+01 .
+
+jp:Place_Q1520116 jp:latitude 4.985687e+01 ;
+    jp:longitude 1.360576e+01 .
+
+jp:Place_Q1521236 jp:latitude 4.84188e+01 ;
+    jp:longitude 8.75581e+00 .
+
+jp:Place_Q152374 jp:latitude 3.283306e+01 ;
+    jp:longitude 3.506639e+01 .
+
+jp:Place_Q152396 jp:latitude 3.107e+01 ;
+    jp:longitude 3.503e+01 .
+
+jp:Place_Q1524 jp:latitude 3.798417e+01 ;
+    jp:longitude 2.372806e+01 .
+
+jp:Place_Q152413 jp:latitude 3.206972e+01 ;
+    jp:longitude 3.481167e+01 .
+
+jp:Place_Q152436 jp:latitude 3.218578e+01 ;
+    jp:longitude 3.490768e+01 .
+
+jp:Place_Q152467 jp:latitude 3.208074e+01 ;
+    jp:longitude 3.48338e+01 .
+
+jp:Place_Q152491 jp:latitude 3.215556e+01 ;
+    jp:longitude 3.484222e+01 .
+
+jp:Place_Q1525048 jp:latitude 5.40833e+01 ;
+    jp:longitude 2.29333e+01 .
+
+jp:Place_Q152567 jp:latitude 3.283694e+01 ;
+    jp:longitude 3.50775e+01 .
+
+jp:Place_Q152602 jp:latitude 3.28e+01 ;
+    jp:longitude 3.51e+01 .
+
+jp:Place_Q152641 jp:latitude 3.207806e+01 ;
+    jp:longitude 3.484889e+01 .
+
+jp:Place_Q152658 jp:latitude 5.144699e+01 ;
+    jp:longitude 2.359414e+01 .
+
+jp:Place_Q1527 jp:latitude 4.6e+01 ;
+    jp:longitude -9.4e+01 .
+
+jp:Place_Q152802 jp:latitude 5.10212e+01 ;
+    jp:longitude 1.1249e+01 .
+
+jp:Place_Q1528499 jp:latitude 5.07314e+01 ;
+    jp:longitude 9.74345e+00 .
+
+jp:Place_Q1529447 jp:latitude 4.81334e+01 ;
+    jp:longitude 3.008476e+01 .
+
+jp:Place_Q1530 jp:latitude 3.331528e+01 ;
+    jp:longitude 4.436611e+01 .
+
+jp:Place_Q1533 jp:latitude 1.050611e+01 ;
+    jp:longitude -6.691444e+01 .
+
+jp:Place_Q153598 jp:latitude 5.11333e+01 ;
+    jp:longitude 2.29979e+01 .
+
+jp:Place_Q153779 jp:latitude 5.096667e+01 ;
+    jp:longitude 7.016667e+00 .
+
+jp:Place_Q153881 jp:latitude 3.9465e+01 ;
+    jp:longitude -7.500639e+01 .
+
+jp:Place_Q1540300 jp:latitude 5.49e+01 ;
+    jp:longitude 2.393333e+01 .
+
+jp:Place_Q154607 jp:latitude 5.222967e+01 ;
+    jp:longitude 2.101222e+01 .
+
+jp:Place_Q154728 jp:latitude 4.8675e+01 ;
+    jp:longitude 5.891667e+00 .
+
+jp:Place_Q1547280 jp:latitude 4.92281e+01 ;
+    jp:longitude 8.99667e+00 .
+
+jp:Place_Q154835 jp:latitude 5.390894e+01 ;
+    jp:longitude 3.034296e+01 .
+
+jp:Place_Q155 jp:latitude -1.4e+01 ;
+    jp:longitude -5.3e+01 .
+
+jp:Place_Q155032 jp:latitude 4.529444e+01 ;
+    jp:longitude 1.682778e+01 .
+
+jp:Place_Q1553052 jp:latitude 3.708333e+01 ;
+    jp:longitude 4.121667e+01 .
+
+jp:Place_Q155321 jp:latitude 3.1e+01 ;
+    jp:longitude 3.5e+01 .
+
+jp:Place_Q155975 jp:latitude 4.994844e+01 ;
+    jp:longitude 1.526823e+01 .
+
+jp:Place_Q156080 jp:latitude 4.993806e+01 ;
+    jp:longitude 1.790444e+01 .
+
+jp:Place_Q156565 jp:latitude 5.038333e+01 ;
+    jp:longitude 2.401667e+01 .
+
+jp:Place_Q156588 jp:latitude 4.890083e+01 ;
+    jp:longitude 2.484917e+01 .
+
+jp:Place_Q156593 jp:latitude 4.951667e+01 ;
+    jp:longitude 2.32e+01 .
+
+jp:Place_Q156704 jp:latitude 5.121667e+01 ;
+    jp:longitude 2.471667e+01 .
+
+jp:Place_Q156711 jp:latitude 4.862389e+01 ;
+    jp:longitude 2.2295e+01 .
+
+jp:Place_Q156713 jp:latitude 5.025444e+01 ;
+    jp:longitude 2.865778e+01 .
+
+jp:Place_Q156717 jp:latitude 4.942e+01 ;
+    jp:longitude 2.7e+01 .
+
+jp:Place_Q156724 jp:latitude 4.906306e+01 ;
+    jp:longitude 3.340389e+01 .
+
+jp:Place_Q156726 jp:latitude 4.892278e+01 ;
+    jp:longitude 2.471056e+01 .
+
+jp:Place_Q156732 jp:latitude 4.66425e+01 ;
+    jp:longitude 3.2625e+01 .
+
+jp:Place_Q156739 jp:latitude 5.061972e+01 ;
+    jp:longitude 2.625139e+01 .
+
+jp:Place_Q156743 jp:latitude 4.956667e+01 ;
+    jp:longitude 2.56e+01 .
+
+jp:Place_Q156747 jp:latitude 4.958944e+01 ;
+    jp:longitude 3.455139e+01 .
+
+jp:Place_Q156760 jp:latitude 4.756667e+01 ;
+    jp:longitude 3.44e+01 .
+
+jp:Place_Q156808 jp:latitude 4.963583e+01 ;
+    jp:longitude 2.429361e+01 .
+
+jp:Place_Q15681 jp:latitude 3.776972e+01 ;
+    jp:longitude -3.788889e+00 .
+
+jp:Place_Q156818 jp:latitude 4.845e+01 ;
+    jp:longitude 2.556667e+01 .
+
+jp:Place_Q156820 jp:latitude 4.863333e+01 ;
+    jp:longitude 2.458333e+01 .
+
+jp:Place_Q156821 jp:latitude 4.941667e+01 ;
+    jp:longitude 2.461667e+01 .
+
+jp:Place_Q15684 jp:latitude 4.094806e+01 ;
+    jp:longitude -4.118333e+00 .
+
+jp:Place_Q15695 jp:latitude 4.0965e+01 ;
+    jp:longitude -5.664167e+00 .
+
+jp:Place_Q15696 jp:latitude 4.150333e+01 ;
+    jp:longitude -5.755556e+00 .
+
+jp:Place_Q157053 jp:latitude 5.149389e+01 ;
+    jp:longitude 3.129472e+01 .
+
+jp:Place_Q157055 jp:latitude 4.944444e+01 ;
+    jp:longitude 3.205972e+01 .
+
+jp:Place_Q157144 jp:latitude 4.923722e+01 ;
+    jp:longitude 2.846722e+01 .
+
+jp:Place_Q1572234 jp:latitude 5.425577e+01 ;
+    jp:longitude 2.601428e+01 .
+
+jp:Place_Q157246 jp:latitude 4.103194e+01 ;
+    jp:longitude 2.133472e+01 .
+
+jp:Place_Q157472 jp:latitude 4.897028e+01 ;
+    jp:longitude 2.401083e+01 .
+
+jp:Place_Q157516 jp:latitude 5.605833e+01 ;
+    jp:longitude 2.156667e+01 .
+
+jp:Place_Q157520 jp:latitude 4.86675e+01 ;
+    jp:longitude 2.550028e+01 .
+
+jp:Place_Q157725 jp:latitude 4.829083e+01 ;
+    jp:longitude 2.593444e+01 .
+
+jp:Place_Q1579038 jp:latitude 5.258972e+01 ;
+    jp:longitude 2.080417e+01 .
+
+jp:Place_Q158004 jp:latitude 5.14e+01 ;
+    jp:longitude 1.968333e+01 .
+
+jp:Place_Q15837242 jp:latitude 4.761738e+01 ;
+    jp:longitude 9.573786e+00 .
+
+jp:Place_Q158491 jp:latitude 4.504889e+01 ;
+    jp:longitude 3.537917e+01 .
+
+jp:Place_Q1585678 jp:latitude 5.11608e+01 ;
+    jp:longitude 9.85889e+00 .
+
+jp:Place_Q158796 jp:latitude 5.106667e+01 ;
+    jp:longitude 1.945e+01 .
+
+jp:Place_Q158799 jp:latitude 4.989194e+01 ;
+    jp:longitude 2.86e+01 .
+
+jp:Place_Q158821 jp:latitude 4.935e+01 ;
+    jp:longitude 2.35e+01 .
+
+jp:Place_Q158923 jp:latitude 4.925e+01 ;
+    jp:longitude 2.385e+01 .
+
+jp:Place_Q159 jp:latitude 6.641667e+01 ;
+    jp:longitude 9.425e+01 .
+
+jp:Place_Q15977 jp:latitude 5.269064e+01 ;
+    jp:longitude 7.29097e+00 .
+
+jp:Place_Q159814 jp:latitude 5.165972e+01 ;
+    jp:longitude 9.635833e+00 .
+
+jp:Place_Q159818 jp:latitude 4.422542e+01 ;
+    jp:longitude 1.766687e+01 .
+
+jp:Place_Q16 jp:latitude 5.6e+01 ;
+    jp:longitude -1.09e+02 .
+
+jp:Place_Q160135 jp:latitude 5.122278e+01 ;
+    jp:longitude 2.259861e+01 .
+
+jp:Place_Q160139 jp:latitude 4.825752e+01 ;
+    jp:longitude 1.450043e+01 .
+
+jp:Place_Q160143 jp:latitude 5.037167e+01 ;
+    jp:longitude 2.34575e+01 .
+
+jp:Place_Q160152 jp:latitude 5.215417e+01 ;
+    jp:longitude 1.872306e+01 .
+
+jp:Place_Q160173 jp:latitude 4.384453e+01 ;
+    jp:longitude 2.595391e+01 .
+
+jp:Place_Q160175 jp:latitude 5.051028e+01 ;
+    jp:longitude 1.414972e+01 .
+
+jp:Place_Q160544 jp:latitude 3.534028e+01 ;
+    jp:longitude 2.513444e+01 .
+
+jp:Place_Q16105 jp:latitude 5.036667e+01 ;
+    jp:longitude 8.75e+00 .
+
+jp:Place_Q16107 jp:latitude 5.176667e+01 ;
+    jp:longitude 9.366667e+00 .
+
+jp:Place_Q16129695 jp:latitude 3.17975e+01 ;
+    jp:longitude 3.52422e+01 .
+
+jp:Place_Q16130 jp:latitude 4.944222e+01 ;
+    jp:longitude 6.6375e+00 .
+
+jp:Place_Q16147 jp:latitude 5.379389e+01 ;
+    jp:longitude 1.217639e+01 .
+
+jp:Place_Q1614791 jp:latitude 5.341056e+01 ;
+    jp:longitude 2.193389e+01 .
+
+jp:Place_Q161491 jp:latitude 5.145417e+01 ;
+    jp:longitude -9.730556e-01 .
+
+jp:Place_Q161605 jp:latitude 5.033333e+01 ;
+    jp:longitude 1.908333e+01 .
+
+jp:Place_Q161962 jp:latitude 5.334917e+01 ;
+    jp:longitude 1.842605e+01 .
+
+jp:Place_Q161965 jp:latitude 5.018333e+01 ;
+    jp:longitude 2.706667e+01 .
+
+jp:Place_Q161980 jp:latitude 4.908333e+01 ;
+    jp:longitude 3.266667e+01 .
+
+jp:Place_Q161994 jp:latitude 5.074281e+01 ;
+    jp:longitude 3.348791e+01 .
+
+jp:Place_Q162049 jp:latitude 5.251667e+01 ;
+    jp:longitude 1.33e+01 .
+
+jp:Place_Q162083 jp:latitude 5.12375e+01 ;
+    jp:longitude 3.320833e+01 .
+
+jp:Place_Q1630 jp:latitude 5.355e+01 ;
+    jp:longitude 9.9333e+00 .
+
+jp:Place_Q1631202 jp:latitude 4.006472e+01 ;
+    jp:longitude -4.371667e+00 .
+
+jp:Place_Q1631311 jp:latitude 4.140092e+01 ;
+    jp:longitude -4.313588e+00 .
+
+jp:Place_Q1632587 jp:latitude 4.933162e+01 ;
+    jp:longitude 2.601065e+01 .
+
+jp:Place_Q16333 jp:latitude 4.513417e+01 ;
+    jp:longitude 8.458333e+00 .
+
+jp:Place_Q1633302 jp:latitude 4.212972e+01 ;
+    jp:longitude -3.568333e+00 .
+
+jp:Place_Q163423 jp:latitude 4.965639e+01 ;
+    jp:longitude 1.103278e+01 .
+
+jp:Place_Q163490 jp:latitude 3.356056e+01 ;
+    jp:longitude 3.537583e+01 .
+
+jp:Place_Q1637419 jp:latitude 5.225198e+01 ;
+    jp:longitude 2.105083e+01 .
+
+jp:Place_Q163749 jp:latitude 2.670972e+01 ;
+    jp:longitude -8.006417e+01 .
+
+jp:Place_Q1637855 jp:latitude 5.487556e+01 ;
+    jp:longitude 2.693861e+01 .
+
+jp:Place_Q1638961 jp:latitude 4.907081e+01 ;
+    jp:longitude 2.619388e+01 .
+
+jp:Place_Q163948 jp:latitude 4.887551e+01 ;
+    jp:longitude 2.357853e+00 .
+
+jp:Place_Q164380 jp:latitude 4.062611e+01 ;
+    jp:longitude -7.537556e+01 .
+
+jp:Place_Q1644430 jp:latitude 4.078946e+01 ;
+    jp:longitude -1.353501e+00 .
+
+jp:Place_Q164482 jp:latitude 4.959053e+01 ;
+    jp:longitude 1.539266e+01 .
+
+jp:Place_Q164564 jp:latitude 4.95792e+01 ;
+    jp:longitude 1.536264e+01 .
+
+jp:Place_Q1647 jp:latitude 4.533333e+01 ;
+    jp:longitude 1.443333e+01 .
+
+jp:Place_Q16486380 jp:latitude 5.009099e+01 ;
+    jp:longitude 1.909154e+01 .
+
+jp:Place_Q165090 jp:latitude 4.556639e+01 ;
+    jp:longitude 5.920833e+00 .
+
+jp:Place_Q165420 jp:latitude 4.341319e+01 ;
+    jp:longitude 2.461692e+01 .
+
+jp:Place_Q16554 jp:latitude 3.973917e+01 ;
+    jp:longitude -1.049847e+02 .
+
+jp:Place_Q16555 jp:latitude 2.976278e+01 ;
+    jp:longitude -9.538306e+01 .
+
+jp:Place_Q16563 jp:latitude 3.514611e+01 ;
+    jp:longitude -9.005194e+01 .
+
+jp:Place_Q1656534 jp:latitude 5.578333e+01 ;
+    jp:longitude 2.265e+01 .
+
+jp:Place_Q16567 jp:latitude 3.996222e+01 ;
+    jp:longitude -8.300056e+01 .
+
+jp:Place_Q165773 jp:latitude 5.601667e+01 ;
+    jp:longitude 2.993333e+01 .
+
+jp:Place_Q1669578 jp:latitude 3.25e+01 ;
+    jp:longitude 3.49e+01 .
+
+jp:Place_Q1669868 jp:latitude 5.091639e+01 ;
+    jp:longitude 3.111472e+01 .
+
+jp:Place_Q167109 jp:latitude 4.789889e+01 ;
+    jp:longitude 2.037472e+01 .
+
+jp:Place_Q167649 jp:latitude 3.141667e+01 ;
+    jp:longitude 3.458333e+01 .
+
+jp:Place_Q167668 jp:latitude 5.650833e+01 ;
+    jp:longitude 2.101111e+01 .
+
+jp:Place_Q167677 jp:latitude 3.188333e+01 ;
+    jp:longitude 3.473333e+01 .
+
+jp:Place_Q167749 jp:latitude 3.300361e+01 ;
+    jp:longitude 3.50925e+01 .
+
+jp:Place_Q167800 jp:latitude 3.714361e+01 ;
+    jp:longitude 4.268191e+01 .
+
+jp:Place_Q168057 jp:latitude 4.433333e+01 ;
+    jp:longitude 2.381667e+01 .
+
+jp:Place_Q168140 jp:latitude 3.193328e+01 ;
+    jp:longitude 3.504289e+01 .
+
+jp:Place_Q1681481 jp:latitude 4.995706e+01 ;
+    jp:longitude 2.622742e+01 .
+
+jp:Place_Q168162 jp:latitude 3.193333e+01 ;
+    jp:longitude 3.48e+01 .
+
+jp:Place_Q168215 jp:latitude 3.276667e+01 ;
+    jp:longitude 3.496667e+01 .
+
+jp:Place_Q168225 jp:latitude 3.1535e+01 ;
+    jp:longitude 3.509861e+01 .
+
+jp:Place_Q168337 jp:latitude 3.267861e+01 ;
+    jp:longitude 3.524444e+01 .
+
+jp:Place_Q168648 jp:latitude 4.768333e+01 ;
+    jp:longitude 1.658333e+01 .
+
+jp:Place_Q16869 jp:latitude 4.10125e+01 ;
+    jp:longitude 2.898e+01 .
+
+jp:Place_Q16894513 jp:latitude 3.71614e+01 ;
+    jp:longitude 5.01586e+01 .
+
+jp:Place_Q1691438 jp:latitude 4.959605e+01 ;
+    jp:longitude 1.852474e+01 .
+
+jp:Place_Q169237 jp:latitude 5.16e+01 ;
+    jp:longitude 1.893333e+01 .
+
+jp:Place_Q16928476 jp:latitude 4.887283e+01 ;
+    jp:longitude 2.213313e+00 .
+
+jp:Place_Q170036 jp:latitude 5.025e+01 ;
+    jp:longitude 3.05e+01 .
+
+jp:Place_Q170287 jp:latitude 4.610021e+01 ;
+    jp:longitude 1.966533e+01 .
+
+jp:Place_Q170415 jp:latitude 4.242567e+01 ;
+    jp:longitude 2.56346e+01 .
+
+jp:Place_Q17042 jp:latitude 3.78e+01 ;
+    jp:longitude -1.2225e+02 .
+
+jp:Place_Q170478 jp:latitude 5.072e+01 ;
+    jp:longitude -1.88e+00 .
+
+jp:Place_Q170507 jp:latitude 4.889056e+01 ;
+    jp:longitude 2.203611e+00 .
+
+jp:Place_Q170516 jp:latitude 3.177861e+01 ;
+    jp:longitude 3.522944e+01 .
+
+jp:Place_Q170525 jp:latitude 3.042139e+01 ;
+    jp:longitude -9.583056e+00 .
+
+jp:Place_Q1709 jp:latitude 5.362889e+01 ;
+    jp:longitude 1.1415e+01 .
+
+jp:Place_Q170996 jp:latitude 4.542333e+01 ;
+    jp:longitude 2.80425e+01 .
+
+jp:Place_Q171018 jp:latitude 4.923306e+01 ;
+    jp:longitude 1.766694e+01 .
+
+jp:Place_Q171150 jp:latitude 4.7e+01 ;
+    jp:longitude 1.9e+01 .
+
+jp:Place_Q171223 jp:latitude 4.795578e+01 ;
+    jp:longitude 2.17168e+01 .
+
+jp:Place_Q171357 jp:latitude 4.69075e+01 ;
+    jp:longitude 1.969167e+01 .
+
+jp:Place_Q1715 jp:latitude 5.237444e+01 ;
+    jp:longitude 9.738611e+00 .
+
+jp:Place_Q17151 jp:latitude 4.064028e+01 ;
+    jp:longitude 2.293556e+01 .
+
+jp:Place_Q171545 jp:latitude 4.76375e+01 ;
+    jp:longitude 6.862778e+00 .
+
+jp:Place_Q171639 jp:latitude 3.179778e+01 ;
+    jp:longitude 3.465028e+01 .
+
+jp:Place_Q171689 jp:latitude 4.884081e+01 ;
+    jp:longitude 2.388183e+00 .
+
+jp:Place_Q1718 jp:latitude 5.122556e+01 ;
+    jp:longitude 6.776667e+00 .
+
+jp:Place_Q1719466 jp:latitude 5.5725e+01 ;
+    jp:longitude 2.436389e+01 .
+
+jp:Place_Q172 jp:latitude 4.367028e+01 ;
+    jp:longitude -7.938667e+01 .
+
+jp:Place_Q1720 jp:latitude 4.999944e+01 ;
+    jp:longitude 8.273611e+00 .
+
+jp:Place_Q1720340 jp:latitude 5.016476e+01 ;
+    jp:longitude 1.646575e+01 .
+
+jp:Place_Q1721 jp:latitude 5.00825e+01 ;
+    jp:longitude 8.24e+00 .
+
+jp:Place_Q1722 jp:latitude 4.264028e+01 ;
+    jp:longitude 1.810833e+01 .
+
+jp:Place_Q1724 jp:latitude 4.923333e+01 ;
+    jp:longitude 7e+00 .
+
+jp:Place_Q172415 jp:latitude 4.227167e+01 ;
+    jp:longitude 4.270556e+01 .
+
+jp:Place_Q172455 jp:latitude 4.883528e+01 ;
+    jp:longitude 2.241389e+00 .
+
+jp:Place_Q1726 jp:latitude 4.81375e+01 ;
+    jp:longitude 1.1575e+01 .
+
+jp:Place_Q1729 jp:latitude 5.097806e+01 ;
+    jp:longitude 1.102889e+01 .
+
+jp:Place_Q1731 jp:latitude 5.104933e+01 ;
+    jp:longitude 1.373814e+01 .
+
+jp:Place_Q1733 jp:latitude 5.213159e+01 ;
+    jp:longitude 1.163996e+01 .
+
+jp:Place_Q17330 jp:latitude 4.498222e+01 ;
+    jp:longitude 8.565556e+00 .
+
+jp:Place_Q1733565 jp:latitude -3.7852e+01 ;
+    jp:longitude 1.44998e+02 .
+
+jp:Place_Q1734030 jp:latitude 5.009194e+01 ;
+    jp:longitude 1.444528e+01 .
+
+jp:Place_Q173591 jp:latitude 4.616667e+01 ;
+    jp:longitude 2.131667e+01 .
+
+jp:Place_Q173695 jp:latitude 4.817361e+01 ;
+    jp:longitude 6.451667e+00 .
+
+jp:Place_Q173903 jp:latitude 5.34e+01 ;
+    jp:longitude 8.393333e+01 .
+
+jp:Place_Q174 jp:latitude -2.355039e+01 ;
+    jp:longitude -4.663395e+01 .
+
+jp:Place_Q174019 jp:latitude 4.334333e+01 ;
+    jp:longitude 3.216111e+00 .
+
+jp:Place_Q1741 jp:latitude 4.820833e+01 ;
+    jp:longitude 1.63725e+01 .
+
+jp:Place_Q1743479 jp:latitude 3.272389e+01 ;
+    jp:longitude 3.512722e+01 .
+
+jp:Place_Q174665 jp:latitude 4.607639e+01 ;
+    jp:longitude 2.357278e+01 .
+
+jp:Place_Q1746728 jp:latitude 4.88369e+01 ;
+    jp:longitude 1.04767e+01 .
+
+jp:Place_Q1747689 jp:latitude 4.189e+01 ;
+    jp:longitude 1.248e+01 .
+
+jp:Place_Q1748 jp:latitude 5.567611e+01 ;
+    jp:longitude 1.256889e+01 .
+
+jp:Place_Q1751231 jp:latitude 4.237333e+01 ;
+    jp:longitude -4.1075e+00 .
+
+jp:Place_Q175129 jp:latitude 4.883222e+01 ;
+    jp:longitude 2.355556e+00 .
+
+jp:Place_Q1754 jp:latitude 5.932944e+01 ;
+    jp:longitude 1.806861e+01 .
+
+jp:Place_Q1756960 jp:latitude 4.951041e+01 ;
+    jp:longitude 1.280265e+01 .
+
+jp:Place_Q1761 jp:latitude 5.334972e+01 ;
+    jp:longitude -6.260278e+00 .
+
+jp:Place_Q176229 jp:latitude 5.342389e+01 ;
+    jp:longitude 1.959278e+01 .
+
+jp:Place_Q1770 jp:latitude 5.943722e+01 ;
+    jp:longitude 2.4745e+01 .
+
+jp:Place_Q1773 jp:latitude 5.69475e+01 ;
+    jp:longitude 2.410694e+01 .
+
+jp:Place_Q1780 jp:latitude 4.814472e+01 ;
+    jp:longitude 1.711278e+01 .
+
+jp:Place_Q178093 jp:latitude 4.170528e+01 ;
+    jp:longitude -7.393056e+01 .
+
+jp:Place_Q1781 jp:latitude 4.749833e+01 ;
+    jp:longitude 1.904083e+01 .
+
+jp:Place_Q178405 jp:latitude 3.963849e+01 ;
+    jp:longitude 2.241306e+01 .
+
+jp:Place_Q178663 jp:latitude 3.388333e+01 ;
+    jp:longitude -5.55e+00 .
+
+jp:Place_Q1788115 jp:latitude 5.589421e+01 ;
+    jp:longitude 2.124717e+01 .
+
+jp:Place_Q178855 jp:latitude 4.774861e+01 ;
+    jp:longitude 2.666944e+01 .
+
+jp:Place_Q1792 jp:latitude 5.434829e+01 ;
+    jp:longitude 1.865402e+01 .
+
+jp:Place_Q179224 jp:latitude 5.11275e+01 ;
+    jp:longitude 1.312222e+00 .
+
+jp:Place_Q179252 jp:latitude 4.952167e+01 ;
+    jp:longitude 9.323333e+00 .
+
+jp:Place_Q179351 jp:latitude 5.14975e+01 ;
+    jp:longitude -1.372222e-01 .
+
+jp:Place_Q1794 jp:latitude 5.011056e+01 ;
+    jp:longitude 8.682222e+00 .
+
+jp:Place_Q1794734 jp:latitude 4.826361e+01 ;
+    jp:longitude 2.517361e+01 .
+
+jp:Place_Q179528 jp:latitude 3.09e+01 ;
+    jp:longitude 3.111667e+01 .
+
+jp:Place_Q179570 jp:latitude 3.568333e+01 ;
+    jp:longitude 1.01e+01 .
+
+jp:Place_Q1796771 jp:latitude 5.175111e+01 ;
+    jp:longitude 1.197361e+01 .
+
+jp:Place_Q179830 jp:latitude 5.665222e+01 ;
+    jp:longitude 2.372444e+01 .
+
+jp:Place_Q1799 jp:latitude 5.111e+01 ;
+    jp:longitude 1.70325e+01 .
+
+jp:Place_Q180078 jp:latitude 3.431667e+01 ;
+    jp:longitude 4.706861e+01 .
+
+jp:Place_Q180086 jp:latitude 4.983e+01 ;
+    jp:longitude 2.401417e+01 .
+
+jp:Place_Q180294 jp:latitude 3.205222e+01 ;
+    jp:longitude 3.475306e+01 .
+
+jp:Place_Q180379 jp:latitude 5.650667e+01 ;
+    jp:longitude 2.733083e+01 .
+
+jp:Place_Q18094 jp:latitude 2.130472e+01 ;
+    jp:longitude -1.578572e+02 .
+
+jp:Place_Q18102 jp:latitude 4.884139e+01 ;
+    jp:longitude 2.417778e+00 .
+
+jp:Place_Q18125 jp:latitude 5.346667e+01 ;
+    jp:longitude -2.233333e+00 .
+
+jp:Place_Q181376 jp:latitude 5.366667e+01 ;
+    jp:longitude 2.381667e+01 .
+
+jp:Place_Q1817136 jp:latitude 4.957744e+01 ;
+    jp:longitude 2.236988e+01 .
+
+jp:Place_Q1817509 jp:latitude 5.067e+01 ;
+    jp:longitude 1.802806e+01 .
+
+jp:Place_Q1818241 jp:latitude 4.92013e+01 ;
+    jp:longitude 1.688216e+01 .
+
+jp:Place_Q181955 jp:latitude 4.568861e+01 ;
+    jp:longitude 5.915e+00 .
+
+jp:Place_Q1822522 jp:latitude 4.965389e+01 ;
+    jp:longitude 1.289888e+01 .
+
+jp:Place_Q182394 jp:latitude 3.189722e+01 ;
+    jp:longitude 5.43675e+01 .
+
+jp:Place_Q182428 jp:latitude 4.410924e+01 ;
+    jp:longitude 2.726538e+01 .
+
+jp:Place_Q1825231 jp:latitude 5.58e+01 ;
+    jp:longitude 2.165306e+01 .
+
+jp:Place_Q1826870 jp:latitude 4.080806e+01 ;
+    jp:longitude -7.396389e+01 .
+
+jp:Place_Q182872 jp:latitude 4.840889e+01 ;
+    jp:longitude 2.701667e+00 .
+
+jp:Place_Q1829 jp:latitude 5.471667e+01 ;
+    jp:longitude 2.05e+01 .
+
+jp:Place_Q183 jp:latitude 5.1e+01 ;
+    jp:longitude 1e+01 .
+
+jp:Place_Q183111 jp:latitude 4.940028e+01 ;
+    jp:longitude 1.559056e+01 .
+
+jp:Place_Q183464 jp:latitude 5.786223e+01 ;
+    jp:longitude 2.596716e+01 .
+
+jp:Place_Q18383 jp:latitude 4.182399e+01 ;
+    jp:longitude -7.141283e+01 .
+
+jp:Place_Q184 jp:latitude 5.352833e+01 ;
+    jp:longitude 2.804667e+01 .
+
+jp:Place_Q1840 jp:latitude 5.2025e+01 ;
+    jp:longitude 5.555e+00 .
+
+jp:Place_Q18419 jp:latitude 4.065083e+01 ;
+    jp:longitude -7.394972e+01 .
+
+jp:Place_Q1842 jp:latitude 4.961056e+01 ;
+    jp:longitude 6.132778e+00 .
+
+jp:Place_Q18424 jp:latitude 4.071361e+01 ;
+    jp:longitude -7.382806e+01 .
+
+jp:Place_Q18426 jp:latitude 4.084667e+01 ;
+    jp:longitude -7.387333e+01 .
+
+jp:Place_Q18432 jp:latitude 4.057194e+01 ;
+    jp:longitude -7.414694e+01 .
+
+jp:Place_Q18438 jp:latitude 4.08058e+01 ;
+    jp:longitude -7.325362e+01 .
+
+jp:Place_Q18480310 jp:latitude 4.607397e+01 ;
+    jp:longitude 1.162695e+01 .
+
+jp:Place_Q184998 jp:latitude 4.636667e+01 ;
+    jp:longitude 1.778333e+01 .
+
+jp:Place_Q185134 jp:latitude 3.488278e+01 ;
+    jp:longitude -1.316667e+00 .
+
+jp:Place_Q185157 jp:latitude 3.556667e+01 ;
+    jp:longitude -5.366667e+00 .
+
+jp:Place_Q185332 jp:latitude 4.779e+01 ;
+    jp:longitude 2.289e+01 .
+
+jp:Place_Q1853577 jp:latitude 4.97107e+01 ;
+    jp:longitude 1.603218e+01 .
+
+jp:Place_Q185687 jp:latitude 3.283402e+01 ;
+    jp:longitude 3.506784e+01 .
+
+jp:Place_Q18575 jp:latitude 3.222167e+01 ;
+    jp:longitude -1.109264e+02 .
+
+jp:Place_Q186037 jp:latitude 5.015e+01 ;
+    jp:longitude 7.716667e+00 .
+
+jp:Place_Q1861138 jp:latitude 5.020724e+01 ;
+    jp:longitude 1.529766e+01 .
+
+jp:Place_Q1864782 jp:latitude 5.063333e+01 ;
+    jp:longitude 2.348333e+01 .
+
+jp:Place_Q186576 jp:latitude 4.219348e+01 ;
+    jp:longitude 2.433275e+01 .
+
+jp:Place_Q1867 jp:latitude 2.50375e+01 ;
+    jp:longitude 1.215625e+02 .
+
+jp:Place_Q187153 jp:latitude 4.883302e+01 ;
+    jp:longitude 2.326889e+00 .
+
+jp:Place_Q187346 jp:latitude 3.6365e+01 ;
+    jp:longitude 6.614722e+00 .
+
+jp:Place_Q1874 jp:latitude 4.647747e+01 ;
+    jp:longitude 3.073262e+01 .
+
+jp:Place_Q18755585 jp:latitude 5.393778e+01 ;
+    jp:longitude 2.618667e+01 .
+
+jp:Place_Q187945 jp:latitude 4.69275e+01 ;
+    jp:longitude 2.637083e+01 .
+
+jp:Place_Q1882756 jp:latitude 3.98131e+01 ;
+    jp:longitude -8.51708e+01 .
+
+jp:Place_Q188336 jp:latitude 3.296583e+01 ;
+    jp:longitude 3.549833e+01 .
+
+jp:Place_Q188731 jp:latitude 3.643333e+01 ;
+    jp:longitude 2.821667e+01 .
+
+jp:Place_Q188813 jp:latitude 4.767278e+01 ;
+    jp:longitude 2.4005e+01 .
+
+jp:Place_Q188895 jp:latitude 4.825e+01 ;
+    jp:longitude 2.1e+01 .
+
+jp:Place_Q188938 jp:latitude 3.37837e+01 ;
+    jp:longitude 1.08833e+01 .
+
+jp:Place_Q189043 jp:latitude -2.2505e+01 ;
+    jp:longitude -4.317889e+01 .
+
+jp:Place_Q189074 jp:latitude 4.080903e+01 ;
+    jp:longitude -7.394837e+01 .
+
+jp:Place_Q1891 jp:latitude 4.449389e+01 ;
+    jp:longitude 1.134278e+01 .
+
+jp:Place_Q189157 jp:latitude 5.55e+01 ;
+    jp:longitude 2.56e+01 .
+
+jp:Place_Q1892074 jp:latitude 5.438333e+01 ;
+    jp:longitude 2.365e+01 .
+
+jp:Place_Q189273 jp:latitude 5.146667e+01 ;
+    jp:longitude 1.921667e+01 .
+
+jp:Place_Q1896437 jp:latitude 4.983467e+01 ;
+    jp:longitude 1.525339e+01 .
+
+jp:Place_Q189769 jp:latitude 4.808528e+01 ;
+    jp:longitude 1.978667e+01 .
+
+jp:Place_Q1897694 jp:latitude 5.12115e+01 ;
+    jp:longitude 8.91123e+00 .
+
+jp:Place_Q1899 jp:latitude 5.045e+01 ;
+    jp:longitude 3.052361e+01 .
+
+jp:Place_Q189969 jp:latitude 4.192361e+01 ;
+    jp:longitude 1.920556e+01 .
+
+jp:Place_Q1904 jp:latitude 5e+01 ;
+    jp:longitude -8.5e+01 .
+
+jp:Place_Q1906266 jp:latitude 5.373028e+01 ;
+    jp:longitude 2.26925e+01 .
+
+jp:Place_Q1906290 jp:latitude 5.3205e+01 ;
+    jp:longitude 2.320444e+01 .
+
+jp:Place_Q1906346 jp:latitude 4.94304e+01 ;
+    jp:longitude 2.259381e+01 .
+
+jp:Place_Q190774 jp:latitude 4.466333e+01 ;
+    jp:longitude 2.092889e+01 .
+
+jp:Place_Q190828 jp:latitude 3.208333e+01 ;
+    jp:longitude 3.488333e+01 .
+
+jp:Place_Q191015 jp:latitude 5.463333e+01 ;
+    jp:longitude 2.493333e+01 .
+
+jp:Place_Q191066 jp:latitude 4.884133e+01 ;
+    jp:longitude 2.300292e+00 .
+
+jp:Place_Q191097 jp:latitude 4.97954e+01 ;
+    jp:longitude 1.263371e+01 .
+
+jp:Place_Q1910986 jp:latitude 4.815056e+01 ;
+    jp:longitude 1.626889e+01 .
+
+jp:Place_Q191607 jp:latitude 4.868333e+01 ;
+    jp:longitude 2.658333e+01 .
+
+jp:Place_Q191805 jp:latitude 5.04125e+01 ;
+    jp:longitude 1.490639e+01 .
+
+jp:Place_Q1920614 jp:latitude 5.303889e+01 ;
+    jp:longitude 2.198972e+01 .
+
+jp:Place_Q192213 jp:latitude 3.201667e+01 ;
+    jp:longitude 3.476667e+01 .
+
+jp:Place_Q192225 jp:latitude 3.232861e+01 ;
+    jp:longitude 3.485667e+01 .
+
+jp:Place_Q1922317 jp:latitude 5.088798e+01 ;
+    jp:longitude 2.166658e+01 .
+
+jp:Place_Q192265 jp:latitude 4.569972e+01 ;
+    jp:longitude 2.717972e+01 .
+
+jp:Place_Q192269 jp:latitude 4.663833e+01 ;
+    jp:longitude 2.772917e+01 .
+
+jp:Place_Q192517 jp:latitude 4.001944e+01 ;
+    jp:longitude -1.052928e+02 .
+
+jp:Place_Q192697 jp:latitude 4.91e+01 ;
+    jp:longitude 1.66e+01 .
+
+jp:Place_Q192807 jp:latitude 3.207001e+01 ;
+    jp:longitude 3.482354e+01 .
+
+jp:Place_Q1930 jp:latitude 4.542472e+01 ;
+    jp:longitude -7.5695e+01 .
+
+jp:Place_Q1930405 jp:latitude 5.1747e+01 ;
+    jp:longitude -3.617e+00 .
+
+jp:Place_Q193050 jp:latitude 4.737833e+01 ;
+    jp:longitude 1.892194e+01 .
+
+jp:Place_Q19313 jp:latitude 5.422429e+01 ;
+    jp:longitude 2.851198e+01 .
+
+jp:Place_Q193478 jp:latitude 4.746667e+01 ;
+    jp:longitude 1.905e+01 .
+
+jp:Place_Q1935465 jp:latitude 4.889048e+01 ;
+    jp:longitude 1.452768e+01 .
+
+jp:Place_Q193641 jp:latitude 5.628333e+01 ;
+    jp:longitude 2.848333e+01 .
+
+jp:Place_Q193714 jp:latitude 3.178333e+01 ;
+    jp:longitude 3.521667e+01 .
+
+jp:Place_Q193721 jp:latitude 4.941449e+01 ;
+    jp:longitude 1.465784e+01 .
+
+jp:Place_Q193724 jp:latitude 4.915328e+01 ;
+    jp:longitude 1.68765e+01 .
+
+jp:Place_Q193787 jp:latitude 5.525e+01 ;
+    jp:longitude 2.228333e+01 .
+
+jp:Place_Q193896 jp:latitude 3.588333e+01 ;
+    jp:longitude 1.445e+01 .
+
+jp:Place_Q193965 jp:latitude 4.868056e+01 ;
+    jp:longitude 2.658056e+01 .
+
+jp:Place_Q194420 jp:latitude 4.886361e+01 ;
+    jp:longitude 2.276489e+00 .
+
+jp:Place_Q1946027 jp:latitude 5.061833e+01 ;
+    jp:longitude 2.370972e+01 .
+
+jp:Place_Q1949593 jp:latitude 5.616307e+01 ;
+    jp:longitude 2.157877e+01 .
+
+jp:Place_Q1953413 jp:latitude 5.303333e+01 ;
+    jp:longitude 2.41e+01 .
+
+jp:Place_Q1956628 jp:latitude 4.938806e+01 ;
+    jp:longitude 2.561778e+01 .
+
+jp:Place_Q1963 jp:latitude 1.560308e+01 ;
+    jp:longitude 3.252654e+01 .
+
+jp:Place_Q1965458 jp:latitude 5.418333e+01 ;
+    jp:longitude 3.215e+01 .
+
+jp:Place_Q19660 jp:latitude 4.441336e+01 ;
+    jp:longitude 2.609778e+01 .
+
+jp:Place_Q1969368 jp:latitude 5.39e+01 ;
+    jp:longitude 1.705e+01 .
+
+jp:Place_Q1973358 jp:latitude 4.160694e+01 ;
+    jp:longitude 1.589583e+01 .
+
+jp:Place_Q1975866 jp:latitude 3.2234e+01 ;
+    jp:longitude 3.52733e+01 .
+
+jp:Place_Q1976576 jp:latitude 5.34e+01 ;
+    jp:longitude 2.303333e+01 .
+
+jp:Place_Q1982137 jp:latitude 3.62675e+01 ;
+    jp:longitude 2.75e+00 .
+
+jp:Place_Q19827003 jp:latitude 5.107106e+01 ;
+    jp:longitude 3.591754e+01 .
+
+jp:Place_Q1983166 jp:latitude 4.831333e+01 ;
+    jp:longitude 2.755444e+01 .
+
+jp:Place_Q1987043 jp:latitude 5.594167e+01 ;
+    jp:longitude 2.58e+01 .
+
+jp:Place_Q1996528 jp:latitude 5.108333e+01 ;
+    jp:longitude 2.453333e+01 .
+
+jp:Place_Q1997107 jp:latitude 5.371944e+01 ;
+    jp:longitude 3.171389e+01 .
+
+jp:Place_Q1999379 jp:latitude 5.605e+01 ;
+    jp:longitude 2.678333e+01 .
+
+jp:Place_Q1999815 jp:latitude 4.872222e+01 ;
+    jp:longitude 2.7515e+01 .
+
+jp:Place_Q20 jp:latitude 5.993333e+01 ;
+    jp:longitude 1.068333e+01 .
+
+jp:Place_Q200036 jp:latitude 3.936111e+01 ;
+    jp:longitude 2.29425e+01 .
+
+jp:Place_Q2000579 jp:latitude 5.598333e+01 ;
+    jp:longitude 2.475e+01 .
+
+jp:Place_Q200126 jp:latitude 4.889215e+01 ;
+    jp:longitude 2.344447e+00 .
+
+jp:Place_Q2005381 jp:latitude 4.835e+01 ;
+    jp:longitude 2.596667e+01 .
+
+jp:Place_Q200763 jp:latitude 4.966639e+01 ;
+    jp:longitude 8.011667e+00 .
+
+jp:Place_Q200876 jp:latitude 5.408333e+01 ;
+    jp:longitude 2.651667e+01 .
+
+jp:Place_Q200891 jp:latitude 5.368333e+01 ;
+    jp:longitude 2.713333e+01 .
+
+jp:Place_Q200937 jp:latitude 5.306361e+01 ;
+    jp:longitude 2.663722e+01 .
+
+jp:Place_Q200950 jp:latitude 5.315e+01 ;
+    jp:longitude 2.709167e+01 .
+
+jp:Place_Q200968 jp:latitude 5.42e+01 ;
+    jp:longitude 2.785e+01 .
+
+jp:Place_Q200991 jp:latitude 5.28e+01 ;
+    jp:longitude 2.799444e+01 .
+
+jp:Place_Q201051 jp:latitude 3.195e+01 ;
+    jp:longitude 3.48e+01 .
+
+jp:Place_Q201125 jp:latitude 4.537778e+01 ;
+    jp:longitude 2.038611e+01 .
+
+jp:Place_Q201230 jp:latitude 5.321667e+01 ;
+    jp:longitude 2.666667e+01 .
+
+jp:Place_Q201243 jp:latitude 5.301667e+01 ;
+    jp:longitude 2.755e+01 .
+
+jp:Place_Q201403 jp:latitude 5.303944e+01 ;
+    jp:longitude 2.8265e+01 .
+
+jp:Place_Q201421 jp:latitude 5.348333e+01 ;
+    jp:longitude 2.673333e+01 .
+
+jp:Place_Q201429 jp:latitude 5.346611e+01 ;
+    jp:longitude 2.722444e+01 .
+
+jp:Place_Q201458 jp:latitude 5.370778e+01 ;
+    jp:longitude 2.843222e+01 .
+
+jp:Place_Q201516 jp:latitude 2.581389e+01 ;
+    jp:longitude -8.01325e+01 .
+
+jp:Place_Q201729 jp:latitude 4.955e+01 ;
+    jp:longitude 2.221667e+01 .
+
+jp:Place_Q2018923 jp:latitude 4.3e+01 ;
+    jp:longitude -7.6e+01 .
+
+jp:Place_Q201982 jp:latitude 4.890361e+01 ;
+    jp:longitude 2.305556e+00 .
+
+jp:Place_Q202458 jp:latitude 4.693e+01 ;
+    jp:longitude 2.693e+01 .
+
+jp:Place_Q202560 jp:latitude 4.4055e+01 ;
+    jp:longitude 5.048056e+00 .
+
+jp:Place_Q2028 jp:latitude 4.543861e+01 ;
+    jp:longitude 1.099278e+01 .
+
+jp:Place_Q203285 jp:latitude 4.855889e+01 ;
+    jp:longitude 3.299444e+00 .
+
+jp:Place_Q203299 jp:latitude 2.93e+01 ;
+    jp:longitude 3.083333e+01 .
+
+jp:Place_Q203344 jp:latitude 4.618333e+01 ;
+    jp:longitude 1.895361e+01 .
+
+jp:Place_Q2034487 jp:latitude 5.027517e+01 ;
+    jp:longitude 1.771531e+01 .
+
+jp:Place_Q20352 jp:latitude 5.336472e+01 ;
+    jp:longitude 1.306361e+01 .
+
+jp:Place_Q2039456 jp:latitude 5.088333e+01 ;
+    jp:longitude 2.316667e+01 .
+
+jp:Place_Q204150 jp:latitude 5.211528e+01 ;
+    jp:longitude 2.610306e+01 .
+
+jp:Place_Q2044 jp:latitude 4.377139e+01 ;
+    jp:longitude 1.125417e+01 .
+
+jp:Place_Q20489 jp:latitude 4.465e+01 ;
+    jp:longitude 7.633333e+00 .
+
+jp:Place_Q20492 jp:latitude 4.929531e+01 ;
+    jp:longitude 1.446813e+01 .
+
+jp:Place_Q205632 jp:latitude 4.891111e+01 ;
+    jp:longitude 2.3825e+00 .
+
+jp:Place_Q205679 jp:latitude 5.154472e+01 ;
+    jp:longitude -5.75e-02 .
+
+jp:Place_Q20571 jp:latitude 4.273333e+01 ;
+    jp:longitude 1.273333e+01 .
+
+jp:Place_Q2061031 jp:latitude 5.435972e+01 ;
+    jp:longitude 2.822194e+01 .
+
+jp:Place_Q2063941 jp:latitude 4.978937e+01 ;
+    jp:longitude 1.46136e+01 .
+
+jp:Place_Q2065690 jp:latitude 5.061944e+01 ;
+    jp:longitude 2.446222e+01 .
+
+jp:Place_Q2068654 jp:latitude 5.557874e+01 ;
+    jp:longitude 3.745595e+01 .
+
+jp:Place_Q206954 jp:latitude 4.051813e+01 ;
+    jp:longitude 2.126876e+01 .
+
+jp:Place_Q206957 jp:latitude 4.108333e+01 ;
+    jp:longitude 2.355e+01 .
+
+jp:Place_Q206961 jp:latitude 4.895472e+01 ;
+    jp:longitude 2.308333e+00 .
+
+jp:Place_Q207226 jp:latitude 4.837806e+01 ;
+    jp:longitude 1.839639e+01 .
+
+jp:Place_Q2072590 jp:latitude 5.082778e+01 ;
+    jp:longitude 1.928722e+01 .
+
+jp:Place_Q207294 jp:latitude 5.315e+01 ;
+    jp:longitude 2.923333e+01 .
+
+jp:Place_Q207350 jp:latitude 3.189139e+01 ;
+    jp:longitude 3.480778e+01 .
+
+jp:Place_Q207408 jp:latitude 4.777528e+01 ;
+    jp:longitude 1.913111e+01 .
+
+jp:Place_Q207540 jp:latitude 3.195e+01 ;
+    jp:longitude 3.49e+01 .
+
+jp:Place_Q207620 jp:latitude 4.895944e+01 ;
+    jp:longitude 2.887778e+00 .
+
+jp:Place_Q2076834 jp:latitude 5.309361e+01 ;
+    jp:longitude 2.455167e+01 .
+
+jp:Place_Q2079 jp:latitude 5.134063e+01 ;
+    jp:longitude 1.237473e+01 .
+
+jp:Place_Q208119 jp:latitude 4.762306e+01 ;
+    jp:longitude 7.239444e+00 .
+
+jp:Place_Q208473 jp:latitude 4.978345e+01 ;
+    jp:longitude 2.278424e+01 .
+
+jp:Place_Q208499 jp:latitude 4.875e+01 ;
+    jp:longitude 3.021667e+01 .
+
+jp:Place_Q208573 jp:latitude 3.9165e+01 ;
+    jp:longitude 2.09875e+01 .
+
+jp:Place_Q208713 jp:latitude 5.083306e+01 ;
+    jp:longitude 4.366944e+00 .
+
+jp:Place_Q208725 jp:latitude 3.202306e+01 ;
+    jp:longitude 3.475028e+01 .
+
+jp:Place_Q208750 jp:latitude 4.877139e+01 ;
+    jp:longitude 1.862417e+01 .
+
+jp:Place_Q2087862 jp:latitude 3.177306e+01 ;
+    jp:longitude 3.5185e+01 .
+
+jp:Place_Q208794 jp:latitude 4.858944e+01 ;
+    jp:longitude 6.501667e+00 .
+
+jp:Place_Q2090 jp:latitude 4.945389e+01 ;
+    jp:longitude 1.10775e+01 .
+
+jp:Place_Q2090461 jp:latitude 4.241528e+01 ;
+    jp:longitude -7.115694e+01 .
+
+jp:Place_Q2092298 jp:latitude 3.046694e+01 ;
+    jp:longitude -8.88e+00 .
+
+jp:Place_Q2092533 jp:latitude 4.953111e+01 ;
+    jp:longitude 2.614667e+01 .
+
+jp:Place_Q209862 jp:latitude 4.454278e+01 ;
+    jp:longitude 4.293333e+00 .
+
+jp:Place_Q209932 jp:latitude 5.203333e+01 ;
+    jp:longitude 2.313333e+01 .
+
+jp:Place_Q209983 jp:latitude 4.778333e+01 ;
+    jp:longitude 1.993333e+01 .
+
+jp:Place_Q209988 jp:latitude 4.76e+01 ;
+    jp:longitude 1.936667e+01 .
+
+jp:Place_Q21 jp:latitude 5.3e+01 ;
+    jp:longitude -1e+00 .
+
+jp:Place_Q2100 jp:latitude 5.143222e+01 ;
+    jp:longitude 6.761111e+00 .
+
+jp:Place_Q210205 jp:latitude 4.75e+01 ;
+    jp:longitude 1.91e+01 .
+
+jp:Place_Q2103 jp:latitude 5.148333e+01 ;
+    jp:longitude 7.216667e+00 .
+
+jp:Place_Q21065 jp:latitude 5.437698e+01 ;
+    jp:longitude 9.0925e+00 .
+
+jp:Place_Q210720 jp:latitude 4.886506e+01 ;
+    jp:longitude 2.39905e+00 .
+
+jp:Place_Q210796 jp:latitude 4.776333e+01 ;
+    jp:longitude 1.812833e+01 .
+
+jp:Place_Q211 jp:latitude 5.7e+01 ;
+    jp:longitude 2.5e+01 .
+
+jp:Place_Q211377 jp:latitude 1.08e+01 ;
+    jp:longitude 1.249e+02 .
+
+jp:Place_Q2117476 jp:latitude 3.165472e+01 ;
+    jp:longitude 3.512778e+01 .
+
+jp:Place_Q21181 jp:latitude 5.556444e+01 ;
+    jp:longitude 9.759722e+00 .
+
+jp:Place_Q2119 jp:latitude 4.948778e+01 ;
+    jp:longitude 8.466111e+00 .
+
+jp:Place_Q21197 jp:latitude 4.702278e+01 ;
+    jp:longitude 2.883528e+01 .
+
+jp:Place_Q212 jp:latitude 4.9e+01 ;
+    jp:longitude 3.2e+01 .
+
+jp:Place_Q2121733 jp:latitude 5.435833e+01 ;
+    jp:longitude 2.484167e+01 .
+
+jp:Place_Q212991 jp:latitude 3.844861e+01 ;
+    jp:longitude -1.227047e+02 .
+
+jp:Place_Q213065 jp:latitude 4.948694e+01 ;
+    jp:longitude 2.927333e+01 .
+
+jp:Place_Q21312 jp:latitude 4.87575e+01 ;
+    jp:longitude 7.644167e+00 .
+
+jp:Place_Q213127 jp:latitude 5.525e+01 ;
+    jp:longitude 2.476667e+01 .
+
+jp:Place_Q213274 jp:latitude 3.177667e+01 ;
+    jp:longitude 3.523417e+01 .
+
+jp:Place_Q2133213 jp:latitude 5.07597e+01 ;
+    jp:longitude 8.88444e+00 .
+
+jp:Place_Q2135 jp:latitude 4.989556e+01 ;
+    jp:longitude -9.713861e+01 .
+
+jp:Place_Q2136259 jp:latitude 5.068335e+01 ;
+    jp:longitude 1.962562e+01 .
+
+jp:Place_Q21369 jp:latitude 4.84475e+01 ;
+    jp:longitude 7.516111e+00 .
+
+jp:Place_Q21377 jp:latitude 4.859528e+01 ;
+    jp:longitude 7.465556e+00 .
+
+jp:Place_Q214 jp:latitude 4.87e+01 ;
+    jp:longitude 1.97e+01 .
+
+jp:Place_Q2145 jp:latitude 4.681611e+01 ;
+    jp:longitude -7.122417e+01 .
+
+jp:Place_Q21489 jp:latitude 4.818444e+01 ;
+    jp:longitude 7.565833e+00 .
+
+jp:Place_Q214929 jp:latitude 4.263444e+01 ;
+    jp:longitude 1.166833e+01 .
+
+jp:Place_Q2149342 jp:latitude 4.988867e+01 ;
+    jp:longitude 2.228497e+01 .
+
+jp:Place_Q21494 jp:latitude 4.826833e+01 ;
+    jp:longitude 7.534167e+00 .
+
+jp:Place_Q214942 jp:latitude 4.825306e+01 ;
+    jp:longitude 2.064556e+01 .
+
+jp:Place_Q214945 jp:latitude 4.733056e+01 ;
+    jp:longitude 1.746583e+01 .
+
+jp:Place_Q214948 jp:latitude 4.717164e+01 ;
+    jp:longitude 1.979775e+01 .
+
+jp:Place_Q214956 jp:latitude 4.885554e+01 ;
+    jp:longitude 1.60488e+01 .
+
+jp:Place_Q21503 jp:latitude 4.875944e+01 ;
+    jp:longitude 7.57e+00 .
+
+jp:Place_Q215354 jp:latitude 5.15096e+01 ;
+    jp:longitude -2.043e-01 .
+
+jp:Place_Q2153758 jp:latitude 5.15361e+01 ;
+    jp:longitude -1.751e-01 .
+
+jp:Place_Q2154823 jp:latitude 3.12858e+01 ;
+    jp:longitude -4.275e+00 .
+
+jp:Place_Q21562 jp:latitude 4.860278e+01 ;
+    jp:longitude 7.441111e+00 .
+
+jp:Place_Q215633 jp:latitude 5.318333e+01 ;
+    jp:longitude 2.208333e+01 .
+
+jp:Place_Q215661 jp:latitude 3.388139e+01 ;
+    jp:longitude 1.009833e+01 .
+
+jp:Place_Q21570 jp:latitude 4.861389e+01 ;
+    jp:longitude 7.751944e+00 .
+
+jp:Place_Q216 jp:latitude 5.468722e+01 ;
+    jp:longitude 2.528e+01 .
+
+jp:Place_Q216173 jp:latitude 5.44e+01 ;
+    jp:longitude 1.866e+01 .
+
+jp:Place_Q216372 jp:latitude 5.495e+01 ;
+    jp:longitude -1.6e+00 .
+
+jp:Place_Q216939 jp:latitude 3.151302e+01 ;
+    jp:longitude -9.768696e+00 .
+
+jp:Place_Q218 jp:latitude 4.6e+01 ;
+    jp:longitude 2.5e+01 .
+
+jp:Place_Q218272 jp:latitude 3.676667e+01 ;
+    jp:longitude 3.05e+00 .
+
+jp:Place_Q2184 jp:latitude 6.2e+01 ;
+    jp:longitude 1e+02 .
+
+jp:Place_Q21872 jp:latitude 4.932972e+01 ;
+    jp:longitude 6.061944e+00 .
+
+jp:Place_Q21933 jp:latitude 4.90525e+01 ;
+    jp:longitude 6.930833e+00 .
+
+jp:Place_Q2195315 jp:latitude 5.1e+01 ;
+    jp:longitude 2.17e+01 .
+
+jp:Place_Q219593 jp:latitude 4.888629e+01 ;
+    jp:longitude 3.070271e+01 .
+
+jp:Place_Q219595 jp:latitude 4.921667e+01 ;
+    jp:longitude 3.186667e+01 .
+
+jp:Place_Q219762 jp:latitude 4.953608e+01 ;
+    jp:longitude 2.621272e+01 .
+
+jp:Place_Q219767 jp:latitude 4.888731e+01 ;
+    jp:longitude 2.684764e+01 .
+
+jp:Place_Q220 jp:latitude 4.189306e+01 ;
+    jp:longitude 1.248278e+01 .
+
+jp:Place_Q22046 jp:latitude 4.9315e+01 ;
+    jp:longitude 6.285833e+00 .
+
+jp:Place_Q22083050 jp:latitude 4.030278e+01 ;
+    jp:longitude -7.552944e+01 .
+
+jp:Place_Q22115 jp:latitude 4.909361e+01 ;
+    jp:longitude 6.271111e+00 .
+
+jp:Place_Q2213125 jp:latitude 4.915553e+01 ;
+    jp:longitude 1.343736e+01 .
+
+jp:Place_Q2214068 jp:latitude 4.936945e+01 ;
+    jp:longitude 1.484071e+01 .
+
+jp:Place_Q221447 jp:latitude 3.19275e+01 ;
+    jp:longitude 3.48625e+01 .
+
+jp:Place_Q22147 jp:latitude 4.939333e+01 ;
+    jp:longitude 6.276944e+00 .
+
+jp:Place_Q221495 jp:latitude 4.528333e+01 ;
+    jp:longitude 1.88e+01 .
+
+jp:Place_Q22160 jp:latitude 4.876778e+01 ;
+    jp:longitude 7.258333e+00 .
+
+jp:Place_Q2218834 jp:latitude 4.98e+01 ;
+    jp:longitude 2.143333e+01 .
+
+jp:Place_Q222251 jp:latitude 4.740431e+01 ;
+    jp:longitude 1.863089e+01 .
+
+jp:Place_Q2222616 jp:latitude 5.598333e+01 ;
+    jp:longitude 2.225e+01 .
+
+jp:Place_Q22282 jp:latitude 4.877528e+01 ;
+    jp:longitude 7.141944e+00 .
+
+jp:Place_Q223140 jp:latitude 4.886403e+01 ;
+    jp:longitude 2.361531e+00 .
+
+jp:Place_Q223353 jp:latitude 4.533472e+01 ;
+    jp:longitude 1.430694e+01 .
+
+jp:Place_Q223479 jp:latitude 4.795806e+01 ;
+    jp:longitude 1.841167e+01 .
+
+jp:Place_Q22392 jp:latitude 4.894167e+01 ;
+    jp:longitude 7.186667e+00 .
+
+jp:Place_Q22435 jp:latitude 4.897528e+01 ;
+    jp:longitude 8.173889e+00 .
+
+jp:Place_Q2245433 jp:latitude 4.220667e+01 ;
+    jp:longitude 4.2345e+01 .
+
+jp:Place_Q22477 jp:latitude 4.849056e+01 ;
+    jp:longitude 7.680278e+00 .
+
+jp:Place_Q224781 jp:latitude 4.03195e+01 ;
+    jp:longitude -7.44288e+01 .
+
+jp:Place_Q2248234 jp:latitude 5.602222e+01 ;
+    jp:longitude 2.125833e+01 .
+
+jp:Place_Q22507 jp:latitude 4.887306e+01 ;
+    jp:longitude 7.476944e+00 .
+
+jp:Place_Q22544 jp:latitude 4.873472e+01 ;
+    jp:longitude 7.053889e+00 .
+
+jp:Place_Q2255774 jp:latitude 5.01869e+01 ;
+    jp:longitude 1.05703e+01 .
+
+jp:Place_Q2256 jp:latitude 5.248e+01 ;
+    jp:longitude -1.9025e+00 .
+
+jp:Place_Q2262291 jp:latitude 1.55e+01 ;
+    jp:longitude 4.39e+01 .
+
+jp:Place_Q22637 jp:latitude 4.873194e+01 ;
+    jp:longitude 7.708333e+00 .
+
+jp:Place_Q22639 jp:latitude 4.860694e+01 ;
+    jp:longitude 7.749167e+00 .
+
+jp:Place_Q22690 jp:latitude 4.911972e+01 ;
+    jp:longitude 6.176944e+00 .
+
+jp:Place_Q22695 jp:latitude 4.881222e+01 ;
+    jp:longitude 6.719722e+00 .
+
+jp:Place_Q22727 jp:latitude 4.846222e+01 ;
+    jp:longitude 7.481944e+00 .
+
+jp:Place_Q22730 jp:latitude 4.881667e+01 ;
+    jp:longitude 7.787778e+00 .
+
+jp:Place_Q22737 jp:latitude 4.825944e+01 ;
+    jp:longitude 7.454167e+00 .
+
+jp:Place_Q22740 jp:latitude 4.882528e+01 ;
+    jp:longitude 7.482778e+00 .
+
+jp:Place_Q22741 jp:latitude 4.874139e+01 ;
+    jp:longitude 7.361944e+00 .
+
+jp:Place_Q22745 jp:latitude 4.882167e+01 ;
+    jp:longitude 6.508333e+00 .
+
+jp:Place_Q2277 jp:latitude 4.19e+01 ;
+    jp:longitude 1.25e+01 .
+
+jp:Place_Q2277462 jp:latitude 5.526389e+01 ;
+    jp:longitude 2.270833e+01 .
+
+jp:Place_Q22793 jp:latitude 4.858389e+01 ;
+    jp:longitude 7.436944e+00 .
+
+jp:Place_Q2280 jp:latitude 5.390225e+01 ;
+    jp:longitude 2.756184e+01 .
+
+jp:Place_Q2281467 jp:latitude 5.589389e+01 ;
+    jp:longitude 2.2525e+01 .
+
+jp:Place_Q228445 jp:latitude 4.75125e+01 ;
+    jp:longitude 1.910833e+01 .
+
+jp:Place_Q22872 jp:latitude 4.93e+01 ;
+    jp:longitude 8.65e+00 .
+
+jp:Place_Q22873 jp:latitude 4.946667e+01 ;
+    jp:longitude 8.983333e+00 .
+
+jp:Place_Q22889 jp:latitude 5.138139e+01 ;
+    jp:longitude -2.359722e+00 .
+
+jp:Place_Q22901 jp:latitude 4.94618e+01 ;
+    jp:longitude 8.17236e+00 .
+
+jp:Place_Q22905 jp:latitude 5.3794e+01 ;
+    jp:longitude -1.751e+00 .
+
+jp:Place_Q2291811 jp:latitude 3.165e+01 ;
+    jp:longitude 3.511667e+01 .
+
+jp:Place_Q2294422 jp:latitude 5.366667e+01 ;
+    jp:longitude 2.381667e+01 .
+
+jp:Place_Q2296550 jp:latitude 5.066667e+01 ;
+    jp:longitude 1.386667e+01 .
+
+jp:Place_Q2297044 jp:latitude 5.15575e+01 ;
+    jp:longitude 8.583333e-02 .
+
+jp:Place_Q22990 jp:latitude 4.849667e+01 ;
+    jp:longitude 7.469444e+00 .
+
+jp:Place_Q23008 jp:latitude 4.935e+01 ;
+    jp:longitude 9.133333e+00 .
+
+jp:Place_Q230127 jp:latitude 4.885556e+01 ;
+    jp:longitude 2.355556e+00 .
+
+jp:Place_Q2316 jp:latitude 5.138944e+01 ;
+    jp:longitude 2.2185e+01 .
+
+jp:Place_Q2317525 jp:latitude 5.563889e+01 ;
+    jp:longitude 2.372222e+01 .
+
+jp:Place_Q2324455 jp:latitude 4.958333e+01 ;
+    jp:longitude 2.236667e+01 .
+
+jp:Place_Q23306 jp:latitude 5.152e+01 ;
+    jp:longitude -1e-01 .
+
+jp:Place_Q2331605 jp:latitude 3.176472e+01 ;
+    jp:longitude 3.514917e+01 .
+
+jp:Place_Q234061 jp:latitude 4.212956e+01 ;
+    jp:longitude -8.008521e+01 .
+
+jp:Place_Q2341034 jp:latitude 4.970861e+01 ;
+    jp:longitude 2.094472e+01 .
+
+jp:Place_Q234184 jp:latitude 5.113333e+01 ;
+    jp:longitude 2.348333e+01 .
+
+jp:Place_Q23436 jp:latitude 5.595333e+01 ;
+    jp:longitude -3.189167e+00 .
+
+jp:Place_Q234600 jp:latitude 2.42075e+01 ;
+    jp:longitude 5.574472e+01 .
+
+jp:Place_Q23482 jp:latitude 4.329667e+01 ;
+    jp:longitude 5.376389e+00 .
+
+jp:Place_Q2351804 jp:latitude 5.333333e+01 ;
+    jp:longitude 2.268333e+01 .
+
+jp:Place_Q2354222 jp:latitude 4.066306e+01 ;
+    jp:longitude -7.394472e+01 .
+
+jp:Place_Q23556 jp:latitude 3.375444e+01 ;
+    jp:longitude -8.438972e+01 .
+
+jp:Place_Q2356396 jp:latitude 5.576667e+01 ;
+    jp:longitude 2.375e+01 .
+
+jp:Place_Q236083 jp:latitude 5.41e+01 ;
+    jp:longitude 2.293333e+01 .
+
+jp:Place_Q2363612 jp:latitude 5.0162e+01 ;
+    jp:longitude 2.230825e+01 .
+
+jp:Place_Q23661 jp:latitude -4.128889e+01 ;
+    jp:longitude 1.747772e+02 .
+
+jp:Place_Q236644 jp:latitude 4.097194e+01 ;
+    jp:longitude -7.396444e+01 .
+
+jp:Place_Q237655 jp:latitude 5.31325e+01 ;
+    jp:longitude 2.601778e+01 .
+
+jp:Place_Q237674 jp:latitude 5.082667e+01 ;
+    jp:longitude 4.345556e+00 .
+
+jp:Place_Q23768 jp:latitude 3.616722e+01 ;
+    jp:longitude -1.151486e+02 .
+
+jp:Place_Q23792 jp:latitude 3.162532e+01 ;
+    jp:longitude 3.514526e+01 .
+
+jp:Place_Q238723 jp:latitude 4.884722e+01 ;
+    jp:longitude 2.344444e+00 .
+
+jp:Place_Q2389508 jp:latitude 3.218556e+01 ;
+    jp:longitude 3.482194e+01 .
+
+jp:Place_Q239 jp:latitude 5.084667e+01 ;
+    jp:longitude 4.351667e+00 .
+
+jp:Place_Q2391335 jp:latitude 4.92e+01 ;
+    jp:longitude 2.683333e+01 .
+
+jp:Place_Q2392709 jp:latitude 5.251967e+01 ;
+    jp:longitude 2.313206e+01 .
+
+jp:Place_Q239519 jp:latitude 4.69646e+01 ;
+    jp:longitude 2.35574e+01 .
+
+jp:Place_Q239976 jp:latitude 4.557e+01 ;
+    jp:longitude 2.071361e+01 .
+
+jp:Place_Q240475 jp:latitude 3.398806e+01 ;
+    jp:longitude 5.14425e+01 .
+
+jp:Place_Q240504 jp:latitude 4.622e+01 ;
+    jp:longitude 2.047889e+01 .
+
+jp:Place_Q2405047 jp:latitude 5.069499e+01 ;
+    jp:longitude 1.858149e+01 .
+
+jp:Place_Q2406383 jp:latitude 5.175e+01 ;
+    jp:longitude 2.138333e+01 .
+
+jp:Place_Q241 jp:latitude 2.2e+01 ;
+    jp:longitude -7.95e+01 .
+
+jp:Place_Q241125 jp:latitude 4.8746e+01 ;
+    jp:longitude 2.2179e+01 .
+
+jp:Place_Q2412514 jp:latitude 4.120389e+01 ;
+    jp:longitude -7.373056e+01 .
+
+jp:Place_Q241475 jp:latitude 5.389556e+01 ;
+    jp:longitude 2.529583e+01 .
+
+jp:Place_Q2416499 jp:latitude 4.99433e+01 ;
+    jp:longitude 1.01478e+01 .
+
+jp:Place_Q2416525 jp:latitude 4.84e+01 ;
+    jp:longitude 3.783333e+01 .
+
+jp:Place_Q2429670 jp:latitude 4.215833e+01 ;
+    jp:longitude -7.114528e+01 .
+
+jp:Place_Q2433817 jp:latitude 5.09e+01 ;
+    jp:longitude 2.363333e+01 .
+
+jp:Place_Q2439514 jp:latitude 5.035028e+01 ;
+    jp:longitude 2.332722e+01 .
+
+jp:Place_Q244 jp:latitude 1.317e+01 ;
+    jp:longitude -5.95525e+01 .
+
+jp:Place_Q244271 jp:latitude 4.897194e+01 ;
+    jp:longitude 2.4e+00 .
+
+jp:Place_Q244433 jp:latitude 4.593556e+01 ;
+    jp:longitude 9.270833e+00 .
+
+jp:Place_Q2446336 jp:latitude 5.332222e+01 ;
+    jp:longitude 2.601333e+01 .
+
+jp:Place_Q244747 jp:latitude 4.206528e+01 ;
+    jp:longitude -1.606667e+00 .
+
+jp:Place_Q245537 jp:latitude 4.32875e+01 ;
+    jp:longitude 5.380833e+00 .
+
+jp:Place_Q2460958 jp:latitude 5.158333e+01 ;
+    jp:longitude 2.156667e+01 .
+
+jp:Place_Q246199 jp:latitude 4.884556e+01 ;
+    jp:longitude 2.186944e+00 .
+
+jp:Place_Q24639 jp:latitude 4.926083e+01 ;
+    jp:longitude -1.231139e+02 .
+
+jp:Place_Q2464812 jp:latitude 5.585917e+01 ;
+    jp:longitude 2.652083e+01 .
+
+jp:Place_Q246723 jp:latitude 4.840694e+01 ;
+    jp:longitude 2.217444e+01 .
+
+jp:Place_Q2469901 jp:latitude 5.076667e+01 ;
+    jp:longitude 2.5e+01 .
+
+jp:Place_Q247003 jp:latitude 3.152833e+01 ;
+    jp:longitude 3.511861e+01 .
+
+jp:Place_Q2471 jp:latitude 1.535e+01 ;
+    jp:longitude 4.42e+01 .
+
+jp:Place_Q2471796 jp:latitude 5.280556e+01 ;
+    jp:longitude 2.941611e+01 .
+
+jp:Place_Q2475182 jp:latitude 3.247111e+01 ;
+    jp:longitude 3.49675e+01 .
+
+jp:Place_Q247620 jp:latitude 4.827194e+01 ;
+    jp:longitude 1.982861e+01 .
+
+jp:Place_Q2478305 jp:latitude 5.293667e+01 ;
+    jp:longitude 2.436694e+01 .
+
+jp:Place_Q248144 jp:latitude 5.038587e+01 ;
+    jp:longitude 1.766035e+01 .
+
+jp:Place_Q24826 jp:latitude 5.340722e+01 ;
+    jp:longitude -2.991667e+00 .
+
+jp:Place_Q2483374 jp:latitude 5.450278e+01 ;
+    jp:longitude 2.425278e+01 .
+
+jp:Place_Q24861 jp:latitude 4.265e+01 ;
+    jp:longitude -7.376667e+01 .
+
+jp:Place_Q24879 jp:latitude 5.307583e+01 ;
+    jp:longitude 8.807222e+00 .
+
+jp:Place_Q249166 jp:latitude 5.336028e+01 ;
+    jp:longitude 1.704083e+01 .
+
+jp:Place_Q2494413 jp:latitude 5.193333e+01 ;
+    jp:longitude 3.080111e+01 .
+
+jp:Place_Q249498 jp:latitude 4.748121e+01 ;
+    jp:longitude 1.91303e+01 .
+
+jp:Place_Q2495402 jp:latitude 3.23818e+01 ;
+    jp:longitude 3.48769e+01 .
+
+jp:Place_Q250485 jp:latitude 5.2225e+01 ;
+    jp:longitude 2.023333e+01 .
+
+jp:Place_Q250832 jp:latitude 4.773806e+01 ;
+    jp:longitude 1.639694e+01 .
+
+jp:Place_Q252 jp:latitude -2e+00 ;
+    jp:longitude 1.18e+02 .
+
+jp:Place_Q252313 jp:latitude 4.77308e+01 ;
+    jp:longitude 2.09423e+01 .
+
+jp:Place_Q252325 jp:latitude 4.781667e+01 ;
+    jp:longitude 2.15e+01 .
+
+jp:Place_Q25280 jp:latitude 4.026455e+01 ;
+    jp:longitude -7.688338e+01 .
+
+jp:Place_Q25287 jp:latitude 5.77075e+01 ;
+    jp:longitude 1.19675e+01 .
+
+jp:Place_Q25302 jp:latitude 5.009194e+01 ;
+    jp:longitude 1.821917e+01 .
+
+jp:Place_Q25330 jp:latitude 4.022028e+01 ;
+    jp:longitude -7.476583e+01 .
+
+jp:Place_Q25390 jp:latitude 5.32e+01 ;
+    jp:longitude 5.783333e+00 .
+
+jp:Place_Q25394915 jp:latitude 4.756667e+01 ;
+    jp:longitude 1.903333e+01 .
+
+jp:Place_Q25395 jp:latitude 4.073556e+01 ;
+    jp:longitude -7.417222e+01 .
+
+jp:Place_Q25409 jp:latitude 4.871667e+01 ;
+    jp:longitude 2.125e+01 .
+
+jp:Place_Q25488547 jp:latitude 3.205869e+01 ;
+    jp:longitude 3.486842e+01 .
+
+jp:Place_Q255604 jp:latitude 4.730694e+01 ;
+    jp:longitude 1.643833e+01 .
+
+jp:Place_Q25607 jp:latitude 4.742333e+01 ;
+    jp:longitude 9.377222e+00 .
+
+jp:Place_Q2561450 jp:latitude 3.208056e+01 ;
+    jp:longitude 3.479e+01 .
+
+jp:Place_Q256307 jp:latitude 4.732278e+01 ;
+    jp:longitude 1.627417e+01 .
+
+jp:Place_Q256801 jp:latitude 4.925804e+01 ;
+    jp:longitude 2.428564e+01 .
+
+jp:Place_Q2570492 jp:latitude 3.19887e+01 ;
+    jp:longitude 3.4852e+01 .
+
+jp:Place_Q2573951 jp:latitude 5.47e+01 ;
+    jp:longitude 2.528333e+01 .
+
+jp:Place_Q25797 jp:latitude 4.921667e+01 ;
+    jp:longitude 1.873333e+01 .
+
+jp:Place_Q258 jp:latitude -2.9e+01 ;
+    jp:longitude 2.4e+01 .
+
+jp:Place_Q2580559 jp:latitude 5.065667e+01 ;
+    jp:longitude 2.686472e+01 .
+
+jp:Place_Q258481 jp:latitude 4.912e+01 ;
+    jp:longitude 1.833056e+01 .
+
+jp:Place_Q258855 jp:latitude 4.862361e+01 ;
+    jp:longitude 2.136528e+01 .
+
+jp:Place_Q258981 jp:latitude 4.568611e+01 ;
+    jp:longitude 2.190056e+01 .
+
+jp:Place_Q259272 jp:latitude 5.57e+01 ;
+    jp:longitude 2.14e+01 .
+
+jp:Place_Q259463 jp:latitude 4.885917e+01 ;
+    jp:longitude 2.312778e+00 .
+
+jp:Place_Q259617 jp:latitude 4.806083e+01 ;
+    jp:longitude 1.223333e+01 .
+
+jp:Place_Q2596991 jp:latitude 5.375194e+01 ;
+    jp:longitude 2.605722e+01 .
+
+jp:Place_Q2597135 jp:latitude 3.195551e+01 ;
+    jp:longitude 3.526023e+01 .
+
+jp:Place_Q2599571 jp:latitude 3.533333e+01 ;
+    jp:longitude 2.513333e+01 .
+
+jp:Place_Q2602963 jp:latitude 4.891216e+01 ;
+    jp:longitude 2.53261e+01 .
+
+jp:Place_Q2602975 jp:latitude 4.951667e+01 ;
+    jp:longitude 2.440361e+01 .
+
+jp:Place_Q2603008 jp:latitude 5.120232e+01 ;
+    jp:longitude 2.908139e+01 .
+
+jp:Place_Q260522 jp:latitude 4.612389e+01 ;
+    jp:longitude 1.932611e+01 .
+
+jp:Place_Q2608314 jp:latitude 4.786861e+01 ;
+    jp:longitude 2.82475e+01 .
+
+jp:Place_Q26119 jp:latitude 4.9e+01 ;
+    jp:longitude 2.123333e+01 .
+
+jp:Place_Q2614813 jp:latitude 3.204278e+01 ;
+    jp:longitude 3.490889e+01 .
+
+jp:Place_Q26175 jp:latitude 4.837775e+01 ;
+    jp:longitude 1.758621e+01 .
+
+jp:Place_Q2626422 jp:latitude 2.939083e+01 ;
+    jp:longitude -8.256389e+00 .
+
+jp:Place_Q2628593 jp:latitude 4.981399e+01 ;
+    jp:longitude 1.902595e+01 .
+
+jp:Place_Q2629630 jp:latitude 4.925e+01 ;
+    jp:longitude 2.626667e+01 .
+
+jp:Place_Q2630517 jp:latitude 5.424794e+01 ;
+    jp:longitude 2.979664e+01 .
+
+jp:Place_Q2630628 jp:latitude 5.340833e+01 ;
+    jp:longitude 3.257222e+01 .
+
+jp:Place_Q2633540 jp:latitude 4.731667e+01 ;
+    jp:longitude 2.763333e+01 .
+
+jp:Place_Q26339 jp:latitude 4.071e+01 ;
+    jp:longitude -7.406e+01 .
+
+jp:Place_Q2634 jp:latitude 4.083583e+01 ;
+    jp:longitude 1.424861e+01 .
+
+jp:Place_Q263758 jp:latitude 4.796167e+01 ;
+    jp:longitude 7.238056e+00 .
+
+jp:Place_Q26397 jp:latitude 4.831472e+01 ;
+    jp:longitude 1.80875e+01 .
+
+jp:Place_Q2640170 jp:latitude 3.194361e+01 ;
+    jp:longitude 3.483917e+01 .
+
+jp:Place_Q2641606 jp:latitude 4.972333e+01 ;
+    jp:longitude 2.922139e+01 .
+
+jp:Place_Q26421 jp:latitude 5.179583e+01 ;
+    jp:longitude 4.678333e+00 .
+
+jp:Place_Q2648217 jp:latitude 5.063333e+01 ;
+    jp:longitude 2.348333e+01 .
+
+jp:Place_Q265185 jp:latitude 4.845446e+01 ;
+    jp:longitude 2.152835e+01 .
+
+jp:Place_Q2652167 jp:latitude 4.878703e+01 ;
+    jp:longitude 2.856419e+01 .
+
+jp:Place_Q2661930 jp:latitude 5.001333e+01 ;
+    jp:longitude 1.448556e+01 .
+
+jp:Place_Q2662063 jp:latitude 4.827083e+01 ;
+    jp:longitude 2.612472e+01 .
+
+jp:Place_Q2664126 jp:latitude 4.947905e+01 ;
+    jp:longitude 2.20609e+01 .
+
+jp:Place_Q2668941 jp:latitude 4.063611e+01 ;
+    jp:longitude -7.371944e+01 .
+
+jp:Place_Q2678 jp:latitude 5.244167e+01 ;
+    jp:longitude 3.098333e+01 .
+
+jp:Place_Q267888 jp:latitude 4.865861e+01 ;
+    jp:longitude 2.053139e+01 .
+
+jp:Place_Q268 jp:latitude 5.240833e+01 ;
+    jp:longitude 1.693361e+01 .
+
+jp:Place_Q268025 jp:latitude 4.369333e+01 ;
+    jp:longitude 4.276111e+00 .
+
+jp:Place_Q268656 jp:latitude 4.956667e+01 ;
+    jp:longitude 2.278333e+01 .
+
+jp:Place_Q2693044 jp:latitude 4.938313e+01 ;
+    jp:longitude 2.086496e+01 .
+
+jp:Place_Q269530 jp:latitude 4.978403e+01 ;
+    jp:longitude 3.325886e+01 .
+
+jp:Place_Q2695642 jp:latitude 5.298333e+01 ;
+    jp:longitude 2.27e+01 .
+
+jp:Place_Q270 jp:latitude 5.223e+01 ;
+    jp:longitude 2.101111e+01 .
+
+jp:Place_Q27001 jp:latitude 4.906361e+01 ;
+    jp:longitude 1.892139e+01 .
+
+jp:Place_Q2701184 jp:latitude 3.13285e+01 ;
+    jp:longitude 3.465e+01 .
+
+jp:Place_Q270230 jp:latitude 4.887417e+01 ;
+    jp:longitude 2.311111e+00 .
+
+jp:Place_Q270656 jp:latitude 5.262333e+01 ;
+    jp:longitude 2.037528e+01 .
+
+jp:Place_Q270704 jp:latitude 4.921497e+01 ;
+    jp:longitude 1.588168e+01 .
+
+jp:Place_Q2707138 jp:latitude 5.556389e+01 ;
+    jp:longitude 2.462222e+01 .
+
+jp:Place_Q2710598 jp:latitude 3.993484e+01 ;
+    jp:longitude -7.503073e+01 .
+
+jp:Place_Q27125 jp:latitude 2.569861e+01 ;
+    jp:longitude 3.92925e+01 .
+
+jp:Place_Q271395 jp:latitude 4.140897e+01 ;
+    jp:longitude -7.566241e+01 .
+
+jp:Place_Q2716505 jp:latitude 5.15705e+01 ;
+    jp:longitude -7.27e-02 .
+
+jp:Place_Q2718227 jp:latitude 3.322056e+01 ;
+    jp:longitude 5.0315e+01 .
+
+jp:Place_Q272040 jp:latitude 4.908111e+01 ;
+    jp:longitude 1.961806e+01 .
+
+jp:Place_Q272093 jp:latitude 3.530972e+01 ;
+    jp:longitude 4.699889e+01 .
+
+jp:Place_Q273801 jp:latitude 4.714139e+01 ;
+    jp:longitude 2.387639e+01 .
+
+jp:Place_Q27381 jp:latitude 3.044074e+01 ;
+    jp:longitude 9.681714e+00 .
+
+jp:Place_Q274183 jp:latitude 4.41625e+01 ;
+    jp:longitude 4.62e+00 .
+
+jp:Place_Q2742 jp:latitude 5.19625e+01 ;
+    jp:longitude 7.625556e+00 .
+
+jp:Place_Q2749 jp:latitude 4.836889e+01 ;
+    jp:longitude 1.089778e+01 .
+
+jp:Place_Q275118 jp:latitude 4.887828e+01 ;
+    jp:longitude 2.336967e+00 .
+
+jp:Place_Q27541 jp:latitude 4.907861e+01 ;
+    jp:longitude 1.930833e+01 .
+
+jp:Place_Q275592 jp:latitude 5.052052e+01 ;
+    jp:longitude 2.052649e+01 .
+
+jp:Place_Q275694 jp:latitude 5.0805e+01 ;
+    jp:longitude 2.142472e+01 .
+
+jp:Place_Q2758 jp:latitude 5.12e+01 ;
+    jp:longitude 6.433333e+00 .
+
+jp:Place_Q275981 jp:latitude 4.721667e+01 ;
+    jp:longitude 2.726667e+01 .
+
+jp:Place_Q276362 jp:latitude 4.798598e+01 ;
+    jp:longitude 1.816322e+01 .
+
+jp:Place_Q276857 jp:latitude 5.17851e+01 ;
+    jp:longitude 2.118338e+01 .
+
+jp:Place_Q2773 jp:latitude 5.226917e+01 ;
+    jp:longitude 1.052111e+01 .
+
+jp:Place_Q2776804 jp:latitude 3.1572e+01 ;
+    jp:longitude 3.47484e+01 .
+
+jp:Place_Q2777361 jp:latitude 3.29323e+01 ;
+    jp:longitude 3.54338e+01 .
+
+jp:Place_Q2777371 jp:latitude 3.18779e+01 ;
+    jp:longitude 3.47988e+01 .
+
+jp:Place_Q2778158 jp:latitude 3.17575e+01 ;
+    jp:longitude 3.517778e+01 .
+
+jp:Place_Q2778236 jp:latitude 3.17941e+01 ;
+    jp:longitude 3.50371e+01 .
+
+jp:Place_Q2778297 jp:latitude 4.0669e+01 ;
+    jp:longitude -7.39429e+01 .
+
+jp:Place_Q277936 jp:latitude 5.4775e+01 ;
+    jp:longitude 2.286667e+01 .
+
+jp:Place_Q278743 jp:latitude 5.359917e+01 ;
+    jp:longitude 2.582556e+01 .
+
+jp:Place_Q279 jp:latitude 4.464582e+01 ;
+    jp:longitude 1.092572e+01 .
+
+jp:Place_Q27907 jp:latitude 4.922278e+01 ;
+    jp:longitude 1.855806e+01 .
+
+jp:Place_Q2795 jp:latitude 5.083333e+01 ;
+    jp:longitude 1.291667e+01 .
+
+jp:Place_Q279890 jp:latitude 4.004361e+01 ;
+    jp:longitude -7.518194e+01 .
+
+jp:Place_Q28 jp:latitude 4.7e+01 ;
+    jp:longitude 1.9e+01 .
+
+jp:Place_Q2805 jp:latitude 5.133333e+01 ;
+    jp:longitude 6.566667e+00 .
+
+jp:Place_Q2814 jp:latitude 5.148278e+01 ;
+    jp:longitude 1.196972e+01 .
+
+jp:Place_Q282380 jp:latitude 5.328333e+01 ;
+    jp:longitude 2.23e+01 .
+
+jp:Place_Q282460 jp:latitude 4.778667e+01 ;
+    jp:longitude 1.895861e+01 .
+
+jp:Place_Q282824 jp:latitude 4.996667e+01 ;
+    jp:longitude 2.461667e+01 .
+
+jp:Place_Q2833 jp:latitude 4.7995e+01 ;
+    jp:longitude 7.85e+00 .
+
+jp:Place_Q283505 jp:latitude 4.75167e+01 ;
+    jp:longitude 1.71e+01 .
+
+jp:Place_Q2841 jp:latitude 4.60971e+00 ;
+    jp:longitude -7.408175e+01 .
+
+jp:Place_Q2843 jp:latitude 5.386972e+01 ;
+    jp:longitude 1.068639e+01 .
+
+jp:Place_Q2845251 jp:latitude 5.451389e+01 ;
+    jp:longitude 2.389194e+01 .
+
+jp:Place_Q284541 jp:latitude 4.75e+01 ;
+    jp:longitude 1.906667e+01 .
+
+jp:Place_Q28513 jp:latitude 4.82075e+01 ;
+    jp:longitude 1.6365e+01 .
+
+jp:Place_Q28516 jp:latitude 5.058333e+01 ;
+    jp:longitude 2.168333e+01 .
+
+jp:Place_Q28587 jp:latitude 3.48e+01 ;
+    jp:longitude 4.851667e+01 .
+
+jp:Place_Q285879 jp:latitude 4.996694e+01 ;
+    jp:longitude 7.895e+00 .
+
+jp:Place_Q2861 jp:latitude 5.408333e+01 ;
+    jp:longitude 1.213333e+01 .
+
+jp:Place_Q2865 jp:latitude 5.131578e+01 ;
+    jp:longitude 9.497917e+00 .
+
+jp:Place_Q286696 jp:latitude 5.326528e+01 ;
+    jp:longitude 2.377194e+01 .
+
+jp:Place_Q28722923 jp:latitude 4.754428e+01 ;
+    jp:longitude 1.926136e+01 .
+
+jp:Place_Q28726684 jp:latitude 4.589917e+01 ;
+    jp:longitude 6.129444e+00 .
+
+jp:Place_Q2875399 jp:latitude 5.511944e+01 ;
+    jp:longitude 2.396111e+01 .
+
+jp:Place_Q28864640 jp:latitude 4.917953e+01 ;
+    jp:longitude 1.141185e+01 .
+
+jp:Place_Q2887 jp:latitude -3.34375e+01 ;
+    jp:longitude -7.065e+01 .
+
+jp:Place_Q2889421 jp:latitude 3.14704e+01 ;
+    jp:longitude 3.45349e+01 .
+
+jp:Place_Q2889590 jp:latitude 3.248389e+01 ;
+    jp:longitude 3.500278e+01 .
+
+jp:Place_Q2889873 jp:latitude 3.24402e+01 ;
+    jp:longitude 3.5515e+01 .
+
+jp:Place_Q2890412 jp:latitude 3.236389e+01 ;
+    jp:longitude 3.490417e+01 .
+
+jp:Place_Q289843 jp:latitude 4.676667e+01 ;
+    jp:longitude 1.703333e+01 .
+
+jp:Place_Q2901206 jp:latitude 3.27994e+01 ;
+    jp:longitude 3.51467e+01 .
+
+jp:Place_Q2906317 jp:latitude 3.205e+01 ;
+    jp:longitude 3.478333e+01 .
+
+jp:Place_Q2910711 jp:latitude 3.21613e+01 ;
+    jp:longitude 3.490271e+01 .
+
+jp:Place_Q2911280 jp:latitude 4.06335e+01 ;
+    jp:longitude -7.39929e+01 .
+
+jp:Place_Q2915001 jp:latitude 3.29775e+01 ;
+    jp:longitude 3.533333e+01 .
+
+jp:Place_Q2915012 jp:latitude 3.204715e+01 ;
+    jp:longitude 3.484511e+01 .
+
+jp:Place_Q2916142 jp:latitude 3.178673e+01 ;
+    jp:longitude 3.519548e+01 .
+
+jp:Place_Q2916387 jp:latitude 3.179392e+01 ;
+    jp:longitude 3.516846e+01 .
+
+jp:Place_Q2916604 jp:latitude 3.1761e+01 ;
+    jp:longitude 3.5207e+01 .
+
+jp:Place_Q2916609 jp:latitude 3.178889e+01 ;
+    jp:longitude 3.522278e+01 .
+
+jp:Place_Q2917084 jp:latitude 3.26968e+01 ;
+    jp:longitude 3.51411e+01 .
+
+jp:Place_Q2917229 jp:latitude 5.051667e+01 ;
+    jp:longitude 2.018333e+01 .
+
+jp:Place_Q2917470 jp:latitude 4.11194e+01 ;
+    jp:longitude -7.40658e+01 .
+
+jp:Place_Q2917479 jp:latitude 4.113333e+01 ;
+    jp:longitude -7.401667e+01 .
+
+jp:Place_Q2918008 jp:latitude 3.23451e+01 ;
+    jp:longitude 3.485676e+01 .
+
+jp:Place_Q2918524 jp:latitude 3.176833e+01 ;
+    jp:longitude 3.518361e+01 .
+
+jp:Place_Q2918928 jp:latitude 3.218193e+01 ;
+    jp:longitude 3.489585e+01 .
+
+jp:Place_Q2919398 jp:latitude 3.179e+01 ;
+    jp:longitude 3.5204e+01 .
+
+jp:Place_Q2919897 jp:latitude 3.23907e+01 ;
+    jp:longitude 3.49121e+01 .
+
+jp:Place_Q2920219 jp:latitude 3.18153e+01 ;
+    jp:longitude 3.47204e+01 .
+
+jp:Place_Q2920508 jp:latitude 5.34603e+01 ;
+    jp:longitude 2.38833e+01 .
+
+jp:Place_Q292927 jp:latitude 4.755e+01 ;
+    jp:longitude 1.903333e+01 .
+
+jp:Place_Q2936 jp:latitude 5.314389e+01 ;
+    jp:longitude 8.213889e+00 .
+
+jp:Place_Q29364 jp:latitude 3.23675e+01 ;
+    jp:longitude -8.63e+01 .
+
+jp:Place_Q295367 jp:latitude 4.622944e+01 ;
+    jp:longitude 1.73575e+01 .
+
+jp:Place_Q2966 jp:latitude 4.941222e+01 ;
+    jp:longitude 8.71e+00 .
+
+jp:Place_Q2973 jp:latitude 4.986667e+01 ;
+    jp:longitude 8.65e+00 .
+
+jp:Place_Q2975875 jp:latitude 3.2846e+01 ;
+    jp:longitude 3.58086e+01 .
+
+jp:Place_Q2978 jp:latitude 4.901667e+01 ;
+    jp:longitude 1.208333e+01 .
+
+jp:Place_Q2995144 jp:latitude 5.389e+01 ;
+    jp:longitude 2.674139e+01 .
+
+jp:Place_Q2995174 jp:latitude 5.289889e+01 ;
+    jp:longitude 2.868611e+01 .
+
+jp:Place_Q2995176 jp:latitude 5.405306e+01 ;
+    jp:longitude 2.499778e+01 .
+
+jp:Place_Q2999 jp:latitude 4.979444e+01 ;
+    jp:longitude 9.929444e+00 .
+
+jp:Place_Q30 jp:latitude 3.982818e+01 ;
+    jp:longitude -9.85795e+01 .
+
+jp:Place_Q3001 jp:latitude 5.866667e+00 ;
+    jp:longitude -5.516667e+01 .
+
+jp:Place_Q3004498 jp:latitude 5.641694e+01 ;
+    jp:longitude 2.211111e+01 .
+
+jp:Place_Q3012 jp:latitude 4.839841e+01 ;
+    jp:longitude 9.99155e+00 .
+
+jp:Place_Q3016720 jp:latitude 4.024306e+01 ;
+    jp:longitude -7.400056e+01 .
+
+jp:Place_Q302916 jp:latitude 4.975e+01 ;
+    jp:longitude 1.03e+01 .
+
+jp:Place_Q303015 jp:latitude 4.74625e+01 ;
+    jp:longitude 2.63e+01 .
+
+jp:Place_Q304189 jp:latitude 4.890103e+01 ;
+    jp:longitude 1.73168e+01 .
+
+jp:Place_Q3042 jp:latitude 5.01e+01 ;
+    jp:longitude 8.766667e+00 .
+
+jp:Place_Q304304 jp:latitude 4.823472e+01 ;
+    jp:longitude 2.122611e+01 .
+
+jp:Place_Q304801 jp:latitude 4.144556e+01 ;
+    jp:longitude -7.442194e+01 .
+
+jp:Place_Q304803 jp:latitude 4.782333e+01 ;
+    jp:longitude 2.090278e+01 .
+
+jp:Place_Q305154 jp:latitude 5.062611e+01 ;
+    jp:longitude 1.981889e+01 .
+
+jp:Place_Q3055022 jp:latitude 5.5365e+01 ;
+    jp:longitude 2.18644e+01 .
+
+jp:Place_Q305749 jp:latitude 4.827833e+01 ;
+    jp:longitude 2.11875e+01 .
+
+jp:Place_Q3075 jp:latitude 4.947833e+01 ;
+    jp:longitude 1.099028e+01 .
+
+jp:Place_Q3077771 jp:latitude 5.236667e+01 ;
+    jp:longitude 2.09e+01 .
+
+jp:Place_Q309164 jp:latitude 3.218333e+01 ;
+    jp:longitude 3.486667e+01 .
+
+jp:Place_Q30974 jp:latitude 4.944306e+01 ;
+    jp:longitude 1.1025e+00 .
+
+jp:Place_Q31 jp:latitude 5.064111e+01 ;
+    jp:longitude 4.668056e+00 .
+
+jp:Place_Q3104 jp:latitude 5.035972e+01 ;
+    jp:longitude 7.597778e+00 .
+
+jp:Place_Q3126 jp:latitude 4.95925e+01 ;
+    jp:longitude 1.1005e+01 .
+
+jp:Place_Q3129705 jp:latitude 5.63e+01 ;
+    jp:longitude 2.382778e+01 .
+
+jp:Place_Q3130 jp:latitude -3.386778e+01 ;
+    jp:longitude 1.5121e+02 .
+
+jp:Place_Q3138 jp:latitude 4.975565e+01 ;
+    jp:longitude 6.63935e+00 .
+
+jp:Place_Q3141 jp:latitude -3.781417e+01 ;
+    jp:longitude 1.449631e+02 .
+
+jp:Place_Q3141156 jp:latitude 5.106667e+01 ;
+    jp:longitude 2.025e+01 .
+
+jp:Place_Q31487 jp:latitude 5.006139e+01 ;
+    jp:longitude 1.993722e+01 .
+
+jp:Place_Q315389 jp:latitude 5.2275e+01 ;
+    jp:longitude 9.838889e+00 .
+
+jp:Place_Q316073 jp:latitude 5.0167e+01 ;
+    jp:longitude 8.62e+00 .
+
+jp:Place_Q316109 jp:latitude 5.385111e+01 ;
+    jp:longitude 2.770472e+01 .
+
+jp:Place_Q316891 jp:latitude 4.898972e+01 ;
+    jp:longitude 2.321944e+00 .
+
+jp:Place_Q317134 jp:latitude 4.752472e+01 ;
+    jp:longitude 7.4775e+00 .
+
+jp:Place_Q317287 jp:latitude 4.832389e+01 ;
+    jp:longitude 7.4275e+00 .
+
+jp:Place_Q318082 jp:latitude 4.367694e+01 ;
+    jp:longitude 4.135278e+00 .
+
+jp:Place_Q318168 jp:latitude 4.820528e+01 ;
+    jp:longitude 7.361667e+00 .
+
+jp:Place_Q3183314 jp:latitude 5.56e+01 ;
+    jp:longitude 2.268333e+01 .
+
+jp:Place_Q3185 jp:latitude 5.215e+01 ;
+    jp:longitude 9.95e+00 .
+
+jp:Place_Q319242 jp:latitude 3.25011e+01 ;
+    jp:longitude 3.48923e+01 .
+
+jp:Place_Q31925769 jp:latitude 4.973306e+01 ;
+    jp:longitude 1.060083e+01 .
+
+jp:Place_Q319654 jp:latitude 4.0775e+01 ;
+    jp:longitude -7.3875e+01 .
+
+jp:Place_Q319813 jp:latitude 5.218333e+01 ;
+    jp:longitude 2.228333e+01 .
+
+jp:Place_Q320514 jp:latitude 4.003972e+01 ;
+    jp:longitude -7.630444e+01 .
+
+jp:Place_Q32066 jp:latitude 4.981667e+01 ;
+    jp:longitude 9.866667e+00 .
+
+jp:Place_Q321074 jp:latitude 4.858333e+01 ;
+    jp:longitude 1.783333e+01 .
+
+jp:Place_Q321107 jp:latitude 5.477009e+01 ;
+    jp:longitude 3.168981e+01 .
+
+jp:Place_Q321381 jp:latitude 5.167167e+01 ;
+    jp:longitude -1.278333e+00 .
+
+jp:Place_Q322828 jp:latitude 4.487833e+01 ;
+    jp:longitude 1.880917e+01 .
+
+jp:Place_Q324707 jp:latitude 4.850417e+01 ;
+    jp:longitude 8.776667e+00 .
+
+jp:Place_Q324880 jp:latitude 5.02e+01 ;
+    jp:longitude 2.03e+01 .
+
+jp:Place_Q324888 jp:latitude 5.345e+01 ;
+    jp:longitude 1.753e+01 .
+
+jp:Place_Q324892 jp:latitude 5.056056e+01 ;
+    jp:longitude 2.116667e+01 .
+
+jp:Place_Q3249 jp:latitude 4.903333e+01 ;
+    jp:longitude 2.5e-01 .
+
+jp:Place_Q324941 jp:latitude 5.284958e+01 ;
+    jp:longitude 1.771992e+01 .
+
+jp:Place_Q325029 jp:latitude 4.801111e+01 ;
+    jp:longitude 7.3e+00 .
+
+jp:Place_Q325251 jp:latitude 5.31e+01 ;
+    jp:longitude 1.905e+01 .
+
+jp:Place_Q325727 jp:latitude 5.205833e+01 ;
+    jp:longitude 1.92e+01 .
+
+jp:Place_Q326568 jp:latitude 4.804083e+01 ;
+    jp:longitude 7.543333e+00 .
+
+jp:Place_Q327413 jp:latitude 3.32075e+01 ;
+    jp:longitude 3.556972e+01 .
+
+jp:Place_Q327977 jp:latitude 4.913833e+01 ;
+    jp:longitude 2.042917e+01 .
+
+jp:Place_Q328153 jp:latitude 3.105e+01 ;
+    jp:longitude 3.046667e+01 .
+
+jp:Place_Q3291153 jp:latitude 5.30618e+01 ;
+    jp:longitude 5.521403e+00 .
+
+jp:Place_Q329153 jp:latitude 5.01603e+01 ;
+    jp:longitude 1.04904e+01 .
+
+jp:Place_Q329768 jp:latitude 4.765e+01 ;
+    jp:longitude 1.831667e+01 .
+
+jp:Place_Q329775 jp:latitude 4.643194e+01 ;
+    jp:longitude 1.948833e+01 .
+
+jp:Place_Q330171 jp:latitude 4.78e+01 ;
+    jp:longitude 2.168333e+01 .
+
+jp:Place_Q330302 jp:latitude 4.979832e+01 ;
+    jp:longitude 1.70106e+01 .
+
+jp:Place_Q331087 jp:latitude 4.925778e+01 ;
+    jp:longitude 2.482778e+00 .
+
+jp:Place_Q3316406 jp:latitude 5.6275e+01 ;
+    jp:longitude 2.3997e+01 .
+
+jp:Place_Q333540 jp:latitude 4.756194e+01 ;
+    jp:longitude 7.525556e+00 .
+
+jp:Place_Q3344 jp:latitude 4.575411e+01 ;
+    jp:longitude 4.829078e+00 .
+
+jp:Place_Q3348 jp:latitude 4.57586e+01 ;
+    jp:longitude 4.855822e+00 .
+
+jp:Place_Q33486 jp:latitude 4.176333e+01 ;
+    jp:longitude -7.2685e+01 .
+
+jp:Place_Q334874 jp:latitude 4.793094e+01 ;
+    jp:longitude 2.389469e+01 .
+
+jp:Place_Q33523 jp:latitude 5.352694e+01 ;
+    jp:longitude 2.631194e+01 .
+
+jp:Place_Q33544 jp:latitude 5.084806e+01 ;
+    jp:longitude 2.432222e+01 .
+
+jp:Place_Q3358 jp:latitude 4.577435e+01 ;
+    jp:longitude 4.850892e+00 .
+
+jp:Place_Q335868 jp:latitude 4.621667e+01 ;
+    jp:longitude 2.766667e+01 .
+
+jp:Place_Q336204 jp:latitude 5.365e+01 ;
+    jp:longitude 2.245e+01 .
+
+jp:Place_Q336375 jp:latitude 5.008333e+01 ;
+    jp:longitude 2.163333e+01 .
+
+jp:Place_Q336386 jp:latitude 4.955833e+01 ;
+    jp:longitude 2.168333e+01 .
+
+jp:Place_Q337751 jp:latitude 3.337861e+01 ;
+    jp:longitude 4.371583e+01 .
+
+jp:Place_Q339213 jp:latitude 4.941363e+01 ;
+    jp:longitude 1.658142e+01 .
+
+jp:Place_Q33935 jp:latitude 3.208e+01 ;
+    jp:longitude 3.478e+01 .
+
+jp:Place_Q339374 jp:latitude 4.752215e+01 ;
+    jp:longitude 1.760019e+01 .
+
+jp:Place_Q33946 jp:latitude 5.008333e+01 ;
+    jp:longitude 1.441667e+01 .
+
+jp:Place_Q3395336 jp:latitude 5.328354e+01 ;
+    jp:longitude -3.609589e+00 .
+
+jp:Place_Q33959 jp:latitude 4.370194e+01 ;
+    jp:longitude 7.268333e+00 .
+
+jp:Place_Q340 jp:latitude 4.550334e+01 ;
+    jp:longitude -7.358684e+01 .
+
+jp:Place_Q34006 jp:latitude 3.409833e+01 ;
+    jp:longitude -1.183267e+02 .
+
+jp:Place_Q3415 jp:latitude 4.361667e+01 ;
+    jp:longitude 1.351667e+01 .
+
+jp:Place_Q34217 jp:latitude 5.175194e+01 ;
+    jp:longitude -1.257778e+00 .
+
+jp:Place_Q34266 jp:latitude 5.865e+01 ;
+    jp:longitude 7.01167e+01 .
+
+jp:Place_Q34267 jp:latitude 5.198333e+01 ;
+    jp:longitude 2.28e+01 .
+
+jp:Place_Q342803 jp:latitude 3.683543e+01 ;
+    jp:longitude -7.629827e+01 .
+
+jp:Place_Q34370 jp:latitude 5.192e+01 ;
+    jp:longitude 4.48e+00 .
+
+jp:Place_Q34374 jp:latitude 3.530972e+01 ;
+    jp:longitude 2.489333e+01 .
+
+jp:Place_Q34404 jp:latitude 2.997611e+01 ;
+    jp:longitude -9.007833e+01 .
+
+jp:Place_Q3452979 jp:latitude 4.21167e+01 ;
+    jp:longitude -7.59594e+01 .
+
+jp:Place_Q345386 jp:latitude 5.326667e+01 ;
+    jp:longitude 1.725e+01 .
+
+jp:Place_Q34602 jp:latitude 4.523333e+01 ;
+    jp:longitude 1.175e+01 .
+
+jp:Place_Q34647 jp:latitude -2.620436e+01 ;
+    jp:longitude 2.804164e+01 .
+
+jp:Place_Q34692 jp:latitude 1.797139e+01 ;
+    jp:longitude -7.679306e+01 .
+
+jp:Place_Q34713 jp:latitude 4.78e+01 ;
+    jp:longitude 1.3045e+01 .
+
+jp:Place_Q3494848 jp:latitude 5.487222e+01 ;
+    jp:longitude 2.506667e+01 .
+
+jp:Place_Q350 jp:latitude 5.220806e+01 ;
+    jp:longitude 1.225e-01 .
+
+jp:Place_Q3500094 jp:latitude 5.615278e+01 ;
+    jp:longitude 2.278417e+01 .
+
+jp:Place_Q3543790 jp:latitude 5.107083e+01 ;
+    jp:longitude 3.025222e+01 .
+
+jp:Place_Q35493 jp:latitude 4.324e+01 ;
+    jp:longitude 7.6915e+01 .
+
+jp:Place_Q3551 jp:latitude 3.402111e+01 ;
+    jp:longitude -6.841389e+00 .
+
+jp:Place_Q355435 jp:latitude 4.940472e+01 ;
+    jp:longitude 9.389167e+00 .
+
+jp:Place_Q3561 jp:latitude 3.677639e+01 ;
+    jp:longitude 3.058611e+00 .
+
+jp:Place_Q3572 jp:latitude 3.680083e+01 ;
+    jp:longitude 1.018e+01 .
+
+jp:Place_Q3579 jp:latitude 3.287519e+01 ;
+    jp:longitude 1.318746e+01 .
+
+jp:Place_Q35997 jp:latitude 3.841273e+01 ;
+    jp:longitude 2.713838e+01 .
+
+jp:Place_Q36 jp:latitude 5.2e+01 ;
+    jp:longitude 1.9e+01 .
+
+jp:Place_Q36036 jp:latitude 4.98425e+01 ;
+    jp:longitude 2.403222e+01 .
+
+jp:Place_Q36091 jp:latitude 4.498194e+01 ;
+    jp:longitude -9.326917e+01 .
+
+jp:Place_Q3616 jp:latitude 3.568889e+01 ;
+    jp:longitude 5.138972e+01 .
+
+jp:Place_Q3617 jp:latitude 4.549306e+01 ;
+    jp:longitude 1.555583e+01 .
+
+jp:Place_Q36433 jp:latitude 4.115e+01 ;
+    jp:longitude -8.610833e+00 .
+
+jp:Place_Q365 jp:latitude 5.094222e+01 ;
+    jp:longitude 6.957778e+00 .
+
+jp:Place_Q36600 jp:latitude 5.208e+01 ;
+    jp:longitude 4.31e+00 .
+
+jp:Place_Q366425 jp:latitude 5.039278e+01 ;
+    jp:longitude 2.772222e+00 .
+
+jp:Place_Q36704 jp:latitude 4.482e+01 ;
+    jp:longitude 2.04275e+01 .
+
+jp:Place_Q367400 jp:latitude 3.538389e+01 ;
+    jp:longitude -7.7995e+01 .
+
+jp:Place_Q36820 jp:latitude 5.415694e+01 ;
+    jp:longitude 2.691944e+01 .
+
+jp:Place_Q3692486 jp:latitude 5.309528e+01 ;
+    jp:longitude 2.366889e+01 .
+
+jp:Place_Q36989 jp:latitude 5.003861e+01 ;
+    jp:longitude 1.577916e+01 .
+
+jp:Place_Q37 jp:latitude 5.52e+01 ;
+    jp:longitude 2.4e+01 .
+
+jp:Place_Q370619 jp:latitude 4.265722e+01 ;
+    jp:longitude -7.114083e+01 .
+
+jp:Place_Q3711 jp:latitude 4.481778e+01 ;
+    jp:longitude 2.045694e+01 .
+
+jp:Place_Q37320 jp:latitude 4.149917e+01 ;
+    jp:longitude -8.169472e+01 .
+
+jp:Place_Q37333 jp:latitude 5.125e+01 ;
+    jp:longitude 2.256667e+01 .
+
+jp:Place_Q3766 jp:latitude 3.351306e+01 ;
+    jp:longitude 3.629194e+01 .
+
+jp:Place_Q376987 jp:latitude 4.878333e+01 ;
+    jp:longitude 1.783333e+01 .
+
+jp:Place_Q377650 jp:latitude 4.941e+01 ;
+    jp:longitude 1.948e+01 .
+
+jp:Place_Q377994 jp:latitude 5.017806e+01 ;
+    jp:longitude 2.261056e+01 .
+
+jp:Place_Q378120 jp:latitude 5.00872e+01 ;
+    jp:longitude 1.44628e+01 .
+
+jp:Place_Q37836 jp:latitude 4.305e+01 ;
+    jp:longitude -8.795e+01 .
+
+jp:Place_Q378821 jp:latitude 5.279583e+01 ;
+    jp:longitude 1.826111e+01 .
+
+jp:Place_Q378836 jp:latitude 4.677148e+01 ;
+    jp:longitude 1.863461e+01 .
+
+jp:Place_Q379121 jp:latitude 4.974125e+01 ;
+    jp:longitude 9.007083e+00 .
+
+jp:Place_Q379160 jp:latitude 4.684e+01 ;
+    jp:longitude 2.029e+01 .
+
+jp:Place_Q38 jp:latitude 4.25e+01 ;
+    jp:longitude 1.25e+01 .
+
+jp:Place_Q3802 jp:latitude 5.013278e+01 ;
+    jp:longitude 8.916944e+00 .
+
+jp:Place_Q38022 jp:latitude 3.862639e+01 ;
+    jp:longitude -9.019944e+01 .
+
+jp:Place_Q380305 jp:latitude 4.730294e+01 ;
+    jp:longitude 1.753678e+01 .
+
+jp:Place_Q3806 jp:latitude 4.852e+01 ;
+    jp:longitude 9.055556e+00 .
+
+jp:Place_Q381582 jp:latitude 4.814639e+01 ;
+    jp:longitude 7.4875e+00 .
+
+jp:Place_Q381659 jp:latitude 4.893861e+01 ;
+    jp:longitude 7.880556e+00 .
+
+jp:Place_Q3820 jp:latitude 3.388694e+01 ;
+    jp:longitude 3.551306e+01 .
+
+jp:Place_Q382587 jp:latitude 5.190583e+01 ;
+    jp:longitude 1.667639e+01 .
+
+jp:Place_Q3834 jp:latitude 4.766333e+01 ;
+    jp:longitude 9.175278e+00 .
+
+jp:Place_Q384 jp:latitude 4.199611e+01 ;
+    jp:longitude 2.143167e+01 .
+
+jp:Place_Q3844238 jp:latitude 1.506667e+01 ;
+    jp:longitude 4.373333e+01 .
+
+jp:Place_Q384433 jp:latitude 5.13e+01 ;
+    jp:longitude 2.288333e+01 .
+
+jp:Place_Q38453 jp:latitude 3.400056e+01 ;
+    jp:longitude -8.104417e+01 .
+
+jp:Place_Q384544 jp:latitude 5.023056e+01 ;
+    jp:longitude 1.28725e+01 .
+
+jp:Place_Q384692 jp:latitude 4.07297e+01 ;
+    jp:longitude -7.32536e+01 .
+
+jp:Place_Q3852 jp:latitude 4.963026e+01 ;
+    jp:longitude 8.36209e+00 .
+
+jp:Place_Q38555 jp:latitude 3.566667e+01 ;
+    jp:longitude -1.059667e+02 .
+
+jp:Place_Q3869 jp:latitude 5.081667e+01 ;
+    jp:longitude 8.766667e+00 .
+
+jp:Place_Q387260 jp:latitude 5.208861e+01 ;
+    jp:longitude 1.7015e+01 .
+
+jp:Place_Q3874 jp:latitude 5.058333e+01 ;
+    jp:longitude 8.666667e+00 .
+
+jp:Place_Q387411 jp:latitude 5.01356e+01 ;
+    jp:longitude 1.12499e+01 .
+
+jp:Place_Q388070 jp:latitude 4.233714e+01 ;
+    jp:longitude 2.355541e+01 .
+
+jp:Place_Q39 jp:latitude 4.679856e+01 ;
+    jp:longitude 8.231973e+00 .
+
+jp:Place_Q390162 jp:latitude 4.667306e+01 ;
+    jp:longitude 2.806472e+01 .
+
+jp:Place_Q390917 jp:latitude 4.886685e+01 ;
+    jp:longitude 1.573466e+01 .
+
+jp:Place_Q391011 jp:latitude 5.431111e+01 ;
+    jp:longitude 2.538056e+01 .
+
+jp:Place_Q39121 jp:latitude 5.37975e+01 ;
+    jp:longitude -1.543611e+00 .
+
+jp:Place_Q391582 jp:latitude 5.549167e+01 ;
+    jp:longitude 2.218333e+01 .
+
+jp:Place_Q391595 jp:latitude 5.553056e+01 ;
+    jp:longitude 2.3225e+01 .
+
+jp:Place_Q391626 jp:latitude 5.535e+01 ;
+    jp:longitude 2.148333e+01 .
+
+jp:Place_Q3917328 jp:latitude 5.220303e+01 ;
+    jp:longitude 2.466315e+01 .
+
+jp:Place_Q3917461 jp:latitude 5.31125e+01 ;
+    jp:longitude 2.425806e+01 .
+
+jp:Place_Q391764 jp:latitude 5.505e+01 ;
+    jp:longitude 2.495e+01 .
+
+jp:Place_Q3917705 jp:latitude 5.24833e+01 ;
+    jp:longitude 2.47e+01 .
+
+jp:Place_Q3917746 jp:latitude 5.37167e+01 ;
+    jp:longitude 2.41833e+01 .
+
+jp:Place_Q39193 jp:latitude 4.983333e+01 ;
+    jp:longitude 1.433333e+01 .
+
+jp:Place_Q3922 jp:latitude 5.193778e+01 ;
+    jp:longitude 8.883333e+00 .
+
+jp:Place_Q392285 jp:latitude 5.07262e+01 ;
+    jp:longitude 1.560955e+01 .
+
+jp:Place_Q3926 jp:latitude -2.574639e+01 ;
+    jp:longitude 2.818806e+01 .
+
+jp:Place_Q392704 jp:latitude 4.808722e+01 ;
+    jp:longitude 1.818611e+01 .
+
+jp:Place_Q392736 jp:latitude 4.494111e+01 ;
+    jp:longitude 2.1125e+01 .
+
+jp:Place_Q392854 jp:latitude 5.528056e+01 ;
+    jp:longitude 2.425278e+01 .
+
+jp:Place_Q392988 jp:latitude 5.013333e+01 ;
+    jp:longitude 2.088333e+01 .
+
+jp:Place_Q393 jp:latitude 5.342472e+01 ;
+    jp:longitude 1.455528e+01 .
+
+jp:Place_Q393091 jp:latitude 5.18e+01 ;
+    jp:longitude 2.19e+01 .
+
+jp:Place_Q393171 jp:latitude 5.0045e+01 ;
+    jp:longitude 1.870056e+01 .
+
+jp:Place_Q393332 jp:latitude 5.635833e+01 ;
+    jp:longitude 2.325e+01 .
+
+jp:Place_Q393426 jp:latitude 5.032726e+01 ;
+    jp:longitude 1.354586e+01 .
+
+jp:Place_Q393439 jp:latitude 4.906731e+01 ;
+    jp:longitude 1.702752e+01 .
+
+jp:Place_Q3934843 jp:latitude 1.331667e+01 ;
+    jp:longitude 4.325e+01 .
+
+jp:Place_Q393495 jp:latitude 3.041667e+01 ;
+    jp:longitude 3.156667e+01 .
+
+jp:Place_Q3936 jp:latitude 4.989167e+01 ;
+    jp:longitude 1.089167e+01 .
+
+jp:Place_Q393828 jp:latitude 5.535806e+01 ;
+    jp:longitude 2.17e+01 .
+
+jp:Place_Q3942 jp:latitude 4.997405e+01 ;
+    jp:longitude 9.149364e+00 .
+
+jp:Place_Q3943 jp:latitude 5.166667e+01 ;
+    jp:longitude 8.35e+00 .
+
+jp:Place_Q39450 jp:latitude 6.121667e+01 ;
+    jp:longitude -1.498936e+02 .
+
+jp:Place_Q39473 jp:latitude 4.676667e+01 ;
+    jp:longitude 2.358333e+01 .
+
+jp:Place_Q3963 jp:latitude 5.055278e+01 ;
+    jp:longitude 9.6775e+00 .
+
+jp:Place_Q3967 jp:latitude 5.042861e+01 ;
+    jp:longitude 7.461389e+00 .
+
+jp:Place_Q3985724 jp:latitude 3.205e+01 ;
+    jp:longitude -7.4e+00 .
+
+jp:Place_Q401452 jp:latitude 3.483028e+01 ;
+    jp:longitude 1.516667e-01 .
+
+jp:Place_Q4018 jp:latitude 4.281667e+01 ;
+    jp:longitude -1.65e+00 .
+
+jp:Place_Q4024 jp:latitude 5.234208e+01 ;
+    jp:longitude 1.455167e+01 .
+
+jp:Place_Q4026813 jp:latitude 4.961667e+01 ;
+    jp:longitude 2.153333e+01 .
+
+jp:Place_Q40269 jp:latitude -3.003278e+01 ;
+    jp:longitude -5.123e+01 .
+
+jp:Place_Q40435 jp:latitude 4.288639e+01 ;
+    jp:longitude -7.887806e+01 .
+
+jp:Place_Q4044 jp:latitude 4.847083e+01 ;
+    jp:longitude 7.940833e+00 .
+
+jp:Place_Q406 jp:latitude 4.101e+01 ;
+    jp:longitude 2.896028e+01 .
+
+jp:Place_Q4066768 jp:latitude 5.045361e+01 ;
+    jp:longitude 2.689528e+01 .
+
+jp:Place_Q4072 jp:latitude 4.87025e+01 ;
+    jp:longitude 9.652778e+00 .
+
+jp:Place_Q408 jp:latitude -2.5e+01 ;
+    jp:longitude 1.33e+02 .
+
+jp:Place_Q40816 jp:latitude 3.211667e+01 ;
+    jp:longitude 2.006667e+01 .
+
+jp:Place_Q4082 jp:latitude 5.139917e+01 ;
+    jp:longitude 7.185833e+00 .
+
+jp:Place_Q4085492 jp:latitude 5.158194e+01 ;
+    jp:longitude 2.73425e+01 .
+
+jp:Place_Q40898 jp:latitude 4.869278e+01 ;
+    jp:longitude 6.183611e+00 .
+
+jp:Place_Q409102 jp:latitude 4.369857e+01 ;
+    jp:longitude 2.489241e+01 .
+
+jp:Place_Q4093 jp:latitude 5.586111e+01 ;
+    jp:longitude -4.25e+00 .
+
+jp:Place_Q4100 jp:latitude 4.876194e+01 ;
+    jp:longitude 8.240833e+00 .
+
+jp:Place_Q4104197 jp:latitude 4.860417e+01 ;
+    jp:longitude 2.584167e+01 .
+
+jp:Place_Q4115712 jp:latitude 5.49e+01 ;
+    jp:longitude 2.393333e+01 .
+
+jp:Place_Q4117326 jp:latitude 1.517816e+01 ;
+    jp:longitude 4.404978e+01 .
+
+jp:Place_Q41183 jp:latitude 3.62e+01 ;
+    jp:longitude 3.716e+01 .
+
+jp:Place_Q4118334 jp:latitude 1.433972e+01 ;
+    jp:longitude 4.490861e+01 .
+
+jp:Place_Q41185 jp:latitude 4.918139e+01 ;
+    jp:longitude -3.636111e-01 .
+
+jp:Place_Q4120832 jp:latitude 5.471147e+01 ;
+    jp:longitude 2.050931e+01 .
+
+jp:Place_Q41252 jp:latitude 5.311667e+01 ;
+    jp:longitude 1.8e+01 .
+
+jp:Place_Q4126 jp:latitude 5.005e+01 ;
+    jp:longitude 1.023333e+01 .
+
+jp:Place_Q4128709 jp:latitude 4.955806e+01 ;
+    jp:longitude 2.421361e+01 .
+
+jp:Place_Q41304 jp:latitude 5.252e+01 ;
+    jp:longitude 1.3375e+01 .
+
+jp:Place_Q414 jp:latitude -3.4e+01 ;
+    jp:longitude -6.4e+01 .
+
+jp:Place_Q41470 jp:latitude 3.755851e+01 ;
+    jp:longitude 4.35498e+01 .
+
+jp:Place_Q4152603 jp:latitude 4.971417e+01 ;
+    jp:longitude 2.299528e+01 .
+
+jp:Place_Q41621 jp:latitude 3.281917e+01 ;
+    jp:longitude 3.499917e+01 .
+
+jp:Place_Q4165 jp:latitude 5.022924e+01 ;
+    jp:longitude 8.610486e+00 .
+
+jp:Place_Q4170692 jp:latitude 4.961667e+01 ;
+    jp:longitude 2.482361e+01 .
+
+jp:Place_Q4174 jp:latitude 5.336694e+01 ;
+    jp:longitude 7.206111e+00 .
+
+jp:Place_Q4178675 jp:latitude 5.480556e+01 ;
+    jp:longitude 2.443889e+01 .
+
+jp:Place_Q41819 jp:latitude 3.905e+01 ;
+    jp:longitude -9.458333e+01 .
+
+jp:Place_Q4182900 jp:latitude 4.920639e+01 ;
+    jp:longitude 2.502806e+01 .
+
+jp:Place_Q41843 jp:latitude 3.125222e+01 ;
+    jp:longitude 3.478667e+01 .
+
+jp:Place_Q41876 jp:latitude 4.926528e+01 ;
+    jp:longitude 4.028611e+00 .
+
+jp:Place_Q41945 jp:latitude 4.760167e+01 ;
+    jp:longitude 1.662806e+01 .
+
+jp:Place_Q4196988 jp:latitude 4.964583e+01 ;
+    jp:longitude 2.554833e+01 .
+
+jp:Place_Q4215244 jp:latitude 5.211667e+01 ;
+    jp:longitude 2.61e+01 .
+
+jp:Place_Q4226578 jp:latitude 5.014639e+01 ;
+    jp:longitude 2.641167e+01 .
+
+jp:Place_Q42308 jp:latitude 4.99925e+01 ;
+    jp:longitude 3.623111e+01 .
+
+jp:Place_Q4232263 jp:latitude 5.088194e+01 ;
+    jp:longitude 2.522667e+01 .
+
+jp:Place_Q42336 jp:latitude 4.492667e+01 ;
+    jp:longitude 1.052e+01 .
+
+jp:Place_Q424773 jp:latitude 4.298333e+01 ;
+    jp:longitude -7.923333e+01 .
+
+jp:Place_Q425646 jp:latitude 3.211667e+01 ;
+    jp:longitude -1.226944e+00 .
+
+jp:Place_Q427045 jp:latitude 4.846611e+01 ;
+    jp:longitude 1.743944e+01 .
+
+jp:Place_Q427212 jp:latitude 4.635831e+01 ;
+    jp:longitude 1.79857e+01 .
+
+jp:Place_Q4272559 jp:latitude 5.460139e+01 ;
+    jp:longitude 3.116972e+01 .
+
+jp:Place_Q427620 jp:latitude 4.649662e+01 ;
+    jp:longitude 1.841784e+01 .
+
+jp:Place_Q4289557 jp:latitude 5.044222e+01 ;
+    jp:longitude 2.014028e+01 .
+
+jp:Place_Q429676 jp:latitude 4.828333e+01 ;
+    jp:longitude 1.773333e+01 .
+
+jp:Place_Q429687 jp:latitude 4.0787e+01 ;
+    jp:longitude -7.39754e+01 .
+
+jp:Place_Q43 jp:latitude 3.9e+01 ;
+    jp:longitude 3.6e+01 .
+
+jp:Place_Q43003 jp:latitude 4.521667e+01 ;
+    jp:longitude 1.025e+01 .
+
+jp:Place_Q43014 jp:latitude 4.499917e+01 ;
+    jp:longitude 1.048972e+01 .
+
+jp:Place_Q43048 jp:latitude 3.617e+01 ;
+    jp:longitude 2.792e+01 .
+
+jp:Place_Q431347 jp:latitude 4.78425e+01 ;
+    jp:longitude 2.591917e+01 .
+
+jp:Place_Q431779 jp:latitude 5.360444e+01 ;
+    jp:longitude 2.47425e+01 .
+
+jp:Place_Q43196 jp:latitude 3.91e+01 ;
+    jp:longitude -8.45125e+01 .
+
+jp:Place_Q43199 jp:latitude 4.125861e+01 ;
+    jp:longitude -9.59375e+01 .
+
+jp:Place_Q43266 jp:latitude 4.95e+01 ;
+    jp:longitude 1.7e+01 .
+
+jp:Place_Q4326861 jp:latitude 4.990194e+01 ;
+    jp:longitude 2.430333e+01 .
+
+jp:Place_Q4327368 jp:latitude 5.12675e+01 ;
+    jp:longitude 2.856889e+01 .
+
+jp:Place_Q4332186 jp:latitude 4.888377e+01 ;
+    jp:longitude 2.594832e+01 .
+
+jp:Place_Q43387 jp:latitude 4.167304e+01 ;
+    jp:longitude 2.657361e+01 .
+
+jp:Place_Q43421 jp:latitude 3.754083e+01 ;
+    jp:longitude -7.743667e+01 .
+
+jp:Place_Q43453 jp:latitude 4.974139e+01 ;
+    jp:longitude 1.33825e+01 .
+
+jp:Place_Q4350839 jp:latitude 4.869944e+01 ;
+    jp:longitude 2.463944e+01 .
+
+jp:Place_Q4358386 jp:latitude 5.385e+01 ;
+    jp:longitude 3.241667e+01 .
+
+jp:Place_Q436 jp:latitude 5.07e+01 ;
+    jp:longitude 2.296667e+01 .
+
+jp:Place_Q4367481 jp:latitude 5.207722e+01 ;
+    jp:longitude 3.117639e+01 .
+
+jp:Place_Q4371769 jp:latitude 4.964092e+01 ;
+    jp:longitude 2.49307e+01 .
+
+jp:Place_Q437368 jp:latitude 5.011667e+01 ;
+    jp:longitude 1.125e+01 .
+
+jp:Place_Q4377726 jp:latitude 4.752722e+01 ;
+    jp:longitude 3.133083e+01 .
+
+jp:Place_Q4379516 jp:latitude 4.902056e+01 ;
+    jp:longitude 2.598861e+01 .
+
+jp:Place_Q4384536 jp:latitude 5.237611e+01 ;
+    jp:longitude 2.796444e+01 .
+
+jp:Place_Q4399812 jp:latitude 5.115611e+01 ;
+    jp:longitude 2.455722e+01 .
+
+jp:Place_Q4408930 jp:latitude 4.987083e+01 ;
+    jp:longitude 2.494889e+01 .
+
+jp:Place_Q4410179 jp:latitude 5.313222e+01 ;
+    jp:longitude 3.031806e+01 .
+
+jp:Place_Q44210 jp:latitude -3.141667e+01 ;
+    jp:longitude -6.418333e+01 .
+
+jp:Place_Q44255 jp:latitude -2.681667e+01 ;
+    jp:longitude -6.521667e+01 .
+
+jp:Place_Q444210 jp:latitude 4.05107e+01 ;
+    jp:longitude -7.83997e+01 .
+
+jp:Place_Q4444399 jp:latitude 4.933889e+01 ;
+    jp:longitude 2.561667e+01 .
+
+jp:Place_Q4446399 jp:latitude 3.18833e+01 ;
+    jp:longitude 4.445e+01 .
+
+jp:Place_Q4454 jp:latitude 4.848333e+01 ;
+    jp:longitude 1.350667e+02 .
+
+jp:Place_Q4478208 jp:latitude 4.877008e+01 ;
+    jp:longitude 2.560801e+01 .
+
+jp:Place_Q45 jp:latitude 3.87e+01 ;
+    jp:longitude -9.183333e+00 .
+
+jp:Place_Q450625 jp:latitude 5.44e+01 ;
+    jp:longitude 2.405e+01 .
+
+jp:Place_Q450697 jp:latitude 5.008353e+01 ;
+    jp:longitude 9.06691e+00 .
+
+jp:Place_Q450726 jp:latitude 4.975167e+01 ;
+    jp:longitude 8.116111e+00 .
+
+jp:Place_Q4512467 jp:latitude 5.229083e+01 ;
+    jp:longitude 3.249778e+01 .
+
+jp:Place_Q4535857 jp:latitude 4.914327e+01 ;
+    jp:longitude 2.584904e+01 .
+
+jp:Place_Q456 jp:latitude 4.57675e+01 ;
+    jp:longitude 4.835e+00 .
+
+jp:Place_Q45656 jp:latitude 4.583444e+01 ;
+    jp:longitude 1.261667e+00 .
+
+jp:Place_Q459 jp:latitude 4.214209e+01 ;
+    jp:longitude 2.474145e+01 .
+
+jp:Place_Q45942 jp:latitude 3.69e+01 ;
+    jp:longitude 7.766667e+00 .
+
+jp:Place_Q460736 jp:latitude 3.70919e+01 ;
+    jp:longitude 4.3487e+01 .
+
+jp:Place_Q460767 jp:latitude 4.819139e+01 ;
+    jp:longitude 1.773083e+01 .
+
+jp:Place_Q460925 jp:latitude 4.87575e+01 ;
+    jp:longitude 2.191833e+01 .
+
+jp:Place_Q461513 jp:latitude 5.0325e+01 ;
+    jp:longitude 1.913333e+01 .
+
+jp:Place_Q46165 jp:latitude 4.550369e+01 ;
+    jp:longitude 1.1412e+01 .
+
+jp:Place_Q462799 jp:latitude 4.204114e+01 ;
+    jp:longitude -8.769006e+01 .
+
+jp:Place_Q463951 jp:latitude 4.894611e+01 ;
+    jp:longitude 2.145e+00 .
+
+jp:Place_Q46400 jp:latitude 4.765139e+01 ;
+    jp:longitude 2.625556e+01 .
+
+jp:Place_Q464763 jp:latitude 5.385e+01 ;
+    jp:longitude 2.296667e+01 .
+
+jp:Place_Q465104 jp:latitude 5.007806e+01 ;
+    jp:longitude 2.515417e+01 .
+
+jp:Place_Q466046 jp:latitude 3.405e+01 ;
+    jp:longitude -6.816667e+00 .
+
+jp:Place_Q466216 jp:latitude 1.357889e+01 ;
+    jp:longitude 4.402194e+01 .
+
+jp:Place_Q46852 jp:latitude 4.716222e+01 ;
+    jp:longitude 2.758889e+01 .
+
+jp:Place_Q470369 jp:latitude 5.002819e+01 ;
+    jp:longitude 1.520063e+01 .
+
+jp:Place_Q470380 jp:latitude 4.945556e+01 ;
+    jp:longitude 1.745111e+01 .
+
+jp:Place_Q470445 jp:latitude 4.947222e+01 ;
+    jp:longitude 1.711056e+01 .
+
+jp:Place_Q471886 jp:latitude 3.245e+01 ;
+    jp:longitude 3.491667e+01 .
+
+jp:Place_Q472 jp:latitude 4.269789e+01 ;
+    jp:longitude 2.332173e+01 .
+
+jp:Place_Q472621 jp:latitude 4.998944e+01 ;
+    jp:longitude 2.006611e+01 .
+
+jp:Place_Q47465 jp:latitude 4.352778e+01 ;
+    jp:longitude 5.445556e+00 .
+
+jp:Place_Q47492 jp:latitude 3.15075e+01 ;
+    jp:longitude 3.445972e+01 .
+
+jp:Place_Q47554 jp:latitude 5.301667e+01 ;
+    jp:longitude 1.861667e+01 .
+
+jp:Place_Q47571 jp:latitude 3.768333e+01 ;
+    jp:longitude -1.7e+00 .
+
+jp:Place_Q47611 jp:latitude 3.793972e+01 ;
+    jp:longitude 2.734861e+01 .
+
+jp:Place_Q476226 jp:latitude 4.648472e+01 ;
+    jp:longitude 2.649639e+01 .
+
+jp:Place_Q476436 jp:latitude 5.185e+01 ;
+    jp:longitude 1.76e+01 .
+
+jp:Place_Q476793 jp:latitude 4.106667e+01 ;
+    jp:longitude -4.716667e+00 .
+
+jp:Place_Q47690 jp:latitude 3.25e+01 ;
+    jp:longitude 4.45e+01 .
+
+jp:Place_Q477170 jp:latitude 4.525056e+01 ;
+    jp:longitude 1.938861e+01 .
+
+jp:Place_Q478038 jp:latitude 4.6705e+01 ;
+    jp:longitude 1.985e+01 .
+
+jp:Place_Q479406 jp:latitude 4.855833e+01 ;
+    jp:longitude 2.125278e+01 .
+
+jp:Place_Q481564 jp:latitude 4.899944e+01 ;
+    jp:longitude 1.823611e+01 .
+
+jp:Place_Q481637 jp:latitude 4.898556e+01 ;
+    jp:longitude 1.815639e+01 .
+
+jp:Place_Q481770 jp:latitude 4.90265e+01 ;
+    jp:longitude 1.82108e+01 .
+
+jp:Place_Q48256 jp:latitude 4.84675e+01 ;
+    jp:longitude 3.504e+01 .
+
+jp:Place_Q482657 jp:latitude 4.173778e+01 ;
+    jp:longitude -1.118308e+02 .
+
+jp:Place_Q48292 jp:latitude 4.367694e+01 ;
+    jp:longitude 4.628611e+00 .
+
+jp:Place_Q484578 jp:latitude 4e+01 ;
+    jp:longitude 6.6e+01 .
+
+jp:Place_Q484628 jp:latitude 4.117222e+01 ;
+    jp:longitude -2.435278e+00 .
+
+jp:Place_Q484678 jp:latitude 3.787028e+01 ;
+    jp:longitude -1.222681e+02 .
+
+jp:Place_Q48491 jp:latitude 5.258333e+01 ;
+    jp:longitude 2.486667e+01 .
+
+jp:Place_Q486168 jp:latitude 3.410417e+01 ;
+    jp:longitude -1.172922e+02 .
+
+jp:Place_Q486450 jp:latitude 4.80075e+01 ;
+    jp:longitude 1.623444e+01 .
+
+jp:Place_Q486551 jp:latitude 5.292111e+01 ;
+    jp:longitude 9.230556e+00 .
+
+jp:Place_Q487070 jp:latitude 5.183417e+01 ;
+    jp:longitude 1.224611e+01 .
+
+jp:Place_Q487278 jp:latitude 5.055e+01 ;
+    jp:longitude 1.041667e+01 .
+
+jp:Place_Q48741061 jp:latitude 4.134e+01 ;
+    jp:longitude -7.416722e+01 .
+
+jp:Place_Q48766 jp:latitude 5.047139e+01 ;
+    jp:longitude 3.044889e+01 .
+
+jp:Place_Q487684 jp:latitude 3.91e+01 ;
+    jp:longitude 6.356667e+01 .
+
+jp:Place_Q487971 jp:latitude 4.772472e+01 ;
+    jp:longitude 1.287694e+01 .
+
+jp:Place_Q48814 jp:latitude 4.14375e+01 ;
+    jp:longitude 2.264306e+01 .
+
+jp:Place_Q488346 jp:latitude 5.02e+01 ;
+    jp:longitude 1.006667e+01 .
+
+jp:Place_Q489255 jp:latitude 4.249806e+01 ;
+    jp:longitude -9.639556e+01 .
+
+jp:Place_Q48958 jp:latitude 4.888722e+01 ;
+    jp:longitude 2.2675e+00 .
+
+jp:Place_Q4897536 jp:latitude 4.23366e+01 ;
+    jp:longitude -7.11094e+01 .
+
+jp:Place_Q489911 jp:latitude 4.802889e+01 ;
+    jp:longitude 7.58e+00 .
+
+jp:Place_Q490 jp:latitude 4.546694e+01 ;
+    jp:longitude 9.19e+00 .
+
+jp:Place_Q490670 jp:latitude 5.033806e+01 ;
+    jp:longitude 7.710556e+00 .
+
+jp:Place_Q49111 jp:latitude 4.2375e+01 ;
+    jp:longitude -7.110611e+01 .
+
+jp:Place_Q49140 jp:latitude 4.176778e+01 ;
+    jp:longitude -7.275389e+01 .
+
+jp:Place_Q49142 jp:latitude 4.233167e+01 ;
+    jp:longitude -7.112167e+01 .
+
+jp:Place_Q49145 jp:latitude 4.130833e+01 ;
+    jp:longitude -7.2925e+01 .
+
+jp:Place_Q49147 jp:latitude 4.163611e+01 ;
+    jp:longitude -7.093472e+01 .
+
+jp:Place_Q491507 jp:latitude 3.005e+01 ;
+    jp:longitude 3.12167e+01 .
+
+jp:Place_Q491540 jp:latitude 2.733722e+01 ;
+    jp:longitude -8.253528e+01 .
+
+jp:Place_Q49169 jp:latitude 4.109667e+01 ;
+    jp:longitude -7.355222e+01 .
+
+jp:Place_Q49174 jp:latitude 4.118333e+01 ;
+    jp:longitude -7.32e+01 .
+
+jp:Place_Q4918214 jp:latitude 5.11333e+01 ;
+    jp:longitude 2.295e+01 .
+
+jp:Place_Q49184 jp:latitude 4.245e+01 ;
+    jp:longitude -7.325e+01 .
+
+jp:Place_Q49218 jp:latitude 4.316556e+01 ;
+    jp:longitude -7.761139e+01 .
+
+jp:Place_Q49225 jp:latitude 3.952611e+01 ;
+    jp:longitude -1.198127e+02 .
+
+jp:Place_Q492366 jp:latitude 5.359667e+01 ;
+    jp:longitude 7.205556e+00 .
+
+jp:Place_Q49239 jp:latitude 4.165278e+01 ;
+    jp:longitude -8.353778e+01 .
+
+jp:Place_Q49255 jp:latitude 2.79475e+01 ;
+    jp:longitude -8.245861e+01 .
+
+jp:Place_Q492659 jp:latitude 5.003533e+01 ;
+    jp:longitude 1.051231e+01 .
+
+jp:Place_Q494529 jp:latitude 4.835167e+01 ;
+    jp:longitude 8.963333e+00 .
+
+jp:Place_Q494733 jp:latitude 5.020268e+01 ;
+    jp:longitude 9.19055e+00 .
+
+jp:Place_Q495 jp:latitude 4.507917e+01 ;
+    jp:longitude 7.676111e+00 .
+
+jp:Place_Q495428 jp:latitude 4.903639e+01 ;
+    jp:longitude 8.706111e+00 .
+
+jp:Place_Q495481 jp:latitude 4.807306e+01 ;
+    jp:longitude 7.29e+00 .
+
+jp:Place_Q496489 jp:latitude 4.806611e+01 ;
+    jp:longitude 9.61e+00 .
+
+jp:Place_Q497148 jp:latitude 5.455e+01 ;
+    jp:longitude 1.775e+01 .
+
+jp:Place_Q498256 jp:latitude 5.640667e+01 ;
+    jp:longitude 2.41875e+01 .
+
+jp:Place_Q4985204 jp:latitude 5.430864e+01 ;
+    jp:longitude 2.250842e+01 .
+
+jp:Place_Q500260 jp:latitude 5e+01 ;
+    jp:longitude 1.845e+01 .
+
+jp:Place_Q500367 jp:latitude 3.581389e+01 ;
+    jp:longitude 4.793333e+00 .
+
+jp:Place_Q500416 jp:latitude 4.071667e+01 ;
+    jp:longitude -7.4e+01 .
+
+jp:Place_Q500481 jp:latitude 3.894007e+01 ;
+    jp:longitude -9.46807e+01 .
+
+jp:Place_Q501114 jp:latitude 4.258722e+01 ;
+    jp:longitude 2.367778e+00 .
+
+jp:Place_Q501543 jp:latitude 3.173333e+01 ;
+    jp:longitude 3.475e+01 .
+
+jp:Place_Q501773 jp:latitude 3.290995e+01 ;
+    jp:longitude 3.563054e+01 .
+
+jp:Place_Q501798 jp:latitude 4.788583e+01 ;
+    jp:longitude 7.229167e+00 .
+
+jp:Place_Q50195 jp:latitude 4.435306e+01 ;
+    jp:longitude 1.171472e+01 .
+
+jp:Place_Q502264 jp:latitude 4.893056e+01 ;
+    jp:longitude 2.191222e+01 .
+
+jp:Place_Q502401 jp:latitude 4.980389e+01 ;
+    jp:longitude 9.163889e+00 .
+
+jp:Place_Q502615 jp:latitude 4.824556e+01 ;
+    jp:longitude 1.252278e+01 .
+
+jp:Place_Q502646 jp:latitude 4.923333e+01 ;
+    jp:longitude 9.216667e+00 .
+
+jp:Place_Q503202 jp:latitude 4.837119e+01 ;
+    jp:longitude 1.030706e+01 .
+
+jp:Place_Q503441 jp:latitude 4.888333e+01 ;
+    jp:longitude 1.046667e+01 .
+
+jp:Place_Q503640 jp:latitude 4.911472e+01 ;
+    jp:longitude 1.075417e+01 .
+
+jp:Place_Q503763 jp:latitude 4.893472e+01 ;
+    jp:longitude 1.097444e+01 .
+
+jp:Place_Q503894 jp:latitude 5.014167e+01 ;
+    jp:longitude 1.065e+01 .
+
+jp:Place_Q504019 jp:latitude 4.924611e+01 ;
+    jp:longitude 1.109111e+01 .
+
+jp:Place_Q504062 jp:latitude 4.829083e+01 ;
+    jp:longitude 1.065361e+01 .
+
+jp:Place_Q504598 jp:latitude 3.740889e+01 ;
+    jp:longitude -4.485278e+00 .
+
+jp:Place_Q505147 jp:latitude 4.875083e+01 ;
+    jp:longitude 8.870556e+00 .
+
+jp:Place_Q505284 jp:latitude 4.96e+01 ;
+    jp:longitude 1.063333e+01 .
+
+jp:Place_Q505394 jp:latitude 4.966667e+01 ;
+    jp:longitude 1.071667e+01 .
+
+jp:Place_Q5053994 jp:latitude 4.791994e+01 ;
+    jp:longitude 2.367035e+01 .
+
+jp:Place_Q5054509 jp:latitude -3.7884e+01 ;
+    jp:longitude 1.450266e+02 .
+
+jp:Place_Q5056132 jp:latitude 4.720082e+01 ;
+    jp:longitude 2.271566e+01 .
+
+jp:Place_Q50573096 jp:latitude 4.206556e+01 ;
+    jp:longitude -8.768434e+01 .
+
+jp:Place_Q505751 jp:latitude 5.020833e+01 ;
+    jp:longitude 1.062667e+01 .
+
+jp:Place_Q505849 jp:latitude 4.784028e+01 ;
+    jp:longitude 7.709167e+00 .
+
+jp:Place_Q506082 jp:latitude 4.91213e+01 ;
+    jp:longitude 1.030542e+01 .
+
+jp:Place_Q506195 jp:latitude 4.96823e+01 ;
+    jp:longitude 1.114327e+01 .
+
+jp:Place_Q506450 jp:latitude 4.913333e+01 ;
+    jp:longitude 8.916667e+00 .
+
+jp:Place_Q506724 jp:latitude 5.689231e+01 ;
+    jp:longitude 2.419811e+01 .
+
+jp:Place_Q507621 jp:latitude 4.199442e+01 ;
+    jp:longitude 1.517823e+00 .
+
+jp:Place_Q507904 jp:latitude 4.971667e+01 ;
+    jp:longitude 1.226667e+01 .
+
+jp:Place_Q5083 jp:latitude 4.7605e+01 ;
+    jp:longitude -1.2233e+02 .
+
+jp:Place_Q508445 jp:latitude 4.978306e+01 ;
+    jp:longitude 9.881667e+00 .
+
+jp:Place_Q5092 jp:latitude 3.928639e+01 ;
+    jp:longitude -7.6615e+01 .
+
+jp:Place_Q509536 jp:latitude 4.86749e+01 ;
+    jp:longitude 1.26913e+01 .
+
+jp:Place_Q509715 jp:latitude 4.93336e+01 ;
+    jp:longitude 1.95551e+01 .
+
+jp:Place_Q50991 jp:latitude 5.241036e+01 ;
+    jp:longitude 1.707711e+01 .
+
+jp:Place_Q510701 jp:latitude 4.86e+01 ;
+    jp:longitude 1.071667e+01 .
+
+jp:Place_Q510964 jp:latitude 4.856667e+01 ;
+    jp:longitude 1.065e+01 .
+
+jp:Place_Q511922 jp:latitude 3.658724e+01 ;
+    jp:longitude -7.94044e+01 .
+
+jp:Place_Q512233 jp:latitude 5.14975e+01 ;
+    jp:longitude 6.77778e+00 .
+
+jp:Place_Q51408 jp:latitude 5.223667e+01 ;
+    jp:longitude 1.709861e+01 .
+
+jp:Place_Q51427 jp:latitude 5.261194e+01 ;
+    jp:longitude 1.657778e+01 .
+
+jp:Place_Q51432 jp:latitude 5.253333e+01 ;
+    jp:longitude 1.76e+01 .
+
+jp:Place_Q51434 jp:latitude 5.299009e+01 ;
+    jp:longitude 1.691219e+01 .
+
+jp:Place_Q516485 jp:latitude 5.033528e+01 ;
+    jp:longitude 8.755e+00 .
+
+jp:Place_Q516500 jp:latitude 4.980556e+01 ;
+    jp:longitude 8.604444e+00 .
+
+jp:Place_Q516517 jp:latitude 4.967861e+01 ;
+    jp:longitude 9.004167e+00 .
+
+jp:Place_Q51691 jp:latitude 3.519917e+01 ;
+    jp:longitude -1.018453e+02 .
+
+jp:Place_Q517260 jp:latitude 5.007778e+01 ;
+    jp:longitude 1.056667e+01 .
+
+jp:Place_Q517311 jp:latitude 5.144006e+01 ;
+    jp:longitude 1.057275e+01 .
+
+jp:Place_Q517407 jp:latitude 5.136667e+01 ;
+    jp:longitude 1.086667e+01 .
+
+jp:Place_Q518194 jp:latitude 5.195e+01 ;
+    jp:longitude 1.143333e+01 .
+
+jp:Place_Q518240 jp:latitude 5.158556e+01 ;
+    jp:longitude 1.066806e+01 .
+
+jp:Place_Q519134 jp:latitude 4.99e+01 ;
+    jp:longitude 1.035e+01 .
+
+jp:Place_Q520110 jp:latitude 4.846667e+01 ;
+    jp:longitude 2.528333e+01 .
+
+jp:Place_Q520958 jp:latitude 4.949444e+01 ;
+    jp:longitude 9.936667e+00 .
+
+jp:Place_Q52101 jp:latitude 5.149972e+01 ;
+    jp:longitude 3.613611e+00 .
+
+jp:Place_Q52193 jp:latitude 4.851667e+01 ;
+    jp:longitude 2.503333e+01 .
+
+jp:Place_Q523245 jp:latitude 4.781944e+01 ;
+    jp:longitude 8.180833e+00 .
+
+jp:Place_Q523287 jp:latitude 5.236667e+01 ;
+    jp:longitude 1.588333e+01 .
+
+jp:Place_Q5247239 jp:latitude 5.568333e+01 ;
+    jp:longitude 2.415e+01 .
+
+jp:Place_Q52603 jp:latitude 3.5e+01 ;
+    jp:longitude -5.9e+00 .
+
+jp:Place_Q5262 jp:latitude 4.758056e+01 ;
+    jp:longitude 7.649167e+00 .
+
+jp:Place_Q527406 jp:latitude 4.968333e+01 ;
+    jp:longitude 9.9e+00 .
+
+jp:Place_Q527783 jp:latitude 4.774528e+01 ;
+    jp:longitude 8.445833e+00 .
+
+jp:Place_Q52829 jp:latitude 5.223333e+01 ;
+    jp:longitude 1.636667e+01 .
+
+jp:Place_Q52842 jp:latitude 5.1757e+01 ;
+    jp:longitude 1.8083e+01 .
+
+jp:Place_Q528883 jp:latitude 5.16e+01 ;
+    jp:longitude 1.343306e+01 .
+
+jp:Place_Q52892 jp:latitude 5.184034e+01 ;
+    jp:longitude 1.657494e+01 .
+
+jp:Place_Q52894 jp:latitude 5.270639e+01 ;
+    jp:longitude 1.652917e+01 .
+
+jp:Place_Q52895 jp:latitude 5.165472e+01 ;
+    jp:longitude 1.780722e+01 .
+
+jp:Place_Q52896 jp:latitude 5.250889e+01 ;
+    jp:longitude 1.625639e+01 .
+
+jp:Place_Q52898 jp:latitude 5.160917e+01 ;
+    jp:longitude 1.68575e+01 .
+
+jp:Place_Q52900 jp:latitude 5.27e+01 ;
+    jp:longitude 1.638333e+01 .
+
+jp:Place_Q52902 jp:latitude 5.2325e+01 ;
+    jp:longitude 1.7565e+01 .
+
+jp:Place_Q530059 jp:latitude 5.078306e+01 ;
+    jp:longitude 1.013306e+01 .
+
+jp:Place_Q530634 jp:latitude 4.762111e+01 ;
+    jp:longitude 1.891083e+01 .
+
+jp:Place_Q530876 jp:latitude 4.790482e+01 ;
+    jp:longitude 1.905157e+01 .
+
+jp:Place_Q53129 jp:latitude 4.588333e+01 ;
+    jp:longitude 1.35e+01 .
+
+jp:Place_Q5319922 jp:latitude 5.05792e+01 ;
+    jp:longitude 2.16756e+01 .
+
+jp:Place_Q5332 jp:latitude 5.153e+01 ;
+    jp:longitude 4.6035e+01 .
+
+jp:Place_Q5337 jp:latitude 5.176667e+01 ;
+    jp:longitude 5.51e+01 .
+
+jp:Place_Q534442 jp:latitude 4.993278e+01 ;
+    jp:longitude 1.095333e+01 .
+
+jp:Place_Q534681 jp:latitude 4.912861e+01 ;
+    jp:longitude 9.325e+00 .
+
+jp:Place_Q534799 jp:latitude 4.101222e+01 ;
+    jp:longitude 2.897611e+01 .
+
+jp:Place_Q53634032 jp:latitude 3.512552e+01 ;
+    jp:longitude 2.575337e+01 .
+
+jp:Place_Q5364334 jp:latitude 4.00769e+01 ;
+    jp:longitude -7.51269e+01 .
+
+jp:Place_Q537214 jp:latitude 5.330975e+01 ;
+    jp:longitude 1.386267e+01 .
+
+jp:Place_Q540513 jp:latitude 4.073361e+01 ;
+    jp:longitude -7.432e+01 .
+
+jp:Place_Q54066 jp:latitude 4.115e+01 ;
+    jp:longitude -7.3775e+01 .
+
+jp:Place_Q54134 jp:latitude 4.28125e+01 ;
+    jp:longitude -7.087722e+01 .
+
+jp:Place_Q54153 jp:latitude 5.306667e+01 ;
+    jp:longitude 1.848333e+01 .
+
+jp:Place_Q54154 jp:latitude 4.161681e+01 ;
+    jp:longitude -7.049028e+01 .
+
+jp:Place_Q54155 jp:latitude 5.121667e+01 ;
+    jp:longitude 2.29e+01 .
+
+jp:Place_Q5420 jp:latitude 4.630806e+01 ;
+    jp:longitude 1.633778e+01 .
+
+jp:Place_Q5428 jp:latitude 6e+01 ;
+    jp:longitude 1.05e+02 .
+
+jp:Place_Q54337 jp:latitude 5.943333e+01 ;
+    jp:longitude 1.808333e+01 .
+
+jp:Place_Q544501 jp:latitude 5.232472e+01 ;
+    jp:longitude 9.206944e+00 .
+
+jp:Place_Q545070 jp:latitude 4.759135e+01 ;
+    jp:longitude 1.800366e+01 .
+
+jp:Place_Q545144 jp:latitude 4.807222e+01 ;
+    jp:longitude 1.015167e+01 .
+
+jp:Place_Q546 jp:latitude 4.565028e+01 ;
+    jp:longitude 1.377028e+01 .
+
+jp:Place_Q546202 jp:latitude 4.826822e+01 ;
+    jp:longitude 2.135611e+01 .
+
+jp:Place_Q5475 jp:latitude 4.567222e+01 ;
+    jp:longitude 1.224222e+01 .
+
+jp:Place_Q5489 jp:latitude 4.829889e+01 ;
+    jp:longitude 4.078056e+00 .
+
+jp:Place_Q548982 jp:latitude 4.901667e+01 ;
+    jp:longitude 1.075e+01 .
+
+jp:Place_Q549849 jp:latitude 4.871861e+01 ;
+    jp:longitude 1.825806e+01 .
+
+jp:Place_Q550661 jp:latitude 4.837306e+01 ;
+    jp:longitude 7.883333e+00 .
+
+jp:Place_Q55074490 jp:latitude 5.011039e+01 ;
+    jp:longitude 1.044789e+01 .
+
+jp:Place_Q552084 jp:latitude 5.102694e+01 ;
+    jp:longitude 1.076e+01 .
+
+jp:Place_Q552513 jp:latitude 4.940111e+01 ;
+    jp:longitude 9.507778e+00 .
+
+jp:Place_Q553794 jp:latitude 4.999722e+01 ;
+    jp:longitude 1.024583e+01 .
+
+jp:Place_Q554089 jp:latitude 4.962833e+01 ;
+    jp:longitude 1.155167e+01 .
+
+jp:Place_Q554908 jp:latitude 4.575588e+01 ;
+    jp:longitude 1.383243e+01 .
+
+jp:Place_Q555150 jp:latitude 5.19e+01 ;
+    jp:longitude 1.86e+01 .
+
+jp:Place_Q555410 jp:latitude 5.206667e+01 ;
+    jp:longitude 1.723333e+01 .
+
+jp:Place_Q555618 jp:latitude 5.244378e+01 ;
+    jp:longitude 1.000783e+01 .
+
+jp:Place_Q555648 jp:latitude 4.935417e+01 ;
+    jp:longitude 6.805e+00 .
+
+jp:Place_Q555876 jp:latitude 5.189736e+01 ;
+    jp:longitude 1.778561e+01 .
+
+jp:Place_Q556352 jp:latitude 5.198667e+01 ;
+    jp:longitude 9.263611e+00 .
+
+jp:Place_Q556484 jp:latitude 5.2601e+01 ;
+    jp:longitude 1.588988e+01 .
+
+jp:Place_Q558614 jp:latitude 5.300028e+01 ;
+    jp:longitude 1.495861e+01 .
+
+jp:Place_Q558631 jp:latitude 5.0995e+01 ;
+    jp:longitude 9.727222e+00 .
+
+jp:Place_Q558824 jp:latitude 5.038333e+01 ;
+    jp:longitude 1.026667e+01 .
+
+jp:Place_Q558882 jp:latitude 5.048333e+01 ;
+    jp:longitude 1.018333e+01 .
+
+jp:Place_Q562147 jp:latitude 4.940142e+01 ;
+    jp:longitude 7.163431e+00 .
+
+jp:Place_Q5623052 jp:latitude 3.913389e+01 ;
+    jp:longitude 4.698167e+01 .
+
+jp:Place_Q5642 jp:latitude 5.139556e+01 ;
+    jp:longitude 8.567778e+00 .
+
+jp:Place_Q5647 jp:latitude 5.508083e+01 ;
+    jp:longitude 2.188639e+01 .
+
+jp:Place_Q564827 jp:latitude 5.134167e+01 ;
+    jp:longitude 9.856944e+00 .
+
+jp:Place_Q565310 jp:latitude 4.965333e+01 ;
+    jp:longitude 6.55e+00 .
+
+jp:Place_Q565408 jp:latitude 4.977778e+01 ;
+    jp:longitude 8.375e+00 .
+
+jp:Place_Q56607436 jp:latitude 4.91471e+01 ;
+    jp:longitude 9.10186e+00 .
+
+jp:Place_Q5684 jp:latitude 3.25425e+01 ;
+    jp:longitude 4.442111e+01 .
+
+jp:Place_Q569838 jp:latitude 5.251306e+01 ;
+    jp:longitude 2.106944e+01 .
+
+jp:Place_Q57006 jp:latitude 5.1835e+01 ;
+    jp:longitude 6.245278e+00 .
+
+jp:Place_Q570649 jp:latitude 5.475667e+01 ;
+    jp:longitude 2.53675e+01 .
+
+jp:Place_Q571136 jp:latitude 4.593139e+01 ;
+    jp:longitude 2.009e+01 .
+
+jp:Place_Q57200 jp:latitude 2.772472e+01 ;
+    jp:longitude -8.274194e+01 .
+
+jp:Place_Q573235 jp:latitude 5.1e+01 ;
+    jp:longitude 9.15e+00 .
+
+jp:Place_Q574314 jp:latitude 4.822889e+01 ;
+    jp:longitude 9.879722e+00 .
+
+jp:Place_Q5753 jp:latitude 3.965472e+01 ;
+    jp:longitude 6.697583e+01 .
+
+jp:Place_Q5764 jp:latitude 3.977472e+01 ;
+    jp:longitude 6.442861e+01 .
+
+jp:Place_Q580 jp:latitude 5.175e+01 ;
+    jp:longitude 1.946667e+01 .
+
+jp:Place_Q580110 jp:latitude 4.8165e+01 ;
+    jp:longitude 1.788678e+01 .
+
+jp:Place_Q581478 jp:latitude 4.875899e+01 ;
+    jp:longitude 1.688202e+01 .
+
+jp:Place_Q5818 jp:latitude 3.789e+01 ;
+    jp:longitude -4.78e+00 .
+
+jp:Place_Q582209 jp:latitude 4.812e+01 ;
+    jp:longitude 2.141e+01 .
+
+jp:Place_Q5831 jp:latitude 3.52825e+01 ;
+    jp:longitude -2.9475e+00 .
+
+jp:Place_Q5837654 jp:latitude 2.95014e+01 ;
+    jp:longitude 5.24858e+01 .
+
+jp:Place_Q584114 jp:latitude 4.634738e+01 ;
+    jp:longitude 1.823431e+01 .
+
+jp:Place_Q585 jp:latitude 5.991333e+01 ;
+    jp:longitude 1.073889e+01 .
+
+jp:Place_Q585507 jp:latitude 5.001667e+01 ;
+    jp:longitude 1.028333e+01 .
+
+jp:Place_Q586 jp:latitude 5.073528e+01 ;
+    jp:longitude 7.102222e+00 .
+
+jp:Place_Q586369 jp:latitude 5.391667e+01 ;
+    jp:longitude 3.035e+01 .
+
+jp:Place_Q5867 jp:latitude 4.535e+01 ;
+    jp:longitude 1.900333e+01 .
+
+jp:Place_Q586762 jp:latitude 4.114149e+01 ;
+    jp:longitude -7.33579e+01 .
+
+jp:Place_Q587069 jp:latitude 5.253416e+01 ;
+    jp:longitude 1.438289e+01 .
+
+jp:Place_Q587746 jp:latitude 4.795e+01 ;
+    jp:longitude 2.606e+01 .
+
+jp:Place_Q587864 jp:latitude 4.907389e+01 ;
+    jp:longitude 1.363889e+00 .
+
+jp:Place_Q588 jp:latitude 5.025e+01 ;
+    jp:longitude 1.9e+01 .
+
+jp:Place_Q58880 jp:latitude 5.416667e+01 ;
+    jp:longitude 2.5e+01 .
+
+jp:Place_Q58888182 jp:latitude 5.154331e+01 ;
+    jp:longitude -5.9486e-02 .
+
+jp:Place_Q589182 jp:latitude 4.08203e+01 ;
+    jp:longitude -7.4106e+01 .
+
+jp:Place_Q589309 jp:latitude 4.921167e+01 ;
+    jp:longitude 1.929917e+01 .
+
+jp:Place_Q589460 jp:latitude 4.078333e+01 ;
+    jp:longitude -7.432639e+01 .
+
+jp:Place_Q58987 jp:latitude 4.067639e+01 ;
+    jp:longitude -7.381246e+01 .
+
+jp:Place_Q590583 jp:latitude 4.840333e+01 ;
+    jp:longitude 2.072833e+01 .
+
+jp:Place_Q591823 jp:latitude 5.041674e+01 ;
+    jp:longitude 1.616297e+01 .
+
+jp:Place_Q592526 jp:latitude 3.204726e+01 ;
+    jp:longitude 3.487571e+01 .
+
+jp:Place_Q593230 jp:latitude 5.390225e+01 ;
+    jp:longitude 2.756184e+01 .
+
+jp:Place_Q593834 jp:latitude 4.58475e+01 ;
+    jp:longitude 1.893028e+01 .
+
+jp:Place_Q596609 jp:latitude 4.771111e+01 ;
+    jp:longitude 2.442639e+01 .
+
+jp:Place_Q59670 jp:latitude 3.895171e+01 ;
+    jp:longitude -9.233407e+01 .
+
+jp:Place_Q597 jp:latitude 3.870804e+01 ;
+    jp:longitude -9.139016e+00 .
+
+jp:Place_Q597182 jp:latitude 4.748919e+01 ;
+    jp:longitude 1.907012e+01 .
+
+jp:Place_Q598 jp:latitude 5.004111e+01 ;
+    jp:longitude 2.199889e+01 .
+
+jp:Place_Q5990 jp:latitude 4.532615e+01 ;
+    jp:longitude 8.42341e+00 .
+
+jp:Place_Q60 jp:latitude 4.071278e+01 ;
+    jp:longitude -7.400611e+01 .
+
+jp:Place_Q601684 jp:latitude 4.867222e+01 ;
+    jp:longitude 1.777222e+01 .
+
+jp:Place_Q602426 jp:latitude 3.48e+01 ;
+    jp:longitude -5.6e+00 .
+
+jp:Place_Q602976 jp:latitude 4.939563e+01 ;
+    jp:longitude 1.329509e+01 .
+
+jp:Place_Q603249 jp:latitude 5.361667e+01 ;
+    jp:longitude 3.195e+01 .
+
+jp:Place_Q604251 jp:latitude 5.421667e+01 ;
+    jp:longitude 1.911667e+01 .
+
+jp:Place_Q605041 jp:latitude 4.796667e+01 ;
+    jp:longitude 1.851667e+01 .
+
+jp:Place_Q607410 jp:latitude 5.27444e+01 ;
+    jp:longitude 2.283774e+01 .
+
+jp:Place_Q6088 jp:latitude 4.491333e+01 ;
+    jp:longitude 8.62e+00 .
+
+jp:Place_Q608888 jp:latitude 5.220389e+01 ;
+    jp:longitude 2.478611e+01 .
+
+jp:Place_Q609329 jp:latitude 4.962217e+01 ;
+    jp:longitude 2.119769e+01 .
+
+jp:Place_Q60956 jp:latitude 3.166583e+01 ;
+    jp:longitude 3.456639e+01 .
+
+jp:Place_Q609871 jp:latitude 3.646194e+01 ;
+    jp:longitude 7.425833e+00 .
+
+jp:Place_Q61 jp:latitude 3.8895e+01 ;
+    jp:longitude -7.703667e+01 .
+
+jp:Place_Q610463 jp:latitude 2.953806e+01 ;
+    jp:longitude -8.122333e+01 .
+
+jp:Place_Q6106 jp:latitude 4.551667e+01 ;
+    jp:longitude -1.226667e+02 .
+
+jp:Place_Q611784 jp:latitude 5.085417e+01 ;
+    jp:longitude 1.996694e+01 .
+
+jp:Place_Q61306 jp:latitude 2.101778e+01 ;
+    jp:longitude -1.012567e+02 .
+
+jp:Place_Q614145 jp:latitude 5.02655e+01 ;
+    jp:longitude 2.24186e+01 .
+
+jp:Place_Q614294 jp:latitude 5.344528e+01 ;
+    jp:longitude 3.099639e+01 .
+
+jp:Place_Q61480 jp:latitude 5.381667e+01 ;
+    jp:longitude 2.235e+01 .
+
+jp:Place_Q615132 jp:latitude 5.286444e+01 ;
+    jp:longitude 2.489083e+01 .
+
+jp:Place_Q615233 jp:latitude 4.801972e+01 ;
+    jp:longitude 2.137778e+01 .
+
+jp:Place_Q615367 jp:latitude 5.277944e+01 ;
+    jp:longitude 2.011528e+01 .
+
+jp:Place_Q615451 jp:latitude 4.75725e+01 ;
+    jp:longitude 3.131194e+01 .
+
+jp:Place_Q61656 jp:latitude 4.900889e+01 ;
+    jp:longitude 9.058889e+00 .
+
+jp:Place_Q617 jp:latitude 4.540778e+01 ;
+    jp:longitude 1.187333e+01 .
+
+jp:Place_Q61942 jp:latitude 4.949083e+01 ;
+    jp:longitude 9.773056e+00 .
+
+jp:Place_Q62 jp:latitude 3.7775e+01 ;
+    jp:longitude -1.224194e+02 .
+
+jp:Place_Q62010 jp:latitude 4.773139e+01 ;
+    jp:longitude 8.838611e+00 .
+
+jp:Place_Q62026 jp:latitude 4.769694e+01 ;
+    jp:longitude 8.755e+00 .
+
+jp:Place_Q621 jp:latitude 4.8805e+01 ;
+    jp:longitude 2.135e+00 .
+
+jp:Place_Q622574 jp:latitude 5.331667e+01 ;
+    jp:longitude 1.215e+01 .
+
+jp:Place_Q6247 jp:latitude 4.515639e+01 ;
+    jp:longitude 1.079111e+01 .
+
+jp:Place_Q625091 jp:latitude 4.975167e+01 ;
+    jp:longitude 8.485e+00 .
+
+jp:Place_Q625154 jp:latitude 4.774e+01 ;
+    jp:longitude 1.812167e+01 .
+
+jp:Place_Q6259 jp:latitude 4.518528e+01 ;
+    jp:longitude 9.155e+00 .
+
+jp:Place_Q625904 jp:latitude 5.081778e+01 ;
+    jp:longitude 9.843611e+00 .
+
+jp:Place_Q627487 jp:latitude 3.68625e+01 ;
+    jp:longitude 1.019556e+01 .
+
+jp:Place_Q627878 jp:latitude 4.680144e+01 ;
+    jp:longitude 1.935872e+01 .
+
+jp:Place_Q628118 jp:latitude 4.997903e+01 ;
+    jp:longitude 7.923403e+00 .
+
+jp:Place_Q628460 jp:latitude 5.196667e+01 ;
+    jp:longitude 1.928333e+01 .
+
+jp:Place_Q62937 jp:latitude 5.271667e+01 ;
+    jp:longitude 2.11e+01 .
+
+jp:Place_Q632080 jp:latitude 4.751667e+01 ;
+    jp:longitude 1.751667e+01 .
+
+jp:Place_Q632428 jp:latitude 4.734167e+01 ;
+    jp:longitude 6.130556e-01 .
+
+jp:Place_Q633616 jp:latitude 4.851917e+01 ;
+    jp:longitude 4.292222e+00 .
+
+jp:Place_Q634388 jp:latitude 4.73e+01 ;
+    jp:longitude 2.048333e+01 .
+
+jp:Place_Q6346 jp:latitude 3.976861e+01 ;
+    jp:longitude -8.615806e+01 .
+
+jp:Place_Q635253 jp:latitude 5.24e+01 ;
+    jp:longitude 1.691667e+01 .
+
+jp:Place_Q636133 jp:latitude 5.026806e+01 ;
+    jp:longitude 7.9775e+00 .
+
+jp:Place_Q636935 jp:latitude 5.696879e+01 ;
+    jp:longitude 2.315352e+01 .
+
+jp:Place_Q637555 jp:latitude 1.846667e+01 ;
+    jp:longitude -7.791667e+01 .
+
+jp:Place_Q637647 jp:latitude 4.791944e+01 ;
+    jp:longitude 1.969778e+01 .
+
+jp:Place_Q638306 jp:latitude 4.954796e+01 ;
+    jp:longitude 1.773472e+01 .
+
+jp:Place_Q63855 jp:latitude 5.042536e+01 ;
+    jp:longitude 1.426184e+01 .
+
+jp:Place_Q639241 jp:latitude 5.243333e+01 ;
+    jp:longitude 1.558333e+01 .
+
+jp:Place_Q63939 jp:latitude 4.747291e+01 ;
+    jp:longitude 8.30799e+00 .
+
+jp:Place_Q6397 jp:latitude 4.394861e+01 ;
+    jp:longitude 4.808333e+00 .
+
+jp:Place_Q6397066 jp:latitude 2.961e+01 ;
+    jp:longitude 5.25425e+01 .
+
+jp:Place_Q639830 jp:latitude 4.88e+01 ;
+    jp:longitude 2.453333e+01 .
+
+jp:Place_Q64 jp:latitude 5.251667e+01 ;
+    jp:longitude 1.338333e+01 .
+
+jp:Place_Q640493 jp:latitude 5.12784e+01 ;
+    jp:longitude 1.798908e+01 .
+
+jp:Place_Q641 jp:latitude 4.543972e+01 ;
+    jp:longitude 1.233194e+01 .
+
+jp:Place_Q642046 jp:latitude 4.230333e+01 ;
+    jp:longitude -1.964722e+00 .
+
+jp:Place_Q642192 jp:latitude 5.14e+01 ;
+    jp:longitude 1.8e+01 .
+
+jp:Place_Q642327 jp:latitude 4.954972e+01 ;
+    jp:longitude 7.8875e+00 .
+
+jp:Place_Q643281 jp:latitude 4.963472e+01 ;
+    jp:longitude 7.661667e+00 .
+
+jp:Place_Q6441 jp:latitude 4.361092e+01 ;
+    jp:longitude 3.877231e+00 .
+
+jp:Place_Q644728 jp:latitude 4.254611e+01 ;
+    jp:longitude 3.023889e+00 .
+
+jp:Place_Q645022 jp:latitude 5.280833e+01 ;
+    jp:longitude 1.719944e+01 .
+
+jp:Place_Q646393 jp:latitude 4.799611e+01 ;
+    jp:longitude 1.761472e+01 .
+
+jp:Place_Q646620 jp:latitude 4.26705e+01 ;
+    jp:longitude -2.03064e+00 .
+
+jp:Place_Q646725 jp:latitude 3.884028e+01 ;
+    jp:longitude 1.086111e-01 .
+
+jp:Place_Q646850 jp:latitude 4.662028e+01 ;
+    jp:longitude 1.928361e+01 .
+
+jp:Place_Q646980 jp:latitude 5.124833e+01 ;
+    jp:longitude -7.613889e-01 .
+
+jp:Place_Q648 jp:latitude 5.063194e+01 ;
+    jp:longitude 3.0575e+00 .
+
+jp:Place_Q648071 jp:latitude 5.218333e+01 ;
+    jp:longitude 2.156667e+01 .
+
+jp:Place_Q648501 jp:latitude 3.559556e+01 ;
+    jp:longitude -8.255194e+01 .
+
+jp:Place_Q6487 jp:latitude 3.690812e+01 ;
+    jp:longitude 3.069556e+01 .
+
+jp:Place_Q648987 jp:latitude 3.143611e+01 ;
+    jp:longitude -4.232778e+00 .
+
+jp:Place_Q649 jp:latitude 5.575056e+01 ;
+    jp:longitude 3.76175e+01 .
+
+jp:Place_Q649061 jp:latitude 5.049833e+01 ;
+    jp:longitude 1.039167e+01 .
+
+jp:Place_Q649647 jp:latitude 4.771e+01 ;
+    jp:longitude 1.801556e+01 .
+
+jp:Place_Q6496681 jp:latitude 5.51675e+01 ;
+    jp:longitude 3.095833e+01 .
+
+jp:Place_Q65 jp:latitude 3.405223e+01 ;
+    jp:longitude -1.182437e+02 .
+
+jp:Place_Q6507027 jp:latitude 5.343037e+01 ;
+    jp:longitude 2.741317e+01 .
+
+jp:Place_Q651555 jp:latitude 5.556278e+01 ;
+    jp:longitude 2.822583e+01 .
+
+jp:Place_Q651788 jp:latitude 5.049122e+01 ;
+    jp:longitude 1.892264e+01 .
+
+jp:Place_Q65380 jp:latitude 4.955e+01 ;
+    jp:longitude 3.05e+01 .
+
+jp:Place_Q653844 jp:latitude 4.998333e+01 ;
+    jp:longitude 2.241667e+01 .
+
+jp:Place_Q654695 jp:latitude 3.398583e+01 ;
+    jp:longitude -3.051111e+00 .
+
+jp:Place_Q6547296 jp:latitude 3.165342e+01 ;
+    jp:longitude 3.466415e+01 .
+
+jp:Place_Q6548 jp:latitude 4.790222e+01 ;
+    jp:longitude 1.904167e+00 .
+
+jp:Place_Q6555 jp:latitude 4.318472e+01 ;
+    jp:longitude 3.003611e+00 .
+
+jp:Place_Q655874 jp:latitude 5.14009e+01 ;
+    jp:longitude -1.3235e+00 .
+
+jp:Place_Q656 jp:latitude 5.995e+01 ;
+    jp:longitude 3.031667e+01 .
+
+jp:Place_Q6572 jp:latitude 4.50809e+01 ;
+    jp:longitude 1.1794e+01 .
+
+jp:Place_Q658230 jp:latitude 5.563333e+01 ;
+    jp:longitude 2.293333e+01 .
+
+jp:Place_Q658562 jp:latitude 5.536667e+01 ;
+    jp:longitude 2.311667e+01 .
+
+jp:Place_Q6588 jp:latitude 4.518417e+01 ;
+    jp:longitude 7.180556e-01 .
+
+jp:Place_Q658855 jp:latitude 4.824194e+01 ;
+    jp:longitude 1.451694e+01 .
+
+jp:Place_Q658861 jp:latitude 5.028333e+01 ;
+    jp:longitude 2.143333e+01 .
+
+jp:Place_Q659400 jp:latitude 3.422333e+01 ;
+    jp:longitude -7.791222e+01 .
+
+jp:Place_Q659424 jp:latitude 4.829194e+01 ;
+    jp:longitude 1.726611e+01 .
+
+jp:Place_Q6596 jp:latitude 4.59352e+01 ;
+    jp:longitude 1.36193e+01 .
+
+jp:Place_Q659841 jp:latitude 4.834528e+01 ;
+    jp:longitude 1.633306e+01 .
+
+jp:Place_Q659866 jp:latitude 4.975583e+01 ;
+    jp:longitude 6.996667e+00 .
+
+jp:Place_Q66013 jp:latitude 5.165889e+01 ;
+    jp:longitude 1.608028e+01 .
+
+jp:Place_Q6602 jp:latitude 4.857333e+01 ;
+    jp:longitude 7.752222e+00 .
+
+jp:Place_Q660728 jp:latitude 4.784111e+01 ;
+    jp:longitude 1.691944e+01 .
+
+jp:Place_Q660854 jp:latitude 4.759528e+01 ;
+    jp:longitude 1.639222e+01 .
+
+jp:Place_Q662563 jp:latitude 5.002761e+01 ;
+    jp:longitude 1.920309e+01 .
+
+jp:Place_Q663242 jp:latitude 4.758944e+01 ;
+    jp:longitude 1.646278e+01 .
+
+jp:Place_Q663764 jp:latitude 5.00371e+01 ;
+    jp:longitude 1.91752e+01 .
+
+jp:Place_Q664371 jp:latitude 5.181667e+01 ;
+    jp:longitude 1.93e+01 .
+
+jp:Place_Q664895 jp:latitude 4.902513e+01 ;
+    jp:longitude 1.764715e+01 .
+
+jp:Place_Q665224 jp:latitude 4.81e+01 ;
+    jp:longitude 1.806667e+01 .
+
+jp:Place_Q665266 jp:latitude 5.494472e+01 ;
+    jp:longitude 2.387056e+01 .
+
+jp:Place_Q665853 jp:latitude 4.816029e+01 ;
+    jp:longitude 2.135968e+01 .
+
+jp:Place_Q6662 jp:latitude 4.413333e+01 ;
+    jp:longitude 1.223333e+01 .
+
+jp:Place_Q666373 jp:latitude 4.774778e+01 ;
+    jp:longitude 2.328528e+01 .
+
+jp:Place_Q667682 jp:latitude 4.159751e+01 ;
+    jp:longitude -4.122793e+00 .
+
+jp:Place_Q667845 jp:latitude 5.196667e+01 ;
+    jp:longitude 1.728333e+01 .
+
+jp:Place_Q668318 jp:latitude 4.831889e+01 ;
+    jp:longitude 2.156611e+01 .
+
+jp:Place_Q668322 jp:latitude 5.331306e+01 ;
+    jp:longitude 2.29175e+01 .
+
+jp:Place_Q668327 jp:latitude 5.01075e+01 ;
+    jp:longitude 7.726389e+00 .
+
+jp:Place_Q668701 jp:latitude 4.747722e+01 ;
+    jp:longitude 2.258333e+01 .
+
+jp:Place_Q669570 jp:latitude 4.153243e+01 ;
+    jp:longitude 1.383852e+00 .
+
+jp:Place_Q670164 jp:latitude 4.923e+01 ;
+    jp:longitude 2.334861e+01 .
+
+jp:Place_Q670770 jp:latitude 4.789778e+01 ;
+    jp:longitude 1.690889e+01 .
+
+jp:Place_Q671474 jp:latitude 5.24333e+01 ;
+    jp:longitude 1.335e+01 .
+
+jp:Place_Q6730 jp:latitude 4.26975e+01 ;
+    jp:longitude 2.894722e+00 .
+
+jp:Place_Q6735870 jp:latitude 4.063944e+01 ;
+    jp:longitude -7.399861e+01 .
+
+jp:Place_Q674311 jp:latitude 4.822639e+01 ;
+    jp:longitude 2.208444e+01 .
+
+jp:Place_Q6761 jp:latitude 4.355e+01 ;
+    jp:longitude 1.031667e+01 .
+
+jp:Place_Q679224 jp:latitude 4.766667e+01 ;
+    jp:longitude 2.151667e+01 .
+
+jp:Place_Q679249 jp:latitude 4.653333e+01 ;
+    jp:longitude 1.898556e+01 .
+
+jp:Place_Q680628 jp:latitude 4.806667e+01 ;
+    jp:longitude 1.706667e+01 .
+
+jp:Place_Q68124 jp:latitude 4.709963e+01 ;
+    jp:longitude 6.829558e+00 .
+
+jp:Place_Q6819482 jp:latitude 3.99933e+01 ;
+    jp:longitude -7.52511e+01 .
+
+jp:Place_Q682046 jp:latitude 5.283667e+01 ;
+    jp:longitude 1.890139e+01 .
+
+jp:Place_Q682544 jp:latitude 4.880559e+01 ;
+    jp:longitude 1.663779e+01 .
+
+jp:Place_Q6829 jp:latitude 4.931656e+01 ;
+    jp:longitude 8.433615e+00 .
+
+jp:Place_Q6833796 jp:latitude 4.18414e+01 ;
+    jp:longitude -8.76136e+01 .
+
+jp:Place_Q6837 jp:latitude 5.18671e+01 ;
+    jp:longitude 1.26484e+01 .
+
+jp:Place_Q6842 jp:latitude 5.179e+01 ;
+    jp:longitude 6.14e+00 .
+
+jp:Place_Q685357 jp:latitude 1.79375e+01 ;
+    jp:longitude -7.684139e+01 .
+
+jp:Place_Q686184 jp:latitude 3.82375e+01 ;
+    jp:longitude -6.015278e+00 .
+
+jp:Place_Q6863 jp:latitude 5.144583e+01 ;
+    jp:longitude 7.565278e+00 .
+
+jp:Place_Q6874 jp:latitude 4.885722e+01 ;
+    jp:longitude 8.203056e+00 .
+
+jp:Place_Q688654 jp:latitude 4.726667e+01 ;
+    jp:longitude 2.916667e+01 .
+
+jp:Place_Q68986 jp:latitude 4.649722e+01 ;
+    jp:longitude 9.837778e+00 .
+
+jp:Place_Q69354 jp:latitude 4.6435e+01 ;
+    jp:longitude 6.9125e+00 .
+
+jp:Place_Q69401 jp:latitude 4.650945e+01 ;
+    jp:longitude 6.498611e+00 .
+
+jp:Place_Q69429 jp:latitude 4.752222e+01 ;
+    jp:longitude 8.330556e+00 .
+
+jp:Place_Q69438 jp:latitude 4.753861e+01 ;
+    jp:longitude 8.290278e+00 .
+
+jp:Place_Q696853 jp:latitude 5.166667e+01 ;
+    jp:longitude 1.156667e+01 .
+
+jp:Place_Q697679 jp:latitude 4.750369e+01 ;
+    jp:longitude 1.906583e+01 .
+
+jp:Place_Q698270 jp:latitude 4.477028e+01 ;
+    jp:longitude 2.046833e+01 .
+
+jp:Place_Q698591 jp:latitude 4.736667e+01 ;
+    jp:longitude 9.666667e+00 .
+
+jp:Place_Q699561 jp:latitude 4.77875e+01 ;
+    jp:longitude 1.37578e+01 .
+
+jp:Place_Q7012317 jp:latitude 4.625222e+01 ;
+    jp:longitude -6.009389e+01 .
+
+jp:Place_Q702411 jp:latitude 5.116667e+01 ;
+    jp:longitude 6.45e+00 .
+
+jp:Place_Q7024558 jp:latitude 3.215811e+01 ;
+    jp:longitude 3.488587e+01 .
+
+jp:Place_Q703158 jp:latitude 4.935526e+01 ;
+    jp:longitude 1.601227e+01 .
+
+jp:Place_Q7033 jp:latitude 5.1505e+01 ;
+    jp:longitude 1.079111e+01 .
+
+jp:Place_Q7038 jp:latitude 4.198333e+01 ;
+    jp:longitude 2.816667e+00 .
+
+jp:Place_Q704300 jp:latitude 5.011028e+01 ;
+    jp:longitude 8.682222e+00 .
+
+jp:Place_Q7052 jp:latitude 4.919944e+01 ;
+    jp:longitude 8.123056e+00 .
+
+jp:Place_Q7052783 jp:latitude 5.491667e+01 ;
+    jp:longitude 2.388333e+01 .
+
+jp:Place_Q7059 jp:latitude 4.913333e+01 ;
+    jp:longitude 8.6e+00 .
+
+jp:Place_Q70598 jp:latitude 4.973333e+01 ;
+    jp:longitude 2.968333e+01 .
+
+jp:Place_Q7070 jp:latitude 5.097472e+01 ;
+    jp:longitude 1.032444e+01 .
+
+jp:Place_Q7072 jp:latitude 5.189583e+01 ;
+    jp:longitude 1.104667e+01 .
+
+jp:Place_Q7077 jp:latitude 4.826028e+01 ;
+    jp:longitude 1.143417e+01 .
+
+jp:Place_Q708708 jp:latitude 5.042972e+01 ;
+    jp:longitude 7.570278e+00 .
+
+jp:Place_Q71 jp:latitude 4.62e+01 ;
+    jp:longitude 6.15e+00 .
+
+jp:Place_Q7107933 jp:latitude 5.008333e+01 ;
+    jp:longitude 2.16e+01 .
+
+jp:Place_Q715 jp:latitude 4.914043e+01 ;
+    jp:longitude 9.217953e+00 .
+
+jp:Place_Q717 jp:latitude 8e+00 ;
+    jp:longitude -6.7e+01 .
+
+jp:Place_Q717404 jp:latitude 5.0875e+01 ;
+    jp:longitude 1.841667e+01 .
+
+jp:Place_Q717938 jp:latitude 5.18e+01 ;
+    jp:longitude 1.63e+01 .
+
+jp:Place_Q72 jp:latitude 4.737444e+01 ;
+    jp:longitude 8.541111e+00 .
+
+jp:Place_Q720045 jp:latitude 3.418833e+01 ;
+    jp:longitude 4.837694e+01 .
+
+jp:Place_Q721928 jp:latitude 5.001623e+01 ;
+    jp:longitude 2.267776e+01 .
+
+jp:Place_Q722836 jp:latitude 5.4425e+01 ;
+    jp:longitude 2.59375e+01 .
+
+jp:Place_Q7232117 jp:latitude 5.15157e+01 ;
+    jp:longitude -1.557e-01 .
+
+jp:Place_Q7266895 jp:latitude 1.545e+01 ;
+    jp:longitude 4.413333e+01 .
+
+jp:Place_Q727 jp:latitude 5.236667e+01 ;
+    jp:longitude 4.883333e+00 .
+
+jp:Place_Q728438 jp:latitude 4.585194e+01 ;
+    jp:longitude 1.829861e+01 .
+
+jp:Place_Q728965 jp:latitude 4.833139e+01 ;
+    jp:longitude 1.967083e+01 .
+
+jp:Place_Q730175 jp:latitude 5.420833e+01 ;
+    jp:longitude 3.028694e+01 .
+
+jp:Place_Q730929 jp:latitude 5.093333e+01 ;
+    jp:longitude 2.14e+01 .
+
+jp:Place_Q73130 jp:latitude 5.18431e+01 ;
+    jp:longitude 9.4788e+00 .
+
+jp:Place_Q731325 jp:latitude 4.966667e+01 ;
+    jp:longitude 2.006667e+01 .
+
+jp:Place_Q7318 jp:latitude 5.251111e+01 ;
+    jp:longitude 1.337972e+01 .
+
+jp:Place_Q7332 jp:latitude 5.27589e+01 ;
+    jp:longitude 9.907099e+00 .
+
+jp:Place_Q733414 jp:latitude 4.928583e+01 ;
+    jp:longitude 1.008333e+00 .
+
+jp:Place_Q7341 jp:latitude 5.003583e+01 ;
+    jp:longitude 1.917833e+01 .
+
+jp:Place_Q7342 jp:latitude 5.003806e+01 ;
+    jp:longitude 1.922139e+01 .
+
+jp:Place_Q735138 jp:latitude 5.528333e+01 ;
+    jp:longitude 2.396667e+01 .
+
+jp:Place_Q735510 jp:latitude 4.852778e+01 ;
+    jp:longitude 1.746389e+01 .
+
+jp:Place_Q7367861 jp:latitude 3.9731e+01 ;
+    jp:longitude -1.04934e+02 .
+
+jp:Place_Q7374196 jp:latitude 5.15531e+01 ;
+    jp:longitude -1.654e-01 .
+
+jp:Place_Q738777 jp:latitude 5.393071e+01 ;
+    jp:longitude 2.577026e+01 .
+
+jp:Place_Q739304 jp:latitude 4.785e+01 ;
+    jp:longitude 2.143333e+01 .
+
+jp:Place_Q739491 jp:latitude 5.316667e+01 ;
+    jp:longitude 2.446667e+01 .
+
+jp:Place_Q740800 jp:latitude 4.662194e+01 ;
+    jp:longitude 1.885583e+01 .
+
+jp:Place_Q741793 jp:latitude 3.061278e+01 ;
+    jp:longitude 3.480167e+01 .
+
+jp:Place_Q743218 jp:latitude 5.507222e+01 ;
+    jp:longitude 2.428056e+01 .
+
+jp:Place_Q744167 jp:latitude 5.40196e+01 ;
+    jp:longitude 3.17247e+01 .
+
+jp:Place_Q744948 jp:latitude 4.090861e+01 ;
+    jp:longitude -7.378194e+01 .
+
+jp:Place_Q745051 jp:latitude 5.288333e+01 ;
+    jp:longitude 2.061667e+01 .
+
+jp:Place_Q745059 jp:latitude 5.211667e+01 ;
+    jp:longitude 2.126667e+01 .
+
+jp:Place_Q745661 jp:latitude 5.65117e+01 ;
+    jp:longitude 2.58589e+01 .
+
+jp:Place_Q748211 jp:latitude 5.00847e+01 ;
+    jp:longitude 1.44203e+01 .
+
+jp:Place_Q749 jp:latitude 5.321889e+01 ;
+    jp:longitude 6.5675e+00 .
+
+jp:Place_Q749468 jp:latitude 4.805833e+01 ;
+    jp:longitude 2.407e+01 .
+
+jp:Place_Q750222 jp:latitude 4.735e+01 ;
+    jp:longitude 2.233333e+01 .
+
+jp:Place_Q750224 jp:latitude 4.92615e+01 ;
+    jp:longitude 1.39024e+01 .
+
+jp:Place_Q750407 jp:latitude 4.868056e+01 ;
+    jp:longitude 1.736667e+01 .
+
+jp:Place_Q750413 jp:latitude 4.9205e+01 ;
+    jp:longitude 2.165139e+01 .
+
+jp:Place_Q750696 jp:latitude 4.850806e+01 ;
+    jp:longitude 2.257306e+01 .
+
+jp:Place_Q751076 jp:latitude 5.155e+01 ;
+    jp:longitude 2.355e+01 .
+
+jp:Place_Q752137 jp:latitude 4.164639e+01 ;
+    jp:longitude 1.139444e+00 .
+
+jp:Place_Q752334 jp:latitude 4.813972e+01 ;
+    jp:longitude 2.303306e+01 .
+
+jp:Place_Q752838 jp:latitude 4.765139e+01 ;
+    jp:longitude 1.948944e+01 .
+
+jp:Place_Q7530 jp:latitude 5.073889e+01 ;
+    jp:longitude 2.532333e+01 .
+
+jp:Place_Q753414 jp:latitude 3.902601e+01 ;
+    jp:longitude -7.707289e+01 .
+
+jp:Place_Q753857 jp:latitude 4.128278e+01 ;
+    jp:longitude -7.268194e+01 .
+
+jp:Place_Q754725 jp:latitude 4.769e+01 ;
+    jp:longitude 2.247e+01 .
+
+jp:Place_Q754729 jp:latitude 4.632972e+01 ;
+    jp:longitude 2.427e+01 .
+
+jp:Place_Q754773 jp:latitude 4.843111e+01 ;
+    jp:longitude 1.780306e+01 .
+
+jp:Place_Q755681 jp:latitude 4.719722e+01 ;
+    jp:longitude 1.813944e+01 .
+
+jp:Place_Q755686 jp:latitude 4.783528e+01 ;
+    jp:longitude 2.213e+01 .
+
+jp:Place_Q755699 jp:latitude 4.776944e+01 ;
+    jp:longitude 2.185694e+01 .
+
+jp:Place_Q755701 jp:latitude 4.716083e+01 ;
+    jp:longitude 1.894556e+01 .
+
+jp:Place_Q756273 jp:latitude 4.731667e+01 ;
+    jp:longitude 2.093333e+01 .
+
+jp:Place_Q7564711 jp:latitude 4.091299e+01 ;
+    jp:longitude -7.378749e+01 .
+
+jp:Place_Q756581 jp:latitude 5.012046e+01 ;
+    jp:longitude 1.235182e+01 .
+
+jp:Place_Q756585 jp:latitude 4.6715e+01 ;
+    jp:longitude 2.670417e+01 .
+
+jp:Place_Q757101 jp:latitude 5.609472e+01 ;
+    jp:longitude 2.753694e+01 .
+
+jp:Place_Q759 jp:latitude 4.4e+01 ;
+    jp:longitude -7.15e+01 .
+
+jp:Place_Q760497 jp:latitude 4.83667e+01 ;
+    jp:longitude 1.08681e+01 .
+
+jp:Place_Q761 jp:latitude 5.313236e+01 ;
+    jp:longitude 2.316867e+01 .
+
+jp:Place_Q761439 jp:latitude 4.904897e+01 ;
+    jp:longitude 1.63117e+01 .
+
+jp:Place_Q762727 jp:latitude 3.04711e+01 ;
+    jp:longitude -8.8778e+00 .
+
+jp:Place_Q7664746 jp:latitude 5.30539e+01 ;
+    jp:longitude 1.77806e+01 .
+
+jp:Place_Q769820 jp:latitude 5.226861e+01 ;
+    jp:longitude 1.987028e+01 .
+
+jp:Place_Q77 jp:latitude -3.3e+01 ;
+    jp:longitude -5.6e+01 .
+
+jp:Place_Q771572 jp:latitude 4.07e+01 ;
+    jp:longitude -7.395e+01 .
+
+jp:Place_Q771723 jp:latitude 5.21667e+01 ;
+    jp:longitude 2.014e+01 .
+
+jp:Place_Q771769 jp:latitude 4.7709e+01 ;
+    jp:longitude 1.9632e+01 .
+
+jp:Place_Q773853 jp:latitude 3.399083e+01 ;
+    jp:longitude -1.184592e+02 .
+
+jp:Place_Q773891 jp:latitude 5.231528e+01 ;
+    jp:longitude 2.561444e+01 .
+
+jp:Place_Q776965 jp:latitude 5.57125e+01 ;
+    jp:longitude 2.1135e+01 .
+
+jp:Place_Q777169 jp:latitude 5.036056e+01 ;
+    jp:longitude 2.274222e+01 .
+
+jp:Place_Q778044 jp:latitude 3.962556e+01 ;
+    jp:longitude -7.822694e+01 .
+
+jp:Place_Q778948 jp:latitude 4.841556e+01 ;
+    jp:longitude 1.798139e+01 .
+
+jp:Place_Q779206 jp:latitude 4.783083e+01 ;
+    jp:longitude 1.841083e+01 .
+
+jp:Place_Q78 jp:latitude 4.756056e+01 ;
+    jp:longitude 7.590556e+00 .
+
+jp:Place_Q780954 jp:latitude 4.657856e+01 ;
+    jp:longitude 1.839064e+01 .
+
+jp:Place_Q782928 jp:latitude 4.828333e+01 ;
+    jp:longitude 1.703333e+01 .
+
+jp:Place_Q782980 jp:latitude 4.797222e+01 ;
+    jp:longitude 2.369722e+01 .
+
+jp:Place_Q783526 jp:latitude 4.954231e+01 ;
+    jp:longitude 1.408595e+01 .
+
+jp:Place_Q7856211 jp:latitude -3.373167e+01 ;
+    jp:longitude 1.511344e+02 .
+
+jp:Place_Q786762 jp:latitude 5.030951e+01 ;
+    jp:longitude 1.287189e+01 .
+
+jp:Place_Q7880 jp:latitude 4.360444e+01 ;
+    jp:longitude 1.443333e+00 .
+
+jp:Place_Q789233 jp:latitude 4.807119e+01 ;
+    jp:longitude 1.929372e+01 .
+
+jp:Place_Q789279 jp:latitude 4.70205e+01 ;
+    jp:longitude 1.821079e+01 .
+
+jp:Place_Q79 jp:latitude 2.7e+01 ;
+    jp:longitude 2.9e+01 .
+
+jp:Place_Q7903 jp:latitude 3.359917e+01 ;
+    jp:longitude -7.62e+00 .
+
+jp:Place_Q791847 jp:latitude 4.800389e+01 ;
+    jp:longitude 2.366417e+01 .
+
+jp:Place_Q792243 jp:latitude 4.746609e+01 ;
+    jp:longitude 1.709685e+01 .
+
+jp:Place_Q793176 jp:latitude 4.571972e+01 ;
+    jp:longitude 2.030194e+01 .
+
+jp:Place_Q793317 jp:latitude 4.574139e+01 ;
+    jp:longitude 1.683028e+01 .
+
+jp:Place_Q793405 jp:latitude 4.721667e+01 ;
+    jp:longitude 2.155e+01 .
+
+jp:Place_Q793424 jp:latitude 4.944643e+01 ;
+    jp:longitude 2.494364e+01 .
+
+jp:Place_Q793865 jp:latitude 4.914444e+01 ;
+    jp:longitude 2.085e+01 .
+
+jp:Place_Q793917 jp:latitude 4.863333e+01 ;
+    jp:longitude 2.046667e+01 .
+
+jp:Place_Q794 jp:latitude 3.2e+01 ;
+    jp:longitude 5.3e+01 .
+
+jp:Place_Q794837 jp:latitude 4.721667e+01 ;
+    jp:longitude 2.123333e+01 .
+
+jp:Place_Q795623 jp:latitude 5.182e+01 ;
+    jp:longitude 4.42e+00 .
+
+jp:Place_Q79743 jp:latitude 3.482028e+01 ;
+    jp:longitude -8.766278e+01 .
+
+jp:Place_Q797713 jp:latitude 5.21649e+01 ;
+    jp:longitude 1.582908e+01 .
+
+jp:Place_Q79815 jp:latitude 4.774861e+01 ;
+    jp:longitude 7.339167e+00 .
+
+jp:Place_Q798445 jp:latitude 3.681911e+01 ;
+    jp:longitude 1.030638e+01 .
+
+jp:Place_Q79867 jp:latitude 3.35175e+01 ;
+    jp:longitude -8.680944e+01 .
+
+jp:Place_Q7987259 jp:latitude 4.108611e+01 ;
+    jp:longitude -7.380556e+01 .
+
+jp:Place_Q79875 jp:latitude 3.072767e+01 ;
+    jp:longitude -8.805267e+01 .
+
+jp:Place_Q79880 jp:latitude 4.753e+01 ;
+    jp:longitude 2.163917e+01 .
+
+jp:Place_Q79924 jp:latitude 3.450361e+01 ;
+    jp:longitude -9.305528e+01 .
+
+jp:Place_Q80021 jp:latitude 5.587139e+01 ;
+    jp:longitude 2.651611e+01 .
+
+jp:Place_Q801 jp:latitude 3.1e+01 ;
+    jp:longitude 3.5e+01 .
+
+jp:Place_Q802 jp:latitude 4.9625e+01 ;
+    jp:longitude 2.069556e+01 .
+
+jp:Place_Q8029520 jp:latitude 4.923333e+01 ;
+    jp:longitude 2.215e+01 .
+
+jp:Place_Q804035 jp:latitude 5.62e+01 ;
+    jp:longitude 2.475e+01 .
+
+jp:Place_Q805 jp:latitude 1.55e+01 ;
+    jp:longitude 4.8e+01 .
+
+jp:Place_Q805554 jp:latitude 4.793611e+01 ;
+    jp:longitude 2.96225e+01 .
+
+jp:Place_Q80637 jp:latitude 5.395583e+01 ;
+    jp:longitude -1.08e+00 .
+
+jp:Place_Q807 jp:latitude 4.653333e+01 ;
+    jp:longitude 6.633333e+00 .
+
+jp:Place_Q80985 jp:latitude 3.404333e+01 ;
+    jp:longitude -5.003333e+00 .
+
+jp:Place_Q80995 jp:latitude 4.919889e+01 ;
+    jp:longitude 9.791389e+00 .
+
+jp:Place_Q81033 jp:latitude 2.568444e+01 ;
+    jp:longitude -1.003181e+02 .
+
+jp:Place_Q812 jp:latitude 2.813333e+01 ;
+    jp:longitude -8.163167e+01 .
+
+jp:Place_Q815721 jp:latitude 5.047139e+01 ;
+    jp:longitude 1.733389e+01 .
+
+jp:Place_Q81581 jp:latitude 4.625e+01 ;
+    jp:longitude 2.016667e+01 .
+
+jp:Place_Q815903 jp:latitude 4.996889e+01 ;
+    jp:longitude 2.043028e+01 .
+
+jp:Place_Q816096 jp:latitude 4.239167e+01 ;
+    jp:longitude -7.1175e+01 .
+
+jp:Place_Q81620 jp:latitude 4.961139e+01 ;
+    jp:longitude 8.65e+00 .
+
+jp:Place_Q81717 jp:latitude 5.11275e+01 ;
+    jp:longitude 1.417972e+01 .
+
+jp:Place_Q817279 jp:latitude 3.233944e+01 ;
+    jp:longitude -6.360833e+00 .
+
+jp:Place_Q820024 jp:latitude 5.583333e+01 ;
+    jp:longitude 2.496667e+01 .
+
+jp:Place_Q82185 jp:latitude 4.615944e+01 ;
+    jp:longitude -1.151389e+00 .
+
+jp:Place_Q826068 jp:latitude 4.96937e+01 ;
+    jp:longitude 2.176517e+01 .
+
+jp:Place_Q826076 jp:latitude 5.41e+01 ;
+    jp:longitude 2.335e+01 .
+
+jp:Place_Q82712 jp:latitude 4.368543e+01 ;
+    jp:longitude 1.125439e+01 .
+
+jp:Place_Q827229 jp:latitude 4.837278e+01 ;
+    jp:longitude 2.95325e+01 .
+
+jp:Place_Q82770 jp:latitude 4.801667e+01 ;
+    jp:longitude 8.533333e+00 .
+
+jp:Place_Q829812 jp:latitude 4.838143e+01 ;
+    jp:longitude 2.001996e+01 .
+
+jp:Place_Q831118 jp:latitude 4.799081e+01 ;
+    jp:longitude 2.026572e+01 .
+
+jp:Place_Q831276 jp:latitude 4.718973e+01 ;
+    jp:longitude 2.057721e+01 .
+
+jp:Place_Q83240 jp:latitude 4.788528e+01 ;
+    jp:longitude 7.195278e+00 .
+
+jp:Place_Q83241 jp:latitude 3.3e+01 ;
+    jp:longitude 3.53e+01 .
+
+jp:Place_Q832998 jp:latitude 4.858806e+01 ;
+    jp:longitude 2.099222e+01 .
+
+jp:Place_Q83317 jp:latitude 3.636667e+01 ;
+    jp:longitude 4.311667e+01 .
+
+jp:Place_Q833346 jp:latitude 4.843389e+01 ;
+    jp:longitude 1.754222e+01 .
+
+jp:Place_Q83362 jp:latitude 4.339855e+01 ;
+    jp:longitude 1.355253e+01 .
+
+jp:Place_Q833970 jp:latitude 4.833797e+01 ;
+    jp:longitude 2.12358e+01 .
+
+jp:Place_Q83404 jp:latitude 4.575972e+01 ;
+    jp:longitude 2.123e+01 .
+
+jp:Place_Q834567 jp:latitude 4.63e+01 ;
+    jp:longitude 1.853e+01 .
+
+jp:Place_Q834878 jp:latitude 4.75625e+01 ;
+    jp:longitude 1.911667e+01 .
+
+jp:Place_Q835423 jp:latitude 4.987083e+01 ;
+    jp:longitude 2.179111e+01 .
+
+jp:Place_Q8356 jp:latitude 4.165198e+01 ;
+    jp:longitude -4.728561e+00 .
+
+jp:Place_Q835831 jp:latitude 4.091417e+01 ;
+    jp:longitude -7.383056e+01 .
+
+jp:Place_Q837161 jp:latitude 4.607222e+01 ;
+    jp:longitude 2.062944e+01 .
+
+jp:Place_Q837765 jp:latitude 5.29e+01 ;
+    jp:longitude 3.003333e+01 .
+
+jp:Place_Q83813 jp:latitude 3.205083e+01 ;
+    jp:longitude -8.110389e+01 .
+
+jp:Place_Q838491 jp:latitude 5.722556e+01 ;
+    jp:longitude 2.167611e+01 .
+
+jp:Place_Q83891 jp:latitude 3.3e+01 ;
+    jp:longitude 5.3e+01 .
+
+jp:Place_Q839456 jp:latitude 3.0005e+01 ;
+    jp:longitude 3.12375e+01 .
+
+jp:Place_Q84 jp:latitude 5.150722e+01 ;
+    jp:longitude -1.275e-01 .
+
+jp:Place_Q840214 jp:latitude 4.634611e+01 ;
+    jp:longitude 5.321111e+00 .
+
+jp:Place_Q840986 jp:latitude 4.718333e+01 ;
+    jp:longitude 2.041667e+01 .
+
+jp:Place_Q841029 jp:latitude 5.011667e+01 ;
+    jp:longitude 2.68e+01 .
+
+jp:Place_Q841352 jp:latitude 5.28e+01 ;
+    jp:longitude 2.19e+01 .
+
+jp:Place_Q842555 jp:latitude 4.595639e+01 ;
+    jp:longitude 4.780278e+00 .
+
+jp:Place_Q842923 jp:latitude 4.764722e+01 ;
+    jp:longitude 1.902694e+01 .
+
+jp:Place_Q843001 jp:latitude 4.76167e+01 ;
+    jp:longitude 1.725e+01 .
+
+jp:Place_Q843006 jp:latitude 4.788306e+01 ;
+    jp:longitude 2.185e+01 .
+
+jp:Place_Q843009 jp:latitude 4.658306e+01 ;
+    jp:longitude 1.740639e+01 .
+
+jp:Place_Q844979 jp:latitude 4.75775e+01 ;
+    jp:longitude 6.761667e+00 .
+
+jp:Place_Q846444 jp:latitude 4.862083e+01 ;
+    jp:longitude 1.77225e+01 .
+
+jp:Place_Q848999 jp:latitude 5.370778e+01 ;
+    jp:longitude 1.669917e+01 .
+
+jp:Place_Q849109 jp:latitude 4.906472e+01 ;
+    jp:longitude 2.538722e+01 .
+
+jp:Place_Q849116 jp:latitude 5.010806e+01 ;
+    jp:longitude 2.57275e+01 .
+
+jp:Place_Q849156 jp:latitude 5.635389e+01 ;
+    jp:longitude 2.617611e+01 .
+
+jp:Place_Q85 jp:latitude 3.004444e+01 ;
+    jp:longitude 3.123583e+01 .
+
+jp:Place_Q851023 jp:latitude 4.75364e+01 ;
+    jp:longitude 1.90719e+01 .
+
+jp:Place_Q851034 jp:latitude 3.7725e+01 ;
+    jp:longitude -1.221561e+02 .
+
+jp:Place_Q851419 jp:latitude 5.058734e+01 ;
+    jp:longitude 1.51569e+01 .
+
+jp:Place_Q852272 jp:latitude 5.466667e+01 ;
+    jp:longitude 2.303333e+01 .
+
+jp:Place_Q852312 jp:latitude 4.805028e+01 ;
+    jp:longitude 2.348944e+01 .
+
+jp:Place_Q853861 jp:latitude 5.5e+01 ;
+    jp:longitude 2.4e+01 .
+
+jp:Place_Q854612 jp:latitude 5.038333e+01 ;
+    jp:longitude 2.343333e+01 .
+
+jp:Place_Q854918 jp:latitude 4.808083e+01 ;
+    jp:longitude 1.951944e+01 .
+
+jp:Place_Q854996 jp:latitude 4.816222e+01 ;
+    jp:longitude 2.1205e+01 .
+
+jp:Place_Q855016 jp:latitude 4.626667e+01 ;
+    jp:longitude 1.71e+01 .
+
+jp:Place_Q855040 jp:latitude 4.724964e+01 ;
+    jp:longitude 1.889103e+01 .
+
+jp:Place_Q855052 jp:latitude 4.700417e+01 ;
+    jp:longitude 2.061806e+01 .
+
+jp:Place_Q855082 jp:latitude 4.7835e+01 ;
+    jp:longitude 2.268222e+01 .
+
+jp:Place_Q855086 jp:latitude 4.821694e+01 ;
+    jp:longitude 2.071833e+01 .
+
+jp:Place_Q855645 jp:latitude -3.338015e+01 ;
+    jp:longitude -5.65225e+01 .
+
+jp:Place_Q855838 jp:latitude 4.796667e+01 ;
+    jp:longitude 2.135e+01 .
+
+jp:Place_Q857808 jp:latitude 5.081667e+01 ;
+    jp:longitude 1.815e+01 .
+
+jp:Place_Q858 jp:latitude 3.521667e+01 ;
+    jp:longitude 3.858333e+01 .
+
+jp:Place_Q858312 jp:latitude 5.296107e+01 ;
+    jp:longitude 1.988976e+01 .
+
+jp:Place_Q858476 jp:latitude 5.629417e+01 ;
+    jp:longitude 2.672472e+01 .
+
+jp:Place_Q863576 jp:latitude 5.308333e+01 ;
+    jp:longitude 2.531667e+01 .
+
+jp:Place_Q864836 jp:latitude 5.006667e+01 ;
+    jp:longitude 2.396667e+01 .
+
+jp:Place_Q8652 jp:latitude 2.578333e+01 ;
+    jp:longitude -8.021667e+01 .
+
+jp:Place_Q867349 jp:latitude 5.174776e+01 ;
+    jp:longitude 1.932564e+01 .
+
+jp:Place_Q8678 jp:latitude -2.291111e+01 ;
+    jp:longitude -4.320556e+01 .
+
+jp:Place_Q8684 jp:latitude 3.756e+01 ;
+    jp:longitude 1.2699e+02 .
+
+jp:Place_Q8686 jp:latitude 3.12325e+01 ;
+    jp:longitude 1.214692e+02 .
+
+jp:Place_Q87 jp:latitude 3.11975e+01 ;
+    jp:longitude 2.98925e+01 .
+
+jp:Place_Q8717 jp:latitude 3.738861e+01 ;
+    jp:longitude -5.995556e+00 .
+
+jp:Place_Q875605 jp:latitude 4.786667e+01 ;
+    jp:longitude 1.963333e+01 .
+
+jp:Place_Q88 jp:latitude 3.880472e+01 ;
+    jp:longitude -7.704722e+01 .
+
+jp:Place_Q8810 jp:latitude 3.7175e+01 ;
+    jp:longitude -3.6e+00 .
+
+jp:Place_Q8818 jp:latitude 3.947e+01 ;
+    jp:longitude -3.763889e-01 .
+
+jp:Place_Q8826 jp:latitude 3.956667e+01 ;
+    jp:longitude 2.649722e+00 .
+
+jp:Place_Q8828 jp:latitude 3.961667e+01 ;
+    jp:longitude 2.983333e+00 .
+
+jp:Place_Q8851 jp:latitude 3.671667e+01 ;
+    jp:longitude -4.416667e+00 .
+
+jp:Place_Q889 jp:latitude 3.3e+01 ;
+    jp:longitude 6.6e+01 .
+
+jp:Place_Q890122 jp:latitude 4.568283e+01 ;
+    jp:longitude 2.861003e+01 .
+
+jp:Place_Q894440 jp:latitude 4.948754e+01 ;
+    jp:longitude 1.666e+01 .
+
+jp:Place_Q898212 jp:latitude 5.483389e+01 ;
+    jp:longitude 3.095806e+01 .
+
+jp:Place_Q90 jp:latitude 4.885667e+01 ;
+    jp:longitude 2.352222e+00 .
+
+jp:Place_Q900 jp:latitude 5.579083e+01 ;
+    jp:longitude 4.911444e+01 .
+
+jp:Place_Q9005 jp:latitude 5.084667e+01 ;
+    jp:longitude 4.3525e+00 .
+
+jp:Place_Q903177 jp:latitude 4.7619e+01 ;
+    jp:longitude 2.076e+01 .
+
+jp:Place_Q903241 jp:latitude 4.881472e+01 ;
+    jp:longitude 2.894472e+01 .
+
+jp:Place_Q908 jp:latitude 4.72225e+01 ;
+    jp:longitude 3.971e+01 .
+
+jp:Place_Q910985 jp:latitude 4.981506e+01 ;
+    jp:longitude 2.223388e+01 .
+
+jp:Place_Q910997 jp:latitude 5.259278e+01 ;
+    jp:longitude 2.14584e+01 .
+
+jp:Place_Q911558 jp:latitude 4.829361e+01 ;
+    jp:longitude 2.043667e+01 .
+
+jp:Place_Q911620 jp:latitude 4.696389e+01 ;
+    jp:longitude 2.107889e+01 .
+
+jp:Place_Q911650 jp:latitude 4.76e+01 ;
+    jp:longitude 2.176667e+01 .
+
+jp:Place_Q913962 jp:latitude 4.903778e+01 ;
+    jp:longitude 2.351389e+01 .
+
+jp:Place_Q917350 jp:latitude 4.148148e+01 ;
+    jp:longitude -7.321317e+01 .
+
+jp:Place_Q917513 jp:latitude 3.373972e+01 ;
+    jp:longitude -1.178136e+02 .
+
+jp:Place_Q921505 jp:latitude 3.181389e+01 ;
+    jp:longitude 3.477833e+01 .
+
+jp:Place_Q92212 jp:latitude 5.066667e+01 ;
+    jp:longitude 1.792417e+01 .
+
+jp:Place_Q922668 jp:latitude 5.345472e+01 ;
+    jp:longitude 2.646667e+01 .
+
+jp:Place_Q923050 jp:latitude 4.813128e+01 ;
+    jp:longitude 2.134267e+01 .
+
+jp:Place_Q924078 jp:latitude 5.210889e+01 ;
+    jp:longitude 2.0625e+01 .
+
+jp:Place_Q924103 jp:latitude 5.08e+01 ;
+    jp:longitude 2.391667e+01 .
+
+jp:Place_Q924132 jp:latitude 5.201548e+01 ;
+    jp:longitude 1.850055e+01 .
+
+jp:Place_Q924252 jp:latitude 3.731667e+01 ;
+    jp:longitude 2.778333e+01 .
+
+jp:Place_Q930449 jp:latitude 4.978222e+01 ;
+    jp:longitude 2.364361e+01 .
+
+jp:Place_Q931022 jp:latitude 5.01556e+01 ;
+    jp:longitude 2.312299e+01 .
+
+jp:Place_Q932184 jp:latitude 5.039306e+01 ;
+    jp:longitude 2.5735e+01 .
+
+jp:Place_Q933255 jp:latitude 5.5075e+01 ;
+    jp:longitude 2.257778e+01 .
+
+jp:Place_Q93338 jp:latitude 3.706278e+01 ;
+    jp:longitude 3.737917e+01 .
+
+jp:Place_Q933389 jp:latitude 4.741667e+01 ;
+    jp:longitude 2.116667e+01 .
+
+jp:Place_Q933442 jp:latitude 4.813333e+01 ;
+    jp:longitude 2.175833e+01 .
+
+jp:Place_Q93347 jp:latitude 4.334361e+01 ;
+    jp:longitude 1.78075e+01 .
+
+jp:Place_Q93358 jp:latitude 4.707222e+01 ;
+    jp:longitude 2.192111e+01 .
+
+jp:Place_Q934318 jp:latitude 5.5395e+01 ;
+    jp:longitude 2.662833e+01 .
+
+jp:Place_Q934785 jp:latitude 5.304056e+01 ;
+    jp:longitude 1.645611e+01 .
+
+jp:Place_Q93706 jp:latitude 5.005167e+01 ;
+    jp:longitude 1.994472e+01 .
+
+jp:Place_Q940691 jp:latitude 4.971486e+01 ;
+    jp:longitude 8.839583e+00 .
+
+jp:Place_Q9409 jp:latitude 4.546738e+01 ;
+    jp:longitude 7.874797e+00 .
+
+jp:Place_Q941451 jp:latitude 5.32e+01 ;
+    jp:longitude 2.278333e+01 .
+
+jp:Place_Q942842 jp:latitude 5.007528e+01 ;
+    jp:longitude 1.440556e+01 .
+
+jp:Place_Q947067 jp:latitude 4.854361e+01 ;
+    jp:longitude 1.878694e+01 .
+
+jp:Place_Q947521 jp:latitude 4.965563e+01 ;
+    jp:longitude 2.116035e+01 .
+
+jp:Place_Q948 jp:latitude 3.4e+01 ;
+    jp:longitude 1e+01 .
+
+jp:Place_Q950352 jp:latitude 4.930699e+01 ;
+    jp:longitude 1.567644e+01 .
+
+jp:Place_Q951190 jp:latitude 4.788665e+01 ;
+    jp:longitude 2.096604e+01 .
+
+jp:Place_Q951590 jp:latitude 3.181048e+01 ;
+    jp:longitude 3.521805e+01 .
+
+jp:Place_Q951765 jp:latitude 4.731389e+01 ;
+    jp:longitude 1.854694e+01 .
+
+jp:Place_Q952457 jp:latitude 5.104736e+01 ;
+    jp:longitude 3.18805e+01 .
+
+jp:Place_Q953181 jp:latitude 5.356667e+01 ;
+    jp:longitude 2.1e+01 .
+
+jp:Place_Q953690 jp:latitude 4.775675e+01 ;
+    jp:longitude 1.844145e+01 .
+
+jp:Place_Q954114 jp:latitude 5.513333e+01 ;
+    jp:longitude 2.768333e+01 .
+
+jp:Place_Q954130 jp:latitude 5.044297e+01 ;
+    jp:longitude 1.624397e+01 .
+
+jp:Place_Q954265 jp:latitude 5.546667e+01 ;
+    jp:longitude 2.998333e+01 .
+
+jp:Place_Q954421 jp:latitude 5.485333e+01 ;
+    jp:longitude 2.916472e+01 .
+
+jp:Place_Q954914 jp:latitude 5.371944e+01 ;
+    jp:longitude 3.171389e+01 .
+
+jp:Place_Q954948 jp:latitude 5.352611e+01 ;
+    jp:longitude 3.023583e+01 .
+
+jp:Place_Q955126 jp:latitude 5.356667e+01 ;
+    jp:longitude 3.136667e+01 .
+
+jp:Place_Q955468 jp:latitude 5.31e+01 ;
+    jp:longitude 3.005e+01 .
+
+jp:Place_Q955992 jp:latitude 5.22125e+01 ;
+    jp:longitude 2.435667e+01 .
+
+jp:Place_Q956159 jp:latitude 5.255667e+01 ;
+    jp:longitude 2.446444e+01 .
+
+jp:Place_Q95624312 jp:latitude 5.115715e+01 ;
+    jp:longitude 1.326622e+01 .
+
+jp:Place_Q956471 jp:latitude 5.218667e+01 ;
+    jp:longitude 2.515306e+01 .
+
+jp:Place_Q956565 jp:latitude 5.188968e+01 ;
+    jp:longitude 2.685067e+01 .
+
+jp:Place_Q956607 jp:latitude 5.303958e+01 ;
+    jp:longitude 2.6263e+01 .
+
+jp:Place_Q956614 jp:latitude 5.240283e+01 ;
+    jp:longitude 2.380833e+01 .
+
+jp:Place_Q956635 jp:latitude 5.275802e+01 ;
+    jp:longitude 2.515294e+01 .
+
+jp:Place_Q957530 jp:latitude 5.523333e+01 ;
+    jp:longitude 2.541667e+01 .
+
+jp:Place_Q9580 jp:latitude 4.234083e+01 ;
+    jp:longitude -3.699722e+00 .
+
+jp:Place_Q958617 jp:latitude 5.448361e+01 ;
+    jp:longitude 2.64e+01 .
+
+jp:Place_Q958747 jp:latitude 5.356667e+01 ;
+    jp:longitude 2.23e+01 .
+
+jp:Place_Q958847 jp:latitude 5.358333e+01 ;
+    jp:longitude 2.425e+01 .
+
+jp:Place_Q961325 jp:latitude 4.933331e+01 ;
+    jp:longitude 1.757834e+01 .
+
+jp:Place_Q968 jp:latitude 5.148806e+01 ;
+    jp:longitude 9.14e+00 .
+
+jp:Place_Q97210000 jp:latitude 3.124194e+01 ;
+    jp:longitude 3.477139e+01 .
+
+jp:Place_Q974038 jp:latitude 4.75e+01 ;
+    jp:longitude 1.9e+01 .
+
+jp:Place_Q974468 jp:latitude 5.121583e+01 ;
+    jp:longitude 2.404083e+01 .
+
+jp:Place_Q974977 jp:latitude 5.123333e+01 ;
+    jp:longitude 2.085e+01 .
+
+jp:Place_Q977255 jp:latitude 5.591667e+01 ;
+    jp:longitude 2.185e+01 .
+
+jp:Place_Q978707 jp:latitude 4.983606e+01 ;
+    jp:longitude 1.390274e+01 .
+
+jp:Place_Q979403 jp:latitude 4.57e+01 ;
+    jp:longitude 2.008333e+01 .
+
+jp:Place_Q981006 jp:latitude 4.84227e+01 ;
+    jp:longitude 1.81414e+01 .
+
+jp:Place_Q983866 jp:latitude 5.178333e+01 ;
+    jp:longitude 2.261667e+01 .
+
+jp:Place_Q983871 jp:latitude 5.286667e+01 ;
+    jp:longitude 2.11e+01 .
+
+jp:Place_Q983875 jp:latitude 5.005912e+01 ;
+    jp:longitude 2.249408e+01 .
+
+jp:Place_Q984538 jp:latitude 5.169702e+01 ;
+    jp:longitude 1.743569e+01 .
+
+jp:Place_Q984656 jp:latitude 4.12e+01 ;
+    jp:longitude -8.283333e+00 .
+
+jp:Place_Q984746 jp:latitude 5.357278e+01 ;
+    jp:longitude 1.801e+01 .
+
+jp:Place_Q984834 jp:latitude 4.375e+01 ;
+    jp:longitude -8.7725e+01 .
+
+jp:Place_Q985528 jp:latitude 5.136667e+01 ;
+    jp:longitude 2.061667e+01 .
+
+jp:Place_Q985642 jp:latitude 5.198438e+01 ;
+    jp:longitude 2.121402e+01 .
+
+jp:Place_Q986210 jp:latitude 4.089334e+01 ;
+    jp:longitude -7.39758e+01 .
+
+jp:Place_Q986867 jp:latitude 3.758333e+01 ;
+    jp:longitude -1.223636e+02 .
+
+jp:Place_Q986984 jp:latitude 5.031972e+01 ;
+    jp:longitude 1.757917e+01 .
+
+jp:Place_Q987193 jp:latitude 5.274917e+01 ;
+    jp:longitude 1.699972e+01 .
+
+jp:Place_Q987997 jp:latitude 5.265e+01 ;
+    jp:longitude 1.61e+01 .
+
+jp:Place_Q988379 jp:latitude 4.874209e+01 ;
+    jp:longitude 2.599349e+01 .
+
+jp:Place_Q988576 jp:latitude 5.313889e+01 ;
+    jp:longitude 1.759944e+01 .
+
+jp:Place_Q988612 jp:latitude 5.289222e+01 ;
+    jp:longitude 1.617361e+01 .
+
+jp:Place_Q988632 jp:latitude 5.334389e+01 ;
+    jp:longitude 1.608722e+01 .
+
+jp:Place_Q988639 jp:latitude 5.335861e+01 ;
+    jp:longitude 1.542611e+01 .
+
+jp:Place_Q988728 jp:latitude 4.101611e+01 ;
+    jp:longitude -9.33075e+01 .
+
+jp:Place_Q988741 jp:latitude 4.49486e+01 ;
+    jp:longitude -9.336487e+01 .
+
+jp:Place_Q9899 jp:latitude 5.236667e+01 ;
+    jp:longitude 4.883333e+00 .
+
+jp:Place_Q989919 jp:latitude 4.248528e+01 ;
+    jp:longitude -8.337694e+01 .
+
+jp:Place_Q989967 jp:latitude 4.08008e+01 ;
+    jp:longitude -8.58272e+01 .
+
+jp:Place_Q990125 jp:latitude 5.168333e+01 ;
+    jp:longitude -4.15e+00 .
+
+jp:Place_Q990771 jp:latitude 5.928036e+01 ;
+    jp:longitude 1.82924e+01 .
+
+jp:Place_Q990799 jp:latitude 5.289461e+01 ;
+    jp:longitude 1.840785e+01 .
+
+jp:Place_Q9908 jp:latitude 5.24028e+01 ;
+    jp:longitude 4.6281e+00 .
+
+jp:Place_Q990808 jp:latitude 5.24e+01 ;
+    jp:longitude 1.973333e+01 .
+
+jp:Place_Q991636 jp:latitude 5.444583e+01 ;
+    jp:longitude 2.029167e+01 .
+
+jp:Place_Q991653 jp:latitude 5.478194e+01 ;
+    jp:longitude 2.284472e+01 .
+
+jp:Place_Q991797 jp:latitude 5.02441e+01 ;
+    jp:longitude 2.17761e+01 .
+
+jp:Place_Q991819 jp:latitude 5.164134e+01 ;
+    jp:longitude 2.244798e+01 .
+
+jp:Place_Q991840 jp:latitude 5.07e+01 ;
+    jp:longitude 2.24e+01 .
+
+jp:Place_Q991866 jp:latitude 5.171222e+01 ;
+    jp:longitude 1.624427e+01 .
+
+jp:Place_Q992071 jp:latitude 4.95692e+01 ;
+    jp:longitude 1.09969e+01 .
+
+jp:Place_Q9934 jp:latitude 5.223e+01 ;
+    jp:longitude 5.18e+00 .
+
+jp:Place_Q994 jp:latitude 4.17225e+01 ;
+    jp:longitude 4.47925e+01 .
+
+jp:Place_Q994367 jp:latitude 4.19275e+01 ;
+    jp:longitude -7.390861e+01 .
+
+jp:Place_Q994585 jp:latitude 5.26e+01 ;
+    jp:longitude 1.55e+01 .
+
+jp:Place_Q995159 jp:latitude 5.268333e+01 ;
+    jp:longitude 2.25e+01 .
+
+jp:Place_Q995231 jp:latitude 4.02954e+01 ;
+    jp:longitude -7.39899e+01 .
+
+jp:Place_Q995429 jp:latitude 5.127083e+01 ;
+    jp:longitude 1.672083e+01 .
+
+jp:Place_Q995820 jp:latitude 5.101667e+01 ;
+    jp:longitude 2.253333e+01 .
+
+jp:Place_Q995828 jp:latitude 5.103333e+01 ;
+    jp:longitude 1.843333e+01 .
+
+jp:Place_Q997335 jp:latitude 4.897944e+01 ;
+    jp:longitude 2.884389e+01 .
+
+jp:Place_Q997343 jp:latitude 5.025e+01 ;
+    jp:longitude 2.361667e+01 .
+
+jp:Place_Q997351 jp:latitude 5.011667e+01 ;
+    jp:longitude 2.751667e+01 .
+
+jp:Place_Q997359 jp:latitude 4.938333e+01 ;
+    jp:longitude 2.413333e+01 .
+
+jp:Place_Q997360 jp:latitude 4.017808e+01 ;
+    jp:longitude -8.87996e+00 .
+
+jp:Place_Q997392 jp:latitude 4.994694e+01 ;
+    jp:longitude 2.339306e+01 .
+
+jp:Place_Q997398 jp:latitude 5.061667e+01 ;
+    jp:longitude 2.716667e+01 .
+
+jp:Place_Q997429 jp:latitude 4.975556e+01 ;
+    jp:longitude 2.722083e+01 .
+
+jp:Place_Q997462 jp:latitude 4.967e+01 ;
+    jp:longitude 2.455944e+01 .
+
+jp:Place_Q997469 jp:latitude 4.845e+01 ;
+    jp:longitude 2.778333e+01 .
+
+jp:Place_Q997502 jp:latitude 4.982333e+01 ;
+    jp:longitude 2.451667e+01 .
+
+jp:Place_Q999123 jp:latitude 4.086806e+01 ;
+    jp:longitude -7.342611e+01 .
+
+jp:Place_Q99934 jp:latitude 4.415e+01 ;
+    jp:longitude 1.213333e+01 .
+
+jp:Place_Q999598 jp:latitude 5.30096e+01 ;
+    jp:longitude 1.77423e+01 .
+
+jp:Place_Q999607 jp:latitude 5.058333e+01 ;
+    jp:longitude 2.006667e+01 .
+
+jp:Place_Q999899 jp:latitude 4.929097e+01 ;
+    jp:longitude 1.548214e+01 .
+
+jp:Place_Spain jp:latitude 4.02e+01 ;
+    jp:longitude -3.5e+00 .
+
+jp:Place_Toledo jp:latitude 3.986667e+01 ;
+    jp:longitude -4.033333e+00 .
+

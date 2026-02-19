@@ -1,0 +1,6981 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Place_1161811cf7b29259d98c6e9de14e1fca a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/1161811cf7b29259d98c6e9de14e1fca" .
+
+jp:Place_19f7bd3eedeece842d4476d0342ce410 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/19f7bd3eedeece842d4476d0342ce410" .
+
+jp:Place_1a2b2ab4d03300216fe72531ed4c8c2d a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/1a2b2ab4d03300216fe72531ed4c8c2d" .
+
+jp:Place_29befa1cc134b390eb73e99ec5506e77 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/29befa1cc134b390eb73e99ec5506e77" .
+
+jp:Place_308106b1369281b1e9a208f0205afb30 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/308106b1369281b1e9a208f0205afb30" .
+
+jp:Place_31c28d2265e28e895f1b8e1e8a1f9920 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/31c28d2265e28e895f1b8e1e8a1f9920" .
+
+jp:Place_411331aa7e1f4569fdb575af8d80464b a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/411331aa7e1f4569fdb575af8d80464b" .
+
+jp:Place_579c07aa5db83f31b53f8acc0399a3d4 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/579c07aa5db83f31b53f8acc0399a3d4" .
+
+jp:Place_782a570f8155bca59a35605da3dc2ae4 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/782a570f8155bca59a35605da3dc2ae4" .
+
+jp:Place_8b7757504641a67f1896fbbddcb03366 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/8b7757504641a67f1896fbbddcb03366" .
+
+jp:Place_947a1e1f998bc91d44427e8aa5eac7b8 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/947a1e1f998bc91d44427e8aa5eac7b8" .
+
+jp:Place_Q100 a jp:Place ;
+    rdfs:label "Boston" .
+
+jp:Place_Q1000091 a jp:Place ;
+    rdfs:label "Rychnov nad Kněžnou" .
+
+jp:Place_Q1000147 a jp:Place ;
+    rdfs:label "Q1000147" .
+
+jp:Place_Q1000887 a jp:Place ;
+    rdfs:label "Yehud" .
+
+jp:Place_Q100188 a jp:Place ;
+    rdfs:label "Cluj-Napoca" .
+
+jp:Place_Q1003997 a jp:Place ;
+    rdfs:label "Judaea" .
+
+jp:Place_Q1004265 a jp:Place ;
+    rdfs:label "Komarno" .
+
+jp:Place_Q1004290 a jp:Place ;
+    rdfs:label "Skuodas" .
+
+jp:Place_Q1004298 a jp:Place ;
+    rdfs:label "Kalvarija" .
+
+jp:Place_Q1004320 a jp:Place ;
+    rdfs:label "Ariogala" .
+
+jp:Place_Q1005464 a jp:Place ;
+    rdfs:label "Lidzbark" .
+
+jp:Place_Q1005972 a jp:Place ;
+    rdfs:label "Borek Wielkopolski" .
+
+jp:Place_Q1006764 a jp:Place ;
+    rdfs:label "Lutomiersk" .
+
+jp:Place_Q1007046 a jp:Place ;
+    rdfs:label "Kenton" .
+
+jp:Place_Q1007172 a jp:Place ;
+    rdfs:label "Delden" .
+
+jp:Place_Q1007479 a jp:Place ;
+    rdfs:label "Lubraniec" .
+
+jp:Place_Q1008032 a jp:Place ;
+    rdfs:label "Tolcsva" .
+
+jp:Place_Q1008213 a jp:Place ;
+    rdfs:label "Nemecká" .
+
+jp:Place_Q1008686 a jp:Place ;
+    rdfs:label "Ivančice" .
+
+jp:Place_Q1008991 a jp:Place ;
+    rdfs:label "Kojetín" .
+
+jp:Place_Q1009308 a jp:Place ;
+    rdfs:label "Sefrou" .
+
+jp:Place_Q1009702 a jp:Place ;
+    rdfs:label "Hriadky" .
+
+jp:Place_Q101081 a jp:Place ;
+    rdfs:label "Provence" .
+
+jp:Place_Q1011310 a jp:Place ;
+    rdfs:label "Khmilnyk" .
+
+jp:Place_Q1011334 a jp:Place ;
+    rdfs:label "Svislač" .
+
+jp:Place_Q1011641 a jp:Place ;
+    rdfs:label "Golčův Jeníkov" .
+
+jp:Place_Q1011718 a jp:Place ;
+    rdfs:label "Gyönk" .
+
+jp:Place_Q1012604 a jp:Place ;
+    rdfs:label "Staryi Ostropil" .
+
+jp:Place_Q1013233 a jp:Place ;
+    rdfs:label "Roselle" .
+
+jp:Place_Q1015152 a jp:Place ;
+    rdfs:label "Działoszyn" .
+
+jp:Place_Q1015264 a jp:Place ;
+    rdfs:label "Rumšiškės" .
+
+jp:Place_Q101625 a jp:Place ;
+    rdfs:label "Marrakesh" .
+
+jp:Place_Q1017 a jp:Place ;
+    rdfs:label "Aachen" .
+
+jp:Place_Q1017333 a jp:Place ;
+    rdfs:label "Tafilalt" .
+
+jp:Place_Q1017574 a jp:Place ;
+    rdfs:label "Tiszaladány" .
+
+jp:Place_Q1017889 a jp:Place ;
+    rdfs:label "Volyně" .
+
+jp:Place_Q1018007 a jp:Place ;
+    rdfs:label "Butovo firing range" .
+
+jp:Place_Q1018357 a jp:Place ;
+    rdfs:label "Mád" .
+
+jp:Place_Q1018921 a jp:Place ;
+    rdfs:label "Tekoa" .
+
+jp:Place_Q1019083 a jp:Place ;
+    rdfs:label "Napajedla" .
+
+jp:Place_Q1019884 a jp:Place ;
+    rdfs:label "Ivano-Frankove" .
+
+jp:Place_Q1019988 a jp:Place ;
+    rdfs:label "Janské Lázně" .
+
+jp:Place_Q1020037 a jp:Place ;
+    rdfs:label "Kulykiv" .
+
+jp:Place_Q1020096 a jp:Place ;
+    rdfs:label "Krasyliv" .
+
+jp:Place_Q1020122 a jp:Place ;
+    rdfs:label "Kalynivka" .
+
+jp:Place_Q1020341 a jp:Place ;
+    rdfs:label "Tarrytown" .
+
+jp:Place_Q1020441 a jp:Place ;
+    rdfs:label "Shchyrets" .
+
+jp:Place_Q1020927 a jp:Place ;
+    rdfs:label "Luže" .
+
+jp:Place_Q1021080 a jp:Place ;
+    rdfs:label "Lipník nad Bečvou" .
+
+jp:Place_Q1021826 a jp:Place ;
+    rdfs:label "Ukk" .
+
+jp:Place_Q1022 a jp:Place ;
+    rdfs:label "Stuttgart" .
+
+jp:Place_Q102217 a jp:Place ;
+    rdfs:label "Vitebsk" .
+
+jp:Place_Q1022485 a jp:Place ;
+    rdfs:label "Medzhybizh" .
+
+jp:Place_Q1022967 a jp:Place ;
+    rdfs:label "Sobotište" .
+
+jp:Place_Q102317 a jp:Place ;
+    rdfs:label "Kielce" .
+
+jp:Place_Q1023454 a jp:Place ;
+    rdfs:label "Plumlov" .
+
+jp:Place_Q102350 a jp:Place ;
+    rdfs:label "Bytom" .
+
+jp:Place_Q1023852 a jp:Place ;
+    rdfs:label "Vištytis" .
+
+jp:Place_Q102397 a jp:Place ;
+    rdfs:label "Miskolc" .
+
+jp:Place_Q1024673 a jp:Place ;
+    rdfs:label "Virbalis" .
+
+jp:Place_Q1025260 a jp:Place ;
+    rdfs:label "Huncovce" .
+
+jp:Place_Q1025293 a jp:Place ;
+    rdfs:label "Mea Shearim" .
+
+jp:Place_Q1025869 a jp:Place ;
+    rdfs:label "Kareličy" .
+
+jp:Place_Q1025872 a jp:Place ;
+    rdfs:label "Liozna" .
+
+jp:Place_Q1025883 a jp:Place ;
+    rdfs:label "Dzyatlava" .
+
+jp:Place_Q1026940 a jp:Place ;
+    rdfs:label "Zaliztsi" .
+
+jp:Place_Q1027604 a jp:Place ;
+    rdfs:label "Uherský Ostroh" .
+
+jp:Place_Q1027959 a jp:Place ;
+    rdfs:label "Loštice" .
+
+jp:Place_Q1027972 a jp:Place ;
+    rdfs:label "Lemešany" .
+
+jp:Place_Q1028 a jp:Place ;
+    rdfs:label "Morocco" .
+
+jp:Place_Q1028027 a jp:Place ;
+    rdfs:label "Rudnik nad Sanem" .
+
+jp:Place_Q1029645 a jp:Place ;
+    rdfs:label "Balad" .
+
+jp:Place_Q10305 a jp:Place ;
+    rdfs:label "Zaragoza" .
+
+jp:Place_Q1031574 a jp:Place ;
+    rdfs:label "Görbő" .
+
+jp:Place_Q103217 a jp:Place ;
+    rdfs:label "Częstochowa" .
+
+jp:Place_Q103892 a jp:Place ;
+    rdfs:label "Zabrze" .
+
+jp:Place_Q1040 a jp:Place ;
+    rdfs:label "Karlsruhe" .
+
+jp:Place_Q104028 a jp:Place ;
+    rdfs:label "Judea" .
+
+jp:Place_Q104036 a jp:Place ;
+    rdfs:label "Ventspils" .
+
+jp:Place_Q104302 a jp:Place ;
+    rdfs:label "Chorzów" .
+
+jp:Place_Q104720 a jp:Place ;
+    rdfs:label "Zielona Góra [Grünberg], Lubusz Voivodeship" .
+
+jp:Place_Q104725 a jp:Place ;
+    rdfs:label "Płock" .
+
+jp:Place_Q104731 a jp:Place ;
+    rdfs:label "Gorzów Wielkopolski" .
+
+jp:Place_Q104740 a jp:Place ;
+    rdfs:label "Radom" .
+
+jp:Place_Q1047661 a jp:Place ;
+    rdfs:label "Verpelét" .
+
+jp:Place_Q104994 a jp:Place ;
+    rdfs:label "Los Angeles County" .
+
+jp:Place_Q1050 a jp:Place ;
+    rdfs:label "Eswatini" .
+
+jp:Place_Q1050545 a jp:Place ;
+    rdfs:label "Veľké Trakany" .
+
+jp:Place_Q105060 a jp:Place ;
+    rdfs:label "Sosnowiec" .
+
+jp:Place_Q105084 a jp:Place ;
+    rdfs:label "Gliwice" .
+
+jp:Place_Q105206 a jp:Place ;
+    rdfs:label "Bukovina" .
+
+jp:Place_Q1055 a jp:Place ;
+    rdfs:label "Hamburg" .
+
+jp:Place_Q106268 a jp:Place ;
+    rdfs:label "Stargard" .
+
+jp:Place_Q106281 a jp:Place ;
+    rdfs:label "Tarnów" .
+
+jp:Place_Q1065497 a jp:Place ;
+    rdfs:label "Shaker Heights" .
+
+jp:Place_Q106583 a jp:Place ;
+    rdfs:label "Bielsko-Biała" .
+
+jp:Place_Q1066077 a jp:Place ;
+    rdfs:label "L'Étrat" .
+
+jp:Place_Q106681 a jp:Place ;
+    rdfs:label "Włocławek" .
+
+jp:Place_Q10686 a jp:Place ;
+    rdfs:label "Belfast" .
+
+jp:Place_Q1068701 a jp:Place ;
+    rdfs:label "Budapest District II" .
+
+jp:Place_Q10690 a jp:Place ;
+    rdfs:label "Cardiff" .
+
+jp:Place_Q1070091 a jp:Place ;
+    rdfs:label "Mad" .
+
+jp:Place_Q1070861 a jp:Place ;
+    rdfs:label "Jánosháza" .
+
+jp:Place_Q107094 a jp:Place ;
+    rdfs:label "Rybnik" .
+
+jp:Place_Q10710237 a jp:Place ;
+    rdfs:label "Uppsala Cathedral Assembly" .
+
+jp:Place_Q107126 a jp:Place ;
+    rdfs:label "Arlington County" .
+
+jp:Place_Q1071502 a jp:Place ;
+    rdfs:label "Slepčany" .
+
+jp:Place_Q1072930 a jp:Place ;
+    rdfs:label "Milhosť" .
+
+jp:Place_Q1073406 a jp:Place ;
+    rdfs:label "Sárkeresztúr" .
+
+jp:Place_Q10737004 a jp:Place ;
+    rdfs:label "Bacău" .
+
+jp:Place_Q107501 a jp:Place ;
+    rdfs:label "Sarcelles" .
+
+jp:Place_Q1076109 a jp:Place ;
+    rdfs:label "Svislač" .
+
+jp:Place_Q1079847 a jp:Place ;
+    rdfs:label "Nagyvázsony" .
+
+jp:Place_Q1079857 a jp:Place ;
+    rdfs:label "Nyírtass" .
+
+jp:Place_Q1079866 a jp:Place ;
+    rdfs:label "Lăpuș" .
+
+jp:Place_Q108103540 a jp:Place ;
+    rdfs:label "Beilinson Hospital" .
+
+jp:Place_Q10815719 a jp:Place ;
+    rdfs:label "Brandýs nad Labem" .
+
+jp:Place_Q1082492 a jp:Place ;
+    rdfs:label "Old Tappan" .
+
+jp:Place_Q1085 a jp:Place ;
+    rdfs:label "Prague" .
+
+jp:Place_Q1087121 a jp:Place ;
+    rdfs:label "Orange" .
+
+jp:Place_Q1088095 a jp:Place ;
+    rdfs:label "Westwood" .
+
+jp:Place_Q1088243 a jp:Place ;
+    rdfs:label "Mădăras" .
+
+jp:Place_Q1088629 a jp:Place ;
+    rdfs:label "Wayne" .
+
+jp:Place_Q1088792 a jp:Place ;
+    rdfs:label "Lakewood" .
+
+jp:Place_Q1089052 a jp:Place ;
+    rdfs:label "Wojnicz" .
+
+jp:Place_Q1089545 a jp:Place ;
+    rdfs:label "Rochelle Park" .
+
+jp:Place_Q1092345 a jp:Place ;
+    rdfs:label "Kruščić" .
+
+jp:Place_Q1093246 a jp:Place ;
+    rdfs:label "Bocicoiu Mare" .
+
+jp:Place_Q1093421 a jp:Place ;
+    rdfs:label "Yasinya" .
+
+jp:Place_Q1093658 a jp:Place ;
+    rdfs:label "Ópályi" .
+
+jp:Place_Q1094180 a jp:Place ;
+    rdfs:label "Svetlice" .
+
+jp:Place_Q109992 a jp:Place ;
+    rdfs:label "Łowicz" .
+
+jp:Place_Q110011 a jp:Place ;
+    rdfs:label "Kołobrzeg" .
+
+jp:Place_Q1104385 a jp:Place ;
+    rdfs:label "Priekopa" .
+
+jp:Place_Q1116324 a jp:Place ;
+    rdfs:label "Saint-Genest-Lerpt" .
+
+jp:Place_Q11194 a jp:Place ;
+    rdfs:label "Sarajevo" .
+
+jp:Place_Q1125268 a jp:Place ;
+    rdfs:label "Kömlőd" .
+
+jp:Place_Q1126267 a jp:Place ;
+    rdfs:label "Connellsville" .
+
+jp:Place_Q11299 a jp:Place ;
+    rdfs:label "Manhattan" .
+
+jp:Place_Q1131325 a jp:Place ;
+    rdfs:label "Lomnička" .
+
+jp:Place_Q1132798 a jp:Place ;
+    rdfs:label "Sepphoris" .
+
+jp:Place_Q11341632 a jp:Place ;
+    rdfs:label "Brno-Ivanovice" .
+
+jp:Place_Q11390 a jp:Place ;
+    rdfs:label "Lesser Poland" .
+
+jp:Place_Q1141853 a jp:Place ;
+    rdfs:label "Hîncești" .
+
+jp:Place_Q1143278 a jp:Place ;
+    rdfs:label "Twickenham" .
+
+jp:Place_Q1144835 a jp:Place ;
+    rdfs:label "New Castle" .
+
+jp:Place_Q115 a jp:Place ;
+    rdfs:label "Ethiopia" .
+
+jp:Place_Q1154868 a jp:Place ;
+    rdfs:label "displaced persons camp" .
+
+jp:Place_Q115555722 a jp:Place ;
+    rdfs:label "Avirya" .
+
+jp:Place_Q115572 a jp:Place ;
+    rdfs:label "Utiel" .
+
+jp:Place_Q1156 a jp:Place ;
+    rdfs:label "Mumbai" .
+
+jp:Place_Q1157215 a jp:Place ;
+    rdfs:label "Dagestan Autonomous Soviet Socialist Republic" .
+
+jp:Place_Q1158045 a jp:Place ;
+    rdfs:label "Taintrux" .
+
+jp:Place_Q1163150 a jp:Place ;
+    rdfs:label "Q1163150" .
+
+jp:Place_Q116366 a jp:Place ;
+    rdfs:label "Pawiak" .
+
+jp:Place_Q116417 a jp:Place ;
+    rdfs:label "Sátoraljaújhely" .
+
+jp:Place_Q11739677 a jp:Place ;
+    rdfs:label "קלאסנו" .
+
+jp:Place_Q11748283 a jp:Place ;
+    rdfs:label "Kromołów" .
+
+jp:Place_Q1176573 a jp:Place ;
+    rdfs:label "Mezőszilas" .
+
+jp:Place_Q11767 a jp:Place ;
+    rdfs:label "Mesopotamia" .
+
+jp:Place_Q1183952 a jp:Place ;
+    rdfs:label "Jenkintown" .
+
+jp:Place_Q1184517 a jp:Place ;
+    rdfs:label "Prievaly" .
+
+jp:Place_Q1184622 a jp:Place ;
+    rdfs:label "Veľká Paka" .
+
+jp:Place_Q1185749 a jp:Place ;
+    rdfs:label "Nyírbogát" .
+
+jp:Place_Q1185959 a jp:Place ;
+    rdfs:label "Nyírkarász" .
+
+jp:Place_Q1186235 a jp:Place ;
+    rdfs:label "Páty" .
+
+jp:Place_Q1186706 a jp:Place ;
+    rdfs:label "Szamosszeg" .
+
+jp:Place_Q1189427 a jp:Place ;
+    rdfs:label "Ceica" .
+
+jp:Place_Q1190590 a jp:Place ;
+    rdfs:label "Encino" .
+
+jp:Place_Q11953 a jp:Place ;
+    rdfs:label "Guadalajara" .
+
+jp:Place_Q11967 a jp:Place ;
+    rdfs:label "Huesca" .
+
+jp:Place_Q1199 a jp:Place ;
+    rdfs:label "Hesse" .
+
+jp:Place_Q1202211 a jp:Place ;
+    rdfs:label "Forest Hills" .
+
+jp:Place_Q12040651 a jp:Place ;
+    rdfs:label "Mayanei Hayeshua Medical Center" .
+
+jp:Place_Q121157 a jp:Place ;
+    rdfs:label "Mashhad" .
+
+jp:Place_Q121378 a jp:Place ;
+    rdfs:label "Corfu" .
+
+jp:Place_Q12155 a jp:Place ;
+    rdfs:label "Soria" .
+
+jp:Place_Q12173867 a jp:Place ;
+    rdfs:label "Jaromičy" .
+
+jp:Place_Q1218 a jp:Place ;
+    rdfs:label "Jerusalem" .
+
+jp:Place_Q122073 a jp:Place ;
+    rdfs:label "Wittelshofen" .
+
+jp:Place_Q1220774 a jp:Place ;
+    rdfs:label "Diemerode" .
+
+jp:Place_Q12209416 a jp:Place ;
+    rdfs:label "Qa-Alyahud" .
+
+jp:Place_Q1223508 a jp:Place ;
+    rdfs:label "Ohrid" .
+
+jp:Place_Q123299991 a jp:Place ;
+    rdfs:label "Northern Liberties Hospital" .
+
+jp:Place_Q123559 a jp:Place ;
+    rdfs:label "al-Andalus" .
+
+jp:Place_Q12404022 a jp:Place ;
+    rdfs:label "אמבובר" .
+
+jp:Place_Q12404506 a jp:Place ;
+    rdfs:label "Hadassah Ein Karem Hospital" .
+
+jp:Place_Q12404509 a jp:Place ;
+    rdfs:label "Rothschild Hospital" .
+
+jp:Place_Q12404547 a jp:Place ;
+    rdfs:label "Mount of Olives Jewish Cemetery" .
+
+jp:Place_Q124375 a jp:Place ;
+    rdfs:label "Hódmezővásárhely" .
+
+jp:Place_Q12439 a jp:Place ;
+    rdfs:label "Detroit" .
+
+jp:Place_Q124554 a jp:Place ;
+    rdfs:label "Osimo" .
+
+jp:Place_Q124925 a jp:Place ;
+    rdfs:label "Senigallia" .
+
+jp:Place_Q1251216 a jp:Place ;
+    rdfs:label "Dotnuva" .
+
+jp:Place_Q12548 a jp:Place ;
+    rdfs:label "Holy Roman Empire" .
+
+jp:Place_Q12560 a jp:Place ;
+    rdfs:label "Ottoman Empire" .
+
+jp:Place_Q1260707 a jp:Place ;
+    rdfs:label "Drslavice" .
+
+jp:Place_Q126084 a jp:Place ;
+    rdfs:label "Acre" .
+
+jp:Place_Q126148 a jp:Place ;
+    rdfs:label "Tangier" .
+
+jp:Place_Q12631 a jp:Place ;
+    rdfs:label "Meuse" .
+
+jp:Place_Q126321 a jp:Place ;
+    rdfs:label "Eisenstadt" .
+
+jp:Place_Q12652474 a jp:Place ;
+    rdfs:label "Darsūniškis" .
+
+jp:Place_Q12661651 a jp:Place ;
+    rdfs:label "Kuliai" .
+
+jp:Place_Q12675975 a jp:Place ;
+    rdfs:label "Seventh Fort" .
+
+jp:Place_Q12676774 a jp:Place ;
+    rdfs:label "Vegeriai" .
+
+jp:Place_Q12717 a jp:Place ;
+    rdfs:label "Bas-Rhin" .
+
+jp:Place_Q12731261 a jp:Place ;
+    rdfs:label "Ițcani" .
+
+jp:Place_Q12770 a jp:Place ;
+    rdfs:label "Somme" .
+
+jp:Place_Q127856 a jp:Place ;
+    rdfs:label "Beverly Hills" .
+
+jp:Place_Q128069 a jp:Place ;
+    rdfs:label "Syracuse" .
+
+jp:Place_Q12812 a jp:Place ;
+    rdfs:label "Tortosa" .
+
+jp:Place_Q12816 a jp:Place ;
+    rdfs:label "Yonne" .
+
+jp:Place_Q12816876 a jp:Place ;
+    rdfs:label "Agov" .
+
+jp:Place_Q12816920 a jp:Place ;
+    rdfs:label "Újpest" .
+
+jp:Place_Q12837 a jp:Place ;
+    rdfs:label "Iberian Peninsula" .
+
+jp:Place_Q128466 a jp:Place ;
+    rdfs:label "Villejuif" .
+
+jp:Place_Q128499 a jp:Place ;
+    rdfs:label "Yalta" .
+
+jp:Place_Q1285677 a jp:Place ;
+    rdfs:label "Šaštín" .
+
+jp:Place_Q12892 a jp:Place ;
+    rdfs:label "Antwerp" .
+
+jp:Place_Q1295 a jp:Place ;
+    rdfs:label "Dortmund" .
+
+jp:Place_Q129677 a jp:Place ;
+    rdfs:label "Chernobyl" .
+
+jp:Place_Q1297 a jp:Place ;
+    rdfs:label "Chicago" .
+
+jp:Place_Q1298082 a jp:Place ;
+    rdfs:label "Sziget" .
+
+jp:Place_Q130135 a jp:Place ;
+    rdfs:label "Atlas Mountains" .
+
+jp:Place_Q130212 a jp:Place ;
+    rdfs:label "Székesfehérvár" .
+
+jp:Place_Q13029781 a jp:Place ;
+    rdfs:label "Kuraniec" .
+
+jp:Place_Q130994 a jp:Place ;
+    rdfs:label "Colmar" .
+
+jp:Place_Q1310 a jp:Place ;
+    rdfs:label "Arnhem" .
+
+jp:Place_Q131301 a jp:Place ;
+    rdfs:label "Homs" .
+
+jp:Place_Q13134 a jp:Place ;
+    rdfs:label "Pesaro" .
+
+jp:Place_Q131404661 a jp:Place ;
+    rdfs:label "Ba'athist Syria" .
+
+jp:Place_Q131416 a jp:Place ;
+    rdfs:label "Derbent" .
+
+jp:Place_Q131491 a jp:Place ;
+    rdfs:label "Brighton" .
+
+jp:Place_Q131605 a jp:Place ;
+    rdfs:label "Merano" .
+
+jp:Place_Q131612 a jp:Place ;
+    rdfs:label "Wiener Neustadt" .
+
+jp:Place_Q131818 a jp:Place ;
+    rdfs:label "Oran" .
+
+jp:Place_Q1324239 a jp:Place ;
+    rdfs:label "El Hamma" .
+
+jp:Place_Q132671 a jp:Place ;
+    rdfs:label "Pau" .
+
+jp:Place_Q13298 a jp:Place ;
+    rdfs:label "Graz" .
+
+jp:Place_Q133116 a jp:Place ;
+    rdfs:label "Hamilton" .
+
+jp:Place_Q1333965 a jp:Place ;
+    rdfs:label "Volhynian Governorate" .
+
+jp:Place_Q1335 a jp:Place ;
+    rdfs:label "Montevideo" .
+
+jp:Place_Q13360 a jp:Place ;
+    rdfs:label "Reggio Emilia" .
+
+jp:Place_Q13362 a jp:Place ;
+    rdfs:label "Ferrara" .
+
+jp:Place_Q13367 a jp:Place ;
+    rdfs:label "Forlì" .
+
+jp:Place_Q13375 a jp:Place ;
+    rdfs:label "Pisa" .
+
+jp:Place_Q13386 a jp:Place ;
+    rdfs:label "Lecce" .
+
+jp:Place_Q1342 a jp:Place ;
+    rdfs:label "Pittsburgh" .
+
+jp:Place_Q13422717 a jp:Place ;
+    rdfs:label "Grodno powet" .
+
+jp:Place_Q134287 a jp:Place ;
+    rdfs:label "Tarsus" .
+
+jp:Place_Q134494 a jp:Place ;
+    rdfs:label "Győr" .
+
+jp:Place_Q1345 a jp:Place ;
+    rdfs:label "Philadelphia" .
+
+jp:Place_Q134674 a jp:Place ;
+    rdfs:label "Bayonne" .
+
+jp:Place_Q134712 a jp:Place ;
+    rdfs:label "Šiauliai" .
+
+jp:Place_Q1348 a jp:Place ;
+    rdfs:label "Kolkata" .
+
+jp:Place_Q1350047 a jp:Place ;
+    rdfs:label "Neede" .
+
+jp:Place_Q1351046 a jp:Place ;
+    rdfs:label "Marijampolė" .
+
+jp:Place_Q1352 a jp:Place ;
+    rdfs:label "Chennai" .
+
+jp:Place_Q135421 a jp:Place ;
+    rdfs:label "Shlomi" .
+
+jp:Place_Q135425 a jp:Place ;
+    rdfs:label "Kfar Hasidim" .
+
+jp:Place_Q135667 a jp:Place ;
+    rdfs:label "Kráľovský Chlmec" .
+
+jp:Place_Q135744 a jp:Place ;
+    rdfs:label "Galveston" .
+
+jp:Place_Q135818 a jp:Place ;
+    rdfs:label "Brezová pod Bradlom" .
+
+jp:Place_Q1363802 a jp:Place ;
+    rdfs:label "Treblinka" .
+
+jp:Place_Q1369658 a jp:Place ;
+    rdfs:label "Farmington" .
+
+jp:Place_Q1370292 a jp:Place ;
+    rdfs:label "Washington Heights" .
+
+jp:Place_Q137863 a jp:Place ;
+    rdfs:label "Švenčionys" .
+
+jp:Place_Q1378794 a jp:Place ;
+    rdfs:label "Seleucia-Ctesiphon" .
+
+jp:Place_Q1379299 a jp:Place ;
+    rdfs:label "Smyrna" .
+
+jp:Place_Q138229 a jp:Place ;
+    rdfs:label "Oleśnica [Oels], Lower Silesian Voivodeship" .
+
+jp:Place_Q138391 a jp:Place ;
+    rdfs:label "Paterson" .
+
+jp:Place_Q1384 a jp:Place ;
+    rdfs:label "New York" .
+
+jp:Place_Q138518 a jp:Place ;
+    rdfs:label "Princeton" .
+
+jp:Place_Q138578 a jp:Place ;
+    rdfs:label "Hoboken" .
+
+jp:Place_Q1394500 a jp:Place ;
+    rdfs:label "South London" .
+
+jp:Place_Q139564 a jp:Place ;
+    rdfs:label "Atlantic City" .
+
+jp:Place_Q1397 a jp:Place ;
+    rdfs:label "Ohio" .
+
+jp:Place_Q13972 a jp:Place ;
+    rdfs:label "Tartu" .
+
+jp:Place_Q1399108 a jp:Place ;
+    rdfs:label "Shluhot" .
+
+jp:Place_Q1400 a jp:Place ;
+    rdfs:label "Pennsylvania" .
+
+jp:Place_Q140147 a jp:Place ;
+    rdfs:label "Brest" .
+
+jp:Place_Q140476 a jp:Place ;
+    rdfs:label "Zagórów" .
+
+jp:Place_Q1405039 a jp:Place ;
+    rdfs:label "Gatcombe Park" .
+
+jp:Place_Q140671 a jp:Place ;
+    rdfs:label "Ostroh" .
+
+jp:Place_Q1408 a jp:Place ;
+    rdfs:label "New Jersey" .
+
+jp:Place_Q1410 a jp:Place ;
+    rdfs:label "Gibraltar" .
+
+jp:Place_Q1410457 a jp:Place ;
+    rdfs:label "Liběšice" .
+
+jp:Place_Q1415052 a jp:Place ;
+    rdfs:label "Liachavičy District" .
+
+jp:Place_Q142 a jp:Place ;
+    rdfs:label "France" .
+
+jp:Place_Q142312 a jp:Place ;
+    rdfs:label "Lunenburg County" .
+
+jp:Place_Q1425428 a jp:Place ;
+    rdfs:label "Newcastle upon Tyne" .
+
+jp:Place_Q143140 a jp:Place ;
+    rdfs:label "Freistadt" .
+
+jp:Place_Q1432 a jp:Place ;
+    rdfs:label "Wanfried" .
+
+jp:Place_Q14323 a jp:Place ;
+    rdfs:label "Mérida" .
+
+jp:Place_Q1435 a jp:Place ;
+    rdfs:label "Zagreb" .
+
+jp:Place_Q1436040 a jp:Place ;
+    rdfs:label "Mount Uhud" .
+
+jp:Place_Q1439 a jp:Place ;
+    rdfs:label "Texas" .
+
+jp:Place_Q14424 a jp:Place ;
+    rdfs:label "Nagykanizsa" .
+
+jp:Place_Q144880 a jp:Place ;
+    rdfs:label "Zakynthos" .
+
+jp:Place_Q1449 a jp:Place ;
+    rdfs:label "Genoa" .
+
+jp:Place_Q145 a jp:Place ;
+    rdfs:label "United Kingdom" .
+
+jp:Place_Q145002 a jp:Place ;
+    rdfs:label "Trenčín" .
+
+jp:Place_Q145694 a jp:Place ;
+    rdfs:label "Italian Peninsula" .
+
+jp:Place_Q145719 a jp:Place ;
+    rdfs:label "Zambrów" .
+
+jp:Place_Q145972 a jp:Place ;
+    rdfs:label "Zamość" .
+
+jp:Place_Q1461604 a jp:Place ;
+    rdfs:label "Lipiny" .
+
+jp:Place_Q146317 a jp:Place ;
+    rdfs:label "Veszprém" .
+
+jp:Place_Q146342 a jp:Place ;
+    rdfs:label "Teplice" .
+
+jp:Place_Q146453 a jp:Place ;
+    rdfs:label "Kalush" .
+
+jp:Place_Q146456 a jp:Place ;
+    rdfs:label "Mukachevo" .
+
+jp:Place_Q146469 a jp:Place ;
+    rdfs:label "Khust" .
+
+jp:Place_Q146497 a jp:Place ;
+    rdfs:label "Berehove" .
+
+jp:Place_Q146510 a jp:Place ;
+    rdfs:label "Rakhiv" .
+
+jp:Place_Q146516 a jp:Place ;
+    rdfs:label "Tiachiv" .
+
+jp:Place_Q146557 a jp:Place ;
+    rdfs:label "Burshtyn" .
+
+jp:Place_Q146595 a jp:Place ;
+    rdfs:label "Bolekhiv" .
+
+jp:Place_Q147089 a jp:Place ;
+    rdfs:label "Manisa" .
+
+jp:Place_Q1472068 a jp:Place ;
+    rdfs:label "Johns Hopkins Hospital" .
+
+jp:Place_Q1476505 a jp:Place ;
+    rdfs:label "Mount Sinai Hospital" .
+
+jp:Place_Q147794 a jp:Place ;
+    rdfs:label "Slonimskij County" .
+
+jp:Place_Q1479 a jp:Place ;
+    rdfs:label "Bordeaux" .
+
+jp:Place_Q148349 a jp:Place ;
+    rdfs:label "Lambeth" .
+
+jp:Place_Q1483822 a jp:Place ;
+    rdfs:label "Hainstadt" .
+
+jp:Place_Q148473 a jp:Place ;
+    rdfs:label "Chortkiv" .
+
+jp:Place_Q148483 a jp:Place ;
+    rdfs:label "Ribeauvillé" .
+
+jp:Place_Q14859 a jp:Place ;
+    rdfs:label "Ansbach" .
+
+jp:Place_Q1486 a jp:Place ;
+    rdfs:label "Buenos Aires" .
+
+jp:Place_Q148661 a jp:Place ;
+    rdfs:label "Réguisheim" .
+
+jp:Place_Q14889 a jp:Place ;
+    rdfs:label "Schwabach" .
+
+jp:Place_Q1489 a jp:Place ;
+    rdfs:label "Mexico City" .
+
+jp:Place_Q148928 a jp:Place ;
+    rdfs:label "Zboriv" .
+
+jp:Place_Q148965 a jp:Place ;
+    rdfs:label "Slutsk Uyezd" .
+
+jp:Place_Q149024 a jp:Place ;
+    rdfs:label "Zviahel" .
+
+jp:Place_Q149118 a jp:Place ;
+    rdfs:label "Vyzhnytsia" .
+
+jp:Place_Q149159 a jp:Place ;
+    rdfs:label "Skalat" .
+
+jp:Place_Q1492 a jp:Place ;
+    rdfs:label "Barcelona" .
+
+jp:Place_Q14953 a jp:Place ;
+    rdfs:label "Lage" .
+
+jp:Place_Q14960 a jp:Place ;
+    rdfs:label "Brno" .
+
+jp:Place_Q149787 a jp:Place ;
+    rdfs:label "Hendon" .
+
+jp:Place_Q1505099 a jp:Place ;
+    rdfs:label "Dobre Miasto" .
+
+jp:Place_Q15111616 a jp:Place ;
+    rdfs:label "Theresienstadt Ghetto" .
+
+jp:Place_Q1511813 a jp:Place ;
+    rdfs:label "Lower East Side" .
+
+jp:Place_Q151198 a jp:Place ;
+    rdfs:label "Dachau concentration camp" .
+
+jp:Place_Q15180 a jp:Place ;
+    rdfs:label "Soviet Union" .
+
+jp:Place_Q151920 a jp:Place ;
+    rdfs:label "Tiberias" .
+
+jp:Place_Q152010 a jp:Place ;
+    rdfs:label "Treblinka extermination camp" .
+
+jp:Place_Q1520116 a jp:Place ;
+    rdfs:label "Radnice" .
+
+jp:Place_Q1521236 a jp:Place ;
+    rdfs:label "Mühringen" .
+
+jp:Place_Q152374 a jp:Place ;
+    rdfs:label "Kiryat Bialik" .
+
+jp:Place_Q152396 a jp:Place ;
+    rdfs:label "Dimona" .
+
+jp:Place_Q1524 a jp:Place ;
+    rdfs:label "Athens" .
+
+jp:Place_Q152413 a jp:Place ;
+    rdfs:label "Givatayim" .
+
+jp:Place_Q152436 a jp:Place ;
+    rdfs:label "Kfar Saba" .
+
+jp:Place_Q152467 a jp:Place ;
+    rdfs:label "Bnei Brak" .
+
+jp:Place_Q152491 a jp:Place ;
+    rdfs:label "Herzliya" .
+
+jp:Place_Q1525048 a jp:Place ;
+    rdfs:label "Suwałki Governorate" .
+
+jp:Place_Q152567 a jp:Place ;
+    rdfs:label "Kiryat Motzkin" .
+
+jp:Place_Q152602 a jp:Place ;
+    rdfs:label "Kiryat Ata" .
+
+jp:Place_Q152641 a jp:Place ;
+    rdfs:label "Giv'at Shmuel" .
+
+jp:Place_Q152658 a jp:Place ;
+    rdfs:label "Sobibór Extermination Camp" .
+
+jp:Place_Q1527 a jp:Place ;
+    rdfs:label "Minnesota" .
+
+jp:Place_Q152802 a jp:Place ;
+    rdfs:label "Buchenwald concentration camp" .
+
+jp:Place_Q1528499 a jp:Place ;
+    rdfs:label "Steinbach" .
+
+jp:Place_Q1529447 a jp:Place ;
+    rdfs:label "Savran" .
+
+jp:Place_Q1530 a jp:Place ;
+    rdfs:label "Baghdad" .
+
+jp:Place_Q1533 a jp:Place ;
+    rdfs:label "Caracas" .
+
+jp:Place_Q153336 a jp:Place ;
+    rdfs:label "Minsk Ghetto" .
+
+jp:Place_Q153598 a jp:Place ;
+    rdfs:label "Trawniki concentration camp" .
+
+jp:Place_Q153779 a jp:Place ;
+    rdfs:label "Mülheim" .
+
+jp:Place_Q153813 a jp:Place ;
+    rdfs:label "extermination camp" .
+
+jp:Place_Q153881 a jp:Place ;
+    rdfs:label "Vineland" .
+
+jp:Place_Q1540300 a jp:Place ;
+    rdfs:label "Kovno Governorate" .
+
+jp:Place_Q154607 a jp:Place ;
+    rdfs:label "Warsaw Ghetto" .
+
+jp:Place_Q154728 a jp:Place ;
+    rdfs:label "Toul" .
+
+jp:Place_Q1547280 a jp:Place ;
+    rdfs:label "Grombach" .
+
+jp:Place_Q154835 a jp:Place ;
+    rdfs:label "Mogilev" .
+
+jp:Place_Q155 a jp:Place ;
+    rdfs:label "Brazil" .
+
+jp:Place_Q155032 a jp:Place ;
+    rdfs:label "Jasenovac concentration camp" .
+
+jp:Place_Q1553052 a jp:Place ;
+    rdfs:label "Nusaybin" .
+
+jp:Place_Q155321 a jp:Place ;
+    rdfs:label "Land of Israel" .
+
+jp:Place_Q155975 a jp:Place ;
+    rdfs:label "Kutná Hora" .
+
+jp:Place_Q156080 a jp:Place ;
+    rdfs:label "Opava" .
+
+jp:Place_Q156565 a jp:Place ;
+    rdfs:label "Belz" .
+
+jp:Place_Q156588 a jp:Place ;
+    rdfs:label "Tysmenytsia" .
+
+jp:Place_Q156593 a jp:Place ;
+    rdfs:label "Sambir" .
+
+jp:Place_Q156704 a jp:Place ;
+    rdfs:label "Kovel" .
+
+jp:Place_Q156711 a jp:Place ;
+    rdfs:label "Uzhhorod" .
+
+jp:Place_Q156713 a jp:Place ;
+    rdfs:label "Zhytomyr" .
+
+jp:Place_Q156717 a jp:Place ;
+    rdfs:label "Khmelnytskyi" .
+
+jp:Place_Q156724 a jp:Place ;
+    rdfs:label "Kremenchuk" .
+
+jp:Place_Q156726 a jp:Place ;
+    rdfs:label "Ivano-Frankivsk" .
+
+jp:Place_Q156732 a jp:Place ;
+    rdfs:label "Kherson" .
+
+jp:Place_Q156739 a jp:Place ;
+    rdfs:label "Rivne" .
+
+jp:Place_Q156743 a jp:Place ;
+    rdfs:label "Ternopil" .
+
+jp:Place_Q156747 a jp:Place ;
+    rdfs:label "Poltava" .
+
+jp:Place_Q156760 a jp:Place ;
+    rdfs:label "Nikopol" .
+
+jp:Place_Q156808 a jp:Place ;
+    rdfs:label "Bibrka" .
+
+jp:Place_Q15681 a jp:Place ;
+    rdfs:label "Jaén" .
+
+jp:Place_Q156818 a jp:Place ;
+    rdfs:label "Sniatyn" .
+
+jp:Place_Q156820 a jp:Place ;
+    rdfs:label "Nadvirna" .
+
+jp:Place_Q156821 a jp:Place ;
+    rdfs:label "Rohatyn" .
+
+jp:Place_Q15684 a jp:Place ;
+    rdfs:label "Segovia" .
+
+jp:Place_Q15695 a jp:Place ;
+    rdfs:label "Salamanca" .
+
+jp:Place_Q15696 a jp:Place ;
+    rdfs:label "Zamora" .
+
+jp:Place_Q15699 a jp:Place ;
+    rdfs:label "León" .
+
+jp:Place_Q157053 a jp:Place ;
+    rdfs:label "Chernihiv" .
+
+jp:Place_Q157055 a jp:Place ;
+    rdfs:label "Cherkasy" .
+
+jp:Place_Q157144 a jp:Place ;
+    rdfs:label "Vinnytsia" .
+
+jp:Place_Q1572234 a jp:Place ;
+    rdfs:label "Halshany" .
+
+jp:Place_Q157246 a jp:Place ;
+    rdfs:label "Bitola" .
+
+jp:Place_Q157472 a jp:Place ;
+    rdfs:label "Dolyna" .
+
+jp:Place_Q157516 a jp:Place ;
+    rdfs:label "Salantai" .
+
+jp:Place_Q157520 a jp:Place ;
+    rdfs:label "Horodenka" .
+
+jp:Place_Q157725 a jp:Place ;
+    rdfs:label "Chernivtsi" .
+
+jp:Place_Q1579038 a jp:Place ;
+    rdfs:label "Nasielsk" .
+
+jp:Place_Q158004 a jp:Place ;
+    rdfs:label "Piotrków Trybunalski" .
+
+jp:Place_Q15837242 a jp:Place ;
+    rdfs:label "Oberdorf" .
+
+jp:Place_Q158491 a jp:Place ;
+    rdfs:label "Feodosiia" .
+
+jp:Place_Q1585678 a jp:Place ;
+    rdfs:label "Harmuthsachsen" .
+
+jp:Place_Q158796 a jp:Place ;
+    rdfs:label "Radomsko" .
+
+jp:Place_Q158799 a jp:Place ;
+    rdfs:label "Berdychiv" .
+
+jp:Place_Q158821 a jp:Place ;
+    rdfs:label "Drohobych" .
+
+jp:Place_Q158923 a jp:Place ;
+    rdfs:label "Stryi" .
+
+jp:Place_Q159 a jp:Place ;
+    rdfs:label "Russia" .
+
+jp:Place_Q15977 a jp:Place ;
+    rdfs:label "Meppen" .
+
+jp:Place_Q159814 a jp:Place ;
+    rdfs:label "Uslar" .
+
+jp:Place_Q159818 a jp:Place ;
+    rdfs:label "Travnik" .
+
+jp:Place_Q16 a jp:Place ;
+    rdfs:label "Canada" .
+
+jp:Place_Q160135 a jp:Place ;
+    rdfs:label "Lublin-Majdanek concentration camp" .
+
+jp:Place_Q160139 a jp:Place ;
+    rdfs:label "Mauthausen concentration camp" .
+
+jp:Place_Q160143 a jp:Place ;
+    rdfs:label "Belzec extermination camp" .
+
+jp:Place_Q160152 a jp:Place ;
+    rdfs:label "Chełmno extermination camp" .
+
+jp:Place_Q160173 a jp:Place ;
+    rdfs:label "Ruse" .
+
+jp:Place_Q160175 a jp:Place ;
+    rdfs:label "Theresienstadt concentration camp" .
+
+jp:Place_Q160544 a jp:Place ;
+    rdfs:label "Heraklion" .
+
+jp:Place_Q16105 a jp:Place ;
+    rdfs:label "Bad Nauheim" .
+
+jp:Place_Q16107 a jp:Place ;
+    rdfs:label "Höxter" .
+
+jp:Place_Q16129695 a jp:Place ;
+    rdfs:label "Hadassah University Hospital, Mt. Scopus" .
+
+jp:Place_Q16130 a jp:Place ;
+    rdfs:label "Merzig" .
+
+jp:Place_Q16147 a jp:Place ;
+    rdfs:label "Güstrow" .
+
+jp:Place_Q1614791 a jp:Place ;
+    rdfs:label "Kolno" .
+
+jp:Place_Q161491 a jp:Place ;
+    rdfs:label "Reading" .
+
+jp:Place_Q161605 a jp:Place ;
+    rdfs:label "Czeladź" .
+
+jp:Place_Q161962 a jp:Place ;
+    rdfs:label "Chełmno" .
+
+jp:Place_Q161965 a jp:Place ;
+    rdfs:label "Shepetivka" .
+
+jp:Place_Q161980 a jp:Place ;
+    rdfs:label "Chyhyryn" .
+
+jp:Place_Q161994 a jp:Place ;
+    rdfs:label "Romny" .
+
+jp:Place_Q162049 a jp:Place ;
+    rdfs:label "Charlottenburg" .
+
+jp:Place_Q162083 a jp:Place ;
+    rdfs:label "Konotop" .
+
+jp:Place_Q1630 a jp:Place ;
+    rdfs:label "Altona" .
+
+jp:Place_Q1631202 a jp:Place ;
+    rdfs:label "Maqueda" .
+
+jp:Place_Q1631311 a jp:Place ;
+    rdfs:label "Cuéllar" .
+
+jp:Place_Q1632587 a jp:Place ;
+    rdfs:label "Hrymailiv" .
+
+jp:Place_Q16333 a jp:Place ;
+    rdfs:label "Casale Monferrato" .
+
+jp:Place_Q1633302 a jp:Place ;
+    rdfs:label "Cuevas de San Clemente" .
+
+jp:Place_Q163423 a jp:Place ;
+    rdfs:label "Baiersdorf" .
+
+jp:Place_Q163490 a jp:Place ;
+    rdfs:label "Sidon" .
+
+jp:Place_Q1637419 a jp:Place ;
+    rdfs:label "Praga" .
+
+jp:Place_Q163749 a jp:Place ;
+    rdfs:label "West Palm Beach" .
+
+jp:Place_Q1637855 a jp:Place ;
+    rdfs:label "Miadziel District" .
+
+jp:Place_Q1638961 a jp:Place ;
+    rdfs:label "Husiatyn" .
+
+jp:Place_Q163948 a jp:Place ;
+    rdfs:label "10ᵗʰ arrondissement of Paris" .
+
+jp:Place_Q164380 a jp:Place ;
+    rdfs:label "Bethlehem" .
+
+jp:Place_Q1644430 a jp:Place ;
+    rdfs:label "Monreal del Campo" .
+
+jp:Place_Q164482 a jp:Place ;
+    rdfs:label "Kejžlice" .
+
+jp:Place_Q164564 a jp:Place ;
+    rdfs:label "Budíkov" .
+
+jp:Place_Q1647 a jp:Place ;
+    rdfs:label "Rijeka" .
+
+jp:Place_Q16486380 a jp:Place ;
+    rdfs:label "Bieruń Stary" .
+
+jp:Place_Q165090 a jp:Place ;
+    rdfs:label "Chambéry" .
+
+jp:Place_Q165420 a jp:Place ;
+    rdfs:label "Pleven" .
+
+jp:Place_Q16554 a jp:Place ;
+    rdfs:label "Denver" .
+
+jp:Place_Q16555 a jp:Place ;
+    rdfs:label "Houston" .
+
+jp:Place_Q16563 a jp:Place ;
+    rdfs:label "Memphis" .
+
+jp:Place_Q1656534 a jp:Place ;
+    rdfs:label "Užventis" .
+
+jp:Place_Q16567 a jp:Place ;
+    rdfs:label "Columbus" .
+
+jp:Place_Q165773 a jp:Place ;
+    rdfs:label "Nevel" .
+
+jp:Place_Q1669578 a jp:Place ;
+    rdfs:label "Syria Palaestina" .
+
+jp:Place_Q1669868 a jp:Place ;
+    rdfs:label "Kozelets" .
+
+jp:Place_Q167109 a jp:Place ;
+    rdfs:label "Eger" .
+
+jp:Place_Q167152 a jp:Place ;
+    rdfs:label "Soissons" .
+
+jp:Place_Q167649 a jp:Place ;
+    rdfs:label "Netivot" .
+
+jp:Place_Q167668 a jp:Place ;
+    rdfs:label "Liepāja" .
+
+jp:Place_Q167677 a jp:Place ;
+    rdfs:label "Yavne" .
+
+jp:Place_Q167749 a jp:Place ;
+    rdfs:label "Nahariya" .
+
+jp:Place_Q167800 a jp:Place ;
+    rdfs:label "Zakho" .
+
+jp:Place_Q168057 a jp:Place ;
+    rdfs:label "Craiova" .
+
+jp:Place_Q168140 a jp:Place ;
+    rdfs:label "Modi'in Illit" .
+
+jp:Place_Q1681481 a jp:Place ;
+    rdfs:label "Yampil" .
+
+jp:Place_Q168162 a jp:Place ;
+    rdfs:label "Ness Ziona" .
+
+jp:Place_Q168215 a jp:Place ;
+    rdfs:label "Tirat Carmel" .
+
+jp:Place_Q168225 a jp:Place ;
+    rdfs:label "Hebron" .
+
+jp:Place_Q168337 a jp:Place ;
+    rdfs:label "Migdal HaEmek" .
+
+jp:Place_Q168648 a jp:Place ;
+    rdfs:label "Sopron" .
+
+jp:Place_Q16869 a jp:Place ;
+    rdfs:label "Constantinople" .
+
+jp:Place_Q16894513 a jp:Place ;
+    rdfs:label "Malat" .
+
+jp:Place_Q1691438 a jp:Place ;
+    rdfs:label "Morávka" .
+
+jp:Place_Q169237 a jp:Place ;
+    rdfs:label "Zduńska Wola" .
+
+jp:Place_Q16928476 a jp:Place ;
+    rdfs:label "Fort Mont-Valérien" .
+
+jp:Place_Q170036 a jp:Place ;
+    rdfs:label "Kyiv Oblast" .
+
+jp:Place_Q170287 a jp:Place ;
+    rdfs:label "Subotica" .
+
+jp:Place_Q170415 a jp:Place ;
+    rdfs:label "Stara Zagora" .
+
+jp:Place_Q17042 a jp:Place ;
+    rdfs:label "Oakland" .
+
+jp:Place_Q170478 a jp:Place ;
+    rdfs:label "Bournemouth" .
+
+jp:Place_Q170507 a jp:Place ;
+    rdfs:label "Nanterre" .
+
+jp:Place_Q170516 a jp:Place ;
+    rdfs:label "Calvary" .
+
+jp:Place_Q170525 a jp:Place ;
+    rdfs:label "Agadir" .
+
+jp:Place_Q1709 a jp:Place ;
+    rdfs:label "Schwerin" .
+
+jp:Place_Q170996 a jp:Place ;
+    rdfs:label "Galați" .
+
+jp:Place_Q171018 a jp:Place ;
+    rdfs:label "Zlín" .
+
+jp:Place_Q171150 a jp:Place ;
+    rdfs:label "Kingdom of Hungary" .
+
+jp:Place_Q171223 a jp:Place ;
+    rdfs:label "Nyíregyháza" .
+
+jp:Place_Q171357 a jp:Place ;
+    rdfs:label "Kecskemét" .
+
+jp:Place_Q1715 a jp:Place ;
+    rdfs:label "Hanover" .
+
+jp:Place_Q17151 a jp:Place ;
+    rdfs:label "Thessaloniki" .
+
+jp:Place_Q171545 a jp:Place ;
+    rdfs:label "Belfort" .
+
+jp:Place_Q171639 a jp:Place ;
+    rdfs:label "Ashdod" .
+
+jp:Place_Q171689 a jp:Place ;
+    rdfs:label "12th arrondissement of Paris" .
+
+jp:Place_Q1718 a jp:Place ;
+    rdfs:label "Düsseldorf" .
+
+jp:Place_Q171800 a jp:Place ;
+    rdfs:label "Évreux" .
+
+jp:Place_Q1719466 a jp:Place ;
+    rdfs:label "Panevėžys" .
+
+jp:Place_Q172 a jp:Place ;
+    rdfs:label "Toronto" .
+
+jp:Place_Q1720 a jp:Place ;
+    rdfs:label "Mainz" .
+
+jp:Place_Q1720340 a jp:Place ;
+    rdfs:label "Rokytnice v Orlických horách" .
+
+jp:Place_Q1721 a jp:Place ;
+    rdfs:label "Wiesbaden" .
+
+jp:Place_Q172107 a jp:Place ;
+    rdfs:label "Polish–Lithuanian Commonwealth" .
+
+jp:Place_Q1722 a jp:Place ;
+    rdfs:label "Dubrovnik" .
+
+jp:Place_Q1723766 a jp:Place ;
+    rdfs:label "Kanice" .
+
+jp:Place_Q1724 a jp:Place ;
+    rdfs:label "Saarbrücken" .
+
+jp:Place_Q172415 a jp:Place ;
+    rdfs:label "Kutaisi" .
+
+jp:Place_Q172455 a jp:Place ;
+    rdfs:label "Boulogne-Billancourt" .
+
+jp:Place_Q1726 a jp:Place ;
+    rdfs:label "Munich" .
+
+jp:Place_Q1729 a jp:Place ;
+    rdfs:label "Erfurt" .
+
+jp:Place_Q173063 a jp:Place ;
+    rdfs:label "Castile" .
+
+jp:Place_Q1731 a jp:Place ;
+    rdfs:label "Dresden" .
+
+jp:Place_Q1733 a jp:Place ;
+    rdfs:label "Magdeburg" .
+
+jp:Place_Q17330 a jp:Place ;
+    rdfs:label "Castelletto Monferrato" .
+
+jp:Place_Q1733565 a jp:Place ;
+    rdfs:label "Prahran" .
+
+jp:Place_Q1734030 a jp:Place ;
+    rdfs:label "Karlín" .
+
+jp:Place_Q173591 a jp:Place ;
+    rdfs:label "Arad" .
+
+jp:Place_Q173695 a jp:Place ;
+    rdfs:label "Épinal" .
+
+jp:Place_Q173903 a jp:Place ;
+    rdfs:label "Novoaltaysk" .
+
+jp:Place_Q174 a jp:Place ;
+    rdfs:label "São Paulo" .
+
+jp:Place_Q174019 a jp:Place ;
+    rdfs:label "Béziers" .
+
+jp:Place_Q1741 a jp:Place ;
+    rdfs:label "Vienna" .
+
+jp:Place_Q1743479 a jp:Place ;
+    rdfs:label "Kiryat Tiv'on" .
+
+jp:Place_Q174665 a jp:Place ;
+    rdfs:label "Alba Iulia" .
+
+jp:Place_Q1746728 a jp:Place ;
+    rdfs:label "Kleinerdlingen" .
+
+jp:Place_Q1747689 a jp:Place ;
+    rdfs:label "Ancient Rome" .
+
+jp:Place_Q1748 a jp:Place ;
+    rdfs:label "Copenhagen" .
+
+jp:Place_Q1751231 a jp:Place ;
+    rdfs:label "Villasandino" .
+
+jp:Place_Q175129 a jp:Place ;
+    rdfs:label "13th arrondissement of Paris" .
+
+jp:Place_Q1754 a jp:Place ;
+    rdfs:label "Stockholm" .
+
+jp:Place_Q1756960 a jp:Place ;
+    rdfs:label "Poběžovice" .
+
+jp:Place_Q1761 a jp:Place ;
+    rdfs:label "Dublin" .
+
+jp:Place_Q176229 a jp:Place ;
+    rdfs:label "Nowe Miasto Lubawskie" .
+
+jp:Place_Q1770 a jp:Place ;
+    rdfs:label "Tallinn" .
+
+jp:Place_Q1773 a jp:Place ;
+    rdfs:label "Riga" .
+
+jp:Place_Q1780 a jp:Place ;
+    rdfs:label "Bratislava" .
+
+jp:Place_Q178093 a jp:Place ;
+    rdfs:label "Poughkeepsie" .
+
+jp:Place_Q1781 a jp:Place ;
+    rdfs:label "Budapest" .
+
+jp:Place_Q178405 a jp:Place ;
+    rdfs:label "Larissa" .
+
+jp:Place_Q178663 a jp:Place ;
+    rdfs:label "Meknes" .
+
+jp:Place_Q1788115 a jp:Place ;
+    rdfs:label "Kretinga" .
+
+jp:Place_Q178855 a jp:Place ;
+    rdfs:label "Botoșani" .
+
+jp:Place_Q1792 a jp:Place ;
+    rdfs:label "Gdańsk" .
+
+jp:Place_Q179224 a jp:Place ;
+    rdfs:label "Dover" .
+
+jp:Place_Q179252 a jp:Place ;
+    rdfs:label "Buchen" .
+
+jp:Place_Q179293 a jp:Place ;
+    rdfs:label "Kingdom of Castile" .
+
+jp:Place_Q179351 a jp:Place ;
+    rdfs:label "City of Westminster" .
+
+jp:Place_Q1794 a jp:Place ;
+    rdfs:label "Frankfurt" .
+
+jp:Place_Q1794734 a jp:Place ;
+    rdfs:label "Kuty" .
+
+jp:Place_Q179528 a jp:Place ;
+    rdfs:label "Nile Delta" .
+
+jp:Place_Q179570 a jp:Place ;
+    rdfs:label "Kairouan" .
+
+jp:Place_Q1796771 a jp:Place ;
+    rdfs:label "Köthen" .
+
+jp:Place_Q179830 a jp:Place ;
+    rdfs:label "Jelgava" .
+
+jp:Place_Q1799 a jp:Place ;
+    rdfs:label "Wrocław" .
+
+jp:Place_Q180078 a jp:Place ;
+    rdfs:label "Kermanshah" .
+
+jp:Place_Q180086 a jp:Place ;
+    rdfs:label "Galicia" .
+
+jp:Place_Q18023391 a jp:Place ;
+    rdfs:label "Lindener Marktplatz 2, Hannover" .
+
+jp:Place_Q180294 a jp:Place ;
+    rdfs:label "Jaffa" .
+
+jp:Place_Q180379 a jp:Place ;
+    rdfs:label "Rēzekne" .
+
+jp:Place_Q18094 a jp:Place ;
+    rdfs:label "Honolulu" .
+
+jp:Place_Q18102 a jp:Place ;
+    rdfs:label "Saint-Mandé" .
+
+jp:Place_Q18125 a jp:Place ;
+    rdfs:label "Manchester" .
+
+jp:Place_Q181376 a jp:Place ;
+    rdfs:label "Hrodna" .
+
+jp:Place_Q1817136 a jp:Place ;
+    rdfs:label "Tyrawa Wołoska" .
+
+jp:Place_Q1817509 a jp:Place ;
+    rdfs:label "Lędziny, Opole Voivodeship" .
+
+jp:Place_Q1818241 a jp:Place ;
+    rdfs:label "Rousínov" .
+
+jp:Place_Q181955 a jp:Place ;
+    rdfs:label "Aix-les-Bains" .
+
+jp:Place_Q1822522 a jp:Place ;
+    rdfs:label "Prostiboř" .
+
+jp:Place_Q182394 a jp:Place ;
+    rdfs:label "Yazd" .
+
+jp:Place_Q182428 a jp:Place ;
+    rdfs:label "Silistra" .
+
+jp:Place_Q1825231 a jp:Place ;
+    rdfs:label "Kuliai" .
+
+jp:Place_Q1826870 a jp:Place ;
+    rdfs:label "116th Street – Columbia University" .
+
+jp:Place_Q182872 a jp:Place ;
+    rdfs:label "Fontainebleau" .
+
+jp:Place_Q1829 a jp:Place ;
+    rdfs:label "Kaliningrad" .
+
+jp:Place_Q183 a jp:Place ;
+    rdfs:label "Germany" .
+
+jp:Place_Q183111 a jp:Place ;
+    rdfs:label "Jihlava" .
+
+jp:Place_Q183405 a jp:Place ;
+    rdfs:label "Safi" .
+
+jp:Place_Q183464 a jp:Place ;
+    rdfs:label "Livonia" .
+
+jp:Place_Q18383 a jp:Place ;
+    rdfs:label "Providence" .
+
+jp:Place_Q184 a jp:Place ;
+    rdfs:label "Belarus" .
+
+jp:Place_Q1840 a jp:Place ;
+    rdfs:label "Veenendaal" .
+
+jp:Place_Q18419 a jp:Place ;
+    rdfs:label "Brooklyn" .
+
+jp:Place_Q1842 a jp:Place ;
+    rdfs:label "Luxembourg" .
+
+jp:Place_Q18424 a jp:Place ;
+    rdfs:label "Queens" .
+
+jp:Place_Q18426 a jp:Place ;
+    rdfs:label "The Bronx" .
+
+jp:Place_Q18432 a jp:Place ;
+    rdfs:label "Staten Island" .
+
+jp:Place_Q18438 a jp:Place ;
+    rdfs:label "Long Island" .
+
+jp:Place_Q18480310 a jp:Place ;
+    rdfs:label "Lissa" .
+
+jp:Place_Q184998 a jp:Place ;
+    rdfs:label "Kaposvár" .
+
+jp:Place_Q185134 a jp:Place ;
+    rdfs:label "Tlemcen" .
+
+jp:Place_Q185157 a jp:Place ;
+    rdfs:label "Tétouan" .
+
+jp:Place_Q185332 a jp:Place ;
+    rdfs:label "Satu Mare" .
+
+jp:Place_Q1853577 a jp:Place ;
+    rdfs:label "Svratka" .
+
+jp:Place_Q185687 a jp:Place ;
+    rdfs:label "Kiryat Shmuel" .
+
+jp:Place_Q18575 a jp:Place ;
+    rdfs:label "Tucson" .
+
+jp:Place_Q186037 a jp:Place ;
+    rdfs:label "Sankt Goar" .
+
+jp:Place_Q1861138 a jp:Place ;
+    rdfs:label "Městec Králové" .
+
+jp:Place_Q1864782 a jp:Place ;
+    rdfs:label "Gmina Komarów-Osada" .
+
+jp:Place_Q186576 a jp:Place ;
+    rdfs:label "Pazardzhik" .
+
+jp:Place_Q1867 a jp:Place ;
+    rdfs:label "Taipei" .
+
+jp:Place_Q187153 a jp:Place ;
+    rdfs:label "14th arrondissement of Paris" .
+
+jp:Place_Q187346 a jp:Place ;
+    rdfs:label "Constantine" .
+
+jp:Place_Q1874 a jp:Place ;
+    rdfs:label "Odesa" .
+
+jp:Place_Q18755585 a jp:Place ;
+    rdfs:label "Bakšty" .
+
+jp:Place_Q187796 a jp:Place ;
+    rdfs:label "Orange" .
+
+jp:Place_Q187945 a jp:Place ;
+    rdfs:label "Piatra Neamț" .
+
+jp:Place_Q1882756 a jp:Place ;
+    rdfs:label "Cambridge City" .
+
+jp:Place_Q188336 a jp:Place ;
+    rdfs:label "Safed" .
+
+jp:Place_Q188731 a jp:Place ;
+    rdfs:label "Rhodes" .
+
+jp:Place_Q188813 a jp:Place ;
+    rdfs:label "Maramureș County" .
+
+jp:Place_Q188895 a jp:Place ;
+    rdfs:label "Borsod-Abaúj-Zemplén County" .
+
+jp:Place_Q188938 a jp:Place ;
+    rdfs:label "Djerba" .
+
+jp:Place_Q189043 a jp:Place ;
+    rdfs:label "Petrópolis" .
+
+jp:Place_Q189074 a jp:Place ;
+    rdfs:label "Harlem" .
+
+jp:Place_Q1891 a jp:Place ;
+    rdfs:label "Bologna" .
+
+jp:Place_Q189157 a jp:Place ;
+    rdfs:label "Utena" .
+
+jp:Place_Q1892074 a jp:Place ;
+    rdfs:label "Simnas" .
+
+jp:Place_Q189273 a jp:Place ;
+    rdfs:label "Zelów" .
+
+jp:Place_Q1893589 a jp:Place ;
+    rdfs:label "Goraj" .
+
+jp:Place_Q1896437 a jp:Place ;
+    rdfs:label "Červené Janovice" .
+
+jp:Place_Q189769 a jp:Place ;
+    rdfs:label "Salgótarján" .
+
+jp:Place_Q1897694 a jp:Place ;
+    rdfs:label "Marienhagen" .
+
+jp:Place_Q1899 a jp:Place ;
+    rdfs:label "Kyiv" .
+
+jp:Place_Q189969 a jp:Place ;
+    rdfs:label "Ulcinj" .
+
+jp:Place_Q1904 a jp:Place ;
+    rdfs:label "Ontario" .
+
+jp:Place_Q1906266 a jp:Place ;
+    rdfs:label "Rajgród" .
+
+jp:Place_Q1906290 a jp:Place ;
+    rdfs:label "Wasilków" .
+
+jp:Place_Q1906346 a jp:Place ;
+    rdfs:label "Ustrzyki Dolne" .
+
+jp:Place_Q190774 a jp:Place ;
+    rdfs:label "Smederevo" .
+
+jp:Place_Q190828 a jp:Place ;
+    rdfs:label "Petah Tikva" .
+
+jp:Place_Q191015 a jp:Place ;
+    rdfs:label "Trakai" .
+
+jp:Place_Q191066 a jp:Place ;
+    rdfs:label "15th arrondissement of Paris" .
+
+jp:Place_Q191097 a jp:Place ;
+    rdfs:label "Tachov" .
+
+jp:Place_Q1910986 a jp:Place ;
+    rdfs:label "Mauer" .
+
+jp:Place_Q191607 a jp:Place ;
+    rdfs:label "Podolia" .
+
+jp:Place_Q191805 a jp:Place ;
+    rdfs:label "Mladá Boleslav" .
+
+jp:Place_Q1920614 a jp:Place ;
+    rdfs:label "Śniadowo" .
+
+jp:Place_Q192213 a jp:Place ;
+    rdfs:label "Holon" .
+
+jp:Place_Q192225 a jp:Place ;
+    rdfs:label "Netanya" .
+
+jp:Place_Q1922317 a jp:Place ;
+    rdfs:label "Ożarów" .
+
+jp:Place_Q192265 a jp:Place ;
+    rdfs:label "Focșani" .
+
+jp:Place_Q192269 a jp:Place ;
+    rdfs:label "Vaslui" .
+
+jp:Place_Q192517 a jp:Place ;
+    rdfs:label "Boulder" .
+
+jp:Place_Q192697 a jp:Place ;
+    rdfs:label "South Moravian Region" .
+
+jp:Place_Q192807 a jp:Place ;
+    rdfs:label "Ramat Gan" .
+
+jp:Place_Q1930 a jp:Place ;
+    rdfs:label "Ottawa" .
+
+jp:Place_Q1930405 a jp:Place ;
+    rdfs:label "Glynneath" .
+
+jp:Place_Q193050 a jp:Place ;
+    rdfs:label "Érd" .
+
+jp:Place_Q19313 a jp:Place ;
+    rdfs:label "Barysaw" .
+
+jp:Place_Q193478 a jp:Place ;
+    rdfs:label "Buda" .
+
+jp:Place_Q1935465 a jp:Place ;
+    rdfs:label "Střížov" .
+
+jp:Place_Q193641 a jp:Place ;
+    rdfs:label "Sebezh" .
+
+jp:Place_Q193714 a jp:Place ;
+    rdfs:label "Mandatory Palestine" .
+
+jp:Place_Q193721 a jp:Place ;
+    rdfs:label "Tábor" .
+
+jp:Place_Q193724 a jp:Place ;
+    rdfs:label "Slavkov u Brna" .
+
+jp:Place_Q193787 a jp:Place ;
+    rdfs:label "Tauragė" .
+
+jp:Place_Q193896 a jp:Place ;
+    rdfs:label "Malta" .
+
+jp:Place_Q193965 a jp:Place ;
+    rdfs:label "Kamianets-Podilskyi" .
+
+jp:Place_Q194420 a jp:Place ;
+    rdfs:label "16th arrondissement of Paris" .
+
+jp:Place_Q1946027 a jp:Place ;
+    rdfs:label "Tyszowce" .
+
+jp:Place_Q1949593 a jp:Place ;
+    rdfs:label "Mosėdis" .
+
+jp:Place_Q1953413 a jp:Place ;
+    rdfs:label "Svislač District" .
+
+jp:Place_Q1956628 a jp:Place ;
+    rdfs:label "Mykulyntsi" .
+
+jp:Place_Q1963 a jp:Place ;
+    rdfs:label "Khartoum" .
+
+jp:Place_Q1965458 a jp:Place ;
+    rdfs:label "Khislavichi" .
+
+jp:Place_Q19660 a jp:Place ;
+    rdfs:label "Bucharest" .
+
+jp:Place_Q1969368 a jp:Place ;
+    rdfs:label "Koczała" .
+
+jp:Place_Q1973358 a jp:Place ;
+    rdfs:label "Siponto" .
+
+jp:Place_Q1975866 a jp:Place ;
+    rdfs:label "Mount Ebal" .
+
+jp:Place_Q1976576 a jp:Place ;
+    rdfs:label "Jasionówka" .
+
+jp:Place_Q1981804 a jp:Place ;
+    rdfs:label "Neustupov" .
+
+jp:Place_Q1982137 a jp:Place ;
+    rdfs:label "Médéa" .
+
+jp:Place_Q19827003 a jp:Place ;
+    rdfs:label "Peny" .
+
+jp:Place_Q1983166 a jp:Place ;
+    rdfs:label "Cernoleuca" .
+
+jp:Place_Q1987043 a jp:Place ;
+    rdfs:label "Obeliai" .
+
+jp:Place_Q1996528 a jp:Place ;
+    rdfs:label "Turiisk" .
+
+jp:Place_Q1997107 a jp:Place ;
+    rdfs:label "Kryčaŭ District" .
+
+jp:Place_Q1999379 a jp:Place ;
+    rdfs:label "Višķi" .
+
+jp:Place_Q1999815 a jp:Place ;
+    rdfs:label "Murovani Kurylivtsi" .
+
+jp:Place_Q20 a jp:Place ;
+    rdfs:label "Norway" .
+
+jp:Place_Q200036 a jp:Place ;
+    rdfs:label "Volos" .
+
+jp:Place_Q2000579 a jp:Place ;
+    rdfs:label "Vabalninkas" .
+
+jp:Place_Q200126 a jp:Place ;
+    rdfs:label "18th arrondissement of Paris" .
+
+jp:Place_Q20018403 a jp:Place ;
+    rdfs:label "Tunis eyalet" .
+
+jp:Place_Q2005381 a jp:Place ;
+    rdfs:label "Sadhora" .
+
+jp:Place_Q200763 a jp:Place ;
+    rdfs:label "Kirchheimbolanden" .
+
+jp:Place_Q200876 a jp:Place ;
+    rdfs:label "Valozhyn" .
+
+jp:Place_Q200891 a jp:Place ;
+    rdfs:label "Dzyarzhynsk" .
+
+jp:Place_Q200937 a jp:Place ;
+    rdfs:label "Klyetsk" .
+
+jp:Place_Q200950 a jp:Place ;
+    rdfs:label "Kapyĺ" .
+
+jp:Place_Q200968 a jp:Place ;
+    rdfs:label "Lahojsk" .
+
+jp:Place_Q200991 a jp:Place ;
+    rdfs:label "Lyuban" .
+
+jp:Place_Q201051 a jp:Place ;
+    rdfs:label "Rishon LeZion" .
+
+jp:Place_Q201125 a jp:Place ;
+    rdfs:label "Zrenjanin" .
+
+jp:Place_Q201230 a jp:Place ;
+    rdfs:label "Niasviž" .
+
+jp:Place_Q201243 a jp:Place ;
+    rdfs:label "Slutsk" .
+
+jp:Place_Q201403 a jp:Place ;
+    rdfs:label "Staryja Darohi" .
+
+jp:Place_Q201421 a jp:Place ;
+    rdfs:label "Stowbtsy" .
+
+jp:Place_Q201429 a jp:Place ;
+    rdfs:label "Uzda" .
+
+jp:Place_Q201458 a jp:Place ;
+    rdfs:label "Červień" .
+
+jp:Place_Q201516 a jp:Place ;
+    rdfs:label "Miami Beach" .
+
+jp:Place_Q201729 a jp:Place ;
+    rdfs:label "Sanok" .
+
+jp:Place_Q2018923 a jp:Place ;
+    rdfs:label "upstate New York" .
+
+jp:Place_Q201982 a jp:Place ;
+    rdfs:label "Clichy" .
+
+jp:Place_Q202458 a jp:Place ;
+    rdfs:label "Roman" .
+
+jp:Place_Q202560 a jp:Place ;
+    rdfs:label "Carpentras" .
+
+jp:Place_Q2028 a jp:Place ;
+    rdfs:label "Verona" .
+
+jp:Place_Q203285 a jp:Place ;
+    rdfs:label "Provins" .
+
+jp:Place_Q203299 a jp:Place ;
+    rdfs:label "Faiyum" .
+
+jp:Place_Q203344 a jp:Place ;
+    rdfs:label "Baja" .
+
+jp:Place_Q2034487 a jp:Place ;
+    rdfs:label "Osoblaha" .
+
+jp:Place_Q20352 a jp:Place ;
+    rdfs:label "Neustrelitz" .
+
+jp:Place_Q2039456 a jp:Place ;
+    rdfs:label "Izbica" .
+
+jp:Place_Q204150 a jp:Place ;
+    rdfs:label "Pinsk" .
+
+jp:Place_Q2044 a jp:Place ;
+    rdfs:label "Florence" .
+
+jp:Place_Q20489 a jp:Place ;
+    rdfs:label "Savigliano" .
+
+jp:Place_Q20492 a jp:Place ;
+    rdfs:label "Bechyně" .
+
+jp:Place_Q205632 a jp:Place ;
+    rdfs:label "Aubervilliers" .
+
+jp:Place_Q205679 a jp:Place ;
+    rdfs:label "London Borough of Hackney" .
+
+jp:Place_Q20571 a jp:Place ;
+    rdfs:label "Spoleto" .
+
+jp:Place_Q2061031 a jp:Place ;
+    rdfs:label "Zembin" .
+
+jp:Place_Q2063941 a jp:Place ;
+    rdfs:label "Václavice" .
+
+jp:Place_Q2065690 a jp:Place ;
+    rdfs:label "Pavlivka" .
+
+jp:Place_Q2068654 a jp:Place ;
+    rdfs:label "Kommunarka shooting ground" .
+
+jp:Place_Q206954 a jp:Place ;
+    rdfs:label "Kastoria" .
+
+jp:Place_Q206957 a jp:Place ;
+    rdfs:label "Serres" .
+
+jp:Place_Q206961 a jp:Place ;
+    rdfs:label "Épinay-sur-Seine" .
+
+jp:Place_Q207226 a jp:Place ;
+    rdfs:label "זלטה מורבצה" .
+
+jp:Place_Q2072590 a jp:Place ;
+    rdfs:label "Mstów" .
+
+jp:Place_Q207294 a jp:Place ;
+    rdfs:label "Babruysk" .
+
+jp:Place_Q207350 a jp:Place ;
+    rdfs:label "Rehovot" .
+
+jp:Place_Q207408 a jp:Place ;
+    rdfs:label "Vác" .
+
+jp:Place_Q207540 a jp:Place ;
+    rdfs:label "Lod" .
+
+jp:Place_Q207620 a jp:Place ;
+    rdfs:label "Meaux" .
+
+jp:Place_Q2076834 a jp:Place ;
+    rdfs:label "Izabielin" .
+
+jp:Place_Q2079 a jp:Place ;
+    rdfs:label "Leipzig" .
+
+jp:Place_Q208119 a jp:Place ;
+    rdfs:label "Altkirch" .
+
+jp:Place_Q208473 a jp:Place ;
+    rdfs:label "Przemyśl" .
+
+jp:Place_Q208499 a jp:Place ;
+    rdfs:label "Uman" .
+
+jp:Place_Q208573 a jp:Place ;
+    rdfs:label "Arta" .
+
+jp:Place_Q2086443 a jp:Place ;
+    rdfs:label "Moroccan franc" .
+
+jp:Place_Q208713 a jp:Place ;
+    rdfs:label "Ixelles" .
+
+jp:Place_Q208725 a jp:Place ;
+    rdfs:label "Bat Yam" .
+
+jp:Place_Q208750 a jp:Place ;
+    rdfs:label "Prievidza" .
+
+jp:Place_Q2087862 a jp:Place ;
+    rdfs:label "Shaare Zedek Medical Center" .
+
+jp:Place_Q208794 a jp:Place ;
+    rdfs:label "Lunéville" .
+
+jp:Place_Q2090 a jp:Place ;
+    rdfs:label "Nuremberg" .
+
+jp:Place_Q2090461 a jp:Place ;
+    rdfs:label "Arlington" .
+
+jp:Place_Q2092298 a jp:Place ;
+    rdfs:label "Taroudant Province" .
+
+jp:Place_Q2092533 a jp:Place ;
+    rdfs:label "Pidvolochysk" .
+
+jp:Place_Q209862 a jp:Place ;
+    rdfs:label "Largentière" .
+
+jp:Place_Q209932 a jp:Place ;
+    rdfs:label "Biała Podlaska" .
+
+jp:Place_Q209983 a jp:Place ;
+    rdfs:label "Gyöngyös" .
+
+jp:Place_Q209988 a jp:Place ;
+    rdfs:label "Gödöllő" .
+
+jp:Place_Q21 a jp:Place ;
+    rdfs:label "England" .
+
+jp:Place_Q2100 a jp:Place ;
+    rdfs:label "Duisburg" .
+
+jp:Place_Q210205 a jp:Place ;
+    rdfs:label "Pest" .
+
+jp:Place_Q2103 a jp:Place ;
+    rdfs:label "Bochum" .
+
+jp:Place_Q21065 a jp:Place ;
+    rdfs:label "Friedrichstadt" .
+
+jp:Place_Q210720 a jp:Place ;
+    rdfs:label "20th arrondissement of Paris" .
+
+jp:Place_Q210796 a jp:Place ;
+    rdfs:label "Komárno" .
+
+jp:Place_Q211 a jp:Place ;
+    rdfs:label "Latvia" .
+
+jp:Place_Q211377 a jp:Place ;
+    rdfs:label "Leyte" .
+
+jp:Place_Q2117476 a jp:Place ;
+    rdfs:label "Alon Shvut" .
+
+jp:Place_Q21181 a jp:Place ;
+    rdfs:label "Fredericia" .
+
+jp:Place_Q2119 a jp:Place ;
+    rdfs:label "Mannheim" .
+
+jp:Place_Q21197 a jp:Place ;
+    rdfs:label "Chișinău" .
+
+jp:Place_Q212 a jp:Place ;
+    rdfs:label "Ukraine" .
+
+jp:Place_Q2121733 a jp:Place ;
+    rdfs:label "Valkininkai" .
+
+jp:Place_Q212991 a jp:Place ;
+    rdfs:label "Santa Rosa" .
+
+jp:Place_Q213065 a jp:Place ;
+    rdfs:label "Pohrebyshche" .
+
+jp:Place_Q21312 a jp:Place ;
+    rdfs:label "Mommenheim" .
+
+jp:Place_Q213127 a jp:Place ;
+    rdfs:label "Ukmergė" .
+
+jp:Place_Q213274 a jp:Place ;
+    rdfs:label "Old City of Jerusalem" .
+
+jp:Place_Q2133213 a jp:Place ;
+    rdfs:label "Rauischholzhausen" .
+
+jp:Place_Q2135 a jp:Place ;
+    rdfs:label "Winnipeg" .
+
+jp:Place_Q2136259 a jp:Place ;
+    rdfs:label "Lelów" .
+
+jp:Place_Q21369 a jp:Place ;
+    rdfs:label "Niedernai" .
+
+jp:Place_Q21377 a jp:Place ;
+    rdfs:label "Traenheim" .
+
+jp:Place_Q214 a jp:Place ;
+    rdfs:label "Slovakia" .
+
+jp:Place_Q2145 a jp:Place ;
+    rdfs:label "Quebec City" .
+
+jp:Place_Q21489 a jp:Place ;
+    rdfs:label "Mackenheim" .
+
+jp:Place_Q214929 a jp:Place ;
+    rdfs:label "Pitigliano" .
+
+jp:Place_Q2149342 a jp:Place ;
+    rdfs:label "Jawornik Polski" .
+
+jp:Place_Q21494 a jp:Place ;
+    rdfs:label "Muttersholtz" .
+
+jp:Place_Q214942 a jp:Place ;
+    rdfs:label "Kazincbarcika" .
+
+jp:Place_Q214945 a jp:Place ;
+    rdfs:label "Pápa" .
+
+jp:Place_Q214948 a jp:Place ;
+    rdfs:label "Cegléd" .
+
+jp:Place_Q214956 a jp:Place ;
+    rdfs:label "Znojmo" .
+
+jp:Place_Q21503 a jp:Place ;
+    rdfs:label "Hochfelden" .
+
+jp:Place_Q215354 a jp:Place ;
+    rdfs:label "Notting Hill" .
+
+jp:Place_Q2153758 a jp:Place ;
+    rdfs:label "St John's Wood" .
+
+jp:Place_Q2154823 a jp:Place ;
+    rdfs:label "Moulay Ali Cherif" .
+
+jp:Place_Q21562 a jp:Place ;
+    rdfs:label "Westhoffen" .
+
+jp:Place_Q215633 a jp:Place ;
+    rdfs:label "Łomża" .
+
+jp:Place_Q215661 a jp:Place ;
+    rdfs:label "Gabès" .
+
+jp:Place_Q21570 a jp:Place ;
+    rdfs:label "Bischheim" .
+
+jp:Place_Q216 a jp:Place ;
+    rdfs:label "Vilnius" .
+
+jp:Place_Q216173 a jp:Place ;
+    rdfs:label "Free City of Danzig" .
+
+jp:Place_Q216372 a jp:Place ;
+    rdfs:label "Gateshead" .
+
+jp:Place_Q216939 a jp:Place ;
+    rdfs:label "Essaouira" .
+
+jp:Place_Q218 a jp:Place ;
+    rdfs:label "Romania" .
+
+jp:Place_Q218272 a jp:Place ;
+    rdfs:label "French Algeria" .
+
+jp:Place_Q2184 a jp:Place ;
+    rdfs:label "Russian Soviet Federative Socialist Republic" .
+
+jp:Place_Q21872 a jp:Place ;
+    rdfs:label "Hayange" .
+
+jp:Place_Q218980 a jp:Place ;
+    rdfs:label "Siemiatycze" .
+
+jp:Place_Q21933 a jp:Place ;
+    rdfs:label "Puttelange-aux-Lacs" .
+
+jp:Place_Q2195315 a jp:Place ;
+    rdfs:label "Tarłów" .
+
+jp:Place_Q219593 a jp:Place ;
+    rdfs:label "Talne" .
+
+jp:Place_Q219595 a jp:Place ;
+    rdfs:label "Smila" .
+
+jp:Place_Q219762 a jp:Place ;
+    rdfs:label "Volochysk" .
+
+jp:Place_Q219767 a jp:Place ;
+    rdfs:label "Dunaivtsi" .
+
+jp:Place_Q220 a jp:Place ;
+    rdfs:label "Rome" .
+
+jp:Place_Q22046 a jp:Place ;
+    rdfs:label "Metzervisse" .
+
+jp:Place_Q22083050 a jp:Place ;
+    rdfs:label "Frederick" .
+
+jp:Place_Q22115 a jp:Place ;
+    rdfs:label "Ars-Laquenexy" .
+
+jp:Place_Q2213125 a jp:Place ;
+    rdfs:label "Dobrá Voda" .
+
+jp:Place_Q2214068 a jp:Place ;
+    rdfs:label "Radenín" .
+
+jp:Place_Q221447 a jp:Place ;
+    rdfs:label "Ramla" .
+
+jp:Place_Q22147 a jp:Place ;
+    rdfs:label "Kœnigsmacker" .
+
+jp:Place_Q221495 a jp:Place ;
+    rdfs:label "Vinkovci" .
+
+jp:Place_Q22160 a jp:Place ;
+    rdfs:label "Phalsbourg" .
+
+jp:Place_Q2218834 a jp:Place ;
+    rdfs:label "Kołaczyce" .
+
+jp:Place_Q222251 a jp:Place ;
+    rdfs:label "Tabajd" .
+
+jp:Place_Q2222616 a jp:Place ;
+    rdfs:label "Telšiai" .
+
+jp:Place_Q22282 a jp:Place ;
+    rdfs:label "Lixheim" .
+
+jp:Place_Q223140 a jp:Place ;
+    rdfs:label "3rd arrondissement of Paris" .
+
+jp:Place_Q223353 a jp:Place ;
+    rdfs:label "Opatija" .
+
+jp:Place_Q223479 a jp:Place ;
+    rdfs:label "Dubník" .
+
+jp:Place_Q22392 a jp:Place ;
+    rdfs:label "Diemeringen" .
+
+jp:Place_Q22435 a jp:Place ;
+    rdfs:label "Lauterbourg" .
+
+jp:Place_Q2245433 a jp:Place ;
+    rdfs:label "Kulashi" .
+
+jp:Place_Q22477 a jp:Place ;
+    rdfs:label "Fegersheim" .
+
+jp:Place_Q224781 a jp:Place ;
+    rdfs:label "Monroe Township" .
+
+jp:Place_Q2248234 a jp:Place ;
+    rdfs:label "Darbėnai" .
+
+jp:Place_Q22507 a jp:Place ;
+    rdfs:label "Ingwiller" .
+
+jp:Place_Q22544 a jp:Place ;
+    rdfs:label "Sarrebourg" .
+
+jp:Place_Q2255774 a jp:Place ;
+    rdfs:label "Schweinshaupten" .
+
+jp:Place_Q2256 a jp:Place ;
+    rdfs:label "Birmingham" .
+
+jp:Place_Q2262291 a jp:Place ;
+    rdfs:label "Kawkaban" .
+
+jp:Place_Q22637 a jp:Place ;
+    rdfs:label "Brumath" .
+
+jp:Place_Q22639 a jp:Place ;
+    rdfs:label "Schiltigheim" .
+
+jp:Place_Q22642 a jp:Place ;
+    rdfs:label "Sarreguemines" .
+
+jp:Place_Q22690 a jp:Place ;
+    rdfs:label "Metz" .
+
+jp:Place_Q22695 a jp:Place ;
+    rdfs:label "Dieuze" .
+
+jp:Place_Q22727 a jp:Place ;
+    rdfs:label "Obernai" .
+
+jp:Place_Q22730 a jp:Place ;
+    rdfs:label "Haguenau" .
+
+jp:Place_Q22737 a jp:Place ;
+    rdfs:label "Sélestat" .
+
+jp:Place_Q22740 a jp:Place ;
+    rdfs:label "Bouxwiller" .
+
+jp:Place_Q22741 a jp:Place ;
+    rdfs:label "Saverne" .
+
+jp:Place_Q22745 a jp:Place ;
+    rdfs:label "Château-Salins" .
+
+jp:Place_Q2277 a jp:Place ;
+    rdfs:label "Roman Empire" .
+
+jp:Place_Q2277462 a jp:Place ;
+    rdfs:label "Eržvilkas" .
+
+jp:Place_Q22793 a jp:Place ;
+    rdfs:label "Balbronn" .
+
+jp:Place_Q2280 a jp:Place ;
+    rdfs:label "Minsk" .
+
+jp:Place_Q2281467 a jp:Place ;
+    rdfs:label "Luokė" .
+
+jp:Place_Q228445 a jp:Place ;
+    rdfs:label "Zugló" .
+
+jp:Place_Q22872 a jp:Place ;
+    rdfs:label "Walldorf" .
+
+jp:Place_Q22873 a jp:Place ;
+    rdfs:label "Eberbach" .
+
+jp:Place_Q22889 a jp:Place ;
+    rdfs:label "Bath" .
+
+jp:Place_Q22901 a jp:Place ;
+    rdfs:label "Bad Dürkheim" .
+
+jp:Place_Q22905 a jp:Place ;
+    rdfs:label "Bradford" .
+
+jp:Place_Q2291811 a jp:Place ;
+    rdfs:label "Kfar Etzion" .
+
+jp:Place_Q2294422 a jp:Place ;
+    rdfs:label "Grodno Governorate" .
+
+jp:Place_Q2296550 a jp:Place ;
+    rdfs:label "Sobědruhy" .
+
+jp:Place_Q2297044 a jp:Place ;
+    rdfs:label "Ilford" .
+
+jp:Place_Q22990 a jp:Place ;
+    rdfs:label "Rosheim" .
+
+jp:Place_Q23008 a jp:Place ;
+    rdfs:label "Mosbach" .
+
+jp:Place_Q230127 a jp:Place ;
+    rdfs:label "4th arrondissement of Paris" .
+
+jp:Place_Q2316 a jp:Place ;
+    rdfs:label "Kurów" .
+
+jp:Place_Q2317525 a jp:Place ;
+    rdfs:label "Baisogala" .
+
+jp:Place_Q2324455 a jp:Place ;
+    rdfs:label "Gmina Tyrawa Wołoska" .
+
+jp:Place_Q23306 a jp:Place ;
+    rdfs:label "Greater London" .
+
+jp:Place_Q2331605 a jp:Place ;
+    rdfs:label "Hadassah Medical Center" .
+
+jp:Place_Q234061 a jp:Place ;
+    rdfs:label "Erie" .
+
+jp:Place_Q2341034 a jp:Place ;
+    rdfs:label "Bobowa" .
+
+jp:Place_Q234184 a jp:Place ;
+    rdfs:label "Chełm" .
+
+jp:Place_Q23436 a jp:Place ;
+    rdfs:label "Edinburgh" .
+
+jp:Place_Q234600 a jp:Place ;
+    rdfs:label "Al Ain" .
+
+jp:Place_Q23482 a jp:Place ;
+    rdfs:label "Marseille" .
+
+jp:Place_Q2351804 a jp:Place ;
+    rdfs:label "Trzcianne" .
+
+jp:Place_Q2354222 a jp:Place ;
+    rdfs:label "Crown Heights" .
+
+jp:Place_Q23556 a jp:Place ;
+    rdfs:label "Atlanta" .
+
+jp:Place_Q2356396 a jp:Place ;
+    rdfs:label "Šeduva" .
+
+jp:Place_Q2356424 a jp:Place ;
+    rdfs:label "Joniškėlis" .
+
+jp:Place_Q236083 a jp:Place ;
+    rdfs:label "Suwałki" .
+
+jp:Place_Q2363612 a jp:Place ;
+    rdfs:label "Żołynia" .
+
+jp:Place_Q23661 a jp:Place ;
+    rdfs:label "Wellington" .
+
+jp:Place_Q236644 a jp:Place ;
+    rdfs:label "Closter" .
+
+jp:Place_Q237655 a jp:Place ;
+    rdfs:label "Baranavichy" .
+
+jp:Place_Q237674 a jp:Place ;
+    rdfs:label "Saint-Gilles" .
+
+jp:Place_Q23768 a jp:Place ;
+    rdfs:label "Las Vegas" .
+
+jp:Place_Q23792 a jp:Place ;
+    rdfs:label "Palestine" .
+
+jp:Place_Q238723 a jp:Place ;
+    rdfs:label "5th arrondissement of Paris" .
+
+jp:Place_Q2389508 a jp:Place ;
+    rdfs:label "Kfar Shmaryahu" .
+
+jp:Place_Q239 a jp:Place ;
+    rdfs:label "City of Brussels" .
+
+jp:Place_Q2391335 a jp:Place ;
+    rdfs:label "Yarmolyntsi" .
+
+jp:Place_Q2392709 a jp:Place ;
+    rdfs:label "Milejczyce" .
+
+jp:Place_Q239519 a jp:Place ;
+    rdfs:label "Vultureni" .
+
+jp:Place_Q239976 a jp:Place ;
+    rdfs:label "Srpski Itebej" .
+
+jp:Place_Q24013046 a jp:Place ;
+    rdfs:label "Agramunt" .
+
+jp:Place_Q240475 a jp:Place ;
+    rdfs:label "Kashan" .
+
+jp:Place_Q240504 a jp:Place ;
+    rdfs:label "Makó" .
+
+jp:Place_Q2405047 a jp:Place ;
+    rdfs:label "Pawonków" .
+
+jp:Place_Q2406383 a jp:Place ;
+    rdfs:label "Magnuszew" .
+
+jp:Place_Q241 a jp:Place ;
+    rdfs:label "Cuba" .
+
+jp:Place_Q241125 a jp:Place ;
+    rdfs:label "Sobrance" .
+
+jp:Place_Q2412514 a jp:Place ;
+    rdfs:label "Mount Kisco" .
+
+jp:Place_Q241475 a jp:Place ;
+    rdfs:label "Lida" .
+
+jp:Place_Q2416499 a jp:Place ;
+    rdfs:label "Theilheim" .
+
+jp:Place_Q2416525 a jp:Place ;
+    rdfs:label "Toretsk" .
+
+jp:Place_Q2429670 a jp:Place ;
+    rdfs:label "Canton" .
+
+jp:Place_Q2433817 a jp:Place ;
+    rdfs:label "Uchanie" .
+
+jp:Place_Q2439514 a jp:Place ;
+    rdfs:label "Narol" .
+
+jp:Place_Q244 a jp:Place ;
+    rdfs:label "Barbados" .
+
+jp:Place_Q244271 a jp:Place ;
+    rdfs:label "Garges-lès-Gonesse" .
+
+jp:Place_Q244433 a jp:Place ;
+    rdfs:label "Civenna" .
+
+jp:Place_Q2446336 a jp:Place ;
+    rdfs:label "Haradzišča" .
+
+jp:Place_Q244747 a jp:Place ;
+    rdfs:label "Tudela" .
+
+jp:Place_Q245537 a jp:Place ;
+    rdfs:label "6th arrondissement of Marseille" .
+
+jp:Place_Q2460958 a jp:Place ;
+    rdfs:label "Gmina Kozienice" .
+
+jp:Place_Q246199 a jp:Place ;
+    rdfs:label "Garches" .
+
+jp:Place_Q24639 a jp:Place ;
+    rdfs:label "Vancouver" .
+
+jp:Place_Q2464812 a jp:Place ;
+    rdfs:label "Grīva" .
+
+jp:Place_Q246723 a jp:Place ;
+    rdfs:label "Záhony" .
+
+jp:Place_Q2469901 a jp:Place ;
+    rdfs:label "Torchyn" .
+
+jp:Place_Q247003 a jp:Place ;
+    rdfs:label "Kiryat Arba" .
+
+jp:Place_Q2471 a jp:Place ;
+    rdfs:label "Sanaa" .
+
+jp:Place_Q2471767 a jp:Place ;
+    rdfs:label "Šarašova" .
+
+jp:Place_Q2471796 a jp:Place ;
+    rdfs:label "Paryčy" .
+
+jp:Place_Q2475182 a jp:Place ;
+    rdfs:label "Pardes Hanna-Karkur" .
+
+jp:Place_Q247620 a jp:Place ;
+    rdfs:label "Fiľakovo" .
+
+jp:Place_Q2478305 a jp:Place ;
+    rdfs:label "Porazava" .
+
+jp:Place_Q2479614 a jp:Place ;
+    rdfs:label "Balfouria" .
+
+jp:Place_Q248144 a jp:Place ;
+    rdfs:label "Biała" .
+
+jp:Place_Q24826 a jp:Place ;
+    rdfs:label "Liverpool" .
+
+jp:Place_Q2482767 a jp:Place ;
+    rdfs:label "Dubno" .
+
+jp:Place_Q2483374 a jp:Place ;
+    rdfs:label "Butrimonys" .
+
+jp:Place_Q24861 a jp:Place ;
+    rdfs:label "Albany" .
+
+jp:Place_Q24879 a jp:Place ;
+    rdfs:label "Bremen" .
+
+jp:Place_Q249166 a jp:Place ;
+    rdfs:label "Złotów" .
+
+jp:Place_Q2494413 a jp:Place ;
+    rdfs:label "Loyew" .
+
+jp:Place_Q249498 a jp:Place ;
+    rdfs:label "Budapest District X" .
+
+jp:Place_Q2495402 a jp:Place ;
+    rdfs:label "Kfar Vitkin" .
+
+jp:Place_Q250485 a jp:Place ;
+    rdfs:label "Sochaczew" .
+
+jp:Place_Q250832 a jp:Place ;
+    rdfs:label "Mattersburg" .
+
+jp:Place_Q252 a jp:Place ;
+    rdfs:label "Indonesia" .
+
+jp:Place_Q252313 a jp:Place ;
+    rdfs:label "Ároktő" .
+
+jp:Place_Q252325 a jp:Place ;
+    rdfs:label "Hajdúdorog" .
+
+jp:Place_Q25280 a jp:Place ;
+    rdfs:label "Harrisburg" .
+
+jp:Place_Q25287 a jp:Place ;
+    rdfs:label "Gothenburg" .
+
+jp:Place_Q25302 a jp:Place ;
+    rdfs:label "Racibórz" .
+
+jp:Place_Q25330 a jp:Place ;
+    rdfs:label "Trenton" .
+
+jp:Place_Q25390 a jp:Place ;
+    rdfs:label "Leeuwarden" .
+
+jp:Place_Q25394915 a jp:Place ;
+    rdfs:label "Óbuda" .
+
+jp:Place_Q25395 a jp:Place ;
+    rdfs:label "Newark" .
+
+jp:Place_Q2540234 a jp:Place ;
+    rdfs:label "Demnate" .
+
+jp:Place_Q25409 a jp:Place ;
+    rdfs:label "Košice" .
+
+jp:Place_Q25488547 a jp:Place ;
+    rdfs:label "קריית ישמח משה" .
+
+jp:Place_Q255604 a jp:Place ;
+    rdfs:label "Rechnitz" .
+
+jp:Place_Q25607 a jp:Place ;
+    rdfs:label "St. Gallen" .
+
+jp:Place_Q2561450 a jp:Place ;
+    rdfs:label "Tel Aviv Sourasky Medical Center" .
+
+jp:Place_Q256307 a jp:Place ;
+    rdfs:label "Stadtschlaining" .
+
+jp:Place_Q256801 a jp:Place ;
+    rdfs:label "Zhuravno" .
+
+jp:Place_Q2570492 a jp:Place ;
+    rdfs:label "Kfar Chabad" .
+
+jp:Place_Q2573951 a jp:Place ;
+    rdfs:label "Šnipiškės" .
+
+jp:Place_Q25797 a jp:Place ;
+    rdfs:label "Žilina" .
+
+jp:Place_Q258 a jp:Place ;
+    rdfs:label "South Africa" .
+
+jp:Place_Q2580559 a jp:Place ;
+    rdfs:label "Mezhirichi" .
+
+jp:Place_Q258481 a jp:Place ;
+    rdfs:label "Púchov" .
+
+jp:Place_Q258855 a jp:Place ;
+    rdfs:label "Nižná Myšľa" .
+
+jp:Place_Q258981 a jp:Place ;
+    rdfs:label "Lugoj" .
+
+jp:Place_Q259272 a jp:Place ;
+    rdfs:label "Gargždai" .
+
+jp:Place_Q259463 a jp:Place ;
+    rdfs:label "7th arrondissement of Paris" .
+
+jp:Place_Q259617 a jp:Place ;
+    rdfs:label "Wasserburg am Inn" .
+
+jp:Place_Q2596991 a jp:Place ;
+    rdfs:label "Liubča" .
+
+jp:Place_Q2597135 a jp:Place ;
+    rdfs:label "Ofra" .
+
+jp:Place_Q2599571 a jp:Place ;
+    rdfs:label "Crete eyalet" .
+
+jp:Place_Q2602963 a jp:Place ;
+    rdfs:label "Zolotyi Potik" .
+
+jp:Place_Q2602975 a jp:Place ;
+    rdfs:label "Novi Strilyshcha" .
+
+jp:Place_Q2603008 a jp:Place ;
+    rdfs:label "Narodychi" .
+
+jp:Place_Q260522 a jp:Place ;
+    rdfs:label "Bácsalmás" .
+
+jp:Place_Q2608314 a jp:Place ;
+    rdfs:label "Mărculești" .
+
+jp:Place_Q26119 a jp:Place ;
+    rdfs:label "Prešov" .
+
+jp:Place_Q2614813 a jp:Place ;
+    rdfs:label "Be'erot Yitzhak" .
+
+jp:Place_Q26175 a jp:Place ;
+    rdfs:label "Trnava" .
+
+jp:Place_Q2626422 a jp:Place ;
+    rdfs:label "Akka" .
+
+jp:Place_Q2628593 a jp:Place ;
+    rdfs:label "Bielsko" .
+
+jp:Place_Q2629630 a jp:Place ;
+    rdfs:label "Sataniv" .
+
+jp:Place_Q2630517 a jp:Place ;
+    rdfs:label "Kruhlaje" .
+
+jp:Place_Q2630628 a jp:Place ;
+    rdfs:label "Chocimsk" .
+
+jp:Place_Q2632629 a jp:Place ;
+    rdfs:label "Vasilishki" .
+
+jp:Place_Q2633540 a jp:Place ;
+    rdfs:label "Sculeni" .
+
+jp:Place_Q26339 a jp:Place ;
+    rdfs:label "Jersey City" .
+
+jp:Place_Q2634 a jp:Place ;
+    rdfs:label "Naples" .
+
+jp:Place_Q263758 a jp:Place ;
+    rdfs:label "Soultzmatt" .
+
+jp:Place_Q26397 a jp:Place ;
+    rdfs:label "Nitra" .
+
+jp:Place_Q2640170 a jp:Place ;
+    rdfs:label "Be'er Ya'akov" .
+
+jp:Place_Q2641606 a jp:Place ;
+    rdfs:label "Ruzhyn" .
+
+jp:Place_Q26421 a jp:Place ;
+    rdfs:label "Dordrecht" .
+
+jp:Place_Q2648217 a jp:Place ;
+    rdfs:label "Komarów-Osada" .
+
+jp:Place_Q265185 a jp:Place ;
+    rdfs:label "Kovácsvágás" .
+
+jp:Place_Q2652167 a jp:Place ;
+    rdfs:label "Shpykiv" .
+
+jp:Place_Q2661930 a jp:Place ;
+    rdfs:label "Kunratice" .
+
+jp:Place_Q2662063 a jp:Place ;
+    rdfs:label "Boiany" .
+
+jp:Place_Q2664126 a jp:Place ;
+    rdfs:label "Bukowsko" .
+
+jp:Place_Q2668941 a jp:Place ;
+    rdfs:label "Woodmere" .
+
+jp:Place_Q2678 a jp:Place ;
+    rdfs:label "Gomel" .
+
+jp:Place_Q267888 a jp:Place ;
+    rdfs:label "Rožňava" .
+
+jp:Place_Q268 a jp:Place ;
+    rdfs:label "Poznań" .
+
+jp:Place_Q268025 a jp:Place ;
+    rdfs:label "Vauvert" .
+
+jp:Place_Q268656 a jp:Place ;
+    rdfs:label "Dobromyl" .
+
+jp:Place_Q2693044 a jp:Place ;
+    rdfs:label "Szczawnik" .
+
+jp:Place_Q269530 a jp:Place ;
+    rdfs:label "Khorol" .
+
+jp:Place_Q2695642 a jp:Place ;
+    rdfs:label "Sokoły" .
+
+jp:Place_Q270 a jp:Place ;
+    rdfs:label "Warsaw" .
+
+jp:Place_Q27001 a jp:Place ;
+    rdfs:label "Martin" .
+
+jp:Place_Q2701184 a jp:Place ;
+    rdfs:label "Gilat" .
+
+jp:Place_Q270230 a jp:Place ;
+    rdfs:label "8th arrondissement of Paris" .
+
+jp:Place_Q27064 a jp:Place ;
+    rdfs:label "Jendouba" .
+
+jp:Place_Q270656 a jp:Place ;
+    rdfs:label "Płońsk" .
+
+jp:Place_Q270704 a jp:Place ;
+    rdfs:label "Třebíč" .
+
+jp:Place_Q2707138 a jp:Place ;
+    rdfs:label "RaguVa" .
+
+jp:Place_Q2710598 a jp:Place ;
+    rdfs:label "Cherry Hill" .
+
+jp:Place_Q27125 a jp:Place ;
+    rdfs:label "Khaybar" .
+
+jp:Place_Q271395 a jp:Place ;
+    rdfs:label "Scranton" .
+
+jp:Place_Q2716505 a jp:Place ;
+    rdfs:label "Stamford Hill" .
+
+jp:Place_Q2718227 a jp:Place ;
+    rdfs:label "Khvansar" .
+
+jp:Place_Q272040 a jp:Place ;
+    rdfs:label "Liptovský Mikuláš" .
+
+jp:Place_Q272093 a jp:Place ;
+    rdfs:label "Sanandaj" .
+
+jp:Place_Q2734 a jp:Place ;
+    rdfs:label "Skierniewice" .
+
+jp:Place_Q273801 a jp:Place ;
+    rdfs:label "Dej" .
+
+jp:Place_Q27381 a jp:Place ;
+    rdfs:label "North Africa" .
+
+jp:Place_Q274183 a jp:Place ;
+    rdfs:label "Bagnols-sur-Cèze" .
+
+jp:Place_Q2742 a jp:Place ;
+    rdfs:label "Münster" .
+
+jp:Place_Q2749 a jp:Place ;
+    rdfs:label "Augsburg" .
+
+jp:Place_Q275118 a jp:Place ;
+    rdfs:label "9th arrondissement of Paris" .
+
+jp:Place_Q27541 a jp:Place ;
+    rdfs:label "Ružomberok" .
+
+jp:Place_Q275592 a jp:Place ;
+    rdfs:label "Pińczów" .
+
+jp:Place_Q275694 a jp:Place ;
+    rdfs:label "Opatów" .
+
+jp:Place_Q2758 a jp:Place ;
+    rdfs:label "Mönchengladbach" .
+
+jp:Place_Q275981 a jp:Place ;
+    rdfs:label "Podu Iloaiei" .
+
+jp:Place_Q276362 a jp:Place ;
+    rdfs:label "Nové Zámky" .
+
+jp:Place_Q276857 a jp:Place ;
+    rdfs:label "Warka" .
+
+jp:Place_Q2773 a jp:Place ;
+    rdfs:label "Brunswick" .
+
+jp:Place_Q2776804 a jp:Place ;
+    rdfs:label "Eitan" .
+
+jp:Place_Q2777361 a jp:Place ;
+    rdfs:label "Parod" .
+
+jp:Place_Q2777371 a jp:Place ;
+    rdfs:label "Kvutzat Shiller" .
+
+jp:Place_Q2778158 a jp:Place ;
+    rdfs:label "Kiryat HaYovel" .
+
+jp:Place_Q2778236 a jp:Place ;
+    rdfs:label "Beit Meir" .
+
+jp:Place_Q2778297 a jp:Place ;
+    rdfs:label "770 Eastern Parkway Chabad Lubavitch HQ" .
+
+jp:Place_Q277936 a jp:Place ;
+    rdfs:label "Kudirkos Naumiestis" .
+
+jp:Place_Q278743 a jp:Place ;
+    rdfs:label "Navahrudak" .
+
+jp:Place_Q27899309 a jp:Place ;
+    rdfs:label "Leningrad" .
+
+jp:Place_Q279 a jp:Place ;
+    rdfs:label "Modena" .
+
+jp:Place_Q27907 a jp:Place ;
+    rdfs:label "Bytča" .
+
+jp:Place_Q2795 a jp:Place ;
+    rdfs:label "Chemnitz" .
+
+jp:Place_Q279890 a jp:Place ;
+    rdfs:label "Germantown" .
+
+jp:Place_Q28 a jp:Place ;
+    rdfs:label "Hungary" .
+
+jp:Place_Q2805 a jp:Place ;
+    rdfs:label "Krefeld" .
+
+jp:Place_Q2814 a jp:Place ;
+    rdfs:label "Halle (Saale)" .
+
+jp:Place_Q28237 a jp:Place ;
+    rdfs:label "Lansing" .
+
+jp:Place_Q282380 a jp:Place ;
+    rdfs:label "Jedwabne" .
+
+jp:Place_Q282460 a jp:Place ;
+    rdfs:label "Nagymaros" .
+
+jp:Place_Q282824 a jp:Place ;
+    rdfs:label "Busk" .
+
+jp:Place_Q2833 a jp:Place ;
+    rdfs:label "Freiburg im Breisgau" .
+
+jp:Place_Q283505 a jp:Place ;
+    rdfs:label "Mihályi" .
+
+jp:Place_Q2841 a jp:Place ;
+    rdfs:label "Bogotá" .
+
+jp:Place_Q2843 a jp:Place ;
+    rdfs:label "Lübeck" .
+
+jp:Place_Q2845251 a jp:Place ;
+    rdfs:label "Balbieriškis" .
+
+jp:Place_Q284541 a jp:Place ;
+    rdfs:label "Budapest District VII" .
+
+jp:Place_Q28513 a jp:Place ;
+    rdfs:label "Austria–Hungary" .
+
+jp:Place_Q28516 a jp:Place ;
+    rdfs:label "Tarnobrzeg" .
+
+jp:Place_Q28587 a jp:Place ;
+    rdfs:label "Hamadan" .
+
+jp:Place_Q285879 a jp:Place ;
+    rdfs:label "Bingen am Rhein" .
+
+jp:Place_Q2861 a jp:Place ;
+    rdfs:label "Rostock" .
+
+jp:Place_Q2865 a jp:Place ;
+    rdfs:label "Kassel" .
+
+jp:Place_Q286696 a jp:Place ;
+    rdfs:label "Krynki" .
+
+jp:Place_Q28722923 a jp:Place ;
+    rdfs:label "Kistarcsa concentration camp" .
+
+jp:Place_Q28726684 a jp:Place ;
+    rdfs:label "Annecy" .
+
+jp:Place_Q2875399 a jp:Place ;
+    rdfs:label "Vandžiogala" .
+
+jp:Place_Q28864640 a jp:Place ;
+    rdfs:label "Sulzbürg" .
+
+jp:Place_Q2887 a jp:Place ;
+    rdfs:label "Santiago" .
+
+jp:Place_Q2889421 a jp:Place ;
+    rdfs:label "Sa'ad" .
+
+jp:Place_Q2889590 a jp:Place ;
+    rdfs:label "Kfar Pines" .
+
+jp:Place_Q2889873 a jp:Place ;
+    rdfs:label "Sde Eliyahu" .
+
+jp:Place_Q2890412 a jp:Place ;
+    rdfs:label "Ma'abarot" .
+
+jp:Place_Q2894601 a jp:Place ;
+    rdfs:label "Wolkait" .
+
+jp:Place_Q289843 a jp:Place ;
+    rdfs:label "Szentpéterúr" .
+
+jp:Place_Q29 a jp:Place ;
+    rdfs:label "Spain" .
+
+jp:Place_Q2901206 a jp:Place ;
+    rdfs:label "Usha" .
+
+jp:Place_Q2906317 a jp:Place ;
+    rdfs:label "Hatikva Quarter" .
+
+jp:Place_Q2910711 a jp:Place ;
+    rdfs:label "Magdiel" .
+
+jp:Place_Q2911280 a jp:Place ;
+    rdfs:label "Borough Park" .
+
+jp:Place_Q2915001 a jp:Place ;
+    rdfs:label "Peki'in" .
+
+jp:Place_Q2915012 a jp:Place ;
+    rdfs:label "Sheba Medical Center" .
+
+jp:Place_Q2916142 a jp:Place ;
+    rdfs:label "Kiryat Moshe" .
+
+jp:Place_Q2916387 a jp:Place ;
+    rdfs:label "Motza" .
+
+jp:Place_Q2916604 a jp:Place ;
+    rdfs:label "Katamon" .
+
+jp:Place_Q2916609 a jp:Place ;
+    rdfs:label "Beit Yisrael" .
+
+jp:Place_Q2917084 a jp:Place ;
+    rdfs:label "Sde Ya'akov" .
+
+jp:Place_Q2917229 a jp:Place ;
+    rdfs:label "Wodzisław" .
+
+jp:Place_Q2917470 a jp:Place ;
+    rdfs:label "Monsey" .
+
+jp:Place_Q2917479 a jp:Place ;
+    rdfs:label "New Square" .
+
+jp:Place_Q2918008 a jp:Place ;
+    rdfs:label "Laniado Hospital" .
+
+jp:Place_Q2918524 a jp:Place ;
+    rdfs:label "Bayit VeGan" .
+
+jp:Place_Q2918928 a jp:Place ;
+    rdfs:label "Meir Hospital" .
+
+jp:Place_Q2919398 a jp:Place ;
+    rdfs:label "Romema" .
+
+jp:Place_Q2919897 a jp:Place ;
+    rdfs:label "Kfar Haroeh" .
+
+jp:Place_Q2920219 a jp:Place ;
+    rdfs:label "Kvutzat Yavne" .
+
+jp:Place_Q2920508 a jp:Place ;
+    rdfs:label "Indura" .
+
+jp:Place_Q292455 a jp:Place ;
+    rdfs:label "At Tawilah" .
+
+jp:Place_Q292927 a jp:Place ;
+    rdfs:label "Óbuda" .
+
+jp:Place_Q2933 a jp:Place ;
+    rdfs:label "Asunción" .
+
+jp:Place_Q2936 a jp:Place ;
+    rdfs:label "Oldenburg" .
+
+jp:Place_Q29364 a jp:Place ;
+    rdfs:label "Montgomery" .
+
+jp:Place_Q295367 a jp:Place ;
+    rdfs:label "Nagyatád" .
+
+jp:Place_Q2966 a jp:Place ;
+    rdfs:label "Heidelberg" .
+
+jp:Place_Q2973 a jp:Place ;
+    rdfs:label "Darmstadt" .
+
+jp:Place_Q2975875 a jp:Place ;
+    rdfs:label "Ramat Magshimim" .
+
+jp:Place_Q2978 a jp:Place ;
+    rdfs:label "Regensburg" .
+
+jp:Place_Q2995144 a jp:Place ;
+    rdfs:label "Ivianiec" .
+
+jp:Place_Q2995174 a jp:Place ;
+    rdfs:label "Hlusk" .
+
+jp:Place_Q2995176 a jp:Place ;
+    rdfs:label "Raduń" .
+
+jp:Place_Q2999 a jp:Place ;
+    rdfs:label "Würzburg" .
+
+jp:Place_Q30 a jp:Place ;
+    rdfs:label "United States" .
+
+jp:Place_Q3001 a jp:Place ;
+    rdfs:label "Paramaribo" .
+
+jp:Place_Q3004498 a jp:Place ;
+    rdfs:label "Pikeliai" .
+
+jp:Place_Q3012 a jp:Place ;
+    rdfs:label "Ulm" .
+
+jp:Place_Q3016720 a jp:Place ;
+    rdfs:label "Deal" .
+
+jp:Place_Q30277 a jp:Place ;
+    rdfs:label "161" .
+
+jp:Place_Q302916 a jp:Place ;
+    rdfs:label "Wiesenbronn" .
+
+jp:Place_Q303015 a jp:Place ;
+    rdfs:label "Fălticeni" .
+
+jp:Place_Q304189 a jp:Place ;
+    rdfs:label "Strážnice" .
+
+jp:Place_Q3042 a jp:Place ;
+    rdfs:label "Offenbach am Main" .
+
+jp:Place_Q304304 a jp:Place ;
+    rdfs:label "Tállya" .
+
+jp:Place_Q304801 a jp:Place ;
+    rdfs:label "Middletown" .
+
+jp:Place_Q304803 a jp:Place ;
+    rdfs:label "Mezőcsát" .
+
+jp:Place_Q305154 a jp:Place ;
+    rdfs:label "Szczekociny" .
+
+jp:Place_Q3055022 a jp:Place ;
+    rdfs:label "Vainutas" .
+
+jp:Place_Q305749 a jp:Place ;
+    rdfs:label "Abaújszántó" .
+
+jp:Place_Q3075 a jp:Place ;
+    rdfs:label "Fürth" .
+
+jp:Place_Q3077771 a jp:Place ;
+    rdfs:label "Jabłonna" .
+
+jp:Place_Q309164 a jp:Place ;
+    rdfs:label "Ra'anana" .
+
+jp:Place_Q30974 a jp:Place ;
+    rdfs:label "Rouen" .
+
+jp:Place_Q31 a jp:Place ;
+    rdfs:label "Belgium" .
+
+jp:Place_Q3104 a jp:Place ;
+    rdfs:label "Koblenz" .
+
+jp:Place_Q3126 a jp:Place ;
+    rdfs:label "Erlangen" .
+
+jp:Place_Q3129705 a jp:Place ;
+    rdfs:label "Kriukai" .
+
+jp:Place_Q3130 a jp:Place ;
+    rdfs:label "Sydney" .
+
+jp:Place_Q3138 a jp:Place ;
+    rdfs:label "Trier" .
+
+jp:Place_Q3141 a jp:Place ;
+    rdfs:label "Melbourne" .
+
+jp:Place_Q3141156 a jp:Place ;
+    rdfs:label "Radoszyce" .
+
+jp:Place_Q31487 a jp:Place ;
+    rdfs:label "Kraków" .
+
+jp:Place_Q315389 a jp:Place ;
+    rdfs:label "Gleidingen" .
+
+jp:Place_Q316073 a jp:Place ;
+    rdfs:label "Niederursel" .
+
+jp:Place_Q316109 a jp:Place ;
+    rdfs:label "Maly Trostenets" .
+
+jp:Place_Q316891 a jp:Place ;
+    rdfs:label "Montmorency" .
+
+jp:Place_Q317134 a jp:Place ;
+    rdfs:label "Hagenthal-le-Bas" .
+
+jp:Place_Q317287 a jp:Place ;
+    rdfs:label "Dambach-la-Ville" .
+
+jp:Place_Q318082 a jp:Place ;
+    rdfs:label "Lunel" .
+
+jp:Place_Q318168 a jp:Place ;
+    rdfs:label "Bergheim" .
+
+jp:Place_Q3183314 a jp:Place ;
+    rdfs:label "Kražiai" .
+
+jp:Place_Q3185 a jp:Place ;
+    rdfs:label "Hildesheim" .
+
+jp:Place_Q319242 a jp:Place ;
+    rdfs:label "Caesarea Maritima" .
+
+jp:Place_Q31925769 a jp:Place ;
+    rdfs:label "Burghaslach" .
+
+jp:Place_Q319654 a jp:Place ;
+    rdfs:label "LaGuardia Airport" .
+
+jp:Place_Q319813 a jp:Place ;
+    rdfs:label "Siedlce" .
+
+jp:Place_Q320260 a jp:Place ;
+    rdfs:label "Coucy-le-Château-Auffrique" .
+
+jp:Place_Q320514 a jp:Place ;
+    rdfs:label "Lancaster" .
+
+jp:Place_Q32066 a jp:Place ;
+    rdfs:label "Zell am Main" .
+
+jp:Place_Q321074 a jp:Place ;
+    rdfs:label "Piešťany" .
+
+jp:Place_Q321107 a jp:Place ;
+    rdfs:label "Katyn" .
+
+jp:Place_Q321381 a jp:Place ;
+    rdfs:label "Abingdon-on-Thames" .
+
+jp:Place_Q322828 a jp:Place ;
+    rdfs:label "Brčko" .
+
+jp:Place_Q324707 a jp:Place ;
+    rdfs:label "Baisingen" .
+
+jp:Place_Q324880 a jp:Place ;
+    rdfs:label "Proszowice" .
+
+jp:Place_Q324888 a jp:Place ;
+    rdfs:label "Sępólno Krajeńskie" .
+
+jp:Place_Q324892 a jp:Place ;
+    rdfs:label "Staszów" .
+
+jp:Place_Q3249 a jp:Place ;
+    rdfs:label "Calvados" .
+
+jp:Place_Q324941 a jp:Place ;
+    rdfs:label "Żnin" .
+
+jp:Place_Q325029 a jp:Place ;
+    rdfs:label "Hattstatt" .
+
+jp:Place_Q325251 a jp:Place ;
+    rdfs:label "Golub-Dobrzyń" .
+
+jp:Place_Q325727 a jp:Place ;
+    rdfs:label "Łęczyca" .
+
+jp:Place_Q326568 a jp:Place ;
+    rdfs:label "Biesheim" .
+
+jp:Place_Q327413 a jp:Place ;
+    rdfs:label "Kiryat Shmona" .
+
+jp:Place_Q327977 a jp:Place ;
+    rdfs:label "Kežmarok" .
+
+jp:Place_Q328153 a jp:Place ;
+    rdfs:label "Damanhur" .
+
+jp:Place_Q3291153 a jp:Place ;
+    rdfs:label "Bolsward" .
+
+jp:Place_Q329153 a jp:Place ;
+    rdfs:label "Friesenhausen" .
+
+jp:Place_Q329768 a jp:Place ;
+    rdfs:label "Tata" .
+
+jp:Place_Q329775 a jp:Place ;
+    rdfs:label "Kiskunhalas" .
+
+jp:Place_Q330171 a jp:Place ;
+    rdfs:label "Újfehértó" .
+
+jp:Place_Q330302 a jp:Place ;
+    rdfs:label "Úsov" .
+
+jp:Place_Q331087 a jp:Place ;
+    rdfs:label "Creil" .
+
+jp:Place_Q3316406 a jp:Place ;
+    rdfs:label "Žeimelis" .
+
+jp:Place_Q3318223 a jp:Place ;
+    rdfs:label "Q3318223" .
+
+jp:Place_Q333540 a jp:Place ;
+    rdfs:label "Hégenheim" .
+
+jp:Place_Q3344 a jp:Place ;
+    rdfs:label "2nd arrondissement of Lyon" .
+
+jp:Place_Q3348 a jp:Place ;
+    rdfs:label "3rd arrondissement of Lyon" .
+
+jp:Place_Q33486 a jp:Place ;
+    rdfs:label "Hartford" .
+
+jp:Place_Q334874 a jp:Place ;
+    rdfs:label "Sighetu Marmației" .
+
+jp:Place_Q33523 a jp:Place ;
+    rdfs:label "Turec" .
+
+jp:Place_Q33544 a jp:Place ;
+    rdfs:label "Volodymyr" .
+
+jp:Place_Q3358 a jp:Place ;
+    rdfs:label "6th arrondissement of Lyon" .
+
+jp:Place_Q335868 a jp:Place ;
+    rdfs:label "Bârlad" .
+
+jp:Place_Q336204 a jp:Place ;
+    rdfs:label "Grajewo" .
+
+jp:Place_Q336375 a jp:Place ;
+    rdfs:label "Ropczyce" .
+
+jp:Place_Q336386 a jp:Place ;
+    rdfs:label "Dukla" .
+
+jp:Place_Q337751 a jp:Place ;
+    rdfs:label "Nehardea" .
+
+jp:Place_Q339213 a jp:Place ;
+    rdfs:label "Černá Hora" .
+
+jp:Place_Q33935 a jp:Place ;
+    rdfs:label "Tel Aviv" .
+
+jp:Place_Q339374 a jp:Place ;
+    rdfs:label "Felpéc" .
+
+jp:Place_Q33946 a jp:Place ;
+    rdfs:label "Czechoslovakia" .
+
+jp:Place_Q3394767 a jp:Place ;
+    rdfs:label "Rebrín" .
+
+jp:Place_Q3395336 a jp:Place ;
+    rdfs:label "Gwrych Castle" .
+
+jp:Place_Q33959 a jp:Place ;
+    rdfs:label "Nice" .
+
+jp:Place_Q340 a jp:Place ;
+    rdfs:label "Montreal" .
+
+jp:Place_Q34006 a jp:Place ;
+    rdfs:label "Hollywood" .
+
+jp:Place_Q34069 a jp:Place ;
+    rdfs:label "Ashkenazi Jews" .
+
+jp:Place_Q3415 a jp:Place ;
+    rdfs:label "Ancona" .
+
+jp:Place_Q34217 a jp:Place ;
+    rdfs:label "Oxford" .
+
+jp:Place_Q34266 a jp:Place ;
+    rdfs:label "Russian Empire" .
+
+jp:Place_Q34267 a jp:Place ;
+    rdfs:label "Międzyrzec Podlaski" .
+
+jp:Place_Q342803 a jp:Place ;
+    rdfs:label "Portsmouth" .
+
+jp:Place_Q3437 a jp:Place ;
+    rdfs:label "Perugia" .
+
+jp:Place_Q34370 a jp:Place ;
+    rdfs:label "Rotterdam" .
+
+jp:Place_Q34374 a jp:Place ;
+    rdfs:label "Crete" .
+
+jp:Place_Q34404 a jp:Place ;
+    rdfs:label "New Orleans" .
+
+jp:Place_Q345163 a jp:Place ;
+    rdfs:label "Łabiszyn" .
+
+jp:Place_Q3452979 a jp:Place ;
+    rdfs:label "Johnson City" .
+
+jp:Place_Q345386 a jp:Place ;
+    rdfs:label "Łobżenica" .
+
+jp:Place_Q34602 a jp:Place ;
+    rdfs:label "Monselice" .
+
+jp:Place_Q34647 a jp:Place ;
+    rdfs:label "Johannesburg" .
+
+jp:Place_Q34692 a jp:Place ;
+    rdfs:label "Kingston" .
+
+jp:Place_Q34713 a jp:Place ;
+    rdfs:label "Salzburg" .
+
+jp:Place_Q3494848 a jp:Place ;
+    rdfs:label "Maišiagala" .
+
+jp:Place_Q350 a jp:Place ;
+    rdfs:label "Cambridge" .
+
+jp:Place_Q3500094 a jp:Place ;
+    rdfs:label "Papilė" .
+
+jp:Place_Q3539308 a jp:Place ;
+    rdfs:label "Trinquetaille" .
+
+jp:Place_Q3543790 a jp:Place ;
+    rdfs:label "Hornostaipil" .
+
+jp:Place_Q35484 a jp:Place ;
+    rdfs:label "Medina" .
+
+jp:Place_Q35493 a jp:Place ;
+    rdfs:label "Almaty" .
+
+jp:Place_Q3551 a jp:Place ;
+    rdfs:label "Rabat" .
+
+jp:Place_Q355435 a jp:Place ;
+    rdfs:label "Adelsheim" .
+
+jp:Place_Q3561 a jp:Place ;
+    rdfs:label "Algiers" .
+
+jp:Place_Q3572 a jp:Place ;
+    rdfs:label "Tunis" .
+
+jp:Place_Q3579 a jp:Place ;
+    rdfs:label "Tripoli" .
+
+jp:Place_Q3599 a jp:Place ;
+    rdfs:label "Bicske" .
+
+jp:Place_Q35997 a jp:Place ;
+    rdfs:label "İzmir" .
+
+jp:Place_Q36 a jp:Place ;
+    rdfs:label "Poland" .
+
+jp:Place_Q36036 a jp:Place ;
+    rdfs:label "Lviv" .
+
+jp:Place_Q36091 a jp:Place ;
+    rdfs:label "Minneapolis" .
+
+jp:Place_Q3616 a jp:Place ;
+    rdfs:label "Tehran" .
+
+jp:Place_Q3617 a jp:Place ;
+    rdfs:label "Karlovac" .
+
+jp:Place_Q36433 a jp:Place ;
+    rdfs:label "Porto" .
+
+jp:Place_Q365 a jp:Place ;
+    rdfs:label "Cologne" .
+
+jp:Place_Q36600 a jp:Place ;
+    rdfs:label "The Hague" .
+
+jp:Place_Q366425 a jp:Place ;
+    rdfs:label "Givenchy-en-Gohelle" .
+
+jp:Place_Q36704 a jp:Place ;
+    rdfs:label "Yugoslavia" .
+
+jp:Place_Q367400 a jp:Place ;
+    rdfs:label "Goldsboro" .
+
+jp:Place_Q36820 a jp:Place ;
+    rdfs:label "Haradok" .
+
+jp:Place_Q3692486 a jp:Place ;
+    rdfs:label "Gródek" .
+
+jp:Place_Q36989 a jp:Place ;
+    rdfs:label "Pardubice" .
+
+jp:Place_Q37 a jp:Place ;
+    rdfs:label "Lithuania" .
+
+jp:Place_Q370619 a jp:Place ;
+    rdfs:label "Andover" .
+
+jp:Place_Q3711 a jp:Place ;
+    rdfs:label "Belgrade" .
+
+jp:Place_Q37320 a jp:Place ;
+    rdfs:label "Cleveland" .
+
+jp:Place_Q37333 a jp:Place ;
+    rdfs:label "Lublin" .
+
+jp:Place_Q3766 a jp:Place ;
+    rdfs:label "Damascus" .
+
+jp:Place_Q376987 a jp:Place ;
+    rdfs:label "Nové Mesto nad Váhom" .
+
+jp:Place_Q377650 a jp:Place ;
+    rdfs:label "Námestovo" .
+
+jp:Place_Q377994 a jp:Place ;
+    rdfs:label "Sieniawa" .
+
+jp:Place_Q378120 a jp:Place ;
+    rdfs:label "Žižkov" .
+
+jp:Place_Q37836 a jp:Place ;
+    rdfs:label "Milwaukee" .
+
+jp:Place_Q378821 a jp:Place ;
+    rdfs:label "Inowrocław" .
+
+jp:Place_Q378836 a jp:Place ;
+    rdfs:label "Cece" .
+
+jp:Place_Q379121 a jp:Place ;
+    rdfs:label "Bad König" .
+
+jp:Place_Q379160 a jp:Place ;
+    rdfs:label "Kunszentmárton" .
+
+jp:Place_Q38 a jp:Place ;
+    rdfs:label "Italy" .
+
+jp:Place_Q3802 a jp:Place ;
+    rdfs:label "Hanau" .
+
+jp:Place_Q38022 a jp:Place ;
+    rdfs:label "St. Louis" .
+
+jp:Place_Q380305 a jp:Place ;
+    rdfs:label "Adásztevel" .
+
+jp:Place_Q3806 a jp:Place ;
+    rdfs:label "Tübingen" .
+
+jp:Place_Q381582 a jp:Place ;
+    rdfs:label "Grussenheim" .
+
+jp:Place_Q381659 a jp:Place ;
+    rdfs:label "Soultz-sous-Forêts" .
+
+jp:Place_Q3818588 a jp:Place ;
+    rdfs:label "Jund al-Urdunn" .
+
+jp:Place_Q3820 a jp:Place ;
+    rdfs:label "Beirut" .
+
+jp:Place_Q382587 a jp:Place ;
+    rdfs:label "Osieczna" .
+
+jp:Place_Q3834 a jp:Place ;
+    rdfs:label "Constance" .
+
+jp:Place_Q384 a jp:Place ;
+    rdfs:label "Skopje" .
+
+jp:Place_Q3844238 a jp:Place ;
+    rdfs:label "Manakhah" .
+
+jp:Place_Q384433 a jp:Place ;
+    rdfs:label "Łęczna" .
+
+jp:Place_Q38453 a jp:Place ;
+    rdfs:label "Columbia" .
+
+jp:Place_Q384544 a jp:Place ;
+    rdfs:label "Karlovy Vary" .
+
+jp:Place_Q384692 a jp:Place ;
+    rdfs:label "Bay Shore" .
+
+jp:Place_Q3847041 a jp:Place ;
+    rdfs:label "Tepličany" .
+
+jp:Place_Q3852 a jp:Place ;
+    rdfs:label "Worms" .
+
+jp:Place_Q38555 a jp:Place ;
+    rdfs:label "Santa Fe" .
+
+jp:Place_Q386487 a jp:Place ;
+    rdfs:label "Mazyr" .
+
+jp:Place_Q3869 a jp:Place ;
+    rdfs:label "Marburg" .
+
+jp:Place_Q387260 a jp:Place ;
+    rdfs:label "Śrem" .
+
+jp:Place_Q3874 a jp:Place ;
+    rdfs:label "Giessen" .
+
+jp:Place_Q387411 a jp:Place ;
+    rdfs:label "Burgkunstadt" .
+
+jp:Place_Q388070 a jp:Place ;
+    rdfs:label "Samokov" .
+
+jp:Place_Q39 a jp:Place ;
+    rdfs:label "Switzerland" .
+
+jp:Place_Q390162 a jp:Place ;
+    rdfs:label "Huși" .
+
+jp:Place_Q390917 a jp:Place ;
+    rdfs:label "Šafov" .
+
+jp:Place_Q391011 a jp:Place ;
+    rdfs:label "Šalčininkai" .
+
+jp:Place_Q39121 a jp:Place ;
+    rdfs:label "Leeds" .
+
+jp:Place_Q391582 a jp:Place ;
+    rdfs:label "Šilalė" .
+
+jp:Place_Q391595 a jp:Place ;
+    rdfs:label "Šiluva" .
+
+jp:Place_Q391626 a jp:Place ;
+    rdfs:label "Šilutė" .
+
+jp:Place_Q3917328 a jp:Place ;
+    rdfs:label "Haradziec" .
+
+jp:Place_Q3917461 a jp:Place ;
+    rdfs:label "Mscibava" .
+
+jp:Place_Q391764 a jp:Place ;
+    rdfs:label "Širvintos" .
+
+jp:Place_Q3917705 a jp:Place ;
+    rdfs:label "Malieč" .
+
+jp:Place_Q3917746 a jp:Place ;
+    rdfs:label "Aziory" .
+
+jp:Place_Q39193 a jp:Place ;
+    rdfs:label "Bohemia" .
+
+jp:Place_Q3919506 a jp:Place ;
+    rdfs:label "Novaja Myš" .
+
+jp:Place_Q3922 a jp:Place ;
+    rdfs:label "Detmold" .
+
+jp:Place_Q392285 a jp:Place ;
+    rdfs:label "Špindlerův Mlýn" .
+
+jp:Place_Q3926 a jp:Place ;
+    rdfs:label "Pretoria" .
+
+jp:Place_Q392704 a jp:Place ;
+    rdfs:label "Šurany" .
+
+jp:Place_Q392736 a jp:Place ;
+    rdfs:label "Šušara" .
+
+jp:Place_Q392854 a jp:Place ;
+    rdfs:label "Šėta" .
+
+jp:Place_Q392988 a jp:Place ;
+    rdfs:label "Żabno" .
+
+jp:Place_Q393 a jp:Place ;
+    rdfs:label "Szczecin" .
+
+jp:Place_Q393091 a jp:Place ;
+    rdfs:label "Żelechów" .
+
+jp:Place_Q393171 a jp:Place ;
+    rdfs:label "Żory" .
+
+jp:Place_Q393332 a jp:Place ;
+    rdfs:label "Žagarė" .
+
+jp:Place_Q393426 a jp:Place ;
+    rdfs:label "Žatec" .
+
+jp:Place_Q393439 a jp:Place ;
+    rdfs:label "Ždánice" .
+
+jp:Place_Q3934843 a jp:Place ;
+    rdfs:label "Yemen eyalet" .
+
+jp:Place_Q393495 a jp:Place ;
+    rdfs:label "Belbis" .
+
+jp:Place_Q3936 a jp:Place ;
+    rdfs:label "Bamberg" .
+
+jp:Place_Q393828 a jp:Place ;
+    rdfs:label "Žemaičių Naumiestis" .
+
+jp:Place_Q3942 a jp:Place ;
+    rdfs:label "Aschaffenburg" .
+
+jp:Place_Q3943 a jp:Place ;
+    rdfs:label "Lippstadt" .
+
+jp:Place_Q39450 a jp:Place ;
+    rdfs:label "Anchorage" .
+
+jp:Place_Q39473 a jp:Place ;
+    rdfs:label "Transylvania" .
+
+jp:Place_Q3963 a jp:Place ;
+    rdfs:label "Fulda" .
+
+jp:Place_Q3967 a jp:Place ;
+    rdfs:label "Neuwied" .
+
+jp:Place_Q3985724 a jp:Place ;
+    rdfs:label "El Kelaa des Sraghna" .
+
+jp:Place_Q399 a jp:Place ;
+    rdfs:label "Armenia" .
+
+jp:Place_Q401452 a jp:Place ;
+    rdfs:label "Saida" .
+
+jp:Place_Q4018 a jp:Place ;
+    rdfs:label "Navarre" .
+
+jp:Place_Q4024 a jp:Place ;
+    rdfs:label "Frankfurt (Oder)" .
+
+jp:Place_Q4026813 a jp:Place ;
+    rdfs:label "Nowy Żmigród" .
+
+jp:Place_Q40269 a jp:Place ;
+    rdfs:label "Porto Alegre" .
+
+jp:Place_Q40435 a jp:Place ;
+    rdfs:label "Buffalo" .
+
+jp:Place_Q4044 a jp:Place ;
+    rdfs:label "Offenburg" .
+
+jp:Place_Q406 a jp:Place ;
+    rdfs:label "Istanbul" .
+
+jp:Place_Q4066768 a jp:Place ;
+    rdfs:label "Hannopil" .
+
+jp:Place_Q4072 a jp:Place ;
+    rdfs:label "Göppingen" .
+
+jp:Place_Q408 a jp:Place ;
+    rdfs:label "Australia" .
+
+jp:Place_Q40816 a jp:Place ;
+    rdfs:label "Benghazi" .
+
+jp:Place_Q4082 a jp:Place ;
+    rdfs:label "Hattingen" .
+
+jp:Place_Q4085492 a jp:Place ;
+    rdfs:label "Berezove" .
+
+jp:Place_Q40898 a jp:Place ;
+    rdfs:label "Nancy" .
+
+jp:Place_Q409102 a jp:Place ;
+    rdfs:label "Nikopol" .
+
+jp:Place_Q4093 a jp:Place ;
+    rdfs:label "Glasgow" .
+
+jp:Place_Q4100 a jp:Place ;
+    rdfs:label "Baden-Baden" .
+
+jp:Place_Q4104197 a jp:Place ;
+    rdfs:label "Vasyliv" .
+
+jp:Place_Q4114543 a jp:Place ;
+    rdfs:label "Jerusalem during the Second Temple Period" .
+
+jp:Place_Q4115712 a jp:Place ;
+    rdfs:label "Kaunas" .
+
+jp:Place_Q4117326 a jp:Place ;
+    rdfs:label "Bani Matar District" .
+
+jp:Place_Q41183 a jp:Place ;
+    rdfs:label "Aleppo" .
+
+jp:Place_Q4118334 a jp:Place ;
+    rdfs:label "Radda District" .
+
+jp:Place_Q41185 a jp:Place ;
+    rdfs:label "Caen" .
+
+jp:Place_Q4120832 a jp:Place ;
+    rdfs:label "Königsberg" .
+
+jp:Place_Q41252 a jp:Place ;
+    rdfs:label "Bydgoszcz" .
+
+jp:Place_Q4126 a jp:Place ;
+    rdfs:label "Schweinfurt" .
+
+jp:Place_Q4128709 a jp:Place ;
+    rdfs:label "Vybranivka" .
+
+jp:Place_Q41304 a jp:Place ;
+    rdfs:label "Weimar Republic" .
+
+jp:Place_Q414 a jp:Place ;
+    rdfs:label "Argentina" .
+
+jp:Place_Q41470 a jp:Place ;
+    rdfs:label "Kurdistan" .
+
+jp:Place_Q4152603 a jp:Place ;
+    rdfs:label "Husakiv" .
+
+jp:Place_Q41621 a jp:Place ;
+    rdfs:label "Haifa" .
+
+jp:Place_Q4165 a jp:Place ;
+    rdfs:label "Bad Homburg vor der Höhe" .
+
+jp:Place_Q4170692 a jp:Place ;
+    rdfs:label "Dunaiv" .
+
+jp:Place_Q4174 a jp:Place ;
+    rdfs:label "Emden" .
+
+jp:Place_Q4178675 a jp:Place ;
+    rdfs:label "Žiežmariai" .
+
+jp:Place_Q41819 a jp:Place ;
+    rdfs:label "Kansas City" .
+
+jp:Place_Q4182900 a jp:Place ;
+    rdfs:label "Zavaliv" .
+
+jp:Place_Q41843 a jp:Place ;
+    rdfs:label "Beersheba" .
+
+jp:Place_Q41876 a jp:Place ;
+    rdfs:label "Reims" .
+
+jp:Place_Q4192261 a jp:Place ;
+    rdfs:label "Zinkiv" .
+
+jp:Place_Q41945 a jp:Place ;
+    rdfs:label "Deutschkreutz" .
+
+jp:Place_Q4196988 a jp:Place ;
+    rdfs:label "Ivachiv Dolishniy" .
+
+jp:Place_Q4215244 a jp:Place ;
+    rdfs:label "Karlin" .
+
+jp:Place_Q422286 a jp:Place ;
+    rdfs:label "Gostyń" .
+
+jp:Place_Q4226578 a jp:Place ;
+    rdfs:label "Kozin" .
+
+jp:Place_Q42308 a jp:Place ;
+    rdfs:label "Kharkiv" .
+
+jp:Place_Q4232263 a jp:Place ;
+    rdfs:label "Kopachivka" .
+
+jp:Place_Q42336 a jp:Place ;
+    rdfs:label "Viadana" .
+
+jp:Place_Q424773 a jp:Place ;
+    rdfs:label "Welland" .
+
+jp:Place_Q425646 a jp:Place ;
+    rdfs:label "Figuig" .
+
+jp:Place_Q427045 a jp:Place ;
+    rdfs:label "Horné Orešany" .
+
+jp:Place_Q427212 a jp:Place ;
+    rdfs:label "Mosdós" .
+
+jp:Place_Q4272559 a jp:Place ;
+    rdfs:label "Liady" .
+
+jp:Place_Q427620 a jp:Place ;
+    rdfs:label "Hőgyész" .
+
+jp:Place_Q4289557 a jp:Place ;
+    rdfs:label "Książ Wielki" .
+
+jp:Place_Q429676 a jp:Place ;
+    rdfs:label "Sereď" .
+
+jp:Place_Q429687 a jp:Place ;
+    rdfs:label "Upper West Side" .
+
+jp:Place_Q43 a jp:Place ;
+    rdfs:label "Turkey" .
+
+jp:Place_Q43003 a jp:Place ;
+    rdfs:label "Ostiano" .
+
+jp:Place_Q43014 a jp:Place ;
+    rdfs:label "Sabbioneta" .
+
+jp:Place_Q43048 a jp:Place ;
+    rdfs:label "Rhodes" .
+
+jp:Place_Q431347 a jp:Place ;
+    rdfs:label "Rădăuți" .
+
+jp:Place_Q431779 a jp:Place ;
+    rdfs:label "Shchuchyn" .
+
+jp:Place_Q43196 a jp:Place ;
+    rdfs:label "Cincinnati" .
+
+jp:Place_Q43199 a jp:Place ;
+    rdfs:label "Omaha" .
+
+jp:Place_Q43266 a jp:Place ;
+    rdfs:label "Moravia" .
+
+jp:Place_Q4326861 a jp:Place ;
+    rdfs:label "Novyi Yarychiv" .
+
+jp:Place_Q4327368 a jp:Place ;
+    rdfs:label "Norinsk" .
+
+jp:Place_Q4332186 a jp:Place ;
+    rdfs:label "Ozeriany" .
+
+jp:Place_Q43387 a jp:Place ;
+    rdfs:label "Edirne" .
+
+jp:Place_Q43421 a jp:Place ;
+    rdfs:label "Richmond" .
+
+jp:Place_Q43453 a jp:Place ;
+    rdfs:label "Plzeň" .
+
+jp:Place_Q4350839 a jp:Place ;
+    rdfs:label "Pererisl" .
+
+jp:Place_Q4358386 a jp:Place ;
+    rdfs:label "Shumyachi" .
+
+jp:Place_Q436 a jp:Place ;
+    rdfs:label "Szczebrzeszyn" .
+
+jp:Place_Q4367481 a jp:Place ;
+    rdfs:label "Paddabranka" .
+
+jp:Place_Q4371769 a jp:Place ;
+    rdfs:label "Pomoryany" .
+
+jp:Place_Q437368 a jp:Place ;
+    rdfs:label "Altenkunstadt" .
+
+jp:Place_Q4377726 a jp:Place ;
+    rdfs:label "Prybuzhany" .
+
+jp:Place_Q4379516 a jp:Place ;
+    rdfs:label "Probizhna" .
+
+jp:Place_Q4384536 a jp:Place ;
+    rdfs:label "Puchavičy" .
+
+jp:Place_Q4399812 a jp:Place ;
+    rdfs:label "Ruzhin" .
+
+jp:Place_Q4408930 a jp:Place ;
+    rdfs:label "Sasiv" .
+
+jp:Place_Q4410179 a jp:Place ;
+    rdfs:label "Svieržań" .
+
+jp:Place_Q44210 a jp:Place ;
+    rdfs:label "Córdoba" .
+
+jp:Place_Q44255 a jp:Place ;
+    rdfs:label "San Miguel de Tucumán" .
+
+jp:Place_Q444210 a jp:Place ;
+    rdfs:label "Altoona" .
+
+jp:Place_Q4444399 a jp:Place ;
+    rdfs:label "Strusiv" .
+
+jp:Place_Q4446399 a jp:Place ;
+    rdfs:label "Sura" .
+
+jp:Place_Q4454 a jp:Place ;
+    rdfs:label "Khabarovsk" .
+
+jp:Place_Q4478208 a jp:Place ;
+    rdfs:label "Ustechko" .
+
+jp:Place_Q45 a jp:Place ;
+    rdfs:label "Portugal" .
+
+jp:Place_Q450625 a jp:Place ;
+    rdfs:label "Alytus" .
+
+jp:Place_Q450697 a jp:Place ;
+    rdfs:label "Alzenau" .
+
+jp:Place_Q450726 a jp:Place ;
+    rdfs:label "Alzey" .
+
+jp:Place_Q4512467 a jp:Place ;
+    rdfs:label "Lubiane" .
+
+jp:Place_Q4535857 a jp:Place ;
+    rdfs:label "Yabluniv" .
+
+jp:Place_Q456 a jp:Place ;
+    rdfs:label "Lyon" .
+
+jp:Place_Q45656 a jp:Place ;
+    rdfs:label "Limoges" .
+
+jp:Place_Q45883 a jp:Place ;
+    rdfs:label "Khotyn" .
+
+jp:Place_Q459 a jp:Place ;
+    rdfs:label "Plovdiv" .
+
+jp:Place_Q45942 a jp:Place ;
+    rdfs:label "Annaba" .
+
+jp:Place_Q460736 a jp:Place ;
+    rdfs:label "Amedi" .
+
+jp:Place_Q460767 a jp:Place ;
+    rdfs:label "Galanta" .
+
+jp:Place_Q460925 a jp:Place ;
+    rdfs:label "Michalovce" .
+
+jp:Place_Q461513 a jp:Place ;
+    rdfs:label "Będzin" .
+
+jp:Place_Q46165 a jp:Place ;
+    rdfs:label "Montecchio Maggiore" .
+
+jp:Place_Q462799 a jp:Place ;
+    rdfs:label "Evanston" .
+
+jp:Place_Q463951 a jp:Place ;
+    rdfs:label "Maisons-Laffitte" .
+
+jp:Place_Q46400 a jp:Place ;
+    rdfs:label "Suceava" .
+
+jp:Place_Q464763 a jp:Place ;
+    rdfs:label "Augustów" .
+
+jp:Place_Q465104 a jp:Place ;
+    rdfs:label "Brody" .
+
+jp:Place_Q466046 a jp:Place ;
+    rdfs:label "Salé" .
+
+jp:Place_Q466216 a jp:Place ;
+    rdfs:label "Ta'izz" .
+
+jp:Place_Q46852 a jp:Place ;
+    rdfs:label "Iași" .
+
+jp:Place_Q470369 a jp:Place ;
+    rdfs:label "Kolín" .
+
+jp:Place_Q470380 a jp:Place ;
+    rdfs:label "Přerov" .
+
+jp:Place_Q470445 a jp:Place ;
+    rdfs:label "Prostějov" .
+
+jp:Place_Q471886 a jp:Place ;
+    rdfs:label "Hadera" .
+
+jp:Place_Q472 a jp:Place ;
+    rdfs:label "Sofia" .
+
+jp:Place_Q472621 a jp:Place ;
+    rdfs:label "Wieliczka" .
+
+jp:Place_Q47465 a jp:Place ;
+    rdfs:label "Aix-en-Provence" .
+
+jp:Place_Q47492 a jp:Place ;
+    rdfs:label "Gaza City" .
+
+jp:Place_Q47554 a jp:Place ;
+    rdfs:label "Toruń" .
+
+jp:Place_Q47571 a jp:Place ;
+    rdfs:label "Lorca" .
+
+jp:Place_Q47611 a jp:Place ;
+    rdfs:label "Ephesus" .
+
+jp:Place_Q476226 a jp:Place ;
+    rdfs:label "Moinești" .
+
+jp:Place_Q476436 a jp:Place ;
+    rdfs:label "Dobrzyca" .
+
+jp:Place_Q476793 a jp:Place ;
+    rdfs:label "Arévalo" .
+
+jp:Place_Q47690 a jp:Place ;
+    rdfs:label "Babylonia" .
+
+jp:Place_Q477170 a jp:Place ;
+    rdfs:label "Bačka Palanka" .
+
+jp:Place_Q478038 a jp:Place ;
+    rdfs:label "Kiskunfélegyháza" .
+
+jp:Place_Q479406 a jp:Place ;
+    rdfs:label "Seňa" .
+
+jp:Place_Q481564 a jp:Place ;
+    rdfs:label "Ilava" .
+
+jp:Place_Q481637 a jp:Place ;
+    rdfs:label "Bolešov" .
+
+jp:Place_Q481770 a jp:Place ;
+    rdfs:label "Pruské" .
+
+jp:Place_Q48256 a jp:Place ;
+    rdfs:label "Dnipro" .
+
+jp:Place_Q482657 a jp:Place ;
+    rdfs:label "Logan" .
+
+jp:Place_Q48292 a jp:Place ;
+    rdfs:label "Arles" .
+
+jp:Place_Q484578 a jp:Place ;
+    rdfs:label "Uzbek Soviet Socialist Republic" .
+
+jp:Place_Q484628 a jp:Place ;
+    rdfs:label "Medinaceli" .
+
+jp:Place_Q484678 a jp:Place ;
+    rdfs:label "Berkeley" .
+
+jp:Place_Q48491 a jp:Place ;
+    rdfs:label "Sialiec" .
+
+jp:Place_Q486168 a jp:Place ;
+    rdfs:label "San Bernardino" .
+
+jp:Place_Q486450 a jp:Place ;
+    rdfs:label "Baden" .
+
+jp:Place_Q486551 a jp:Place ;
+    rdfs:label "Verden" .
+
+jp:Place_Q487070 a jp:Place ;
+    rdfs:label "Dessau" .
+
+jp:Place_Q487278 a jp:Place ;
+    rdfs:label "Meiningen" .
+
+jp:Place_Q48741061 a jp:Place ;
+    rdfs:label "Palm Tree" .
+
+jp:Place_Q48766 a jp:Place ;
+    rdfs:label "Babi Yar" .
+
+jp:Place_Q487684 a jp:Place ;
+    rdfs:label "Türkmenabat" .
+
+jp:Place_Q487971 a jp:Place ;
+    rdfs:label "Bad Reichenhall" .
+
+jp:Place_Q48814 a jp:Place ;
+    rdfs:label "Strumica" .
+
+jp:Place_Q488346 a jp:Place ;
+    rdfs:label "Bad Kissingen" .
+
+jp:Place_Q489255 a jp:Place ;
+    rdfs:label "Sioux City" .
+
+jp:Place_Q48958 a jp:Place ;
+    rdfs:label "Neuilly-sur-Seine" .
+
+jp:Place_Q4897536 a jp:Place ;
+    rdfs:label "Beth Israel Deaconess Medical Center" .
+
+jp:Place_Q489911 a jp:Place ;
+    rdfs:label "Breisach" .
+
+jp:Place_Q4899891 a jp:Place ;
+    rdfs:label "Beylik of Tunis" .
+
+jp:Place_Q490 a jp:Place ;
+    rdfs:label "Milan" .
+
+jp:Place_Q490670 a jp:Place ;
+    rdfs:label "Bad Ems" .
+
+jp:Place_Q49111 a jp:Place ;
+    rdfs:label "Cambridge" .
+
+jp:Place_Q49140 a jp:Place ;
+    rdfs:label "West Hartford" .
+
+jp:Place_Q49142 a jp:Place ;
+    rdfs:label "Brookline" .
+
+jp:Place_Q49145 a jp:Place ;
+    rdfs:label "New Haven" .
+
+jp:Place_Q49147 a jp:Place ;
+    rdfs:label "New Bedford" .
+
+jp:Place_Q491507 a jp:Place ;
+    rdfs:label "Egypt eyalet" .
+
+jp:Place_Q491540 a jp:Place ;
+    rdfs:label "Sarasota" .
+
+jp:Place_Q49169 a jp:Place ;
+    rdfs:label "Stamford" .
+
+jp:Place_Q49174 a jp:Place ;
+    rdfs:label "Bridgeport" .
+
+jp:Place_Q4918214 a jp:Place ;
+    rdfs:label "Biskupice" .
+
+jp:Place_Q49184 a jp:Place ;
+    rdfs:label "Pittsfield" .
+
+jp:Place_Q49218 a jp:Place ;
+    rdfs:label "Rochester" .
+
+jp:Place_Q49225 a jp:Place ;
+    rdfs:label "Reno" .
+
+jp:Place_Q492366 a jp:Place ;
+    rdfs:label "Norden" .
+
+jp:Place_Q49239 a jp:Place ;
+    rdfs:label "Toledo" .
+
+jp:Place_Q49255 a jp:Place ;
+    rdfs:label "Tampa" .
+
+jp:Place_Q492659 a jp:Place ;
+    rdfs:label "Haßfurt" .
+
+jp:Place_Q494529 a jp:Place ;
+    rdfs:label "Hechingen" .
+
+jp:Place_Q494733 a jp:Place ;
+    rdfs:label "Gelnhausen" .
+
+jp:Place_Q495 a jp:Place ;
+    rdfs:label "Turin" .
+
+jp:Place_Q495428 a jp:Place ;
+    rdfs:label "Bretten" .
+
+jp:Place_Q495481 a jp:Place ;
+    rdfs:label "Wintzenheim" .
+
+jp:Place_Q496489 a jp:Place ;
+    rdfs:label "Bad Buchau" .
+
+jp:Place_Q497148 a jp:Place ;
+    rdfs:label "Lębork" .
+
+jp:Place_Q498256 a jp:Place ;
+    rdfs:label "Bauska" .
+
+jp:Place_Q4985204 a jp:Place ;
+    rdfs:label "Budwiecie, Warmian-Masurian Voivodeship" .
+
+jp:Place_Q500260 a jp:Place ;
+    rdfs:label "Wodzisław Śląski" .
+
+jp:Place_Q500367 a jp:Place ;
+    rdfs:label "Beni Hammad Fort" .
+
+jp:Place_Q500416 a jp:Place ;
+    rdfs:label "New York County" .
+
+jp:Place_Q500481 a jp:Place ;
+    rdfs:label "Overland Park" .
+
+jp:Place_Q500560 a jp:Place ;
+    rdfs:label "Aflou" .
+
+jp:Place_Q501114 a jp:Place ;
+    rdfs:label "Villefranche-de-Conflent" .
+
+jp:Place_Q501543 a jp:Place ;
+    rdfs:label "Kiryat Malachi" .
+
+jp:Place_Q501773 a jp:Place ;
+    rdfs:label "Bethsaida" .
+
+jp:Place_Q501798 a jp:Place ;
+    rdfs:label "Soultz-Haut-Rhin" .
+
+jp:Place_Q50195 a jp:Place ;
+    rdfs:label "Imola" .
+
+jp:Place_Q502264 a jp:Place ;
+    rdfs:label "Humenné" .
+
+jp:Place_Q502401 a jp:Place ;
+    rdfs:label "Erlenbach am Main" .
+
+jp:Place_Q502615 a jp:Place ;
+    rdfs:label "Mühldorf am Inn" .
+
+jp:Place_Q502646 a jp:Place ;
+    rdfs:label "Bad Friedrichshall" .
+
+jp:Place_Q503202 a jp:Place ;
+    rdfs:label "Ichenhausen" .
+
+jp:Place_Q503441 a jp:Place ;
+    rdfs:label "Wallerstein" .
+
+jp:Place_Q503640 a jp:Place ;
+    rdfs:label "Gunzenhausen" .
+
+jp:Place_Q503763 a jp:Place ;
+    rdfs:label "פפנהיים" .
+
+jp:Place_Q503894 a jp:Place ;
+    rdfs:label "Burgpreppach" .
+
+jp:Place_Q504019 a jp:Place ;
+    rdfs:label "Roth" .
+
+jp:Place_Q504062 a jp:Place ;
+    rdfs:label "Fischach" .
+
+jp:Place_Q504598 a jp:Place ;
+    rdfs:label "Lucena" .
+
+jp:Place_Q505147 a jp:Place ;
+    rdfs:label "Weil der Stadt" .
+
+jp:Place_Q505284 a jp:Place ;
+    rdfs:label "Diespeck" .
+
+jp:Place_Q505394 a jp:Place ;
+    rdfs:label "Uehlfeld" .
+
+jp:Place_Q5053994 a jp:Place ;
+    rdfs:label "Săpânța" .
+
+jp:Place_Q5054509 a jp:Place ;
+    rdfs:label "Caulfield" .
+
+jp:Place_Q5056132 a jp:Place ;
+    rdfs:label "Nușfalău" .
+
+jp:Place_Q50573096 a jp:Place ;
+    rdfs:label "Evanston Hospital" .
+
+jp:Place_Q505751 a jp:Place ;
+    rdfs:label "Ermershausen" .
+
+jp:Place_Q505849 a jp:Place ;
+    rdfs:label "Sulzburg" .
+
+jp:Place_Q506082 a jp:Place ;
+    rdfs:label "Schopfloch" .
+
+jp:Place_Q506195 a jp:Place ;
+    rdfs:label "Kunreuth" .
+
+jp:Place_Q506450 a jp:Place ;
+    rdfs:label "Eppingen" .
+
+jp:Place_Q506724 a jp:Place ;
+    rdfs:label "Jungfernhof concentration camp" .
+
+jp:Place_Q507621 a jp:Place ;
+    rdfs:label "Solsona" .
+
+jp:Place_Q507904 a jp:Place ;
+    rdfs:label "Floß" .
+
+jp:Place_Q5083 a jp:Place ;
+    rdfs:label "Seattle" .
+
+jp:Place_Q508445 a jp:Place ;
+    rdfs:label "Höchberg" .
+
+jp:Place_Q5092 a jp:Place ;
+    rdfs:label "Baltimore" .
+
+jp:Place_Q509536 a jp:Place ;
+    rdfs:label "Landau an der Isar" .
+
+jp:Place_Q509715 a jp:Place ;
+    rdfs:label "טורדוסין" .
+
+jp:Place_Q50991 a jp:Place ;
+    rdfs:label "Swarzędz" .
+
+jp:Place_Q510701 a jp:Place ;
+    rdfs:label "Buttenwiesen" .
+
+jp:Place_Q510964 a jp:Place ;
+    rdfs:label "Binswangen" .
+
+jp:Place_Q511922 a jp:Place ;
+    rdfs:label "Danville" .
+
+jp:Place_Q512233 a jp:Place ;
+    rdfs:label "Hamborn" .
+
+jp:Place_Q5123 a jp:Place ;
+    rdfs:label "Monzón" .
+
+jp:Place_Q51408 a jp:Place ;
+    rdfs:label "Kórnik" .
+
+jp:Place_Q51427 a jp:Place ;
+    rdfs:label "Szamotuły" .
+
+jp:Place_Q51432 a jp:Place ;
+    rdfs:label "Gniezno" .
+
+jp:Place_Q51434 a jp:Place ;
+    rdfs:label "Chodzież" .
+
+jp:Place_Q516485 a jp:Place ;
+    rdfs:label "Friedberg" .
+
+jp:Place_Q516500 a jp:Place ;
+    rdfs:label "Pfungstadt" .
+
+jp:Place_Q516517 a jp:Place ;
+    rdfs:label "Michelstadt" .
+
+jp:Place_Q51691 a jp:Place ;
+    rdfs:label "Amarillo" .
+
+jp:Place_Q517260 a jp:Place ;
+    rdfs:label "Königsberg in Bayern" .
+
+jp:Place_Q517311 a jp:Place ;
+    rdfs:label "Bleicherode" .
+
+jp:Place_Q517407 a jp:Place ;
+    rdfs:label "Sondershausen" .
+
+jp:Place_Q518194 a jp:Place ;
+    rdfs:label "Egeln" .
+
+jp:Place_Q518240 a jp:Place ;
+    rdfs:label "Ellrich" .
+
+jp:Place_Q519134 a jp:Place ;
+    rdfs:label "Gerolzhofen" .
+
+jp:Place_Q520110 a jp:Place ;
+    rdfs:label "Zabolotiv" .
+
+jp:Place_Q520958 a jp:Place ;
+    rdfs:label "Tauberrettersheim" .
+
+jp:Place_Q52101 a jp:Place ;
+    rdfs:label "Middelburg" .
+
+jp:Place_Q5213666 a jp:Place ;
+    rdfs:label "Ilya" .
+
+jp:Place_Q52193 a jp:Place ;
+    rdfs:label "Kolomyia" .
+
+jp:Place_Q523245 a jp:Place ;
+    rdfs:label "Schluchsee" .
+
+jp:Place_Q523287 a jp:Place ;
+    rdfs:label "Trzciel" .
+
+jp:Place_Q5247239 a jp:Place ;
+    rdfs:label "Naujamiestis, Panevėžys" .
+
+jp:Place_Q52603 a jp:Place ;
+    rdfs:label "Ksar el-Kebir" .
+
+jp:Place_Q5262 a jp:Place ;
+    rdfs:label "Riehen" .
+
+jp:Place_Q527406 a jp:Place ;
+    rdfs:label "Geroldshausen" .
+
+jp:Place_Q527783 a jp:Place ;
+    rdfs:label "Stühlingen" .
+
+jp:Place_Q52829 a jp:Place ;
+    rdfs:label "Grodzisk Wielkopolski" .
+
+jp:Place_Q52842 a jp:Place ;
+    rdfs:label "Kalisz" .
+
+jp:Place_Q528883 a jp:Place ;
+    rdfs:label "Tröbitz" .
+
+jp:Place_Q52892 a jp:Place ;
+    rdfs:label "Leszno" .
+
+jp:Place_Q52894 a jp:Place ;
+    rdfs:label "Obrzycko" .
+
+jp:Place_Q52895 a jp:Place ;
+    rdfs:label "Ostrów Wielkopolski" .
+
+jp:Place_Q52896 a jp:Place ;
+    rdfs:label "Pniewy" .
+
+jp:Place_Q52898 a jp:Place ;
+    rdfs:label "Rawicz" .
+
+jp:Place_Q52900 a jp:Place ;
+    rdfs:label "Wronki" .
+
+jp:Place_Q52902 a jp:Place ;
+    rdfs:label "Września" .
+
+jp:Place_Q529928 a jp:Place ;
+    rdfs:label "Ilsenburg" .
+
+jp:Place_Q530059 a jp:Place ;
+    rdfs:label "Stadtlengsfeld" .
+
+jp:Place_Q530634 a jp:Place ;
+    rdfs:label "Pilisvörösvár" .
+
+jp:Place_Q530876 a jp:Place ;
+    rdfs:label "Nógrád" .
+
+jp:Place_Q53129 a jp:Place ;
+    rdfs:label "Gradisca d'Isonzo" .
+
+jp:Place_Q5319922 a jp:Place ;
+    rdfs:label "Dzików" .
+
+jp:Place_Q5332 a jp:Place ;
+    rdfs:label "Saratov" .
+
+jp:Place_Q5337 a jp:Place ;
+    rdfs:label "Orenburg" .
+
+jp:Place_Q534442 a jp:Place ;
+    rdfs:label "Memmelsdorf" .
+
+jp:Place_Q534681 a jp:Place ;
+    rdfs:label "Lehrensteinsfeld" .
+
+jp:Place_Q534799 a jp:Place ;
+    rdfs:label "Istanbul Province" .
+
+jp:Place_Q53634032 a jp:Place ;
+    rdfs:label "Pilos" .
+
+jp:Place_Q5364334 a jp:Place ;
+    rdfs:label "Elkins Park" .
+
+jp:Place_Q537214 a jp:Place ;
+    rdfs:label "Prenzlau" .
+
+jp:Place_Q540513 a jp:Place ;
+    rdfs:label "Millburn" .
+
+jp:Place_Q54066 a jp:Place ;
+    rdfs:label "Westchester County" .
+
+jp:Place_Q54134 a jp:Place ;
+    rdfs:label "Newburyport" .
+
+jp:Place_Q54153 a jp:Place ;
+    rdfs:label "Kuyavian-Pomeranian Voivodeship" .
+
+jp:Place_Q54154 a jp:Place ;
+    rdfs:label "Revere" .
+
+jp:Place_Q54155 a jp:Place ;
+    rdfs:label "Lublin Voivodeship" .
+
+jp:Place_Q5420 a jp:Place ;
+    rdfs:label "Varaždin" .
+
+jp:Place_Q5428 a jp:Place ;
+    rdfs:label "Siberia" .
+
+jp:Place_Q54337 a jp:Place ;
+    rdfs:label "Täby" .
+
+jp:Place_Q544501 a jp:Place ;
+    rdfs:label "Stadthagen" .
+
+jp:Place_Q545070 a jp:Place ;
+    rdfs:label "Tárkány" .
+
+jp:Place_Q545144 a jp:Place ;
+    rdfs:label "Fellheim" .
+
+jp:Place_Q546 a jp:Place ;
+    rdfs:label "Trieste" .
+
+jp:Place_Q546202 a jp:Place ;
+    rdfs:label "Erdőbénye" .
+
+jp:Place_Q5475 a jp:Place ;
+    rdfs:label "Treviso" .
+
+jp:Place_Q5489 a jp:Place ;
+    rdfs:label "Troyes" .
+
+jp:Place_Q548982 a jp:Place ;
+    rdfs:label "היידנהיים" .
+
+jp:Place_Q549849 a jp:Place ;
+    rdfs:label "Bánovce nad Bebravou" .
+
+jp:Place_Q550661 a jp:Place ;
+    rdfs:label "Friesenheim" .
+
+jp:Place_Q55074490 a jp:Place ;
+    rdfs:label "Kleinsteinach (Riedbach)" .
+
+jp:Place_Q552084 a jp:Place ;
+    rdfs:label "Eschenbergen" .
+
+jp:Place_Q552513 a jp:Place ;
+    rdfs:label "Ravenstein" .
+
+jp:Place_Q553794 a jp:Place ;
+    rdfs:label "Schwebheim" .
+
+jp:Place_Q554089 a jp:Place ;
+    rdfs:label "Neuhaus an der Pegnitz" .
+
+jp:Place_Q554908 a jp:Place ;
+    rdfs:label "Dutovlje" .
+
+jp:Place_Q55502 a jp:Place ;
+    rdfs:label "Kingdom of Jerusalem" .
+
+jp:Place_Q555150 a jp:Place ;
+    rdfs:label "Dobra" .
+
+jp:Place_Q555410 a jp:Place ;
+    rdfs:label "Gmina Książ Wielkopolski" .
+
+jp:Place_Q555618 a jp:Place ;
+    rdfs:label "Burgdorf" .
+
+jp:Place_Q555648 a jp:Place ;
+    rdfs:label "Saarwellingen" .
+
+jp:Place_Q555876 a jp:Place ;
+    rdfs:label "Pleszew" .
+
+jp:Place_Q556200 a jp:Place ;
+    rdfs:label "Piła" .
+
+jp:Place_Q556312 a jp:Place ;
+    rdfs:label "Oettingen in Bayern" .
+
+jp:Place_Q556352 a jp:Place ;
+    rdfs:label "Bad Pyrmont" .
+
+jp:Place_Q556484 a jp:Place ;
+    rdfs:label "Międzychód" .
+
+jp:Place_Q558614 a jp:Place ;
+    rdfs:label "Lipiany" .
+
+jp:Place_Q558631 a jp:Place ;
+    rdfs:label "Rotenburg an der Fulda" .
+
+jp:Place_Q558824 a jp:Place ;
+    rdfs:label "Unsleben" .
+
+jp:Place_Q558882 a jp:Place ;
+    rdfs:label "Nordheim vor der Rhön" .
+
+jp:Place_Q562147 a jp:Place ;
+    rdfs:label "Ottweiler" .
+
+jp:Place_Q5623052 a jp:Place ;
+    rdfs:label "Hamadan" .
+
+jp:Place_Q5642 a jp:Place ;
+    rdfs:label "Brilon" .
+
+jp:Place_Q5647 a jp:Place ;
+    rdfs:label "Sovetsk" .
+
+jp:Place_Q564827 a jp:Place ;
+    rdfs:label "Witzenhausen" .
+
+jp:Place_Q565310 a jp:Place ;
+    rdfs:label "Wawern" .
+
+jp:Place_Q565408 a jp:Place ;
+    rdfs:label "Gimbsheim" .
+
+jp:Place_Q56607436 a jp:Place ;
+    rdfs:label "Schluchtern" .
+
+jp:Place_Q567332 a jp:Place ;
+    rdfs:label "Annopol" .
+
+jp:Place_Q5684 a jp:Place ;
+    rdfs:label "Babylon" .
+
+jp:Place_Q569838 a jp:Place ;
+    rdfs:label "Serock" .
+
+jp:Place_Q57006 a jp:Place ;
+    rdfs:label "Emmerich am Rhein" .
+
+jp:Place_Q570649 a jp:Place ;
+    rdfs:label "Antakalnis" .
+
+jp:Place_Q571136 a jp:Place ;
+    rdfs:label "Senta" .
+
+jp:Place_Q571191 a jp:Place ;
+    rdfs:label "Shavei Tzion" .
+
+jp:Place_Q57200 a jp:Place ;
+    rdfs:label "St. Pete Beach" .
+
+jp:Place_Q573235 a jp:Place ;
+    rdfs:label "Jesberg" .
+
+jp:Place_Q574314 a jp:Place ;
+    rdfs:label "Laupheim" .
+
+jp:Place_Q5753 a jp:Place ;
+    rdfs:label "Samarkand" .
+
+jp:Place_Q5764 a jp:Place ;
+    rdfs:label "Bukhara" .
+
+jp:Place_Q5776 a jp:Place ;
+    rdfs:label "Bethlehem" .
+
+jp:Place_Q578823 a jp:Place ;
+    rdfs:label "Albertirsa" .
+
+jp:Place_Q580 a jp:Place ;
+    rdfs:label "Łódź" .
+
+jp:Place_Q580110 a jp:Place ;
+    rdfs:label "Veča" .
+
+jp:Place_Q581478 a jp:Place ;
+    rdfs:label "Břeclav" .
+
+jp:Place_Q5818 a jp:Place ;
+    rdfs:label "Córdoba" .
+
+jp:Place_Q582209 a jp:Place ;
+    rdfs:label "Tokaj" .
+
+jp:Place_Q5831 a jp:Place ;
+    rdfs:label "Melilla" .
+
+jp:Place_Q5836 a jp:Place ;
+    rdfs:label "Toledo" .
+
+jp:Place_Q5837654 a jp:Place ;
+    rdfs:label "Kafri" .
+
+jp:Place_Q584114 a jp:Place ;
+    rdfs:label "Mágocs" .
+
+jp:Place_Q585 a jp:Place ;
+    rdfs:label "Oslo" .
+
+jp:Place_Q585507 a jp:Place ;
+    rdfs:label "Gochsheim" .
+
+jp:Place_Q586 a jp:Place ;
+    rdfs:label "Bonn" .
+
+jp:Place_Q586369 a jp:Place ;
+    rdfs:label "Mogilev Governorate" .
+
+jp:Place_Q5867 a jp:Place ;
+    rdfs:label "Vukovar" .
+
+jp:Place_Q586762 a jp:Place ;
+    rdfs:label "Westport" .
+
+jp:Place_Q587069 a jp:Place ;
+    rdfs:label "Seelow" .
+
+jp:Place_Q587746 a jp:Place ;
+    rdfs:label "Siret" .
+
+jp:Place_Q587864 a jp:Place ;
+    rdfs:label "Houlbec-Cocherel" .
+
+jp:Place_Q588 a jp:Place ;
+    rdfs:label "Katowice" .
+
+jp:Place_Q5882 a jp:Place ;
+    rdfs:label "Ilok" .
+
+jp:Place_Q58880 a jp:Place ;
+    rdfs:label "Eišiškės" .
+
+jp:Place_Q58888182 a jp:Place ;
+    rdfs:label "Hackney" .
+
+jp:Place_Q589182 a jp:Place ;
+    rdfs:label "Rutherford" .
+
+jp:Place_Q589309 a jp:Place ;
+    rdfs:label "Dolný Kubín" .
+
+jp:Place_Q589460 a jp:Place ;
+    rdfs:label "Livingston" .
+
+jp:Place_Q58987 a jp:Place ;
+    rdfs:label "South Ozone Park" .
+
+jp:Place_Q590583 a jp:Place ;
+    rdfs:label "Szendrő" .
+
+jp:Place_Q591823 a jp:Place ;
+    rdfs:label "Náchod" .
+
+jp:Place_Q592526 a jp:Place ;
+    rdfs:label "Savyon" .
+
+jp:Place_Q593230 a jp:Place ;
+    rdfs:label "Minsk Governorate" .
+
+jp:Place_Q593834 a jp:Place ;
+    rdfs:label "Bezdan" .
+
+jp:Place_Q596609 a jp:Place ;
+    rdfs:label "Vișeu de Sus" .
+
+jp:Place_Q59670 a jp:Place ;
+    rdfs:label "Columbia" .
+
+jp:Place_Q597 a jp:Place ;
+    rdfs:label "Lisbon" .
+
+jp:Place_Q597182 a jp:Place ;
+    rdfs:label "Budapest District VIII" .
+
+jp:Place_Q598 a jp:Place ;
+    rdfs:label "Rzeszów" .
+
+jp:Place_Q5990 a jp:Place ;
+    rdfs:label "Vercelli" .
+
+jp:Place_Q60 a jp:Place ;
+    rdfs:label "New York City" .
+
+jp:Place_Q601684 a jp:Place ;
+    rdfs:label "Podolie" .
+
+jp:Place_Q602426 a jp:Place ;
+    rdfs:label "Ouazzane" .
+
+jp:Place_Q602976 a jp:Place ;
+    rdfs:label "Klatovy" .
+
+jp:Place_Q603249 a jp:Place ;
+    rdfs:label "Klimavičy" .
+
+jp:Place_Q604251 a jp:Place ;
+    rdfs:label "Nowy Dwór Gdański" .
+
+jp:Place_Q605041 a jp:Place ;
+    rdfs:label "Veľké Ludince" .
+
+jp:Place_Q607410 a jp:Place ;
+    rdfs:label "Brańsk" .
+
+jp:Place_Q6088 a jp:Place ;
+    rdfs:label "Alessandria" .
+
+jp:Place_Q608888 a jp:Place ;
+    rdfs:label "Antopaĺ" .
+
+jp:Place_Q609329 a jp:Place ;
+    rdfs:label "Sękowa" .
+
+jp:Place_Q60956 a jp:Place ;
+    rdfs:label "Ashkelon" .
+
+jp:Place_Q609871 a jp:Place ;
+    rdfs:label "Guelma" .
+
+jp:Place_Q61 a jp:Place ;
+    rdfs:label "Washington, D.C." .
+
+jp:Place_Q610463 a jp:Place ;
+    rdfs:label "Palm Coast" .
+
+jp:Place_Q6106 a jp:Place ;
+    rdfs:label "Portland" .
+
+jp:Place_Q611784 a jp:Place ;
+    rdfs:label "Włoszczowa" .
+
+jp:Place_Q61306 a jp:Place ;
+    rdfs:label "Guanajuato" .
+
+jp:Place_Q614145 a jp:Place ;
+    rdfs:label "Leżajsk" .
+
+jp:Place_Q614294 a jp:Place ;
+    rdfs:label "Slawharad" .
+
+jp:Place_Q61480 a jp:Place ;
+    rdfs:label "Ełk" .
+
+jp:Place_Q615132 a jp:Place ;
+    rdfs:label "Ruzhany" .
+
+jp:Place_Q615233 a jp:Place ;
+    rdfs:label "Tiszalök" .
+
+jp:Place_Q615367 a jp:Place ;
+    rdfs:label "Raciąż" .
+
+jp:Place_Q615451 a jp:Place ;
+    rdfs:label "Voznesensk" .
+
+jp:Place_Q6160790 a jp:Place ;
+    rdfs:label "Jarosław, Lower Silesian Voivodeship" .
+
+jp:Place_Q61656 a jp:Place ;
+    rdfs:label "Freudental" .
+
+jp:Place_Q617 a jp:Place ;
+    rdfs:label "Padua" .
+
+jp:Place_Q61835 a jp:Place ;
+    rdfs:label "Weikersheim" .
+
+jp:Place_Q61942 a jp:Place ;
+    rdfs:label "Bad Mergentheim" .
+
+jp:Place_Q62 a jp:Place ;
+    rdfs:label "San Francisco" .
+
+jp:Place_Q62010 a jp:Place ;
+    rdfs:label "Rielasingen-Worblingen" .
+
+jp:Place_Q62026 a jp:Place ;
+    rdfs:label "Gailingen am Hochrhein" .
+
+jp:Place_Q6202720 a jp:Place ;
+    rdfs:label "Jinošice" .
+
+jp:Place_Q621 a jp:Place ;
+    rdfs:label "Versailles" .
+
+jp:Place_Q622574 a jp:Place ;
+    rdfs:label "Marienfließ" .
+
+jp:Place_Q623594 a jp:Place ;
+    rdfs:label "Zolochiv" .
+
+jp:Place_Q6247 a jp:Place ;
+    rdfs:label "Mantua" .
+
+jp:Place_Q625091 a jp:Place ;
+    rdfs:label "Gernsheim" .
+
+jp:Place_Q625154 a jp:Place ;
+    rdfs:label "Komárom" .
+
+jp:Place_Q6259 a jp:Place ;
+    rdfs:label "Pavia" .
+
+jp:Place_Q625904 a jp:Place ;
+    rdfs:label "Schenklengsfeld" .
+
+jp:Place_Q627487 a jp:Place ;
+    rdfs:label "Aryanah" .
+
+jp:Place_Q627878 a jp:Place ;
+    rdfs:label "Izsák" .
+
+jp:Place_Q628118 a jp:Place ;
+    rdfs:label "Rüdesheim am Rhein" .
+
+jp:Place_Q628460 a jp:Place ;
+    rdfs:label "Ozorków" .
+
+jp:Place_Q62937 a jp:Place ;
+    rdfs:label "Pułtusk" .
+
+jp:Place_Q632080 a jp:Place ;
+    rdfs:label "Tét" .
+
+jp:Place_Q632428 a jp:Place ;
+    rdfs:label "Ballan-Miré" .
+
+jp:Place_Q633616 a jp:Place ;
+    rdfs:label "Ramerupt" .
+
+jp:Place_Q634388 a jp:Place ;
+    rdfs:label "Tiszabő" .
+
+jp:Place_Q6346 a jp:Place ;
+    rdfs:label "Indianapolis" .
+
+jp:Place_Q635253 a jp:Place ;
+    rdfs:label "Province of Posen" .
+
+jp:Place_Q636133 a jp:Place ;
+    rdfs:label "Katzenelnbogen" .
+
+jp:Place_Q636935 a jp:Place ;
+    rdfs:label "Tukums" .
+
+jp:Place_Q637555 a jp:Place ;
+    rdfs:label "Montego Bay" .
+
+jp:Place_Q637647 a jp:Place ;
+    rdfs:label "Pásztó" .
+
+jp:Place_Q637954 a jp:Place ;
+    rdfs:label "Betar" .
+
+jp:Place_Q638306 a jp:Place ;
+    rdfs:label "Hranice" .
+
+jp:Place_Q63855 a jp:Place ;
+    rdfs:label "Roudnice nad Labem" .
+
+jp:Place_Q639241 a jp:Place ;
+    rdfs:label "Międzyrzecz" .
+
+jp:Place_Q63939 a jp:Place ;
+    rdfs:label "Baden" .
+
+jp:Place_Q6397 a jp:Place ;
+    rdfs:label "Avignon" .
+
+jp:Place_Q6397066 a jp:Place ;
+    rdfs:label "Shiraz" .
+
+jp:Place_Q639830 a jp:Place ;
+    rdfs:label "Bohorodchany" .
+
+jp:Place_Q64 a jp:Place ;
+    rdfs:label "Berlin" .
+
+jp:Place_Q640493 a jp:Place ;
+    rdfs:label "Kępno" .
+
+jp:Place_Q641 a jp:Place ;
+    rdfs:label "Venice" .
+
+jp:Place_Q642046 a jp:Place ;
+    rdfs:label "Calahorra" .
+
+jp:Place_Q642192 a jp:Place ;
+    rdfs:label "Ostrzeszów" .
+
+jp:Place_Q642327 a jp:Place ;
+    rdfs:label "Münchweiler an der Alsenz" .
+
+jp:Place_Q643281 a jp:Place ;
+    rdfs:label "Reipoltskirchen" .
+
+jp:Place_Q6441 a jp:Place ;
+    rdfs:label "Montpellier" .
+
+jp:Place_Q644728 a jp:Place ;
+    rdfs:label "Argelès-sur-Mer" .
+
+jp:Place_Q645022 a jp:Place ;
+    rdfs:label "Wągrowiec" .
+
+jp:Place_Q646393 a jp:Place ;
+    rdfs:label "Dunajská Streda" .
+
+jp:Place_Q646620 a jp:Place ;
+    rdfs:label "Estella-Lizarra" .
+
+jp:Place_Q646725 a jp:Place ;
+    rdfs:label "Dénia" .
+
+jp:Place_Q646850 a jp:Place ;
+    rdfs:label "Kiskőrös" .
+
+jp:Place_Q646980 a jp:Place ;
+    rdfs:label "Aldershot" .
+
+jp:Place_Q648 a jp:Place ;
+    rdfs:label "Lille" .
+
+jp:Place_Q648071 a jp:Place ;
+    rdfs:label "Mińsk Mazowiecki" .
+
+jp:Place_Q648501 a jp:Place ;
+    rdfs:label "Asheville" .
+
+jp:Place_Q6487 a jp:Place ;
+    rdfs:label "Antalya" .
+
+jp:Place_Q648987 a jp:Place ;
+    rdfs:label "Erfoud" .
+
+jp:Place_Q649 a jp:Place ;
+    rdfs:label "Moscow" .
+
+jp:Place_Q649061 a jp:Place ;
+    rdfs:label "Bauerbach" .
+
+jp:Place_Q649647 a jp:Place ;
+    rdfs:label "Ács" .
+
+jp:Place_Q6496681 a jp:Place ;
+    rdfs:label "Kalyshki" .
+
+jp:Place_Q65 a jp:Place ;
+    rdfs:label "Los Angeles" .
+
+jp:Place_Q6507027 a jp:Place ;
+    rdfs:label "Loša" .
+
+jp:Place_Q651555 a jp:Place ;
+    rdfs:label "Dzisna" .
+
+jp:Place_Q651788 a jp:Place ;
+    rdfs:label "Miasteczko Śląskie" .
+
+jp:Place_Q65380 a jp:Place ;
+    rdfs:label "Tarashcha" .
+
+jp:Place_Q653844 a jp:Place ;
+    rdfs:label "Kańczuga" .
+
+jp:Place_Q653855 a jp:Place ;
+    rdfs:label "Cieszanów" .
+
+jp:Place_Q654695 a jp:Place ;
+    rdfs:label "Debdou" .
+
+jp:Place_Q6547296 a jp:Place ;
+    rdfs:label "Giv'ati Junction" .
+
+jp:Place_Q6548 a jp:Place ;
+    rdfs:label "Orléans" .
+
+jp:Place_Q6555 a jp:Place ;
+    rdfs:label "Narbonne" .
+
+jp:Place_Q655874 a jp:Place ;
+    rdfs:label "Newbury" .
+
+jp:Place_Q656 a jp:Place ;
+    rdfs:label "Saint Petersburg" .
+
+jp:Place_Q6572 a jp:Place ;
+    rdfs:label "Rovigo" .
+
+jp:Place_Q658230 a jp:Place ;
+    rdfs:label "Kelmė" .
+
+jp:Place_Q658562 a jp:Place ;
+    rdfs:label "Raseiniai" .
+
+jp:Place_Q6588 a jp:Place ;
+    rdfs:label "Périgueux" .
+
+jp:Place_Q658855 a jp:Place ;
+    rdfs:label "Mauthausen" .
+
+jp:Place_Q658861 a jp:Place ;
+    rdfs:label "Mielec" .
+
+jp:Place_Q659400 a jp:Place ;
+    rdfs:label "Wilmington" .
+
+jp:Place_Q659424 a jp:Place ;
+    rdfs:label "Pezinok" .
+
+jp:Place_Q6596 a jp:Place ;
+    rdfs:label "Gorizia" .
+
+jp:Place_Q659841 a jp:Place ;
+    rdfs:label "Korneuburg" .
+
+jp:Place_Q659866 a jp:Place ;
+    rdfs:label "Thalfang" .
+
+jp:Place_Q66013 a jp:Place ;
+    rdfs:label "Głogów [Glogau], Lower Silesian Voivodeship" .
+
+jp:Place_Q6602 a jp:Place ;
+    rdfs:label "Strasbourg" .
+
+jp:Place_Q660728 a jp:Place ;
+    rdfs:label "Frauenkirchen" .
+
+jp:Place_Q660854 a jp:Place ;
+    rdfs:label "Kobersdorf" .
+
+jp:Place_Q662563 a jp:Place ;
+    rdfs:label "Auschwitz I concentration camp" .
+
+jp:Place_Q663242 a jp:Place ;
+    rdfs:label "Lackenbach" .
+
+jp:Place_Q663764 a jp:Place ;
+    rdfs:label "Auschwitz II-Birkenau concentration camp" .
+
+jp:Place_Q664371 a jp:Place ;
+    rdfs:label "Aleksandrów Łódzki" .
+
+jp:Place_Q664895 a jp:Place ;
+    rdfs:label "Uherský Brod" .
+
+jp:Place_Q665224 a jp:Place ;
+    rdfs:label "Tvrdošovce" .
+
+jp:Place_Q665266 a jp:Place ;
+    rdfs:label "Ninth Fort" .
+
+jp:Place_Q665853 a jp:Place ;
+    rdfs:label "Bodrogkeresztúr" .
+
+jp:Place_Q6662 a jp:Place ;
+    rdfs:label "Cesena" .
+
+jp:Place_Q666373 a jp:Place ;
+    rdfs:label "Seini" .
+
+jp:Place_Q667682 a jp:Place ;
+    rdfs:label "Peñafiel" .
+
+jp:Place_Q667845 a jp:Place ;
+    rdfs:label "Jaraczewo" .
+
+jp:Place_Q668318 a jp:Place ;
+    rdfs:label "Sárospatak" .
+
+jp:Place_Q668322 a jp:Place ;
+    rdfs:label "Knyszyn" .
+
+jp:Place_Q668327 a jp:Place ;
+    rdfs:label "Oberwesel" .
+
+jp:Place_Q668701 a jp:Place ;
+    rdfs:label "Tășnad" .
+
+jp:Place_Q669570 a jp:Place ;
+    rdfs:label "Santa Coloma de Queralt" .
+
+jp:Place_Q670164 a jp:Place ;
+    rdfs:label "Skhidnytsia" .
+
+jp:Place_Q670770 a jp:Place ;
+    rdfs:label "Gols" .
+
+jp:Place_Q671474 a jp:Place ;
+    rdfs:label "Lankwitz" .
+
+jp:Place_Q6730 a jp:Place ;
+    rdfs:label "Perpignan" .
+
+jp:Place_Q673412 a jp:Place ;
+    rdfs:label "La Seu d'Urgell" .
+
+jp:Place_Q6735870 a jp:Place ;
+    rdfs:label "Maimonides Medical Center (Jewish)" .
+
+jp:Place_Q674311 a jp:Place ;
+    rdfs:label "Kisvárda" .
+
+jp:Place_Q6761 a jp:Place ;
+    rdfs:label "Livorno" .
+
+jp:Place_Q679224 a jp:Place ;
+    rdfs:label "Hajdúböszörmény" .
+
+jp:Place_Q679249 a jp:Place ;
+    rdfs:label "Kalocsa" .
+
+jp:Place_Q680628 a jp:Place ;
+    rdfs:label "Kittsee" .
+
+jp:Place_Q68124 a jp:Place ;
+    rdfs:label "La Chaux-de-Fonds" .
+
+jp:Place_Q6819482 a jp:Place ;
+    rdfs:label "Merion Station" .
+
+jp:Place_Q682046 a jp:Place ;
+    rdfs:label "Nieszawa" .
+
+jp:Place_Q682544 a jp:Place ;
+    rdfs:label "Mikulov" .
+
+jp:Place_Q6829 a jp:Place ;
+    rdfs:label "Speyer" .
+
+jp:Place_Q6833796 a jp:Place ;
+    rdfs:label "Michael Reese Hospital" .
+
+jp:Place_Q6837 a jp:Place ;
+    rdfs:label "Lutherstadt Wittenberg" .
+
+jp:Place_Q6842 a jp:Place ;
+    rdfs:label "Kleve" .
+
+jp:Place_Q685357 a jp:Place ;
+    rdfs:label "Port Royal" .
+
+jp:Place_Q686184 a jp:Place ;
+    rdfs:label "Llerena" .
+
+jp:Place_Q6863 a jp:Place ;
+    rdfs:label "Schwerte" .
+
+jp:Place_Q6874 a jp:Place ;
+    rdfs:label "Rastatt" .
+
+jp:Place_Q688654 a jp:Place ;
+    rdfs:label "Dubăsari" .
+
+jp:Place_Q68986 a jp:Place ;
+    rdfs:label "St. Moritz" .
+
+jp:Place_Q69354 a jp:Place ;
+    rdfs:label "Montreux" .
+
+jp:Place_Q69401 a jp:Place ;
+    rdfs:label "Morges" .
+
+jp:Place_Q69429 a jp:Place ;
+    rdfs:label "Lengnau" .
+
+jp:Place_Q69438 a jp:Place ;
+    rdfs:label "Endingen" .
+
+jp:Place_Q696853 a jp:Place ;
+    rdfs:label "Sandersleben" .
+
+jp:Place_Q697679 a jp:Place ;
+    rdfs:label "Budapest District VI" .
+
+jp:Place_Q698270 a jp:Place ;
+    rdfs:label "Banjica concentration camp" .
+
+jp:Place_Q698591 a jp:Place ;
+    rdfs:label "Hohenems" .
+
+jp:Place_Q699561 a jp:Place ;
+    rdfs:label "Ebensee concentration camp" .
+
+jp:Place_Q7012317 a jp:Place ;
+    rdfs:label "New Waterford" .
+
+jp:Place_Q702411 a jp:Place ;
+    rdfs:label "Rheydt" .
+
+jp:Place_Q7024558 a jp:Place ;
+    rdfs:label "Ramatayim" .
+
+jp:Place_Q703158 a jp:Place ;
+    rdfs:label "Velké Meziříčí" .
+
+jp:Place_Q7033 a jp:Place ;
+    rdfs:label "Nordhausen" .
+
+jp:Place_Q7038 a jp:Place ;
+    rdfs:label "Girona" .
+
+jp:Place_Q704300 a jp:Place ;
+    rdfs:label "Free City of Frankfurt" .
+
+jp:Place_Q7052 a jp:Place ;
+    rdfs:label "Landau in der Pfalz" .
+
+jp:Place_Q7052783 a jp:Place ;
+    rdfs:label "Vilijampolė" .
+
+jp:Place_Q7059 a jp:Place ;
+    rdfs:label "Bruchsal" .
+
+jp:Place_Q70598 a jp:Place ;
+    rdfs:label "Skvyra" .
+
+jp:Place_Q7070 a jp:Place ;
+    rdfs:label "Eisenach" .
+
+jp:Place_Q7072 a jp:Place ;
+    rdfs:label "Halberstadt" .
+
+jp:Place_Q7077 a jp:Place ;
+    rdfs:label "Dachau" .
+
+jp:Place_Q708708 a jp:Place ;
+    rdfs:label "Bendorf" .
+
+jp:Place_Q70972 a jp:Place ;
+    rdfs:label "Kingdom of France" .
+
+jp:Place_Q71 a jp:Place ;
+    rdfs:label "Geneva" .
+
+jp:Place_Q7107933 a jp:Place ;
+    rdfs:label "Ostrów" .
+
+jp:Place_Q7126539 a jp:Place ;
+    rdfs:label "Palaestina Secunda" .
+
+jp:Place_Q714249 a jp:Place ;
+    rdfs:label "Zaluzhzhia" .
+
+jp:Place_Q715 a jp:Place ;
+    rdfs:label "Heilbronn" .
+
+jp:Place_Q717 a jp:Place ;
+    rdfs:label "Venezuela" .
+
+jp:Place_Q717404 a jp:Place ;
+    rdfs:label "Olesno" .
+
+jp:Place_Q717938 a jp:Place ;
+    rdfs:label "Wschowa" .
+
+jp:Place_Q72 a jp:Place ;
+    rdfs:label "Zurich" .
+
+jp:Place_Q720045 a jp:Place ;
+    rdfs:label "Nahavand" .
+
+jp:Place_Q721928 a jp:Place ;
+    rdfs:label "Jarosław" .
+
+jp:Place_Q722836 a jp:Place ;
+    rdfs:label "Ašmiany" .
+
+jp:Place_Q7232117 a jp:Place ;
+    rdfs:label "Portman Square" .
+
+jp:Place_Q7266895 a jp:Place ;
+    rdfs:label "Qaryat al-Qabil" .
+
+jp:Place_Q727 a jp:Place ;
+    rdfs:label "Amsterdam" .
+
+jp:Place_Q728438 a jp:Place ;
+    rdfs:label "Siklós" .
+
+jp:Place_Q728965 a jp:Place ;
+    rdfs:label "Lučenec" .
+
+jp:Place_Q730175 a jp:Place ;
+    rdfs:label "Škłow" .
+
+jp:Place_Q730929 a jp:Place ;
+    rdfs:label "Ostrowiec Świętokrzyski" .
+
+jp:Place_Q73130 a jp:Place ;
+    rdfs:label "Allersheim" .
+
+jp:Place_Q731325 a jp:Place ;
+    rdfs:label "Mszana Dolna" .
+
+jp:Place_Q7318 a jp:Place ;
+    rdfs:label "Nazi Germany" .
+
+jp:Place_Q7332 a jp:Place ;
+    rdfs:label "Bergen-Belsen concentration camp" .
+
+jp:Place_Q733414 a jp:Place ;
+    rdfs:label "Elbeuf" .
+
+jp:Place_Q7341 a jp:Place ;
+    rdfs:label "Auschwitz" .
+
+jp:Place_Q7342 a jp:Place ;
+    rdfs:label "Oświęcim" .
+
+jp:Place_Q735138 a jp:Place ;
+    rdfs:label "Kėdainiai" .
+
+jp:Place_Q735510 a jp:Place ;
+    rdfs:label "Trstín" .
+
+jp:Place_Q7367861 a jp:Place ;
+    rdfs:label "Rose Medical Center" .
+
+jp:Place_Q7374196 a jp:Place ;
+    rdfs:label "Royal Free Hospital" .
+
+jp:Place_Q738777 a jp:Place ;
+    rdfs:label "Iŭje" .
+
+jp:Place_Q739304 a jp:Place ;
+    rdfs:label "Hajdúnánás" .
+
+jp:Place_Q739491 a jp:Place ;
+    rdfs:label "Vawkavysk" .
+
+jp:Place_Q740800 a jp:Place ;
+    rdfs:label "Paks" .
+
+jp:Place_Q741793 a jp:Place ;
+    rdfs:label "Mitzpe Ramon" .
+
+jp:Place_Q743218 a jp:Place ;
+    rdfs:label "Jonava" .
+
+jp:Place_Q743859 a jp:Place ;
+    rdfs:label "Shire" .
+
+jp:Place_Q744167 a jp:Place ;
+    rdfs:label "Mscislaŭ" .
+
+jp:Place_Q744948 a jp:Place ;
+    rdfs:label "New Rochelle" .
+
+jp:Place_Q745051 a jp:Place ;
+    rdfs:label "Ciechanów" .
+
+jp:Place_Q745059 a jp:Place ;
+    rdfs:label "Otwock" .
+
+jp:Place_Q745661 a jp:Place ;
+    rdfs:label "Krustpils" .
+
+jp:Place_Q748211 a jp:Place ;
+    rdfs:label "Old Town" .
+
+jp:Place_Q749 a jp:Place ;
+    rdfs:label "Groningen" .
+
+jp:Place_Q749468 a jp:Place ;
+    rdfs:label "Kobyletska Polyana" .
+
+jp:Place_Q750222 a jp:Place ;
+    rdfs:label "Marghita" .
+
+jp:Place_Q750224 a jp:Place ;
+    rdfs:label "Strakonice" .
+
+jp:Place_Q750407 a jp:Place ;
+    rdfs:label "Senica" .
+
+jp:Place_Q750413 a jp:Place ;
+    rdfs:label "Stropkov" .
+
+jp:Place_Q750696 a jp:Place ;
+    rdfs:label "Irlyava" .
+
+jp:Place_Q751076 a jp:Place ;
+    rdfs:label "Włodawa" .
+
+jp:Place_Q752137 a jp:Place ;
+    rdfs:label "Tàrrega" .
+
+jp:Place_Q752334 a jp:Place ;
+    rdfs:label "Vynohradiv" .
+
+jp:Place_Q752838 a jp:Place ;
+    rdfs:label "Aszód" .
+
+jp:Place_Q7530 a jp:Place ;
+    rdfs:label "Volhynia" .
+
+jp:Place_Q753414 a jp:Place ;
+    rdfs:label "Kensington" .
+
+jp:Place_Q753857 a jp:Place ;
+    rdfs:label "Guilford" .
+
+jp:Place_Q754725 a jp:Place ;
+    rdfs:label "Carei" .
+
+jp:Place_Q754729 a jp:Place ;
+    rdfs:label "Târnăveni" .
+
+jp:Place_Q754773 a jp:Place ;
+    rdfs:label "Hlohovec" .
+
+jp:Place_Q755681 a jp:Place ;
+    rdfs:label "Várpalota" .
+
+jp:Place_Q755686 a jp:Place ;
+    rdfs:label "Nyírbátor" .
+
+jp:Place_Q755699 a jp:Place ;
+    rdfs:label "Balkány" .
+
+jp:Place_Q755701 a jp:Place ;
+    rdfs:label "Ráckeve" .
+
+jp:Place_Q756273 a jp:Place ;
+    rdfs:label "Karcag" .
+
+jp:Place_Q7564711 a jp:Place ;
+    rdfs:label "Montefiore New Rochelle Hospital" .
+
+jp:Place_Q756581 a jp:Place ;
+    rdfs:label "Františkovy Lázně" .
+
+jp:Place_Q756585 a jp:Place ;
+    rdfs:label "Buhuși" .
+
+jp:Place_Q757101 a jp:Place ;
+    rdfs:label "Dagda" .
+
+jp:Place_Q759 a jp:Place ;
+    rdfs:label "New Hampshire" .
+
+jp:Place_Q760497 a jp:Place ;
+    rdfs:label "Pfersee" .
+
+jp:Place_Q761 a jp:Place ;
+    rdfs:label "Białystok" .
+
+jp:Place_Q761439 a jp:Place ;
+    rdfs:label "Moravský Krumlov" .
+
+jp:Place_Q762727 a jp:Place ;
+    rdfs:label "Taroudant" .
+
+jp:Place_Q764943 a jp:Place ;
+    rdfs:label "Olkusz" .
+
+jp:Place_Q7664746 a jp:Place ;
+    rdfs:label "Szkocja" .
+
+jp:Place_Q769820 a jp:Place ;
+    rdfs:label "Kiernozia" .
+
+jp:Place_Q77 a jp:Place ;
+    rdfs:label "Uruguay" .
+
+jp:Place_Q771572 a jp:Place ;
+    rdfs:label "Williamsburg" .
+
+jp:Place_Q771723 a jp:Place ;
+    rdfs:label "Kozłów Szlachecki" .
+
+jp:Place_Q771769 a jp:Place ;
+    rdfs:label "Heréd" .
+
+jp:Place_Q773853 a jp:Place ;
+    rdfs:label "Venice" .
+
+jp:Place_Q773891 a jp:Place ;
+    rdfs:label "Motal" .
+
+jp:Place_Q776113 a jp:Place ;
+    rdfs:label "Nájera" .
+
+jp:Place_Q776965 a jp:Place ;
+    rdfs:label "Klaipėda" .
+
+jp:Place_Q777169 a jp:Place ;
+    rdfs:label "Tarnogród" .
+
+jp:Place_Q778044 a jp:Place ;
+    rdfs:label "Berkeley Springs" .
+
+jp:Place_Q778948 a jp:Place ;
+    rdfs:label "Nové Sady" .
+
+jp:Place_Q779206 a jp:Place ;
+    rdfs:label "Bátorove Kosihy" .
+
+jp:Place_Q78 a jp:Place ;
+    rdfs:label "Basel" .
+
+jp:Place_Q780954 a jp:Place ;
+    rdfs:label "Regöly" .
+
+jp:Place_Q782775 a jp:Place ;
+    rdfs:label "Lopera" .
+
+jp:Place_Q782928 a jp:Place ;
+    rdfs:label "Stupava" .
+
+jp:Place_Q782980 a jp:Place ;
+    rdfs:label "Săpânța" .
+
+jp:Place_Q783526 a jp:Place ;
+    rdfs:label "Zalužany" .
+
+jp:Place_Q7856211 a jp:Place ;
+    rdfs:label "Turramurra" .
+
+jp:Place_Q786762 a jp:Place ;
+    rdfs:label "Hroznětín" .
+
+jp:Place_Q7880 a jp:Place ;
+    rdfs:label "Toulouse" .
+
+jp:Place_Q789233 a jp:Place ;
+    rdfs:label "Balassagyarmat" .
+
+jp:Place_Q789279 a jp:Place ;
+    rdfs:label "Balatonfőkajár" .
+
+jp:Place_Q79 a jp:Place ;
+    rdfs:label "Egypt" .
+
+jp:Place_Q7903 a jp:Place ;
+    rdfs:label "Casablanca" .
+
+jp:Place_Q791847 a jp:Place ;
+    rdfs:label "Bedevlya" .
+
+jp:Place_Q792243 a jp:Place ;
+    rdfs:label "Beled" .
+
+jp:Place_Q793176 a jp:Place ;
+    rdfs:label "Novo Miloševo" .
+
+jp:Place_Q793317 a jp:Place ;
+    rdfs:label "Berek" .
+
+jp:Place_Q793405 a jp:Place ;
+    rdfs:label "Berettyóújfalu" .
+
+jp:Place_Q793424 a jp:Place ;
+    rdfs:label "Berezhany" .
+
+jp:Place_Q793865 a jp:Place ;
+    rdfs:label "Brezovica" .
+
+jp:Place_Q793917 a jp:Place ;
+    rdfs:label "Kružná" .
+
+jp:Place_Q794 a jp:Place ;
+    rdfs:label "Iran" .
+
+jp:Place_Q794837 a jp:Place ;
+    rdfs:label "Biharnagybajom" .
+
+jp:Place_Q795401 a jp:Place ;
+    rdfs:label "Spring Valley" .
+
+jp:Place_Q795623 a jp:Place ;
+    rdfs:label "Oud-Beijerland" .
+
+jp:Place_Q796 a jp:Place ;
+    rdfs:label "Iraq" .
+
+jp:Place_Q79743 a jp:Place ;
+    rdfs:label "Florence" .
+
+jp:Place_Q797713 a jp:Place ;
+    rdfs:label "Babimost" .
+
+jp:Place_Q79815 a jp:Place ;
+    rdfs:label "Mulhouse" .
+
+jp:Place_Q798445 a jp:Place ;
+    rdfs:label "La Goulette" .
+
+jp:Place_Q79867 a jp:Place ;
+    rdfs:label "Birmingham" .
+
+jp:Place_Q7987259 a jp:Place ;
+    rdfs:label "Westchester Medical Center" .
+
+jp:Place_Q79875 a jp:Place ;
+    rdfs:label "Mobile" .
+
+jp:Place_Q79880 a jp:Place ;
+    rdfs:label "Debrecen" .
+
+jp:Place_Q79924 a jp:Place ;
+    rdfs:label "Hot Springs" .
+
+jp:Place_Q80021 a jp:Place ;
+    rdfs:label "Daugavpils" .
+
+jp:Place_Q801 a jp:Place ;
+    rdfs:label "Israel" .
+
+jp:Place_Q802 a jp:Place ;
+    rdfs:label "Nowy Sącz" .
+
+jp:Place_Q8029520 a jp:Place ;
+    rdfs:label "Wola Michowa" .
+
+jp:Place_Q804035 a jp:Place ;
+    rdfs:label "Biržai" .
+
+jp:Place_Q805 a jp:Place ;
+    rdfs:label "Yemen" .
+
+jp:Place_Q805554 a jp:Place ;
+    rdfs:label "Balta" .
+
+jp:Place_Q80637 a jp:Place ;
+    rdfs:label "York Castle" .
+
+jp:Place_Q807 a jp:Place ;
+    rdfs:label "Lausanne" .
+
+jp:Place_Q80985 a jp:Place ;
+    rdfs:label "Fez" .
+
+jp:Place_Q80995 a jp:Place ;
+    rdfs:label "Braunsbach" .
+
+jp:Place_Q81033 a jp:Place ;
+    rdfs:label "Monterrey" .
+
+jp:Place_Q812 a jp:Place ;
+    rdfs:label "Florida" .
+
+jp:Place_Q815721 a jp:Place ;
+    rdfs:label "Nysa" .
+
+jp:Place_Q81581 a jp:Place ;
+    rdfs:label "Szeged" .
+
+jp:Place_Q815903 a jp:Place ;
+    rdfs:label "Bochnia" .
+
+jp:Place_Q816096 a jp:Place ;
+    rdfs:label "Belmont" .
+
+jp:Place_Q81620 a jp:Place ;
+    rdfs:label "Laudenbach" .
+
+jp:Place_Q81717 a jp:Place ;
+    rdfs:label "Bischofswerda" .
+
+jp:Place_Q817279 a jp:Place ;
+    rdfs:label "Beni Mellal" .
+
+jp:Place_Q819126 a jp:Place ;
+    rdfs:label "Berestechko" .
+
+jp:Place_Q820024 a jp:Place ;
+    rdfs:label "Kupiškis" .
+
+jp:Place_Q82185 a jp:Place ;
+    rdfs:label "La Rochelle" .
+
+jp:Place_Q826068 a jp:Place ;
+    rdfs:label "Krosno" .
+
+jp:Place_Q826076 a jp:Place ;
+    rdfs:label "Sejny" .
+
+jp:Place_Q82712 a jp:Place ;
+    rdfs:label "Impruneta" .
+
+jp:Place_Q827229 a jp:Place ;
+    rdfs:label "Bershad" .
+
+jp:Place_Q82770 a jp:Place ;
+    rdfs:label "Bad Dürrheim" .
+
+jp:Place_Q829812 a jp:Place ;
+    rdfs:label "Rimavská Sobota" .
+
+jp:Place_Q831118 a jp:Place ;
+    rdfs:label "Bátor" .
+
+jp:Place_Q831276 a jp:Place ;
+    rdfs:label "Örményes" .
+
+jp:Place_Q83240 a jp:Place ;
+    rdfs:label "Jungholtz" .
+
+jp:Place_Q83241 a jp:Place ;
+    rdfs:label "Galilee" .
+
+jp:Place_Q832781 a jp:Place ;
+    rdfs:label "Babruysk Voblast" .
+
+jp:Place_Q832998 a jp:Place ;
+    rdfs:label "Bodolló" .
+
+jp:Place_Q83317 a jp:Place ;
+    rdfs:label "Mosul" .
+
+jp:Place_Q83324 a jp:Place ;
+    rdfs:label "Sibiu" .
+
+jp:Place_Q833346 a jp:Place ;
+    rdfs:label "Bohdanovce nad Trnavou" .
+
+jp:Place_Q83362 a jp:Place ;
+    rdfs:label "Recanati" .
+
+jp:Place_Q833970 a jp:Place ;
+    rdfs:label "Boldogkőváralja" .
+
+jp:Place_Q83404 a jp:Place ;
+    rdfs:label "Timișoara" .
+
+jp:Place_Q834567 a jp:Place ;
+    rdfs:label "Bonyhád" .
+
+jp:Place_Q834878 a jp:Place ;
+    rdfs:label "Rákospalota" .
+
+jp:Place_Q835423 a jp:Place ;
+    rdfs:label "Strzyżów" .
+
+jp:Place_Q8356 a jp:Place ;
+    rdfs:label "Valladolid" .
+
+jp:Place_Q835831 a jp:Place ;
+    rdfs:label "Mount Vernon" .
+
+jp:Place_Q837161 a jp:Place ;
+    rdfs:label "Sânnicolau Mare" .
+
+jp:Place_Q837765 a jp:Place ;
+    rdfs:label "Zhlobin" .
+
+jp:Place_Q83813 a jp:Place ;
+    rdfs:label "Savannah" .
+
+jp:Place_Q838491 a jp:Place ;
+    rdfs:label "Piltene" .
+
+jp:Place_Q83891 a jp:Place ;
+    rdfs:label "Sasanian Empire" .
+
+jp:Place_Q839456 a jp:Place ;
+    rdfs:label "Al-Fustat" .
+
+jp:Place_Q84 a jp:Place ;
+    rdfs:label "London" .
+
+jp:Place_Q840214 a jp:Place ;
+    rdfs:label "Villemotier" .
+
+jp:Place_Q840986 a jp:Place ;
+    rdfs:label "Törökszentmiklós" .
+
+jp:Place_Q841029 a jp:Place ;
+    rdfs:label "Iziaslav" .
+
+jp:Place_Q841352 a jp:Place ;
+    rdfs:label "Ostrów Mazowiecka" .
+
+jp:Place_Q842555 a jp:Place ;
+    rdfs:label "Saint-Didier-de-Formans" .
+
+jp:Place_Q842923 a jp:Place ;
+    rdfs:label "Pomáz" .
+
+jp:Place_Q843001 a jp:Place ;
+    rdfs:label "Csorna" .
+
+jp:Place_Q843006 a jp:Place ;
+    rdfs:label "Nagykálló" .
+
+jp:Place_Q843009 a jp:Place ;
+    rdfs:label "Marcali" .
+
+jp:Place_Q844979 a jp:Place ;
+    rdfs:label "Héricourt" .
+
+jp:Place_Q846444 a jp:Place ;
+    rdfs:label "ורבובה" .
+
+jp:Place_Q848999 a jp:Place ;
+    rdfs:label "Szczecinek" .
+
+jp:Place_Q849109 a jp:Place ;
+    rdfs:label "Buchach" .
+
+jp:Place_Q849116 a jp:Place ;
+    rdfs:label "Kremenets" .
+
+jp:Place_Q849156 a jp:Place ;
+    rdfs:label "Līvāni" .
+
+jp:Place_Q85 a jp:Place ;
+    rdfs:label "Cairo" .
+
+jp:Place_Q851023 a jp:Place ;
+    rdfs:label "Budapest District XIII" .
+
+jp:Place_Q851034 a jp:Place ;
+    rdfs:label "San Leandro" .
+
+jp:Place_Q851419 a jp:Place ;
+    rdfs:label "Turnov" .
+
+jp:Place_Q852272 a jp:Place ;
+    rdfs:label "Vilkaviškis" .
+
+jp:Place_Q852312 a jp:Place ;
+    rdfs:label "Bushtyno" .
+
+jp:Place_Q853861 a jp:Place ;
+    rdfs:label "Kaunas County" .
+
+jp:Place_Q854612 a jp:Place ;
+    rdfs:label "Bełżec" .
+
+jp:Place_Q854918 a jp:Place ;
+    rdfs:label "Szécsény" .
+
+jp:Place_Q854996 a jp:Place ;
+    rdfs:label "Szerencs" .
+
+jp:Place_Q855016 a jp:Place ;
+    rdfs:label "Csurgó" .
+
+jp:Place_Q855040 a jp:Place ;
+    rdfs:label "Ercsi" .
+
+jp:Place_Q855052 a jp:Place ;
+    rdfs:label "Mezőtúr" .
+
+jp:Place_Q855082 a jp:Place ;
+    rdfs:label "Csenger" .
+
+jp:Place_Q855086 a jp:Place ;
+    rdfs:label "Sajószentpéter" .
+
+jp:Place_Q855645 a jp:Place ;
+    rdfs:label "Durazno" .
+
+jp:Place_Q855838 a jp:Place ;
+    rdfs:label "Bűdzentmihály" .
+
+jp:Place_Q857808 a jp:Place ;
+    rdfs:label "Bierdzany" .
+
+jp:Place_Q858 a jp:Place ;
+    rdfs:label "Syria" .
+
+jp:Place_Q858312 a jp:Place ;
+    rdfs:label "Bieżuń" .
+
+jp:Place_Q858476 a jp:Place ;
+    rdfs:label "Preiļi" .
+
+jp:Place_Q863576 a jp:Place ;
+    rdfs:label "Slonim" .
+
+jp:Place_Q864836 a jp:Place ;
+    rdfs:label "Zhovkva" .
+
+jp:Place_Q8652 a jp:Place ;
+    rdfs:label "Miami" .
+
+jp:Place_Q867349 a jp:Place ;
+    rdfs:label "Konstantynów Łódzki" .
+
+jp:Place_Q8678 a jp:Place ;
+    rdfs:label "Rio de Janeiro" .
+
+jp:Place_Q8684 a jp:Place ;
+    rdfs:label "Seoul" .
+
+jp:Place_Q8686 a jp:Place ;
+    rdfs:label "Shanghai" .
+
+jp:Place_Q87 a jp:Place ;
+    rdfs:label "Alexandria" .
+
+jp:Place_Q8717 a jp:Place ;
+    rdfs:label "Seville" .
+
+jp:Place_Q875605 a jp:Place ;
+    rdfs:label "Csécse" .
+
+jp:Place_Q88 a jp:Place ;
+    rdfs:label "Alexandria" .
+
+jp:Place_Q8810 a jp:Place ;
+    rdfs:label "Granada" .
+
+jp:Place_Q8818 a jp:Place ;
+    rdfs:label "Valencia" .
+
+jp:Place_Q8826 a jp:Place ;
+    rdfs:label "Palma" .
+
+jp:Place_Q8828 a jp:Place ;
+    rdfs:label "Mallorca" .
+
+jp:Place_Q8851 a jp:Place ;
+    rdfs:label "Málaga" .
+
+jp:Place_Q889 a jp:Place ;
+    rdfs:label "Afghanistan" .
+
+jp:Place_Q890122 a jp:Place ;
+    rdfs:label "Bolhrad" .
+
+jp:Place_Q894440 a jp:Place ;
+    rdfs:label "Boskovice" .
+
+jp:Place_Q898212 a jp:Place ;
+    rdfs:label "Lyubavichi, Rudnyansky District, Smolensk Oblast" .
+
+jp:Place_Q90 a jp:Place ;
+    rdfs:label "Paris" .
+
+jp:Place_Q900 a jp:Place ;
+    rdfs:label "Kazan" .
+
+jp:Place_Q9005 a jp:Place ;
+    rdfs:label "Brussels metropolitan area" .
+
+jp:Place_Q903177 a jp:Place ;
+    rdfs:label "Tiszafüred" .
+
+jp:Place_Q903241 a jp:Place ;
+    rdfs:label "Bratslav" .
+
+jp:Place_Q908 a jp:Place ;
+    rdfs:label "Rostov-on-Don" .
+
+jp:Place_Q910985 a jp:Place ;
+    rdfs:label "Dynów" .
+
+jp:Place_Q910997 a jp:Place ;
+    rdfs:label "Wyszków" .
+
+jp:Place_Q911558 a jp:Place ;
+    rdfs:label "Putnok" .
+
+jp:Place_Q911620 a jp:Place ;
+    rdfs:label "Körösladány" .
+
+jp:Place_Q911650 a jp:Place ;
+    rdfs:label "Hajdúsámson" .
+
+jp:Place_Q913962 a jp:Place ;
+    rdfs:label "Skole" .
+
+jp:Place_Q917350 a jp:Place ;
+    rdfs:label "Southbury" .
+
+jp:Place_Q917513 a jp:Place ;
+    rdfs:label "Tustin" .
+
+jp:Place_Q921505 a jp:Place ;
+    rdfs:label "Gedera" .
+
+jp:Place_Q92212 a jp:Place ;
+    rdfs:label "Opole" .
+
+jp:Place_Q922668 a jp:Place ;
+    rdfs:label "Mir" .
+
+jp:Place_Q923050 a jp:Place ;
+    rdfs:label "Tarcal" .
+
+jp:Place_Q924078 a jp:Place ;
+    rdfs:label "Grodzisk Mazowiecki" .
+
+jp:Place_Q924103 a jp:Place ;
+    rdfs:label "Hrubieszów" .
+
+jp:Place_Q924132 a jp:Place ;
+    rdfs:label "Turek" .
+
+jp:Place_Q924252 a jp:Place ;
+    rdfs:label "Milas" .
+
+jp:Place_Q928392 a jp:Place ;
+    rdfs:label "Sierpc" .
+
+jp:Place_Q930449 a jp:Place ;
+    rdfs:label "Horodok" .
+
+jp:Place_Q931022 a jp:Place ;
+    rdfs:label "Lubaczów" .
+
+jp:Place_Q932184 a jp:Place ;
+    rdfs:label "Dubno" .
+
+jp:Place_Q933255 a jp:Place ;
+    rdfs:label "Smalininkai" .
+
+jp:Place_Q93338 a jp:Place ;
+    rdfs:label "Gaziantep" .
+
+jp:Place_Q933389 a jp:Place ;
+    rdfs:label "Nádudvar" .
+
+jp:Place_Q933442 a jp:Place ;
+    rdfs:label "Nagyhalász" .
+
+jp:Place_Q93347 a jp:Place ;
+    rdfs:label "Mostar" .
+
+jp:Place_Q93358 a jp:Place ;
+    rdfs:label "Oradea" .
+
+jp:Place_Q934318 a jp:Place ;
+    rdfs:label "Vidzy" .
+
+jp:Place_Q934785 a jp:Place ;
+    rdfs:label "Trzcianka" .
+
+jp:Place_Q93706 a jp:Place ;
+    rdfs:label "קז'ימייז'" .
+
+jp:Place_Q940691 a jp:Place ;
+    rdfs:label "Reichelsheim" .
+
+jp:Place_Q9409 a jp:Place ;
+    rdfs:label "Ivrea" .
+
+jp:Place_Q941451 a jp:Place ;
+    rdfs:label "Tykocin" .
+
+jp:Place_Q942842 a jp:Place ;
+    rdfs:label "Smíchov" .
+
+jp:Place_Q947067 a jp:Place ;
+    rdfs:label "Hliník nad Hronom" .
+
+jp:Place_Q947521 a jp:Place ;
+    rdfs:label "Gorlice" .
+
+jp:Place_Q948 a jp:Place ;
+    rdfs:label "Tunisia" .
+
+jp:Place_Q950352 a jp:Place ;
+    rdfs:label "Brtnice" .
+
+jp:Place_Q951190 a jp:Place ;
+    rdfs:label "Nemesbikk" .
+
+jp:Place_Q951590 a jp:Place ;
+    rdfs:label "Ramat Shlomo" .
+
+jp:Place_Q951765 a jp:Place ;
+    rdfs:label "Lovasberény" .
+
+jp:Place_Q952457 a jp:Place ;
+    rdfs:label "Nizhyn" .
+
+jp:Place_Q953181 a jp:Place ;
+    rdfs:label "Szczytno" .
+
+jp:Place_Q953690 a jp:Place ;
+    rdfs:label "Süttő" .
+
+jp:Place_Q954114 a jp:Place ;
+    rdfs:label "Hlybokaye" .
+
+jp:Place_Q954130 a jp:Place ;
+    rdfs:label "Kudowa-Zdrój" .
+
+jp:Place_Q954265 a jp:Place ;
+    rdfs:label "Haradok" .
+
+jp:Place_Q954421 a jp:Place ;
+    rdfs:label "Chashniki" .
+
+jp:Place_Q954914 a jp:Place ;
+    rdfs:label "Krychaw" .
+
+jp:Place_Q954948 a jp:Place ;
+    rdfs:label "Bychaŭ" .
+
+jp:Place_Q955126 a jp:Place ;
+    rdfs:label "Cherykaw" .
+
+jp:Place_Q955468 a jp:Place ;
+    rdfs:label "Rahachow" .
+
+jp:Place_Q955992 a jp:Place ;
+    rdfs:label "Kobryn" .
+
+jp:Place_Q956159 a jp:Place ;
+    rdfs:label "Pružany" .
+
+jp:Place_Q95624312 a jp:Place ;
+    rdfs:label "Lossen" .
+
+jp:Place_Q956471 a jp:Place ;
+    rdfs:label "Drahichyn" .
+
+jp:Place_Q956565 a jp:Place ;
+    rdfs:label "Stolin" .
+
+jp:Place_Q956607 a jp:Place ;
+    rdfs:label "Liachavičy" .
+
+jp:Place_Q956614 a jp:Place ;
+    rdfs:label "Kamieniec" .
+
+jp:Place_Q956635 a jp:Place ;
+    rdfs:label "Kosava" .
+
+jp:Place_Q957530 a jp:Place ;
+    rdfs:label "Molėtai" .
+
+jp:Place_Q9580 a jp:Place ;
+    rdfs:label "Burgos" .
+
+jp:Place_Q958617 a jp:Place ;
+    rdfs:label "Smarhon" .
+
+jp:Place_Q958747 a jp:Place ;
+    rdfs:label "Szczuczyn" .
+
+jp:Place_Q958847 a jp:Place ;
+    rdfs:label "Skidzieĺ" .
+
+jp:Place_Q961325 a jp:Place ;
+    rdfs:label "Holešov" .
+
+jp:Place_Q968 a jp:Place ;
+    rdfs:label "Warburg" .
+
+jp:Place_Q97210000 a jp:Place ;
+    rdfs:label "old cemetery of Beersheba" .
+
+jp:Place_Q974038 a jp:Place ;
+    rdfs:label "Budapest District XII" .
+
+jp:Place_Q974468 a jp:Place ;
+    rdfs:label "Liuboml" .
+
+jp:Place_Q974977 a jp:Place ;
+    rdfs:label "Szydłowiec" .
+
+jp:Place_Q977255 a jp:Place ;
+    rdfs:label "Plungė" .
+
+jp:Place_Q978707 a jp:Place ;
+    rdfs:label "Hořovice" .
+
+jp:Place_Q979403 a jp:Place ;
+    rdfs:label "Bačko Petrovo Selo" .
+
+jp:Place_Q981006 a jp:Place ;
+    rdfs:label "Horné Lefantovce" .
+
+jp:Place_Q983866 a jp:Place ;
+    rdfs:label "Radzyń Podlaski" .
+
+jp:Place_Q983871 a jp:Place ;
+    rdfs:label "Maków Mazowiecki" .
+
+jp:Place_Q983875 a jp:Place ;
+    rdfs:label "Przeworsk" .
+
+jp:Place_Q984538 a jp:Place ;
+    rdfs:label "Krotoszyn" .
+
+jp:Place_Q984656 a jp:Place ;
+    rdfs:label "Penafiel" .
+
+jp:Place_Q984746 a jp:Place ;
+    rdfs:label "Cekcyn" .
+
+jp:Place_Q984834 a jp:Place ;
+    rdfs:label "Sheboygan" .
+
+jp:Place_Q985528 a jp:Place ;
+    rdfs:label "Przysucha" .
+
+jp:Place_Q985642 a jp:Place ;
+    rdfs:label "Góra Kalwaria" .
+
+jp:Place_Q986210 a jp:Place ;
+    rdfs:label "Englewood" .
+
+jp:Place_Q986867 a jp:Place ;
+    rdfs:label "Burlingame" .
+
+jp:Place_Q986984 a jp:Place ;
+    rdfs:label "Prudnik [Neustadt O/S], Opole Voivodeship" .
+
+jp:Place_Q987193 a jp:Place ;
+    rdfs:label "Rogoźno" .
+
+jp:Place_Q987997 a jp:Place ;
+    rdfs:label "Sieraków" .
+
+jp:Place_Q988379 a jp:Place ;
+    rdfs:label "Korolivka" .
+
+jp:Place_Q988576 a jp:Place ;
+    rdfs:label "Nakło nad Notecią" .
+
+jp:Place_Q988612 a jp:Place ;
+    rdfs:label "Wieleń" .
+
+jp:Place_Q988632 a jp:Place ;
+    rdfs:label "Mirosławiec" .
+
+jp:Place_Q988639 a jp:Place ;
+    rdfs:label "Dobrzany" .
+
+jp:Place_Q988728 a jp:Place ;
+    rdfs:label "Chariton" .
+
+jp:Place_Q988741 a jp:Place ;
+    rdfs:label "St. Louis Park" .
+
+jp:Place_Q9899 a jp:Place ;
+    rdfs:label "Amsterdam" .
+
+jp:Place_Q989919 a jp:Place ;
+    rdfs:label "Farmington Hills" .
+
+jp:Place_Q989967 a jp:Place ;
+    rdfs:label "Wabash" .
+
+jp:Place_Q990125 a jp:Place ;
+    rdfs:label "Llanelli" .
+
+jp:Place_Q990771 a jp:Place ;
+    rdfs:label "Saltsjöbaden" .
+
+jp:Place_Q990799 a jp:Place ;
+    rdfs:label "Gniewkowo" .
+
+jp:Place_Q9908 a jp:Place ;
+    rdfs:label "Bloemendaal" .
+
+jp:Place_Q990808 a jp:Place ;
+    rdfs:label "Gąbin" .
+
+jp:Place_Q991636 a jp:Place ;
+    rdfs:label "Kornevo" .
+
+jp:Place_Q991653 a jp:Place ;
+    rdfs:label "Kutuzovo" .
+
+jp:Place_Q991797 a jp:Place ;
+    rdfs:label "Kolbuszowa" .
+
+jp:Place_Q991819 a jp:Place ;
+    rdfs:label "Kock" .
+
+jp:Place_Q991840 a jp:Place ;
+    rdfs:label "Janów Lubelski" .
+
+jp:Place_Q991866 a jp:Place ;
+    rdfs:label "Szlichtyngowa" .
+
+jp:Place_Q992071 a jp:Place ;
+    rdfs:label "Bruck" .
+
+jp:Place_Q9934 a jp:Place ;
+    rdfs:label "Hilversum" .
+
+jp:Place_Q994 a jp:Place ;
+    rdfs:label "Tbilisi" .
+
+jp:Place_Q994367 a jp:Place ;
+    rdfs:label "Rhinebeck" .
+
+jp:Place_Q994585 a jp:Place ;
+    rdfs:label "Skwierzyna" .
+
+jp:Place_Q995159 a jp:Place ;
+    rdfs:label "Ciechanowiec" .
+
+jp:Place_Q995231 a jp:Place ;
+    rdfs:label "Long Branch" .
+
+jp:Place_Q995429 a jp:Place ;
+    rdfs:label "Brzeg Dolny" .
+
+jp:Place_Q995820 a jp:Place ;
+    rdfs:label "Bychawa" .
+
+jp:Place_Q995828 a jp:Place ;
+    rdfs:label "Gorzów Śląski" .
+
+jp:Place_Q996477 a jp:Place ;
+    rdfs:label "Vlčkovce" .
+
+jp:Place_Q997335 a jp:Place ;
+    rdfs:label "Nemyriv" .
+
+jp:Place_Q997343 a jp:Place ;
+    rdfs:label "Rava-Ruska" .
+
+jp:Place_Q997351 a jp:Place ;
+    rdfs:label "Polonne" .
+
+jp:Place_Q997359 a jp:Place ;
+    rdfs:label "Zhydachiv" .
+
+jp:Place_Q997360 a jp:Place ;
+    rdfs:label "Buarcos e São Julião" .
+
+jp:Place_Q997392 a jp:Place ;
+    rdfs:label "Yavoriv" .
+
+jp:Place_Q997398 a jp:Place ;
+    rdfs:label "Korets" .
+
+jp:Place_Q997429 a jp:Place ;
+    rdfs:label "Starokostiantyniv" .
+
+jp:Place_Q997462 a jp:Place ;
+    rdfs:label "Peremyshliany" .
+
+jp:Place_Q997469 a jp:Place ;
+    rdfs:label "Mohyliv-Podilskyi" .
+
+jp:Place_Q997502 a jp:Place ;
+    rdfs:label "Hlyniany" .
+
+jp:Place_Q999123 a jp:Place ;
+    rdfs:label "Huntington" .
+
+jp:Place_Q99934 a jp:Place ;
+    rdfs:label "Bertinoro" .
+
+jp:Place_Q999598 a jp:Place ;
+    rdfs:label "Szubin" .
+
+jp:Place_Q999607 a jp:Place ;
+    rdfs:label "Sędziszów" .
+
+jp:Place_Q999899 a jp:Place ;
+    rdfs:label "Třešť" .
+
+jp:Place_bce199912f636082c97fdcca2b3bff01 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/bce199912f636082c97fdcca2b3bff01" .
+
+jp:Place_c98ede63250335e5ec37a3a221e74941 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/c98ede63250335e5ec37a3a221e74941" .
+
+jp:Place_e8284a32093bb62d71b07f1f4efa1fc9 a jp:Place ;
+    rdfs:label "http://www.wikidata.org/.well-known/genid/e8284a32093bb62d71b07f1f4efa1fc9" .
+

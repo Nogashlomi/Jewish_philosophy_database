@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h1>{{ work.title }}</h1>
+    <p class="subtitle">Historical Work</p>
+
+    <h3>Author(s)</h3>
+    <ul>
+        {% for a in work.authors %}
+        <li><a href="/persons/{{ a.id }}">{{ a.label }}</a></li>
+        {% endfor %}
+    </ul>
+
+    {% if work.languages %}
+    <h3>Language</h3>
+    <p>{{ work.languages|join(', ') }}</p>
+    {% endif %}
+
+    {% if work.subjects %}
+    <h3>Subjects</h3>
+    <div style="display:flex; gap: 5px;">
+        {% for s in work.subjects %}
+        <span style="background:#eee; padding:2px 6px; border-radius:4px;">{{ s }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if work.scholarly_mentions %}
+    <h3>Scholarly Mentions</h3>
+    <ul>
+        {% for s in work.scholarly_mentions %}
+        <li><a href="/scholarly/{{ s.id }}">{{ s.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+</div>
+{% endblock %}

@@ -1,0 +1,1045 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Scholar_A_Ackerman a jp:Scholar ;
+    rdfs:label "A. Ackerman" .
+
+jp:Scholar_A_Afterman a jp:Scholar ;
+    rdfs:label "A. Afterman" .
+
+jp:Scholar_A_Akasoy_C_Burnett_A_Fidora a jp:Scholar ;
+    rdfs:label "A. Akasoy; C. Burnett; A. Fidora" .
+
+jp:Scholar_A_Eran a jp:Scholar ;
+    rdfs:label "A. Eran" .
+
+jp:Scholar_A_Fidora a jp:Scholar ;
+    rdfs:label "A. Fidora" .
+
+jp:Scholar_A_Fidora_H_J_Hames_Y_Schwartz a jp:Scholar ;
+    rdfs:label "A. Fidora; H.J. Hames; Y. Schwartz" .
+
+jp:Scholar_A_Fidora_M_Zonta a jp:Scholar ;
+    rdfs:label "A. Fidora; M. Zonta" .
+
+jp:Scholar_A_Fidora_N_Polloni a jp:Scholar ;
+    rdfs:label "A. Fidora; N. Polloni" .
+
+jp:Scholar_A_Fidora_ed a jp:Scholar ;
+    rdfs:label "A. Fidora, ed." .
+
+jp:Scholar_A_Gaziel a jp:Scholar ;
+    rdfs:label "A. Gaziel" .
+
+jp:Scholar_A_Green a jp:Scholar ;
+    rdfs:label "A. Green" .
+
+jp:Scholar_A_Guetta_D_Di_Segni a jp:Scholar ;
+    rdfs:label "A. Guetta;D. Di Segni" .
+
+jp:Scholar_A_Hughes_J_T_Robinson a jp:Scholar ;
+    rdfs:label "A. Hughes;J. T. Robinson" .
+
+jp:Scholar_A_Ivry a jp:Scholar ;
+    rdfs:label "A. Ivry" .
+
+jp:Scholar_A_L_Ivry a jp:Scholar ;
+    rdfs:label "A. L. Ivry",
+        "A.L. Ivry" .
+
+jp:Scholar_A_L_Motzkin a jp:Scholar ;
+    rdfs:label "A.L. Motzkin" .
+
+jp:Scholar_A_Lamprakis_D_Davies a jp:Scholar ;
+    rdfs:label "A. Lamprakis; D. Davies" .
+
+jp:Scholar_A_M_I_van_Oppenraay a jp:Scholar ;
+    rdfs:label "A. M. I. van Oppenraay" .
+
+jp:Scholar_A_Malachi a jp:Scholar ;
+    rdfs:label "A. Malachi" .
+
+jp:Scholar_A_Melamed a jp:Scholar ;
+    rdfs:label "A. Melamed" .
+
+jp:Scholar_A_Musco_R_Gambino_L_Pepi_P_Spallino_M_Vassallo a jp:Scholar ;
+    rdfs:label "A. Musco; R. Gambino; L. Pepi; P. Spallino; M. Vassallo" .
+
+jp:Scholar_A_Ravitsky a jp:Scholar ;
+    rdfs:label "A. Ravitsky" .
+
+jp:Scholar_A_Tanenbaum_J_Yeshaya_E_Hollender a jp:Scholar ;
+    rdfs:label "A. Tanenbaum; J. Yeshaya; E. Hollender" .
+
+jp:Scholar_A_Van_der_Heide a jp:Scholar ;
+    rdfs:label "A. Van der Heide" .
+
+jp:Scholar_A_W_Hughes a jp:Scholar ;
+    rdfs:label "A.W. Hughes" .
+
+jp:Scholar_Aaron_W_Hughes a jp:Scholar ;
+    rdfs:label "Aaron W. Hughes" .
+
+jp:Scholar_Abraham_Ibn_Ezra_Shlomo_Sela a jp:Scholar ;
+    rdfs:label "Abraham Ibn Ezra;Shlomo Sela" .
+
+jp:Scholar_Abraham_ibn_Da_ud a jp:Scholar ;
+    rdfs:label "Abraham ibn Da’ud" .
+
+jp:Scholar_Adena_Tanenbaum_J_M_Harris a jp:Scholar ;
+    rdfs:label "Adena Tanenbaum;J. M. Harris" .
+
+jp:Scholar_Adiel_Zimran a jp:Scholar ;
+    rdfs:label "Adiel Zimran" .
+
+jp:Scholar_Adrian_Sackson a jp:Scholar ;
+    rdfs:label "Adrian Sackson" .
+
+jp:Scholar_Ahuva_Gaziel a jp:Scholar ;
+    rdfs:label "Ahuva Gaziel" .
+
+jp:Scholar_Alex_Green a jp:Scholar ;
+    rdfs:label "Alex Green" .
+
+jp:Scholar_Alfred_Ivry a jp:Scholar ;
+    rdfs:label "Alfred Ivry" .
+
+jp:Scholar_Almuth_Lahmann a jp:Scholar ;
+    rdfs:label "Almuth Lahmann" .
+
+jp:Scholar_Amira_Eran a jp:Scholar ;
+    rdfs:label "Amira Eran" .
+
+jp:Scholar_Angela_Guidi a jp:Scholar ;
+    rdfs:label "Angela Guidi" .
+
+jp:Scholar_Ariel_Malachi a jp:Scholar ;
+    rdfs:label "Ariel Malachi" .
+
+jp:Scholar_Aryeh_Tepper a jp:Scholar ;
+    rdfs:label "Aryeh Tepper" .
+
+jp:Scholar_Avishay_Galili a jp:Scholar ;
+    rdfs:label "Avishay Galili" .
+
+jp:Scholar_Avraham_Stav a jp:Scholar ;
+    rdfs:label "Avraham Stav" .
+
+jp:Scholar_Ayala_Eliyahu a jp:Scholar ;
+    rdfs:label "Ayala Eliyahu" .
+
+jp:Scholar_B_Braner_C_Cohen a jp:Scholar ;
+    rdfs:label "B. Braner; C. Cohen" .
+
+jp:Scholar_B_D_Lerner a jp:Scholar ;
+    rdfs:label "B.D. Lerner" .
+
+jp:Scholar_Bakinaz_Abdalla a jp:Scholar ;
+    rdfs:label "Bakinaz Abdalla" .
+
+jp:Scholar_Berel_Dov_Lerner a jp:Scholar ;
+    rdfs:label "Berel Dov Lerner" .
+
+jp:Scholar_Brett_Yardley a jp:Scholar ;
+    rdfs:label "Brett Yardley" .
+
+jp:Scholar_C_C_Scordari a jp:Scholar ;
+    rdfs:label "C. C. Scordari" .
+
+jp:Scholar_C_Cohen_Skalli_O_Horezky a jp:Scholar ;
+    rdfs:label "C. Cohen Skalli;O. Horezky" .
+
+jp:Scholar_C_Fraenkel a jp:Scholar ;
+    rdfs:label "C. Fraenkel" .
+
+jp:Scholar_C_Fraenkel_J_Fumo_F_Wallis_R_Wisnovsky a jp:Scholar ;
+    rdfs:label "C. Fraenkel; J. Fumo; F. Wallis; R. Wisnovsky" .
+
+jp:Scholar_C_H_Manekin a jp:Scholar ;
+    rdfs:label "C. H. Manekin",
+        "C.H. Manekin" .
+
+jp:Scholar_C_H_Manekin_Y_T_Langermann_H_H_Biesterfeldt a jp:Scholar ;
+    rdfs:label "C.H. Manekin; Y.T. Langermann; H.H. Biesterfeldt" .
+
+jp:Scholar_C_M_Neria a jp:Scholar ;
+    rdfs:label "C. M. Neria",
+        "C.M. Neria" .
+
+jp:Scholar_C_Manekin_D_Davies a jp:Scholar ;
+    rdfs:label "C. Manekin;D. Davies" .
+
+jp:Scholar_C_Rigo a jp:Scholar ;
+    rdfs:label "C. Rigo" .
+
+jp:Scholar_C_Sirat a jp:Scholar ;
+    rdfs:label "C. Sirat" .
+
+jp:Scholar_C_Sirat_J_Del_Barco a jp:Scholar ;
+    rdfs:label "C. Sirat; J. Del Barco" .
+
+jp:Scholar_C_Sirat_S_Klein-Braslavy_O_Weijers a jp:Scholar ;
+    rdfs:label "C. Sirat; S. Klein-Braslavy; O. Weijers" .
+
+jp:Scholar_Carlos_Fraenkel a jp:Scholar ;
+    rdfs:label "Carlos Fraenkel" .
+
+jp:Scholar_Chagit_Badlov a jp:Scholar ;
+    rdfs:label "Chagit Badlov" .
+
+jp:Scholar_Chaim_M_Neria a jp:Scholar ;
+    rdfs:label "Chaim M. Neria" .
+
+jp:Scholar_Charles_Manekin a jp:Scholar ;
+    rdfs:label "Charles Manekin" .
+
+jp:Scholar_Chiara_Carmen_Scordari a jp:Scholar ;
+    rdfs:label "Chiara Carmen Scordari" .
+
+jp:Scholar_D_Bacich_R_Pescatori a jp:Scholar ;
+    rdfs:label "D. Bacich; R. Pescatori" .
+
+jp:Scholar_D_Blumenthal a jp:Scholar ;
+    rdfs:label "D. Blumenthal" .
+
+jp:Scholar_D_Davies a jp:Scholar ;
+    rdfs:label "D. Davies" .
+
+jp:Scholar_D_Davies_A_Lamprakis a jp:Scholar ;
+    rdfs:label "D. Davies;A. Lamprakis" .
+
+jp:Scholar_D_Davies_C_H_Manekin a jp:Scholar ;
+    rdfs:label "D. Davies;C. H. Manekin" .
+
+jp:Scholar_D_Di_Segni a jp:Scholar ;
+    rdfs:label "D. Di Segni" .
+
+jp:Scholar_D_Ehrlich a jp:Scholar ;
+    rdfs:label "D. Ehrlich" .
+
+jp:Scholar_D_Frank_O_Leaman a jp:Scholar ;
+    rdfs:label "D. Frank; O. Leaman" .
+
+jp:Scholar_D_H_Frank a jp:Scholar ;
+    rdfs:label "D. H. Frank",
+        "D.H. Frank" .
+
+jp:Scholar_D_H_Frank_A_Segal a jp:Scholar ;
+    rdfs:label "D.H. Frank; A. Segal",
+        "D.H. Frank;A. Segal" .
+
+jp:Scholar_D_J_Lasker a jp:Scholar ;
+    rdfs:label "D. J. Lasker",
+        "D.J. Lasker" .
+
+jp:Scholar_D_J_Lasker_J_Niehoff-Panagiotidis_D_Sklare a jp:Scholar ;
+    rdfs:label "D. J. Lasker;J. Niehoff-Panagiotidis;D. Sklare" .
+
+jp:Scholar_D_Lemler a jp:Scholar ;
+    rdfs:label "D. Lemler" .
+
+jp:Scholar_D_Lobel a jp:Scholar ;
+    rdfs:label "D. Lobel" .
+
+jp:Scholar_D_Schwartz a jp:Scholar ;
+    rdfs:label "D. Schwartz" .
+
+jp:Scholar_D_Schwartz_E_Eisenmann a jp:Scholar ;
+    rdfs:label "D. Schwartz; E. Eisenmann" .
+
+jp:Scholar_D_Schwartz_Eliezer_Schlossberg a jp:Scholar ;
+    rdfs:label "D. Schwartz; Eliezer Schlossberg" .
+
+jp:Scholar_D_Xiuyuan a jp:Scholar ;
+    rdfs:label "D. Xiuyuan" .
+
+jp:Scholar_Daniel_J_Lasker a jp:Scholar ;
+    rdfs:label "Daniel J. Lasker" .
+
+jp:Scholar_Daniel_J_Lasker_A_Mintz_L_H_Schiffman a jp:Scholar ;
+    rdfs:label "Daniel J. Lasker;A. Mintz;L. H. Schiffman" .
+
+jp:Scholar_Daniel_J_Lasker_B_H_Hary_H_Ben-Shammai a jp:Scholar ;
+    rdfs:label "Daniel J. Lasker;B. H. Hary;H. Ben-Shammai" .
+
+jp:Scholar_Daniel_J_Lasker_C_Del_Valle_S_Garc_a-Jal_n_J_P_Monferrer a jp:Scholar ;
+    rdfs:label "Daniel J. Lasker;C. Del Valle;S. García-Jalón;J. P. Monferrer" .
+
+jp:Scholar_Daniel_J_Lasker_M_Polliack a jp:Scholar ;
+    rdfs:label "Daniel J. Lasker;M. Polliack" .
+
+jp:Scholar_David_Ben-Zazon a jp:Scholar ;
+    rdfs:label "David Ben-Zazon" .
+
+jp:Scholar_David_Blumenthal a jp:Scholar ;
+    rdfs:label "David Blumenthal" .
+
+jp:Scholar_David_Gillis a jp:Scholar ;
+    rdfs:label "David Gillis" .
+
+jp:Scholar_David_Lemler a jp:Scholar ;
+    rdfs:label "David Lemler" .
+
+jp:Scholar_Diana_Di_Segni a jp:Scholar ;
+    rdfs:label "Diana Di Segni" .
+
+jp:Scholar_Diana_Lobel a jp:Scholar ;
+    rdfs:label "Diana Lobel" .
+
+jp:Scholar_Diana_Lobel_B_H_Hary_H_Ben-Shammai a jp:Scholar ;
+    rdfs:label "Diana Lobel;B. H. Hary;H. Ben-Shammai" .
+
+jp:Scholar_Diana_Lobel_J_M_Harris a jp:Scholar ;
+    rdfs:label "Diana Lobel;J. M. Harris" .
+
+jp:Scholar_Doron_Forte a jp:Scholar ;
+    rdfs:label "Doron Forte" .
+
+jp:Scholar_Dov_Schwartz a jp:Scholar ;
+    rdfs:label "Dov Schwartz" .
+
+jp:Scholar_Dov_Schwartz_S_Trigano a jp:Scholar ;
+    rdfs:label "Dov Schwartz;S. Trigano" .
+
+jp:Scholar_Dror_Ehrlich a jp:Scholar ;
+    rdfs:label "Dror Ehrlich" .
+
+jp:Scholar_E_C_Halper a jp:Scholar ;
+    rdfs:label "E.C. Halper" .
+
+jp:Scholar_E_Coda a jp:Scholar ;
+    rdfs:label "E. Coda" .
+
+jp:Scholar_E_Eisenmann a jp:Scholar ;
+    rdfs:label "E. Eisenmann" .
+
+jp:Scholar_E_Halper a jp:Scholar ;
+    rdfs:label "E. Halper" .
+
+jp:Scholar_E_Harvey a jp:Scholar ;
+    rdfs:label "E. Harvey" .
+
+jp:Scholar_E_Krinis a jp:Scholar ;
+    rdfs:label "E. Krinis" .
+
+jp:Scholar_E_Krinis_N_Bashir_S_Offenberg_S_Sadik a jp:Scholar ;
+    rdfs:label "E. Krinis;N. Bashir;S. Offenberg;S. Sadik" .
+
+jp:Scholar_E_Lawee a jp:Scholar ;
+    rdfs:label "E. Lawee" .
+
+jp:Scholar_Ehud_Krinis a jp:Scholar ;
+    rdfs:label "Ehud Krinis" .
+
+jp:Scholar_Eliezer_Davidovich a jp:Scholar ;
+    rdfs:label "Eliezer Davidovich" .
+
+jp:Scholar_Eliezer_Hadad a jp:Scholar ;
+    rdfs:label "Eliezer Hadad" .
+
+jp:Scholar_Eliyahu_Gurfinkel a jp:Scholar ;
+    rdfs:label "Eliyahu Gurfinkel" .
+
+jp:Scholar_Ezra_Blaustein a jp:Scholar ;
+    rdfs:label "Ezra Blaustein" .
+
+jp:Scholar_F_A_Gorgoni a jp:Scholar ;
+    rdfs:label "F.A. Gorgoni" .
+
+jp:Scholar_F_Gorgoni a jp:Scholar ;
+    rdfs:label "F. Gorgoni" .
+
+jp:Scholar_F_Gorgoni_I_Kajon_L_Valente a jp:Scholar ;
+    rdfs:label "F. Gorgoni;I. Kajon;L. Valente" .
+
+jp:Scholar_F_Szlajen a jp:Scholar ;
+    rdfs:label "F. Szlajen" .
+
+jp:Scholar_F_Wallis_R_Wisnovsky a jp:Scholar ;
+    rdfs:label "F. Wallis; R. Wisnovsky" .
+
+jp:Scholar_Francesca_A_Gorgoni a jp:Scholar ;
+    rdfs:label "Francesca A. Gorgoni" .
+
+jp:Scholar_Francesca_Albertini a jp:Scholar ;
+    rdfs:label "Francesca Albertini" .
+
+jp:Scholar_G_Bos a jp:Scholar ;
+    rdfs:label "G. Bos" .
+
+jp:Scholar_G_C_Weber a jp:Scholar ;
+    rdfs:label "G. C. Weber" .
+
+jp:Scholar_G_Cecere_M_Loubet_S_Pagani a jp:Scholar ;
+    rdfs:label "G. Cecere; M. Loubet; S. Pagani" .
+
+jp:Scholar_G_Danzig a jp:Scholar ;
+    rdfs:label "G. Danzig" .
+
+jp:Scholar_G_Freudenthal a jp:Scholar ;
+    rdfs:label "G. Freudenthal" .
+
+jp:Scholar_G_Freudenthal_H_Kasher a jp:Scholar ;
+    rdfs:label "G. Freudenthal;H. Kasher" .
+
+jp:Scholar_G_Freudenthal_M_Zonta a jp:Scholar ;
+    rdfs:label "G. Freudenthal; M. Zonta" .
+
+jp:Scholar_G_Hasselhoff_O_Fraisse a jp:Scholar ;
+    rdfs:label "G. Hasselhoff; O. Fraisse" .
+
+jp:Scholar_G_Holzman a jp:Scholar ;
+    rdfs:label "G. Holzman" .
+
+jp:Scholar_G_J_Brooke_R_Smithuis a jp:Scholar ;
+    rdfs:label "G.J. Brooke; R. Smithuis" .
+
+jp:Scholar_G_K_Hasselhoff a jp:Scholar ;
+    rdfs:label "G. K. Hasselhoff",
+        "G.K. Hasselhoff" .
+
+jp:Scholar_G_Licata a jp:Scholar ;
+    rdfs:label "G. Licata" .
+
+jp:Scholar_G_Miletto_G_Veltri a jp:Scholar ;
+    rdfs:label "G. Miletto; G. Veltri" .
+
+jp:Scholar_G_Milletto_G_Veltri_Y_Halper_G_Corazzol a jp:Scholar ;
+    rdfs:label "G. Milletto; G. Veltri; Y. Halper; G. Corazzol" .
+
+jp:Scholar_G_Tamer a jp:Scholar ;
+    rdfs:label "G. Tamer" .
+
+jp:Scholar_G_Veltri a jp:Scholar ;
+    rdfs:label "G. Veltri" .
+
+jp:Scholar_G_Veltri_E_Franke_T_Hase_C_Kleine_H_M_rmel a jp:Scholar ;
+    rdfs:label "G. Veltri; E. Franke; T. Hase; C. Kleine; H. Mürmel" .
+
+jp:Scholar_G_Veltri_E_M_Obara_G_P_D_Succ_u a jp:Scholar ;
+    rdfs:label "G. Veltri; E.M. Obara; G.P.D. Succ u" .
+
+jp:Scholar_Gabriella_Berzin a jp:Scholar ;
+    rdfs:label "Gabriella Berzin" .
+
+jp:Scholar_Gad_Freudenthal a jp:Scholar ;
+    rdfs:label "Gad Freudenthal" .
+
+jp:Scholar_Gad_Freudenthal_Jos_Luis_Mancha a jp:Scholar ;
+    rdfs:label "Gad Freudenthal; José Luis Mancha" .
+
+jp:Scholar_Gad_Freudenthal_Shlomo_Sela a jp:Scholar ;
+    rdfs:label "Gad Freudenthal; Shlomo Sela" .
+
+jp:Scholar_Gadi_Weber a jp:Scholar ;
+    rdfs:label "Gadi Weber" .
+
+jp:Scholar_George_Kohler a jp:Scholar ;
+    rdfs:label "George Kohler" .
+
+jp:Scholar_Giada_Coppola a jp:Scholar ;
+    rdfs:label "Giada Coppola" .
+
+jp:Scholar_H_Ben-Shammai_S_Shaked_S_Stroumsa a jp:Scholar ;
+    rdfs:label "H. Ben-Shammai; S. Shaked; S. Stroumsa" .
+
+jp:Scholar_H_Davidson a jp:Scholar ;
+    rdfs:label "H. Davidson" .
+
+jp:Scholar_H_Gershuni a jp:Scholar ;
+    rdfs:label "H. Gershuni" .
+
+jp:Scholar_H_Hames a jp:Scholar ;
+    rdfs:label "H. Hames" .
+
+jp:Scholar_H_Kasher a jp:Scholar ;
+    rdfs:label "H. Kasher" .
+
+jp:Scholar_H_Kasher_A_Malachi a jp:Scholar ;
+    rdfs:label "H. Kasher; A. Malachi" .
+
+jp:Scholar_H_Kreisel a jp:Scholar ;
+    rdfs:label "H. Kreisel" .
+
+jp:Scholar_H_Kreisel_C_Sirat_A_Israel a jp:Scholar ;
+    rdfs:label "H. Kreisel; C. Sirat; A. Israel" .
+
+jp:Scholar_Hanna_Gentili a jp:Scholar ;
+    rdfs:label "Hanna Gentili" .
+
+jp:Scholar_Hannah_Kasher a jp:Scholar ;
+    rdfs:label "Hannah Kasher" .
+
+jp:Scholar_Herbert_Davidson a jp:Scholar ;
+    rdfs:label "Herbert Davidson" .
+
+jp:Scholar_Howard_Kreisel a jp:Scholar ;
+    rdfs:label "Howard Kreisel" .
+
+jp:Scholar_I_Dobbs-Weinstein a jp:Scholar ;
+    rdfs:label "I. Dobbs-Weinstein" .
+
+jp:Scholar_I_Dobbs-Weinstein_L_E_Goodman_J_A_Grady a jp:Scholar ;
+    rdfs:label "I. Dobbs-Weinstein; L. E. Goodman; J. A. Grady" .
+
+jp:Scholar_I_H_De_Souza a jp:Scholar ;
+    rdfs:label "I. H. De Souza" .
+
+jp:Scholar_Idit_Dobbs-Weinstein a jp:Scholar ;
+    rdfs:label "Idit Dobbs-Weinstein" .
+
+jp:Scholar_Igor_H_De_Souza a jp:Scholar ;
+    rdfs:label "Igor H. De Souza" .
+
+jp:Scholar_J_-P_Rothschild a jp:Scholar ;
+    rdfs:label "J.-P. Rothschild" .
+
+jp:Scholar_J_A_Diamond a jp:Scholar ;
+    rdfs:label "J.A. Diamond" .
+
+jp:Scholar_J_A_Diamond_M_Kellner a jp:Scholar ;
+    rdfs:label "J. A. Diamond;M. Kellner" .
+
+jp:Scholar_J_Hamesse_O_Weijers a jp:Scholar ;
+    rdfs:label "J. Hamesse; O. Weijers" .
+
+jp:Scholar_J_MacFarland_J_Parens a jp:Scholar ;
+    rdfs:label "J. MacFarland; J. Parens" .
+
+jp:Scholar_J_Parens a jp:Scholar ;
+    rdfs:label "J. Parens" .
+
+jp:Scholar_J_Puig_Montada a jp:Scholar ;
+    rdfs:label "J. Puig Montada" .
+
+jp:Scholar_J_Robinson a jp:Scholar ;
+    rdfs:label "J. Robinson" .
+
+jp:Scholar_J_Stern a jp:Scholar ;
+    rdfs:label "J. Stern" .
+
+jp:Scholar_J_Stern_J_T_Robinson_Y_Shemesh a jp:Scholar ;
+    rdfs:label "J. Stern;J. T. Robinson;Y. Shemesh" .
+
+jp:Scholar_J_T_Robinson a jp:Scholar ;
+    rdfs:label "J. T. Robinson",
+        "J.T. Robinson" .
+
+jp:Scholar_Jacob_Anatoli a jp:Scholar ;
+    rdfs:label "Jacob Anatoli" .
+
+jp:Scholar_James_T_Robinson a jp:Scholar ;
+    rdfs:label "James T. Robinson" .
+
+jp:Scholar_James_T_Robinson_J_M_Harris a jp:Scholar ;
+    rdfs:label "James T. Robinson;J. M. Harris" .
+
+jp:Scholar_Jessica_Hope_Andruss a jp:Scholar ;
+    rdfs:label "Jessica Hope Andruss" .
+
+jp:Scholar_Joav_Avtalion a jp:Scholar ;
+    rdfs:label "Joav Avtalion" .
+
+jp:Scholar_Jonnie_Schnytzer a jp:Scholar ;
+    rdfs:label "Jonnie Schnytzer" .
+
+jp:Scholar_Josef_Stern a jp:Scholar ;
+    rdfs:label "Josef Stern" .
+
+jp:Scholar_Josef_Stern_J_Malino a jp:Scholar ;
+    rdfs:label "Josef Stern;J. Malino" .
+
+jp:Scholar_Josep_Puig_Montada a jp:Scholar ;
+    rdfs:label "Josep Puig Montada" .
+
+jp:Scholar_Josep_Puig_Montada_C_Del_Valle_S_Garc_a-Jal_n_J_P_Monferrer a jp:Scholar ;
+    rdfs:label "Josep Puig Montada;C. Del Valle;S. García-Jalón;J. P. Monferrer" .
+
+jp:Scholar_Josep_Puig_Montada_G_Cerchiai_G_Rota a jp:Scholar ;
+    rdfs:label "Josep Puig Montada;G. Cerchiai;G. Rota" .
+
+jp:Scholar_Joseph_Ibn_Saddiq_Jacob_Haberman a jp:Scholar ;
+    rdfs:label "Joseph Ibn Saddiq;Jacob Haberman" .
+
+jp:Scholar_K_H_Green a jp:Scholar ;
+    rdfs:label "K.H. Green" .
+
+jp:Scholar_K_P_Bland a jp:Scholar ;
+    rdfs:label "K. P. Bland" .
+
+jp:Scholar_K_Seeskin a jp:Scholar ;
+    rdfs:label "K. Seeskin" .
+
+jp:Scholar_Kenneth_Seeskin a jp:Scholar ;
+    rdfs:label "Kenneth Seeskin" .
+
+jp:Scholar_L_E_Goodman a jp:Scholar ;
+    rdfs:label "L.E. Goodman" .
+
+jp:Scholar_L_Ferre_E_Boucher_B_Mahmud a jp:Scholar ;
+    rdfs:label "L. Ferre;E. Boucher;B. Mahmud" .
+
+jp:Scholar_L_Hoch_M_Kellner a jp:Scholar ;
+    rdfs:label "L. Hoch; M. Kellner" .
+
+jp:Scholar_L_J_Kaplan a jp:Scholar ;
+    rdfs:label "L.J. Kaplan" .
+
+jp:Scholar_L_M_hletaler a jp:Scholar ;
+    rdfs:label "L. Mühletaler" .
+
+jp:Scholar_Levi_ben_Abraham_Haim_Kreisel a jp:Scholar ;
+    rdfs:label "Levi ben Abraham;Haim Kreisel" .
+
+jp:Scholar_M_Abram_S_Harvey a jp:Scholar ;
+    rdfs:label "M. Abram;S. Harvey" .
+
+jp:Scholar_M_Abram_S_Harvey_L_Muehlethaler a jp:Scholar ;
+    rdfs:label "M. Abram;S. Harvey;L. Muehlethaler" .
+
+jp:Scholar_M_Bareli_M_Kellner a jp:Scholar ;
+    rdfs:label "M. Bareli;M. Kellner" .
+
+jp:Scholar_M_Benedetto a jp:Scholar ;
+    rdfs:label "M. Benedetto" .
+
+jp:Scholar_M_C_Pacheco_J_F_Meirinhos a jp:Scholar ;
+    rdfs:label "M. C. Pacheco; J. F. Meirinhos" .
+
+jp:Scholar_M_Engel a jp:Scholar ;
+    rdfs:label "M. Engel" .
+
+jp:Scholar_M_Halbertal a jp:Scholar ;
+    rdfs:label "M. Halbertal" .
+
+jp:Scholar_M_Kellner a jp:Scholar ;
+    rdfs:label "M. Kellner" .
+
+jp:Scholar_M_Kellner_D_Gillis a jp:Scholar ;
+    rdfs:label "M. Kellner; D. Gillis" .
+
+jp:Scholar_M_Kozodoy a jp:Scholar ;
+    rdfs:label "M. Kozodoy" .
+
+jp:Scholar_M_Schwarz a jp:Scholar ;
+    rdfs:label "M. Schwarz" .
+
+jp:Scholar_M_Shmidman a jp:Scholar ;
+    rdfs:label "M. Shmidman" .
+
+jp:Scholar_M_Zonta a jp:Scholar ;
+    rdfs:label "M. Zonta" .
+
+jp:Scholar_M_Zonta_A_Speer_T_Jeschke a jp:Scholar ;
+    rdfs:label "M. Zonta; A. Speer; T. Jeschke" .
+
+jp:Scholar_M_Zonta_C_Baff_ioni_R_B_Finazzi_A_Passoni_dell_Acqua_E_Vergani a jp:Scholar ;
+    rdfs:label "M. Zonta; C. Baff ioni; R.B. Finazzi; A. Passoni dell’Acqua; E. Vergani" .
+
+jp:Scholar_M_Zonta_C_Baff_ioni_R_B_Finazzi_A_Passoni_dell_Acqua_P_Nicelli_E_Vergani a jp:Scholar ;
+    rdfs:label "M. Zonta; C. Baff ioni; R.B. Finazzi; A. Passoni dell’Acqua; P. Nicelli; E. Vergani" .
+
+jp:Scholar_M_Zonta_E_H_F_llenbach_G_Miletto a jp:Scholar ;
+    rdfs:label "M. Zonta; E.H. Füllenbach; G. Miletto" .
+
+jp:Scholar_M_Zonta_G_Licata a jp:Scholar ;
+    rdfs:label "M. Zonta; G. Licata" .
+
+jp:Scholar_M_Zonta_P_De_Leemans a jp:Scholar ;
+    rdfs:label "M. Zonta; P. De Leemans" .
+
+jp:Scholar_M_Zonta_U_Rudolph a jp:Scholar ;
+    rdfs:label "M. Zonta; U. Rudolph" .
+
+jp:Scholar_M_Zonta_e_S_Di_Donato a jp:Scholar ;
+    rdfs:label "M. Zonta e S. Di Donato" .
+
+jp:Scholar_Maimonides_Mauro_Zonta a jp:Scholar ;
+    rdfs:label "Maimonides;Mauro Zonta" .
+
+jp:Scholar_Maimonides_Menachem_Kellner a jp:Scholar ;
+    rdfs:label "Maimonides;Menachem Kellner" .
+
+jp:Scholar_Marieke_Abram_et_al a jp:Scholar ;
+    rdfs:label "Marieke Abram et al." .
+
+jp:Scholar_Mauro_Zonta a jp:Scholar ;
+    rdfs:label "Mauro Zonta" .
+
+jp:Scholar_Mauro_Zonta_G_Busi a jp:Scholar ;
+    rdfs:label "Mauro Zonta;G. Busi" .
+
+jp:Scholar_Mauro_Zonta_G_Cerchiai_G_Rota a jp:Scholar ;
+    rdfs:label "Mauro Zonta;G. Cerchiai;G. Rota" .
+
+jp:Scholar_Mauro_Zonta_G_Tamer a jp:Scholar ;
+    rdfs:label "Mauro Zonta;G. Tamer" .
+
+jp:Scholar_Mauro_Zonta_M_Borsari_D_Francesconi a jp:Scholar ;
+    rdfs:label "Mauro Zonta;M. Borsari;D. Francesconi" .
+
+jp:Scholar_Mauro_Zonta_M_Capaldo_F_Cardini a jp:Scholar ;
+    rdfs:label "Mauro Zonta;M. Capaldo;F. Cardini" .
+
+jp:Scholar_Mauro_Zonta_M_F_J_Baasten_R_Munk a jp:Scholar ;
+    rdfs:label "Mauro Zonta;M. F. J. Baasten;R. Munk" .
+
+jp:Scholar_Mauro_Zonta_M_Perani a jp:Scholar ;
+    rdfs:label "Mauro Zonta;M. Perani" .
+
+jp:Scholar_Mauro_Zonta_R_B_Finazzi a jp:Scholar ;
+    rdfs:label "Mauro Zonta;R. B. Finazzi" .
+
+jp:Scholar_Menachem_Kellner a jp:Scholar ;
+    rdfs:label "Menachem Kellner" .
+
+jp:Scholar_Mercedes_Rubio a jp:Scholar ;
+    rdfs:label "Mercedes Rubio" .
+
+jp:Scholar_Michael_Engel a jp:Scholar ;
+    rdfs:label "Michael Engel" .
+
+jp:Scholar_Moses_Narboni a jp:Scholar ;
+    rdfs:label "Moses Narboni" .
+
+jp:Scholar_N_Garshtein a jp:Scholar ;
+    rdfs:label "N. Garshtein" .
+
+jp:Scholar_N_Germann_S_Harvey a jp:Scholar ;
+    rdfs:label "N. Germann & S. Harvey",
+        "N. Germann;S. Harvey" .
+
+jp:Scholar_N_Polloni a jp:Scholar ;
+    rdfs:label "N. Polloni" .
+
+jp:Scholar_Nabih_Bashir a jp:Scholar ;
+    rdfs:label "Nabih Bashir" .
+
+jp:Scholar_Neta_Ecker-Rozinger a jp:Scholar ;
+    rdfs:label "Neta Ecker-Rozinger" .
+
+jp:Scholar_Netanel_Rubin a jp:Scholar ;
+    rdfs:label "Netanel Rubin" .
+
+jp:Scholar_Niran_Garshtein a jp:Scholar ;
+    rdfs:label "Niran Garshtein" .
+
+jp:Scholar_Noam_Hoffmann a jp:Scholar ;
+    rdfs:label "Noam Hoffmann" .
+
+jp:Scholar_O_Elior a jp:Scholar ;
+    rdfs:label "O. Elior" .
+
+jp:Scholar_O_Elior_C_Touati a jp:Scholar ;
+    rdfs:label "O. Elior;C. Touati" .
+
+jp:Scholar_O_Elior_G_Freudenthal_D_Wirmer a jp:Scholar ;
+    rdfs:label "O. Elior;G. Freudenthal;D. Wirmer" .
+
+jp:Scholar_O_Michaelis a jp:Scholar ;
+    rdfs:label "O. Michaelis" .
+
+jp:Scholar_Oded_Horezky a jp:Scholar ;
+    rdfs:label "Oded Horezky" .
+
+jp:Scholar_Ofer_Elior a jp:Scholar ;
+    rdfs:label "Ofer Elior" .
+
+jp:Scholar_Omer_Michaelis a jp:Scholar ;
+    rdfs:label "Omer Michaelis" .
+
+jp:Scholar_Orly_Shoshan a jp:Scholar ;
+    rdfs:label "Orly Shoshan" .
+
+jp:Scholar_P_B_Fenton a jp:Scholar ;
+    rdfs:label "P. B. Fenton" .
+
+jp:Scholar_P_Fenton a jp:Scholar ;
+    rdfs:label "P. Fenton" .
+
+jp:Scholar_R_C_Taylor a jp:Scholar ;
+    rdfs:label "R. C. Taylor" .
+
+jp:Scholar_R_Fontaine a jp:Scholar ;
+    rdfs:label "R. Fontaine" .
+
+jp:Scholar_R_Fontaine_G_Freudenthal a jp:Scholar ;
+    rdfs:label "R. Fontaine; G. Freudenthal" .
+
+jp:Scholar_R_Fontaine_R_Glasner_R_Leicht_G_Veltri a jp:Scholar ;
+    rdfs:label "R. Fontaine; R. Glasner; R. Leicht; G. Veltri" .
+
+jp:Scholar_R_Fontaine_S_Harvey a jp:Scholar ;
+    rdfs:label "R. Fontaine & S. Harvey",
+        "R. Fontaine; S. Harvey" .
+
+jp:Scholar_R_Gatti a jp:Scholar ;
+    rdfs:label "R. Gatti" .
+
+jp:Scholar_R_Glasner a jp:Scholar ;
+    rdfs:label "R. Glasner" .
+
+jp:Scholar_R_Gutman_F_B_Fenton a jp:Scholar ;
+    rdfs:label "R. Gutman;F. B. Fenton" .
+
+jp:Scholar_R_H_de_Souza_Pereira a jp:Scholar ;
+    rdfs:label "R.H. de Souza Pereira" .
+
+jp:Scholar_R_Haliva a jp:Scholar ;
+    rdfs:label "R. Haliva" .
+
+jp:Scholar_R_Jospe a jp:Scholar ;
+    rdfs:label "R. Jospe" .
+
+jp:Scholar_R_Jospe_D_Schwartz a jp:Scholar ;
+    rdfs:label "R. Jospe; D. Schwartz" .
+
+jp:Scholar_R_Kneller-Rowe a jp:Scholar ;
+    rdfs:label "R. Kneller-Rowe" .
+
+jp:Scholar_R_Leicht a jp:Scholar ;
+    rdfs:label "R. Leicht" .
+
+jp:Scholar_R_Leicht_G_Veltri a jp:Scholar ;
+    rdfs:label "R. Leicht;G. Veltri" .
+
+jp:Scholar_R_Smithuis a jp:Scholar ;
+    rdfs:label "R. Smithuis" .
+
+jp:Scholar_R_Weiss a jp:Scholar ;
+    rdfs:label "R. Weiss" .
+
+jp:Scholar_Racheli_Haliva a jp:Scholar ;
+    rdfs:label "Racheli Haliva" .
+
+jp:Scholar_Raphael_Dascalu a jp:Scholar ;
+    rdfs:label "Raphael Dascalu" .
+
+jp:Scholar_Rebecca_Kneller-Rowe a jp:Scholar ;
+    rdfs:label "Rebecca Kneller-Rowe" .
+
+jp:Scholar_Renate_Smithuis a jp:Scholar ;
+    rdfs:label "Renate Smithuis" .
+
+jp:Scholar_Resianne_Fontaine a jp:Scholar ;
+    rdfs:label "Resianne Fontaine" .
+
+jp:Scholar_Resianne_Fontaine_Andrea_Schatz_Irene_Zwiep a jp:Scholar ;
+    rdfs:label "Resianne Fontaine; Andrea Schatz; Irene Zwiep" .
+
+jp:Scholar_Resianne_Fontaine_Shlomo_Berger a jp:Scholar ;
+    rdfs:label "Resianne Fontaine; Shlomo Berger" .
+
+jp:Scholar_Roberto_Gatti a jp:Scholar ;
+    rdfs:label "Roberto Gatti" .
+
+jp:Scholar_Ruth_Glasner a jp:Scholar ;
+    rdfs:label "Ruth Glasner" .
+
+jp:Scholar_S_D_Donato_C_Sirat a jp:Scholar ;
+    rdfs:label "S.D. Donato; C. Sirat" .
+
+jp:Scholar_S_Di_Donato a jp:Scholar ;
+    rdfs:label "S. Di Donato" .
+
+jp:Scholar_S_Harvey a jp:Scholar ;
+    rdfs:label "S. Harvey" .
+
+jp:Scholar_S_Harvey_D_Xiuyuan a jp:Scholar ;
+    rdfs:label "S. Harvey; D. Xiuyuan" .
+
+jp:Scholar_S_Harvey_F_Woerther a jp:Scholar ;
+    rdfs:label "S. Harvey; F. Woerther" .
+
+jp:Scholar_S_Harvey_O_Horezky a jp:Scholar ;
+    rdfs:label "S. Harvey; O. Horezky" .
+
+jp:Scholar_S_Klein-Braslavy a jp:Scholar ;
+    rdfs:label "S. Klein-Braslavy" .
+
+jp:Scholar_S_Nadler a jp:Scholar ;
+    rdfs:label "S. Nadler" .
+
+jp:Scholar_S_Nadler_T_M_Rudavsky a jp:Scholar ;
+    rdfs:label "S. Nadler; T. M. Rudavsky" .
+
+jp:Scholar_S_Pessin a jp:Scholar ;
+    rdfs:label "S. Pessin" .
+
+jp:Scholar_S_Sadik a jp:Scholar ;
+    rdfs:label "S. Sadik" .
+
+jp:Scholar_S_Sadik_E_Eisenmann a jp:Scholar ;
+    rdfs:label "S. Sadik; E. Eisenmann" .
+
+jp:Scholar_S_Sela a jp:Scholar ;
+    rdfs:label "S. Sela" .
+
+jp:Scholar_S_Stroumsa a jp:Scholar ;
+    rdfs:label "S. Stroumsa" .
+
+jp:Scholar_S_Stroumsa_R_Szpiech a jp:Scholar ;
+    rdfs:label "S. Stroumsa; R. Szpiech" .
+
+jp:Scholar_S_Weiss a jp:Scholar ;
+    rdfs:label "S. Weiss" .
+
+jp:Scholar_S_sela a jp:Scholar ;
+    rdfs:label "S. sela" .
+
+jp:Scholar_Sabine_Arndt a jp:Scholar ;
+    rdfs:label "Sabine Arndt" .
+
+jp:Scholar_Samuel_Ibn_Tibbon_Carlos_Fraenkel a jp:Scholar ;
+    rdfs:label "Samuel Ibn Tibbon;Carlos Fraenkel" .
+
+jp:Scholar_Samuel_Ibn_Tibbon_James_T_Robinson a jp:Scholar ;
+    rdfs:label "Samuel Ibn Tibbon;James T. Robinson" .
+
+jp:Scholar_Sara_Klein-Braslavy a jp:Scholar ;
+    rdfs:label "Sara Klein-Braslavy" .
+
+jp:Scholar_Sara_Klein-Braslavy_Colette_Sirat a jp:Scholar ;
+    rdfs:label "Sara Klein-Braslavy; Colette Sirat" .
+
+jp:Scholar_Seymour_Feldman a jp:Scholar ;
+    rdfs:label "Seymour Feldman" .
+
+jp:Scholar_Sh_Berger_I_Zwiep a jp:Scholar ;
+    rdfs:label "Sh. Berger; I. Zwiep" .
+
+jp:Scholar_Shalom_Sadik a jp:Scholar ;
+    rdfs:label "Shalom Sadik" .
+
+jp:Scholar_Shaul_Efrati a jp:Scholar ;
+    rdfs:label "Shaul Efrati" .
+
+jp:Scholar_Shira_Weiss a jp:Scholar ;
+    rdfs:label "Shira Weiss" .
+
+jp:Scholar_Shlomo_Sela a jp:Scholar ;
+    rdfs:label "Shlomo Sela" .
+
+jp:Scholar_Shlomo_Yishai a jp:Scholar ;
+    rdfs:label "Shlomo Yishai" .
+
+jp:Scholar_Shoey_Raz a jp:Scholar ;
+    rdfs:label "Shoey Raz" .
+
+jp:Scholar_Solomon_Ibn_Gabirol_Marienza_Benedetto_Pasquale_Porro a jp:Scholar ;
+    rdfs:label "Solomon Ibn Gabirol;Marienza Benedetto;Pasquale Porro" .
+
+jp:Scholar_Solomon_Ibn_Gabirol_Roberto_Gatti a jp:Scholar ;
+    rdfs:label "Solomon Ibn Gabirol;Roberto Gatti" .
+
+jp:Scholar_Solomon_ben_Judah_of_Lunel_Dov_Schwartz a jp:Scholar ;
+    rdfs:label "Solomon ben Judah of Lunel;Dov Schwartz" .
+
+jp:Scholar_Steven_Harvey a jp:Scholar ;
+    rdfs:label "Steven Harvey" .
+
+jp:Scholar_Steven_Harvey_Charles_Manekin a jp:Scholar ;
+    rdfs:label "Steven Harvey; Charles Manekin" .
+
+jp:Scholar_Syds_Wiersma a jp:Scholar ;
+    rdfs:label "Syds Wiersma" .
+
+jp:Scholar_T_M_Rudavsky a jp:Scholar ;
+    rdfs:label "T. M. Rudavsky",
+        "T.M. Rudavsky" .
+
+jp:Scholar_T_Werthmann a jp:Scholar ;
+    rdfs:label "T. Werthmann" .
+
+jp:Scholar_Tamar_M_Rudavsky_H_Tirosh-Samuelson a jp:Scholar ;
+    rdfs:label "Tamar M. Rudavsky;H. Tirosh-Samuelson" .
+
+jp:Scholar_Tamar_M_Rudavsky_J_J_E_Gracia_J_Yu a jp:Scholar ;
+    rdfs:label "Tamar M. Rudavsky;J. J. E. Gracia;J. Yu" .
+
+jp:Scholar_Tanja_Werthmann a jp:Scholar ;
+    rdfs:label "Tanja Werthmann" .
+
+jp:Scholar_Unknown a jp:Scholar ;
+    rdfs:label "Unknown" .
+
+jp:Scholar_Uri_Gershowitz a jp:Scholar ;
+    rdfs:label "Uri Gershowitz" .
+
+jp:Scholar_W_Z_Harvey a jp:Scholar ;
+    rdfs:label "W. Z. Harvey",
+        "W.Z. Harvey" .
+
+jp:Scholar_Warren_Zev_Harvey a jp:Scholar ;
+    rdfs:label "Warren Zev Harvey" .
+
+jp:Scholar_Y_Halper a jp:Scholar ;
+    rdfs:label "Y. Halper" .
+
+jp:Scholar_Y_Halper_G_Weber a jp:Scholar ;
+    rdfs:label "Y. Halper;G. Weber" .
+
+jp:Scholar_Y_Halper_R_Fontaine a jp:Scholar ;
+    rdfs:label "Y. Halper; R. Fontaine" .
+
+jp:Scholar_Y_Melamed a jp:Scholar ;
+    rdfs:label "Y. Melamed" .
+
+jp:Scholar_Y_Meyrav a jp:Scholar ;
+    rdfs:label "Y. Meyrav" .
+
+jp:Scholar_Y_Schwartz a jp:Scholar ;
+    rdfs:label "Y. Schwartz" .
+
+jp:Scholar_Y_Schwartz_A_Fidora a jp:Scholar ;
+    rdfs:label "Y. Schwartz; A. Fidora" .
+
+jp:Scholar_Y_Schwartz_A_Speer_D_Di_Segni a jp:Scholar ;
+    rdfs:label "Y. Schwartz; A. Speer; D. Di Segni" .
+
+jp:Scholar_Y_Schwartz_A_Speer_T_Jeschke a jp:Scholar ;
+    rdfs:label "Y. Schwartz; A. Speer; T. Jeschke" .
+
+jp:Scholar_Y_Schwartz_E_Baumgarten_R_Mazo_Karras_K_Mesler a jp:Scholar ;
+    rdfs:label "Y. Schwartz; E. Baumgarten; R. Mazo Karras; K. Mesler" .
+
+jp:Scholar_Y_Schwartz_P_Schulthess_C_Fl_hler a jp:Scholar ;
+    rdfs:label "Y. Schwartz; P. Schulthess; C. Flühler" .
+
+jp:Scholar_Y_Shiffman a jp:Scholar ;
+    rdfs:label "Y. Shiffman" .
+
+jp:Scholar_Y_T_Langermann a jp:Scholar ;
+    rdfs:label "Y. T. Langermann",
+        "Y.T. Langermann" .
+
+jp:Scholar_Y_Tzvi_Langermann a jp:Scholar ;
+    rdfs:label "Y. Tzvi Langermann" .
+
+jp:Scholar_Y_Y_Melamed a jp:Scholar ;
+    rdfs:label "Y.Y. Melamed" .
+
+jp:Scholar_Y_Zhang a jp:Scholar ;
+    rdfs:label "Y. Zhang" .
+
+jp:Scholar_Yaron_Leibovitch a jp:Scholar ;
+    rdfs:label "Yaron Leibovitch" .
+
+jp:Scholar_Yechiel_Tzeitkin a jp:Scholar ;
+    rdfs:label "Yechiel Tzeitkin" .
+
+jp:Scholar_Yehuda_Halper a jp:Scholar ;
+    rdfs:label "Yehuda Halper" .
+
+jp:Scholar_Yoav_Meyrav a jp:Scholar ;
+    rdfs:label "Yoav Meyrav" .
+
+jp:Scholar_Yonatan_Shemesh a jp:Scholar ;
+    rdfs:label "Yonatan Shemesh" .
+
+jp:Scholar_Yosef_Flavio_Horwitz a jp:Scholar ;
+    rdfs:label "Yosef Flavio Horwitz" .
+
+jp:Scholar_Yossi_Esudri a jp:Scholar ;
+    rdfs:label "Yossi Esudri" .
+

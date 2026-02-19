@@ -1,0 +1,3120 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Sources
+jp:Source_Steven_Harvey_Reports a jp:Source ;
+    rdfs:label "Steven Harvey Reports" ;
+    jp:title "SIEPM Reports on Jewish Philosophy" .
+
+jp:Source_Popularization a jp:Source ;
+    rdfs:label "The Popularization of Philosophy in Medieval Islam, Judaism, and Christianity" ;
+    jp:title "The Popularization of Philosophy in Medieval Islam, Judaism, and Christianity" .
+
+jp:SW_New_0_Judah_ha_Levi__Abraham_Bar_Hiy a jp:ScholarlyWork ;
+    jp:title "Judah ha-Levi, Abraham Bar Hiyya, Abraham ibn Ezra, and Abraham ibn Da’ud continue to be subjects of research, as are the Karaite thinkers. The emergence of the medieval Hebrew encyclopedias of philosophy and science as a fascinating and important area of inquiry, evident in the previous Jewish Commission report, continues with studies on Judah ben Solomon, Shem-Tov Falaquera, Levi ben Abraham, Meir Aldabi, and Abraham Avigdor. Scholars are continuing to investigate the Islamic and Scholastic influences upon the medieval Jewish philosophers.    Among the most important editions and translations that appeared are:  SOLOMON IBN GABIROL. Fons Vitae - Meqor hayyim, Edizione critica e traduzione  dell’Epitome ebraica dell’opera"^^xsd:string ;
+    jp:publicationYear "2001"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Roberto_Gatti ;
+    jp:hasAuthor jp:Scholar_Marienza__Benedetto ;
+    jp:hasAuthor jp:Scholar_Pasquale_Porro ;
+    jp:hasAuthor jp:Scholar_Shlomo_Sela ;
+    jp:hasAuthor jp:Scholar_Jacob_Haberman ;
+    jp:hasAuthor jp:Scholar_Mauro_Zonta ;
+    jp:hasAuthor jp:Scholar_Menachem_Kellner ;
+    jp:hasAuthor jp:Scholar_Carlos_Fraenkel ;
+    jp:hasAuthor jp:Scholar_James_T ;
+    jp:hasAuthor jp:Scholar_Haim_Kreisel ;
+    jp:hasAuthor jp:Scholar_Haim_Kreisel ;
+    jp:hasAuthor jp:Scholar_Dov__Schwartz ;
+    jp:hasAuthor jp:Scholar_Alfred_L ;
+    .
+
+jp:SW_New_1_ABRAHAM_IBN_DA_UD_s_Exalted_Fa a jp:ScholarlyWork ;
+    jp:title "ABRAHAM IBN DA’UD’s Exalted Faith. Roberto GATTI is working on an Italian translation of GERSONIDES’ Wars of the Lord. Mention must also be made of Charles MANEKIN’s reader in medieval Jewish philosophy, Medieval Jewish Philosophical Writings (Cambridge: Cambridge University Press, 2008).  Recent years have also seen the appearance of numerous dictionaries and histories of medieval Jewish philosophy, both collected works and individual efforts. For example, The Cambridge Companion to Medieval Jewish Philosophy"^^xsd:string ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Charles_Manekin ;
+    .
+
+jp:SW_New_2_ERTPM___Ecriture_et_r__criture a jp:ScholarlyWork ;
+    jp:title "ERTPM – Ecriture et réécriture des textes philosophiques médiévaux: Volume d'hommage  offert à Colette Sirat"^^xsd:string ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_3_FELDMAN__SEYMOUR___Maimonides_ a jp:ScholarlyWork ;
+    jp:title "FELDMAN, SEYMOUR. “Maimonides – A Guide for Posterity”, in CCM, 324-360. ———.Philosophy in a Time of Crisis: Don Isaac Abravanel: Defender   ofthe Faith. Londin: Routledge 2003. ———. “Platonic Cosmologies in the /Dialoghi d'Amore/ of Leone Ebreo (Judah  Abravanel)”, in Viator 36 (2005), 557-582. ———. “The End and Aftereffects of Medieval Jewish Philosophy”, in CCMJP, 414-445. FONTAINE, RESIANNE. “Abraham Ibn Daud’s Polemics against Muslims and Christians”, in   The Three Rings – Textual Studies in the Historical Trialogue of Judaism, Christianity  and Islam"^^xsd:string ;
+    jp:publicationYear "2003"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_4_______Maimonides__Philosophy_o a jp:ScholarlyWork ;
+    jp:title "———. “Maimonides’ Philosophy of Science”, in CCM, 134-166. ———. Science in the Medieval Hebrew and Arabic Traditions. Aldershot, Ashgate:  Variorum, 2005. ———. “The Biological Limitations of Man's Intellectual Perfection According to  Maimonides”, in The Trias of Maimonides/Die Trias des Maimonides"^^xsd:string ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_5_Arabic_Philosophy a jp:ScholarlyWork ;
+    jp:title "Arabic Philosophy"^^xsd:string ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Abraham__A ;
+    jp:hasAuthor jp:Scholar_Benny_K ;
+    .
+
+jp:SW_New_6________The_Art_of_Philosophy__ a jp:ScholarlyWork ;
+    jp:title "———.  “The Art of Philosophy: The Use of Dialogue in Halevi’s Kuzari and Abravanel’s  Dialoghi”, in Medieval Encounters 13 (2007), 470-498. ———. “’The Torah Speaks in the Language of Humans’: On Some Uses of Plato’s Theory of  Myth in Medieval Islamic and Jewish Philosophy” in Plato Redivivus: Studies in the  History of Platonism"^^xsd:string ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_7_KREISEL__HOWARD__HAIM____Chris a jp:ScholarlyWork ;
+    jp:title "KREISEL, HOWARD (HAIM). “Christian Influences on Levi ben Avraham’s Livyat Hen”, in Studia Hebraica 6 (2006): 45-53. ———. “Esotericism to Exotericism: From Maimonides to Gersonides”, in Study and Knowledge in Jewish Thought"^^xsd:string ;
+    jp:publicationYear "2006"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_8______Taste_and_See_that_the_Lo a jp:ScholarlyWork ;
+    jp:title "———.“Taste and See that the Lord is Good: Halevi’s God Revisited”, in Be’erot Yitzhaq:  Studies in Memory of Isadore Twersky"^^xsd:string ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_9_358________Polemical_and_Esote a jp:ScholarlyWork ;
+    jp:title "358. ———. “Polemical and Esoterical Writing in The Guide of the Perplexed: Creation and the  Teleological Issue”, in MMDCC, 29-50.  ———. Studies on Astral Magic in Medieval Jewish Philosophy. Leiden: E. J. Brill, 2005. SEESKIN, KENNETH. Seeskin, Kenneth. Maimonides on the Origin of the World. Cambridge:  Cambridge University Press, 2005.  ———. “Maimonides’ Sense of History”, in Journal of Jewish History 18 (2004), 129-145. ———.  “Sanctity and Silence: The Religious Significance of Maimonides’ Negative  Theology”, in American Catholic Philosophical Quarterly 76 (2002), 7-24. ———.  “The God of the Philosophers”, in Jewish Studies Quarterly 13 (2006), 205-214. SELA, SHLOMO. “Abraham Bar Hiyya’s Astrological Work and Thought”, in Jewish Studies  Quarterly 12 (2006),  1-31.  ———. Abraham Ibn Ezra and the Rise of Medieval Hebrew Science. Leiden: Brill Academic  Publishers, 2003. ———. “La creación del mundo supralunar según Abraham Ibn Ezra: un estudio comparativo  de sus dos comentarios a Génesis”, in Sefarad 63 (2003), 147-182.    “Queries on Astrology Sent from Southern France to Maimonides, Critical Edition of  the Hebrew Text, Translation and Commentary”, in Aleph 4 (2004), 89-190.  SMITHUIS, RENATE. “Abraham Ibn Ezra’s Astrological Works in Hebrew and Latin: New  Discoveries and Exhaustive Listing”, in Aleph 6 (2006), 239-338. STERN, JOSEF. “Maimonides on Amalek, Self-Corrective Mechanisms, and the War against Idolatry”, in Judaism and Modernity: The Religious Philosophy of David Hartman"^^xsd:string ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_10_______La_scienza_ebraica_di_Al a jp:ScholarlyWork ;
+    jp:title "———. “La scienza ebraica di Al-Andalus nel secolo XII. Breve rassegna degli studi più  recenti (1996-2003)”, in Boletín de la Asociación Española de Orientalistas 40  (2004), 59-64. ———. “La tradizione ebraica medievale dei testi arabi”, in Lo spazio letterario del  Medioevo. 3. Le culture circostanti"^^xsd:string ;
+    jp:publicationYear "1996"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_11_Hasse__and__From_Cordoba_to_Co a jp:ScholarlyWork ;
+    jp:title "Hasse; and “From Cordoba to Cologne: Transformation and Translation, Transmission and Edition of Averroes’s Works” (Köln, October 2011), organized"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_12_Finally__our_respondents_have_ a jp:ScholarlyWork ;
+    jp:title "Finally, our respondents have also been asked to provide information on doctoral students who received their Ph.D. between the years 2008-2012. Here is the list of these students with the titles of their dissertations in medieval Jewish philosophy:   AVTALION, Joav. “Comparative Study: Abraham Maimonides’ Kitāb Kifāyat al-ʽĀbidīn and Abū Ḥāmid al-Ghazālī’s Iḥyā’ ʽUlūm al-Dīn”, Bar Ilan University 2010. BEN-ZAZON, David. “Don Isaac Abrabanel’s Commentary on Maimonides’ Guide of the Perplexed”, Ben-Gurion University of the Negev 2009. BERZIN, Gabriella. “The Medieval Hebrew Version of Psychology in Avicenna’s Salvation (Al-Najāt)”, Harvard University 2010. ECKER-ROZINGER, Neta. “Universalistic Elements in the Thought of R. Eliezer Ashkenazi”, Haifa University 2010. ELIOR, Ofer. “Sefer Ruah Ḥen: An Intellectual and Cultural History”, Ben-Gurion University of the Negev 2010. ELIYAHU, Ayala. “Ibn al-Sid al-Batalyawsi and his Place in Medieval Muslim and Jewish Thought”, The Hebrew University of Jerusalem 2010. ESUDRI, Yossi. “Studies in the Thought of Rabbi Isaac ibn Latif”, The Hebrew University of Jerusalem 2009. GAZIEL, Ahuva. “The Biology of Levi ben Gershom (Gersonides)”, Bar-Ilan University 2008. GERSHOWITZ, Uri. “The Commentary on the Book of Job"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Rabbi_E ;
+    jp:hasAuthor jp:Scholar_German_J ;
+    .
+
+jp:SW_New_13_but_if_it_is_true_that_the_gre a jp:ScholarlyWork ;
+    jp:title "but if it is true that the great majority of dissertations in the field are coming out Israel and only a few out of the United States and Europe, then this is cause for concern for the future of the study of medieval Jewish philosophy. This statistic concerning the reported doctorates in the field becomes baffling when one considers that less than twenty-five percent of the scholars who completed the questionnaires received their doctorates from universities in Israel. Another interesting fact that may be noticed at once from the above list concerns the wide variety of thesis topics. While, as we have seen, about a third of the studies listed below focus on Maimonides, nineteen of the twenty-two theses are on nineteen different thinkers. We believe this fact bodes well for the future of the field.    SELECTED BIBLIOGRAPHY 2008-2012  CHJP: Cambridge History of Jewish Philosophy from Antiquity through the Seventeenth Century"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_14_BENEDETTO__M____Everything_is_ a jp:ScholarlyWork ;
+    jp:title "BENEDETTO, M. “‘Everything is in the Hands of Heaven, except the Fear of Heaven’ (BT Berachoth 33b). Determinism and Freedom in Medieval Jewish Philosophy”, in Mantik, Schicksal und Freiheit im Mittelalter"^^xsd:string ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_David_Ii ;
+    .
+
+jp:SW_New_15________Happy_is_He_Whose_Sons_ a jp:ScholarlyWork ;
+    jp:title "———. ‘“Happy is He Whose Sons are Boys”: Ibn Sina and Abraham Ibn Daud on Evil”, in The Arabic, Hebrew and Latin Reception of Avicenna’s Metaphysics"^^xsd:string ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_16_GOODMAN__L_E___Bahya_and_Maimo a jp:ScholarlyWork ;
+    jp:title "GOODMAN, L.E. “Bahya and Maimonides on the Worth of Medicine”, in MHH, 61-93. ———. “Creation and Emanation”, in CHJP, 599-618. ———. Creation and Evolution. London: Routledge 2010.  ———. “Happiness: Jewish, Christian, and Muslim Perspectives”, in Cambridge History of Medieval Philosophy"^^xsd:string ;
+    jp:publicationYear "2010"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_17_______Shlomo_Pines_on_Maimonid a jp:ScholarlyWork ;
+    jp:title "———. “Shlomo Pines on Maimonides, Spinoza, and Kant”, in Journal of Jewish Thought and Philosophy 20 (2012), 173-182. ———. “Spinoza on Ibn Ezra’s Secret of the Twelve”, in Spinoza's ‘Theological Political Treatise’: A Critical Guide"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_18_KASHER__H___The_Dual_Nature_of a jp:ScholarlyWork ;
+    jp:title "KASHER, H. “The Dual Nature of the Biblical Angel in the Philosophy of Maimonides”, in Philosophers and the Jewish Bible"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_19_KASHER__H___The_Dual_Nature_of a jp:ScholarlyWork ;
+    jp:title "KASHER, H. “The Dual Nature of the Biblical Angel in the Philosophy of Maimonides”, in Philosophers and the Jewish Bible"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_20_______On_Humanist_Logic_Judaiz a jp:ScholarlyWork ;
+    jp:title "———. “On Humanist Logic Judaized - Then and Now: Two Models for the Appropriation of Gentile Science”, in SHCS, 431-45.  ———. “Propositions and Propositional Inference in Medieval Hebrew Logic”, in CHJP, 167-187. ———. “The Ambiguous Impact of Christian Scholasticism on Jewish Philosophy in the Late Middle Ages”, in URPF, vol. 1, 215-230. ———. “The Genesis of Die Hebraeischen Uebersetzungen des Mittelalter”, in Studies on Steinschneider: Moritz Steinschneider and the Emergence of the Science of Judaism in Nineteenth-Century Germany"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_21_______Philosophy_and_Science_i a jp:ScholarlyWork ;
+    jp:title "———. “Philosophy and Science in Medieval Jewish Commentaries on the Bible”, in SMJC, 454-475. ———. “Philosophical Psychology, The Jewish Tradition”, in the Encyclopedia of Medieval Philosophy"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_22_______Maimonides_on_Creation__ a jp:ScholarlyWork ;
+    jp:title "———. “Maimonides on Creation”, in JPPR, 185-199. ———. “Miracles in Jewish Philosophy”, in The Cambridge Companion to Miracles"^^xsd:string ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_23_______Guglielmo_Raimondo_Monca a jp:ScholarlyWork ;
+    jp:title "———. “Guglielmo Raimondo Moncada traduttore di Maimonide”, in Guglielmo Raimondo Moncada alias Flavio Mitridate. Un ebreo converso siciliano"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_24_Bulletin_de_philosophie_m_di_v a jp:ScholarlyWork ;
+    jp:title "Bulletin de philosophie médiévale 59 (2017), xxx-xxx. DOI: 10.1484/J.BPM.5.xxxxxx"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_25___2018__Brepols_Publishers__Al a jp:ScholarlyWork ;
+    jp:title "© 2018, Brepols Publishers. All rights reserv"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_26_Commission__for__Jewish__Philo a jp:ScholarlyWork ;
+    jp:title "Commission  for  Jewish  PhilosoPhy  (2013-2017)"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_27_54__2012___23_46__this_one_too a jp:ScholarlyWork ;
+    jp:title "54 (2012), 23-46, this one too is intended to be representative and not at"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_28_languages__that_actually_appea a jp:ScholarlyWork ;
+    jp:title "languages, that actually appeared between the years 2013-2017, and that"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_29_PM_Congress_in_Porto_Alegre__B a jp:ScholarlyWork ;
+    jp:title "PM Congress in Porto Alegre, Brazil in July 2017 (under ten), compared to"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_30_in_2012__under_twenty__and_in_ a jp:ScholarlyWork ;
+    jp:title "in 2012 (under twenty) and in Palermo in 2007 (over thirty). While there"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_31_ic__Jewish__and_Christian_Thou a jp:ScholarlyWork ;
+    jp:title "ic, Jewish, and Christian Thought” (Freiburg, August 2014); “The Place of"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_32_spectives___Cologne_2016___and a jp:ScholarlyWork ;
+    jp:title "spectives” (Cologne 2016); and the FUB conference, “Philosophy for All?"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_33_Vernacular___Berlin__July_2016 a jp:ScholarlyWork ;
+    jp:title "Vernacular” (Berlin, July 2016),"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_34_Arab__Hebrew_and_Latin_Middle_ a jp:ScholarlyWork ;
+    jp:title "Arab, Hebrew and Latin Middle Ages” (2012-2017; FIRB Project, Universi-"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_35_1_see_Bulletin_de_philosophie_ a jp:ScholarlyWork ;
+    jp:title "1 see Bulletin de philosophie médiévale 58 (2016), 519-40"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_36_Academic_Publishers_2014 a jp:ScholarlyWork ;
+    jp:title "Academic Publishers 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_37_the_Negev_Press_2017 a jp:ScholarlyWork ;
+    jp:title "the Negev Press 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_38_strouMsa__Provo__UT__Brigham_Y a jp:ScholarlyWork ;
+    jp:title "strouMsa. Provo, UT: Brigham Young University Press 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_39_Universit__di_Macerata_2013__2 a jp:ScholarlyWork ;
+    jp:title "Università di Macerata 2013, 287-390"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_40_sChWarz__Beer_Sheva__Ben_Gurio a jp:ScholarlyWork ;
+    jp:title "sChWarz. Beer-Sheva: Ben-Gurion University of the Negev 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_41_Three a jp:ScholarlyWork ;
+    jp:title "Three"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_42_Kreisel__Yerushalayim__World_U a jp:ScholarlyWork ;
+    jp:title "Kreisel. Yerushalayim: World Union of Jewish Studies 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_43_omy a jp:ScholarlyWork ;
+    jp:title "omy"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_44_Moses_ben_judah__Love_in_Delig a jp:ScholarlyWork ;
+    jp:title "Moses ben judah. Love in Delights (Ahavah ba-Taʿanugim) I.1-7"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_45_Jewish_Studies_2016 a jp:ScholarlyWork ;
+    jp:title "Jewish Studies 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_46_ophie__trad__D__leMler__Paris_ a jp:ScholarlyWork ;
+    jp:title "ophie, trad. D. leMler. Paris: Hermann 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_47_the_Karaite_on_the_Book_of_Jos a jp:ScholarlyWork ;
+    jp:title "the Karaite on the Book of Joshua"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_48_hyMan__1921_2017__3_Mauro_zont a jp:ScholarlyWork ;
+    jp:title "hyMan (1921-2017),3 Mauro zonta (1968-2017),4 and Kalman bland"^^xsd:string ;
+    jp:publicationYear "1921"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_49__1942_2017__5_They_will_all_be a jp:ScholarlyWork ;
+    jp:title "(1942-2017).5 They will all be miss"^^xsd:string ;
+    jp:publicationYear "1942"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_50_students_who_received_their_Ph a jp:ScholarlyWork ;
+    jp:title "students who received their Ph.D. degrees between the years 2013-2017 in"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_51_3_see_http___seforim_blogspot_ a jp:ScholarlyWork ;
+    jp:title "3 see http://seforim.blogspot.co.il/2017/02/dean-of-historians-of-jewish-philosophy.html"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_52_4_see_https___networks_h_net_o a jp:ScholarlyWork ;
+    jp:title "4 see https://networks.h-net.org/node/28655/discussions/193305/obituary-prof-mau-"^^xsd:string ;
+    jp:publicationYear "2865"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_53_Tenth_Century_Karaite_of_Jerus a jp:ScholarlyWork ;
+    jp:title "Tenth-Century Karaite of Jerusalem”. The University of Chicago 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_54_namics_of_Transmission_at_Cult a jp:ScholarlyWork ;
+    jp:title "namics of Transmission at Cultural Crossroads”. University of Oxford 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_55_the_Creation___Ben_Gurion_Univ a jp:ScholarlyWork ;
+    jp:title "the Creation”. Ben-Gurion University of the Negev 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_56_is_Sorbonne__INALCO___Universi a jp:ScholarlyWork ;
+    jp:title "is-Sorbonne, INALCO – Università degli Studi Roma Tre 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_57_The_University_of_Chicago_2016 a jp:ScholarlyWork ;
+    jp:title "The University of Chicago 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_58_the_Guide_of_the_Perplexed__c_ a jp:ScholarlyWork ;
+    jp:title "the Guide of the Perplexed, c.1250-1362”. The University of Chicago 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_59_University_of_Cambridge_2015 a jp:ScholarlyWork ;
+    jp:title "University of Cambridge 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_60_Bar_Ilan_University_2017 a jp:ScholarlyWork ;
+    jp:title "Bar-Ilan University 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_61_sonides___University_of_Toront a jp:ScholarlyWork ;
+    jp:title "sonides”. University of Toronto 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_62_Heretic____McGill_University_2 a jp:ScholarlyWork ;
+    jp:title "Heretic)”. McGill University 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_63_on_the_Nature_of_the_Soul_and_ a jp:ScholarlyWork ;
+    jp:title "on the Nature of the Soul and its Origin”. Bar-Ilan University 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_64_Tel_Aviv_University_2017 a jp:ScholarlyWork ;
+    jp:title "Tel Aviv University 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_65_chean_Ethics__Sources_And_Anal a jp:ScholarlyWork ;
+    jp:title "chean Ethics: Sources And Analysis”. The University of Chicago 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_66_Century_An_Historical_Intellec a jp:ScholarlyWork ;
+    jp:title "Century An Historical-Intellectual Inquiry”. Bar-Ilan University 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_67_Theology___The_Hebrew_Universi a jp:ScholarlyWork ;
+    jp:title "Theology”. The Hebrew University of Jerusalem 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_68_in_Medieval_Provence___New_Yor a jp:ScholarlyWork ;
+    jp:title "in Medieval Provence”. New York University 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_69_Raymond_Martin_O_P___ca_1220_c a jp:ScholarlyWork ;
+    jp:title "Raymond Martin O.P. (ca.1220–ca. 1285)”. Universiteit van Tilburg 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_70_Sha_ar_ha_Shamayim___The_Hebre a jp:ScholarlyWork ;
+    jp:title "Shaʿar ha-Shamayim”. The Hebrew University of Jerusalem 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_71_In_the_2008_2012_report__we_po a jp:ScholarlyWork ;
+    jp:title "In the 2008-2012 report, we pointed out the striking fact that all but two"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_72_seleCted__BiBliograPhy__2013_2 a jp:ScholarlyWork ;
+    jp:title "seleCted  BiBliograPhy  2013-2017"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_73_and_n__polloni__Barcelona_Roma a jp:ScholarlyWork ;
+    jp:title "and n. polloni. Barcelona-Roma: FIDEM 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_74_es_and_Humanities_2013 a jp:ScholarlyWork ;
+    jp:title "es and Humanities 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_75_FCMJ__Na_Senda_da_Raz_o__Filos a jp:ScholarlyWork ;
+    jp:title "FCMJ: Na Senda da Razão: Filosofia e Ciência no Medievo Judaico"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_76_hrsg__v__l__M_hletaler__G_ttin a jp:ScholarlyWork ;
+    jp:title "hrsg. v. l. Mühletaler. Göttingen: Vandenhoeck & Ruprecht 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_77_taine_and_g__Freudenthal__Leid a jp:ScholarlyWork ;
+    jp:title "taine and g. Freudenthal. Leiden: Brill 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_78_ra__h_j__haMes_and_y__sChWartz a jp:ScholarlyWork ;
+    jp:title "ra, h.j. haMes and y. sChWartz. Leiden: Brill 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_79_bridge__Cambridge_University_P a jp:ScholarlyWork ;
+    jp:title "bridge: Cambridge University Press 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_80_Possible_Existence_of_Multiple a jp:ScholarlyWork ;
+    jp:title "Possible Existence of Multiple Simultaneous Worlds”, in Aleph 17 (2017),"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_81_tional_and_Divine_law___in_Jew a jp:ScholarlyWork ;
+    jp:title "tional and Divine law”, in Jewish Studies Quarterly 20 (2013), 315-39"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_82_tion___in_AJS_Review_37__2013_ a jp:ScholarlyWork ;
+    jp:title "tion”, in AJS Review 37 (2013), 315-31"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_83_in_Kabbalah_30__2013___65_73 a jp:ScholarlyWork ;
+    jp:title "in Kabbalah 30 (2013), 65-73"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_84_MudroCh_und_p__sChulthess__Bas a jp:ScholarlyWork ;
+    jp:title "MudroCh und p. sChulthess. Basel: Schwabe 2017, 130-43"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_85_del_Vaticano__Biblioteca_Apost a jp:ScholarlyWork ;
+    jp:title "del Vaticano: Biblioteca Apostolica Vaticana 2015, 241-58"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_86_hudah_Romano___in_Schede_Medie a jp:ScholarlyWork ;
+    jp:title "hudah Romano”, in Schede Medievali 52 (2014), 135-49"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_87_vo_arabo__ebraico_e_latino___i a jp:ScholarlyWork ;
+    jp:title "vo arabo, ebraico e latino”, in Quaestio 13 (2013), 323-36"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_88_bridge__Cambridge_University_P a jp:ScholarlyWork ;
+    jp:title "bridge: Cambridge University Press 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_89_Press_Fribourg_2017__35_53 a jp:ScholarlyWork ;
+    jp:title "Press Fribourg 2017, 35-53"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_90_losophie_M_di_vales_83__2016__ a jp:ScholarlyWork ;
+    jp:title "losophie Médiévales 83 (2016), 21-48"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_91_Storia_e_Letteratura_2015__117 a jp:ScholarlyWork ;
+    jp:title "Storia e Letteratura 2015, 117-41"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_92_Kultur_21__2015___75_96 a jp:ScholarlyWork ;
+    jp:title "Kultur 21 (2015), 75-96"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_93_Mediaevalia_38___Berlin__Walte a jp:ScholarlyWork ;
+    jp:title "Mediaevalia 38). Berlin: Walter de Gruyter 2014, 229-62"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_94_ing_the_Human_Intellect__Londo a jp:ScholarlyWork ;
+    jp:title "ing the Human Intellect. London: Bloomsbury 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_95_proietti_e_g__liCata__Macerata a jp:ScholarlyWork ;
+    jp:title "proietti e g. liCata. Macerata: Edizioni Università di Macerata 2016, 105-"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_96_ti_e_studi_sulla_tradizione_fi a jp:ScholarlyWork ;
+    jp:title "ti e studi sulla tradizione filosofica medievale 26 (2015), 495-517"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_97_dioevo_38__2013___295_318 a jp:ScholarlyWork ;
+    jp:title "dioevo 38 (2013), 295-318"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_98_g__roux_et_M__sebti__Paris__He a jp:ScholarlyWork ;
+    jp:title "g. roux et M. sebti. Paris: Hermann Editeurs 2015, 319-39"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_99_Caire__Institut_fran_ais_d_arc a jp:ScholarlyWork ;
+    jp:title "Caire, Institut français d’archéologie orientale 2013, 211-52"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_100_l_pez_Farjeat_and_j__a__tellKa a jp:ScholarlyWork ;
+    jp:title "lópez-Farjeat and j. a. tellKaMp. Paris: Vrin 2013, 17-39"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_101_Unknown_Project_Proposal a jp:ScholarlyWork ;
+    jp:title "Unknown Project Proposal"^^xsd:string ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Shlomo_P ;
+    .
+
+jp:SW_New_102_boustan_et_al__T_bingen__Mohr_ a jp:ScholarlyWork ;
+    jp:title "boustan et al. Tübingen: Mohr Siebeck 2013, 809-20"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_103_versity_Press_2013__137_50 a jp:ScholarlyWork ;
+    jp:title "versity Press 2013, 137-50"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_104_adaMson__Cambridge__Cambridge_ a jp:ScholarlyWork ;
+    jp:title "adaMson. Cambridge: Cambridge University Press 2013, 214-41"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_105_Universit__di_Macerata_2016__2 a jp:ScholarlyWork ;
+    jp:title "Università di Macerata 2016, 23-50"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_106_pher_Scientist__Oxford__Oxford a jp:ScholarlyWork ;
+    jp:title "pher-Scientist. Oxford: Oxford University Press 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_107_e_nelle_Arti_Ebraiche__a_cura_ a jp:ScholarlyWork ;
+    jp:title "e nelle Arti Ebraiche, a cura di E. bariCCi. Milano: Ledizioni 2016, 29-40"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_108_Shofar_34__2015___81_106 a jp:ScholarlyWork ;
+    jp:title "Shofar 34 (2015), 81-106"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_109_go__The_University_of_Chicago_ a jp:ScholarlyWork ;
+    jp:title "go: The University of Chicago Press 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_110_go__The_University_of_Chicago_ a jp:ScholarlyWork ;
+    jp:title "go: The University of Chicago Press 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_111_University_Press_2013 a jp:ScholarlyWork ;
+    jp:title "University Press 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_112_edge___in_Quaestio_15__2015___ a jp:ScholarlyWork ;
+    jp:title "edge”, in Quaestio 15 (2015), 299-308"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_113_roist___in_Quaestio__Yearbook_ a jp:ScholarlyWork ;
+    jp:title "roist”, in Quaestio: Yearbook of the History of Metaphysics 15 (2015), 309-"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_114_and_Culture__Judah_Moscato_Ser a jp:ScholarlyWork ;
+    jp:title "and Culture: Judah Moscato Sermons 4. Leiden: Brill 2015, 327-46"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_115_sake_of_Open_Inquiry___in_Jewi a jp:ScholarlyWork ;
+    jp:title "sake of Open Inquiry”, in Jewish Studies Quarterly 21 (2014), 261-76"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_116_physics___in_Zutot__Perspectiv a jp:ScholarlyWork ;
+    jp:title "physics”, in Zutot: Perspectives on Jewish Culture 10 (2013), 1-15"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_117_entific_Terms___in_Aleph_13__2 a jp:ScholarlyWork ;
+    jp:title "entific Terms”, in Aleph 13 (2013), 95-138"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_118_Sciences_and_Philosophy_25__20 a jp:ScholarlyWork ;
+    jp:title "Sciences and Philosophy 25 (2015), 249-77"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_119_Thought___in_M_langes_de_l_Uni a jp:ScholarlyWork ;
+    jp:title "Thought”, in Mélanges de l’Université Saint-Joseph, Beyrouth 65 (2014),"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_120__d__A__Meddeb_et_b__stora__Par a jp:ScholarlyWork ;
+    jp:title "éd. A. Meddeb et b. stora. Paris: Albin Michel 2013, 737-57. English ver-"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_121_I_of_the_Nicomachean_Ethics___ a jp:ScholarlyWork ;
+    jp:title "I of the Nicomachean Ethics”, in Oriens 42 (2014), 254-87"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_122_Cambridge_University_Press_201 a jp:ScholarlyWork ;
+    jp:title "Cambridge University Press 2017, 43-55"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_123_of_Maryland_2015__79_89 a jp:ScholarlyWork ;
+    jp:title "of Maryland 2015, 79-89"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_124_Melstein_and_S_E__holtz__Leide a jp:ScholarlyWork ;
+    jp:title "Melstein and S.E. holtz, Leiden: Brill 2015, 69-75"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_125_j_K__Crane__Oxford__Oxford_Uni a jp:ScholarlyWork ;
+    jp:title "j.K. Crane. Oxford: Oxford University Press 2013, 84-101"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_126_Philosophizing___in_Philosophi a jp:ScholarlyWork ;
+    jp:title "Philosophizing”, in Philosophische Schriften 80 (2013), 191-98"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_127_versity_2013__56_67 a jp:ScholarlyWork ;
+    jp:title "versity 2013, 56-67"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_128_hoFMeister_piCh__Porto_Alegre_ a jp:ScholarlyWork ;
+    jp:title "hoFMeister piCh. Porto Alegre: EdiPUCRS 2013 (2015)"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_129_dievalia_et_Humanistica_40__20 a jp:ScholarlyWork ;
+    jp:title "dievalia et Humanistica 40 (2014), 25-36"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_130_tin_62__2013___31_39 a jp:ScholarlyWork ;
+    jp:title "tin 62 (2013), 31-39"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_131_PUCRS_43__2013___298_324 a jp:ScholarlyWork ;
+    jp:title "PUCRS 43 (2013), 298-324"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_132_Guide__Chicago__University_of_ a jp:ScholarlyWork ;
+    jp:title "Guide. Chicago: University of Chicago Press 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_133_NY__Urim_Publications_2016 a jp:ScholarlyWork ;
+    jp:title "NY: Urim Publications 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_134_Medieval_Jewish_Philosophy___i a jp:ScholarlyWork ;
+    jp:title "Medieval Jewish Philosophy”, in Diné Israel 31 (2017), 85*-104"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_135_WeitzMan__Indianapolis__Indian a jp:ScholarlyWork ;
+    jp:title "WeitzMan. Indianapolis: Indiana University Press 2014, 108-40"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_136_Oxford__Oxford_University_Pres a jp:ScholarlyWork ;
+    jp:title "Oxford: Oxford University Press 2014, 153-79"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_137_Thanks_to_Him___in_Milin_Haviv a jp:ScholarlyWork ;
+    jp:title "Thanks to Him”, in Milin Havivin 7 (2014), 1-7"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_138_Dr__Norman_Lamm a jp:ScholarlyWork ;
+    jp:title "Dr. Norman Lamm"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_139_len__Leiden__Brill_2013__243_6 a jp:ScholarlyWork ;
+    jp:title "len. Leiden: Brill 2013, 243-68"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_140_Perplexed___in_Jewish_Quarterl a jp:ScholarlyWork ;
+    jp:title "Perplexed”, in Jewish Quarterly Review 106 (2016), 257-82"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_141_sylvania_Press_2015 a jp:ScholarlyWork ;
+    jp:title "sylvania Press 2015"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_142_centuries____in_Studia_Islamic a jp:ScholarlyWork ;
+    jp:title "centuries)”, in Studia Islamica 111 (2016), 20-108"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_143_Brepols_2016__395_409 a jp:ScholarlyWork ;
+    jp:title "Brepols 2016, 395-409"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_144_Im_m_Doctrine__Turnhout__Brepo a jp:ScholarlyWork ;
+    jp:title "Imām Doctrine. Turnhout: Brepols 2014"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_145_ature____in_Jerusalem_Studies_ a jp:ScholarlyWork ;
+    jp:title "ature)”, in Jerusalem Studies in Arabic and Islam 40 (2013), 245-99"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_146_ish_Thought_and_Philosophy_21_ a jp:ScholarlyWork ;
+    jp:title "ish Thought and Philosophy 21 (2013), 1-56"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_147_on_the_Posterior_Analytics_in_ a jp:ScholarlyWork ;
+    jp:title "on the Posterior Analytics in his Book on Fevers”, in Aleph 17 (2017), 157-"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_148_the_David_Kaufmann_Genizah_Col a jp:ScholarlyWork ;
+    jp:title "the David Kaufmann Genizah Collection"^^xsd:string ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Ibn_D ;
+    .
+
+jp:SW_New_149_Aleph_16__2016___39_60 a jp:ScholarlyWork ;
+    jp:title "Aleph 16 (2016), 39-60"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_150_University_Park__PA__Penn_Stat a jp:ScholarlyWork ;
+    jp:title "University Park, PA: Penn State University Press, 2016, 47-66"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_151_Texts_in_Hebrew__Judeo_Arabic_ a jp:ScholarlyWork ;
+    jp:title "Texts in Hebrew, Judeo-Arabic, and Arabic”, in Aleph 14 (2014), 147-76"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_152_in_Medieval_Encounters_22__201 a jp:ScholarlyWork ;
+    jp:title "in Medieval Encounters 22 (2016), 13-24"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_153_Texts a jp:ScholarlyWork ;
+    jp:title "Texts"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_154_Cordoba_Near_Eastern_Research_ a jp:ScholarlyWork ;
+    jp:title "Cordoba Near Eastern Research Unit 2013, 99-109"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_155_in_Micrologus_21__2013___579_9 a jp:ScholarlyWork ;
+    jp:title "in Micrologus 21 (2013), 579-98"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_156_gieuses_91__2017___379_98 a jp:ScholarlyWork ;
+    jp:title "gieuses 91 (2017), 379-98"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_157__tudes_Juives_175__2016___433_ a jp:ScholarlyWork ;
+    jp:title "Études Juives 175 (2016), 433-36"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_158_losophiques_45__2016___433_36 a jp:ScholarlyWork ;
+    jp:title "losophiques 45 (2016), 433-36"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_159_m_di_val___dans_Cahiers_philos a jp:ScholarlyWork ;
+    jp:title "médiéval”, dans Cahiers philosophiques de Strasbourg 37 (2015), 9-32"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_160_della_Mirandola__De_Nervis_et_ a jp:ScholarlyWork ;
+    jp:title "della Mirandola: De Nervis et Sensu Tactus”, in Rinascimento 54 (2014),"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_161_Be_inat_ha_dat_di_Elia_del_Med a jp:ScholarlyWork ;
+    jp:title "Beḥinat ha-dat di Elia del Medigo”, in Schede Medievali 52 (2014), 239-53"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_162_Un_edizione_critica_della_Quae a jp:ScholarlyWork ;
+    jp:title "Un’edizione critica della Quaestio de efficientia mundi (1480)”, in Mediae-"^^xsd:string ;
+    jp:publicationYear "1480"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_163_val_Sophia__Studi_e_ricerche_s a jp:ScholarlyWork ;
+    jp:title "val Sophia. Studi e ricerche sui saperi medievali 14 (2013), 59-81"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_164_et__moderna__1400_1700___a_cur a jp:ScholarlyWork ;
+    jp:title "età moderna (1400-1700), a cura di g. liCata. Macerata: Quodlibet 2013,"^^xsd:string ;
+    jp:publicationYear "1400"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_165_za__Macerata__Edizioni_Univers a jp:ScholarlyWork ;
+    jp:title "za. Macerata: Edizioni Università di Macerata 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_166_the_Flourishing_Life__New_York a jp:ScholarlyWork ;
+    jp:title "the Flourishing Life. New York: Columbia University Press 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_167_University_Press_of_Maryland_2 a jp:ScholarlyWork ;
+    jp:title "University Press of Maryland 2013, 305-22"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_168_Amsterdam_Studies_in_Jewish_Th a jp:ScholarlyWork ;
+    jp:title "Amsterdam Studies in Jewish Thought. Dordrecht: Springer 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_169_ton_and_K__sMith__Leiden__Bril a jp:ScholarlyWork ;
+    jp:title "ton and K. sMith. Leiden: Brill 2015, 175-93"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_170_al_Evidence___in_Arabic_Scienc a jp:ScholarlyWork ;
+    jp:title "al Evidence”, in Arabic Sciences and Philosophy 23 (20013), 69-99"^^xsd:string ;
+    jp:publicationYear "2001"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_171_phy__Rochester__NY__University a jp:ScholarlyWork ;
+    jp:title "phy. Rochester, NY: University of Rochester Press 2016"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_172_yoMtov__Paris__Presses_Univers a jp:ScholarlyWork ;
+    jp:title "yoMtov. Paris: Presses Universitaires de France 2014, 85-103"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_173________Strauss_on_Farabi__Maim a jp:ScholarlyWork ;
+    jp:title "———.  “Strauss on Farabi, Maimonides, et al. in the 1930s”, in Re-"^^xsd:string ;
+    jp:publicationYear "1930"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_174_orientation__Strauss_in_the_19 a jp:ScholarlyWork ;
+    jp:title "orientation: Strauss in the 1930s"^^xsd:string ;
+    jp:publicationYear "1930"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_175_York__Palgrave_Macmillan_2014_ a jp:ScholarlyWork ;
+    jp:title "York: Palgrave Macmillan 2014, 157-69"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_176_ophy__ a jp:ScholarlyWork ;
+    jp:title "ophy?”"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_177_Eternity_in_Jewish_Mysticism a jp:ScholarlyWork ;
+    jp:title "Eternity in Jewish Mysticism"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_178_Routledge_2014__541_58 a jp:ScholarlyWork ;
+    jp:title "Routledge 2014, 541-58"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_179_in_English_Language_Notes_50__ a jp:ScholarlyWork ;
+    jp:title "in English Language Notes 50 (2013), 77-88"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_180_Machiavelli_and_Maimonides___i a jp:ScholarlyWork ;
+    jp:title "Machiavelli and Maimonides”, in Judaica 69 (2013), 288-308"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_181_dans_Henoch_35__2013___204_13 a jp:ScholarlyWork ;
+    jp:title "dans Henoch 35 (2013), 204-13"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_182_dans_Freiburger_Zeitschrift_f_ a jp:ScholarlyWork ;
+    jp:title "dans Freiburger Zeitschrift für Philosophie und Theologie 60 (2013),"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_183_balag___dans_Revue_des__tudes_ a jp:ScholarlyWork ;
+    jp:title "balag”, dans Revue des études juives 173 (2014), 405-34"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_184_da___l_ve_de_Rabbi_Hasdai_Cres a jp:ScholarlyWork ;
+    jp:title "da (élève de Rabbi Hasdai Crescas)”, dans Sefarad 74 (2014), 75-88"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_185_cia__Ma_tre_de_justice__d_Abne a jp:ScholarlyWork ;
+    jp:title "cia (Maître de justice) d’Abner de Burgos”, dans Henoch 37 (2015),"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_186_averro_stes_juifs_espagnols___ a jp:ScholarlyWork ;
+    jp:title "averroïstes juifs espagnols”, dans Viator 47 (2016), 191-204"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_187_Judaism___Judaica_72__2016___1 a jp:ScholarlyWork ;
+    jp:title "Judaism”, Judaica 72 (2016), 185-202"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_188_teenth_Century_Jewish_Thought_ a jp:ScholarlyWork ;
+    jp:title "teenth-Century Jewish Thought”, in Journal of Jewish Studies 66 (2015),"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_189_Boston__Academic_Studies_Press a jp:ScholarlyWork ;
+    jp:title "Boston: Academic Studies Press 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_190_delphia__University_of_Pennsyl a jp:ScholarlyWork ;
+    jp:title "delphia: University of Pennsylvania Press 2017, 181-203"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_191_Schwabe_Verlag_2017__206_16 a jp:ScholarlyWork ;
+    jp:title "Schwabe Verlag 2017, 206-16"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_192__Miscellanea_mediaevalia_39___ a jp:ScholarlyWork ;
+    jp:title "(Miscellanea mediaevalia 39). Berlin-New York: Walter de Gruyter 2016,"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_193_Three_Abrahams___in_Mediterran a jp:ScholarlyWork ;
+    jp:title "Three Abrahams”, in Mediterranea, 2 (2017), 163-86"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_194_turies____in_Journal_of_Jewish a jp:ScholarlyWork ;
+    jp:title "turies)”, in Journal of Jewish Studies 66 (2015), 317-40"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_195_is_1058___in_Aleph_14__2014___ a jp:ScholarlyWork ;
+    jp:title "is 1058”, in Aleph 14 (2014), 189-241"^^xsd:string ;
+    jp:publicationYear "1058"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_196_Harvard_University_Press__2013 a jp:ScholarlyWork ;
+    jp:title "Harvard University Press, 2013"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_197_Tradition___in_Intellectual_Hi a jp:ScholarlyWork ;
+    jp:title "Tradition”, in Intellectual History of the Islamicate World 5 (2017), 28-54"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_198_______On_Maimonides_and_on_Log a jp:ScholarlyWork ;
+    jp:title "———. “On Maimonides and on Logic”, in Aleph 14 (2014), 259-63"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_199_in_Journal_of_Intellectual_His a jp:ScholarlyWork ;
+    jp:title "in Journal of Intellectual History of the Islamicate World 2 (2014), 80-"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_200_New_York__Fordham_University_P a jp:ScholarlyWork ;
+    jp:title "New York: Fordham University Press 2015, 29-39"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_201_Texts a jp:ScholarlyWork ;
+    jp:title "Texts"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_202_Dordrecht__Springer_2017 a jp:ScholarlyWork ;
+    jp:title "Dordrecht: Springer 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_203_scetticismo__Roma__Aracne_2017 a jp:ScholarlyWork ;
+    jp:title "scetticismo. Roma: Aracne 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_204_M_rMel__G_ttingen__Vandenhoeck a jp:ScholarlyWork ;
+    jp:title "MürMel. Göttingen: Vandenhoeck & Ruprech 2014, 47-61"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_205_suCCu__Roma__Gregorian___Bibli a jp:ScholarlyWork ;
+    jp:title "suCCu. Roma: Gregorian & Biblical Press 2013, 343-57"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_206_ical_Review_110__2017___339_59 a jp:ScholarlyWork ;
+    jp:title "ical Review 110 (2017), 339-59"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_207_Perspectives_on_Political_Scie a jp:ScholarlyWork ;
+    jp:title "Perspectives on Political Science 44 (2015), 187-92"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_208_val_Jewish_Philosophy__Oxford_ a jp:ScholarlyWork ;
+    jp:title "val Jewish Philosophy. Oxford: Oxford University Press 2017"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_209_on_the_Transfer_of_Knowledge_2 a jp:ScholarlyWork ;
+    jp:title "on the Transfer of Knowledge 2 (2017), 187-96"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_210_Leon__second_half_of_the_15th_ a jp:ScholarlyWork ;
+    jp:title "Leon (second half of the 15th century)”, in Studia Humana 6 (2017), 37-45"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_211_in_Archivio_di_filosofia_84__2 a jp:ScholarlyWork ;
+    jp:title "in Archivio di filosofia 84 (2016), 87-93"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_212_Berlin_New_York__Walter_de_Gru a jp:ScholarlyWork ;
+    jp:title "Berlin-New York: Walter de Gruyter 2016, 467-82"^^xsd:string ;
+    jp:publicationYear "2016"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_213_Berlin__Walter_de_Gruyter_2015 a jp:ScholarlyWork ;
+    jp:title "Berlin: Walter de Gruyter 2015, 183-93"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_214_vergani__Milano_Roma__Bulzoni_ a jp:ScholarlyWork ;
+    jp:title "vergani. Milano-Roma: Bulzoni Editore 2015, 287-95"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_215_vergani__Milano_Roma__Bulzoni_ a jp:ScholarlyWork ;
+    jp:title "vergani. Milano-Roma: Bulzoni Editore 2014, 141-48"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_216_Leuven_University_Press_2014__ a jp:ScholarlyWork ;
+    jp:title "Leuven University Press 2014, 113-22"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_217_in_der_Islamischen_Welt a jp:ScholarlyWork ;
+    jp:title "in der Islamischen Welt"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_218_Oriente__alcune_linee_di_ricer a jp:ScholarlyWork ;
+    jp:title "Oriente: alcune linee di ricercar”, in Schede medievali 52 (2014), 125-33"^^xsd:string ;
+    jp:publicationYear "2014"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_219_et__moderna__1400_1700_ a jp:ScholarlyWork ;
+    jp:title "età moderna (1400-1700)"^^xsd:string ;
+    jp:publicationYear "1400"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_220_secondo_alcuni_dei_suoi_Commen a jp:ScholarlyWork ;
+    jp:title "secondo alcuni dei suoi Commentator”, in Materia giudaica 17-18 (2012-"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_221_Materia_giudaica_17_18__2012_2 a jp:ScholarlyWork ;
+    jp:title "Materia giudaica 17-18 (2012-2013), 257-61"^^xsd:string ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_222_bruMberg_ChauMont__Turnhout__B a jp:ScholarlyWork ;
+    jp:title "bruMberg-ChauMont. Turnhout: Brepols 2013, 217-23"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_223_Bulletin_de_Philosophie_M_di_v a jp:ScholarlyWork ;
+    jp:title "Bulletin de Philosophie Médiévale 63 (2021), 531-554. DOI: 10.1484/J.BPM.5.126960"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_224___2021__Brepols_Publishers__Al a jp:ScholarlyWork ;
+    jp:title "© 2021, Brepols Publishers. All rights reserv"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_225_CommIssIon__for__JewIsh__PhIlo a jp:ScholarlyWork ;
+    jp:title "CommIssIon  for  JewIsh  PhIlosoPhy  (2018-2022)"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_226_held_in_Ramat_Gan__Israel_in_A a jp:ScholarlyWork ;
+    jp:title "held in Ramat-Gan, Israel in April 2022. Like the previous report that ap-"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_227_peared_in_the_Bulletin_de_phil a jp:ScholarlyWork ;
+    jp:title "peared in the Bulletin de philosophie médiévale 59 (2017), 393-415, this one"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_228_between_the_years_2018_2022__a a jp:ScholarlyWork ;
+    jp:title "between the years 2018-2022, and that are in the field of medieval Jewish"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_229_the_Congress_in_Palermo_in_200 a jp:ScholarlyWork ;
+    jp:title "the Congress in Palermo in 2007, where over thirty lectures were present"^^xsd:string ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_230_for_Advanced_Studies__Hamburg_ a jp:ScholarlyWork ;
+    jp:title "for Advanced Studies, Hamburg, November 2018; (2) the Third PESHAT"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_231_Studies__Hamburg__February_201 a jp:ScholarlyWork ;
+    jp:title "Studies, Hamburg, February 2019; (3) the AAIWG International Meeting,"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_232_Pisa__May_2019___4__the_confer a jp:ScholarlyWork ;
+    jp:title "Pisa, May 2019; (4) the conference “Aristotelian Logic in Medieval Jewish"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_233_and_Bar_Ilan_University__Ramat a jp:ScholarlyWork ;
+    jp:title "and Bar-Ilan University, Ramat-Gan, June 2019; and (5) the XXVI Annual"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_234_University__Ramat_Gan__April_2 a jp:ScholarlyWork ;
+    jp:title "University, Ramat-Gan, April 2022. The Proceedings of the fourth confer -"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_235_and_fifth_conferences_are_expe a jp:ScholarlyWork ;
+    jp:title "and fifth conferences are expected to be published in 2023. Proceedings of"^^xsd:string ;
+    jp:publicationYear "2023"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_236_in_person_conferences_for_most a jp:ScholarlyWork ;
+    jp:title "in-person conferences for most of 2020 and 2021, there were numerous"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_237__Maimonides_Centre_for_Advance a jp:ScholarlyWork ;
+    jp:title "(Maimonides Centre for Advanced Studies, Hamburg, March 2018); “Crit -"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_238_University__July_2018___and__T a jp:ScholarlyWork ;
+    jp:title "University, July 2018); and “The Guide of the Perplexed and its Multilingual"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_239_University__November_2019___Tw a jp:ScholarlyWork ;
+    jp:title "University, November 2019). Two popular online conferences during covid"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_240_drid__March_2021__and__Medieva a jp:ScholarlyWork ;
+    jp:title "drid, March 2021) and “Medieval Jewish Thought and the Italian Renais-"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_241_sance___The_Warburg_Institute_ a jp:ScholarlyWork ;
+    jp:title "sance” (The Warburg Institute, April 2021). Zoom conferences continued"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_242_into_2022_with__The_Fourth_PES a jp:ScholarlyWork ;
+    jp:title "into 2022 with “The Fourth PESHAT in Context International Conference:"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_243_Centre_for_Advanced_Studies__H a jp:ScholarlyWork ;
+    jp:title "Centre for Advanced Studies, Hamburg, February 2022) and “The World"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_244_daism__Christianity_and_Islam_ a jp:ScholarlyWork ;
+    jp:title "daism, Christianity and Islam (April 2022). At this same time, conferences"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_245_2022___and__On_the_Borderlines a jp:ScholarlyWork ;
+    jp:title "2022); and “On the Borderlines: Poetry, Philosophy and Mysticism in the"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_246_Age_of_Ibn_Gabirol___Tel_Aviv_ a jp:ScholarlyWork ;
+    jp:title "Age of Ibn Gabirol” (Tel Aviv University, May 2022). Another in-person"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_247_tat_Aut_noma_de_Barcelona__Nov a jp:ScholarlyWork ;
+    jp:title "tat Autònoma de Barcelona, November 2022)"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_248_conferences__which_were_online a jp:ScholarlyWork ;
+    jp:title "conferences (which were online during 2020-2021), they sponsor sessions"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_249_fourth_volume__on_Solomon_Ibn_ a jp:ScholarlyWork ;
+    jp:title "fourth volume, on Solomon Ibn Gabirol, will appear in 2023. Readers are"^^xsd:string ;
+    jp:publicationYear "2023"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_250_Writings_6___Leiden_2019 a jp:ScholarlyWork ;
+    jp:title "Writings 6). Leiden 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_251_Ezra_s_Astrological_Writings_7 a jp:ScholarlyWork ;
+    jp:title "Ezra’s Astrological Writings 7). Leiden 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_252__Abraham_Ibn_Ezra_s_Astrologic a jp:ScholarlyWork ;
+    jp:title "(Abraham Ibn Ezra’s Astrological Writings 8.1). Leiden 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_253__Abraham_Ibn_Ezra_s_Astrologic a jp:ScholarlyWork ;
+    jp:title "(Abraham Ibn Ezra’s Astrological Writings 8.2). Leiden 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_254_Four__I_II a jp:ScholarlyWork ;
+    jp:title "Four; I-II"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_255_Two_and_Part_Three__Book_Six a jp:ScholarlyWork ;
+    jp:title "Two and Part Three, Book Six"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_256_felicit__mentale__trad__R__Gat a jp:ScholarlyWork ;
+    jp:title "felicità mentale. trad. R. Gatti . Torino 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_257_ford_2018__2020__softcover_ a jp:ScholarlyWork ;
+    jp:title "ford 2018; 2020 (softcover)"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_258_Translation___New_Haven_2019 a jp:ScholarlyWork ;
+    jp:title "Translation). New Haven 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_259_del_sapere__STUDI_7___Pisa_201 a jp:ScholarlyWork ;
+    jp:title "del sapere, STUDI 7). Pisa 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_260_11___Leiden_Boston_2019 a jp:ScholarlyWork ;
+    jp:title "11). Leiden-Boston 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_261______Moreh_ha_Nevukhim__Guide_ a jp:ScholarlyWork ;
+    jp:title "———. Moreh ha-Nevukhim (Guide of the Perplexed). Hebrew"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_262________________Mishneh_Torah__ a jp:ScholarlyWork ;
+    jp:title "———. 迈蒙尼德：论知识 (Mishneh Torah, Sefer ha-Madda‘)"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_263_et_adversaire_de_la_kabbale__e a jp:ScholarlyWork ;
+    jp:title "et adversaire de la kabbale, en Italie, vers 1340 (Philosophy in the Abrahamic"^^xsd:string ;
+    jp:publicationYear "1340"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_264_Traditions_in_the_Middle_Ages_ a jp:ScholarlyWork ;
+    jp:title "Traditions in the Middle Ages 2). Turnhout 2018, 99-168 (trad.). 169-226 ("^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_265_tHal__and_H__k_asHeR___in_Kobe a jp:ScholarlyWork ;
+    jp:title "tHal  and H. k asHeR , in Kobez Al Yad 27 [37] (2021), 53-150"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_266_trad__R__GutMan___pr_face_de_F a jp:ScholarlyWork ;
+    jp:title "trad. R. GutMan ; préface de F.   B. Fenton. Paris 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_267_Digitally_Rendered_Texts_4__20 a jp:ScholarlyWork ;
+    jp:title "Digitally Rendered Texts 4 (2022), Y . HalpeR  editor-in-chief, http://mahadu-"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_268_tally_Rendered_Texts_2__2022__ a jp:ScholarlyWork ;
+    jp:title "tally Rendered Texts 2 (2022), http://mahadurot.com/FarabiDialectic; and"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_269_dered_Texts_3__2022___http___m a jp:ScholarlyWork ;
+    jp:title "dered Texts 3 (2022), http://mahadurot.com/A VSC/topica. Among the most"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_270_causes_et_adversaire_de_la_kab a jp:ScholarlyWork ;
+    jp:title "causes”et adversaire de la kabbale, en Italie, vers 1340 (Philosophy in the"^^xsd:string ;
+    jp:publicationYear "1340"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_271_Abrahamic_Traditions_in_the_Mi a jp:ScholarlyWork ;
+    jp:title "Abrahamic Traditions in the Middle Ages 2), Turnhout 2018, with its edition"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_272_and_a_Commentary__Aristoteles_ a jp:ScholarlyWork ;
+    jp:title "and a Commentary (Aristoteles Semitico-Latinus 25), Leiden-Boston 2019,"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_273_phrase_of_Metaphysics__ a jp:ScholarlyWork ;
+    jp:title "phrase of Metaphysics Λ"^^xsd:string ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Moses_I ;
+    .
+
+jp:SW_New_274_2020__with_Meyrav_s_translatio a jp:ScholarlyWork ;
+    jp:title "2020, with Meyrav’s translation of it. Most strikingly, most of the editions"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_275__odrosI___active_around_1330_1 a jp:ScholarlyWork ;
+    jp:title "ṭodrosI ( active around 1330-1340 in Provence), perhaps inspired or in-"^^xsd:string ;
+    jp:publicationYear "1330"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_276_lation__Leiden_Boston_2015___2 a jp:ScholarlyWork ;
+    jp:title "lation (Leiden-Boston 2015), 25-94 and 164-191. The following recent edi-"^^xsd:string ;
+    jp:publicationYear "2015"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_277_a_translation a jp:ScholarlyWork ;
+    jp:title "a translation"^^xsd:string ;
+    jp:publicationYear "2023"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_278_One_of_those_that_appeared_in_ a jp:ScholarlyWork ;
+    jp:title "One of those that appeared in early 2023 is the eagerly anticipated partial"^^xsd:string ;
+    jp:publicationYear "2023"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_279_translation_of__asdaI_CresCas_ a jp:ScholarlyWork ;
+    jp:title "translation of ḤasdaI CresCas’s Passover Sermon that will appear in 2023"^^xsd:string ;
+    jp:publicationYear "2023"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_280_lished a jp:ScholarlyWork ;
+    jp:title "lished"^^xsd:string ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Yale_U ;
+    .
+
+jp:SW_New_281_produced a jp:ScholarlyWork ;
+    jp:title "produced"^^xsd:string ;
+    jp:publicationYear "2005"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_282_volumes_cover_the_years_600_to a jp:ScholarlyWork ;
+    jp:title "volumes cover the years 600 to 1200 (vol. 3) and 1200 to 1500 (vol. 4). In"^^xsd:string ;
+    jp:publicationYear "1200"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_283_free__once_the_volumes_are_com a jp:ScholarlyWork ;
+    jp:title "free, once the volumes are completed, likely in 2024"^^xsd:string ;
+    jp:publicationYear "2024"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_284__Employed__in_the_Dogmas_of_Re a jp:ScholarlyWork ;
+    jp:title "[Employed] in the Dogmas of Religion (Tel Aviv 2018); Ibn bāJJa, The Gov-"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_285_ernance_of_the_Solitary__Tel_A a jp:ScholarlyWork ;
+    jp:title "ernance of the Solitary (Tel Aviv 2021); al-fārābī, Summary of Plato’ s Laws,"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_286_Selected_Aphorisms__and_Attain a jp:ScholarlyWork ;
+    jp:title "Selected Aphorisms, and Attainment of Happiness (Tel Aviv 2021)"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_287_erencework_10_1007_978_3_319_0 a jp:ScholarlyWork ;
+    jp:title "erencework/10.1007/978-3-319-02848-4);"^^xsd:string ;
+    jp:publicationYear "1007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_288_ley_com_doi_book_10_1002_97811 a jp:ScholarlyWork ;
+    jp:title "ley.com/doi/book/10.1002/9781119009924#:~:text=Unmatched%20in%20"^^xsd:string ;
+    jp:publicationYear "1002"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_289_link_springer_com_referencewor a jp:ScholarlyWork ;
+    jp:title "link.springer.com/referencework/10.1007/978-94-007-6730-0);"^^xsd:string ;
+    jp:publicationYear "1007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_290_al_Hebrew_Terminology_from_the a jp:ScholarlyWork ;
+    jp:title "al Hebrew Terminology from the Middle Ages (Leiden-Boston 2019), a work"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_291_thesaurus_until_December_2025_ a jp:ScholarlyWork ;
+    jp:title "thesaurus until December 2025,"^^xsd:string ;
+    jp:publicationYear "2025"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_292_ophy_and_science_who_passed_aw a jp:ScholarlyWork ;
+    jp:title "ophy and science who passed away since our last report: Joel k Rae Me R (1933-"^^xsd:string ;
+    jp:publicationYear "1933"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_293_2018___Michael_Zvi_n_e_Ho_Rai_ a jp:ScholarlyWork ;
+    jp:title "2018), Michael Zvi n e Ho Rai  (1931-2020), Gabriella elgrably-berzIn (1967-"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_294_2020___Herbert_A__Da_vi_Dson__ a jp:ScholarlyWork ;
+    jp:title "2020), Herbert A. Da vi Dson  (1932-2021), and Shlomo s ela  (1948-2022)"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_295_doctoral_students_who_received a jp:ScholarlyWork ;
+    jp:title "doctoral students who received their Ph.D. degrees between the years 2018-"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_296_2022with_dissertations__or_par a jp:ScholarlyWork ;
+    jp:title "2022with dissertations (or parts of them) in medieval Jewish philosophy"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_297_balag___McGill_University_2019 a jp:ScholarlyWork ;
+    jp:title "balag”. McGill University 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_298_School___Ariel_University_2022 a jp:ScholarlyWork ;
+    jp:title "School”. Ariel University 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_299_versity_of_Chicago_2019 a jp:ScholarlyWork ;
+    jp:title "versity of Chicago 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_300_Study___Ben_Gurion_University_ a jp:ScholarlyWork ;
+    jp:title "Study”. Ben-Gurion University of the Negev 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_301_Thought___Ben_Gurion_Universit a jp:ScholarlyWork ;
+    jp:title "Thought”. Ben-Gurion University of the Negev 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_302_za_s_Theory_of__Substance___Ba a jp:ScholarlyWork ;
+    jp:title "za’s Theory of  Substance”. Bar-Ilan University 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_303_pedias_of_the_Thirteenth_Centu a jp:ScholarlyWork ;
+    jp:title "pedias of the Thirteenth Century”. Bar-Ilan University 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_304_and_his_Legal_and_Political_Th a jp:ScholarlyWork ;
+    jp:title "and his Legal and Political Thought”. Tel Aviv University 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_305_ism__and__Conservatism____Haif a jp:ScholarlyWork ;
+    jp:title "ism’ and ‘Conservatism’”. Haifa University 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_306_ons___Universit_t_Bern_2020 a jp:ScholarlyWork ;
+    jp:title "ons”. Universität Bern 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_307_Medieval_Judaism___Tel_Aviv_Un a jp:ScholarlyWork ;
+    jp:title "Medieval Judaism”. Tel Aviv University 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_308_tion_of_the_Commentary_on_Sefe a jp:ScholarlyWork ;
+    jp:title "tion of the Commentary on Sefer Yesira”. Bar-Ilan University 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_309_on_Maimonides_Guide_of_the_Per a jp:ScholarlyWork ;
+    jp:title "on Maimonides’Guide of the Perplexed”. The University of Chicago 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_310_University_of_the_Negev_2022 a jp:ScholarlyWork ;
+    jp:title "University of the Negev 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_311_The_Hebrew_University_of_Jerus a jp:ScholarlyWork ;
+    jp:title "The Hebrew University of Jerusalem 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_312_University_of_Jerusalem_2018 a jp:ScholarlyWork ;
+    jp:title "University of Jerusalem 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_313_In_our_2008_2012_report__we_po a jp:ScholarlyWork ;
+    jp:title "In our 2008-2012 report, we pointed out the striking fact that all but two"^^xsd:string ;
+    jp:publicationYear "2008"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_314_2013_2017_report__we_observed_ a jp:ScholarlyWork ;
+    jp:title "2013-2017 report, we observed that only eight of the twenty-two disserta-"^^xsd:string ;
+    jp:publicationYear "2013"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_315_between_the_years_2018_2022__t a jp:ScholarlyWork ;
+    jp:title "between the years 2018-2022, thirteen are from Israel and only seven from"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_316_seleCted__bIblIograPhy__2018_2 a jp:ScholarlyWork ;
+    jp:title "seleCted  bIblIograPhy  2018-2022"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_317_Jewish_History_and_Culture_62_ a jp:ScholarlyWork ;
+    jp:title "Jewish History and Culture 62). Leiden-Boston 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_318_JTR_EC__Engaging_Crescas___Jou a jp:ScholarlyWork ;
+    jp:title "JTR-EC: Engaging Crescas = Journal of Textual Reasoning 13.1 (2022)"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_319_co_arabica_11_2__2021 a jp:ScholarlyWork ;
+    jp:title "co-arabica 11.2) 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_320_MGP_CG__Maimonides__Guide_of_t a jp:ScholarlyWork ;
+    jp:title "MGP-CG: Maimonides’ Guide of the Perplexed: A Critical Guide"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_321_and_Y___s_HeMesH___Chicago_201 a jp:ScholarlyWork ;
+    jp:title "and Y . s HeMesH . Chicago 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_322_HuGHes__and_J__t___Robinson___ a jp:ScholarlyWork ;
+    jp:title "HuGHes  and J. t . Robinson . Bloomington 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_323_HaR_veY___Rencontres_de_Philos a jp:ScholarlyWork ;
+    jp:title "HaR veY  (Rencontres de Philosophie Médiévale 20). Turnhout 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_324_beRG__and_s__sadIK__Studia_Jud a jp:ScholarlyWork ;
+    jp:title "beRG  and s. sadIK (Studia Judaica 113). Berlin-Boston 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_325_the_Abrahamic_Traditions_in_th a jp:ScholarlyWork ;
+    jp:title "the Abrahamic Traditions in the Middle Ages 1). Turnhout 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_326_losophy_in_the_Abrahamic_Tradi a jp:ScholarlyWork ;
+    jp:title "losophy in the Abrahamic Traditions in the Middle Ages 3). Turnhout 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_327__Flumen_Sapientiae_19___Roma_2 a jp:ScholarlyWork ;
+    jp:title "(Flumen Sapientiae 19). Roma 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_328_Culture_57___Leiden_Boston_201 a jp:ScholarlyWork ;
+    jp:title "Culture 57). Leiden-Boston 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_329_nal_of_Jewish_Thought_and_Phil a jp:ScholarlyWork ;
+    jp:title "nal of Jewish Thought and Philosophy 33). Leiden-Boston 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_330_Philosophy___Kabbalah_91__2021 a jp:ScholarlyWork ;
+    jp:title "Philosophy & Kabbalah 91 (2021). v-xxvI"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_331_of_Religion_100___2020___159_1 a jp:ScholarlyWork ;
+    jp:title "of Religion 100  (2020). 159-188"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_332_p_alazzo__and_a__R_oDolFi___Fi a jp:ScholarlyWork ;
+    jp:title "p alazzo  and a. R oDolFi . Firenze 2020, 101-120"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_333_trology_in_the_Jewish_Middle_A a jp:ScholarlyWork ;
+    jp:title "trology in the Jewish Middle Ages”, in Quaestio 19 (2019), 83-100"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_334_and_I__z_a_v_atteRo___Microlog a jp:ScholarlyWork ;
+    jp:title "and I. z a v atteRo  (Micrologus Library 87). Firenze 2018, 225-242"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_335_s_annino___Micrologus_Library_ a jp:ScholarlyWork ;
+    jp:title "s annino  (Micrologus Library 89). Firenze 2018, 55-80"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_336__Temi_e_Testi_201___Roma_2021_ a jp:ScholarlyWork ;
+    jp:title "(Temi e Testi 201). Roma 2021, 79-94"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_337_FabRis___Berlin_2020__35_48 a jp:ScholarlyWork ;
+    jp:title "FabRis . Berlin 2020, 35-48"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_338_of_the_Philosophers___in_Philo a jp:ScholarlyWork ;
+    jp:title "of the Philosophers”, in Philosophical Inquiries 7 (2019). 153-160"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_339_ies_in_Medieval_Philosophy_10_ a jp:ScholarlyWork ;
+    jp:title "ies in Medieval Philosophy 10 (2022), 24-88"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_340_Aestimatio__Sources_and_Studie a jp:ScholarlyWork ;
+    jp:title "Aestimatio: Sources and Studies in the History of Science 2 (2021), 65-77"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_341_of_the_Perplexed___Berlin_2018 a jp:ScholarlyWork ;
+    jp:title "of the Perplexed”. Berlin 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_342_des__tudes_h_bra_ques_et_juive a jp:ScholarlyWork ;
+    jp:title "des études hébraïques et juive 22), 2019, 155-182"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_343_di_M__MenGozzi___Cesena_2019__ a jp:ScholarlyWork ;
+    jp:title "di M. MenGozzi . Cesena 2019, 37-68"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_344_telalters__hrsg__v__s__G_Riese a jp:ScholarlyWork ;
+    jp:title "telalters, hrsg. v. s. G Riese  und c. M oulin . Wolfenbüttel 2022, 87-103"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_345_tradizione_mineralogica___in_L a jp:ScholarlyWork ;
+    jp:title "tradizione mineralogica”, in Lettere italiane 73 (2021), 49-63"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_346_emplare_della_Guida_dei_Perple a jp:ScholarlyWork ;
+    jp:title "emplare della Guida dei Perplessi”, in Noctua 7 (2020), 133-157"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_347_de_Th_ologie_et_Philosophie_m_ a jp:ScholarlyWork ;
+    jp:title "de Théologie et Philosophie médiévales 87 (2020), 193-209"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_348_h_bra_ques_et_juive_22__2019__ a jp:ScholarlyWork ;
+    jp:title "hébraïques et juive 22 (2019)], 13-48"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_349_XII_al_XIV_secolo__a_cura_di_a a jp:ScholarlyWork ;
+    jp:title "XII al XIV secolo, a cura di a . b ecca Risi   e a . p alazzo . Roma 2018, 19-39"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_350_Philosophy a jp:ScholarlyWork ;
+    jp:title "Philosophy"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_351_dola__a_cura_di_G__l_icata__e_ a jp:ScholarlyWork ;
+    jp:title "dola, a cura di G. l icata  e  p . t eRRacciano . Pisa 2022, 179-216"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_352_ester_2022__297_318 a jp:ScholarlyWork ;
+    jp:title "ester 2022, 297-318"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_353_FiDoRa___A a jp:ScholarlyWork ;
+    jp:title "FiDoRa , A"^^xsd:string ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    jp:hasAuthor jp:Scholar_Polemic_T ;
+    .
+
+jp:SW_New_354_Judaism_and_Christianity_40_2_ a jp:ScholarlyWork ;
+    jp:title "Judaism and Christianity 40/2 [2018])"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_355_bica_23___Berlin_2018__241_267 a jp:ScholarlyWork ;
+    jp:title "bica 23). Berlin 2018, 241-267"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_356_a__s_eGal___Oxford_2019__135_1 a jp:ScholarlyWork ;
+    jp:title "a. s eGal . Oxford 2019, 135-148"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_357_ophy_Quarterly_36__2019___197_ a jp:ScholarlyWork ;
+    jp:title "ophy Quarterly 36 (2019), 197-213"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_358_Historical_Studies_in_Science_ a jp:ScholarlyWork ;
+    jp:title "Historical Studies in Science & Judaism 20 (2020), 203-228"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_359_one_Italiana_per_lo_Studio_del a jp:ScholarlyWork ;
+    jp:title "one Italiana per lo Studio del Giudaismo 25 (2020), 85-94"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_360_______Profili__Mauro_Zonta__19 a jp:ScholarlyWork ;
+    jp:title "———. “Profili. Mauro Zonta (1968-2017)”, in Rivista di storia della"^^xsd:string ;
+    jp:publicationYear "1968"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_361_filosofia_3__2019___507__522 a jp:ScholarlyWork ;
+    jp:title "filosofia 3 (2019), 507- 522"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_362_ti___in_Rivista_di_storia_dell a jp:ScholarlyWork ;
+    jp:title "ti”, in Rivista di storia della filosofia 1 (2018), 29-56"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_363_nal_of_Jewish_Studies_16__2022 a jp:ScholarlyWork ;
+    jp:title "nal of Jewish Studies 16 (2022), 1-21"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_364_Italiana_per_lo_Studio_del_Giu a jp:ScholarlyWork ;
+    jp:title "Italiana per lo Studio del Giudaismo 26 (2021), 105-116"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_365_of_Religion_101__2022___184_20 a jp:ScholarlyWork ;
+    jp:title "of Religion 101 (2022), 184-203"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_366_ies_in_Medieval_Political_Thou a jp:ScholarlyWork ;
+    jp:title "ies in Medieval Political Thought). Rochester 2022, 277-296"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_367_in_Journal_of_Religious_Ethics a jp:ScholarlyWork ;
+    jp:title "in Journal of Religious Ethics 49 (2021), 638-656"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_368_Halevi_s_Kuzari___in_Jewish_St a jp:ScholarlyWork ;
+    jp:title "Halevi’s Kuzari”, in Jewish Studies Quarterly 28 (2021), 1-20"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_369_hoffer_Legacy__An_Internationa a jp:ScholarlyWork ;
+    jp:title "hoffer Legacy: An International Journal 7 (2019), 41-57"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_370_History__Albany_2019 a jp:ScholarlyWork ;
+    jp:title "History. Albany 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_371_h_bra_ques_et_juive_22__2019 a jp:ScholarlyWork ;
+    jp:title "hébraïques et juive 22) 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_372_Epiqoros__Jewish_Thought__Phil a jp:ScholarlyWork ;
+    jp:title "Epiqoros (Jewish Thought, Philosophy and Religion 3). Berlin-Boston 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_373_Islamic_Philosophy_of_Religion a jp:ScholarlyWork ;
+    jp:title "Islamic Philosophy of Religion 2 (2019), 36-55"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_374_tion a jp:ScholarlyWork ;
+    jp:title "tion"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_375_Theoria_88__2022___143_163 a jp:ScholarlyWork ;
+    jp:title "Theoria 88 (2022), 143-163"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_376__Maimonides_Library_of_Philoso a jp:ScholarlyWork ;
+    jp:title "(Maimonides Library of Philosophy and Religion 1). Leiden-Boston 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_377_sance_Hebrew_Literature___in_R a jp:ScholarlyWork ;
+    jp:title "sance Hebrew Literature”, in Revue des études juives, 179 (2020), 133-160"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_378_Nordhausen_2020__225_244 a jp:ScholarlyWork ;
+    jp:title "Nordhausen 2020, 225-244"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_379_in_Studia_graeco_grabica_9__20 a jp:ScholarlyWork ;
+    jp:title "in Studia graeco-grabica 9 (2019), 243-269"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_380_es_de_Th_ologie_et_Philosophie a jp:ScholarlyWork ;
+    jp:title "es de Théologie et Philosophie Médiévales 86 (2019), 259-281"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_381_Philosophy___Kabbalah_88__2019 a jp:ScholarlyWork ;
+    jp:title "Philosophy & Kabbalah 88 (2019), 191-204"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_382_Hebrew_Symposium___in_Jewish_S a jp:ScholarlyWork ;
+    jp:title "Hebrew Symposium”, in Jewish Studies Quarterly 26 (2019), 309-337"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_383_phy_and_Intellectual_Life_57__ a jp:ScholarlyWork ;
+    jp:title "phy and Intellectual Life 57 (2019), 182-205"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_384_view_42__2018___351_379 a jp:ScholarlyWork ;
+    jp:title "view 42 (2018), 351-379"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_385_gy___in__Arabic_Sciences_and_P a jp:ScholarlyWork ;
+    jp:title "gy”, in  Arabic Sciences and Philosophy 29 (2019), 171-183"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_386_anD__D__Weil___London_2022__51 a jp:ScholarlyWork ;
+    jp:title "anD  D. Weil . London 2022, 51-57"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_387_ies_on_Aristotle____in_Jewish_ a jp:ScholarlyWork ;
+    jp:title "ies on Aristotle?”, in Jewish Studies Quarterly 28 (2021), 159-190"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_388_Philosophie_M_di_vale_22___Tur a jp:ScholarlyWork ;
+    jp:title "Philosophie Médiévale 22). Turnhout 2020, 127–146"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_389_The_Jerusalem_Philosophical_Qu a jp:ScholarlyWork ;
+    jp:title "The Jerusalem Philosophical Quarterly 68 (2020), 233–244"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_390_ags__W__el_rayes_and_G__a__M_c a jp:ScholarlyWork ;
+    jp:title "ags, W. el-rayes and G. a. M c GRa YeR . South Bend, IN 2019, 60-83"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_391_er a jp:ScholarlyWork ;
+    jp:title "er"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_392_Context__Rationality__European a jp:ScholarlyWork ;
+    jp:title "Context: Rationality, European Borders, and the Search for Belonging"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_393_cal_Studies_in_Science___Judai a jp:ScholarlyWork ;
+    jp:title "cal Studies in Science & Judaism 21 (2021), 7-78"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_394_to_Spinoza a jp:ScholarlyWork ;
+    jp:title "to Spinoza"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_395_in_the_Kuzari__Berlin_Boston_2 a jp:ScholarlyWork ;
+    jp:title "in the Kuzari. Berlin-Boston 2020, 1-6"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_396_Abulafia__s_Esotericism__Secre a jp:ScholarlyWork ;
+    jp:title "Abulafia’ s Esotericism: Secrets and Doubts.  Berlin 2020, xI-xvII"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_397_The_Jerusalem_Philosophical_Qu a jp:ScholarlyWork ;
+    jp:title "The Jerusalem Philosophical Quarterly, 68 (2020), 297-306"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_398_Berlin_Boston_2019__83_96 a jp:ScholarlyWork ;
+    jp:title "Berlin-Boston 2019, 83-96"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_399_ologie_31___G_ttingen_2018__14 a jp:ScholarlyWork ;
+    jp:title "ologie 31). Göttingen 2018, 149-172"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_400_losophers____in_Maimonides_Rev a jp:ScholarlyWork ;
+    jp:title "losophers)”, in Maimonides Review of Philosophy and Religion  1 (2022),"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_401_bridge_2021__796_824 a jp:ScholarlyWork ;
+    jp:title "bridge 2021, 796-824"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_402_and_the_Great_Philosophers a jp:ScholarlyWork ;
+    jp:title "and the Great Philosophers"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_403_the_World_to_Come___in_Jewish_ a jp:ScholarlyWork ;
+    jp:title "the World to Come”, in Jewish-Christian Relations  (2020), https://www"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_404_Peril___in_Tradition_43__2021_ a jp:ScholarlyWork ;
+    jp:title "Peril”, in Tradition 43 (2021), 23-52"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_405_Thought_1__2019___33_52 a jp:ScholarlyWork ;
+    jp:title "Thought 1 (2019), 33-52"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_406_a__l__M_ittleMan___Oxford_2018 a jp:ScholarlyWork ;
+    jp:title "a. l. M ittleMan , Oxford 2018. 112-136"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_407_Philosophy_and_the_Case_of_Lev a jp:ScholarlyWork ;
+    jp:title "Philosophy and the Case of Levi ben Avraham”, in Jewish Thought 3 (2021),"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_408_Commentaries___in_Jewish_Thoug a jp:ScholarlyWork ;
+    jp:title "Commentaries”, in Jewish Thought 2 (2020), 35-64"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_409_ited___in_Jewish_Thought_1__20 a jp:ScholarlyWork ;
+    jp:title "ited”, in Jewish Thought 1 (2019), 53-88"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_410_k_Rinis___E___Abraham_bar__iyy a jp:ScholarlyWork ;
+    jp:title "k Rinis , E. “Abraham bar Ḥiyya (d. ca. 1136) on ‘The Pure Soul’”, in"^^xsd:string ;
+    jp:publicationYear "1136"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_411_ism_in_Context_25___Piscataway a jp:ScholarlyWork ;
+    jp:title "ism in Context 25). Piscataway, NJ 2021"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_412_c_aiazzo___c__M_acRis__and_a__ a jp:ScholarlyWork ;
+    jp:title "c aiazzo , c. M acRis  and a. R obeR t . Leiden 2021, 171-190"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_413_cine a jp:ScholarlyWork ;
+    jp:title "cine"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_414_Science_81__2020___39_45 a jp:ScholarlyWork ;
+    jp:title "Science 81 (2020), 39-45"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_415_tion_of_Galen a jp:ScholarlyWork ;
+    jp:title "tion of Galen"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_416_ism_19__2019___137_156 a jp:ScholarlyWork ;
+    jp:title "ism 19 (2019), 137-156"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_417_k_anaRFoGel___London_2018__263 a jp:ScholarlyWork ;
+    jp:title "k anaRFoGel . London 2018, 263-284"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_418_Ibn_Kamm_na__d__1284____in_Die a jp:ScholarlyWork ;
+    jp:title "Ibn Kammūna (d. 1284)”, in Die Seele im Mittelalter: Von der Substanz zum"^^xsd:string ;
+    jp:publicationYear "1284"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_419_W_rzburg_2018__117_128 a jp:ScholarlyWork ;
+    jp:title "Würzburg 2018, 117-128"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_420_tury_and_a_Half___in_Probl_mes a jp:ScholarlyWork ;
+    jp:title "tury and a Half”, in Problèmes d’histoire des religions 28 (2022) = Perspec-"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_421_Judaism__London_2022 a jp:ScholarlyWork ;
+    jp:title "Judaism. London 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_422_ish_Thought_3__2021___35_48 a jp:ScholarlyWork ;
+    jp:title "ish Thought 3 (2021), 35-48"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_423_Philosophie_M_di_vale_22___Tur a jp:ScholarlyWork ;
+    jp:title "Philosophie Médiévale 22). Turnhout 2020, 547-556"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_424_30___West_Lafayette__IN_2019__ a jp:ScholarlyWork ;
+    jp:title "30). West Lafayette, IN 2019, 99-110"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_425_Cambridge_2018__465_484 a jp:ScholarlyWork ;
+    jp:title "Cambridge 2018, 465-484"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_426_on_Eleazar_Ashkenazi_s_Reveale a jp:ScholarlyWork ;
+    jp:title "on Eleazar Ashkenazi’s Revealer of Secrets”, in Jewish History 36 (2022),"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_427_vealer_of_Secrets___in_Jewish_ a jp:ScholarlyWork ;
+    jp:title "vealer of Secrets”, in Jewish Quarterly Review 112 (2022), 697-730"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_428_tance_in_the_Reception_of_a_Je a jp:ScholarlyWork ;
+    jp:title "tance in the Reception of a Jewish Classic. New York-Oxford 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_429_ot___in_Probl_mes_d_histoire_d a jp:ScholarlyWork ;
+    jp:title "ot”, in Problèmes d’histoire des religions 28 (2022) = Perspectives sur l’his-"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_430_philosophes_juifs_m_di_vaux__P a jp:ScholarlyWork ;
+    jp:title "philosophes juifs médiévaux. Paris 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_431__Juda_sme_ancien_et_origines_d a jp:ScholarlyWork ;
+    jp:title "(Judaïsme ancien et origines du christianisme 17). Turnhout 2020, 63-77"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_432_la_proph_tie_de_Mo_se____in_Ca a jp:ScholarlyWork ;
+    jp:title "la prophétie de Moïse », in Cahiers philosophiques de Strasbourg 47 (2020),"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_433_Medigo_e_la__seconda_rivelazio a jp:ScholarlyWork ;
+    jp:title "Medigo e la ‘seconda rivelazione’ di Averroè. Palermo 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_434_et__Filosofica_Italiana_233__2 a jp:ScholarlyWork ;
+    jp:title "età Filosofica Italiana 233 (2021), 7-17"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_435_ides___in_The_Review_of_Rabbin a jp:ScholarlyWork ;
+    jp:title "ides”, in The Review of Rabbinic Judaism 23 (2020), 89-126"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_436_za___in_Teleology__A_History a jp:ScholarlyWork ;
+    jp:title "za”, in Teleology: A History"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_437_Science___Judaism_22__2022___1 a jp:ScholarlyWork ;
+    jp:title "Science & Judaism 22 (2022), 183-233"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_438__March_12_15__2018____in_Yearb a jp:ScholarlyWork ;
+    jp:title "(March 12–15, 2018)”, in Yearbook of the Maimonides Centre for Advanced"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_439_Studies__2018 a jp:ScholarlyWork ;
+    jp:title "Studies, 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_440_ides__Mishneh_Torah___in_Open_ a jp:ScholarlyWork ;
+    jp:title "ides’ Mishneh Torah”, in Open Philosophy 3 (2020), 664-680"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_441_Guide___in_Harvard_Theological a jp:ScholarlyWork ;
+    jp:title "Guide”, in Harvard Theological Review 113 (2020), 378-404"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_442_and_Its_Karaite_Background___i a jp:ScholarlyWork ;
+    jp:title "and Its Karaite Background”, in The Journal of Religion 99 (2019), 432-"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_443_______The_Hebrew_Tradition_on_ a jp:ScholarlyWork ;
+    jp:title "———. “The Hebrew Tradition on EN 6.5.1140b16-17”, in Phantasia"^^xsd:string ;
+    jp:publicationYear "1140"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_444_London_New_York_2019__103_126 a jp:ScholarlyWork ;
+    jp:title "London-New York 2019, 103-126"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_445_ophy_28__2020___1_27 a jp:ScholarlyWork ;
+    jp:title "ophy 28 (2020), 1-27"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_446_and_Philosophy_26__2018___149_ a jp:ScholarlyWork ;
+    jp:title "and Philosophy 26 (2018), 149-173"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_447_Philosophy_30__2022___90_113 a jp:ScholarlyWork ;
+    jp:title "Philosophy 30 (2022), 90-113"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_448_Science___Judaism_21__2021___2 a jp:ScholarlyWork ;
+    jp:title "Science & Judaism 21 (2021), 279-308"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_449_Middle_Ages__The_Christian_Wor a jp:ScholarlyWork ;
+    jp:title "Middle Ages: The Christian World"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_450_panion_to_Natural_Law_Ethics a jp:ScholarlyWork ;
+    jp:title "panion to Natural Law Ethics"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_451_Companion_to_Medieval_Ethics a jp:ScholarlyWork ;
+    jp:title "Companion to Medieval Ethics"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_452_and_Religion__Oxford_2018 a jp:ScholarlyWork ;
+    jp:title "and Religion. Oxford 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_453_losophy___in_Journal_of_Religi a jp:ScholarlyWork ;
+    jp:title "losophy”, in Journal of Religion 102 (2022), 354-375"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_454_JUDAICA__Beitr_ge_zum_Verstehe a jp:ScholarlyWork ;
+    jp:title "JUDAICA: Beiträge zum Verstehen des Judentums 74 (2018), 243-262"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_455__2017___2018___135_151 a jp:ScholarlyWork ;
+    jp:title "(2017) [2018], 135-151"^^xsd:string ;
+    jp:publicationYear "2017"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_456______The_Many_Faces_of_Maimoni a jp:ScholarlyWork ;
+    jp:title "———. The Many Faces of Maimonides.  Boston 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_457_ry_Practices_among_Jews_betwee a jp:ScholarlyWork ;
+    jp:title "ry Practices among Jews between Qumran and the Modern Period, ed,"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_458_Union_College_Annual_89__2018_ a jp:ScholarlyWork ;
+    jp:title "Union College Annual 89 (2018), 177-196"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_459_cism__Idealism_and_Phenomenolo a jp:ScholarlyWork ;
+    jp:title "cism, Idealism and Phenomenology 3). Leiden 2022, 53-78"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_460_Journal_of_Jewish_Studies_15__ a jp:ScholarlyWork ;
+    jp:title "Journal of Jewish Studies 15 (2021), 201-224"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_461_Interpretation_of_Moses_s_Prop a jp:ScholarlyWork ;
+    jp:title "Interpretation of Moses’s Prophecy”, in Religions 11 (2020), 1-16"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_462_k_apRiev__und_v___MuRDocH___Ba a jp:ScholarlyWork ;
+    jp:title "k apRiev  und v . MuRDocH . Basel 2019, 301-351"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_463_h_bra_ques_et_juive_22__2019__ a jp:ScholarlyWork ;
+    jp:title "hébraïques et juive 22) 2019, 49-77"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_464_philosophie_m_di_vale_61__2019 a jp:ScholarlyWork ;
+    jp:title "philosophie médiévale 61 (2019), 209-219"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_465_anze_e_conflitti__a_cura_di_G_ a jp:ScholarlyWork ;
+    jp:title "anze e conflitti, a cura di G. b issiato , D. Galli , G. l onGoni , p . MuRRone  e"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_466_teologico_politico__Filosofia_ a jp:ScholarlyWork ;
+    jp:title "teologico-politico (Filosofia della religione). Brescia 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_467_dell_Associazione_Italiana_per a jp:ScholarlyWork ;
+    jp:title "dell’Associazione Italiana per lo Studio del Giudaismo 23 (2018), 333-341"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_468_Historical_Studies_in_Science_ a jp:ScholarlyWork ;
+    jp:title "Historical Studies in Science & Judaism 22 (2022), 287-300"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_469_val_Encounters_25__2019___345_ a jp:ScholarlyWork ;
+    jp:title "val Encounters 25 (2019), 345-380"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_470_Berger_and_C__Milikowsky__New_ a jp:ScholarlyWork ;
+    jp:title "Berger and C. Milikowsky. New York 2020, 205-224"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_471_ness____in_Harvard_Theological a jp:ScholarlyWork ;
+    jp:title "ness)”, in Harvard Theological Review 115 (2022), 387-415"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_472_and_Providence_ a jp:ScholarlyWork ;
+    jp:title "and Providence”"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_473_Filosofia_Italiana_16__2020___ a jp:ScholarlyWork ;
+    jp:title "Filosofia Italiana 16 (2020), 13-33"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_474_Iyyun__The_Jerusalem_Philosoph a jp:ScholarlyWork ;
+    jp:title "Iyyun: The Jerusalem Philosophical Quarterly 68 (2020), 245-279"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_475_______Pines__Agendas_for_Readi a jp:ScholarlyWork ;
+    jp:title "———. “Pines’ Agendas for Reading the Guide from 1963 to 1979”, in"^^xsd:string ;
+    jp:publicationYear "1963"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_476_s_cHMiD___and_e__s_pinelli___B a jp:ScholarlyWork ;
+    jp:title "s cHMiD , and e. s pinelli . Berlin-Boston 2019, 97-126"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_477_MalacHi___Tel_Aviv_2018__61__9 a jp:ScholarlyWork ;
+    jp:title "MalacHi . Tel-Aviv 2018, 61*-91*"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_478_arship__T_bingen_2020__9_125 a jp:ScholarlyWork ;
+    jp:title "arship. Tübingen 2020, 9-125"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_479_public_of_Letters___in_Intelle a jp:ScholarlyWork ;
+    jp:title "public of Letters”, in Intellectual History of the Islamicate World 8 (2020),"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_480_Spain__Princeton_2019 a jp:ScholarlyWork ;
+    jp:title "Spain. Princeton 2019"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_481_lam a jp:ScholarlyWork ;
+    jp:title "lam"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_482_s_tRouMsa___Jerusalem_2018__13 a jp:ScholarlyWork ;
+    jp:title "s tRouMsa . Jerusalem 2018, 133-152"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_483_Translation_to_Transmigration_ a jp:ScholarlyWork ;
+    jp:title "Translation to Transmigration of the Soul”, in Henoch 43 (2021), 278-286"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_484______Il_Rinascimento_nel_pensi a jp:ScholarlyWork ;
+    jp:title "———. Il Rinascimento nel pensiero ebraico. Torino 2020"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_485_a_cura_di_M__a_nDReatta__e_F__ a jp:ScholarlyWork ;
+    jp:title "a cura di M. a nDReatta  e F. l elli , Livorno 2020. 485-500"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_486_cism__Berlin_Boston_2018 a jp:ScholarlyWork ;
+    jp:title "cism. Berlin-Boston 2018"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_487_vols__Barcelona_2018__vol__2__ a jp:ScholarlyWork ;
+    jp:title "vols. Barcelona 2018, vol. 2, 260-274"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_488_The_Journal_of_Religion_101__2 a jp:ScholarlyWork ;
+    jp:title "The Journal of Religion 101 (2021), 223-258"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_489_its_Possible_Sources___in_Harv a jp:ScholarlyWork ;
+    jp:title "its Possible Sources”, in Harvard Theological Review 111 (2018), 586-609"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_490_Judaism_22__2022___101_123 a jp:ScholarlyWork ;
+    jp:title "Judaism 22 (2022), 101-123"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_491_Cosmogony___Shanghai_2022 a jp:ScholarlyWork ;
+    jp:title "Cosmogony). Shanghai 2022"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_492_Pursuit_of_Human_Perfection___ a jp:ScholarlyWork ;
+    jp:title "Pursuit of Human Perfection”, in Journal of Chinese Philosophy 45 (2018):"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_493_of_Political_Philosophy_46__20 a jp:ScholarlyWork ;
+    jp:title "of Political Philosophy 46 (2020), 533-562"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_494__Chinese___in_Jewish_Studies_1 a jp:ScholarlyWork ;
+    jp:title "[Chinese], in Jewish Studies 18 (2021), 122-141"^^xsd:string ;
+    jp:publicationYear "2021"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_495_nese___in_Religious_Studies__1 a jp:ScholarlyWork ;
+    jp:title "nese], in Religious Studies, 1 (2019), 191-197"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_496_nese___in_Journal_for_the_Stud a jp:ScholarlyWork ;
+    jp:title "nese], in Journal for the Study of Biblical Literature 16 (2018), 257-284"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_497_Mov___London_2020__483_492 a jp:ScholarlyWork ;
+    jp:title "Mov . London 2020, 483-492"^^xsd:string ;
+    jp:publicationYear "2020"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_498_Paris_2019__251_270 a jp:ScholarlyWork ;
+    jp:title "Paris 2019, 251-270"^^xsd:string ;
+    jp:publicationYear "2019"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_499_di__a__M__b_abbi__e_c__c_oncin a jp:ScholarlyWork ;
+    jp:title "di  a. M. b abbi  e c. c oncinca , Verona 2018. 1-11"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_500_e_p___GRezzi___Lessico_intelle a jp:ScholarlyWork ;
+    jp:title "e p . GRezzi  (Lessico intellettuale europeo 126). Roma 2018, 151-166"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_501_6__The_Middle_Ages__The_Christ a jp:ScholarlyWork ;
+    jp:title "6, The Middle Ages: The Christian World"^^xsd:string ;
+    jp:publicationYear "2018"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:SW_New_502_ings_sent_in_August_2022_and_F a jp:ScholarlyWork ;
+    jp:title "ings sent in August 2022 and February 2023. Any reader who wishes to be"^^xsd:string ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Steven_Harvey_Reports ;
+    .
+
+jp:Scholar_Haim_Kreisel a jp:Scholar ;
+    rdfs:label "Haim Kreisel" ;
+    jp:name "Haim Kreisel" .
+jp:Scholar_Alfred_L a jp:Scholar ;
+    rdfs:label "Alfred L" ;
+    jp:name "Alfred L" .
+jp:Scholar_Dov__Schwartz a jp:Scholar ;
+    rdfs:label "Dov  Schwartz" ;
+    jp:name "Dov  Schwartz" .
+jp:Scholar_Jacob_Haberman a jp:Scholar ;
+    rdfs:label "Jacob Haberman" ;
+    jp:name "Jacob Haberman" .
+jp:Scholar_Moses_I a jp:Scholar ;
+    rdfs:label "Moses I" ;
+    jp:name "Moses I" .
+jp:Scholar_Marienza__Benedetto a jp:Scholar ;
+    rdfs:label "Marienza  Benedetto" ;
+    jp:name "Marienza  Benedetto" .
+jp:Scholar_David_Ii a jp:Scholar ;
+    rdfs:label "David Ii" ;
+    jp:name "David Ii" .
+jp:Scholar_Charles_Manekin a jp:Scholar ;
+    rdfs:label "Charles Manekin" ;
+    jp:name "Charles Manekin" .
+jp:Scholar_Abraham__A a jp:Scholar ;
+    rdfs:label "Abraham  A" ;
+    jp:name "Abraham  A" .
+jp:Scholar_Rabbi_E a jp:Scholar ;
+    rdfs:label "Rabbi E" ;
+    jp:name "Rabbi E" .
+jp:Scholar_Menachem_Kellner a jp:Scholar ;
+    rdfs:label "Menachem Kellner" ;
+    jp:name "Menachem Kellner" .
+jp:Scholar_Ibn_D a jp:Scholar ;
+    rdfs:label "Ibn D" ;
+    jp:name "Ibn D" .
+jp:Scholar_Polemic_T a jp:Scholar ;
+    rdfs:label "Polemic T" ;
+    jp:name "Polemic T" .
+jp:Scholar_Yale_U a jp:Scholar ;
+    rdfs:label "Yale U" ;
+    jp:name "Yale U" .
+jp:Scholar_Shlomo_P a jp:Scholar ;
+    rdfs:label "Shlomo P" ;
+    jp:name "Shlomo P" .
+jp:Scholar_Benny_K a jp:Scholar ;
+    rdfs:label "Benny K" ;
+    jp:name "Benny K" .
+jp:Scholar_James_T a jp:Scholar ;
+    rdfs:label "James T" ;
+    jp:name "James T" .
+jp:Scholar_Mauro_Zonta a jp:Scholar ;
+    rdfs:label "Mauro Zonta" ;
+    jp:name "Mauro Zonta" .
+jp:Scholar_Roberto_Gatti a jp:Scholar ;
+    rdfs:label "Roberto Gatti" ;
+    jp:name "Roberto Gatti" .
+jp:Scholar_Carlos_Fraenkel a jp:Scholar ;
+    rdfs:label "Carlos Fraenkel" ;
+    jp:name "Carlos Fraenkel" .
+jp:Scholar_Pasquale_Porro a jp:Scholar ;
+    rdfs:label "Pasquale Porro" ;
+    jp:name "Pasquale Porro" .
+jp:Scholar_German_J a jp:Scholar ;
+    rdfs:label "German J" ;
+    jp:name "German J" .
+jp:Scholar_Shlomo_Sela a jp:Scholar ;
+    rdfs:label "Shlomo Sela" ;
+    jp:name "Shlomo Sela" .

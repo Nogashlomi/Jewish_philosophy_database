@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %}{{ person.label }} - JPO{% endblock %}
+
+{% block content %}
+<div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color);">
+
+    <div style="display: flex; justify-content: space-between; align-items: start;">
+        <div>
+            <h1 style="margin-top: 0;">{{ person.label }}</h1>
+            <div style="color: #666; font-size: 0.9rem;">
+                URI: <a href="{{ person.uri }}" target="_blank">{{ person.uri }}</a>
+            </div>
+
+            {% if person.authorities %}
+            <div style="margin-top: 5px;">
+                {% for auth in person.authorities %}
+                <a href="{{ auth }}" target="_blank" class="tag">External Link ↗</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- EDIT BUTTON TOGGLE -->
+        <button onclick="toggleEdit()" class="btn">Edit Mode</button>
+    </div>
+
+    <hr>
+
+    <!-- VIEW MODE -->
+    <div id="viewMode">
+
+        <!-- TIMES -->
+        {% if person.times %}
+        <section>
+            <h3>Timeline</h3>
+            <ul>
+                {% for t in person.times %}
+                <li>
+                    <strong>{{ t.type }}</strong>:
+                    {% if t.start %}{{ t.start }}{% endif %}
+                    {% if t.end %} - {{ t.end }}{% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- PLACES -->
+        {% if person.places %}
+        <section>
+            <h3>Places</h3>
+            <ul>
+                {% for p in person.places %}
+                <li>
+                    <strong>{{ p.type }}</strong>:
+                    <a href="/places/{{ p.place_id }}">{{ p.label }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- WORKS -->
+        <section>
+            <h3>Authored Works ({{ person.works|length }})</h3>
+            {% if person.works %}
+            <ul class="work-list">
+                {% for w in person.works %}
+                <li><a href="/works/{{ w.id }}">{{ w.title }}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>No works specific to this ontology found.</p>
+            {% endif %}
+        </section>
+
+        <!-- SCHOLARLY -->
+        {% if person.scholarly %}
+        <section>
+            <h3>Mentions in Scholarly Works</h3>
+            <ul>
+                {% for s in person.scholarly %}
+                <li>
+                    <a href="/scholarly/{{ s.id }}">{{ s.title }}</a>
+                    {% if s.year %}({{ s.year }}){% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+    </div>
+
+    <!-- EDIT MODE (Hidden by default) -->
+    <div id="editMode" style="display: none;">
+        <form action="/persons/{{ person.id }}/save" method="post">
+            <div class="form-group">
+                <label>Name / Label</label>
+                <input type="text" name="label" value="{{ person.label }}">
+            </div>
+
+            <p><em>Editing relations is now available:</em></p>
+
+
+            <button type="submit" class="btn">Save Name</button>
+            <button type="button" class="btn" onclick="toggleEdit()" style="background: #95a5a6;">Cancel</button>
+        </form>
+
+        <hr style="margin: 20px 0;">
+
+        <!-- Add Place Relation Form -->
+        <h4>Add Place Relation</h4>
+        <form action="/persons/{{ person.id }}/relations/place" method="post"
+            style="border: 1px solid #ddd; padding: 10px; border-radius: 4px; margin-bottom: 20px;">
+            <div class="form-group">
+                <label>Place ID (e.g., P_CORDOBA)</label>
+                <input type="text" name="place_id" placeholder="Copy ID from Place list" required>
+            </div>
+            <div class="form-group">
+                <label>Relation Type</label>
+                <select name="relation_type">
+                    <option value="birth">Birth</option>
+                    <option value="death">Death</option>
+                    <option value="residence">Residence</option>
+                    <option value="travel">Travel</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="btn" style="background-color: #2ecc71;">Add Place Relation</button>
+        </form>
+
+        <!-- Add Time Relation Form -->
+        <h4>Add Time Relation</h4>
+        <form action="/persons/{{ person.id }}/relations/time" method="post"
+            style="border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+            <div class="form-group">
+                <label>Relation Type</label>
+                <select name="relation_type">
+                    <option value="life">Life (entire span)</option>
+                    <option value="activity">Activity Period</option>
+                    <option value="floruit">Floruit</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <div class="form-group" style="flex: 1;">
+                    <label>Start Year</label>
+                    <input type="number" name="start_year" placeholder="e.g. 1135">
+                </div>
+                <div class="form-group" style="flex: 1;">
+                    <label>End Year</label>
+                    <input type="number" name="end_year" placeholder="e.g. 1204">
+                </div>
+            </div>
+            <button type="submit" class="btn" style="background-color: #2ecc71;">Add Time Relation</button>
+        </form>
+
+    </div>
+
+</div>
+
+<style>
+    .tag {
+        background: #eee;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        color: #555;
+        margin-right: 5px;
+    }
+
+    .work-list li {
+        margin-bottom: 5px;
+    }
+</style>
+
+<script>
+    function toggleEdit() {
+        var view = document.getElementById("viewMode");
+        var edit = document.getElementById("editMode");
+        if (view.style.display === "none") {
+            view.style.display = "block";
+            edit.style.display = "none";
+        } else {
+            view.style.display = "none";
+            edit.style.display = "block";
+        }
+    }
+</script>
+
+{% endblock %}

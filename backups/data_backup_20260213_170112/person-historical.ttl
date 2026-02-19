@@ -1,0 +1,362 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Q101142000 a jp:HistoricalPerson ;
+    rdfs:label "Aristotele" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q101142000> .
+
+jp:Q102851 a jp:HistoricalPerson ;
+    rdfs:label "Boethius" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q102851> .
+
+jp:Q108445987 a jp:HistoricalPerson ;
+    rdfs:label "Tolomeo" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q108445987> .
+
+jp:Q10861101 a jp:HistoricalPerson ;
+    rdfs:label "Zerahiah ben Shealtiel Ḥen" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q10861101> .
+
+jp:Q11362 a jp:HistoricalPerson ;
+    rdfs:label "Avempace" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q11362> .
+
+jp:Q115067829 a jp:HistoricalPerson ;
+    rdfs:label "Jacob Guttmann" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q115067829> .
+
+jp:Q11740876 a jp:HistoricalPerson ;
+    rdfs:label "Qohelet" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q11740876> .
+
+jp:Q120599122 a jp:HistoricalPerson ;
+    rdfs:label "Nathan ben Joel Falaquera" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q120599122> .
+
+jp:Q1237726 a jp:HistoricalPerson ;
+    rdfs:label "Dominicus Gundissalinus" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1237726> .
+
+jp:Q127398 a jp:HistoricalPerson ;
+    rdfs:label "Moshe ben Maimon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q127398> .
+
+jp:Q1350978 a jp:HistoricalPerson ;
+    rdfs:label "Yehuda Alharizi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1350978> .
+
+jp:Q1372350 a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Machir ibn Tibbon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1372350> .
+
+jp:Q1383938 a jp:HistoricalPerson ;
+    rdfs:label "Shem-Tov ibn Falaquera" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1383938> .
+
+jp:Q1389056 a jp:HistoricalPerson ;
+    rdfs:label "Harry Austryn Wolfson" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1389056> .
+
+jp:Q154751 a jp:HistoricalPerson ;
+    rdfs:label "Nicholas of Cusa" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q154751> .
+
+jp:Q160460 a jp:HistoricalPerson ;
+    rdfs:label "Farabi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q160460> .
+
+jp:Q16130600 a jp:HistoricalPerson ;
+    rdfs:label "Yosef ben Shalom Ashkenazi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q16130600> .
+
+jp:Q1673485 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Albalag" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1673485> .
+
+jp:Q1673518 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ibn Latif" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1673518> .
+
+jp:Q181498 a jp:HistoricalPerson ;
+    rdfs:label "Moses ibn Tibbon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q181498> .
+
+jp:Q182128 a jp:HistoricalPerson ;
+    rdfs:label "Giovanni Pico della Mirandola" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q182128> .
+
+jp:Q1852000 a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Joshua" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q1852000> .
+
+jp:Q189597 a jp:HistoricalPerson ;
+    rdfs:label "Philo of Alexandria" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q189597> .
+
+jp:Q192374 a jp:HistoricalPerson ;
+    rdfs:label "Marsilio Ficino" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q192374> .
+
+jp:Q193660 a jp:HistoricalPerson ;
+    rdfs:label "Ramon Llull" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q193660> .
+
+jp:Q194803 a jp:HistoricalPerson ;
+    rdfs:label "Yefet ben Ali" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q194803> .
+
+jp:Q21657722 a jp:HistoricalPerson ;
+    rdfs:label "Nissim ben Moshe de Marseille" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q21657722> .
+
+jp:Q2296753 a jp:HistoricalPerson ;
+    rdfs:label "Anan ben David" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2296753> .
+
+jp:Q239355 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Gabirol" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q239355> .
+
+jp:Q2407102 a jp:HistoricalPerson ;
+    rdfs:label "Zechariah Dhahiri" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2407102> .
+
+jp:Q2423811 a jp:HistoricalPerson ;
+    rdfs:label "Judah Hadassi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2423811> .
+
+jp:Q251259 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Tufayl" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q251259> .
+
+jp:Q26456 a jp:HistoricalPerson ;
+    rdfs:label "Rashi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q26456> .
+
+jp:Q270670 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Ezra" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q270670> .
+
+jp:Q2822092 a jp:HistoricalPerson ;
+    rdfs:label "Abu Sahl 'Isa ibn Yahya al-Masihi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2822092> .
+
+jp:Q2874503 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Moses ben Maimon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2874503> .
+
+jp:Q2897268 a jp:HistoricalPerson ;
+    rdfs:label "Eliezer ben Elijah Ashkenazi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2897268> .
+
+jp:Q2903764 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ben Jeroham" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2903764> .
+
+jp:Q2906881 a jp:HistoricalPerson ;
+    rdfs:label "Zerachiah haLevi of Girona" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2906881> .
+
+jp:Q2910908 a jp:HistoricalPerson ;
+    rdfs:label "Jacob Qirqisani" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2910908> .
+
+jp:Q2911194 a jp:HistoricalPerson ;
+    rdfs:label "Yosef Qafih" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2911194> .
+
+jp:Q2920042 a jp:HistoricalPerson ;
+    rdfs:label "Shlomo Pines" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q2920042> .
+
+jp:Q299200 a jp:HistoricalPerson ;
+    rdfs:label "Judah Halevi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q299200> .
+
+jp:Q310777 a jp:HistoricalPerson ;
+    rdfs:label "Nicole Oresme" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q310777> .
+
+jp:Q310821 a jp:HistoricalPerson ;
+    rdfs:label "Akiva ben Joseph" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q310821> .
+
+jp:Q31439 a jp:HistoricalPerson ;
+    rdfs:label "Abraham bar Hiyya" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q31439> .
+
+jp:Q317787 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Hazm" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q317787> .
+
+jp:Q319902 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abrabanel" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q319902> .
+
+jp:Q322560 a jp:HistoricalPerson ;
+    rdfs:label "Abner of Burgos" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q322560> .
+
+jp:Q323448 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Abulafia" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q323448> .
+
+jp:Q328748 a jp:HistoricalPerson ;
+    rdfs:label "Saadia Gaon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q328748> .
+
+jp:Q329773 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Bibago" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q329773> .
+
+jp:Q329866 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Cohen de Herrera" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q329866> .
+
+jp:Q536837 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Solomon al-Israeli" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q536837> .
+
+jp:Q559622 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Albo" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q559622> .
+
+jp:Q56063581 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon ha-Kohen" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q56063581> .
+
+jp:Q56248213 a jp:HistoricalPerson ;
+    rdfs:label "Guglielmo Raimondo Moncada" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q56248213> .
+
+jp:Q5655018 a jp:HistoricalPerson ;
+    rdfs:label "Ibn al-Sīd al-Baṭalyawsī" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q5655018> .
+
+jp:Q6126127 a jp:HistoricalPerson ;
+    rdfs:label "David HaNagid" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6126127> .
+
+jp:Q6288216 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Shem-Tov" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6288216> .
+
+jp:Q6302099 a jp:HistoricalPerson ;
+    rdfs:label "Judah Leon ben Moses Mosconi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6302099> .
+
+jp:Q6302105 a jp:HistoricalPerson ;
+    rdfs:label "Judah Moscato" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6302105> .
+
+jp:Q639821 a jp:HistoricalPerson ;
+    rdfs:label "Ibn Kammuna" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q639821> .
+
+jp:Q66292 a jp:HistoricalPerson ;
+    rdfs:label "Salomon Munk" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q66292> .
+
+jp:Q669640 a jp:HistoricalPerson ;
+    rdfs:label "Judah Messer Leon" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q669640> .
+
+jp:Q676267 a jp:HistoricalPerson ;
+    rdfs:label "Henry Bate of Malines" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q676267> .
+
+jp:Q6810276 a jp:HistoricalPerson ;
+    rdfs:label "Meir ibn Aldabi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6810276> .
+
+jp:Q6962196 a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ben Joseph ben Shem Tov Ibn Shem Tov" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q6962196> .
+
+jp:Q7068124 a jp:HistoricalPerson ;
+    rdfs:label "Tanḥum ben Joseph, of Jerusalem" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q7068124> .
+
+jp:Q7068219 a jp:HistoricalPerson ;
+    rdfs:label "Samuel ben Ali" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q7068219> .
+
+jp:Q70899 a jp:HistoricalPerson ;
+    rdfs:label "Adam" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q70899> .
+
+jp:Q719393 a jp:HistoricalPerson ;
+    rdfs:label "Moses ibn Ezra" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q719393> .
+
+jp:Q723531 a jp:HistoricalPerson ;
+    rdfs:label "Nissim of Gerona" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q723531> .
+
+jp:Q7459732 a jp:HistoricalPerson ;
+    rdfs:label "Sforno" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q7459732> .
+
+jp:Q751353 a jp:HistoricalPerson ;
+    rdfs:label "Ramon Martí" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q751353> .
+
+jp:Q75333 a jp:HistoricalPerson ;
+    rdfs:label "Julius Guttmann" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q75333> .
+
+jp:Q762229 a jp:HistoricalPerson ;
+    rdfs:label "Bahya ibn Paquda" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q762229> .
+
+jp:Q76548 a jp:HistoricalPerson ;
+    rdfs:label "Meister Eckhart" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q76548> .
+
+jp:Q76709 a jp:HistoricalPerson ;
+    rdfs:label "Hermann Cohen" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q76709> .
+
+jp:Q76710 a jp:HistoricalPerson ;
+    rdfs:label "Franz Rosenzweig" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q76710> .
+
+jp:Q76997 a jp:HistoricalPerson ;
+    rdfs:label "Moses Mendelssohn" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q76997> .
+
+jp:Q77144 a jp:HistoricalPerson ;
+    rdfs:label "Leo Strauss" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q77144> .
+
+jp:Q796587 a jp:HistoricalPerson ;
+    rdfs:label "Shams Tabrizi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q796587> .
+
+jp:Q8011 a jp:HistoricalPerson ;
+    rdfs:label "Avicenna" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q8011> .
+
+jp:Q859 a jp:HistoricalPerson ;
+    rdfs:label "Plato" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q859> .
+
+jp:Q868 a jp:HistoricalPerson ;
+    rdfs:label "Aristotle" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q868> .
+
+jp:Q8778 a jp:HistoricalPerson ;
+    rdfs:label "Galen" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q8778> .
+
+jp:Q9397 a jp:HistoricalPerson ;
+    rdfs:label "Zhu Xi" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q9397> .
+
+jp:Q9438 a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q9438> .
+
+jp:Q9546 a jp:HistoricalPerson ;
+    rdfs:label "Al-Ghazali" ;
+    jp:authorityLink <https://www.wikidata.org/wiki/Q9546> .

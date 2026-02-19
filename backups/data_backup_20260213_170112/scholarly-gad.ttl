@@ -1,0 +1,32 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:SW_Gad_Science_Medieval a jp:ScholarlyWork ;
+    rdfs:label "Science in Medieval Jewish Cultures" ;
+    jp:hasAuthor jp:Scholar_Gad_Freudenthal ;
+    jp:hasSource jp:Source_Books_and_Indexes ;
+    jp:mentionsPerson jp:Q_Q39837,
+        jp:Q_Q6288216,
+        jp:Q_Q745336 ;
+    jp:publicationYear "2011"^^xsd:gYear ;
+    jp:title "Science in Medieval Jewish Cultures" .
+
+jp:Source_Popularization a jp:ScholarlyWork ;
+    jp:hasSource jp:Source_Books_and_Indexes .
+
+jp:Q_Q39837 a jp:HistoricalPerson ;
+    rdfs:label "Averroes" ;
+    jp:description "Arab Andalusian Muslim writer and philosopher (1126–1198)" .
+
+jp:Q_Q6288216 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Shem-Tov" ;
+    jp:description "Spanish rabbi" .
+
+jp:Q_Q745336 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Saul ibn Tibbon" ;
+    jp:description "Spanish translator and rabbi" .
+
+jp:Source_Books_and_Indexes a jp:Source ;
+    rdfs:label "Books and Indexes" .
+

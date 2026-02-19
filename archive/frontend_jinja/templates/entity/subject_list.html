@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Subjects - JPO{% endblock %}
+
+{% block content %}
+<h1>Subjects</h1>
+<p>Topical classifications of historical works.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px;">
+    {% for s in subjects %}
+    <a href="/subjects/{{ s.id }}"
+        style="display: block; padding: 15px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; background: white;">
+        <div style="font-weight: bold; color: #f1c40f;">{{ s.label }}</div>
+        <div style="font-size: 0.9rem; color: #666;">{{ s.count }} works</div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

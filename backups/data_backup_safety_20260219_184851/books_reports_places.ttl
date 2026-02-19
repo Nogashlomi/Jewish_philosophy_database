@@ -1,0 +1,87 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Place_Q118958 a jp:Place ;
+    rdfs:label "Leuven" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q118958" ;
+    jp:coordinates "50.8775,4.704444" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q16231 a jp:Place ;
+    rdfs:label "Pavia" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q16231" ;
+    jp:coordinates "45.183333333333,9.15" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q217346 a jp:Place ;
+    rdfs:label "Ithaca" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q217346" ;
+    jp:coordinates "42.443333333333,-76.5" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q25331 a jp:Place ;
+    rdfs:label "Odense" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q25331" ;
+    jp:coordinates "55.4,10.383333333333" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q271783 a jp:Place ;
+    rdfs:label "Turnhout" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q271783" ;
+    jp:coordinates "51.316666666667,4.9333333333333" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q34433 a jp:Place ;
+    rdfs:label "Oxford" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q34433" ;
+    jp:coordinates "51.755,-1.255" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q36378 a jp:Place ;
+    rdfs:label "Fribourg" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q36378" ;
+    jp:coordinates "46.8,7.15" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q43631 a jp:Place ;
+    rdfs:label "Leiden" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q43631" ;
+    jp:coordinates "52.16,4.49" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q45412 a jp:Place ;
+    rdfs:label "Coimbra" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q45412" ;
+    jp:coordinates "40.21111111111111,-8.428888888888888" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q490385 a jp:Place ;
+    rdfs:label "Bloomington" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q490385" ;
+    jp:coordinates "39.166666666666664,-86.53472222222223" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q584451 a jp:Place ;
+    rdfs:label "Bethesda" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q584451" ;
+    jp:coordinates "38.9848265,-77.0946459" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+
+jp:Place_Q668676 a jp:Place ;
+    rdfs:label "College Park" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q668676" ;
+    jp:coordinates "38.9967,-76.9275" ;
+    jp:hasSource jp:Source_BooksReports ;
+    jp:placeType "publication_place" .
+

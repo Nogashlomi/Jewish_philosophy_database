@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section style="text-align: center; margin-bottom: 3rem;">
+    <h1>Philosophy in Jewish History</h1>
+
+    <div
+        style="margin-top: 2rem; display: flex; justify-content: center; gap: 2rem; font-family: var(--font-sans); color: #7f8c8d;">
+        <span><strong>{{ counts.persons }}</strong> Historical Persons</span>
+        <span>•</span>
+        <span><strong>{{ counts.works }}</strong> Historical Works</span>
+        <span>•</span>
+        <span><strong>{{ counts.scholarly }}</strong> Scholarly Resources</span>
+        <span>•</span>
+        <span><strong>{{ counts.places }}</strong> Places</span>
+    </div>
+</section>
+
+<section class="nav-grid">
+    <a href="/persons" class="nav-card">
+        <h3>Historical Persons</h3>
+    </a>
+    <a href="/works" class="nav-card">
+        <h3>Historical Works</h3>
+    </a>
+    <a href="/scholarly" class="nav-card">
+        <h3>Scholarly Works</h3>
+    </a>
+    <a href="/places" class="nav-card">
+        <h3>Places</h3>
+    </a>
+    <a href="/subjects" class="nav-card">
+        <h3>Subjects</h3>
+    </a>
+    <a href="/languages" class="nav-card">
+        <h3>Languages</h3>
+    </a>
+    <a href="/map" class="nav-card">
+
+        <h3>Map Explorer</h3>
+    </a>
+    <a href="/network" class="nav-card">
+        <h3>Network Graph</h3>
+    </a>
+</section>
+
+<style>
+    .nav-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 2rem;
+    }
+
+    .nav-card {
+        background: #fff;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 2rem;
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    .nav-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        border-color: var(--link-color);
+        text-decoration: none;
+    }
+
+    .nav-card h3 {
+        margin-top: 0;
+        color: var(--primary-color);
+    }
+
+    .nav-card p {
+        color: #666;
+        margin-bottom: 0;
+    }
+</style>
+{% endblock %}

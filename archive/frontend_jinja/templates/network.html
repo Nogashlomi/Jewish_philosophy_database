@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+{% block head %}
+<style>
+    #network {
+        height: 700px;
+        width: 100%;
+        border: 1px solid #ddd;
+        background: #fafafa;
+        border-radius: 8px;
+    }
+
+    .controls {
+        margin-bottom: 1rem;
+        padding: 10px;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid #eee;
+    }
+
+    .legend-item {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .color-box {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        border-radius: 2px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Network Visualization</h1>
+<p>Visualizing connections between Persons, Works, Places, and Concepts.</p>
+
+<div class="controls">
+    <strong>Legend: </strong>
+    <span class="legend-item"><span class="color-box" style="background:#e74c3c;"></span>Person</span>
+    <span class="legend-item"><span class="color-box" style="background:#3498db;"></span>Work</span>
+    <span class="legend-item"><span class="color-box" style="background:#9b59b6;"></span>Scholarly</span>
+    <span class="legend-item"><span class="color-box" style="background:#2ecc71;"></span>Place</span>
+    <span class="legend-item"><span class="color-box" style="background:#f1c40f;"></span>Subject</span>
+    <span class="legend-item"><span class="color-box" style="background:#95a5a6;"></span>Language</span>
+
+    <span style="margin-left: 20px; color: #777;">(Zoom to explore)</span>
+</div>
+
+<div class="controls">
+    <strong>Filter by Context: </strong>
+    <select id="contextFilter" onchange="filterGraph()">
+        <option value="">-- All --</option>
+    </select>
+</div>
+
+<div class="controls">
+    <strong>Show Types: </strong>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="HistoricalPerson"> Persons</label>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="HistoricalWork"> Works</label>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="ScholarlyWork"> Scholarly</label>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="Place"> Places</label>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="Subject"> Subjects</label>
+    <label><input type="checkbox" checked onchange="filterGraph()" value="HistoricalLanguage"> Languages</label>
+</div>
+
+<div id="network"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    var nodes = new vis.DataSet([]);
+    var edges = new vis.DataSet([]);
+    var container = document.getElementById('network');
+
+    // Keep a copy of full data
+    var allNodes = [];
+    var allEdges = [];
+
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+
+    var options = {
+        nodes: {
+            shape: 'dot',
+            size: 10,
+            font: { size: 12, face: 'Arial' }
+        },
+        edges: {
+            width: 0.5,
+            color: { color: '#bdc3c7', highlight: '#7f8c8d' },
+            smooth: { type: 'continuous' }
+        },
+        physics: {
+            stabilization: false,
+            barnesHut: {
+                gravitationalConstant: -2000,
+                springConstant: 0.001,
+                springLength: 200
+            }
+        },
+        groups: {
+            HistoricalPerson: { color: '#e74c3c' },
+            HistoricalWork: { color: '#3498db' },
+            ScholarlyWork: { color: '#9b59b6' },
+            Place: { color: '#2ecc71' },
+            Subject: { color: '#f1c40f' },
+            HistoricalLanguage: { color: '#95a5a6' }
+        }
+    };
+
+    var network = new vis.Network(container, data, options);
+
+    // Load Data
+    fetch('/api/network')
+        .then(res => res.json())
+        .then(json => {
+            allNodes = json.nodes;
+            allEdges = json.edges;
+
+            populateContextDropdown();
+            filterGraph(); // Initial render
+            network.fit();
+        });
+
+    function populateContextDropdown() {
+        var select = document.getElementById('contextFilter');
+        // Find all ScholarlyWorks
+        var works = allNodes.filter(n => n.group === 'ScholarlyWork');
+        // Sort by label
+        works.sort((a, b) => a.label.localeCompare(b.label));
+
+        works.forEach(w => {
+            var opt = document.createElement('option');
+            opt.value = w.id;
+            opt.text = w.label;
+            select.appendChild(opt);
+        });
+    }
+
+    function filterGraph() {
+        var contextId = document.getElementById('contextFilter').value;
+        var checkboxes = document.querySelectorAll('.controls input[type="checkbox"]');
+        var enabledGroups = Array.from(checkboxes)
+            .filter(c => c.checked)
+            .map(c => c.value);
+
+        // Define allowed nodes based on context
+        var allowedNodeIds = null; // null means all
+        if (contextId) {
+            allowedNodeIds = new Set();
+            allowedNodeIds.add(contextId);
+
+            // Find neighbors
+            allEdges.forEach(e => {
+                if (e.from === contextId) allowedNodeIds.add(e.to);
+                if (e.to === contextId) allowedNodeIds.add(e.from);
+            });
+        }
+
+        // Filter Nodes
+        var visibleNodes = allNodes.filter(n => {
+            // 1. Must be in enabled types
+            if (!enabledGroups.includes(n.group)) return false;
+            // 2. Must be in allowed set (if context active)
+            if (allowedNodeIds && !allowedNodeIds.has(n.id)) return false;
+            return true;
+        });
+
+        var visibleNodeIds = new Set(visibleNodes.map(n => n.id));
+
+        // Filter Edges (both ends must be visible)
+        var visibleEdges = allEdges.filter(e => visibleNodeIds.has(e.from) && visibleNodeIds.has(e.to));
+
+        nodes.clear();
+        edges.clear();
+        nodes.add(visibleNodes);
+        edges.add(visibleEdges);
+    }
+
+    // Interaction
+    network.on("click", function (params) {
+        if (params.nodes.length > 0) {
+            var nodeId = params.nodes[0];
+            var node = nodes.get(nodeId);
+            console.log("Clicked: " + node.label);
+
+            // Redirect logic specific to group?
+            // Simple mapping based on group to url
+            var urlBase = "";
+            if (node.group === "HistoricalPerson") urlBase = "/persons/";
+            if (node.group === "HistoricalWork") urlBase = "/works/";
+            if (node.group === "ScholarlyWork") urlBase = "/scholarly/";
+            if (node.group === "Place") urlBase = "/places/"; // Reusing place logic mainly for map but useful here
+
+            if (urlBase) {
+                window.location.href = urlBase + nodeId;
+            }
+        }
+    });
+</script>
+{% endblock %}

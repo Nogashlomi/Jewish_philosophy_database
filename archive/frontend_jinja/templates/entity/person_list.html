@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block context %}
+<div class="header-actions">
+    <h1>Historical Persons</h1>
+    <!-- Add Button could go here -->
+</div>
+{% endblock %}
+
+{% block content %}
+<h1>Historical Persons</h1>
+<p>Philosophers, translators, and authors in the network.</p>
+
+<input type="text" id="filterInput" onkeyup="filterTable()" placeholder="Search for names..." title="Type in a name"
+    style="margin-bottom: 20px;">
+
+<table id="personTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Places</th>
+            <th>Times</th>
+            <th>Authored Works</th>
+            <th>Scholarly Mentions</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for p in persons %}
+        <tr>
+            <td><a href="/persons/{{ p.id }}" style="font-weight: bold; font-size: 1.1em;">{{ p.label }}</a></td>
+            <td>{{ p.places }}</td>
+            <td>{{ p.times }}</td>
+            <td>{{ p.workCount }}</td>
+            <td>{{ p.mentionCount }}</td>
+            <td><a href="/persons/{{ p.id }}" class="btn" style="padding: 0.2rem 0.5rem; font-size: 0.8rem;">View</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script>
+    function filterTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("filterInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("personTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+{% endblock %}

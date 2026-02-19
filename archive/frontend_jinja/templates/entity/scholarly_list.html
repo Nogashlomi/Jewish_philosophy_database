@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Scholarly & Secondary Works</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Creator(s)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for w in works %}
+        <tr>
+            <td>{{ w.year }}</td>
+            <td><a href="/scholarly/{{ w.id }}" style="font-weight: bold;">{{ w.title }}</a></td>
+            <td>{{ w.creators }}</td>
+            <td>
+                <a href="/scholarly/{{ w.id }}" class="btn" style="padding: 0.2rem 0.5rem; font-size: 0.8rem;">View</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

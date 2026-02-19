@@ -1,0 +1,132 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Place_Avignon a jp:Place ;
+    rdfs:label "Avignon" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q6548" ;
+    jp:latitude "43.9493" ;
+    jp:longitude "4.8055" .
+
+jp:Place_Bagnols a jp:Place ;
+    rdfs:label "Bagnols-sur-Cèze" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q271093" ;
+    jp:latitude "44.1619" ;
+    jp:longitude "4.6211" .
+
+jp:Place_Barcelona a jp:Place ;
+    rdfs:label "Barcelona" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q1492" ;
+    jp:latitude "41.4" ;
+    jp:longitude "2.2" .
+
+jp:Place_Cairo a jp:Place ;
+    rdfs:label "Cairo" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q85" ;
+    jp:latitude "30.0444" ;
+    jp:longitude "31.2357" .
+
+jp:Place_Constantinople a jp:Place ;
+    rdfs:label "Constantinople)" .
+
+jp:Place_Cordoba a jp:Place ;
+    rdfs:label "Cordoba" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q5818" ;
+    jp:latitude "37.8882" ;
+    jp:longitude "-4.7794" .
+
+jp:Place_England a jp:Place ;
+    rdfs:label "England" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q21" ;
+    jp:latitude "52.4" ;
+    jp:longitude "-1.5" .
+
+jp:Place_Fayyum a jp:Place ;
+    rdfs:label "Fayyum" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q203309" ;
+    jp:latitude "29.3084" ;
+    jp:longitude "30.8428" .
+
+jp:Place_Fes a jp:Place ;
+    rdfs:label "Fes" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q80985" ;
+    jp:latitude "34.0333" ;
+    jp:longitude "-5.0000" .
+
+jp:Place_France a jp:Place ;
+    rdfs:label "France" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q142" ;
+    jp:latitude "46.2" ;
+    jp:longitude "2.2" .
+
+jp:Place_Germany a jp:Place ;
+    rdfs:label "Germany" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q183" ;
+    jp:latitude "51.2" ;
+    jp:longitude "10.4" .
+
+jp:Place_Greece a jp:Place ;
+    rdfs:label "Greece" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q41" ;
+    jp:latitude "39.0" ;
+    jp:longitude "22.0" .
+
+jp:Place_Italy a jp:Place ;
+    rdfs:label "Italy" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q38" ;
+    jp:latitude "41.9" ;
+    jp:longitude "12.5" .
+
+jp:Place_Jerusalem a jp:Place ;
+    rdfs:label "Jerusalem" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q1218" ;
+    jp:latitude "31.7683" ;
+    jp:longitude "35.2137" .
+
+jp:Place_Naples a jp:Place ;
+    rdfs:label "Naples" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q2634" ;
+    jp:latitude "40.8" ;
+    jp:longitude "14.3" .
+
+jp:Place_Narbonne a jp:Place ;
+    rdfs:label "Narbonne" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q6759" ;
+    jp:latitude "43.2" ;
+    jp:longitude "3.0" .
+
+jp:Place_Perpignan a jp:Place ;
+    rdfs:label "Perpignan" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q6730" ;
+    jp:latitude "42.6986" ;
+    jp:longitude "2.8956" .
+
+jp:Place_Provence a jp:Place ;
+    rdfs:label "Provence" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q15104" ;
+    jp:latitude "43.9" ;
+    jp:longitude "5.4" .
+
+jp:Place_Spain a jp:Place ;
+    rdfs:label "Spain" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q29" ;
+    jp:latitude "40.4" ;
+    jp:longitude "-3.7" .
+
+jp:Place_Sura a jp:Place ;
+    rdfs:label "Sura" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q7643594" ;
+    jp:latitude "31.98" ;
+    jp:longitude "44.35" .
+
+jp:Place_Toledo a jp:Place ;
+    rdfs:label "Toledo" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q5836" ;
+    jp:latitude "39.8628" ;
+    jp:longitude "-4.0273" .
+
+jp:Place_Tortosa a jp:Place ;
+    rdfs:label "Tortosa" ;
+    jp:authorityLink "https://www.wikidata.org/wiki/Q12709" ;
+    jp:latitude "40.8" ;
+    jp:longitude "0.5" .
+

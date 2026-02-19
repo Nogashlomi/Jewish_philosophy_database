@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Places</h1>
+<table class="table">
+    <thead>
+        <thead>
+            <tr>
+                <th>Label</th>
+                <th>Person Connections</th>
+                <th>Coordinates</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+    <tbody>
+        {% for p in places %}
+        <tr>
+            <td><a href="/places/{{ p.id }}" style="font-weight: bold;">{{ p.label }}</a></td>
+            <td>{{ p.personCount }}</td>
+            <td>{{ p.lat }}, {{ p.long }}</td>
+            <td>
+                <a href="/places/{{ p.id }}" class="btn" style="padding: 0.2rem 0.5rem; font-size: 0.8rem;">View</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Languages - JPO{% endblock %}
+
+{% block content %}
+<h1>Historical Languages</h1>
+<p>Languages used in the historical texts.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px;">
+    {% for l in languages %}
+    <a href="/languages/{{ l.id }}"
+        style="display: block; padding: 15px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; background: white;">
+        <div style="font-weight: bold; color: #95a5a6;">{{ l.label }}</div>
+        <div style="font-size: 0.9rem; color: #666;">{{ l.count }} works</div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

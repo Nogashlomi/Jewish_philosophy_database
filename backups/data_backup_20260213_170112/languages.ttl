@@ -1,0 +1,19 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Historical Language vocabulary for Jewish Philosophy Ontology (JPO)
+
+jp:Hebrew a jp:HistoricalLanguage ;
+    rdfs:label "Hebrew" .
+
+jp:Latin a jp:HistoricalLanguage ;
+    rdfs:label "Latin" .
+
+jp:Arabic a jp:HistoricalLanguage ;
+    rdfs:label "Arabic" .
+
+jp:JudeoArabic a jp:HistoricalLanguage ;
+    rdfs:label "Judeo-Arabic" .
+
+jp:Aramaic a jp:HistoricalLanguage ;
+    rdfs:label "Aramaic" .

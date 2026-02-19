@@ -1,0 +1,425 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+
+jp:Q1673518 jp:hasPlaceRelation jp:PR_Q1673518 .
+jp:PR_Q1673518 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5836 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q5836 ; jp:placeType "place of death" .
+
+jp:Q2897268 jp:hasPlaceRelation jp:PR_Q2897268 .
+jp:PR_Q2897268 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1085 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q31487 ; jp:placeType "place of death" .
+
+jp:Q1389056 jp:hasPlaceRelation jp:PR_Q1389056 .
+jp:PR_Q1389056 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q375228 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q49111 ; jp:placeType "place of death" .
+
+jp:Q6810276 jp:hasPlaceRelation jp:PR_Q6810276 .
+jp:PR_Q6810276 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5836 ; jp:placeType "place of birth" .
+
+jp:Q8778 jp:hasPlaceRelation jp:PR_Q8778 .
+jp:PR_Q8778 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q18986 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q18986 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q220 ; jp:placeType "place of death" .
+
+jp:Q1372350 jp:hasPlaceRelation jp:PR_Q1372350 .
+jp:PR_Q1372350 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q6441 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q23482 ; jp:placeType "place of birth" .
+
+jp:Q639821 jp:hasPlaceRelation jp:PR_Q639821 .
+jp:PR_Q639821 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q243846 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q1530 ; jp:placeType "place of birth" .
+
+jp:Q31439 jp:hasPlaceRelation jp:PR_Q31439 .
+jp:PR_Q31439 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q6555 ; jp:placeType "place of death" .
+
+jp:Q7068124 jp:hasPlaceRelation jp:PR_Q7068124 .
+jp:PR_Q7068124 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q839456 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q23792 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q79 ; jp:placeType "residence" .
+
+jp:Q6302099 jp:hasPlaceRelation jp:PR_Q6302099 .
+jp:PR_Q6302099 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1223508 ; jp:placeType "place of birth" .
+
+jp:Q21657722 jp:hasPlaceRelation jp:PR_Q21657722 .
+jp:PR_Q21657722 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q23482 ; jp:placeType "place of birth" .
+
+jp:Q192374 jp:hasPlaceRelation jp:PR_Q192374 .
+jp:PR_Q192374 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q82676 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q368346 ; jp:placeType "place of death" .
+
+jp:Q8011 jp:hasPlaceRelation jp:PR_Q8011 .
+jp:PR_Q8011 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q188155 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q472925 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q636188 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q4072887 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q5764 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q28587 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q28587 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q42053 ; jp:placeType "residence" .
+
+jp:Q2911194 jp:hasPlaceRelation jp:PR_Q2911194 .
+jp:PR_Q2911194 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q2471 ; jp:placeType "place of birth" .
+
+jp:Q77144 jp:hasPlaceRelation jp:PR_Q77144 .
+jp:PR_Q77144 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q569684 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q28271 ; jp:placeType "place of death" .
+
+jp:Q6288216 jp:hasPlaceRelation jp:PR_Q6288216 .
+jp:PR_Q6288216 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q173063 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q29 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q179293 ; jp:placeType "place of birth" .
+
+jp:Q319902 jp:hasPlaceRelation jp:PR_Q319902 .
+jp:PR_Q319902 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q597 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q641 ; jp:placeType "place of death" .
+
+jp:Q127398 jp:hasPlaceRelation jp:PR_Q127398 .
+jp:PR_Q127398 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5818 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q85 ; jp:placeType "place of death" .
+
+jp:Q1350978 jp:hasPlaceRelation jp:PR_Q1350978 .
+jp:PR_Q1350978 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q41183 ; jp:placeType "place of death" .
+
+jp:Q115067829 jp:hasPlaceRelation jp:PR_Q115067829 .
+jp:PR_Q115067829 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1055 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q1068 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q1803153 ; jp:placeType "place of birth" .
+
+jp:Q70899 jp:hasPlaceRelation jp:PR_Q70899 .
+jp:PR_Q70899 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q19014 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q2 ; jp:placeType "residence" .
+
+jp:Q2407102 jp:hasPlaceRelation jp:PR_Q2407102 .
+jp:PR_Q2407102 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q805 ; jp:placeType "place of birth" .
+
+jp:Q751353 jp:hasPlaceRelation jp:PR_Q751353 .
+jp:PR_Q751353 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q782758 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of death" .
+
+jp:Q868 jp:hasPlaceRelation jp:PR_Q868 .
+jp:PR_Q868 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q744631 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q846127 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q21235810 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q1524 ; jp:placeType "residence" .
+
+jp:Q9546 jp:hasPlaceRelation jp:PR_Q9546 .
+jp:PR_Q9546 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q131350 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q681427 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q681427 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q1530 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q3766 ; jp:placeType "residence" .
+
+jp:Q76709 jp:hasPlaceRelation jp:PR_Q76709 .
+jp:PR_Q76709 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q530197 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q64 ; jp:placeType "place of death" .
+
+jp:Q329866 jp:hasPlaceRelation jp:PR_Q329866 .
+jp:PR_Q329866 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1741 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q2044 ; jp:placeType "place of birth" .
+
+jp:Q251259 jp:hasPlaceRelation jp:PR_Q251259 .
+jp:PR_Q251259 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q101625 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q284894 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q8717 ; jp:placeType "residence" .
+
+jp:Q5655018 jp:hasPlaceRelation jp:PR_Q5655018 .
+jp:PR_Q5655018 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q8818 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q15679 ; jp:placeType "place of birth" .
+
+jp:Q6302105 jp:hasPlaceRelation jp:PR_Q6302105 .
+jp:PR_Q6302105 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q124554 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q6247 ; jp:placeType "place of death" .
+
+jp:Q189597 jp:hasPlaceRelation jp:PR_Q189597 .
+jp:PR_Q189597 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q87 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q87 ; jp:placeType "place of death" .
+
+jp:Q2906881 jp:hasPlaceRelation jp:PR_Q2906881 .
+jp:PR_Q2906881 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q318082 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q7038 ; jp:placeType "place of birth" .
+
+jp:Q75333 jp:hasPlaceRelation jp:PR_Q75333 .
+jp:PR_Q75333 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q3185 ; jp:placeType "place of birth" .
+
+jp:Q669640 jp:hasPlaceRelation jp:PR_Q669640 .
+jp:PR_Q669640 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q46165 ; jp:placeType "place of birth" .
+
+jp:Q2874503 jp:hasPlaceRelation jp:PR_Q2874503 .
+jp:PR_Q2874503 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q839456 ; jp:placeType "place of birth" .
+
+jp:Q239355 jp:hasPlaceRelation jp:PR_Q239355 .
+jp:PR_Q239355 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q8818 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q8851 ; jp:placeType "place of birth" .
+
+jp:Q329773 jp:hasPlaceRelation jp:PR_Q329773 .
+jp:PR_Q329773 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q10305 ; jp:placeType "place of birth" .
+
+jp:Q536837 jp:hasPlaceRelation jp:PR_Q536837 .
+jp:PR_Q536837 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q179570 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q79 ; jp:placeType "place of birth" .
+
+jp:Q181498 jp:hasPlaceRelation jp:PR_Q181498 .
+jp:PR_Q181498 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q23482 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q23482 ; jp:placeType "place of death" .
+
+jp:Q10861101 jp:hasPlaceRelation jp:PR_Q10861101 .
+jp:PR_Q10861101 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q220 ; jp:placeType "residence" .
+
+jp:Q102851 jp:hasPlaceRelation jp:PR_Q102851 .
+jp:PR_Q102851 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q6259 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q220 ; jp:placeType "place of birth" .
+
+jp:Q6962196 jp:hasPlaceRelation jp:PR_Q6962196 .
+jp:PR_Q6962196 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q29 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q45 ; jp:placeType "place of death" .
+
+jp:Q194803 jp:hasPlaceRelation jp:PR_Q194803 .
+jp:PR_Q194803 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q48195 ; jp:placeType "place of birth" .
+
+jp:Q859 jp:hasPlaceRelation jp:PR_Q859 .
+jp:PR_Q859 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1524 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1524 ; jp:placeType "place of death" .
+
+jp:Q1852000 jp:hasPlaceRelation jp:PR_Q1852000 .
+jp:PR_Q1852000 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q6730 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q6730 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q12155 ; jp:placeType "place of death" .
+
+jp:Q559622 jp:hasPlaceRelation jp:PR_Q559622 .
+jp:PR_Q559622 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1644430 ; jp:placeType "place of birth" .
+
+jp:Q299200 jp:hasPlaceRelation jp:PR_Q299200 .
+jp:PR_Q299200 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q244747 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of death" .
+
+jp:Q9438 jp:hasPlaceRelation jp:PR_Q9438 .
+jp:PR_Q9438 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q116415 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q117211 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1775258 ; jp:placeType "place of death" .
+
+jp:Q322560 jp:hasPlaceRelation jp:PR_Q322560 .
+jp:PR_Q322560 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q8356 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q9580 ; jp:placeType "place of birth" .
+
+jp:Q193660 jp:hasPlaceRelation jp:PR_Q193660 .
+jp:PR_Q193660 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q8826 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q8826 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:51f3e6c2f4df00e1bea0bf2915860592 ; jp:placeType "place of death" .
+
+jp:Q11362 jp:hasPlaceRelation jp:PR_Q11362 .
+jp:PR_Q11362 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q80985 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q11947752 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q10305 ; jp:placeType "place of birth" .
+
+jp:Q2822092 jp:hasPlaceRelation jp:PR_Q2822092 .
+jp:PR_Q2822092 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q188155 ; jp:placeType "place of birth" .
+
+jp:Q310821 jp:hasPlaceRelation jp:PR_Q310821 .
+jp:PR_Q310821 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q207540 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q319242 ; jp:placeType "place of death" .
+
+jp:Q796587 jp:hasPlaceRelation jp:PR_Q796587 .
+jp:PR_Q796587 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q80053 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q605105 ; jp:placeType "place of death" .
+
+jp:Q2909254 jp:hasPlaceRelation jp:PR_Q2909254 .
+jp:PR_Q2909254 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q2776808 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q41621 ; jp:placeType "place of death" .
+
+jp:Q2920042 jp:hasPlaceRelation jp:PR_Q2920042 .
+jp:PR_Q2920042 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q212793 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1218 ; jp:placeType "place of death" .
+
+jp:Q182128 jp:hasPlaceRelation jp:PR_Q182128 .
+jp:PR_Q182128 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q100065 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q2044 ; jp:placeType "place of death" .
+
+jp:Q270670 jp:hasPlaceRelation jp:PR_Q270670 .
+jp:PR_Q270670 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q101081 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q142410 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q174019 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q244747 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q244747 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q642046 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q2028 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q6247 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q6555 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q13373 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q30974 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q84 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q220 ; jp:placeType "residence" .
+
+jp:Q310777 jp:hasPlaceRelation jp:PR_Q310777 .
+jp:PR_Q310777 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q188743 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q516709 ; jp:placeType "place of birth" .
+
+jp:Q76548 jp:hasPlaceRelation jp:PR_Q76548 .
+jp:PR_Q76548 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q530007 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q59775089 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q1729 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q6397 ; jp:placeType "place of death" .
+
+jp:Q323448 jp:hasPlaceRelation jp:PR_Q323448 .
+jp:PR_Q323448 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q193896 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q244747 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q10305 ; jp:placeType "place of birth" .
+
+jp:Q762229 jp:hasPlaceRelation jp:PR_Q762229 .
+jp:PR_Q762229 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q10305 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q10305 ; jp:placeType "place of birth" .
+
+jp:Q76997 jp:hasPlaceRelation jp:PR_Q76997 .
+jp:PR_Q76997 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q487070 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q64 ; jp:placeType "place of death" .
+
+jp:Q160460 jp:hasPlaceRelation jp:PR_Q160460 .
+jp:PR_Q160460 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q956911 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q3766 ; jp:placeType "place of death" .
+
+jp:Q56063581 jp:hasPlaceRelation jp:PR_Q56063581 .
+jp:PR_Q56063581 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5836 ; jp:placeType "place of birth" .
+
+jp:Q328748 jp:hasPlaceRelation jp:PR_Q328748 .
+jp:PR_Q328748 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q203299 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q4446399 ; jp:placeType "place of death" .
+
+jp:Q2903764 jp:hasPlaceRelation jp:PR_Q2903764 .
+jp:PR_Q2903764 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1530 ; jp:placeType "place of birth" .
+
+jp:Q723531 jp:hasPlaceRelation jp:PR_Q723531 .
+jp:PR_Q723531 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q1492 ; jp:placeType "place of birth" .
+
+jp:Q676267 jp:hasPlaceRelation jp:PR_Q676267 .
+jp:PR_Q676267 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q162022 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q2248548 ; jp:placeType "place of death" .
+
+jp:Q76710 jp:hasPlaceRelation jp:PR_Q76710 .
+jp:PR_Q76710 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1794 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q2865 ; jp:placeType "place of birth" .
+
+jp:Q154751 jp:hasPlaceRelation jp:PR_Q154751 .
+jp:PR_Q154751 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q155622 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q20579 ; jp:placeType "place of death" .
+
+jp:Q66292 jp:hasPlaceRelation jp:PR_Q66292 .
+jp:PR_Q66292 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q66013 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q275118 ; jp:placeType "place of death" .
+
+jp:Q719393 jp:hasPlaceRelation jp:PR_Q719393 .
+jp:PR_Q719393 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q8810 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q8810 ; jp:placeType "place of birth" .
+
+jp:Q317787 jp:hasPlaceRelation jp:PR_Q317787 .
+jp:PR_Q317787 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5818 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q10400 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q10400 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q12246 ; jp:placeType "place of death" .
+
+jp:Q1237726 jp:hasPlaceRelation jp:PR_Q1237726 .
+jp:PR_Q1237726 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q5836 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q15684 ; jp:placeType "place of birth" .
+
+jp:Q9397 jp:hasPlaceRelation jp:PR_Q9397 .
+jp:PR_Q9397 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1198112 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q148 ; jp:placeType "place of death" .
+
+jp:Q26456 jp:hasPlaceRelation jp:PR_Q26456 .
+jp:PR_Q26456 a jp:PlaceRelation ;
+    jp:relatedPlace jp:Q1720 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q3852 ; jp:placeType "residence" ;
+    jp:relatedPlace jp:Q5489 ; jp:placeType "place of death" ;
+    jp:relatedPlace jp:Q5489 ; jp:placeType "place of birth" ;
+    jp:relatedPlace jp:Q5489 ; jp:placeType "residence" .
+

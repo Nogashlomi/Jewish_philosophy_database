@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h1>{{ work.title }}</h1>
+    <p class="subtitle">Scholarly Work {% if work.year %}({{ work.year }}){% endif %}</p>
+
+    {% if work.creator %}
+    <h3>Creator / Editor</h3>
+    <p>{{ work.creator }}</p>
+    {% endif %}
+
+    <h3>Discusses</h3>
+    <ul>
+        {% for p in work.mentions_person %}
+        <li>Person: <a href="/persons/{{ p.id }}">{{ p.label }}</a></li>
+        {% endfor %}
+        {% for w in work.mentions_work %}
+        <li>Work: <a href="/works/{{ w.id }}">{{ w.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

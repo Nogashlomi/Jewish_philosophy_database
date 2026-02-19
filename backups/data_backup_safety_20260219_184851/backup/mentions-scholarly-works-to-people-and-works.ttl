@@ -1,0 +1,5349 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:H_903 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_2 ;
+    jp:aboutWork jp:W_001 ;
+    .
+
+jp:H_226 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_3 ;
+    .
+
+jp:H_621 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_3 ;
+    .
+
+jp:H_133 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_4 ;
+    jp:aboutWork jp:W_002 ;
+    .
+
+jp:H_217 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_5 ;
+    jp:aboutWork jp:W_003 ;
+    .
+
+jp:H_918 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_6 ;
+    jp:aboutWork jp:W_004 ;
+    .
+
+jp:H_438 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_7 ;
+    jp:aboutWork jp:W_005 ;
+    .
+
+jp:H_934 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_8 ;
+    .
+
+jp:H_586 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_9 ;
+    .
+
+jp:H_701 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_1 ;
+    jp:aboutWork jp:W_006 ;
+    .
+
+jp:H_695 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:NW_1 ;
+    jp:aboutWork jp:W_007 ;
+    .
+
+jp:H_205 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q101142000 ;
+    jp:aboutWork jp:W_008 ;
+    .
+
+jp:H_1039 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q102851 ;
+    .
+
+jp:H_665 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q102851 ;
+    jp:aboutWork jp:W_009 ;
+    .
+
+jp:H_432 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q102851 ;
+    jp:aboutWork jp:W_010 ;
+    .
+
+jp:H_553 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q108445987 ;
+    .
+
+jp:H_205 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q10861101 ;
+    jp:aboutWork jp:W_008 ;
+    .
+
+jp:H_523 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q109379409 ;
+    .
+
+jp:H_708 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q11362 ;
+    jp:aboutWork jp:W_011 ;
+    .
+
+jp:H_398 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q115067829 ;
+    .
+
+jp:H_957 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q11740876 ;
+    .
+
+jp:H_371 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q11740876 ;
+    .
+
+jp:H_761 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q120599122 ;
+    .
+
+jp:H_802 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q120599122 ;
+    .
+
+jp:H_663 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1237726 ;
+    .
+
+jp:H_664 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1237726 ;
+    jp:aboutWork jp:W_012 ;
+    .
+
+jp:H_665 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1237726 ;
+    jp:aboutWork jp:W_009 ;
+    .
+
+jp:H_582 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1237726 ;
+    .
+
+jp:H_740 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q12405859 ;
+    .
+
+jp:H_970 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q12405859 ;
+    .
+
+jp:H_62 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_60 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_425 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_433 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_426 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_991 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1042 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_990 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1020 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_63 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_77 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_78 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_79 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_72 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_014 ;
+    .
+
+jp:H_75 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_015 ;
+    .
+
+jp:H_80 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_81 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_82 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_83 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_84 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_85 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_86 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_108 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_109 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_112 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_11 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_76 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_87 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_88 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_89 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_90 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_91 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_92 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_93 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_111 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_120 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_15 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_64 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_65 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_94 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_95 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_96 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_97 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_98 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_113 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_116 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_141 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_016 ;
+    .
+
+jp:H_37 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_100 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_101 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_66 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_67 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_73 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_017 ;
+    .
+
+jp:H_74 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_99 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_110 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_117 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_140 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_275 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_220 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_256 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_287 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_295 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_302 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_019 ;
+    .
+
+jp:H_317 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_020 ;
+    .
+
+jp:H_322 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_323 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_332 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_339 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_68 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_301 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_409 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_210 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_232 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_236 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_248 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_257 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_324 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_327 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_258 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_223 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_227 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_390 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_396 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_416 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_328 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_309 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_321 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_326 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_375 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_219 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_021 ;
+    .
+
+jp:H_247 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_333 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_353 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_288 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_218 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_362 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_410 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_407 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_377 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_304 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_379 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_602 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_617 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_538 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_542 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_022 ;
+    .
+
+jp:H_549 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_550 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_561 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_607 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_647 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_648 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_649 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_486 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_575 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_022 ;
+    .
+
+jp:H_540 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_543 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_563 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_565 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_634 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_453 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_497 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_535 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_474 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_023 ;
+    .
+
+jp:H_474 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_024 ;
+    .
+
+jp:H_609 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_457 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_476 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_552 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_567 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_597 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_656 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_657 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_785 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1006 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_725 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_771 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_879 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_887 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_975 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_841 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_841 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_1031 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1035 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_720 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_805 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_944 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_872 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_844 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_025 ;
+    .
+
+jp:H_1004 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1005 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1034 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_692 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_713 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_026 ;
+    .
+
+jp:H_733 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_737 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_763 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_772 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_780 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_781 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_027 ;
+    .
+
+jp:H_817 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_819 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_835 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_028 ;
+    .
+
+jp:H_835 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_874 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_027 ;
+    .
+
+jp:H_886 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_894 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_029 ;
+    .
+
+jp:H_947 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_987 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_905 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_799 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_779 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_753 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_850 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_030 ;
+    .
+
+jp:H_880 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_888 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_945 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_946 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_1000 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_904 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_931 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1033 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_682 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_031 ;
+    .
+
+jp:H_693 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_032 ;
+    .
+
+jp:H_719 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_736 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_751 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_794 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_798 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_883 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_884 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_899 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_902 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_033 ;
+    .
+
+jp:H_977 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_848 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_034 ;
+    .
+
+jp:H_726 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_727 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_864 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_811 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1028 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1029 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_694 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_694 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_035 ;
+    .
+
+jp:H_824 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_031 ;
+    .
+
+jp:H_845 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_022 ;
+    .
+
+jp:H_921 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_282 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_404 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_415 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_102 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_103 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_104 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_105 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_106 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_107 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_266 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_335 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_336 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_337 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_528 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_69 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_70 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_71 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_853 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_926 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_953 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_114 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_115 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_1016 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1030 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_249 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_318 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_325 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_359 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_370 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_036 ;
+    .
+
+jp:H_380 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_037 ;
+    .
+
+jp:H_388 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_395 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_610 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_863 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_873 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_881 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_882 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_909 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_934 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_938 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_939 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_954 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_959 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_980 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_996 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_1020 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_347 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_038 ;
+    .
+
+jp:H_36 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_61 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_349 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_348 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_401 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_473 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    jp:aboutWork jp:W_039 ;
+    .
+
+jp:H_477 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_989 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127398 ;
+    .
+
+jp:H_998 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127399 ;
+    .
+
+jp:H_124 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127400 ;
+    .
+
+jp:H_121 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127401 ;
+    .
+
+jp:H_122 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127402 ;
+    .
+
+jp:H_123 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127403 ;
+    .
+
+jp:H_319 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127404 ;
+    .
+
+jp:H_320 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127405 ;
+    .
+
+jp:H_363 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127406 ;
+    .
+
+jp:H_352 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127407 ;
+    .
+
+jp:H_381 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127408 ;
+    .
+
+jp:H_414 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127409 ;
+    .
+
+jp:H_306 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127410 ;
+    .
+
+jp:H_524 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127411 ;
+    .
+
+jp:H_494 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127412 ;
+    jp:aboutWork jp:W_027 ;
+    .
+
+jp:H_551 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127413 ;
+    .
+
+jp:H_924 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127414 ;
+    .
+
+jp:H_750 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127415 ;
+    .
+
+jp:H_776 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q127416 ;
+    jp:aboutWork jp:W_027 ;
+    .
+
+jp:H_441 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q130221 ;
+    .
+
+jp:H_626 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1350978 ;
+    jp:aboutWork jp:W_040 ;
+    .
+
+jp:H_700 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1372350 ;
+    jp:aboutWork jp:W_041 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    jp:aboutWork jp:W_042 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    jp:aboutWork jp:W_043 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    jp:aboutWork jp:W_044 ;
+    .
+
+jp:H_135 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    .
+
+jp:H_136 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    .
+
+jp:H_774 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_296 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1383938 ;
+    .
+
+jp:H_859 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1389056 ;
+    .
+
+jp:H_837 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q144 ;
+    jp:aboutWork jp:W_045 ;
+    .
+
+jp:H_40 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1525696 ;
+    .
+
+jp:H_795 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1525696 ;
+    .
+
+jp:H_527 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q154751 ;
+    .
+
+jp:H_382 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160460 ;
+    .
+
+jp:H_375 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160460 ;
+    .
+
+jp:H_854 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160460 ;
+    .
+
+jp:H_540 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160460 ;
+    .
+
+jp:H_10 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160461 ;
+    jp:aboutWork jp:W_046 ;
+    .
+
+jp:H_61 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160462 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160463 ;
+    jp:aboutWork jp:W_047 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160464 ;
+    jp:aboutWork jp:W_048 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160465 ;
+    jp:aboutWork jp:W_049 ;
+    .
+
+jp:H_419 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160466 ;
+    jp:aboutWork jp:W_050 ;
+    .
+
+jp:H_709 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160467 ;
+    jp:aboutWork jp:W_051 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160468 ;
+    jp:aboutWork jp:W_042 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160469 ;
+    jp:aboutWork jp:W_043 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160470 ;
+    jp:aboutWork jp:W_044 ;
+    .
+
+jp:H_699 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160471 ;
+    jp:aboutWork jp:W_052 ;
+    .
+
+jp:H_765 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160472 ;
+    jp:aboutWork jp:W_053 ;
+    .
+
+jp:H_471 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160473 ;
+    jp:aboutWork jp:W_054 ;
+    .
+
+jp:H_898 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q160474 ;
+    .
+
+jp:H_724 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q16130600 ;
+    jp:aboutWork jp:W_055 ;
+    .
+
+jp:H_620 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673485 ;
+    .
+
+jp:H_516 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673485 ;
+    jp:aboutWork jp:W_056 ;
+    .
+
+jp:H_711 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673485 ;
+    .
+
+jp:H_215 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673518 ;
+    .
+
+jp:H_644 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673518 ;
+    .
+
+jp:H_459 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1673518 ;
+    jp:aboutWork jp:W_057 ;
+    .
+
+jp:H_125 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q181498 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q181498 ;
+    jp:aboutWork jp:W_058 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q181498 ;
+    jp:aboutWork jp:W_059 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q181498 ;
+    jp:aboutWork jp:W_060 ;
+    .
+
+jp:H_423 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q182128 ;
+    .
+
+jp:H_778 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q182128 ;
+    jp:aboutWork jp:W_061 ;
+    .
+
+jp:H_779 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q182128 ;
+    .
+
+jp:H_786 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q182128 ;
+    .
+
+jp:H_927 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q182128 ;
+    .
+
+jp:H_726 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_727 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_876 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    jp:aboutWork jp:W_062 ;
+    .
+
+jp:H_458 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    .
+
+jp:H_677 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_516 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1852000 ;
+    jp:aboutWork jp:W_056 ;
+    .
+
+jp:H_464 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q189597 ;
+    .
+
+jp:H_62 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q192374 ;
+    .
+
+jp:H_207 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q193660 ;
+    jp:aboutWork jp:W_063 ;
+    .
+
+jp:H_545 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q194803 ;
+    jp:aboutWork jp:W_064 ;
+    .
+
+jp:H_119 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1949040 ;
+    .
+
+jp:H_533 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1949040 ;
+    .
+
+jp:H_985 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1949040 ;
+    .
+
+jp:H_930 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1949040 ;
+    .
+
+jp:H_991 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1949040 ;
+    .
+
+jp:H_576 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q1995603 ;
+    .
+
+jp:H_617 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2054380 ;
+    .
+
+jp:H_618 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q21657722 ;
+    .
+
+jp:H_916 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2296753 ;
+    .
+
+jp:H_611 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    .
+
+jp:H_615 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_058 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_059 ;
+    .
+
+jp:H_202 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_060 ;
+    .
+
+jp:H_137 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_065 ;
+    .
+
+jp:H_138 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_066 ;
+    .
+
+jp:H_714 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    .
+
+jp:H_697 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_067 ;
+    .
+
+jp:H_115 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q239355 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_455 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2407102 ;
+    jp:aboutWork jp:W_068 ;
+    .
+
+jp:H_341 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2423811 ;
+    .
+
+jp:H_491 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2423811 ;
+    jp:aboutWork jp:W_069 ;
+    .
+
+jp:H_690 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2423811 ;
+    jp:aboutWork jp:W_070 ;
+    .
+
+jp:H_911 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2423811 ;
+    .
+
+jp:H_706 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q251259 ;
+    jp:aboutWork jp:W_071 ;
+    .
+
+jp:H_321 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q26456 ;
+    .
+
+jp:H_326 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q26456 ;
+    .
+
+jp:H_920 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q26456 ;
+    jp:aboutWork jp:W_072 ;
+    .
+
+jp:H_633 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_5 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_6 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_9 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_073 ;
+    .
+
+jp:H_9 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_074 ;
+    .
+
+jp:H_7 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_8 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_4 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_075 ;
+    .
+
+jp:H_348 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_194 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_076 ;
+    .
+
+jp:H_201 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_077 ;
+    .
+
+jp:H_193 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_078 ;
+    .
+
+jp:H_193 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_079 ;
+    .
+
+jp:H_193 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_080 ;
+    .
+
+jp:H_628 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_081 ;
+    .
+
+jp:H_628 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_082 ;
+    .
+
+jp:H_536 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_083 ;
+    .
+
+jp:H_631 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_084 ;
+    .
+
+jp:H_631 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_085 ;
+    .
+
+jp:H_632 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_679 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_086 ;
+    .
+
+jp:H_679 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_087 ;
+    .
+
+jp:H_993 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_680 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_088 ;
+    .
+
+jp:H_680 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_089 ;
+    .
+
+jp:H_680 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_090 ;
+    .
+
+jp:H_893 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_091 ;
+    .
+
+jp:H_958 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_092 ;
+    .
+
+jp:H_681 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_992 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_226 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    .
+
+jp:H_305 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q270670 ;
+    jp:aboutWork jp:W_093 ;
+    .
+
+jp:H_903 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2822092 ;
+    jp:aboutWork jp:W_001 ;
+    .
+
+jp:H_209 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2874503 ;
+    jp:aboutWork jp:W_094 ;
+    .
+
+jp:H_209 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2874503 ;
+    jp:aboutWork jp:W_095 ;
+    .
+
+jp:H_931 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2874503 ;
+    .
+
+jp:H_790 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2874503 ;
+    .
+
+jp:H_930 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2874503 ;
+    .
+
+jp:H_918 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2897268 ;
+    jp:aboutWork jp:W_004 ;
+    .
+
+jp:H_919 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2897268 ;
+    jp:aboutWork jp:W_004 ;
+    .
+
+jp:H_212 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2897268 ;
+    .
+
+jp:H_203 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2903764 ;
+    jp:aboutWork jp:W_096 ;
+    .
+
+jp:H_548 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2903764 ;
+    jp:aboutWork jp:W_097 ;
+    .
+
+jp:H_242 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2906881 ;
+    .
+
+jp:H_443 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2906881 ;
+    .
+
+jp:H_204 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2906881 ;
+    .
+
+jp:H_1 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2909254 ;
+    jp:aboutWork jp:W_098 ;
+    .
+
+jp:H_955 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2910908 ;
+    jp:aboutWork jp:W_099 ;
+    .
+
+jp:H_906 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2911194 ;
+    .
+
+jp:H_463 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q2920042 ;
+    .
+
+jp:H_836 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_100 ;
+    .
+
+jp:H_48 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_49 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_46 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_50 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_52 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_102 ;
+    .
+
+jp:H_47 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_51 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_51 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_103 ;
+    .
+
+jp:H_306 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_489 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_498 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_499 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_500 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_568 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_104 ;
+    .
+
+jp:H_897 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_105 ;
+    .
+
+jp:H_915 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_904 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_815 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_932 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    .
+
+jp:H_722 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q299200 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_911 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q302961 ;
+    .
+
+jp:H_303 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q310777 ;
+    .
+
+jp:H_991 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q310821 ;
+    .
+
+jp:H_59 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q314 ;
+    jp:aboutWork jp:W_106 ;
+    .
+
+jp:H_2 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31439 ;
+    .
+
+jp:H_271 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31439 ;
+    .
+
+jp:H_671 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31439 ;
+    jp:aboutWork jp:W_107 ;
+    .
+
+jp:H_775 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31440 ;
+    jp:aboutWork jp:W_108 ;
+    .
+
+jp:H_775 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31441 ;
+    jp:aboutWork jp:W_109 ;
+    .
+
+jp:H_896 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q31442 ;
+    .
+
+jp:H_577 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q317131 ;
+    jp:aboutWork jp:W_110 ;
+    .
+
+jp:H_450 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q317131 ;
+    jp:aboutWork jp:W_111 ;
+    .
+
+jp:H_37 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q317787 ;
+    .
+
+jp:H_51 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    jp:aboutWork jp:W_101 ;
+    .
+
+jp:H_51 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    jp:aboutWork jp:W_103 ;
+    .
+
+jp:H_23 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_41 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_210 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_306 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_688 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_762 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_759 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q319902 ;
+    .
+
+jp:H_622 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q322560 ;
+    jp:aboutWork jp:W_112 ;
+    .
+
+jp:H_623 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q322560 ;
+    .
+
+jp:H_225 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q322560 ;
+    .
+
+jp:H_944 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q323448 ;
+    .
+
+jp:H_675 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_128 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_583 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_714 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_636 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    jp:aboutWork jp:W_113 ;
+    .
+
+jp:H_855 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    jp:aboutWork jp:W_114 ;
+    .
+
+jp:H_931 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_130 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_129 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_312 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_731 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_1023 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_721 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q328748 ;
+    .
+
+jp:H_437 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329773 ;
+    jp:aboutWork jp:W_115 ;
+    .
+
+jp:H_661 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329773 ;
+    .
+
+jp:H_830 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329773 ;
+    .
+
+jp:H_658 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329773 ;
+    jp:aboutWork jp:W_116 ;
+    .
+
+jp:H_660 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329773 ;
+    .
+
+jp:H_307 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329866 ;
+    .
+
+jp:H_315 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q329866 ;
+    .
+
+jp:H_3 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_261 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    jp:aboutWork jp:W_117 ;
+    .
+
+jp:H_262 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_796 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_269 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    jp:aboutWork jp:W_118 ;
+    .
+
+jp:H_670 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_868 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    jp:aboutWork jp:W_119 ;
+    .
+
+jp:H_582 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_861 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_882 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_128 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q330821 ;
+    .
+
+jp:H_124 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q333703 ;
+    .
+
+jp:H_133 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_002 ;
+    .
+
+jp:H_134 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_120 ;
+    .
+
+jp:H_131 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_121 ;
+    .
+
+jp:H_132 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_121 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_047 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_048 ;
+    .
+
+jp:H_385 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_049 ;
+    .
+
+jp:H_222 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_122 ;
+    .
+
+jp:H_593 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_123 ;
+    .
+
+jp:H_764 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    .
+
+jp:H_788 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    .
+
+jp:H_546 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q338123 ;
+    jp:aboutWork jp:W_124 ;
+    .
+
+jp:H_997 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q3460413 ;
+    .
+
+jp:H_700 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q3471276 ;
+    jp:aboutWork jp:W_041 ;
+    .
+
+jp:H_696 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q348287 ;
+    .
+
+jp:H_556 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q348287 ;
+    .
+
+jp:H_440 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q348287 ;
+    jp:aboutWork jp:W_125 ;
+    .
+
+jp:H_205 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q348287 ;
+    jp:aboutWork jp:W_008 ;
+    .
+
+jp:H_24 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_25 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_274 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_126 ;
+    .
+
+jp:H_275 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_591 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_1020 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_28 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_34 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_112 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_29 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_113 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_389 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_331 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_127 ;
+    .
+
+jp:H_328 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_334 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_329 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_128 ;
+    .
+
+jp:H_267 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_276 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_129 ;
+    .
+
+jp:H_299 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_562 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_130 ;
+    .
+
+jp:H_592 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_683 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_131 ;
+    .
+
+jp:H_720 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_805 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_783 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_797 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_762 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_802 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_684 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_131 ;
+    .
+
+jp:H_816 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_003 ;
+    .
+
+jp:H_26 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_132 ;
+    .
+
+jp:H_27 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_128 ;
+    .
+
+jp:H_30 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_31 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_32 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_33 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_114 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_272 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_330 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_610 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_842 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_865 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_885 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_914 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_936 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_979 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_59 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    jp:aboutWork jp:W_106 ;
+    .
+
+jp:H_803 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_732 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353633 ;
+    .
+
+jp:H_216 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353634 ;
+    .
+
+jp:H_461 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353635 ;
+    .
+
+jp:H_467 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353635 ;
+    .
+
+jp:H_454 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353635 ;
+    .
+
+jp:H_937 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353635 ;
+    .
+
+jp:H_591 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353636 ;
+    .
+
+jp:H_685 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353636 ;
+    jp:aboutWork jp:W_133 ;
+    .
+
+jp:H_273 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353637 ;
+    jp:aboutWork jp:W_134 ;
+    .
+
+jp:H_1020 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q353638 ;
+    .
+
+jp:H_34 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_116 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_117 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_348 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_305 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    jp:aboutWork jp:W_093 ;
+    .
+
+jp:H_352 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_288 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_299 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_377 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_304 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_513 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_486 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_464 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_608 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_452 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_609 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_657 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_805 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_799 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_941 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_924 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_928 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_864 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_716 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_674 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_469 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_610 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_940 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q35802 ;
+    .
+
+jp:H_271 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q360366 ;
+    .
+
+jp:H_676 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q365183 ;
+    jp:aboutWork jp:W_135 ;
+    .
+
+jp:H_702 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q365183 ;
+    jp:aboutWork jp:W_135 ;
+    .
+
+jp:H_703 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q365183 ;
+    jp:aboutWork jp:W_136 ;
+    .
+
+jp:H_943 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q365183 ;
+    .
+
+jp:H_999 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q36565003 ;
+    .
+
+jp:H_754 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q380647 ;
+    .
+
+jp:H_139 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q3914710 ;
+    .
+
+jp:H_558 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q395689 ;
+    .
+
+jp:H_275 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39837 ;
+    .
+
+jp:H_505 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39837 ;
+    jp:aboutWork jp:W_137 ;
+    .
+
+jp:H_802 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39837 ;
+    .
+
+jp:H_803 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39837 ;
+    .
+
+jp:H_685 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39837 ;
+    jp:aboutWork jp:W_133 ;
+    .
+
+jp:H_273 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39838 ;
+    jp:aboutWork jp:W_134 ;
+    .
+
+jp:H_205 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39839 ;
+    jp:aboutWork jp:W_008 ;
+    .
+
+jp:H_578 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39840 ;
+    jp:aboutWork jp:W_138 ;
+    .
+
+jp:H_515 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39841 ;
+    jp:aboutWork jp:W_139 ;
+    .
+
+jp:H_515 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39842 ;
+    jp:aboutWork jp:W_140 ;
+    .
+
+jp:H_927 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39843 ;
+    .
+
+jp:H_555 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39844 ;
+    jp:aboutWork jp:W_141 ;
+    .
+
+jp:H_18 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39845 ;
+    .
+
+jp:H_17 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39846 ;
+    jp:aboutWork jp:W_125 ;
+    .
+
+jp:H_19 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39847 ;
+    .
+
+jp:H_110 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39848 ;
+    .
+
+jp:H_259 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39849 ;
+    jp:aboutWork jp:W_142 ;
+    .
+
+jp:H_298 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39850 ;
+    .
+
+jp:H_221 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39851 ;
+    jp:aboutWork jp:W_143 ;
+    .
+
+jp:H_440 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39852 ;
+    jp:aboutWork jp:W_125 ;
+    .
+
+jp:H_289 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39853 ;
+    jp:aboutWork jp:W_144 ;
+    .
+
+jp:H_382 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39854 ;
+    .
+
+jp:H_659 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39855 ;
+    jp:aboutWork jp:W_145 ;
+    .
+
+jp:H_606 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39856 ;
+    jp:aboutWork jp:W_146 ;
+    .
+
+jp:H_707 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39857 ;
+    jp:aboutWork jp:W_147 ;
+    .
+
+jp:H_707 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39858 ;
+    jp:aboutWork jp:W_148 ;
+    .
+
+jp:H_872 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39859 ;
+    .
+
+jp:H_834 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39860 ;
+    jp:aboutWork jp:W_149 ;
+    .
+
+jp:H_834 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39861 ;
+    jp:aboutWork jp:W_150 ;
+    .
+
+jp:H_775 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39862 ;
+    jp:aboutWork jp:W_108 ;
+    .
+
+jp:H_775 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39863 ;
+    jp:aboutWork jp:W_109 ;
+    .
+
+jp:H_807 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39864 ;
+    .
+
+jp:H_832 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39865 ;
+    .
+
+jp:H_797 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39866 ;
+    .
+
+jp:H_857 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39867 ;
+    jp:aboutWork jp:W_151 ;
+    .
+
+jp:H_848 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39868 ;
+    jp:aboutWork jp:W_034 ;
+    .
+
+jp:H_698 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39869 ;
+    jp:aboutWork jp:W_152 ;
+    .
+
+jp:H_773 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39870 ;
+    .
+
+jp:H_942 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39871 ;
+    .
+
+jp:H_786 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39872 ;
+    .
+
+jp:H_700 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39873 ;
+    jp:aboutWork jp:W_041 ;
+    .
+
+jp:H_787 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39874 ;
+    .
+
+jp:H_813 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39875 ;
+    .
+
+jp:H_458 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39876 ;
+    .
+
+jp:H_20 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39877 ;
+    .
+
+jp:H_573 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39878 ;
+    .
+
+jp:H_264 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39879 ;
+    .
+
+jp:H_290 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39880 ;
+    .
+
+jp:H_828 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39881 ;
+    .
+
+jp:H_553 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q39882 ;
+    .
+
+jp:H_837 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4022814 ;
+    jp:aboutWork jp:W_045 ;
+    .
+
+jp:H_718 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4022814 ;
+    .
+
+jp:H_139 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4115259 ;
+    .
+
+jp:H_56 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4256415 ;
+    jp:aboutWork jp:W_153 ;
+    .
+
+jp:H_801 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4256415 ;
+    .
+
+jp:H_58 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4256416 ;
+    .
+
+jp:H_57 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4256416 ;
+    jp:aboutWork jp:W_153 ;
+    .
+
+jp:H_892 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4256416 ;
+    .
+
+jp:H_952 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q460650 ;
+    .
+
+jp:H_566 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q461521 ;
+    .
+
+jp:H_599 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q461640 ;
+    jp:aboutWork jp:W_154 ;
+    .
+
+jp:H_599 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q461640 ;
+    jp:aboutWork jp:W_155 ;
+    .
+
+jp:H_821 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q461640 ;
+    jp:aboutWork jp:W_156 ;
+    .
+
+jp:H_821 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q461640 ;
+    jp:aboutWork jp:W_157 ;
+    .
+
+jp:H_1022 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q462009 ;
+    .
+
+jp:H_511 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    jp:aboutWork jp:W_158 ;
+    .
+
+jp:H_512 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_513 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_515 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    jp:aboutWork jp:W_139 ;
+    .
+
+jp:H_515 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    jp:aboutWork jp:W_140 ;
+    .
+
+jp:H_516 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    jp:aboutWork jp:W_056 ;
+    .
+
+jp:H_927 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_557 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_514 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    jp:aboutWork jp:W_159 ;
+    .
+
+jp:H_581 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_558 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_559 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_560 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q463405 ;
+    .
+
+jp:H_438 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q464940 ;
+    jp:aboutWork jp:W_005 ;
+    .
+
+jp:H_117 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q465763 ;
+    .
+
+jp:H_589 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4669185 ;
+    .
+
+jp:H_44 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_55 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_316 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_55 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_54 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_412 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_315 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q467062 ;
+    .
+
+jp:H_999 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q47502084 ;
+    .
+
+jp:H_16 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q4804863 ;
+    .
+
+jp:H_419 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q52101533 ;
+    jp:aboutWork jp:W_050 ;
+    .
+
+jp:H_504 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q52101533 ;
+    jp:aboutWork jp:W_160 ;
+    .
+
+jp:H_857 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q52101533 ;
+    jp:aboutWork jp:W_151 ;
+    .
+
+jp:H_765 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q52101533 ;
+    jp:aboutWork jp:W_053 ;
+    .
+
+jp:H_858 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q52101533 ;
+    .
+
+jp:H_219 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5241453 ;
+    jp:aboutWork jp:W_021 ;
+    .
+
+jp:H_529 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5241453 ;
+    .
+
+jp:H_872 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_963 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_859 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_865 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_873 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_35 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_445 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    jp:aboutWork jp:W_161 ;
+    .
+
+jp:H_464 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_621 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_650 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_655 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_652 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_674 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_1024 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_300 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_862 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_969 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_952 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528415 ;
+    .
+
+jp:H_206 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528416 ;
+    .
+
+jp:H_444 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528417 ;
+    .
+
+jp:H_446 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528418 ;
+    .
+
+jp:H_686 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528419 ;
+    .
+
+jp:H_749 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528420 ;
+    .
+
+jp:H_712 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528421 ;
+    .
+
+jp:H_734 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528422 ;
+    .
+
+jp:H_747 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528423 ;
+    .
+
+jp:H_748 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528424 ;
+    .
+
+jp:H_811 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528425 ;
+    .
+
+jp:H_716 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528426 ;
+    .
+
+jp:H_303 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528427 ;
+    .
+
+jp:H_767 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528428 ;
+    .
+
+jp:H_36 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528429 ;
+    .
+
+jp:H_380 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q528430 ;
+    .
+
+jp:H_341 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5360885 ;
+    .
+
+jp:H_840 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5360886 ;
+    jp:aboutWork jp:W_162 ;
+    .
+
+jp:H_450 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5360886 ;
+    jp:aboutWork jp:W_111 ;
+    .
+
+jp:H_571 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5360886 ;
+    .
+
+jp:H_616 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q536837 ;
+    .
+
+jp:H_613 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q536837 ;
+    .
+
+jp:H_672 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q536837 ;
+    jp:aboutWork jp:W_163 ;
+    .
+
+jp:H_714 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q536837 ;
+    .
+
+jp:H_689 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q536837 ;
+    jp:aboutWork jp:W_164 ;
+    .
+
+jp:H_229 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_651 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_42 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    jp:aboutWork jp:W_165 ;
+    .
+
+jp:H_443 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_641 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_251 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_254 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q559622 ;
+    .
+
+jp:H_45 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q56063581 ;
+    jp:aboutWork jp:W_166 ;
+    .
+
+jp:H_642 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q56063581 ;
+    .
+
+jp:H_245 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q56063581 ;
+    jp:aboutWork jp:W_167 ;
+    .
+
+jp:H_244 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q56063581 ;
+    .
+
+jp:H_425 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q56248213 ;
+    .
+
+jp:H_214 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q5655018 ;
+    .
+
+jp:H_255 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6126127 ;
+    .
+
+jp:H_790 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6126127 ;
+    .
+
+jp:H_472 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6288216 ;
+    jp:aboutWork jp:W_168 ;
+    .
+
+jp:H_949 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6288216 ;
+    .
+
+jp:H_691 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302099 ;
+    jp:aboutWork jp:W_169 ;
+    .
+
+jp:H_197 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302105 ;
+    .
+
+jp:H_198 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302105 ;
+    .
+
+jp:H_517 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302105 ;
+    jp:aboutWork jp:W_170 ;
+    .
+
+jp:H_518 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302105 ;
+    jp:aboutWork jp:W_170 ;
+    .
+
+jp:H_662 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6302105 ;
+    jp:aboutWork jp:W_171 ;
+    .
+
+jp:H_375 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6379210 ;
+    .
+
+jp:H_304 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6379210 ;
+    .
+
+jp:H_38 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q639821 ;
+    .
+
+jp:H_687 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q639821 ;
+    .
+
+jp:H_39 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q639822 ;
+    .
+
+jp:H_910 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q639823 ;
+    .
+
+jp:H_791 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q66292 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_442 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q669640 ;
+    jp:aboutWork jp:W_172 ;
+    .
+
+jp:H_316 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q669640 ;
+    .
+
+jp:H_572 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q669640 ;
+    .
+
+jp:H_142 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q669640 ;
+    jp:aboutWork jp:W_173 ;
+    .
+
+jp:H_632 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q676267 ;
+    .
+
+jp:H_118 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6810276 ;
+    .
+
+jp:H_715 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q6962196 ;
+    .
+
+jp:H_600 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q7068124 ;
+    jp:aboutWork jp:W_174 ;
+    .
+
+jp:H_600 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q7068124 ;
+    jp:aboutWork jp:W_175 ;
+    .
+
+jp:H_600 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q7068124 ;
+    jp:aboutWork jp:W_092 ;
+    .
+
+jp:H_249 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q7068219 ;
+    .
+
+jp:H_991 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q70899 ;
+    .
+
+jp:H_418 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q719393 ;
+    jp:aboutWork jp:W_176 ;
+    .
+
+jp:H_120 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q719393 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_952 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q723531 ;
+    .
+
+jp:H_653 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q723531 ;
+    .
+
+jp:H_127 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q723532 ;
+    jp:aboutWork jp:W_177 ;
+    .
+
+jp:H_450 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q744494 ;
+    jp:aboutWork jp:W_111 ;
+    .
+
+jp:H_872 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q7459732 ;
+    .
+
+jp:H_645 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q751353 ;
+    .
+
+jp:H_474 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q751353 ;
+    jp:aboutWork jp:W_023 ;
+    .
+
+jp:H_474 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q751353 ;
+    jp:aboutWork jp:W_024 ;
+    .
+
+jp:H_475 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q751353 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_475 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q751353 ;
+    jp:aboutWork jp:W_178 ;
+    .
+
+jp:H_53 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q75333 ;
+    jp:aboutWork jp:W_179 ;
+    .
+
+jp:H_130 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    .
+
+jp:H_282 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    .
+
+jp:H_22 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    jp:aboutWork jp:W_180 ;
+    .
+
+jp:H_52 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    jp:aboutWork jp:W_102 ;
+    .
+
+jp:H_139 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    .
+
+jp:H_355 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    .
+
+jp:H_392 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q762229 ;
+    .
+
+jp:H_982 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76548 ;
+    .
+
+jp:H_401 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76548 ;
+    .
+
+jp:H_352 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76709 ;
+    .
+
+jp:H_309 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76709 ;
+    .
+
+jp:H_312 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76710 ;
+    .
+
+jp:H_652 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q76997 ;
+    .
+
+jp:H_856 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    jp:aboutWork jp:W_181 ;
+    .
+
+jp:H_836 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    jp:aboutWork jp:W_100 ;
+    .
+
+jp:H_854 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    .
+
+jp:H_379 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    .
+
+jp:H_376 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    .
+
+jp:H_870 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q77144 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_268 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q78906 ;
+    .
+
+jp:H_575 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q796587 ;
+    jp:aboutWork jp:W_022 ;
+    .
+
+jp:H_9 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    jp:aboutWork jp:W_073 ;
+    .
+
+jp:H_9 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    jp:aboutWork jp:W_074 ;
+    .
+
+jp:H_109 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_111 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_21 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_301 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_292 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_258 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_211 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    jp:aboutWork jp:W_182 ;
+    .
+
+jp:H_422 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_269 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    jp:aboutWork jp:W_118 ;
+    .
+
+jp:H_382 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_270 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_509 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_602 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_553 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_605 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_844 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    jp:aboutWork jp:W_025 ;
+    .
+
+jp:H_1016 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_900 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_262 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8011 ;
+    .
+
+jp:H_650 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q823146 ;
+    .
+
+jp:H_126 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    .
+
+jp:H_841 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    jp:aboutWork jp:W_018 ;
+    .
+
+jp:H_841 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_856 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    jp:aboutWork jp:W_181 ;
+    .
+
+jp:H_752 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    .
+
+jp:H_829 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    .
+
+jp:H_787 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    .
+
+jp:H_813 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q859 ;
+    .
+
+jp:H_108 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_109 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_13 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_15 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_142 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_173 ;
+    .
+
+jp:H_259 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_142 ;
+    .
+
+jp:H_221 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_143 ;
+    .
+
+jp:H_331 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_127 ;
+    .
+
+jp:H_368 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_289 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_144 ;
+    .
+
+jp:H_235 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_277 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_183 ;
+    .
+
+jp:H_329 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_128 ;
+    .
+
+jp:H_448 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_578 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_138 ;
+    .
+
+jp:H_569 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_604 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_168 ;
+    .
+
+jp:H_606 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_146 ;
+    .
+
+jp:H_472 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_168 ;
+    .
+
+jp:H_505 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_137 ;
+    .
+
+jp:H_972 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_833 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_184 ;
+    .
+
+jp:H_950 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_185 ;
+    .
+
+jp:H_834 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_149 ;
+    .
+
+jp:H_834 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_150 ;
+    .
+
+jp:H_840 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_162 ;
+    .
+
+jp:H_783 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_831 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_186 ;
+    .
+
+jp:H_848 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_034 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_042 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_043 ;
+    .
+
+jp:H_827 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_044 ;
+    .
+
+jp:H_809 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_942 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_421 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_134 ;
+    .
+
+jp:H_421 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_187 ;
+    .
+
+jp:H_12 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_134 ;
+    .
+
+jp:H_14 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_280 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_839 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_573 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_264 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_279 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    jp:aboutWork jp:W_188 ;
+    .
+
+jp:H_290 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_300 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_828 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_858 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_943 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_949 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q868 ;
+    .
+
+jp:H_554 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q87718096 ;
+    jp:aboutWork jp:W_189 ;
+    .
+
+jp:H_905 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q8778 ;
+    .
+
+jp:H_991 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9181 ;
+    .
+
+jp:H_1031 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9397 ;
+    .
+
+jp:H_1035 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9397 ;
+    .
+
+jp:H_1016 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    .
+
+jp:H_949 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    .
+
+jp:H_141 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    jp:aboutWork jp:W_016 ;
+    .
+
+jp:H_140 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_242 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    .
+
+jp:H_731 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9438 ;
+    .
+
+jp:H_134 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q953988 ;
+    jp:aboutWork jp:W_120 ;
+    .
+
+jp:H_958 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q953988 ;
+    jp:aboutWork jp:W_092 ;
+    .
+
+jp:H_826 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q953988 ;
+    .
+
+jp:H_209 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9546 ;
+    jp:aboutWork jp:W_094 ;
+    .
+
+jp:H_11 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9546 ;
+    .
+
+jp:H_291 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9546 ;
+    .
+
+jp:H_1000 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9546 ;
+    .
+
+jp:H_209 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9547 ;
+    jp:aboutWork jp:W_095 ;
+    .
+
+jp:H_601 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9547 ;
+    .
+
+jp:H_519 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9548 ;
+    .
+
+jp:H_785 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9549 ;
+    .
+
+jp:H_872 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9550 ;
+    .
+
+jp:H_731 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9551 ;
+    .
+
+jp:H_876 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9552 ;
+    jp:aboutWork jp:W_062 ;
+    .
+
+jp:H_458 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9553 ;
+    .
+
+jp:H_909 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q9553 ;
+    .
+
+jp:H_43 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q958426 ;
+    .
+
+jp:H_782 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q958426 ;
+    .
+
+jp:H_825 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q958438 ;
+    .
+
+jp:H_595 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q958438 ;
+    .
+
+jp:H_729 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q958438 ;
+    jp:aboutWork jp:W_190 ;
+    .
+
+jp:H_358 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q959392 ;
+    .
+
+jp:H_460 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q959392 ;
+    .
+
+jp:H_818 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q959392 ;
+    .
+
+jp:H_812 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q959392 ;
+    .
+
+jp:H_973 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q959392 ;
+    .
+
+jp:H_594 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q962334 ;
+    jp:aboutWork jp:W_191 ;
+    .
+
+jp:H_666 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q962334 ;
+    .
+
+jp:H_619 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q962334 ;
+    .
+
+jp:H_572 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q982075 ;
+    .
+
+jp:H_924 a jp:ScholarlyWork ;
+    jp:aboutPerson jp:Q988828 ;
+    .
+
+jp:H_143 a jp:ScholarlyWork ;
+    .
+
+jp:H_144 a jp:ScholarlyWork ;
+    .
+
+jp:H_145 a jp:ScholarlyWork ;
+    .
+
+jp:H_146 a jp:ScholarlyWork ;
+    .
+
+jp:H_147 a jp:ScholarlyWork ;
+    .
+
+jp:H_148 a jp:ScholarlyWork ;
+    .
+
+jp:H_149 a jp:ScholarlyWork ;
+    .
+
+jp:H_150 a jp:ScholarlyWork ;
+    .
+
+jp:H_151 a jp:ScholarlyWork ;
+    .
+
+jp:H_152 a jp:ScholarlyWork ;
+    .
+
+jp:H_153 a jp:ScholarlyWork ;
+    .
+
+jp:H_154 a jp:ScholarlyWork ;
+    .
+
+jp:H_155 a jp:ScholarlyWork ;
+    .
+
+jp:H_156 a jp:ScholarlyWork ;
+    .
+
+jp:H_157 a jp:ScholarlyWork ;
+    .
+
+jp:H_158 a jp:ScholarlyWork ;
+    .
+
+jp:H_159 a jp:ScholarlyWork ;
+    .
+
+jp:H_160 a jp:ScholarlyWork ;
+    .
+
+jp:H_161 a jp:ScholarlyWork ;
+    .
+
+jp:H_162 a jp:ScholarlyWork ;
+    .
+
+jp:H_163 a jp:ScholarlyWork ;
+    .
+
+jp:H_164 a jp:ScholarlyWork ;
+    .
+
+jp:H_165 a jp:ScholarlyWork ;
+    .
+
+jp:H_166 a jp:ScholarlyWork ;
+    .
+
+jp:H_167 a jp:ScholarlyWork ;
+    .
+
+jp:H_168 a jp:ScholarlyWork ;
+    .
+
+jp:H_187 a jp:ScholarlyWork ;
+    .
+
+jp:H_169 a jp:ScholarlyWork ;
+    .
+
+jp:H_170 a jp:ScholarlyWork ;
+    .
+
+jp:H_171 a jp:ScholarlyWork ;
+    .
+
+jp:H_172 a jp:ScholarlyWork ;
+    .
+
+jp:H_173 a jp:ScholarlyWork ;
+    .
+
+jp:H_174 a jp:ScholarlyWork ;
+    .
+
+jp:H_175 a jp:ScholarlyWork ;
+    .
+
+jp:H_176 a jp:ScholarlyWork ;
+    .
+
+jp:H_177 a jp:ScholarlyWork ;
+    .
+
+jp:H_178 a jp:ScholarlyWork ;
+    .
+
+jp:H_179 a jp:ScholarlyWork ;
+    .
+
+jp:H_180 a jp:ScholarlyWork ;
+    .
+
+jp:H_181 a jp:ScholarlyWork ;
+    .
+
+jp:H_182 a jp:ScholarlyWork ;
+    .
+
+jp:H_183 a jp:ScholarlyWork ;
+    .
+
+jp:H_184 a jp:ScholarlyWork ;
+    .
+
+jp:H_185 a jp:ScholarlyWork ;
+    .
+
+jp:H_186 a jp:ScholarlyWork ;
+    .
+
+jp:H_224 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_192 ;
+    .
+
+jp:H_230 a jp:ScholarlyWork ;
+    .
+
+jp:H_233 a jp:ScholarlyWork ;
+    .
+
+jp:H_313 a jp:ScholarlyWork ;
+    .
+
+jp:H_340 a jp:ScholarlyWork ;
+    .
+
+jp:H_408 a jp:ScholarlyWork ;
+    .
+
+jp:H_413 a jp:ScholarlyWork ;
+    .
+
+jp:H_417 a jp:ScholarlyWork ;
+    .
+
+jp:H_424 a jp:ScholarlyWork ;
+    .
+
+jp:H_436 a jp:ScholarlyWork ;
+    .
+
+jp:H_196 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_193 ;
+    .
+
+jp:H_196 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_194 ;
+    .
+
+jp:H_199 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_195 ;
+    .
+
+jp:H_231 a jp:ScholarlyWork ;
+    .
+
+jp:H_252 a jp:ScholarlyWork ;
+    .
+
+jp:H_281 a jp:ScholarlyWork ;
+    .
+
+jp:H_294 a jp:ScholarlyWork ;
+    .
+
+jp:H_308 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_196 ;
+    .
+
+jp:H_427 a jp:ScholarlyWork ;
+    .
+
+jp:H_428 a jp:ScholarlyWork ;
+    .
+
+jp:H_429 a jp:ScholarlyWork ;
+    .
+
+jp:H_328 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_197 ;
+    .
+
+jp:H_208 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_198 ;
+    .
+
+jp:H_213 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_199 ;
+    .
+
+jp:H_284 a jp:ScholarlyWork ;
+    .
+
+jp:H_285 a jp:ScholarlyWork ;
+    .
+
+jp:H_311 a jp:ScholarlyWork ;
+    .
+
+jp:H_314 a jp:ScholarlyWork ;
+    .
+
+jp:H_343 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_200 ;
+    .
+
+jp:H_343 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_201 ;
+    .
+
+jp:H_369 a jp:ScholarlyWork ;
+    .
+
+jp:H_384 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_202 ;
+    .
+
+jp:H_397 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_203 ;
+    .
+
+jp:H_399 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_204 ;
+    .
+
+jp:H_399 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_205 ;
+    .
+
+jp:H_399 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_206 ;
+    .
+
+jp:H_420 a jp:ScholarlyWork ;
+    .
+
+jp:H_430 a jp:ScholarlyWork ;
+    .
+
+jp:H_195 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_207 ;
+    .
+
+jp:H_200 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_208 ;
+    .
+
+jp:H_228 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_209 ;
+    .
+
+jp:H_237 a jp:ScholarlyWork ;
+    .
+
+jp:H_238 a jp:ScholarlyWork ;
+    .
+
+jp:H_240 a jp:ScholarlyWork ;
+    .
+
+jp:H_241 a jp:ScholarlyWork ;
+    .
+
+jp:H_243 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_210 ;
+    .
+
+jp:H_253 a jp:ScholarlyWork ;
+    .
+
+jp:H_286 a jp:ScholarlyWork ;
+    .
+
+jp:H_345 a jp:ScholarlyWork ;
+    .
+
+jp:H_354 a jp:ScholarlyWork ;
+    .
+
+jp:H_356 a jp:ScholarlyWork ;
+    .
+
+jp:H_357 a jp:ScholarlyWork ;
+    .
+
+jp:H_378 a jp:ScholarlyWork ;
+    .
+
+jp:H_394 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_104 ;
+    .
+
+jp:H_400 a jp:ScholarlyWork ;
+    .
+
+jp:H_405 a jp:ScholarlyWork ;
+    .
+
+jp:H_434 a jp:ScholarlyWork ;
+    .
+
+jp:H_407 a jp:ScholarlyWork ;
+    .
+
+jp:H_351 a jp:ScholarlyWork ;
+    .
+
+jp:H_346 a jp:ScholarlyWork ;
+    .
+
+jp:H_234 a jp:ScholarlyWork ;
+    .
+
+jp:H_239 a jp:ScholarlyWork ;
+    .
+
+jp:H_278 a jp:ScholarlyWork ;
+    .
+
+jp:H_293 a jp:ScholarlyWork ;
+    .
+
+jp:H_310 a jp:ScholarlyWork ;
+    .
+
+jp:H_344 a jp:ScholarlyWork ;
+    .
+
+jp:H_350 a jp:ScholarlyWork ;
+    .
+
+jp:H_360 a jp:ScholarlyWork ;
+    .
+
+jp:H_367 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_211 ;
+    .
+
+jp:H_373 a jp:ScholarlyWork ;
+    .
+
+jp:H_374 a jp:ScholarlyWork ;
+    .
+
+jp:H_403 a jp:ScholarlyWork ;
+    .
+
+jp:H_470 a jp:ScholarlyWork ;
+    .
+
+jp:H_449 a jp:ScholarlyWork ;
+    .
+
+jp:H_487 a jp:ScholarlyWork ;
+    .
+
+jp:H_495 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_212 ;
+    .
+
+jp:H_496 a jp:ScholarlyWork ;
+    .
+
+jp:H_507 a jp:ScholarlyWork ;
+    .
+
+jp:H_510 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_213 ;
+    .
+
+jp:H_522 a jp:ScholarlyWork ;
+    .
+
+jp:H_525 a jp:ScholarlyWork ;
+    .
+
+jp:H_526 a jp:ScholarlyWork ;
+    .
+
+jp:H_530 a jp:ScholarlyWork ;
+    .
+
+jp:H_532 a jp:ScholarlyWork ;
+    .
+
+jp:H_544 a jp:ScholarlyWork ;
+    .
+
+jp:H_584 a jp:ScholarlyWork ;
+    .
+
+jp:H_588 a jp:ScholarlyWork ;
+    .
+
+jp:H_590 a jp:ScholarlyWork ;
+    .
+
+jp:H_603 a jp:ScholarlyWork ;
+    .
+
+jp:H_646 a jp:ScholarlyWork ;
+    .
+
+jp:H_478 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_214 ;
+    .
+
+jp:H_521 a jp:ScholarlyWork ;
+    .
+
+jp:H_534 a jp:ScholarlyWork ;
+    .
+
+jp:H_537 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_539 a jp:ScholarlyWork ;
+    .
+
+jp:H_564 a jp:ScholarlyWork ;
+    .
+
+jp:H_579 a jp:ScholarlyWork ;
+    .
+
+jp:H_580 a jp:ScholarlyWork ;
+    .
+
+jp:H_612 a jp:ScholarlyWork ;
+    .
+
+jp:H_629 a jp:ScholarlyWork ;
+    .
+
+jp:H_635 a jp:ScholarlyWork ;
+    .
+
+jp:H_669 a jp:ScholarlyWork ;
+    .
+
+jp:H_640 a jp:ScholarlyWork ;
+    .
+
+jp:H_466 a jp:ScholarlyWork ;
+    .
+
+jp:H_479 a jp:ScholarlyWork ;
+    .
+
+jp:H_493 a jp:ScholarlyWork ;
+    .
+
+jp:H_587 a jp:ScholarlyWork ;
+    .
+
+jp:H_596 a jp:ScholarlyWork ;
+    .
+
+jp:H_627 a jp:ScholarlyWork ;
+    .
+
+jp:H_630 a jp:ScholarlyWork ;
+    .
+
+jp:H_654 a jp:ScholarlyWork ;
+    .
+
+jp:H_480 a jp:ScholarlyWork ;
+    .
+
+jp:H_481 a jp:ScholarlyWork ;
+    .
+
+jp:H_485 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_490 a jp:ScholarlyWork ;
+    .
+
+jp:H_501 a jp:ScholarlyWork ;
+    .
+
+jp:H_502 a jp:ScholarlyWork ;
+    .
+
+jp:H_503 a jp:ScholarlyWork ;
+    .
+
+jp:H_508 a jp:ScholarlyWork ;
+    .
+
+jp:H_541 a jp:ScholarlyWork ;
+    .
+
+jp:H_570 a jp:ScholarlyWork ;
+    .
+
+jp:H_574 a jp:ScholarlyWork ;
+    .
+
+jp:H_585 a jp:ScholarlyWork ;
+    .
+
+jp:H_598 a jp:ScholarlyWork ;
+    .
+
+jp:H_624 a jp:ScholarlyWork ;
+    .
+
+jp:H_625 a jp:ScholarlyWork ;
+    .
+
+jp:H_637 a jp:ScholarlyWork ;
+    .
+
+jp:H_447 a jp:ScholarlyWork ;
+    .
+
+jp:H_451 a jp:ScholarlyWork ;
+    .
+
+jp:H_456 a jp:ScholarlyWork ;
+    .
+
+jp:H_462 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_214 ;
+    .
+
+jp:H_462 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_215 ;
+    .
+
+jp:H_482 a jp:ScholarlyWork ;
+    .
+
+jp:H_483 a jp:ScholarlyWork ;
+    .
+
+jp:H_484 a jp:ScholarlyWork ;
+    .
+
+jp:H_488 a jp:ScholarlyWork ;
+    .
+
+jp:H_506 a jp:ScholarlyWork ;
+    .
+
+jp:H_520 a jp:ScholarlyWork ;
+    .
+
+jp:H_531 a jp:ScholarlyWork ;
+    .
+
+jp:H_614 a jp:ScholarlyWork ;
+    .
+
+jp:H_638 a jp:ScholarlyWork ;
+    .
+
+jp:H_643 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_667 a jp:ScholarlyWork ;
+    .
+
+jp:H_668 a jp:ScholarlyWork ;
+    .
+
+jp:H_1015 a jp:ScholarlyWork ;
+    .
+
+jp:H_1021 a jp:ScholarlyWork ;
+    .
+
+jp:H_1027 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_216 ;
+    .
+
+jp:H_1040 a jp:ScholarlyWork ;
+    .
+
+jp:H_1041 a jp:ScholarlyWork ;
+    .
+
+jp:H_730 a jp:ScholarlyWork ;
+    .
+
+jp:H_744 a jp:ScholarlyWork ;
+    .
+
+jp:H_756 a jp:ScholarlyWork ;
+    .
+
+jp:H_757 a jp:ScholarlyWork ;
+    .
+
+jp:H_792 a jp:ScholarlyWork ;
+    .
+
+jp:H_875 a jp:ScholarlyWork ;
+    .
+
+jp:H_890 a jp:ScholarlyWork ;
+    .
+
+jp:H_908 a jp:ScholarlyWork ;
+    .
+
+jp:H_917 a jp:ScholarlyWork ;
+    .
+
+jp:H_962 a jp:ScholarlyWork ;
+    .
+
+jp:H_965 a jp:ScholarlyWork ;
+    .
+
+jp:H_966 a jp:ScholarlyWork ;
+    .
+
+jp:H_981 a jp:ScholarlyWork ;
+    .
+
+jp:H_770 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_804 a jp:ScholarlyWork ;
+    .
+
+jp:H_1012 a jp:ScholarlyWork ;
+    .
+
+jp:H_1013 a jp:ScholarlyWork ;
+    .
+
+jp:H_1038 a jp:ScholarlyWork ;
+    .
+
+jp:H_678 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_217 ;
+    .
+
+jp:H_678 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_218 ;
+    .
+
+jp:H_710 a jp:ScholarlyWork ;
+    .
+
+jp:H_723 a jp:ScholarlyWork ;
+    .
+
+jp:H_738 a jp:ScholarlyWork ;
+    .
+
+jp:H_745 a jp:ScholarlyWork ;
+    .
+
+jp:H_755 a jp:ScholarlyWork ;
+    .
+
+jp:H_758 a jp:ScholarlyWork ;
+    .
+
+jp:H_800 a jp:ScholarlyWork ;
+    .
+
+jp:H_820 a jp:ScholarlyWork ;
+    .
+
+jp:H_822 a jp:ScholarlyWork ;
+    .
+
+jp:H_907 a jp:ScholarlyWork ;
+    .
+
+jp:H_964 a jp:ScholarlyWork ;
+    .
+
+jp:H_986 a jp:ScholarlyWork ;
+    .
+
+jp:H_988 a jp:ScholarlyWork ;
+    .
+
+jp:H_1008 a jp:ScholarlyWork ;
+    .
+
+jp:H_1009 a jp:ScholarlyWork ;
+    .
+
+jp:H_1010 a jp:ScholarlyWork ;
+    .
+
+jp:H_1011 a jp:ScholarlyWork ;
+    .
+
+jp:H_1019 a jp:ScholarlyWork ;
+    .
+
+jp:H_1032 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_1037 a jp:ScholarlyWork ;
+    .
+
+jp:H_739 a jp:ScholarlyWork ;
+    .
+
+jp:H_760 a jp:ScholarlyWork ;
+    .
+
+jp:H_806 a jp:ScholarlyWork ;
+    .
+
+jp:H_849 a jp:ScholarlyWork ;
+    .
+
+jp:H_851 a jp:ScholarlyWork ;
+    .
+
+jp:H_866 a jp:ScholarlyWork ;
+    .
+
+jp:H_867 a jp:ScholarlyWork ;
+    .
+
+jp:H_922 a jp:ScholarlyWork ;
+    .
+
+jp:H_923 a jp:ScholarlyWork ;
+    .
+
+jp:H_978 a jp:ScholarlyWork ;
+    .
+
+jp:H_994 a jp:ScholarlyWork ;
+    .
+
+jp:H_814 a jp:ScholarlyWork ;
+    .
+
+jp:H_769 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_741 a jp:ScholarlyWork ;
+    .
+
+jp:H_1017 a jp:ScholarlyWork ;
+    .
+
+jp:H_1026 a jp:ScholarlyWork ;
+    .
+
+jp:H_717 a jp:ScholarlyWork ;
+    .
+
+jp:H_735 a jp:ScholarlyWork ;
+    .
+
+jp:H_766 a jp:ScholarlyWork ;
+    .
+
+jp:H_768 a jp:ScholarlyWork ;
+    .
+
+jp:H_777 a jp:ScholarlyWork ;
+    .
+
+jp:H_784 a jp:ScholarlyWork ;
+    .
+
+jp:H_810 a jp:ScholarlyWork ;
+    .
+
+jp:H_877 a jp:ScholarlyWork ;
+    .
+
+jp:H_913 a jp:ScholarlyWork ;
+    .
+
+jp:H_984 a jp:ScholarlyWork ;
+    .
+
+jp:H_808 a jp:ScholarlyWork ;
+    .
+
+jp:H_728 a jp:ScholarlyWork ;
+    .
+
+jp:H_742 a jp:ScholarlyWork ;
+    .
+
+jp:H_743 a jp:ScholarlyWork ;
+    .
+
+jp:H_746 a jp:ScholarlyWork ;
+    .
+
+jp:H_789 a jp:ScholarlyWork ;
+    .
+
+jp:H_793 a jp:ScholarlyWork ;
+    .
+
+jp:H_846 a jp:ScholarlyWork ;
+    .
+
+jp:H_912 a jp:ScholarlyWork ;
+    .
+
+jp:H_968 a jp:ScholarlyWork ;
+    .
+
+jp:H_974 a jp:ScholarlyWork ;
+    .
+
+jp:H_995 a jp:ScholarlyWork ;
+    .
+
+jp:H_411 a jp:ScholarlyWork ;
+    .
+
+jp:H_439 a jp:ScholarlyWork ;
+    .
+
+jp:H_406 a jp:ScholarlyWork ;
+    .
+
+jp:H_435 a jp:ScholarlyWork ;
+    .
+
+jp:H_431 a jp:ScholarlyWork ;
+    .
+
+jp:H_1003 a jp:ScholarlyWork ;
+    .
+
+jp:H_871 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_022 ;
+    .
+
+jp:H_1001 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_219 ;
+    .
+
+jp:H_1002 a jp:ScholarlyWork ;
+    .
+
+jp:H_1007 a jp:ScholarlyWork ;
+    .
+
+jp:H_1014 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_220 ;
+    .
+
+jp:H_1018 a jp:ScholarlyWork ;
+    .
+
+jp:H_1025 a jp:ScholarlyWork ;
+    .
+
+jp:H_1036 a jp:ScholarlyWork ;
+    .
+
+jp:H_188 a jp:ScholarlyWork ;
+    .
+
+jp:H_189 a jp:ScholarlyWork ;
+    .
+
+jp:H_190 a jp:ScholarlyWork ;
+    .
+
+jp:H_191 a jp:ScholarlyWork ;
+    .
+
+jp:H_192 a jp:ScholarlyWork ;
+    .
+
+jp:H_246 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_221 ;
+    .
+
+jp:H_250 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_222 ;
+    .
+
+jp:H_260 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_223 ;
+    .
+
+jp:H_263 a jp:ScholarlyWork ;
+    .
+
+jp:H_264 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_166 ;
+    .
+
+jp:H_265 a jp:ScholarlyWork ;
+    .
+
+jp:H_283 a jp:ScholarlyWork ;
+    .
+
+jp:H_297 a jp:ScholarlyWork ;
+    .
+
+jp:H_325 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_224 ;
+    .
+
+jp:H_338 a jp:ScholarlyWork ;
+    .
+
+jp:H_342 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_225 ;
+    .
+
+jp:H_361 a jp:ScholarlyWork ;
+    .
+
+jp:H_364 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_226 ;
+    .
+
+jp:H_365 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_227 ;
+    .
+
+jp:H_366 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_228 ;
+    .
+
+jp:H_372 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_229 ;
+    .
+
+jp:H_372 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_230 ;
+    .
+
+jp:H_383 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_231 ;
+    .
+
+jp:H_386 a jp:ScholarlyWork ;
+    .
+
+jp:H_387 a jp:ScholarlyWork ;
+    .
+
+jp:H_391 a jp:ScholarlyWork ;
+    .
+
+jp:H_393 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_232 ;
+    .
+
+jp:H_402 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_233 ;
+    .
+
+jp:H_465 a jp:ScholarlyWork ;
+    .
+
+jp:H_468 a jp:ScholarlyWork ;
+    .
+
+jp:H_492 a jp:ScholarlyWork ;
+    .
+
+jp:H_547 a jp:ScholarlyWork ;
+    .
+
+jp:H_639 a jp:ScholarlyWork ;
+    .
+
+jp:H_673 a jp:ScholarlyWork ;
+    .
+
+jp:H_704 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_217 ;
+    .
+
+jp:H_705 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_190 ;
+    .
+
+jp:H_823 a jp:ScholarlyWork ;
+    .
+
+jp:H_838 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_843 a jp:ScholarlyWork ;
+    .
+
+jp:H_847 a jp:ScholarlyWork ;
+    .
+
+jp:H_852 a jp:ScholarlyWork ;
+    .
+
+jp:H_860 a jp:ScholarlyWork ;
+    .
+
+jp:H_869 a jp:ScholarlyWork ;
+    .
+
+jp:H_878 a jp:ScholarlyWork ;
+    .
+
+jp:H_889 a jp:ScholarlyWork ;
+    .
+
+jp:H_891 a jp:ScholarlyWork ;
+    .
+
+jp:H_895 a jp:ScholarlyWork ;
+    .
+
+jp:H_901 a jp:ScholarlyWork ;
+    .
+
+jp:H_925 a jp:ScholarlyWork ;
+    .
+
+jp:H_929 a jp:ScholarlyWork ;
+    .
+
+jp:H_933 a jp:ScholarlyWork ;
+    .
+
+jp:H_935 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_234 ;
+    .
+
+jp:H_936 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_234 ;
+    .
+
+jp:H_948 a jp:ScholarlyWork ;
+    .
+
+jp:H_951 a jp:ScholarlyWork ;
+    .
+
+jp:H_956 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_960 a jp:ScholarlyWork ;
+    .
+
+jp:H_961 a jp:ScholarlyWork ;
+    jp:aboutWork jp:W_013 ;
+    .
+
+jp:H_967 a jp:ScholarlyWork ;
+    .
+
+jp:H_971 a jp:ScholarlyWork ;
+    .
+
+jp:H_976 a jp:ScholarlyWork ;
+    .
+
+jp:H_983 a jp:ScholarlyWork ;
+    .
+

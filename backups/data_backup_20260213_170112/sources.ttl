@@ -1,0 +1,9 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:Source_Bibliography a jp:Source ;
+    rdfs:label "General Bibliography" .
+
+jp:Source_Legacy_Import a jp:Source ;
+    rdfs:label "Legacy Import Data" .
+

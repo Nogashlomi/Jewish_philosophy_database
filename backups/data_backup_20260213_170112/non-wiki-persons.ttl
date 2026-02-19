@@ -1,0 +1,35 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+jp:NW_1 a jp:HistoricalPerson ;
+    rdfs:label "Moise b. Sabbatai" .
+
+jp:NW_2 a jp:HistoricalPerson ;
+    rdfs:label "Numan al-Israili" .
+
+jp:NW_3 a jp:HistoricalPerson ;
+    rdfs:label "R. Eliezer b. Mattityahu" .
+
+jp:NW_3 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ben Yehuda" .
+
+jp:NW_4 a jp:HistoricalPerson ;
+    rdfs:label "David ben Saul" .
+
+jp:NW_5 a jp:HistoricalPerson ;
+    rdfs:label "Elijah ben Eliezer Ha-Yerushalmi" .
+
+jp:NW_6 a jp:HistoricalPerson ;
+    rdfs:label "Ephraim ben Shabbetai" .
+
+jp:NW_7 a jp:HistoricalPerson ;
+    rdfs:label "Hezekiah bar Halafta" .
+
+jp:NW_8 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Jabir" .
+
+jp:NW_9 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Ibn Waqar" .
+
+jp:NW_1 a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Shabbatai" .

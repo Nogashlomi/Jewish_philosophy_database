@@ -1,0 +1,23 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Source 1: Steven Harvey Reports (original data)
+jp:Source_Harvey a jp:ScholarlyWork ;
+    rdfs:label "Steven Harvey Reports" ;
+    jp:title "Steven Harvey Reports" ;
+    jp:resourceType "Report" .
+
+# Source 2: Freudenthal Book (new book data)
+jp:Source_Freudenthal a jp:ScholarlyWork ;
+    rdfs:label "Science in Medieval Jewish Cultures" ;
+    jp:title "Science in Medieval Jewish Cultures" ;
+    jp:publicationYear "2012"^^xsd:gYear ;
+    jp:publisher "Cambridge University Press" ;
+    jp:resourceType "Book" ;
+    jp:hasAuthor jp:Scholar_Freudenthal .
+
+jp:Scholar_Freudenthal a jp:Scholar ;
+    rdfs:label "Gad Freudenthal" ;
+    jp:name "Gad Freudenthal" ;
+    jp:role "Editor" .

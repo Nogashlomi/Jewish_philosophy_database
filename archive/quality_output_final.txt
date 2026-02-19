@@ -1,0 +1,34 @@
+DEBUG: RDFStore CWD is /Users/nogashlomi/projects/yossi/RDF_project_copy
+Loading data...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_persons.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_works.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_places.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_subjects.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_scholarly.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_sources.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_ontology.ttl...
+Loading /Users/nogashlomi/projects/yossi/RDF_project_copy/data/cleaned/cleaned_other.ttl...
+Graph loaded with 229521 triples.
+
+--- Checking Astronomy Links ---
+Found 2211 works linked to Astronomy.
+  - http://jewish_philosophy.org/ontology#ScholarlyWork_NLI_990000063480705171
+  - http://jewish_philosophy.org/ontology#ScholarlyWork_NLI_990000064040705171
+  - http://jewish_philosophy.org/ontology#ScholarlyWork_NLI_990000093130705171
+  - http://jewish_philosophy.org/ontology#ScholarlyWork_NLI_990000095380705171
+  - http://jewish_philosophy.org/ontology#ScholarlyWork_NLI_990000099930705171
+
+--- Checking Person Duplicates ---
+Duplicate Person: 'Averroes' -> 2 URIs
+    http://jewish_philosophy.org/ontology#BookPerson_P0010
+    http://jewish_philosophy.org/ontology#Person_Q39837
+Duplicate Person: 'Avicenna' -> 2 URIs
+    http://jewish_philosophy.org/ontology#BookPerson_P0036
+    http://jewish_philosophy.org/ontology#Person_Q8011
+Duplicate Person: 'Al-Ghazali' -> 2 URIs
+    http://jewish_philosophy.org/ontology#BookPerson_P0166
+    http://jewish_philosophy.org/ontology#Person_Q9546
+Total Person Labels with Multiples: 3
+
+--- Checking Work Duplicates ---
+Total Work Titles with Multiples: 0

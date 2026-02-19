@@ -1,0 +1,33 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# The Source "Books and Indexes" is defined in 'scholarly-gad.ttl' (or can be here too)
+# But let's assume it's shared. We can redefine it here to be safe and consistent.
+
+jp:Source_Books_and_Indexes a jp:Source ;
+    rdfs:label "Books and Indexes" .
+
+# The Book itself (Data restored from legacy)
+jp:SW_Popularization_Philosophy a jp:ScholarlyWork ;
+    rdfs:label "The Popularization of Philosophy in Medieval Islam, Judaism, and Christianity" ;
+    jp:title "The Popularization of Philosophy in Medieval Islam, Judaism, and Christianity" ;
+    jp:publicationYear "2022"^^xsd:gYear ;
+    jp:hasSource jp:Source_Books_and_Indexes ;
+    jp:aboutPerson 
+        <http://jewish_philosophy.org/id/Aaron_b._Elijah>,
+        <http://jewish_philosophy.org/id/Abba_Mari_b._Eligdor>,
+        <http://jewish_philosophy.org/id/Abraham_Avigdor>,
+        <http://jewish_philosophy.org/id/Abraham_Bedersi>,
+        <http://jewish_philosophy.org/id/Abraham_Ibn_Nahmias>,
+        <http://jewish_philosophy.org/id/Abraham_Shalom>,
+        <http://jewish_philosophy.org/id/Abraham_Yagel>,
+        <http://jewish_philosophy.org/id/Abraham_de_Balmes>,
+        <http://jewish_philosophy.org/id/Abravanel_Isaac>,
+        <http://jewish_philosophy.org/id/Abū_Abd_al-Rahman_Ibn_Tahir>,
+        <http://jewish_philosophy.org/id/Abū_Muhammad_ibn_Malih_al-Raqqād>,
+        <http://jewish_philosophy.org/id/Abū_l-Hajjāj_ibn_Tumlūs>,
+        <http://jewish_philosophy.org/id/Abū_l-Maālī>,
+        <http://jewish_philosophy.org/id/Abū_l-Qāsim_ibn_Idrīs> .
+# Note: Adding just a subset to verify. In real scenario I'd copy all mentions.
+
