@@ -223,10 +223,20 @@ WHERE {{
            jp:latitude ?lat ;
            jp:longitude ?long .
            
-    # Time data from PlaceRelation
-    OPTIONAL {{ ?pr jp:timeFrom ?start }}
-    OPTIONAL {{ ?pr jp:timeUntil ?end }}
+    # Time data from TimeRelation (Wikidata style uses jp:birthYear / jp:deathYear)
+    OPTIONAL {{
+        ?person jp:hasTimeRelation ?tr .
+        OPTIONAL {{ ?tr jp:birthYear ?by }}
+        OPTIONAL {{ ?tr jp:deathYear ?dy }}
+    }}
     
+    # Time data from PlaceRelation (Legacy or other source style uses jp:timeFrom / jp:timeUntil)
+    OPTIONAL {{ ?pr jp:timeFrom ?tf }}
+    OPTIONAL {{ ?pr jp:timeUntil ?tu }}
+    
+    BIND(COALESCE(?by, ?tf) AS ?start)
+    BIND(COALESCE(?dy, ?tu) AS ?end)
+
     # Filter out entries with no dates (User request: "dont show people with no dates")
     FILTER (BOUND(?start) || BOUND(?end))
     {source_filter}
@@ -366,3 +376,20 @@ STATS_QUERIES = {
     "languages": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:HistoricalLanguage }}",
     "sources": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:Source }}"
 }
+
+# --- AUDIT (Data usage) ---
+GET_DATA_CLASSES = PREFIXES + """
+SELECT DISTINCT ?type
+WHERE {
+    ?s a ?type .
+    FILTER(STRSTARTS(STR(?type), "http://jewish_philosophy.org/ontology#"))
+}
+"""
+
+GET_DATA_PROPERTIES = PREFIXES + """
+SELECT DISTINCT ?p
+WHERE {
+    ?s ?p ?o .
+    FILTER(STRSTARTS(STR(?p), "http://jewish_philosophy.org/ontology#"))
+}
+"""

@@ -724,4 +724,42 @@ class EntityService:
                     
         return {"nodes": nodes, "edges": edges}
 
+    def get_ontology_audit(self) -> Dict[str, Any]:
+        """
+        Compare defined ontology (vocabulary.ttl) with actual data.
+        """
+        # 1. Get defined classes/properties from ontology
+        defined_classes = set()
+        for row in rdf_store.query(queries.GET_ONTOLOGY_CLASSES):
+            defined_classes.add(str(row.uri))
+            
+        defined_properties = set()
+        for row in rdf_store.query(queries.GET_ONTOLOGY_PROPERTIES):
+            defined_properties.add(str(row.uri))
+            
+        # 2. Get actual classes/properties used in data
+        actual_classes = set()
+        for row in rdf_store.query(queries.GET_DATA_CLASSES):
+            actual_classes.add(str(row.type))
+            
+        actual_properties = set()
+        for row in rdf_store.query(queries.GET_DATA_PROPERTIES):
+            actual_properties.add(str(row.p))
+            
+        return {
+            "classes": {
+                "defined_count": len(defined_classes),
+                "actual_count": len(actual_classes),
+                "unused": list(defined_classes - actual_classes),
+                "undefined": list(actual_classes - defined_classes)
+            },
+            "properties": {
+                "defined_count": len(defined_properties),
+                "actual_count": len(actual_properties),
+                "unused": list(defined_properties - actual_properties),
+                "undefined": list(actual_properties - defined_properties)
+            }
+        }
+
+
 entity_service = EntityService()

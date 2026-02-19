@@ -85,10 +85,12 @@ export default function MapView() {
         const props = f.properties
         const hasDates = props.start !== null || props.end !== null
 
-        if (!hasDates) return true // Show undated entities
+        if (!hasDates) return false // Hide undated entities (backend normally filters these anyway)
 
-        const entityStart = props.start !== null ? props.start : -9999
-        const entityEnd = props.end !== null ? props.end : 9999
+        // If only one date is present, treat it as a point-in-time by setting both start and end to that date.
+        // This prevents entities with only a birth year from appearing for all time up to 9999.
+        const entityStart = props.start !== null ? props.start : props.end!
+        const entityEnd = props.end !== null ? props.end : props.start!
 
         // Check overlap: entityEnd >= filterStart && entityStart <= filterEnd
         return entityEnd >= minTime && entityStart <= maxTime

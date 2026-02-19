@@ -68,5 +68,10 @@ export const entityService = {
     getOntologyGraph: async () => {
         const response = await api.get<any>('/ontology/')
         return response.data
+    },
+
+    getOntologyAudit: async () => {
+        const response = await api.get<any>('/ontology/audit')
+        return response.data
     }
 }

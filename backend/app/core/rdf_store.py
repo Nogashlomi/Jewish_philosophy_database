@@ -44,8 +44,16 @@ class RDFStore:
             "cleaned/cleaned_subjects.ttl",
             "cleaned/cleaned_scholarly.ttl",
             "cleaned/cleaned_sources.ttl",
-            "cleaned/cleaned_ontology.ttl",
-            "cleaned/cleaned_other.ttl"
+            "ontology/vocabulary.ttl",
+            "cleaned/cleaned_other.ttl",
+            "wikidata_place_coordinates.ttl",
+            "wikidata_place_relations_new.ttl",
+            "wikidata_places_new.ttl",
+            "wikidata_time_relations.ttl",
+            "wikidata_persons.ttl",
+            "wikidata_works.ttl",
+            "place_relations.ttl",
+            "time_data.ttl"
         ]
         
         for filename in data_files:

@@ -221,22 +221,7 @@ export default function Network() {
                         onEngineStop={() => fgRef.current?.zoomToFit(400)}
                     />
 
-                    {/* Legend Overlay */}
-                    <div className="absolute top-4 right-4 bg-white/90 p-3 rounded shadow text-xs border border-gray-200">
-                        <h4 className="font-bold mb-2">Legend</h4>
-                        <div className="space-y-1">
-                            {LEGEND_ITEMS.map(item => (
-                                <div key={item.type} className="flex items-center space-x-2">
-                                    <span className="w-3 h-3 rounded-full inline-block" style={{ backgroundColor: item.color }}></span>
-                                    <span>{item.label}</span>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="mt-3 pt-2 border-t border-gray-200 text-gray-500">
-                            <p>Scroll to Zoom</p>
-                            <p>Drag to Pan</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
