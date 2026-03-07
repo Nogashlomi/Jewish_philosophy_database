@@ -1,5 +1,26 @@
 @prefix jp: <http://jewish_philosophy.org/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+jp:Source_Wikidata a jp:Source ;
+    rdfs:label "Wikidata" ;
+    rdfs:comment "Data imported from Wikidata, including biographical data, coordinates, and basic identifiers." .
 
+jp:Source_MARC a jp:Source ;
+    rdfs:label "National Library MARC Data" ;
+    rdfs:comment "Data extracted from the Israel National Library's MARC records." .
 
+jp:Source_Harvey_Reports a jp:Source ;
+    rdfs:label "Steven Harvey Reports" ;
+    rdfs:comment "Data curated from Steven Harvey's periodic bibliographic reports on medieval Jewish philosophy." .
+
+jp:Source_Freudenthal_Book a jp:Source ;
+    rdfs:label "Freudenthal Book (2012)" ;
+    rdfs:comment "Data extracted from 'Science in Medieval Jewish Cultures' (Gad Freudenthal, 2012)." .
+
+jp:Source_Niran_Index a jp:Source ;
+    rdfs:label "Niran's Index" ;
+    rdfs:comment "An index of historical actors and works curated by Niran." .
+
+jp:Source_Yossi_German_Paper a jp:Source ;
+    rdfs:label "Yossi's German Paper" ;
+    rdfs:comment "Data extracted from Yossi's paper on German Jewish philosophy." .

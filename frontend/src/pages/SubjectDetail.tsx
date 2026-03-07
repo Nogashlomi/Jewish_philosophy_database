@@ -38,7 +38,7 @@ export default function SubjectDetail() {
                         <div className="flex items-start gap-3">
                             <BookOpen className="h-5 w-5 text-purple-500 mt-0.5" />
                             <div className="w-full">
-                                <h3 className="font-medium text-gray-900 mb-3">Works in this Category ({subject.works.length})</h3>
+                                <h3 className="font-medium text-gray-900 mb-3">Connections ({subject.works.length})</h3>
                                 <div className="grid gap-2 sm:grid-cols-2">
                                     {subject.works.map((work: any) => (
                                         <Link
@@ -54,7 +54,7 @@ export default function SubjectDetail() {
                             </div>
                         </div>
                     ) : (
-                        <div className="text-gray-500 italic">No works found for this subject.</div>
+                        <div className="text-gray-500 italic">No connections found.</div>
                     )}
                 </div>
             </div>

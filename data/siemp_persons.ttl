@@ -1,0 +1,373 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Person_Q127398 a jp:HistoricalPerson ;
+    rdfs:label "Maimonides" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q127398" ;
+    jp:hasPlaceRelation jp:Relation_Maimonides_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q127398_Birth ;
+    jp:hasPlaceRelation jp:Relation_Maimonides_Birth ;
+    jp:hasPlaceRelation jp:Relation_Maimonides_Residence ;
+    jp:hasPlaceRelation jp:Relation_Person_Q127398_Death ;
+    jp:birthYear "1138"^^xsd:gYear ;
+    jp:deathYear "1204"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q528415 a jp:HistoricalPerson ;
+    rdfs:label "Hasdai Crescas" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q528415" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q528415_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q528415_Birth ;
+    jp:birthYear "1340"^^xsd:gYear ;
+    jp:deathYear "1412"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q39837 a jp:HistoricalPerson ;
+    rdfs:label "Averroes" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q39837" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q39837_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q39837_Death ;
+    jp:birthYear "1126"^^xsd:gYear ;
+    jp:deathYear "1198"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q868 a jp:HistoricalPerson ;
+    rdfs:label "Aristotle" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q868" ;
+    jp:birthYear "383"^^xsd:gYear ;
+    jp:deathYear "321"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q270670 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Ezra" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q270670" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q270670_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q270670_Birth ;
+    jp:birthYear "1092"^^xsd:gYear ;
+    jp:deathYear "1167"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q353633 a jp:HistoricalPerson ;
+    rdfs:label "Gersonides" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q353633" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q353633_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q353633_Birth ;
+    jp:birthYear "1288"^^xsd:gYear ;
+    jp:deathYear "1344"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q859 a jp:HistoricalPerson ;
+    rdfs:label "Plato" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q859" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q859_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q859_Birth ;
+    jp:birthYear "428"^^xsd:gYear ;
+    jp:deathYear "348"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q8011 a jp:HistoricalPerson ;
+    rdfs:label "Avicenna" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q8011" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q8011_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q8011_Death ;
+    jp:birthYear "980"^^xsd:gYear ;
+    jp:deathYear "1037"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q330821 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ibn Daud" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q330821" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q330821_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q330821_Death ;
+    jp:birthYear "1110"^^xsd:gYear ;
+    jp:deathYear "1180"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q239355 a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Gabirol" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q239355" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q239355_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q239355_Death ;
+    jp:birthYear "1021"^^xsd:gYear ;
+    jp:deathYear "1057"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q328748 a jp:HistoricalPerson ;
+    rdfs:label "Saadia Gaon" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q328748" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q328748_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q328748_Death ;
+    jp:birthYear "882"^^xsd:gYear ;
+    jp:deathYear "942"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q299200 a jp:HistoricalPerson ;
+    rdfs:label "Judah Halevi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q299200" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q299200_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q299200_Death ;
+    jp:birthYear "1075"^^xsd:gYear ;
+    jp:deathYear "1141"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q1383938 a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov Falaquera" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1383938" ;
+    jp:birthYear "1225"^^xsd:gYear ;
+    jp:deathYear "1290"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q338123 a jp:HistoricalPerson ;
+    rdfs:label "Samuel ibn Tibbon" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q338123" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q338123_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q338123_Death ;
+    jp:birthYear "1160"^^xsd:gYear ;
+    jp:deathYear "1230"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q9438 a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q9438" ;
+    jp:birthYear "1225"^^xsd:gYear ;
+    jp:deathYear "1274"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q319902 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abravanel" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q319902" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q319902_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q319902_Death ;
+    jp:birthYear "1437"^^xsd:gYear ;
+    jp:deathYear "1508"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q559622 a jp:HistoricalPerson ;
+    rdfs:label "Joseph Albo" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q559622" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q559622_Birth ;
+    jp:birthYear "1380"^^xsd:gYear ;
+    jp:deathYear "1444"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q1852000 a jp:HistoricalPerson ;
+    rdfs:label "Moses of Narbonne (Narboni)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1852000" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1852000_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1852000_Death ;
+    jp:birthYear "1300"^^xsd:gYear ;
+    jp:deathYear "1362"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q31439 a jp:HistoricalPerson ;
+    rdfs:label "Abraham bar Hiyya" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q31439" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q31439_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q31439_Death ;
+    jp:birthYear "1070"^^xsd:gYear ;
+    jp:deathYear "1136"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q4256415 a jp:HistoricalPerson ;
+    rdfs:label "Levi ben Abraham ben Hayyim" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4256415" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q4256415_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q4256415_Birth ;
+    jp:birthYear "1245"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q160460 a jp:HistoricalPerson ;
+    rdfs:label "Al-Farabi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q160460" ;
+    jp:birthYear "870"^^xsd:gYear ;
+    jp:deathYear "951"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q669640 a jp:HistoricalPerson ;
+    rdfs:label "Judah Messer Leon" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q669640" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q669640_Birth ;
+    jp:birthYear "1422"^^xsd:gYear ;
+    jp:deathYear "1498"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q1347237 a jp:HistoricalPerson ;
+    rdfs:label "Elijah Delmedigo" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1347237" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q365041 a jp:HistoricalPerson ;
+    rdfs:label "Isaac Israeli" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q365041" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q762229 a jp:HistoricalPerson ;
+    rdfs:label "Bahya ibn Paquda" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q762229" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q762229_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q762229_Death ;
+    jp:birthYear "1050"^^xsd:gYear ;
+    jp:deathYear "1100"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q6281131 a jp:HistoricalPerson ;
+    rdfs:label "Judah ibn Mosconi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q6281131" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q958438 a jp:HistoricalPerson ;
+    rdfs:label "Anatoli (Jacob Anatoli)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q958438" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q958438_Birth ;
+    jp:birthYear "1194"^^xsd:gYear ;
+    jp:deathYear "1256"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q348287 a jp:HistoricalPerson ;
+    rdfs:label "Kalonymus ben Kalonymus" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q348287" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q348287_Birth ;
+    jp:birthYear "1286"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q1673518 a jp:HistoricalPerson ;
+    rdfs:label "Isaac ibn Latif" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1673518" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1673518_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1673518_Death ;
+    jp:birthYear "1210"^^xsd:gYear ;
+    jp:deathYear "1280"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q1195977 a jp:HistoricalPerson ;
+    rdfs:label "Obadiah Sforno" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q1195977" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1195977_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q1195977_Death ;
+    jp:birthYear "1470"^^xsd:gYear ;
+    jp:deathYear "1550"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q962334 a jp:HistoricalPerson ;
+    rdfs:label "Hillel ben Samuel of Verona" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q962334" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q962334_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q962334_Death ;
+    jp:birthYear "1220"^^xsd:gYear ;
+    jp:deathYear "1295"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q6295534 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon ha-Kohen" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q6295534" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q461521 a jp:HistoricalPerson ;
+    rdfs:label "Profiat Duran" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q461521" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q461521_Birth ;
+    jp:birthYear "1350"^^xsd:gYear ;
+    jp:deathYear "1415"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_meir_aldabi a jp:HistoricalPerson ;
+    rdfs:label "Meir Aldabi" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q719393 a jp:HistoricalPerson ;
+    rdfs:label "Moses ibn Ezra" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q719393" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q719393_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q719393_Birth ;
+    jp:birthYear "1058"^^xsd:gYear ;
+    jp:deathYear "1139"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q44977 a jp:HistoricalPerson ;
+    rdfs:label "Porphyry" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q44977" ;
+    jp:birthYear "233"^^xsd:gYear ;
+    jp:deathYear "305"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q959392 a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Caspi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q959392" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q959392_Death ;
+    jp:hasPlaceRelation jp:Relation_Person_Q959392_Birth ;
+    jp:birthYear "1280"^^xsd:gYear ;
+    jp:deathYear "1345"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q9546 a jp:HistoricalPerson ;
+    rdfs:label "Al-Ghazali" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q9546" ;
+    jp:hasPlaceRelation jp:Relation_Person_Q9546_Birth ;
+    jp:hasPlaceRelation jp:Relation_Person_Q9546_Death ;
+    jp:birthYear "1056"^^xsd:gYear ;
+    jp:deathYear "1111"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_nissim_of_marseilles a jp:HistoricalPerson ;
+    rdfs:label "Nissim of Marseilles" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q8055 a jp:HistoricalPerson ;
+    rdfs:label "Razi (al-Razi)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q8055" ;
+    jp:birthYear "854"^^xsd:gYear ;
+    jp:deathYear "925"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q2903764 a jp:HistoricalPerson ;
+    rdfs:label "Salmon ben Yeruhim" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2903764" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_dawud_al_muqammis a jp:HistoricalPerson ;
+    rdfs:label "Dawud al-Muqammis" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_shem_tov_ibn_shem_tov a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ibn Shem Tov" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_mordecai_comtino a jp:HistoricalPerson ;
+    rdfs:label "Mordecai Comtino" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_moses_ben_judah a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Judah" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q194803 a jp:HistoricalPerson ;
+    rdfs:label "Yefet ben Eli" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q194803" ;
+    jp:birthYear "950"^^xsd:gYear ;
+    jp:deathYear "1010"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q5241453 a jp:HistoricalPerson ;
+    rdfs:label "David Messer Leon" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q5241453" ;
+    jp:birthYear "1470"^^xsd:gYear ;
+    jp:deathYear "1526"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_tanhum_ha_yerushalmi a jp:HistoricalPerson ;
+    rdfs:label "Tanhum ha-Yerushalmi" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q4670201 a jp:HistoricalPerson ;
+    rdfs:label "Abraham Shalom" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4670201" ;
+    jp:birthYear "1400"^^xsd:gYear ;
+    jp:deathYear "1492"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Person_Q4661766 a jp:HistoricalPerson ;
+    rdfs:label "Aaron ben Joseph (Karaite)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4661766" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+

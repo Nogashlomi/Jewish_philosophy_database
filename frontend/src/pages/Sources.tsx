@@ -61,13 +61,13 @@ const Sources: React.FC = () => {
 
                                     <div className="mt-5 flex items-center gap-4 text-sm">
                                         <div className="bg-gray-50 px-3 py-1 rounded-full border border-gray-100 text-gray-600 font-medium">
-                                            {source.count} Scholarly Works
+                                            {source.count} Connected Entities
                                         </div>
                                         <Link
-                                            to={`/scholarly?source=${encodeURIComponent(source.id)}`}
+                                            to={`/sources/${encodeURIComponent(source.id)}`}
                                             className="text-primary-600 hover:text-primary-700 font-medium flex items-center gap-1 group"
                                         >
-                                            View Works
+                                            View
                                             <span className="group-hover:translate-x-0.5 transition-transform">→</span>
                                         </Link>
                                     </div>

@@ -4,11 +4,17 @@ __pycache__/
 *$py.class
 venv/
 .env
+.pytest_cache/
 
 # Node
 node_modules/
 dist/
 .DS_Store
+
+# Logs & temp files
+*.log
+app.log
+uvicorn.log
 
 # Vite
 *.local

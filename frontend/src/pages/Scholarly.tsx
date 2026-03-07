@@ -116,9 +116,20 @@ export default function Scholarly() {
             },
         },
         {
-            accessorKey: "source",
-            header: "Source",
-            cell: ({ row }) => <span className="text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded">{row.original.source?.label || "-"}</span>,
+            accessorKey: "sources",
+            header: "Sources",
+            cell: ({ row }) => (
+                <div className="flex flex-wrap gap-1">
+                    {row.original.sources && row.original.sources.length > 0
+                        ? row.original.sources.map(s => (
+                            <span key={s.id} className="text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                                {s.label}
+                            </span>
+                        ))
+                        : <span className="text-xs text-gray-400">-</span>
+                    }
+                </div>
+            ),
         },
         {
             accessorKey: "year",

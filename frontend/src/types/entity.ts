@@ -2,17 +2,30 @@ export interface PersonList {
     id: string
     uri: string
     label: string
+    birth_year?: string
+    death_year?: string
     workCount: number
     mentionCount: number
     places: string
     times: string
 }
 
+export interface PaginatedResponse<T> {
+    items: T[]
+    total: number
+    page: number
+    page_size: number
+    total_pages: number
+}
+
 export interface WorkList {
     id: string
     uri: string
     title: string
-    authors: string
+    creation_year?: string
+    authors?: string
+    subjects?: string
+    languages?: string
     mentionCount: number
 }
 
@@ -53,7 +66,7 @@ export interface ScholarlyList {
     title: string
     year?: string
     authors: Scholar[]
-    source?: Source
+    sources?: Source[]
     publisher?: string
     type?: string
     mentions_person_count: number
@@ -65,11 +78,14 @@ export interface PersonDetail {
     id: string
     uri: string
     label: string
+    sources: string[]
     authorities: string[]
     works: RelatedWork[]
     scholarly: ScholarlyMention[]
     places: PlaceRelation[]
     times: TimeRelation[]
+    subjects?: string[]
+    languages?: string[]
 }
 
 export interface RelatedWork {

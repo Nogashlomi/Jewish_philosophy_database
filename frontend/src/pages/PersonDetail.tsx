@@ -112,6 +112,60 @@ export default function PersonDetail() {
                         </div>
                     )}
 
+                    {/* Subjects */}
+                    {person.subjects && person.subjects.length > 0 && (
+                        <div className="flex items-start gap-3">
+                            <BookOpen className="h-5 w-5 text-indigo-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Subjects</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {person.subjects.map((sub: string, idx: number) => (
+                                        <span key={idx} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-50 text-purple-700 hover:bg-purple-100">
+                                            {sub}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Languages */}
+                    {person.languages && person.languages.length > 0 && (
+                        <div className="flex items-start gap-3">
+                            <BookOpen className="h-5 w-5 text-indigo-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Languages</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {person.languages.map((lang: string, idx: number) => (
+                                        <span key={idx} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-50 text-teal-700 hover:bg-teal-100">
+                                            {lang}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Sources */}
+                    {person.sources && person.sources.length > 0 && (
+                        <div className="flex items-start gap-3 border-t border-gray-100 pt-6">
+                            <BookOpen className="h-5 w-5 text-gray-400 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Data Sources</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {person.sources.map((src: string, idx: number) => (
+                                        <span
+                                            key={idx}
+                                            className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800"
+                                        >
+                                            {src}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
                     {/* Authority Links */}
                     {person.authorities && person.authorities.length > 0 && (
                         <div className="flex items-start gap-3 border-t border-gray-100 pt-6">
@@ -119,7 +173,7 @@ export default function PersonDetail() {
                             <div>
                                 <h3 className="font-medium text-gray-900">External Authorities</h3>
                                 <div className="mt-1 space-y-1">
-                                    {person.authorities.map((auth, idx) => (
+                                    {person.authorities.map((auth: string, idx: number) => (
                                         <a
                                             key={idx}
                                             href={auth}

@@ -33,6 +33,45 @@ export default function WorkDetail() {
                 </div>
 
                 <div className="p-6 space-y-8">
+                    {/* Basic Info / Times */}
+                    {work.times && work.times.length > 0 && (
+                        <div className="flex items-start gap-3">
+                            <BookOpen className="h-5 w-5 text-teal-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Time Period</h3>
+                                <div className="mt-1 space-y-1">
+                                    {work.times.map((time: any, idx: number) => (
+                                        <div key={idx} className="text-gray-600">
+                                            {time.start} - {time.end} {time.type && <span className="text-xs text-gray-400">({time.type})</span>}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Places */}
+                    {work.places && work.places.length > 0 && (
+                        <div className="flex items-start gap-3">
+                            <BookOpen className="h-5 w-5 text-teal-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Related Places</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {work.places.map((place: any, idx: number) => (
+                                        <Link
+                                            key={idx}
+                                            to={`/places/${place.place_id}`}
+                                            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100"
+                                        >
+                                            {place.label}
+                                            {place.type && <span className="ml-1 opacity-60">({place.type})</span>}
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
                     {/* Authors */}
                     {work.authors && work.authors.length > 0 && (
                         <div className="flex items-start gap-3">
@@ -87,6 +126,26 @@ export default function WorkDetail() {
                                             className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800"
                                         >
                                             {lang}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Sources */}
+                    {work.sources && work.sources.length > 0 && (
+                        <div className="flex items-start gap-3">
+                            <BookOpen className="h-5 w-5 text-teal-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Data Sources</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {work.sources.map((src: string, idx: number) => (
+                                        <span
+                                            key={idx}
+                                            className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800"
+                                        >
+                                            {src}
                                         </span>
                                     ))}
                                 </div>

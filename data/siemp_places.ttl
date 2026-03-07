@@ -1,0 +1,187 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Place_Q101625 a jp:Place ;
+    rdfs:label "Marrakesh" ;
+    jp:latitude 3.162947e+01 ;
+    jp:longitude -7.98108e+00 .
+
+jp:Place_Q10305 a jp:Place ;
+    rdfs:label "Zaragoza" ;
+    jp:latitude 4.165e+01 ;
+    jp:longitude -8.833333e-01 .
+
+jp:Place_Q12155 a jp:Place ;
+    rdfs:label "Soria" ;
+    jp:latitude 4.176667e+01 ;
+    jp:longitude -2.466667e+00 .
+
+jp:Place_Q1218 a jp:Place ;
+    rdfs:label "Jerusalem" ;
+    jp:latitude 3.177889e+01 ;
+    jp:longitude 3.522556e+01 .
+
+jp:Place_Q13367 a jp:Place ;
+    rdfs:label "Forlì" ;
+    jp:latitude 4.42225e+01 ;
+    jp:longitude 1.204083e+01 .
+
+jp:Place_Q1492 a jp:Place ;
+    rdfs:label "Barcelona" ;
+    jp:latitude 4.13825e+01 ;
+    jp:longitude 2.176944e+00 .
+
+jp:Place_Q1524 a jp:Place ;
+    rdfs:label "Athens" ;
+    jp:latitude 3.798417e+01 ;
+    jp:longitude 2.372806e+01 .
+
+jp:Place_Q1644430 a jp:Place ;
+    rdfs:label "Monreal del Campo" ;
+    jp:latitude 4.078946e+01 ;
+    jp:longitude -1.353501e+00 .
+
+jp:Place_Q1891 a jp:Place ;
+    rdfs:label "Bologna" ;
+    jp:latitude 4.449389e+01 ;
+    jp:longitude 1.134278e+01 .
+
+jp:Place_Q2028 a jp:Place ;
+    rdfs:label "Verona" ;
+    jp:latitude 4.543861e+01 ;
+    jp:longitude 1.099278e+01 .
+
+jp:Place_Q203299 a jp:Place ;
+    rdfs:label "Faiyum" ;
+    jp:latitude 2.93e+01 ;
+    jp:longitude 3.083333e+01 .
+
+jp:Place_Q209862 a jp:Place ;
+    rdfs:label "Largentière" ;
+    jp:latitude 4.454278e+01 ;
+    jp:longitude 4.293333e+00 .
+
+jp:Place_Q23482 a jp:Place ;
+    rdfs:label "Marseille" ;
+    jp:latitude 4.329667e+01 ;
+    jp:longitude 5.376389e+00 .
+
+jp:Place_Q244747 a jp:Place ;
+    rdfs:label "Tudela" ;
+    jp:latitude 4.206528e+01 ;
+    jp:longitude -1.606667e+00 .
+
+jp:Place_Q274183 a jp:Place ;
+    rdfs:label "Bagnols-sur-Cèze" ;
+    jp:latitude 4.41625e+01 ;
+    jp:longitude 4.62e+00 .
+
+jp:Place_Q28587 a jp:Place ;
+    rdfs:label "Hamadan" ;
+    jp:latitude 3.48e+01 ;
+    jp:longitude 4.851667e+01 .
+
+jp:Place_Q318082 a jp:Place ;
+    rdfs:label "Lunel" ;
+    jp:latitude 4.367694e+01 ;
+    jp:longitude 4.135278e+00 .
+
+jp:Place_Q4072887 a jp:Place ;
+    rdfs:label "Afshona" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q4072887" ;
+    jp:coordinates "Point(64.379166666 39.994444444)" .
+
+jp:Place_Q4446399 a jp:Place ;
+    rdfs:label "Sura" ;
+    jp:latitude 3.18833e+01 ;
+    jp:longitude 4.445e+01 .
+
+jp:Place_Q46165 a jp:Place ;
+    rdfs:label "Montecchio Maggiore" ;
+    jp:latitude 4.550369e+01 ;
+    jp:longitude 1.1412e+01 .
+
+jp:Place_Q48292 a jp:Place ;
+    rdfs:label "Arles" ;
+    jp:latitude 4.367694e+01 ;
+    jp:longitude 4.628611e+00 .
+
+jp:Place_Q501114 a jp:Place ;
+    rdfs:label "Villefranche-de-Conflent" ;
+    jp:latitude 4.258722e+01 ;
+    jp:longitude 2.367778e+00 .
+
+jp:Place_Q5818 a jp:Place ;
+    rdfs:label "Córdoba" ;
+    jp:latitude 3.789e+01 ;
+    jp:longitude -4.78e+00 .
+
+jp:Place_Q597 a jp:Place ;
+    rdfs:label "Lisbon" ;
+    jp:latitude 3.870804e+01 ;
+    jp:longitude -9.139016e+00 .
+
+jp:Place_Q6397 a jp:Place ;
+    rdfs:label "Avignon" ;
+    jp:latitude 4.394861e+01 ;
+    jp:longitude 4.808333e+00 .
+
+jp:Place_Q641 a jp:Place ;
+    rdfs:label "Venice" ;
+    jp:latitude 4.543972e+01 ;
+    jp:longitude 1.233194e+01 .
+
+jp:Place_Q642046 a jp:Place ;
+    rdfs:label "Calahorra" ;
+    jp:latitude 4.230333e+01 ;
+    jp:longitude -1.964722e+00 .
+
+jp:Place_Q6555 a jp:Place ;
+    rdfs:label "Narbonne" ;
+    jp:latitude 4.318472e+01 ;
+    jp:longitude 3.003611e+00 .
+
+jp:Place_Q6662 a jp:Place ;
+    rdfs:label "Cesena" ;
+    jp:latitude 4.413333e+01 ;
+    jp:longitude 1.223333e+01 .
+
+jp:Place_Q6730 a jp:Place ;
+    rdfs:label "Perpignan" ;
+    jp:latitude 4.26975e+01 ;
+    jp:longitude 2.894722e+00 .
+
+jp:Place_Q681427 a jp:Place ;
+    rdfs:label "Tus" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q681427" ;
+    jp:coordinates "Point(59.517555555 36.486138888)" .
+
+jp:Place_Q85 a jp:Place ;
+    rdfs:label "Cairo" ;
+    jp:latitude 3.004444e+01 ;
+    jp:longitude 3.123583e+01 .
+
+jp:Place_Q8810 a jp:Place ;
+    rdfs:label "Granada" ;
+    jp:latitude 3.7175e+01 ;
+    jp:longitude -3.6e+00 .
+
+jp:Place_Q8818 a jp:Place ;
+    rdfs:label "Valencia" ;
+    jp:latitude 3.947e+01 ;
+    jp:longitude -3.763889e-01 .
+
+jp:Place_Q8828 a jp:Place ;
+    rdfs:label "Mallorca" ;
+    jp:latitude 3.961667e+01 ;
+    jp:longitude 2.983333e+00 .
+
+jp:Place_Q8851 a jp:Place ;
+    rdfs:label "Málaga" ;
+    jp:latitude 3.671667e+01 ;
+    jp:longitude -4.416667e+00 .
+
+jp:Place_Toledo jp:latitude 3.986667e+01 ;
+    jp:longitude -4.033333e+00 .
+

@@ -1,0 +1,177 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Work_Q1140185 a jp:HistoricalWork ;
+    rdfs:label "Guide of the Perplexed (Maimonides)" ;
+    jp:title "Guide of the Perplexed (Maimonides)" ;
+    jp:writtenBy jp:Person_Q127398 ;
+    jp:publicationYear "1190"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q661655 a jp:HistoricalWork ;
+    rdfs:label "Metaphysics (Aristotle)" ;
+    jp:title "Metaphysics (Aristotle)" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:publicationYear "400"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q2315123 a jp:HistoricalWork ;
+    rdfs:label "Kuzari" ;
+    jp:title "Kuzari" ;
+    jp:writtenBy jp:Person_Q299200 ;
+    jp:publicationYear "1140"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1051198 a jp:HistoricalWork ;
+    rdfs:label "Physics (Aristotle)" ;
+    jp:title "Physics (Aristotle)" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q3553699 a jp:HistoricalWork ;
+    rdfs:label "Wars of the Lord (Gersonides)" ;
+    jp:title "Wars of the Lord (Gersonides)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q6846193 a jp:HistoricalWork ;
+    rdfs:label "Midrash ha-Hokhmah" ;
+    jp:title "Midrash ha-Hokhmah" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q7099168 a jp:HistoricalWork ;
+    rdfs:label "Or Adonai (Crescas)" ;
+    jp:title "Or Adonai (Crescas)" ;
+    jp:writtenBy jp:Person_Q528415 ;
+    jp:publicationYear "1400"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q201029 a jp:HistoricalWork ;
+    rdfs:label "Mishneh Torah (Maimonides)" ;
+    jp:title "Mishneh Torah (Maimonides)" ;
+    jp:writtenBy jp:Person_Q127398 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1180576 a jp:HistoricalWork ;
+    rdfs:label "De Anima" ;
+    jp:title "De Anima" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q6654700 a jp:HistoricalWork ;
+    rdfs:label "Livyat Hen" ;
+    jp:title "Livyat Hen" ;
+    jp:publicationYear "2007"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q5370978 a jp:HistoricalWork ;
+    rdfs:label "Emunah Ramah" ;
+    jp:title "Emunah Ramah" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q474537 a jp:HistoricalWork ;
+    rdfs:label "Nicomachean Ethics" ;
+    jp:title "Nicomachean Ethics" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_malmad_ha_talmidim a jp:HistoricalWork ;
+    rdfs:label "Malmad ha-Talmidim" ;
+    jp:title "Malmad ha-Talmidim" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q500930 a jp:HistoricalWork ;
+    rdfs:label "Organon" ;
+    jp:title "Organon" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1432428 a jp:HistoricalWork ;
+    rdfs:label "Fons Vitae" ;
+    jp:title "Fons Vitae" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q5157166 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Torah (Gersonides)" ;
+    jp:title "Commentary on the Torah (Gersonides)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q123397 a jp:HistoricalWork ;
+    rdfs:label "Republic (Plato)" ;
+    jp:title "Republic (Plato)" ;
+    jp:writtenBy jp:Person_Q859 ;
+    jp:publicationYear "1963"^^xsd:gYear ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_sefer_nefesh_ha_adam a jp:HistoricalWork ;
+    rdfs:label "Sefer Nefesh ha-Adam" ;
+    jp:title "Sefer Nefesh ha-Adam" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q205388 a jp:HistoricalWork ;
+    rdfs:label "Zohar" ;
+    jp:title "Zohar" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q331011 a jp:HistoricalWork ;
+    rdfs:label "De Caelo" ;
+    jp:title "De Caelo" ;
+    jp:writtenBy jp:Person_Q868 ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q42189176 a jp:HistoricalWork ;
+    rdfs:label "Duties of the Heart" ;
+    jp:title "Duties of the Heart" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_quaestio_de_attributis a jp:HistoricalWork ;
+    rdfs:label "Quaestio de attributis" ;
+    jp:title "Quaestio de attributis" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q4076534 a jp:HistoricalWork ;
+    rdfs:label "Long Commentary on the Metaphysics (Averroes)" ;
+    jp:title "Long Commentary on the Metaphysics (Averroes)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q5264773 a jp:HistoricalWork ;
+    rdfs:label "Book of the Beginning of Wisdom (Ibn Ezra)" ;
+    jp:title "Book of the Beginning of Wisdom (Ibn Ezra)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q4879196 a jp:HistoricalWork ;
+    rdfs:label "Behinat ha-Dat" ;
+    jp:title "Behinat ha-Dat" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q6807399 a jp:HistoricalWork ;
+    rdfs:label "Medical Aphorisms (Maimonides)" ;
+    jp:title "Medical Aphorisms (Maimonides)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_or_ammim a jp:HistoricalWork ;
+    rdfs:label "Or Ammim" ;
+    jp:title "Or Ammim" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1151350 a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Mishnah (Maimonides)" ;
+    jp:title "Commentary on the Mishnah (Maimonides)" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1086073 a jp:HistoricalWork ;
+    rdfs:label "Book of Beliefs and Opinions" ;
+    jp:title "Book of Beliefs and Opinions" ;
+    jp:hasSource jp:Source_Harvey_Reports .
+
+jp:Work_Q1140185 jp:writtenBy jp:Person_Q127398 .
+jp:Work_Q661655 jp:writtenBy jp:Person_Q868 .
+jp:Work_Q2315123 jp:writtenBy jp:Person_Q299200 .
+jp:Work_Q1051198 jp:writtenBy jp:Person_Q868 .
+jp:Work_Q7099168 jp:writtenBy jp:Person_Q528415 .
+jp:Work_Q201029 jp:writtenBy jp:Person_Q127398 .
+jp:Work_Q1180576 jp:writtenBy jp:Person_Q868 .
+jp:Work_Q474537 jp:writtenBy jp:Person_Q868 .
+jp:Work_Q500930 jp:writtenBy jp:Person_Q868 .
+jp:Work_Q123397 jp:writtenBy jp:Person_Q859 .
+jp:Work_Q331011 jp:writtenBy jp:Person_Q868 .

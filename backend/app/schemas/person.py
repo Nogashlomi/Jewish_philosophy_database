@@ -30,18 +30,20 @@ class PersonDetail(BaseModel):
     id: str
     uri: str
     label: str
-    source: Optional[str] = None  # Source attribution (e.g., "Wikidata")
+    sources: List[str] = []  # Source attributions (e.g., "Wikidata")
     authorities: List[str] = []
     works: List[RelatedWork] = []
     scholarly: List[ScholarlyMention] = []
     places: List[PlaceRelation] = []
     times: List[TimeRelation] = []
+    subjects: List[str] = []
+    languages: List[str] = []
 
 class PersonList(BaseModel):
     id: str
     uri: str
     label: str
-    workCount: int
-    mentionCount: int
-    places: str
-    times: str
+    birth_year: Optional[str] = None
+    death_year: Optional[str] = None
+    places: Optional[str] = None
+    times: Optional[str] = None

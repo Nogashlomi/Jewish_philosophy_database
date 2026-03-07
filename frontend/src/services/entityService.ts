@@ -1,15 +1,17 @@
 import api from './api'
-import type { PersonList, WorkList, PlaceList, SubjectList, LanguageList, ScholarlyList, PersonDetail } from '../types/entity'
+import type { PersonList, WorkList, PlaceList, SubjectList, LanguageList, ScholarlyList, PersonDetail, PaginatedResponse } from '../types/entity'
 
 export const entityService = {
-    getPersons: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<PersonList[]>('/persons/', { params })
+    getPersons: async (source?: string, page: number = 1, page_size: number = 100) => {
+        const params: Record<string, any> = { page, page_size }
+        if (source) params.source = source
+        const response = await api.get<PaginatedResponse<PersonList>>('/persons/', { params })
         return response.data
     },
-    getWorks: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<WorkList[]>('/works/', { params })
+    getWorks: async (source?: string, page: number = 1, page_size: number = 100) => {
+        const params: Record<string, any> = { page, page_size }
+        if (source) params.source = source
+        const response = await api.get<PaginatedResponse<WorkList>>('/works/', { params })
         return response.data
     },
     getPlaces: async (source?: string) => {

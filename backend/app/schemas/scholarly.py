@@ -22,7 +22,7 @@ class ScholarlyDetail(BaseModel):
     title: str
     year: Optional[str] = None
     authors: List[Scholar] = []
-    source: Optional[Source] = None
+    sources: List[Source] = []
     mentions_person: List[MentionedPerson] = []
     mentions_work: List[MentionedWork] = []
 
@@ -32,7 +32,7 @@ class ScholarlyList(BaseModel):
     title: str
     year: Optional[str] = None
     authors: List[Scholar] = []
-    source: Optional[Source] = None
+    sources: List[Source] = []
     publisher: Optional[str] = None
     type: Optional[str] = None
     mentions_person_count: int = 0

@@ -19,6 +19,7 @@ import MapView from './pages/Map'
 import Network from './pages/Network'
 import Ontology from './pages/Ontology'
 import Sources from './pages/Sources'
+import SourceDetail from './pages/SourceDetail'
 
 const queryClient = new QueryClient()
 
@@ -45,6 +46,7 @@ function App() {
             <Route path="network" element={<Network />} />
             <Route path="ontology" element={<Ontology />} />
             <Route path="sources" element={<Sources />} />
+            <Route path="sources/:id" element={<SourceDetail />} />
             {/* Additional routes will be added here */}
             <Route path="*" element={<div className="p-8">Page Not Found</div>} />
           </Route>

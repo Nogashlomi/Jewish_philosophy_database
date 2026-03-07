@@ -9,6 +9,7 @@ class RDFStore:
         self.store_type = store_type
         self.store_path = store_path
         self.g = None
+        self._cache = {}  # query_str -> list of result rows
         self._init_graph()
 
     def _init_graph(self):
@@ -36,26 +37,15 @@ class RDFStore:
         """Load all TTL files into the graph."""
         from app.core.config import settings
         import os
-        
         data_files = [
-            "cleaned/cleaned_persons.ttl",
-            "cleaned/cleaned_works.ttl",
-            "cleaned/cleaned_places.ttl",
-            "cleaned/cleaned_subjects.ttl",
-            "cleaned/cleaned_scholarly.ttl",
-            "cleaned/cleaned_sources.ttl",
-            "ontology/vocabulary.ttl",
-            "cleaned/cleaned_other.ttl",
-            "wikidata_place_coordinates.ttl",
-            "wikidata_place_relations_new.ttl",
-            "wikidata_places_new.ttl",
-            "wikidata_time_relations.ttl",
-            "wikidata_persons.ttl",
-            "wikidata_works.ttl",
-            "place_relations.ttl",
-            "time_data.ttl"
-        ]
-        
+            "siemp_persons.ttl",
+            "siemp_works.ttl",
+            "siemp_places.ttl",
+            "siemp_place_relations.ttl",
+            "siemp_extra_data.ttl",
+            "sources.ttl",
+            "ontology/vocabulary.ttl"
+        ]        
         for filename in data_files:
             try:
                 file_path = os.path.join(settings.DATA_DIR, filename)
@@ -65,8 +55,15 @@ class RDFStore:
                 print(f"Warning: Could not load {filename}: {e}")
         
         print(f"Graph loaded with {len(self.g)} triples.")
+        self._cache.clear()  # Invalidate cache after reload
+        print("Query cache cleared.")
 
     def query(self, query_str: str, **kwargs):
+        # Only cache queries with no runtime bindings (list/stats queries)
+        if not kwargs:
+            if query_str not in self._cache:
+                self._cache[query_str] = list(self.g.query(query_str))
+            return self._cache[query_str]
         return self.g.query(query_str, **kwargs)
 
     def close(self):
