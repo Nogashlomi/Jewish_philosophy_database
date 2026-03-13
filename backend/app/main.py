@@ -32,12 +32,29 @@ async def lifespan(app: FastAPI):
 # Initialize App with lifespan
 app = FastAPI(title=settings.APP_NAME, version=settings.VERSION, lifespan=lifespan)
 
-# CORS Configuration (from environment variables)
+# CORS Configuration - Allow production and development origins
 from fastapi.middleware.cors import CORSMiddleware
-origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
+import os
+
+# Build CORS origins list from config with fallback to explicit list
+config_origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
+
+# Ensure production Render domains are always included
+production_origins = [
+    "https://pjh-frontend.onrender.com",
+    "https://pjh.onrender.com",
+    "https://pjh-frontend-i8oj.onrender.com",
+    "https://pjh-backend-i8oj.onrender.com",
+]
+
+# Combine: use config origins, but ensure production domains are included
+all_origins = list(set(config_origins + production_origins))
+
+print(f"DEBUG: CORS origins configured: {all_origins}")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=all_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
