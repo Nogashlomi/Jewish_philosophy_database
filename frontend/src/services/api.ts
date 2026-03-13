@@ -8,9 +8,9 @@ function getApiBaseUrl(): string {
         return envUrl
     }
 
-    // 2. On Render production (pjh-frontend.onrender.com), use backend service
-    if (typeof window !== 'undefined' && window.location.hostname === 'pjh-frontend.onrender.com') {
-        return 'https://pjh-backend-i8oj.onrender.com/api/v1'
+    // 2. On Render production, use backend service
+    if (typeof window !== 'undefined' && (window.location.hostname === 'pjh-frontend.onrender.com' || window.location.hostname === 'pjh_frontend.onrender.com')) {
+        return 'https://pjh_backend.onrender.com/api/v1'
     }
 
     // 3. Default to relative URL for local development

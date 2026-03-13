@@ -43,8 +43,8 @@ config_origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",
 production_origins = [
     "https://pjh-frontend.onrender.com",
     "https://pjh.onrender.com",
-    "https://pjh-frontend-i8oj.onrender.com",
-    "https://pjh-backend-i8oj.onrender.com",
+    "https://pjh_frontend.onrender.com",
+    "https://pjh_backend.onrender.com",
 ]
 
 # Combine: use config origins, but ensure production domains are included
