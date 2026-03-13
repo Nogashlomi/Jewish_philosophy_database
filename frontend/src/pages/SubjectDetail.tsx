@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
-import { Loader2, ArrowLeft, Hash, BookOpen } from 'lucide-react'
+import { Loader2, ArrowLeft, BookOpen } from 'lucide-react'
 
 export default function SubjectDetail() {
     const { id } = useParams<{ id: string }>()

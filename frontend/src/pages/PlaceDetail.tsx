@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
-import { Loader2, ArrowLeft, MapPin, Users } from 'lucide-react'
+import { Loader2, ArrowLeft, Users } from 'lucide-react'
 
 export default function PlaceDetail() {
     const { id } = useParams<{ id: string }>()

@@ -124,7 +124,7 @@ export default function Places() {
         {
             accessorKey: "type",
             header: "Type",
-            cell: ({ row }) => <span className="text-gray-500">{row.original.type || "-"}</span>,
+            cell: ({ row }) => <span className="text-gray-500">{(row.original as any).type || "-"}</span>,
         },
     ]
 

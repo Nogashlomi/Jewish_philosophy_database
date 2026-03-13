@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
-import { Loader2, ArrowLeft, GraduationCap, Link as LinkIcon, User, BookOpen } from 'lucide-react'
+import { Loader2, ArrowLeft, Link as LinkIcon, User, BookOpen } from 'lucide-react'
 
 export default function ScholarlyDetail() {
     const { id } = useParams<{ id: string }>()
