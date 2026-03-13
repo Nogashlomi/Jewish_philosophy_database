@@ -6,7 +6,7 @@ import 'rc-slider/assets/index.css'
 import 'leaflet/dist/leaflet.css'
 import { Link } from 'react-router-dom'
 import { Loader2 } from 'lucide-react'
-import axios from 'axios'
+import api from '../services/api'
 import L from 'leaflet'
 
 // Fix for default marker icon (even though we use CircleMarker, good to have)
@@ -47,7 +47,7 @@ import SourceFilter from '../components/SourceFilter'
 
 const fetchGeoJSON = async (source?: string | null) => {
     const params = source ? { source } : {}
-    const { data } = await axios.get<GeoJSONResponse>('/api/geojson', { params })
+    const { data } = await api.get<GeoJSONResponse>('/geojson', { params })
     return data
 }
 
