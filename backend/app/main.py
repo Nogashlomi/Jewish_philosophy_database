@@ -76,6 +76,6 @@ from app.services.entity_service import entity_service
 from fastapi import Query
 from typing import Optional
 
-@app.get("/api/geojson")
+@app.get("/api/v1/geojson")
 async def get_geojson_points(source: Optional[str] = Query(None, description="Filter by data source ID")):
     return entity_service.get_geo_json(source=source)
