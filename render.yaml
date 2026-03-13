@@ -11,7 +11,7 @@ services:
       - key: ENVIRONMENT
         value: production
       - key: ALLOWED_ORIGINS
-        value: https://pjh.onrender.com
+        value: https://pjh-frontend.onrender.com,https://pjh.onrender.com
 
   - type: web
     name: pjh-frontend
@@ -21,7 +21,7 @@ services:
     startCommand: "npm run preview"
     envVars:
       - key: VITE_API_BASE_URL
-        value: https://pjh-backend.onrender.com/api/v1
+        value: https://pjh-backend-i8oj.onrender.com/api/v1
     routes:
       - path: /
         destination: /
