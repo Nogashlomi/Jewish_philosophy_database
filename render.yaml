@@ -21,7 +21,7 @@ services:
     startCommand: "npm run preview"
     envVars:
       - key: VITE_API_BASE_URL
-        value: https://pjh_backend.onrender.com/api/v1
+        value: https://pjh-backend-i8oj.onrender.com/api/v1
     routes:
       - path: /
         destination: /
