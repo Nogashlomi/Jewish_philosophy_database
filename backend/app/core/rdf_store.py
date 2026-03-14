@@ -41,23 +41,32 @@ class RDFStore:
 
         data_dir = Path(settings.DATA_DIR)
 
+        print(f"\n=== RDF Data Loading Started ===")
+        print(f"DATA_DIR: {data_dir}")
+        print(f"DATA_DIR exists: {data_dir.exists()}")
+
         # Find all TTL files recursively
         ttl_files = sorted(data_dir.rglob("*.ttl"))
+        print(f"Found {len(ttl_files)} TTL files")
 
         if not ttl_files:
-            print(f"Warning: No TTL files found in {data_dir}")
+            print(f"ERROR: No TTL files found in {data_dir}")
             return
 
+        loaded_count = 0
         for file_path in ttl_files:
             try:
-                print(f"Loading {file_path}...")
+                print(f"  Loading {file_path.name}...", end=" ")
                 self.g.parse(str(file_path), format="turtle")
+                loaded_count += 1
+                print(f"OK ({len(self.g)} triples total)")
             except Exception as e:
-                print(f"Warning: Could not load {file_path.name}: {e}")
+                print(f"FAILED: {str(e)[:100]}")
 
-        print(f"Graph loaded with {len(self.g)} triples from {len(ttl_files)} TTL files.")
+        print(f"\n✓ Graph loaded with {len(self.g)} triples from {loaded_count}/{len(ttl_files)} files.")
         self._cache.clear()  # Invalidate cache after reload
-        print("Query cache cleared.")
+        print("✓ Query cache cleared.")
+        print("=== RDF Data Loading Complete ===\n")
 
     def query(self, query_str: str, **kwargs):
         # Only cache queries with no runtime bindings (list/stats queries)
