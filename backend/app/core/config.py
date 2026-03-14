@@ -15,10 +15,11 @@ class Settings(BaseSettings):
     # parent -> backend/app
     # parent -> backend
     BACKEND_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    # Data is in sibling of backend: ../data
+    PROJECT_ROOT: str = os.path.dirname(BACKEND_DIR)
 
-    # Data is in backend/data directory
-    DATA_DIR: str = os.path.join(BACKEND_DIR, "data")
-    ONTOLOGY_DIR: str = os.path.join(BACKEND_DIR, "data/ontology")
+    DATA_DIR: str = os.path.join(PROJECT_ROOT, "data")
+    ONTOLOGY_DIR: str = os.path.join(PROJECT_ROOT, "data/ontology")
 
     class Config:
         env_file = ".env"
