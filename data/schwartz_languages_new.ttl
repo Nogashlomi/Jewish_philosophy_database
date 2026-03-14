@@ -1,0 +1,8 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Language entities - new ones needed for Schwartz entries
+
+jp:Language_German a jp:HistoricalLanguage ;
+    rdfs:label "German" .
+

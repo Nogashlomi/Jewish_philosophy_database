@@ -34,27 +34,28 @@ class RDFStore:
         self.g.bind("sh", SH)
         
     def load_data(self):
-        """Load all TTL files into the graph."""
+        """Load all TTL files from the data directory dynamically."""
         from app.core.config import settings
         import os
-        data_files = [
-            "siemp_persons.ttl",
-            "siemp_works.ttl",
-            "siemp_places.ttl",
-            "siemp_place_relations.ttl",
-            "siemp_extra_data.ttl",
-            "sources.ttl",
-            "ontology/vocabulary.ttl"
-        ]        
-        for filename in data_files:
+        from pathlib import Path
+
+        data_dir = Path(settings.DATA_DIR)
+
+        # Find all TTL files recursively
+        ttl_files = sorted(data_dir.rglob("*.ttl"))
+
+        if not ttl_files:
+            print(f"Warning: No TTL files found in {data_dir}")
+            return
+
+        for file_path in ttl_files:
             try:
-                file_path = os.path.join(settings.DATA_DIR, filename)
                 print(f"Loading {file_path}...")
-                self.g.parse(file_path, format="turtle")
+                self.g.parse(str(file_path), format="turtle")
             except Exception as e:
-                print(f"Warning: Could not load {filename}: {e}")
-        
-        print(f"Graph loaded with {len(self.g)} triples.")
+                print(f"Warning: Could not load {file_path.name}: {e}")
+
+        print(f"Graph loaded with {len(self.g)} triples from {len(ttl_files)} TTL files.")
         self._cache.clear()  # Invalidate cache after reload
         print("Query cache cleared.")
 

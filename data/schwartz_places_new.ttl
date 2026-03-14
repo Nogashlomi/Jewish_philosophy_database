@@ -1,0 +1,56 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Place entities - new places for Schwartz entries
+
+jp:Place_Q64 a jp:Place ;
+    rdfs:label "Berlin" ;
+    jp:latitude 52.52e+00 ;
+    jp:longitude 13.405e+00 .
+
+jp:Place_Q5584 a jp:Place ;
+    rdfs:label "Catalonia" ;
+    jp:latitude 41.5868e+00 ;
+    jp:longitude 1.1544e+00 .
+
+jp:Place_Q38 a jp:Place ;
+    rdfs:label "Italy" ;
+    jp:latitude 41.8719e+00 ;
+    jp:longitude 12.5674e+00 .
+
+jp:Place_Q37 a jp:Place ;
+    rdfs:label "Lithuania" ;
+    jp:latitude 55.1694e+00 ;
+    jp:longitude 23.8813e+00 .
+
+jp:Place_Q17070 a jp:Place ;
+    rdfs:label "Provence" ;
+    jp:latitude 43.95e+00 ;
+    jp:longitude 5.55e+00 .
+
+jp:Place_Q220 a jp:Place ;
+    rdfs:label "Rome" ;
+    jp:latitude 41.9028e+00 ;
+    jp:longitude 12.4964e+00 .
+
+jp:Place_Q8644 a jp:Place ;
+    rdfs:label "Sicily" ;
+    jp:latitude 37.6e+00 ;
+    jp:longitude 13.9e+00 .
+
+jp:Place_Q16348 a jp:Place ;
+    rdfs:label "Southern France" ;
+    jp:latitude 43.0e+00 ;
+    jp:longitude 2.0e+00 .
+
+jp:Place_Q16348 a jp:Place ;
+    rdfs:label "Southern Italy" ;
+    jp:latitude 40.5e+00 ;
+    jp:longitude 15.5e+00 .
+
+jp:Place_Q29 a jp:Place ;
+    rdfs:label "Spain" ;
+    jp:latitude 40.4637e+00 ;
+    jp:longitude -3.7492e+00 .
+

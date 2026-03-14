@@ -1,0 +1,33 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+
+# Source updates for existing persons
+# These entries already exist in database but now have additional source
+
+
+# Exact matches:
+
+# Saadia Gaon
+jp:Person_Q328748
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+# Abraham ibn Ezra
+jp:Person_Q270670
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+# Abraham ibn Daud
+jp:Person_Q330821
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+# Maimonides
+jp:Person_Q127398
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+# Fuzzy matches (same persons with variant names):
+
+# Abraham bar Chijja = Abraham bar Hiyya
+jp:Person_Q31439
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+# Hillel ben Shmuel ben Elazar aus Verona = Hillel ben Samuel of Verona
+jp:Person_Q962334
+    jp:hasSource jp:Source_Yossi_German_Paper .
