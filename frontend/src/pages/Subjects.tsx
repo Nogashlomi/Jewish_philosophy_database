@@ -123,21 +123,6 @@ export default function Subjects() {
             ),
         },
         {
-            accessorKey: "authors",
-            header: ({ column }) => {
-                return (
-                    <button
-                        className="flex items-center hover:text-gray-900"
-                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-                    >
-                        Authors
-                        <ArrowUpDown className="ml-2 h-4 w-4" />
-                    </button>
-                )
-            },
-            cell: ({ row }) => <span className="text-gray-500">{row.original.authors || 0}</span>,
-        },
-        {
             accessorKey: "count",
             header: ({ column }) => {
                 return (
@@ -145,7 +130,7 @@ export default function Subjects() {
                         className="flex items-center hover:text-gray-900"
                         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
                     >
-                        Persons
+                        Authors
                         <ArrowUpDown className="ml-2 h-4 w-4" />
                     </button>
                 )
