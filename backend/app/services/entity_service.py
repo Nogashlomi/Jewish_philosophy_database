@@ -394,8 +394,8 @@ class EntityService:
                 id=row.uri.split("#")[-1],
                 label=str(row.label),
                 count=int(row.total),
-                works=int(row.total),
-                authors=int(row.author_count) if hasattr(row, 'author_count') and row.author_count else 0
+                works=int(row.work_count) if row.work_count else 0,
+                authors=0
             ))
         return results
 
@@ -462,7 +462,8 @@ class EntityService:
             results.append(LanguageList(
                 id=row.uri.split("#")[-1],
                 label=label,
-                count=int(row.total)
+                count=int(row.total),
+                works=int(row.work_count) if row.work_count else 0
             ))
         return results
 

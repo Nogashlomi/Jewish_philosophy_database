@@ -50,6 +50,7 @@ export interface LanguageList {
     id: string
     label: string
     count: number
+    works?: number
 }
 
 export interface Scholar {

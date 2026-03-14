@@ -152,6 +152,21 @@ export default function Subjects() {
             },
             cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
         },
+        {
+            accessorKey: "works",
+            header: ({ column }) => {
+                return (
+                    <button
+                        className="flex items-center hover:text-gray-900"
+                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+                    >
+                        Works
+                        <ArrowUpDown className="ml-2 h-4 w-4" />
+                    </button>
+                )
+            },
+            cell: ({ row }) => <span className="text-gray-500">{row.original.works || 0}</span>,
+        },
     ]
 
     if (loading) return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-indigo-500" /></div>

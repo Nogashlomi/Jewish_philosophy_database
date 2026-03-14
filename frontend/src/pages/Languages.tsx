@@ -127,6 +127,11 @@ export default function Languages() {
             header: "Person Count",
             cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
         },
+        {
+            accessorKey: "works",
+            header: "Works",
+            cell: ({ row }) => <span className="text-gray-500">{row.original.works || 0}</span>,
+        },
     ]
 
     if (loading) return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-indigo-500" /></div>

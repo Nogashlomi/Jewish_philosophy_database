@@ -13,3 +13,4 @@ class LanguageList(BaseModel):
     id: str
     label: str
     count: int
+    works: int = 0
