@@ -1,0 +1,208 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# New persons from Schwartz Primary Literature (Yossi's German Paper)
+# 27 entries extracted from "Zur Philosophie im Judentum" section
+
+jp:Person_Schwartz_israelis_isaac a jp:HistoricalPerson ;
+    rdfs:label "Isaak Israeli" ;
+    jp:hasTimeRelation jp:TimeRelation_isaak_israeli_0 ;
+    jp:hasTimeRelation jp:TimeRelation_isaak_israeli_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_qirqisani a jp:HistoricalPerson ;
+    rdfs:label "Abū Jūsuf Ja'qūb al-Qirqisānī" ;
+    jp:hasTimeRelation jp:TimeRelation_abu_jusuf_jaqub_al_qirq_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q156864 a jp:HistoricalPerson ;
+    rdfs:label "Avicebron (Salomon ben Judah ibn Gabirol)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q156864" ;
+    jp:hasTimeRelation jp:TimeRelation_avicebron_salomon_be_0 ;
+    jp:hasTimeRelation jp:TimeRelation_avicebron_salomon_be_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_avicebron_salomon_be_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q156789 a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Shmuel Halewi" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q156789" ;
+    jp:hasTimeRelation jp:TimeRelation_judah_ben_shmuel_hal_0 ;
+    jp:hasTimeRelation jp:TimeRelation_judah_ben_shmuel_hal_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_judah_ben_shmuel_hal_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_gundissalinus a jp:HistoricalPerson ;
+    rdfs:label "Dominicus Gundissalinus" ;
+    jp:hasTimeRelation jp:TimeRelation_dominicus_gundissali_0 ;
+    jp:hasTimeRelation jp:TimeRelation_dominicus_gundissali_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_reuben a jp:HistoricalPerson ;
+    rdfs:label "Ja'aqov ben Reuben" ;
+    jp:hasTimeRelation jp:TimeRelation_jaaqov_ben_reuben_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_tibbon_judah a jp:HistoricalPerson ;
+    rdfs:label "Judah ibn Tibbon" ;
+    jp:hasTimeRelation jp:TimeRelation_judah_ibn_tibbon_0 ;
+    jp:hasTimeRelation jp:TimeRelation_judah_ibn_tibbon_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_judah_ibn_tibbon_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_judah_ibn_tibbon_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_tibbon_samuel a jp:HistoricalPerson ;
+    rdfs:label "Shmuel ben Judah ibn Tibbon" ;
+    jp:hasTimeRelation jp:TimeRelation_shmuel_ben_judah_ibn_0 ;
+    jp:hasTimeRelation jp:TimeRelation_shmuel_ben_judah_ibn_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_shmuel_ben_judah_ibn_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_anatoli a jp:HistoricalPerson ;
+    rdfs:label "Ja'aqov Anatoli" ;
+    jp:hasTimeRelation jp:TimeRelation_jaaqov_anatoli_0 ;
+    jp:hasTimeRelation jp:TimeRelation_jaaqov_anatoli_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_jaaqov_anatoli_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_jaaqov_anatoli_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_tibbon_moses a jp:HistoricalPerson ;
+    rdfs:label "Moshe ibn Tibbon" ;
+    jp:hasTimeRelation jp:TimeRelation_moshe_ibn_tibbon_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_moshe_ibn_tibbon_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_salerno a jp:HistoricalPerson ;
+    rdfs:label "Moshe von Salerno" ;
+    jp:hasTimeRelation jp:TimeRelation_moshe_von_salerno_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_moshe_von_salerno_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_moshe_von_salerno_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_falaquera a jp:HistoricalPerson ;
+    rdfs:label "Shem-Tov ben Joseph ibn Falaquera" ;
+    jp:hasTimeRelation jp:TimeRelation_shem-tov_ben_joseph__0 ;
+    jp:hasTimeRelation jp:TimeRelation_shem-tov_ben_joseph__1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_shem-tov_ben_joseph__0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_abulafia a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Shmuel Abulafia" ;
+    jp:hasTimeRelation jp:TimeRelation_abraham_ben_shmuel_a_0 ;
+    jp:hasTimeRelation jp:TimeRelation_abraham_ben_shmuel_a_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_albalag a jp:HistoricalPerson ;
+    rdfs:label "Isaak Albalag" ;
+    jp:hasTimeRelation jp:TimeRelation_isaak_albalag_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_isaak_albalag_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_zerahyah a jp:HistoricalPerson ;
+    rdfs:label "Zeraḥyah ben Isaak ben She'alti'el Ḥen" ;
+    jp:hasTimeRelation jp:TimeRelation_zerahyah_ben_isaak_b_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_zerahyah_ben_isaak_b_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_zerahyah_ben_isaak_b_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_gershom a jp:HistoricalPerson ;
+    rdfs:label "Gershom ben Solomon von Arles" ;
+    jp:hasTimeRelation jp:TimeRelation_gershom_ben_solomon__0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_gershom_ben_solomon__0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_gershom_ben_solomon__1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369088 a jp:HistoricalPerson ;
+    rdfs:label "Gersonides (Lewi ben Gershom)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369088" ;
+    jp:hasTimeRelation jp:TimeRelation_gersonides_lewi_ben__0 ;
+    jp:hasTimeRelation jp:TimeRelation_gersonides_lewi_ben__1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_gersonides_lewi_ben__0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369129 a jp:HistoricalPerson ;
+    rdfs:label "Immanuel von Rom" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369129" ;
+    jp:hasTimeRelation jp:TimeRelation_immanuel_von_rom_0 ;
+    jp:hasTimeRelation jp:TimeRelation_immanuel_von_rom_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_immanuel_von_rom_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_immanuel_von_rom_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369127 a jp:HistoricalPerson ;
+    rdfs:label "Moshe Narboni" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369127" ;
+    jp:hasTimeRelation jp:TimeRelation_moshe_narboni_0 ;
+    jp:hasTimeRelation jp:TimeRelation_moshe_narboni_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_moshe_narboni_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_moshe_narboni_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q370000 a jp:HistoricalPerson ;
+    rdfs:label "Abner von Burgos (Alfonso de Valladolid)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q370000" ;
+    jp:hasTimeRelation jp:TimeRelation_abner_von_burgos_alf_0 ;
+    jp:hasTimeRelation jp:TimeRelation_abner_von_burgos_alf_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_abner_von_burgos_alf_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369126 a jp:HistoricalPerson ;
+    rdfs:label "Chasdaj Crescas" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369126" ;
+    jp:hasTimeRelation jp:TimeRelation_chasdaj_crescas_0 ;
+    jp:hasTimeRelation jp:TimeRelation_chasdaj_crescas_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_chasdaj_crescas_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Schwartz_shelomo_lunel a jp:HistoricalPerson ;
+    rdfs:label "Shelomo ben Judah von Lunel" ;
+    jp:hasTimeRelation jp:TimeRelation_shelomo_ben_judah_vo_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_shelomo_ben_judah_vo_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_shelomo_ben_judah_vo_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369043 a jp:HistoricalPerson ;
+    rdfs:label "Isaak Abravanel" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369043" ;
+    jp:hasTimeRelation jp:TimeRelation_isaak_abravanel_0 ;
+    jp:hasTimeRelation jp:TimeRelation_isaak_abravanel_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_isaak_abravanel_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_isaak_abravanel_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q369130 a jp:HistoricalPerson ;
+    rdfs:label "Leon Hebreo (Judah Abravanel)" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q369130" ;
+    jp:hasTimeRelation jp:TimeRelation_leon_hebreo_judah_ab_0 ;
+    jp:hasTimeRelation jp:TimeRelation_leon_hebreo_judah_ab_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_leon_hebreo_judah_ab_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_leon_hebreo_judah_ab_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q2824359 a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Hananiah Yagel" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2824359" ;
+    jp:hasTimeRelation jp:TimeRelation_abraham_ben_hananiah_0 ;
+    jp:hasTimeRelation jp:TimeRelation_abraham_ben_hananiah_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_abraham_ben_hananiah_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q2380857 a jp:HistoricalPerson ;
+    rdfs:label "Simone Luzzatto" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q2380857" ;
+    jp:hasTimeRelation jp:TimeRelation_simone_luzzatto_0 ;
+    jp:hasTimeRelation jp:TimeRelation_simone_luzzatto_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_simone_luzzatto_0 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Person_Q370614 a jp:HistoricalPerson ;
+    rdfs:label "Salomon Maimon" ;
+    jp:authorityLink "http://www.wikidata.org/entity/Q370614" ;
+    jp:hasTimeRelation jp:TimeRelation_salomon_maimon_0 ;
+    jp:hasTimeRelation jp:TimeRelation_salomon_maimon_1 ;
+    jp:hasPlaceRelation jp:PlaceRelation_salomon_maimon_0 ;
+    jp:hasPlaceRelation jp:PlaceRelation_salomon_maimon_1 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+
+# Total new persons: 27

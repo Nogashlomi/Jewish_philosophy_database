@@ -1,0 +1,71 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Subject entities - philosophical schools and disciplines for Schwartz entries
+
+jp:Subject_aristotelianism a jp:Subject ;
+    rdfs:label "Aristotelianism" .
+
+jp:Subject_averroism a jp:Subject ;
+    rdfs:label "Averroism" .
+
+jp:Subject_avicennism a jp:Subject ;
+    rdfs:label "Avicennism" .
+
+jp:Subject_christian_jewish_dialogue a jp:Subject ;
+    rdfs:label "Christian-Jewish dialogue" .
+
+jp:Subject_enlightenment a jp:Subject ;
+    rdfs:label "Enlightenment" .
+
+jp:Subject_kabbalah a jp:Subject ;
+    rdfs:label "Kabbalah" .
+
+jp:Subject_kantianism a jp:Subject ;
+    rdfs:label "Kantianism" .
+
+jp:Subject_karaite_law a jp:Subject ;
+    rdfs:label "Karaite law" .
+
+jp:Subject_renaissance a jp:Subject ;
+    rdfs:label "Renaissance" .
+
+jp:Subject_scholasticism a jp:Subject ;
+    rdfs:label "Scholasticism" .
+
+jp:Subject_bridge_to_modernity a jp:Subject ;
+    rdfs:label "bridge to modernity" .
+
+jp:Subject_critique_of_aristotle a jp:Subject ;
+    rdfs:label "critique of Aristotle" .
+
+jp:Subject_defense_of_hebrew a jp:Subject ;
+    rdfs:label "defense of Hebrew" .
+
+jp:Subject_determinism a jp:Subject ;
+    rdfs:label "determinism" .
+
+jp:Subject_encyclopedia a jp:Subject ;
+    rdfs:label "encyclopedia" .
+
+jp:Subject_exegesis a jp:Subject ;
+    rdfs:label "exegesis" .
+
+jp:Subject_love_aesthetics a jp:Subject ;
+    rdfs:label "love aesthetics" .
+
+jp:Subject_polemics a jp:Subject ;
+    rdfs:label "polemics" .
+
+jp:Subject_prophetic_kabbalah a jp:Subject ;
+    rdfs:label "prophetic Kabbalah" .
+
+jp:Subject_radical_aristotelianism a jp:Subject ;
+    rdfs:label "radical Aristotelianism" .
+
+jp:Subject_rationalism a jp:Subject ;
+    rdfs:label "rationalism" .
+
+jp:Subject_textual_interpretation a jp:Subject ;
+    rdfs:label "textual interpretation" .
+

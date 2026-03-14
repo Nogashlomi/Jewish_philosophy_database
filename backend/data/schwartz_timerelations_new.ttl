@@ -1,0 +1,236 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# TimeRelation entities for Schwartz entries
+
+jp:TimeRelation_isaak_israeli_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "850"^^xsd:gYear ;
+    jp:timeUntil "850"^^xsd:gYear .
+
+jp:TimeRelation_isaak_israeli_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "932"^^xsd:gYear ;
+    jp:timeUntil "955"^^xsd:gYear .
+
+jp:TimeRelation_abu_jusuf_jaqub_al_qirq_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1"^^xsd:gYear ;
+    jp:timeUntil "51"^^xsd:gYear .
+
+jp:TimeRelation_avicebron_salomon_be_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1021"^^xsd:gYear ;
+    jp:timeUntil "1022"^^xsd:gYear .
+
+jp:TimeRelation_avicebron_salomon_be_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1058"^^xsd:gYear ;
+    jp:timeUntil "1058"^^xsd:gYear .
+
+jp:TimeRelation_judah_ben_shmuel_hal_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1075"^^xsd:gYear ;
+    jp:timeUntil "1075"^^xsd:gYear .
+
+jp:TimeRelation_judah_ben_shmuel_hal_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1141"^^xsd:gYear ;
+    jp:timeUntil "1141"^^xsd:gYear .
+
+jp:TimeRelation_dominicus_gundissali_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1115"^^xsd:gYear ;
+    jp:timeUntil "1115"^^xsd:gYear .
+
+jp:TimeRelation_dominicus_gundissali_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1190"^^xsd:gYear ;
+    jp:timeUntil "1190"^^xsd:gYear .
+
+jp:TimeRelation_jaaqov_ben_reuben_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1170"^^xsd:gYear ;
+    jp:timeUntil "1170"^^xsd:gYear .
+
+jp:TimeRelation_judah_ibn_tibbon_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1120"^^xsd:gYear ;
+    jp:timeUntil "1120"^^xsd:gYear .
+
+jp:TimeRelation_judah_ibn_tibbon_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1190"^^xsd:gYear ;
+    jp:timeUntil "1190"^^xsd:gYear .
+
+jp:TimeRelation_shmuel_ben_judah_ibn_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1165"^^xsd:gYear ;
+    jp:timeUntil "1165"^^xsd:gYear .
+
+jp:TimeRelation_shmuel_ben_judah_ibn_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1232"^^xsd:gYear ;
+    jp:timeUntil "1232"^^xsd:gYear .
+
+jp:TimeRelation_jaaqov_anatoli_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1194"^^xsd:gYear ;
+    jp:timeUntil "1194"^^xsd:gYear .
+
+jp:TimeRelation_jaaqov_anatoli_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1256"^^xsd:gYear ;
+    jp:timeUntil "1256"^^xsd:gYear .
+
+jp:TimeRelation_moshe_ibn_tibbon_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1244-1283"^^xsd:gYear ;
+    jp:timeUntil "1244-1283"^^xsd:gYear .
+
+jp:TimeRelation_moshe_von_salerno_0 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1279"^^xsd:gYear ;
+    jp:timeUntil "1279"^^xsd:gYear .
+
+jp:TimeRelation_shem-tov_ben_joseph__0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1225"^^xsd:gYear ;
+    jp:timeUntil "1225"^^xsd:gYear .
+
+jp:TimeRelation_shem-tov_ben_joseph__1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1295"^^xsd:gYear ;
+    jp:timeUntil "1295"^^xsd:gYear .
+
+jp:TimeRelation_abraham_ben_shmuel_a_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1240"^^xsd:gYear ;
+    jp:timeUntil "1240"^^xsd:gYear .
+
+jp:TimeRelation_abraham_ben_shmuel_a_1 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1291"^^xsd:gYear ;
+    jp:timeUntil "1291"^^xsd:gYear .
+
+jp:TimeRelation_isaak_albalag_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "151"^^xsd:gYear ;
+    jp:timeUntil "201"^^xsd:gYear .
+
+jp:TimeRelation_zerahyah_ben_isaak_b_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1277-1291"^^xsd:gYear ;
+    jp:timeUntil "1277-1291"^^xsd:gYear .
+
+jp:TimeRelation_gershom_ben_solomon__0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1280"^^xsd:gYear ;
+    jp:timeUntil "1280"^^xsd:gYear .
+
+jp:TimeRelation_gersonides_lewi_ben__0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1288"^^xsd:gYear ;
+    jp:timeUntil "1288"^^xsd:gYear .
+
+jp:TimeRelation_gersonides_lewi_ben__1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1344"^^xsd:gYear ;
+    jp:timeUntil "1344"^^xsd:gYear .
+
+jp:TimeRelation_immanuel_von_rom_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1265"^^xsd:gYear ;
+    jp:timeUntil "1265"^^xsd:gYear .
+
+jp:TimeRelation_immanuel_von_rom_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1330"^^xsd:gYear ;
+    jp:timeUntil "1330"^^xsd:gYear .
+
+jp:TimeRelation_moshe_narboni_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1300"^^xsd:gYear ;
+    jp:timeUntil "1300"^^xsd:gYear .
+
+jp:TimeRelation_moshe_narboni_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1362"^^xsd:gYear ;
+    jp:timeUntil "1362"^^xsd:gYear .
+
+jp:TimeRelation_abner_von_burgos_alf_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1270"^^xsd:gYear ;
+    jp:timeUntil "1270"^^xsd:gYear .
+
+jp:TimeRelation_abner_von_burgos_alf_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1347"^^xsd:gYear ;
+    jp:timeUntil "1347"^^xsd:gYear .
+
+jp:TimeRelation_chasdaj_crescas_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1340"^^xsd:gYear ;
+    jp:timeUntil "1340"^^xsd:gYear .
+
+jp:TimeRelation_chasdaj_crescas_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1411"^^xsd:gYear ;
+    jp:timeUntil "1411"^^xsd:gYear .
+
+jp:TimeRelation_shelomo_ben_judah_vo_0 a jp:TimeRelation ;
+    jp:timeType "active" ;
+    jp:timeFrom "1"^^xsd:gYear ;
+    jp:timeUntil "51"^^xsd:gYear .
+
+jp:TimeRelation_isaak_abravanel_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1437"^^xsd:gYear ;
+    jp:timeUntil "1437"^^xsd:gYear .
+
+jp:TimeRelation_isaak_abravanel_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1508"^^xsd:gYear ;
+    jp:timeUntil "1508"^^xsd:gYear .
+
+jp:TimeRelation_leon_hebreo_judah_ab_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1465"^^xsd:gYear ;
+    jp:timeUntil "1465"^^xsd:gYear .
+
+jp:TimeRelation_leon_hebreo_judah_ab_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1523"^^xsd:gYear ;
+    jp:timeUntil "1523"^^xsd:gYear .
+
+jp:TimeRelation_abraham_ben_hananiah_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1553"^^xsd:gYear ;
+    jp:timeUntil "1553"^^xsd:gYear .
+
+jp:TimeRelation_abraham_ben_hananiah_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1624"^^xsd:gYear ;
+    jp:timeUntil "1624"^^xsd:gYear .
+
+jp:TimeRelation_simone_luzzatto_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1583"^^xsd:gYear ;
+    jp:timeUntil "1583"^^xsd:gYear .
+
+jp:TimeRelation_simone_luzzatto_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1663"^^xsd:gYear ;
+    jp:timeUntil "1663"^^xsd:gYear .
+
+jp:TimeRelation_salomon_maimon_0 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1753"^^xsd:gYear ;
+    jp:timeUntil "1754"^^xsd:gYear .
+
+jp:TimeRelation_salomon_maimon_1 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1800"^^xsd:gYear ;
+    jp:timeUntil "1800"^^xsd:gYear .
+

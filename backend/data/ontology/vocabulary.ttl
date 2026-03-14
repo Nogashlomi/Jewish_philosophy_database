@@ -1,0 +1,294 @@
+#######################################################################
+# MEDIEVAL–JEWISH–PHILOSOPHY ONTOLOGY (JPO)
+#######################################################################
+
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#######################################################################
+# ONTOLOGY DECLARATION
+#######################################################################
+
+jp: a owl:Ontology ;
+    rdfs:label "Medieval Jewish Philosophy Ontology (JPO)" ;
+    dcterms:creator "YOUR NAME" ;
+    dcterms:description "Ontology for historical Jewish philosophers, their works, and modern scholarly resources." ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+
+#######################################################################
+# CLASSES
+#######################################################################
+
+jp:HistoricalPerson a owl:Class ;
+    rdfs:label "Historical Person" ;
+    rdfs:comment "A pre-modern person relevant to Jewish philosophy." .
+
+jp:HistoricalWork a owl:Class ;
+    rdfs:label "Historical Work" ;
+    rdfs:comment "A primary historical or medieval text authored by a historical person." .
+
+jp:ScholarlyWork a owl:Class ;
+    rdfs:label "Scholarly Work" ;
+    rdfs:comment "A modern scholarly work such as an edition, or an intellectual biography." .
+
+jp:HistoricalLanguage a owl:Class ;
+    rdfs:label "Historical Language" ;
+    rdfs:comment "A historical or classical language used in medieval Jewish texts." .
+
+jp:Subject a owl:Class ;
+    rdfs:label "Subject" ;
+    rdfs:comment "A topical subject area of a work: astronomy, theology, philosophy, etc." .
+
+jp:ExternalAuthority a owl:Class ;
+    rdfs:label "External Authority" ;
+    rdfs:comment "Wikidata, VIAF, or other external authority identifiers." .
+
+jp:Place a owl:Class ;
+    rdfs:label "Place" ;
+    rdfs:comment "A geographic or historical location relevant to persons or works." .
+
+
+#######################################################################
+# TEMPORAL AND SPATIAL CLASSES
+#######################################################################
+
+jp:TimeRelation a owl:Class ;
+    rdfs:label "Time Relation" ;
+    rdfs:comment "A temporal assertion relating an entity to a time span, e.g., birth, death, activity." .
+
+
+jp:PlaceRelation a owl:Class ;
+    rdfs:label "Place Relation" ;
+    rdfs:comment "A spatial assertion relating an entity to a place, e.g., birth, death, residence, travel." .
+
+#######################################################################
+# RELATION / OBJECT PROPERTIES
+#######################################################################
+
+
+jp:writtenBy a owl:ObjectProperty ;
+    rdfs:label "written by" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates that a historical work was authored by a historical person." .
+
+jp:aboutPerson a owl:ObjectProperty ;
+    rdfs:label "about person" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "A scholarly work that discusses a historical figure." .
+
+jp:aboutWork a owl:ObjectProperty ;
+    rdfs:label "about work" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:HistoricalWork ;
+    rdfs:comment "A scholarly work that studies or analyzes a historical text." .
+
+jp:writtenInLanguage a owl:ObjectProperty ;
+    rdfs:label "written in language" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalLanguage ;
+    rdfs:comment "Associates a historical text with the historical language it was written in." .
+
+jp:hasSubject a owl:ObjectProperty ;
+    rdfs:label "has subject" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:Subject ;
+    rdfs:comment "Associates a historical work with its subject or topical classification." .
+
+jp:authorityLink a owl:ObjectProperty ;
+    rdfs:label "authority link" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:ExternalAuthority ;
+    rdfs:comment "Links a historical person to external authority identifiers." .
+
+jp:HistoricalReference a owl:Class ;
+    rdfs:label "Historical Reference" ;
+    rdfs:comment "Represents a reference from a historical work to another historical entity (person or work), including the type of reference." .
+
+jp:referenceSource a owl:ObjectProperty ;
+    rdfs:label "Source Work" ;
+    rdfs:domain jp:HistoricalReference ;
+    rdfs:range jp:HistoricalWork ;
+    rdfs:comment "The historical work that contains the reference." .
+
+jp:referenceTarget a owl:ObjectProperty ;
+    rdfs:label "Target Entity" ;
+    rdfs:domain jp:HistoricalReference ;
+    rdfs:range [ owl:unionOf ( jp:HistoricalWork jp:HistoricalPerson ) ] ;
+    rdfs:comment "The historical work or historical person that is being referenced." .
+
+jp:referenceType a owl:DatatypeProperty ;
+    rdfs:label "Reference Type" ;
+    rdfs:domain jp:HistoricalReference ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type of reference, e.g., 'translation', 'commentary', or 'other reference'." .
+
+jp:hasTimeRelation a owl:ObjectProperty ;
+    rdfs:label "has time relation" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:TimeRelation ;
+    rdfs:comment "Links an entity to a time assertion." .
+
+
+jp:timeType a owl:DatatypeProperty ;
+    rdfs:label "time type" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The kind of temporal relation, e.g., birth, death, activity." .
+
+
+jp:hasPlaceRelation a owl:ObjectProperty ;
+    rdfs:label "has place relation" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:PlaceRelation ;
+    rdfs:comment "Links an entity to a place assertion." .
+
+jp:relatedPlace a owl:ObjectProperty ;
+    rdfs:label "related place" ;
+    rdfs:domain jp:PlaceRelation ;
+    rdfs:range jp:Place ;
+    rdfs:comment "The actual place associated with this relation (birth, death, residence, etc.)." .
+
+#######################################################################
+# DATATYPE PROPERTIES
+#######################################################################
+
+
+jp:workID a owl:DatatypeProperty ;
+    rdfs:label "Work ID" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Unique internal identifier for a historical work, e.g., W_001." .
+
+jp:title a owl:DatatypeProperty ;
+    rdfs:label "title" ;
+    rdfs:domain [ owl:unionOf ( jp:HistoricalWork jp:ScholarlyWork ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "A human-readable title of a historical or scholarly work." .
+
+jp:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Year of publication of a scholarly work." .
+
+jp:label a owl:DatatypeProperty ;
+    rdfs:label "Label" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Human-readable identifier for the scholarly work, e.g., H1, H2, etc." .
+
+jp:creatorName a owl:DatatypeProperty ;
+    rdfs:label "creator name" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Names of modern creators (editors, translators, authors) stored as text." .
+
+jp:timeFrom a owl:DatatypeProperty ;
+    rdfs:label "time from" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Start of the time interval (or single year)." .
+
+jp:timeUntil a owl:DatatypeProperty ;
+    rdfs:label "time until" ;
+    rdfs:domain jp:TimeRelation ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "End of the time interval (or single year)." .
+
+jp:placeType a owl:DatatypeProperty ;
+    rdfs:label "place type" ;
+    rdfs:domain jp:PlaceRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The kind of place relation, e.g., birth, death, residence, travel." .
+
+jp:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain jp:Place ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Latitude of a place (WGS84)." .
+
+jp:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain jp:Place ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Longitude of a place (WGS84)." .
+
+jp:authorName a owl:DatatypeProperty ;
+    rdfs:label "author name" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Name of the author(s) of a scholarly work." .
+
+jp:editorName a owl:DatatypeProperty ;
+    rdfs:label "editor name" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Name of the editor(s) of a scholarly work." .
+
+jp:publisher a owl:DatatypeProperty ;
+    rdfs:label "publisher" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Publisher of the scholarly work." .
+
+jp:resourceType a owl:DatatypeProperty ;
+    rdfs:label "resource type" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type of the scholarly work (e.g., Article, Book, Thesis)." .
+
+
+
+#######################################################################
+# SCHOLARLY METADATA CLASSES
+#######################################################################
+
+jp:Source a owl:Class ;
+    rdfs:label "Source" ;
+    rdfs:comment "The origin of a data record (e.g., a bibliography, a specific book, or a dataset)." .
+
+jp:Scholar a owl:Class ;
+    rdfs:label "Scholar" ;
+    rdfs:comment "A modern scholar (author, editor, translator) who creates scholarly works." .
+
+#######################################################################
+# SCHOLARLY RELATIONS
+#######################################################################
+
+jp:hasSource a owl:ObjectProperty ;
+    rdfs:label "has source" ;
+    rdfs:domain [ owl:unionOf ( jp:ScholarlyWork jp:HistoricalPerson jp:HistoricalWork ) ] ;
+    rdfs:range jp:Source ;
+    rdfs:comment "Links an entity to its data source." .
+
+jp:hasAuthor a owl:ObjectProperty ;
+    rdfs:label "has author" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:Scholar ;
+    rdfs:comment "Links a scholarly work to a modern author." .
+
+jp:hasEditor a owl:ObjectProperty ;
+    rdfs:label "has editor" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range jp:Scholar ;
+    rdfs:comment "Links a scholarly work to a modern editor." .
+
+jp:publicationYear a owl:DatatypeProperty ;
+    rdfs:label "publication year" ;
+    rdfs:domain jp:ScholarlyWork ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "The year of publication (standardized property)." .
+
+# Note: jp:publisher (string) and jp:title (string) are already defined.
+
+#######################################################################
+# END OF VOCABULARY
+#######################################################################

@@ -1,0 +1,138 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# PlaceRelation entities for Schwartz entries
+
+jp:PlaceRelation_avicebron_salomon_be_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_judah_ben_shmuel_hal_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_judah_ibn_tibbon_0 a jp:PlaceRelation ;
+    jp:placeType "born" ;
+    jp:relatedPlace jp:Place_Q8810 .
+
+jp:PlaceRelation_judah_ibn_tibbon_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q318082 .
+
+jp:PlaceRelation_shmuel_ben_judah_ibn_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q17070 .
+
+jp:PlaceRelation_jaaqov_anatoli_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q16348 .
+
+jp:PlaceRelation_jaaqov_anatoli_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_moshe_ibn_tibbon_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q17070 .
+
+jp:PlaceRelation_moshe_von_salerno_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q8644 .
+
+jp:PlaceRelation_moshe_von_salerno_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q16348 .
+
+jp:PlaceRelation_shem-tov_ben_joseph__0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_isaak_albalag_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q5584 .
+
+jp:PlaceRelation_zerahyah_ben_isaak_b_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q220 .
+
+jp:PlaceRelation_zerahyah_ben_isaak_b_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_gershom_ben_solomon__0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q48292 .
+
+jp:PlaceRelation_gershom_ben_solomon__1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q17070 .
+
+jp:PlaceRelation_gersonides_lewi_ben__0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q17070 .
+
+jp:PlaceRelation_immanuel_von_rom_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q220 .
+
+jp:PlaceRelation_immanuel_von_rom_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_moshe_narboni_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q6555 .
+
+jp:PlaceRelation_moshe_narboni_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_abner_von_burgos_alf_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_chasdaj_crescas_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_shelomo_ben_judah_vo_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q318082 .
+
+jp:PlaceRelation_shelomo_ben_judah_vo_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q17070 .
+
+jp:PlaceRelation_isaak_abravanel_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_isaak_abravanel_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_leon_hebreo_judah_ab_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q29 .
+
+jp:PlaceRelation_leon_hebreo_judah_ab_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_abraham_ben_hananiah_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_simone_luzzatto_0 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q38 .
+
+jp:PlaceRelation_salomon_maimon_0 a jp:PlaceRelation ;
+    jp:placeType "born" ;
+    jp:relatedPlace jp:Place_Q37 .
+
+jp:PlaceRelation_salomon_maimon_1 a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Q64 .
+

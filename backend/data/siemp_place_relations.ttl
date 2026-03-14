@@ -1,0 +1,329 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Relation_Maimonides_Birth a jp:PlaceRelation ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:placeType "Birth" ;
+    jp:relatedPlace jp:Place_Cordoba ;
+    jp:timeFrom "1138"^^xsd:gYear .
+
+jp:Relation_Maimonides_Death a jp:PlaceRelation ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:placeType "Death" ;
+    jp:relatedPlace jp:Place_Cairo ;
+    jp:timeFrom "1204"^^xsd:gYear .
+
+jp:Relation_Maimonides_Residence a jp:PlaceRelation ;
+    jp:aboutPerson jp:Person_Q127398 ;
+    jp:placeType "Residence" ;
+    jp:relatedPlace jp:Place_Fes ;
+    jp:timeFrom "1160"^^xsd:gYear ;
+    jp:timeUntil "1165"^^xsd:gYear .
+
+jp:Relation_Person_Q1195977_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Obadiah ben Jacob Sforno" ;
+    jp:relatedPerson jp:Person_Q1195977 ;
+    jp:relatedPlace jp:Place_Q6662 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q1195977_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Obadiah ben Jacob Sforno" ;
+    jp:relatedPerson jp:Person_Q1195977 ;
+    jp:relatedPlace jp:Place_Q1891 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q127398_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Moshe ben Maimon" ;
+    jp:relatedPerson jp:Person_Q127398 ;
+    jp:relatedPlace jp:Place_Q5818 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q127398_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Moshe ben Maimon" ;
+    jp:relatedPerson jp:Person_Q127398 ;
+    jp:relatedPlace jp:Place_Q85 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q1673518_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Isaac ibn Latif" ;
+    jp:relatedPerson jp:Person_Q1673518 ;
+    jp:relatedPlace jp:Place_Toledo ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q1673518_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Isaac ibn Latif" ;
+    jp:relatedPerson jp:Person_Q1673518 ;
+    jp:relatedPlace jp:Place_Toledo ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q1852000_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Moses ben Joshua" ;
+    jp:relatedPerson jp:Person_Q1852000 ;
+    jp:relatedPlace jp:Place_Q6730 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q1852000_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Moses ben Joshua" ;
+    jp:relatedPerson jp:Person_Q1852000 ;
+    jp:relatedPlace jp:Place_Q12155 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q239355_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Solomon ibn Gabirol" ;
+    jp:relatedPerson jp:Person_Q239355 ;
+    jp:relatedPlace jp:Place_Q8851 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q239355_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Solomon ibn Gabirol" ;
+    jp:relatedPerson jp:Person_Q239355 ;
+    jp:relatedPlace jp:Place_Q8818 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q270670_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Abraham ibn Ezra" ;
+    jp:relatedPerson jp:Person_Q270670 ;
+    jp:relatedPlace jp:Place_Q244747 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q270670_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Abraham ibn Ezra" ;
+    jp:relatedPerson jp:Person_Q270670 ;
+    jp:relatedPlace jp:Place_Q642046 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q299200_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Judah Halevi" ;
+    jp:relatedPerson jp:Person_Q299200 ;
+    jp:relatedPlace jp:Place_Q244747 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q299200_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Judah Halevi" ;
+    jp:relatedPerson jp:Person_Q299200 ;
+    jp:relatedPlace jp:Place_Q1218 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q31439_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Abraham bar Hiyya" ;
+    jp:relatedPerson jp:Person_Q31439 ;
+    jp:relatedPlace jp:Place_Q1492 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q31439_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Abraham bar Hiyya" ;
+    jp:relatedPerson jp:Person_Q31439 ;
+    jp:relatedPlace jp:Place_Q6555 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q319902_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Isaac Abrabanel" ;
+    jp:relatedPerson jp:Person_Q319902 ;
+    jp:relatedPlace jp:Place_Q597 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q319902_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Isaac Abrabanel" ;
+    jp:relatedPerson jp:Person_Q319902 ;
+    jp:relatedPlace jp:Place_Q641 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q328748_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Saadia Gaon" ;
+    jp:relatedPerson jp:Person_Q328748 ;
+    jp:relatedPlace jp:Place_Q203299 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q328748_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Saadia Gaon" ;
+    jp:relatedPerson jp:Person_Q328748 ;
+    jp:relatedPlace jp:Place_Q4446399 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q330821_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Abraham ibn Daud" ;
+    jp:relatedPerson jp:Person_Q330821 ;
+    jp:relatedPlace jp:Place_Q5818 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q330821_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Abraham ibn Daud" ;
+    jp:relatedPerson jp:Person_Q330821 ;
+    jp:relatedPlace jp:Place_Toledo ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q338123_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Samuel ibn Tibbon" ;
+    jp:relatedPerson jp:Person_Q338123 ;
+    jp:relatedPlace jp:Place_Q318082 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q338123_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Samuel ibn Tibbon" ;
+    jp:relatedPerson jp:Person_Q338123 ;
+    jp:relatedPlace jp:Place_Q23482 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q348287_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Kalonymus ben Kalonymus" ;
+    jp:relatedPerson jp:Person_Q348287 ;
+    jp:relatedPlace jp:Place_Q48292 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q353633_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Gersonides" ;
+    jp:relatedPerson jp:Person_Q353633 ;
+    jp:relatedPlace jp:Place_Q274183 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q353633_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Gersonides" ;
+    jp:relatedPerson jp:Person_Q353633 ;
+    jp:relatedPlace jp:Place_Q6397 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q39837_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Averroes" ;
+    jp:relatedPerson jp:Person_Q39837 ;
+    jp:relatedPlace jp:Place_Q5818 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q39837_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Averroes" ;
+    jp:relatedPerson jp:Person_Q39837 ;
+    jp:relatedPlace jp:Place_Q101625 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q4256415_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Levi ben Abraham ben Hayyim" ;
+    jp:relatedPerson jp:Person_Q4256415 ;
+    jp:relatedPlace jp:Place_Q501114 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q4256415_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Levi ben Abraham ben Hayyim" ;
+    jp:relatedPerson jp:Person_Q4256415 ;
+    jp:relatedPlace jp:Place_Q48292 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q461521_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Profiat Duran" ;
+    jp:relatedPerson jp:Person_Q461521 ;
+    jp:relatedPlace jp:Place_Q6730 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q528415_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Hasdai Crescas" ;
+    jp:relatedPerson jp:Person_Q528415 ;
+    jp:relatedPlace jp:Place_Q1492 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q528415_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Hasdai Crescas" ;
+    jp:relatedPerson jp:Person_Q528415 ;
+    jp:relatedPlace jp:Place_Q10305 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q559622_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Joseph Albo" ;
+    jp:relatedPerson jp:Person_Q559622 ;
+    jp:relatedPlace jp:Place_Q1644430 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q669640_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Judah Messer Leon" ;
+    jp:relatedPerson jp:Person_Q669640 ;
+    jp:relatedPlace jp:Place_Q46165 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q719393_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Moses ibn Ezra" ;
+    jp:relatedPerson jp:Person_Q719393 ;
+    jp:relatedPlace jp:Place_Q8810 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q719393_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Moses ibn Ezra" ;
+    jp:relatedPerson jp:Person_Q719393 ;
+    jp:relatedPlace jp:Place_Q8810 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q762229_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Bahya ibn Paquda" ;
+    jp:relatedPerson jp:Person_Q762229 ;
+    jp:relatedPlace jp:Place_Q10305 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q762229_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Bahya ibn Paquda" ;
+    jp:relatedPerson jp:Person_Q762229 ;
+    jp:relatedPlace jp:Place_Q10305 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q8011_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Avicenna" ;
+    jp:relatedPerson jp:Person_Q8011 ;
+    jp:relatedPlace jp:Place_Q4072887 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q8011_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Avicenna" ;
+    jp:relatedPerson jp:Person_Q8011 ;
+    jp:relatedPlace jp:Place_Q28587 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q859_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Plato" ;
+    jp:relatedPerson jp:Person_Q859 ;
+    jp:relatedPlace jp:Place_Q1524 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q859_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Plato" ;
+    jp:relatedPerson jp:Person_Q859 ;
+    jp:relatedPlace jp:Place_Q1524 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q9546_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Al-Ghazali" ;
+    jp:relatedPerson jp:Person_Q9546 ;
+    jp:relatedPlace jp:Place_Q681427 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q9546_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Al-Ghazali" ;
+    jp:relatedPerson jp:Person_Q9546 ;
+    jp:relatedPlace jp:Place_Q681427 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q958438_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Jacob Anatoli" ;
+    jp:relatedPerson jp:Person_Q958438 ;
+    jp:relatedPlace jp:Place_Q23482 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q959392_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Joseph Caspi" ;
+    jp:relatedPerson jp:Person_Q959392 ;
+    jp:relatedPlace jp:Place_Q209862 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q959392_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Joseph Caspi" ;
+    jp:relatedPerson jp:Person_Q959392 ;
+    jp:relatedPlace jp:Place_Q8828 ;
+    jp:relationType "Death" .
+
+jp:Relation_Person_Q962334_Birth a jp:PlaceRelation ;
+    rdfs:label "Birth of Hillel ben Samuel" ;
+    jp:relatedPerson jp:Person_Q962334 ;
+    jp:relatedPlace jp:Place_Q2028 ;
+    jp:relationType "Birth" .
+
+jp:Relation_Person_Q962334_Death a jp:PlaceRelation ;
+    rdfs:label "Death of Hillel ben Samuel" ;
+    jp:relatedPerson jp:Person_Q962334 ;
+    jp:relatedPlace jp:Place_Q13367 ;
+    jp:relationType "Death" .
+

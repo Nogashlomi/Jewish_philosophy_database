@@ -1,0 +1,1975 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Language_Hebrew a jp:HistoricalLanguage ;
+    rdfs:label "Hebrew" .
+
+jp:Person_Q1195977 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Arabic a jp:HistoricalLanguage ;
+    rdfs:label "Arabic" .
+
+jp:Person_Q127398 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q127398 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q1383938 jp:writtenInLanguage jp:Language_Arabic .
+jp:Language_Spanish a jp:HistoricalLanguage ;
+    rdfs:label "Spanish" .
+
+jp:Person_Q1383938 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q160460 jp:writtenInLanguage jp:Language_Arabic .
+jp:Language_Sogdian a jp:HistoricalLanguage ;
+    rdfs:label "Sogdian" .
+
+jp:Person_Q160460 jp:writtenInLanguage jp:Language_Sogdian .
+jp:Language_Persian a jp:HistoricalLanguage ;
+    rdfs:label "Persian" .
+
+jp:Person_Q160460 jp:writtenInLanguage jp:Language_Persian .
+jp:Person_Q1673518 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q1673518 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q1852000 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Catalan a jp:HistoricalLanguage ;
+    rdfs:label "Catalan" .
+
+jp:Person_Q1852000 jp:writtenInLanguage jp:Language_Catalan .
+jp:Person_Q194803 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q194803 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q239355 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q239355 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q239355 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q270670 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q270670 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q270670 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Judeo_Arabic a jp:HistoricalLanguage ;
+    rdfs:label "Judeo-Arabic" .
+
+jp:Person_Q299200 jp:writtenInLanguage jp:Language_Judeo_Arabic .
+jp:Person_Q299200 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q299200 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q299200 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q31439 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q31439 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Latin a jp:HistoricalLanguage ;
+    rdfs:label "Latin" .
+
+jp:Person_Q31439 jp:writtenInLanguage jp:Language_Latin .
+jp:Person_Q31439 jp:writtenInLanguage jp:Language_Spanish .
+jp:Language_Occitan a jp:HistoricalLanguage ;
+    rdfs:label "Occitan" .
+
+jp:Person_Q31439 jp:writtenInLanguage jp:Language_Occitan .
+jp:Language_Italian a jp:HistoricalLanguage ;
+    rdfs:label "Italian" .
+
+jp:Person_Q319902 jp:writtenInLanguage jp:Language_Italian .
+jp:Language_Portuguese a jp:HistoricalLanguage ;
+    rdfs:label "Portuguese" .
+
+jp:Person_Q319902 jp:writtenInLanguage jp:Language_Portuguese .
+jp:Person_Q319902 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q319902 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q328748 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q328748 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q328748 jp:writtenInLanguage jp:Language_Judeo_Arabic .
+jp:Person_Q330821 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q338123 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q338123 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_French a jp:HistoricalLanguage ;
+    rdfs:label "French" .
+
+jp:Person_Q338123 jp:writtenInLanguage jp:Language_French .
+jp:Person_Q348287 jp:writtenInLanguage jp:Language_French .
+jp:Person_Q353633 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q353633 jp:writtenInLanguage jp:Language_Latin .
+jp:Language_Old_Occitan a jp:HistoricalLanguage ;
+    rdfs:label "Old Occitan" .
+
+jp:Person_Q353633 jp:writtenInLanguage jp:Language_Old_Occitan .
+jp:Person_Q353633 jp:writtenInLanguage jp:Language_Occitan .
+jp:Person_Q353633 jp:writtenInLanguage jp:Language_Catalan .
+jp:Person_Q39837 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q4256415 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q4256415 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q44977 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q44977 jp:writtenInLanguage jp:Language_French .
+jp:Person_Q461521 jp:writtenInLanguage jp:Language_Catalan .
+jp:Person_Q461521 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q528415 jp:writtenInLanguage jp:Language_Catalan .
+jp:Person_Q528415 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Aragonese a jp:HistoricalLanguage ;
+    rdfs:label "Aragonese" .
+
+jp:Person_Q528415 jp:writtenInLanguage jp:Language_Aragonese .
+jp:Person_Q559622 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q669640 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q719393 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q719393 jp:writtenInLanguage jp:Language_Spanish .
+jp:Person_Q719393 jp:writtenInLanguage jp:Language_Judeo_Arabic .
+jp:Person_Q762229 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q8011 jp:writtenInLanguage jp:Language_Persian .
+jp:Person_Q8011 jp:writtenInLanguage jp:Language_Arabic .
+jp:Language_Ancient_Greek a jp:HistoricalLanguage ;
+    rdfs:label "Ancient Greek" .
+
+jp:Person_Q859 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Person_Q868 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Language_medieval_Latin a jp:HistoricalLanguage ;
+    rdfs:label "medieval Latin" .
+
+jp:Person_Q9438 jp:writtenInLanguage jp:Language_medieval_Latin .
+jp:Person_Q9438 jp:writtenInLanguage jp:Language_Latin .
+jp:Language_medieval_Italian a jp:HistoricalLanguage ;
+    rdfs:label "medieval Italian" .
+
+jp:Person_Q9438 jp:writtenInLanguage jp:Language_medieval_Italian .
+jp:Person_Q9546 jp:writtenInLanguage jp:Language_Persian .
+jp:Person_Q9546 jp:writtenInLanguage jp:Language_Arabic .
+jp:Person_Q958438 jp:writtenInLanguage jp:Language_French .
+jp:Person_Q959392 jp:writtenInLanguage jp:Language_Occitan .
+jp:Person_Q959392 jp:writtenInLanguage jp:Language_Catalan .
+jp:Person_Q959392 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Person_Q959392 jp:writtenInLanguage jp:Language_Old_Occitan .
+jp:Person_Q962334 jp:writtenInLanguage jp:Language_Italian .
+jp:Person_Q962334 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Work_Q1051198 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q1140185 jp:writtenInLanguage jp:Language_Judeo_Arabic .
+jp:Work_Q1180576 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q123397 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Language_Greek a jp:HistoricalLanguage ;
+    rdfs:label "Greek" .
+
+jp:Work_Q123397 jp:writtenInLanguage jp:Language_Greek .
+jp:Work_Q201029 jp:writtenInLanguage jp:Language_Hebrew .
+jp:Language_Aramaic a jp:HistoricalLanguage ;
+    rdfs:label "Aramaic" .
+
+jp:Work_Q205388 jp:writtenInLanguage jp:Language_Aramaic .
+jp:Work_Q2315123 jp:writtenInLanguage jp:Language_Judeo_Arabic .
+jp:Work_Q331011 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q474537 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q500930 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q661655 jp:writtenInLanguage jp:Language_Ancient_Greek .
+jp:Work_Q7099168 jp:writtenInLanguage jp:Language_Hebrew .
+
+# SUBJECTS
+
+jp:Subject_Torah a jp:Subject ;
+    rdfs:label "Torah" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_Torah .
+jp:Subject_medicine a jp:Subject ;
+    rdfs:label "medicine" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_medicine .
+jp:Subject_Halakha a jp:Subject ;
+    rdfs:label "Halakha" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_Halakha .
+jp:Subject_philosophy a jp:Subject ;
+    rdfs:label "philosophy" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_philosophy .
+jp:Subject_Judaism a jp:Subject ;
+    rdfs:label "Judaism" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_Judaism .
+jp:Subject_Jewish_philosophy a jp:Subject ;
+    rdfs:label "Jewish philosophy" .
+
+jp:Person_Q127398 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_psychology a jp:Subject ;
+    rdfs:label "psychology" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_psychology .
+jp:Subject_natural_history a jp:Subject ;
+    rdfs:label "natural history" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_natural_history .
+jp:Subject_metaphysics a jp:Subject ;
+    rdfs:label "metaphysics" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_metaphysics .
+jp:Subject_astronomy a jp:Subject ;
+    rdfs:label "astronomy" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_astronomy .
+jp:Subject_logic a jp:Subject ;
+    rdfs:label "logic" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_logic .
+jp:Subject_mathematics a jp:Subject ;
+    rdfs:label "mathematics" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_mathematics .
+jp:Person_Q160460 jp:hasSubject jp:Subject_medicine .
+jp:Subject_political_science a jp:Subject ;
+    rdfs:label "political science" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_political_science .
+jp:Subject_ethics a jp:Subject ;
+    rdfs:label "ethics" .
+
+jp:Person_Q160460 jp:hasSubject jp:Subject_ethics .
+jp:Person_Q1673518 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q1673518 jp:hasSubject jp:Subject_philosophy .
+jp:Subject_biblical_criticism a jp:Subject ;
+    rdfs:label "biblical criticism" .
+
+jp:Person_Q194803 jp:hasSubject jp:Subject_biblical_criticism .
+jp:Subject_Biblical_commentary a jp:Subject ;
+    rdfs:label "Biblical commentary" .
+
+jp:Person_Q194803 jp:hasSubject jp:Subject_Biblical_commentary .
+jp:Person_Q239355 jp:hasSubject jp:Subject_philosophy .
+jp:Subject_Neoplatonism a jp:Subject ;
+    rdfs:label "Neoplatonism" .
+
+jp:Person_Q239355 jp:hasSubject jp:Subject_Neoplatonism .
+jp:Person_Q270670 jp:hasSubject jp:Subject_Halakha .
+jp:Subject_Talmud a jp:Subject ;
+    rdfs:label "Talmud" .
+
+jp:Person_Q270670 jp:hasSubject jp:Subject_Talmud .
+jp:Subject_poetry a jp:Subject ;
+    rdfs:label "poetry" .
+
+jp:Person_Q270670 jp:hasSubject jp:Subject_poetry .
+jp:Person_Q31439 jp:hasSubject jp:Subject_mathematics .
+jp:Person_Q31439 jp:hasSubject jp:Subject_astronomy .
+jp:Person_Q31439 jp:hasSubject jp:Subject_Judaism .
+jp:Subject_translation_from_Arabic a jp:Subject ;
+    rdfs:label "translation from Arabic" .
+
+jp:Person_Q31439 jp:hasSubject jp:Subject_translation_from_Arabic .
+jp:Person_Q31439 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_natural_philosophy a jp:Subject ;
+    rdfs:label "natural philosophy" .
+
+jp:Person_Q328748 jp:hasSubject jp:Subject_natural_philosophy .
+jp:Person_Q328748 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q328748 jp:hasSubject jp:Subject_Judaism .
+jp:Subject_Jewish_commentaries_on_the_Bible a jp:Subject ;
+    rdfs:label "Jewish commentaries on the Bible" .
+
+jp:Person_Q328748 jp:hasSubject jp:Subject_Jewish_commentaries_on_the_Bible .
+jp:Subject_Bible a jp:Subject ;
+    rdfs:label "Bible" .
+
+jp:Person_Q328748 jp:hasSubject jp:Subject_Bible .
+jp:Person_Q328748 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_translating_activity a jp:Subject ;
+    rdfs:label "translating activity" .
+
+jp:Person_Q328748 jp:hasSubject jp:Subject_translating_activity .
+jp:Person_Q330821 jp:hasSubject jp:Subject_Halakha .
+jp:Person_Q330821 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q330821 jp:hasSubject jp:Subject_Talmud .
+jp:Person_Q338123 jp:hasSubject jp:Subject_medicine .
+jp:Subject_translation_into_Hebrew a jp:Subject ;
+    rdfs:label "translation into Hebrew" .
+
+jp:Person_Q338123 jp:hasSubject jp:Subject_translation_into_Hebrew .
+jp:Person_Q338123 jp:hasSubject jp:Subject_Judaism .
+jp:Person_Q338123 jp:hasSubject jp:Subject_translation_from_Arabic .
+jp:Person_Q338123 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q348287 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q353633 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q353633 jp:hasSubject jp:Subject_mathematics .
+jp:Person_Q353633 jp:hasSubject jp:Subject_astronomy .
+jp:Subject_physics a jp:Subject ;
+    rdfs:label "physics" .
+
+jp:Person_Q353633 jp:hasSubject jp:Subject_physics .
+jp:Person_Q353633 jp:hasSubject jp:Subject_Talmud .
+jp:Person_Q353633 jp:hasSubject jp:Subject_biblical_criticism .
+jp:Person_Q353633 jp:hasSubject jp:Subject_Judaism .
+jp:Subject_meteorology a jp:Subject ;
+    rdfs:label "meteorology" .
+
+jp:Person_Q353633 jp:hasSubject jp:Subject_meteorology .
+jp:Subject_Jewish_theology a jp:Subject ;
+    rdfs:label "Jewish theology" .
+
+jp:Person_Q353633 jp:hasSubject jp:Subject_Jewish_theology .
+jp:Subject_geography a jp:Subject ;
+    rdfs:label "geography" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_geography .
+jp:Subject_Islamic_philosophy a jp:Subject ;
+    rdfs:label "Islamic philosophy" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_Islamic_philosophy .
+jp:Subject_Ilm_al_Kalam a jp:Subject ;
+    rdfs:label "Ilm al-Kalam" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_Ilm_al_Kalam .
+jp:Subject_linguistics a jp:Subject ;
+    rdfs:label "linguistics" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_linguistics .
+jp:Person_Q39837 jp:hasSubject jp:Subject_mathematics .
+jp:Person_Q39837 jp:hasSubject jp:Subject_medicine .
+jp:Person_Q39837 jp:hasSubject jp:Subject_astronomy .
+jp:Subject_aqidah a jp:Subject ;
+    rdfs:label "aqidah" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_aqidah .
+jp:Subject_fiqh a jp:Subject ;
+    rdfs:label "fiqh" .
+
+jp:Person_Q39837 jp:hasSubject jp:Subject_fiqh .
+jp:Person_Q4256415 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_encyclopedia a jp:Subject ;
+    rdfs:label "encyclopedia" .
+
+jp:Person_Q4256415 jp:hasSubject jp:Subject_encyclopedia .
+jp:Person_Q4256415 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q461521 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_study_of_the_Hebrew_language a jp:Subject ;
+    rdfs:label "study of the Hebrew language" .
+
+jp:Person_Q461521 jp:hasSubject jp:Subject_study_of_the_Hebrew_language .
+jp:Subject_astrology a jp:Subject ;
+    rdfs:label "astrology" .
+
+jp:Person_Q461521 jp:hasSubject jp:Subject_astrology .
+jp:Person_Q461521 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q461521 jp:hasSubject jp:Subject_linguistics .
+jp:Person_Q461521 jp:hasSubject jp:Subject_medicine .
+jp:Person_Q461521 jp:hasSubject jp:Subject_Judaism .
+jp:Person_Q528415 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q528415 jp:hasSubject jp:Subject_Halakha .
+jp:Person_Q528415 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q528415 jp:hasSubject jp:Subject_Talmud .
+jp:Person_Q559622 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q559622 jp:hasSubject jp:Subject_Judaism .
+jp:Person_Q559622 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q669640 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q669640 jp:hasSubject jp:Subject_Jewish_theology .
+jp:Person_Q669640 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q669640 jp:hasSubject jp:Subject_medicine .
+jp:Person_Q669640 jp:hasSubject jp:Subject_Judaism .
+jp:Subject_Jewish_poetry a jp:Subject ;
+    rdfs:label "Jewish poetry" .
+
+jp:Person_Q719393 jp:hasSubject jp:Subject_Jewish_poetry .
+jp:Subject_Jewish_studies a jp:Subject ;
+    rdfs:label "Jewish studies" .
+
+jp:Person_Q719393 jp:hasSubject jp:Subject_Jewish_studies .
+jp:Subject_Hebrew_poetry a jp:Subject ;
+    rdfs:label "Hebrew poetry" .
+
+jp:Person_Q719393 jp:hasSubject jp:Subject_Hebrew_poetry .
+jp:Person_Q719393 jp:hasSubject jp:Subject_Judaism .
+jp:Person_Q719393 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q762229 jp:hasSubject jp:Subject_Halakha .
+jp:Person_Q762229 jp:hasSubject jp:Subject_Talmud .
+jp:Person_Q8011 jp:hasSubject jp:Subject_medicine .
+jp:Person_Q8011 jp:hasSubject jp:Subject_physics .
+jp:Subject_mechanics a jp:Subject ;
+    rdfs:label "mechanics" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_mechanics .
+jp:Subject_chemistry a jp:Subject ;
+    rdfs:label "chemistry" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_chemistry .
+jp:Person_Q8011 jp:hasSubject jp:Subject_psychology .
+jp:Person_Q8011 jp:hasSubject jp:Subject_poetry .
+jp:Subject_aromatherapy a jp:Subject ;
+    rdfs:label "aromatherapy" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_aromatherapy .
+jp:Person_Q8011 jp:hasSubject jp:Subject_Ilm_al_Kalam .
+jp:Subject_Earth_science a jp:Subject ;
+    rdfs:label "Earth science" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_Earth_science .
+jp:Person_Q8011 jp:hasSubject jp:Subject_astronomy .
+jp:Person_Q8011 jp:hasSubject jp:Subject_logic .
+jp:Subject_philosophy_of_science a jp:Subject ;
+    rdfs:label "philosophy of science" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_philosophy_of_science .
+jp:Person_Q8011 jp:hasSubject jp:Subject_philosophy .
+jp:Subject_theology a jp:Subject ;
+    rdfs:label "theology" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_theology .
+jp:Subject_geology a jp:Subject ;
+    rdfs:label "geology" .
+
+jp:Person_Q8011 jp:hasSubject jp:Subject_geology .
+jp:Subject_politics a jp:Subject ;
+    rdfs:label "politics" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_politics .
+jp:Subject_law a jp:Subject ;
+    rdfs:label "law" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_law .
+jp:Subject_epistemology a jp:Subject ;
+    rdfs:label "epistemology" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_epistemology .
+jp:Subject_ancient_philosophy a jp:Subject ;
+    rdfs:label "ancient philosophy" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_ancient_philosophy .
+jp:Subject_friendship a jp:Subject ;
+    rdfs:label "friendship" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_friendship .
+jp:Person_Q859 jp:hasSubject jp:Subject_philosophy .
+jp:Subject_education a jp:Subject ;
+    rdfs:label "education" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_education .
+jp:Subject_love a jp:Subject ;
+    rdfs:label "love" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_love .
+jp:Subject_family a jp:Subject ;
+    rdfs:label "family" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_family .
+jp:Subject_classical_antiquity a jp:Subject ;
+    rdfs:label "classical antiquity" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_classical_antiquity .
+jp:Subject_literature a jp:Subject ;
+    rdfs:label "literature" .
+
+jp:Person_Q859 jp:hasSubject jp:Subject_literature .
+jp:Person_Q868 jp:hasSubject jp:Subject_natural_philosophy .
+jp:Person_Q868 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q9438 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q9438 jp:hasSubject jp:Subject_theology .
+jp:Subject_Catholic_theology a jp:Subject ;
+    rdfs:label "Catholic theology" .
+
+jp:Person_Q9438 jp:hasSubject jp:Subject_Catholic_theology .
+jp:Subject_Sufism a jp:Subject ;
+    rdfs:label "Sufism" .
+
+jp:Person_Q9546 jp:hasSubject jp:Subject_Sufism .
+jp:Subject_Islamic_ethics a jp:Subject ;
+    rdfs:label "Islamic ethics" .
+
+jp:Person_Q9546 jp:hasSubject jp:Subject_Islamic_ethics .
+jp:Person_Q9546 jp:hasSubject jp:Subject_Islamic_philosophy .
+jp:Person_Q9546 jp:hasSubject jp:Subject_Ilm_al_Kalam .
+jp:Person_Q9546 jp:hasSubject jp:Subject_theology .
+jp:Subject_lexicography a jp:Subject ;
+    rdfs:label "lexicography" .
+
+jp:Person_Q959392 jp:hasSubject jp:Subject_lexicography .
+jp:Person_Q959392 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q959392 jp:hasSubject jp:Subject_philosophy .
+jp:Person_Q959392 jp:hasSubject jp:Subject_biblical_criticism .
+jp:Person_Q962334 jp:hasSubject jp:Subject_medicine .
+jp:Subject_interfaith_dialogue a jp:Subject ;
+    rdfs:label "interfaith dialogue" .
+
+jp:Person_Q962334 jp:hasSubject jp:Subject_interfaith_dialogue .
+jp:Person_Q962334 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Person_Q962334 jp:hasSubject jp:Subject_Jewish_theology .
+jp:Subject_Classic_Rabbinic_literature a jp:Subject ;
+    rdfs:label "Classic Rabbinic literature" .
+
+jp:Person_Q962334 jp:hasSubject jp:Subject_Classic_Rabbinic_literature .
+jp:Subject_treatise a jp:Subject ;
+    rdfs:label "treatise" .
+
+jp:Work_Q1051198 jp:hasSubject jp:Subject_treatise .
+jp:Subject_Aristotelian_physics a jp:Subject ;
+    rdfs:label "Aristotelian physics" .
+
+jp:Work_Q1051198 jp:hasSubject jp:Subject_Aristotelian_physics .
+jp:Work_Q1140185 jp:hasSubject jp:Subject_philosophy .
+jp:Work_Q1140185 jp:hasSubject jp:Subject_theology .
+jp:Subject_Jewish_thought a jp:Subject ;
+    rdfs:label "Jewish thought" .
+
+jp:Work_Q1140185 jp:hasSubject jp:Subject_Jewish_thought .
+jp:Subject_behavioral_neuroscience a jp:Subject ;
+    rdfs:label "behavioral neuroscience" .
+
+jp:Work_Q1180576 jp:hasSubject jp:Subject_behavioral_neuroscience .
+jp:Work_Q1180576 jp:hasSubject jp:Subject_treatise .
+jp:Subject_dialogue a jp:Subject ;
+    rdfs:label "dialogue" .
+
+jp:Work_Q123397 jp:hasSubject jp:Subject_dialogue .
+jp:Subject_political_philosophy a jp:Subject ;
+    rdfs:label "political philosophy" .
+
+jp:Work_Q123397 jp:hasSubject jp:Subject_political_philosophy .
+jp:Work_Q201029 jp:hasSubject jp:Subject_Halakha .
+jp:Work_Q2315123 jp:hasSubject jp:Subject_dialogue .
+jp:Work_Q2315123 jp:hasSubject jp:Subject_Judaism .
+jp:Work_Q331011 jp:hasSubject jp:Subject_astronomy .
+jp:Subject_cosmology a jp:Subject ;
+    rdfs:label "cosmology" .
+
+jp:Work_Q331011 jp:hasSubject jp:Subject_cosmology .
+jp:Work_Q331011 jp:hasSubject jp:Subject_treatise .
+jp:Work_Q331011 jp:hasSubject jp:Subject_physics .
+jp:Subject_virtue a jp:Subject ;
+    rdfs:label "virtue" .
+
+jp:Work_Q474537 jp:hasSubject jp:Subject_virtue .
+jp:Work_Q474537 jp:hasSubject jp:Subject_philosophy .
+jp:Work_Q474537 jp:hasSubject jp:Subject_treatise .
+jp:Work_Q474537 jp:hasSubject jp:Subject_ethics .
+jp:Subject_happiness a jp:Subject ;
+    rdfs:label "happiness" .
+
+jp:Work_Q474537 jp:hasSubject jp:Subject_happiness .
+jp:Subject_morality a jp:Subject ;
+    rdfs:label "morality" .
+
+jp:Work_Q474537 jp:hasSubject jp:Subject_morality .
+jp:Subject_Aristotelian_logic a jp:Subject ;
+    rdfs:label "Aristotelian logic" .
+
+jp:Work_Q500930 jp:hasSubject jp:Subject_Aristotelian_logic .
+jp:Work_Q661655 jp:hasSubject jp:Subject_metaphysics .
+jp:Work_Q661655 jp:hasSubject jp:Subject_treatise .
+jp:Subject_Aristotelian_metaphysics a jp:Subject ;
+    rdfs:label "Aristotelian metaphysics" .
+
+jp:Work_Q661655 jp:hasSubject jp:Subject_Aristotelian_metaphysics .
+jp:Subject_electronica a jp:Subject ;
+    rdfs:label "electronica" .
+
+jp:Work_Q6654700 jp:hasSubject jp:Subject_electronica .
+jp:Work_Q7099168 jp:hasSubject jp:Subject_Jewish_philosophy .
+jp:Subject_essay a jp:Subject ;
+    rdfs:label "essay" .
+
+jp:Work_Q7099168 jp:hasSubject jp:Subject_essay .
+jp:Subject_rabbinic_literature a jp:Subject ;
+    rdfs:label "rabbinic literature" .
+
+jp:Work_Q7099168 jp:hasSubject jp:Subject_rabbinic_literature .
+
+# PLACES
+
+jp:Place_Bologna a jp:Place ;
+    rdfs:label "Bologna" .
+
+jp:Relation_Q1195977_death_Bologna a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Bologna .
+jp:Person_Q1195977 jp:hasPlaceRelation jp:Relation_Q1195977_death_Bologna .
+
+jp:Place_Cesena a jp:Place ;
+    rdfs:label "Cesena" .
+
+jp:Relation_Q1195977_birth_Cesena a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Cesena .
+jp:Person_Q1195977 jp:hasPlaceRelation jp:Relation_Q1195977_birth_Cesena .
+
+jp:Place_Córdoba a jp:Place ;
+    rdfs:label "Córdoba" .
+
+jp:Relation_Q127398_birth_Córdoba a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Córdoba .
+jp:Person_Q127398 jp:hasPlaceRelation jp:Relation_Q127398_birth_Córdoba .
+
+jp:Place_Cairo a jp:Place ;
+    rdfs:label "Cairo" .
+
+jp:Relation_Q127398_death_Cairo a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Cairo .
+jp:Person_Q127398 jp:hasPlaceRelation jp:Relation_Q127398_death_Cairo .
+
+jp:Place_Otrar a jp:Place ;
+    rdfs:label "Otrar" .
+
+jp:Relation_Q160460_birth_Otrar a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Otrar .
+jp:Person_Q160460 jp:hasPlaceRelation jp:Relation_Q160460_birth_Otrar .
+
+jp:Place_Damascus a jp:Place ;
+    rdfs:label "Damascus" .
+
+jp:Relation_Q160460_death_Damascus a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Damascus .
+jp:Person_Q160460 jp:hasPlaceRelation jp:Relation_Q160460_death_Damascus .
+
+jp:Place_Toledo a jp:Place ;
+    rdfs:label "Toledo" .
+
+jp:Relation_Q1673518_death_Toledo a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Toledo .
+jp:Person_Q1673518 jp:hasPlaceRelation jp:Relation_Q1673518_death_Toledo .
+
+jp:Relation_Q1673518_birth_Toledo a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Toledo .
+jp:Person_Q1673518 jp:hasPlaceRelation jp:Relation_Q1673518_birth_Toledo .
+
+jp:Place_Soria a jp:Place ;
+    rdfs:label "Soria" .
+
+jp:Relation_Q1852000_death_Soria a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Soria .
+jp:Person_Q1852000 jp:hasPlaceRelation jp:Relation_Q1852000_death_Soria .
+
+jp:Place_Perpignan a jp:Place ;
+    rdfs:label "Perpignan" .
+
+jp:Relation_Q1852000_birth_Perpignan a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Perpignan .
+jp:Person_Q1852000 jp:hasPlaceRelation jp:Relation_Q1852000_birth_Perpignan .
+
+jp:Relation_Q1852000_death_Perpignan a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Perpignan .
+jp:Person_Q1852000 jp:hasPlaceRelation jp:Relation_Q1852000_death_Perpignan .
+
+jp:Place_Basra a jp:Place ;
+    rdfs:label "Basra" .
+
+jp:Relation_Q194803_birth_Basra a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Basra .
+jp:Person_Q194803 jp:hasPlaceRelation jp:Relation_Q194803_birth_Basra .
+
+jp:Place_Jerusalem a jp:Place ;
+    rdfs:label "Jerusalem" .
+
+jp:Relation_Q194803_death_Jerusalem a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Jerusalem .
+jp:Person_Q194803 jp:hasPlaceRelation jp:Relation_Q194803_death_Jerusalem .
+
+jp:Place_Valencia a jp:Place ;
+    rdfs:label "Valencia" .
+
+jp:Relation_Q239355_death_Valencia a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Valencia .
+jp:Person_Q239355 jp:hasPlaceRelation jp:Relation_Q239355_death_Valencia .
+
+jp:Place_Málaga a jp:Place ;
+    rdfs:label "Málaga" .
+
+jp:Relation_Q239355_birth_Málaga a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Málaga .
+jp:Person_Q239355 jp:hasPlaceRelation jp:Relation_Q239355_birth_Málaga .
+
+jp:Place_Provence a jp:Place ;
+    rdfs:label "Provence" .
+
+jp:Relation_Q270670_residence_Provence a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Provence .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Provence .
+
+jp:Place_Lucca a jp:Place ;
+    rdfs:label "Lucca" .
+
+jp:Relation_Q270670_residence_Lucca a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Lucca .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Lucca .
+
+jp:Place_Dreux a jp:Place ;
+    rdfs:label "Dreux" .
+
+jp:Relation_Q270670_residence_Dreux a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Dreux .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Dreux .
+
+jp:Place_London a jp:Place ;
+    rdfs:label "London" .
+
+jp:Relation_Q270670_residence_London a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_London .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_London .
+
+jp:Place_Béziers a jp:Place ;
+    rdfs:label "Béziers" .
+
+jp:Relation_Q270670_residence_Béziers a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Béziers .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Béziers .
+
+jp:Place_Rome a jp:Place ;
+    rdfs:label "Rome" .
+
+jp:Relation_Q270670_residence_Rome a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Rome .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Rome .
+
+jp:Place_Mantua a jp:Place ;
+    rdfs:label "Mantua" .
+
+jp:Relation_Q270670_residence_Mantua a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Mantua .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Mantua .
+
+jp:Place_Tudela a jp:Place ;
+    rdfs:label "Tudela" .
+
+jp:Relation_Q270670_work_Tudela a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Tudela .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_work_Tudela .
+
+jp:Place_Narbonne a jp:Place ;
+    rdfs:label "Narbonne" .
+
+jp:Relation_Q270670_residence_Narbonne a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Narbonne .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Narbonne .
+
+jp:Place_Rouen a jp:Place ;
+    rdfs:label "Rouen" .
+
+jp:Relation_Q270670_residence_Rouen a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Rouen .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Rouen .
+
+jp:Relation_Q270670_residence_Tudela a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Tudela .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Tudela .
+
+jp:Place_Verona a jp:Place ;
+    rdfs:label "Verona" .
+
+jp:Relation_Q270670_residence_Verona a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Verona .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_residence_Verona .
+
+jp:Place_Calahorra a jp:Place ;
+    rdfs:label "Calahorra" .
+
+jp:Relation_Q270670_death_Calahorra a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Calahorra .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_death_Calahorra .
+
+jp:Relation_Q270670_birth_Tudela a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Tudela .
+jp:Person_Q270670 jp:hasPlaceRelation jp:Relation_Q270670_birth_Tudela .
+
+jp:Place_Baghdad a jp:Place ;
+    rdfs:label "Baghdad" .
+
+jp:Relation_Q2903764_birth_Baghdad a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Baghdad .
+jp:Person_Q2903764 jp:hasPlaceRelation jp:Relation_Q2903764_birth_Baghdad .
+
+jp:Relation_Q299200_birth_Tudela a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Tudela .
+jp:Person_Q299200 jp:hasPlaceRelation jp:Relation_Q299200_birth_Tudela .
+
+jp:Relation_Q299200_death_Jerusalem a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Jerusalem .
+jp:Person_Q299200 jp:hasPlaceRelation jp:Relation_Q299200_death_Jerusalem .
+
+jp:Relation_Q31439_death_Narbonne a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Narbonne .
+jp:Person_Q31439 jp:hasPlaceRelation jp:Relation_Q31439_death_Narbonne .
+
+jp:Place_Barcelona a jp:Place ;
+    rdfs:label "Barcelona" .
+
+jp:Relation_Q31439_residence_Barcelona a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q31439 jp:hasPlaceRelation jp:Relation_Q31439_residence_Barcelona .
+
+jp:Relation_Q31439_birth_Barcelona a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q31439 jp:hasPlaceRelation jp:Relation_Q31439_birth_Barcelona .
+
+jp:Place_Venice a jp:Place ;
+    rdfs:label "Venice" .
+
+jp:Relation_Q319902_death_Venice a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Venice .
+jp:Person_Q319902 jp:hasPlaceRelation jp:Relation_Q319902_death_Venice .
+
+jp:Place_Lisbon a jp:Place ;
+    rdfs:label "Lisbon" .
+
+jp:Relation_Q319902_birth_Lisbon a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Lisbon .
+jp:Person_Q319902 jp:hasPlaceRelation jp:Relation_Q319902_birth_Lisbon .
+
+jp:Place_Palestine a jp:Place ;
+    rdfs:label "Palestine" .
+
+jp:Relation_Q328748_work_Palestine a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Palestine .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_work_Palestine .
+
+jp:Place_Sura a jp:Place ;
+    rdfs:label "Sura" .
+
+jp:Relation_Q328748_death_Sura a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Sura .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_death_Sura .
+
+jp:Place_Aleppo a jp:Place ;
+    rdfs:label "Aleppo" .
+
+jp:Relation_Q328748_work_Aleppo a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Aleppo .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_work_Aleppo .
+
+jp:Relation_Q328748_work_Baghdad a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Baghdad .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_work_Baghdad .
+
+jp:Place_Faiyum a jp:Place ;
+    rdfs:label "Faiyum" .
+
+jp:Relation_Q328748_birth_Faiyum a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Faiyum .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_birth_Faiyum .
+
+jp:Relation_Q328748_death_Baghdad a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Baghdad .
+jp:Person_Q328748 jp:hasPlaceRelation jp:Relation_Q328748_death_Baghdad .
+
+jp:Place_Vauvert a jp:Place ;
+    rdfs:label "Vauvert" .
+
+jp:Relation_Q330821_work_Vauvert a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Vauvert .
+jp:Person_Q330821 jp:hasPlaceRelation jp:Relation_Q330821_work_Vauvert .
+
+jp:Relation_Q330821_work_Provence a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Provence .
+jp:Person_Q330821 jp:hasPlaceRelation jp:Relation_Q330821_work_Provence .
+
+jp:Relation_Q330821_death_Toledo a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Toledo .
+jp:Person_Q330821 jp:hasPlaceRelation jp:Relation_Q330821_death_Toledo .
+
+jp:Relation_Q330821_birth_Córdoba a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Córdoba .
+jp:Person_Q330821 jp:hasPlaceRelation jp:Relation_Q330821_birth_Córdoba .
+
+jp:Place_Lunel a jp:Place ;
+    rdfs:label "Lunel" .
+
+jp:Relation_Q338123_birth_Lunel a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Lunel .
+jp:Person_Q338123 jp:hasPlaceRelation jp:Relation_Q338123_birth_Lunel .
+
+jp:Place_Marseille a jp:Place ;
+    rdfs:label "Marseille" .
+
+jp:Relation_Q338123_residence_Marseille a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Marseille .
+jp:Person_Q338123 jp:hasPlaceRelation jp:Relation_Q338123_residence_Marseille .
+
+jp:Relation_Q338123_death_Marseille a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Marseille .
+jp:Person_Q338123 jp:hasPlaceRelation jp:Relation_Q338123_death_Marseille .
+
+jp:Place_Arles a jp:Place ;
+    rdfs:label "Arles" .
+
+jp:Relation_Q348287_birth_Arles a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Arles .
+jp:Person_Q348287 jp:hasPlaceRelation jp:Relation_Q348287_birth_Arles .
+
+jp:Place_Avignon a jp:Place ;
+    rdfs:label "Avignon" .
+
+jp:Relation_Q353633_work_Avignon a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Avignon .
+jp:Person_Q353633 jp:hasPlaceRelation jp:Relation_Q353633_work_Avignon .
+
+jp:Place_Orange a jp:Place ;
+    rdfs:label "Orange" .
+
+jp:Relation_Q353633_work_Orange a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Orange .
+jp:Person_Q353633 jp:hasPlaceRelation jp:Relation_Q353633_work_Orange .
+
+jp:Relation_Q353633_work_Perpignan a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Perpignan .
+jp:Person_Q353633 jp:hasPlaceRelation jp:Relation_Q353633_work_Perpignan .
+
+jp:Place_Bagnols_sur_Cèze a jp:Place ;
+    rdfs:label "Bagnols-sur-Cèze" .
+
+jp:Relation_Q353633_birth_Bagnols_sur_Cèze a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Bagnols_sur_Cèze .
+jp:Person_Q353633 jp:hasPlaceRelation jp:Relation_Q353633_birth_Bagnols_sur_Cèze .
+
+jp:Relation_Q353633_death_Avignon a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Avignon .
+jp:Person_Q353633 jp:hasPlaceRelation jp:Relation_Q353633_death_Avignon .
+
+jp:Place_Marrakesh a jp:Place ;
+    rdfs:label "Marrakesh" .
+
+jp:Relation_Q39837_death_Marrakesh a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Marrakesh .
+jp:Person_Q39837 jp:hasPlaceRelation jp:Relation_Q39837_death_Marrakesh .
+
+jp:Relation_Q39837_birth_Córdoba a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Córdoba .
+jp:Person_Q39837 jp:hasPlaceRelation jp:Relation_Q39837_birth_Córdoba .
+
+jp:Relation_Q4256415_death_Arles a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Arles .
+jp:Person_Q4256415 jp:hasPlaceRelation jp:Relation_Q4256415_death_Arles .
+
+jp:Place_Villefranche_de_Conflent a jp:Place ;
+    rdfs:label "Villefranche-de-Conflent" .
+
+jp:Relation_Q4256415_birth_Villefranche_de_Conflent a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Villefranche_de_Conflent .
+jp:Person_Q4256415 jp:hasPlaceRelation jp:Relation_Q4256415_birth_Villefranche_de_Conflent .
+
+jp:Place_Laval a jp:Place ;
+    rdfs:label "Laval" .
+
+jp:Relation_Q44977_birth_Laval a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Laval .
+jp:Person_Q44977 jp:hasPlaceRelation jp:Relation_Q44977_birth_Laval .
+
+jp:Relation_Q461521_birth_Perpignan a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Perpignan .
+jp:Person_Q461521 jp:hasPlaceRelation jp:Relation_Q461521_birth_Perpignan .
+
+jp:Place_Shah_Alam a jp:Place ;
+    rdfs:label "Shah Alam" .
+
+jp:Relation_Q4670201_death_Shah_Alam a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Shah_Alam .
+jp:Person_Q4670201 jp:hasPlaceRelation jp:Relation_Q4670201_death_Shah_Alam .
+
+jp:Place_Kuala_Selangor a jp:Place ;
+    rdfs:label "Kuala Selangor" .
+
+jp:Relation_Q4670201_birth_Kuala_Selangor a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Kuala_Selangor .
+jp:Person_Q4670201 jp:hasPlaceRelation jp:Relation_Q4670201_birth_Kuala_Selangor .
+
+jp:Place_City_of_Kingston_upon_Hull a jp:Place ;
+    rdfs:label "City of Kingston upon Hull" .
+
+jp:Relation_Q4670201_education_City_of_Kingston_upon_Hull a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_City_of_Kingston_upon_Hull .
+jp:Person_Q4670201 jp:hasPlaceRelation jp:Relation_Q4670201_education_City_of_Kingston_upon_Hull .
+
+jp:Place_University_of_Hull a jp:Place ;
+    rdfs:label "University of Hull" .
+
+jp:Relation_Q4670201_education_University_of_Hull a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_University_of_Hull .
+jp:Person_Q4670201 jp:hasPlaceRelation jp:Relation_Q4670201_education_University_of_Hull .
+
+jp:Place_Kingston_upon_Hull a jp:Place ;
+    rdfs:label "Kingston upon Hull" .
+
+jp:Relation_Q4670201_education_Kingston_upon_Hull a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Kingston_upon_Hull .
+jp:Person_Q4670201 jp:hasPlaceRelation jp:Relation_Q4670201_education_Kingston_upon_Hull .
+
+jp:Relation_Q528415_birth_Barcelona a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q528415 jp:hasPlaceRelation jp:Relation_Q528415_birth_Barcelona .
+
+jp:Place_Spain a jp:Place ;
+    rdfs:label "Spain" .
+
+jp:Relation_Q528415_work_Spain a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Spain .
+jp:Person_Q528415 jp:hasPlaceRelation jp:Relation_Q528415_work_Spain .
+
+jp:Place_Zaragoza a jp:Place ;
+    rdfs:label "Zaragoza" .
+
+jp:Relation_Q528415_death_Zaragoza a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Zaragoza .
+jp:Person_Q528415 jp:hasPlaceRelation jp:Relation_Q528415_death_Zaragoza .
+
+jp:Relation_Q528415_work_Barcelona a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q528415 jp:hasPlaceRelation jp:Relation_Q528415_work_Barcelona .
+
+jp:Place_Monreal_del_Campo a jp:Place ;
+    rdfs:label "Monreal del Campo" .
+
+jp:Relation_Q559622_birth_Monreal_del_Campo a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Monreal_del_Campo .
+jp:Person_Q559622 jp:hasPlaceRelation jp:Relation_Q559622_birth_Monreal_del_Campo .
+
+jp:Relation_Q669640_work_Mantua a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Mantua .
+jp:Person_Q669640 jp:hasPlaceRelation jp:Relation_Q669640_work_Mantua .
+
+jp:Place_Montecchio_Maggiore a jp:Place ;
+    rdfs:label "Montecchio Maggiore" .
+
+jp:Relation_Q669640_birth_Montecchio_Maggiore a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Montecchio_Maggiore .
+jp:Person_Q669640 jp:hasPlaceRelation jp:Relation_Q669640_birth_Montecchio_Maggiore .
+
+jp:Place_Ancona a jp:Place ;
+    rdfs:label "Ancona" .
+
+jp:Relation_Q669640_work_Ancona a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Ancona .
+jp:Person_Q669640 jp:hasPlaceRelation jp:Relation_Q669640_work_Ancona .
+
+jp:Place_Naples a jp:Place ;
+    rdfs:label "Naples" .
+
+jp:Relation_Q669640_work_Naples a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Naples .
+jp:Person_Q669640 jp:hasPlaceRelation jp:Relation_Q669640_work_Naples .
+
+jp:Place_Granada a jp:Place ;
+    rdfs:label "Granada" .
+
+jp:Relation_Q719393_death_Granada a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Granada .
+jp:Person_Q719393 jp:hasPlaceRelation jp:Relation_Q719393_death_Granada .
+
+jp:Relation_Q719393_birth_Granada a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Granada .
+jp:Person_Q719393 jp:hasPlaceRelation jp:Relation_Q719393_birth_Granada .
+
+jp:Relation_Q762229_work_Zaragoza a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Zaragoza .
+jp:Person_Q762229 jp:hasPlaceRelation jp:Relation_Q762229_work_Zaragoza .
+
+jp:Relation_Q762229_work_Spain a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Spain .
+jp:Person_Q762229 jp:hasPlaceRelation jp:Relation_Q762229_work_Spain .
+
+jp:Relation_Q762229_death_Zaragoza a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Zaragoza .
+jp:Person_Q762229 jp:hasPlaceRelation jp:Relation_Q762229_death_Zaragoza .
+
+jp:Relation_Q762229_birth_Zaragoza a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Zaragoza .
+jp:Person_Q762229 jp:hasPlaceRelation jp:Relation_Q762229_birth_Zaragoza .
+
+jp:Place_Urgench a jp:Place ;
+    rdfs:label "Urgench" .
+
+jp:Relation_Q8011_residence_Urgench a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Urgench .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Urgench .
+
+jp:Place_Isfahan a jp:Place ;
+    rdfs:label "Isfahan" .
+
+jp:Relation_Q8011_residence_Isfahan a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Isfahan .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Isfahan .
+
+jp:Place_Ray a jp:Place ;
+    rdfs:label "Ray" .
+
+jp:Relation_Q8011_residence_Ray a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Ray .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Ray .
+
+jp:Place_Afshona a jp:Place ;
+    rdfs:label "Afshona" .
+
+jp:Relation_Q8011_birth_Afshona a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Afshona .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_birth_Afshona .
+
+jp:Place_Bukhara a jp:Place ;
+    rdfs:label "Bukhara" .
+
+jp:Relation_Q8011_residence_Bukhara a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Bukhara .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Bukhara .
+
+jp:Place_Hamadan a jp:Place ;
+    rdfs:label "Hamadan" .
+
+jp:Relation_Q8011_death_Hamadan a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Hamadan .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_death_Hamadan .
+
+jp:Place_Gorgan a jp:Place ;
+    rdfs:label "Gorgan" .
+
+jp:Relation_Q8011_residence_Gorgan a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Gorgan .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Gorgan .
+
+jp:Relation_Q8011_residence_Hamadan a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Hamadan .
+jp:Person_Q8011 jp:hasPlaceRelation jp:Relation_Q8011_residence_Hamadan .
+
+jp:Place_Athens a jp:Place ;
+    rdfs:label "Athens" .
+
+jp:Relation_Q859_death_Athens a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Athens .
+jp:Person_Q859 jp:hasPlaceRelation jp:Relation_Q859_death_Athens .
+
+jp:Relation_Q859_birth_Athens a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Athens .
+jp:Person_Q859 jp:hasPlaceRelation jp:Relation_Q859_birth_Athens .
+
+jp:Place_Platonic_Academy a jp:Place ;
+    rdfs:label "Platonic Academy" .
+
+jp:Relation_Q868_education_Platonic_Academy a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Platonic_Academy .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_education_Platonic_Academy .
+
+jp:Place_Colonus a jp:Place ;
+    rdfs:label "Colonus" .
+
+jp:Relation_Q868_education_Colonus a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Colonus .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_education_Colonus .
+
+jp:Place_Athens_Municipality a jp:Place ;
+    rdfs:label "Athens Municipality" .
+
+jp:Relation_Q868_education_Athens_Municipality a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Athens_Municipality .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_education_Athens_Municipality .
+
+jp:Relation_Q868_residence_Athens a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Athens .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_residence_Athens .
+
+jp:Place_Stageira a jp:Place ;
+    rdfs:label "Stageira" .
+
+jp:Relation_Q868_birth_Stageira a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Stageira .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_birth_Stageira .
+
+jp:Place_Chalcis a jp:Place ;
+    rdfs:label "Chalcis" .
+
+jp:Relation_Q868_work_Chalcis a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Chalcis .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_work_Chalcis .
+
+jp:Place_Assos a jp:Place ;
+    rdfs:label "Assos" .
+
+jp:Relation_Q868_residence_Assos a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Assos .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_residence_Assos .
+
+jp:Relation_Q868_education_Athens a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Athens .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_education_Athens .
+
+jp:Relation_Q868_death_Chalcis a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Chalcis .
+jp:Person_Q868 jp:hasPlaceRelation jp:Relation_Q868_death_Chalcis .
+
+jp:Place_castle_of_the_counts_of_Aquino a jp:Place ;
+    rdfs:label "castle of the counts of Aquino" .
+
+jp:Relation_Q9438_birth_castle_of_the_counts_of_Aquino a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_castle_of_the_counts_of_Aquino .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_birth_castle_of_the_counts_of_Aquino .
+
+jp:Place_Fossanova_Abbey a jp:Place ;
+    rdfs:label "Fossanova Abbey" .
+
+jp:Relation_Q9438_death_Fossanova_Abbey a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Fossanova_Abbey .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_death_Fossanova_Abbey .
+
+jp:Place_University_of_Naples_Federico_II a jp:Place ;
+    rdfs:label "University of Naples Federico II" .
+
+jp:Relation_Q9438_education_University_of_Naples_Federico_II a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_University_of_Naples_Federico_II .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_education_University_of_Naples_Federico_II .
+
+jp:Place_Paris a jp:Place ;
+    rdfs:label "Paris" .
+
+jp:Relation_Q9438_education_Paris a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Paris .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_education_Paris .
+
+jp:Place_University_of_Paris a jp:Place ;
+    rdfs:label "University of Paris" .
+
+jp:Relation_Q9438_education_University_of_Paris a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_University_of_Paris .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_education_University_of_Paris .
+
+jp:Place_Aquino a jp:Place ;
+    rdfs:label "Aquino" .
+
+jp:Relation_Q9438_residence_Aquino a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Aquino .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_residence_Aquino .
+
+jp:Relation_Q9438_education_Naples a jp:PlaceRelation ;
+    jp:placeType "education" ;
+    jp:relatedPlace jp:Place_Naples .
+jp:Person_Q9438 jp:hasPlaceRelation jp:Relation_Q9438_education_Naples .
+
+jp:Place_Tus a jp:Place ;
+    rdfs:label "Tus" .
+
+jp:Relation_Q9546_birth_Tus a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Tus .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_birth_Tus .
+
+jp:Place_Nishapur a jp:Place ;
+    rdfs:label "Nishapur" .
+
+jp:Relation_Q9546_residence_Nishapur a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Nishapur .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_residence_Nishapur .
+
+jp:Place_Syria a jp:Place ;
+    rdfs:label "Syria" .
+
+jp:Relation_Q9546_work_Syria a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Syria .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_work_Syria .
+
+jp:Relation_Q9546_residence_Baghdad a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Baghdad .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_residence_Baghdad .
+
+jp:Relation_Q9546_residence_Jerusalem a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Jerusalem .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_residence_Jerusalem .
+
+jp:Relation_Q9546_residence_Damascus a jp:PlaceRelation ;
+    jp:placeType "residence" ;
+    jp:relatedPlace jp:Place_Damascus .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_residence_Damascus .
+
+jp:Relation_Q9546_death_Tus a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Tus .
+jp:Person_Q9546 jp:hasPlaceRelation jp:Relation_Q9546_death_Tus .
+
+jp:Relation_Q958438_birth_Marseille a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Marseille .
+jp:Person_Q958438 jp:hasPlaceRelation jp:Relation_Q958438_birth_Marseille .
+
+jp:Relation_Q959392_work_Barcelona a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_work_Barcelona .
+
+jp:Relation_Q959392_work_Arles a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Arles .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_work_Arles .
+
+jp:Place_Mallorca a jp:Place ;
+    rdfs:label "Mallorca" .
+
+jp:Relation_Q959392_death_Mallorca a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Mallorca .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_death_Mallorca .
+
+jp:Place_Largentière a jp:Place ;
+    rdfs:label "Largentière" .
+
+jp:Relation_Q959392_birth_Largentière a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Largentière .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_birth_Largentière .
+
+jp:Place_Tarascon a jp:Place ;
+    rdfs:label "Tarascon" .
+
+jp:Relation_Q959392_work_Tarascon a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Tarascon .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_work_Tarascon .
+
+jp:Relation_Q959392_work_Mallorca a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Mallorca .
+jp:Person_Q959392 jp:hasPlaceRelation jp:Relation_Q959392_work_Mallorca .
+
+jp:Place_Forlì a jp:Place ;
+    rdfs:label "Forlì" .
+
+jp:Relation_Q962334_death_Forlì a jp:PlaceRelation ;
+    jp:placeType "death" ;
+    jp:relatedPlace jp:Place_Forlì .
+jp:Person_Q962334 jp:hasPlaceRelation jp:Relation_Q962334_death_Forlì .
+
+jp:Relation_Q962334_work_Barcelona a jp:PlaceRelation ;
+    jp:placeType "work" ;
+    jp:relatedPlace jp:Place_Barcelona .
+jp:Person_Q962334 jp:hasPlaceRelation jp:Relation_Q962334_work_Barcelona .
+
+jp:Relation_Q962334_birth_Verona a jp:PlaceRelation ;
+    jp:placeType "birth" ;
+    jp:relatedPlace jp:Place_Verona .
+jp:Person_Q962334 jp:hasPlaceRelation jp:Relation_Q962334_birth_Verona .
+
+jp:Place_Classical_Athens a jp:Place ;
+    rdfs:label "Classical Athens" .
+
+jp:Relation_Q123397_narrative_Classical_Athens a jp:PlaceRelation ;
+    jp:placeType "narrative" ;
+    jp:relatedPlace jp:Place_Classical_Athens .
+jp:Work_Q123397 jp:hasPlaceRelation jp:Relation_Q123397_narrative_Classical_Athens .
+
+jp:Place_Ancient_Greece a jp:Place ;
+    rdfs:label "Ancient Greece" .
+
+jp:Relation_Q123397_origin_Ancient_Greece a jp:PlaceRelation ;
+    jp:placeType "origin" ;
+    jp:relatedPlace jp:Place_Ancient_Greece .
+jp:Work_Q123397 jp:hasPlaceRelation jp:Relation_Q123397_origin_Ancient_Greece .
+
+
+# TIMES
+
+jp:Relation_Q1195977_death_1550 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1550"^^xsd:gYear .
+jp:Person_Q1195977 jp:hasTimeRelation jp:Relation_Q1195977_death_1550 .
+
+jp:Person_Q1195977 jp:deathYear "1550"^^xsd:gYear .
+jp:Relation_Q1195977_birth_1470 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1470"^^xsd:gYear .
+jp:Person_Q1195977 jp:hasTimeRelation jp:Relation_Q1195977_birth_1470 .
+
+jp:Person_Q1195977 jp:birthYear "1470"^^xsd:gYear .
+jp:Relation_Q127398_birth_1135 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1135"^^xsd:gYear .
+jp:Person_Q127398 jp:hasTimeRelation jp:Relation_Q127398_birth_1135 .
+
+jp:Person_Q127398 jp:birthYear "1135"^^xsd:gYear .
+jp:Relation_Q127398_birth_1138 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1138"^^xsd:gYear .
+jp:Person_Q127398 jp:hasTimeRelation jp:Relation_Q127398_birth_1138 .
+
+jp:Person_Q127398 jp:birthYear "1138"^^xsd:gYear .
+jp:Relation_Q127398_death_1204 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1204"^^xsd:gYear .
+jp:Person_Q127398 jp:hasTimeRelation jp:Relation_Q127398_death_1204 .
+
+jp:Person_Q127398 jp:deathYear "1204"^^xsd:gYear .
+jp:Relation_Q1383938_birth_1225 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1225"^^xsd:gYear .
+jp:Person_Q1383938 jp:hasTimeRelation jp:Relation_Q1383938_birth_1225 .
+
+jp:Person_Q1383938 jp:birthYear "1225"^^xsd:gYear .
+jp:Relation_Q1383938_death_1290 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1290"^^xsd:gYear .
+jp:Person_Q1383938 jp:hasTimeRelation jp:Relation_Q1383938_death_1290 .
+
+jp:Person_Q1383938 jp:deathYear "1290"^^xsd:gYear .
+jp:Relation_Q160460_death_951 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "951"^^xsd:gYear .
+jp:Person_Q160460 jp:hasTimeRelation jp:Relation_Q160460_death_951 .
+
+jp:Person_Q160460 jp:deathYear "951"^^xsd:gYear .
+jp:Relation_Q160460_birth_870 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "870"^^xsd:gYear .
+jp:Person_Q160460 jp:hasTimeRelation jp:Relation_Q160460_birth_870 .
+
+jp:Person_Q160460 jp:birthYear "870"^^xsd:gYear .
+jp:Relation_Q1673518_death_1280 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1280"^^xsd:gYear .
+jp:Person_Q1673518 jp:hasTimeRelation jp:Relation_Q1673518_death_1280 .
+
+jp:Person_Q1673518 jp:deathYear "1280"^^xsd:gYear .
+jp:Relation_Q1673518_birth_1210 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1210"^^xsd:gYear .
+jp:Person_Q1673518 jp:hasTimeRelation jp:Relation_Q1673518_birth_1210 .
+
+jp:Person_Q1673518 jp:birthYear "1210"^^xsd:gYear .
+jp:Relation_Q1852000_death_1362 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1362"^^xsd:gYear .
+jp:Person_Q1852000 jp:hasTimeRelation jp:Relation_Q1852000_death_1362 .
+
+jp:Person_Q1852000 jp:deathYear "1362"^^xsd:gYear .
+jp:Relation_Q1852000_birth_1300 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1300"^^xsd:gYear .
+jp:Person_Q1852000 jp:hasTimeRelation jp:Relation_Q1852000_birth_1300 .
+
+jp:Person_Q1852000 jp:birthYear "1300"^^xsd:gYear .
+jp:Relation_Q194803_birth_950 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "950"^^xsd:gYear .
+jp:Person_Q194803 jp:hasTimeRelation jp:Relation_Q194803_birth_950 .
+
+jp:Person_Q194803 jp:birthYear "950"^^xsd:gYear .
+jp:Relation_Q194803_floruit_1000 a jp:TimeRelation ;
+    jp:timeType "floruit" ;
+    jp:timeFrom "1000"^^xsd:gYear .
+jp:Person_Q194803 jp:hasTimeRelation jp:Relation_Q194803_floruit_1000 .
+
+jp:Relation_Q194803_death_1010 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1010"^^xsd:gYear .
+jp:Person_Q194803 jp:hasTimeRelation jp:Relation_Q194803_death_1010 .
+
+jp:Person_Q194803 jp:deathYear "1010"^^xsd:gYear .
+jp:Relation_Q239355_birth_1020 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1020"^^xsd:gYear .
+jp:Person_Q239355 jp:hasTimeRelation jp:Relation_Q239355_birth_1020 .
+
+jp:Person_Q239355 jp:birthYear "1020"^^xsd:gYear .
+jp:Relation_Q239355_birth_1021 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1021"^^xsd:gYear .
+jp:Person_Q239355 jp:hasTimeRelation jp:Relation_Q239355_birth_1021 .
+
+jp:Person_Q239355 jp:birthYear "1021"^^xsd:gYear .
+jp:Relation_Q239355_death_1057 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1057"^^xsd:gYear .
+jp:Person_Q239355 jp:hasTimeRelation jp:Relation_Q239355_death_1057 .
+
+jp:Person_Q239355 jp:deathYear "1057"^^xsd:gYear .
+jp:Relation_Q239355_death_1058 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1058"^^xsd:gYear .
+jp:Person_Q239355 jp:hasTimeRelation jp:Relation_Q239355_death_1058 .
+
+jp:Person_Q239355 jp:deathYear "1058"^^xsd:gYear .
+jp:Relation_Q239355_death_1070 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1070"^^xsd:gYear .
+jp:Person_Q239355 jp:hasTimeRelation jp:Relation_Q239355_death_1070 .
+
+jp:Person_Q239355 jp:deathYear "1070"^^xsd:gYear .
+jp:Relation_Q270670_birth_1092 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1092"^^xsd:gYear .
+jp:Person_Q270670 jp:hasTimeRelation jp:Relation_Q270670_birth_1092 .
+
+jp:Person_Q270670 jp:birthYear "1092"^^xsd:gYear .
+jp:Relation_Q270670_death_1167 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1167"^^xsd:gYear .
+jp:Person_Q270670 jp:hasTimeRelation jp:Relation_Q270670_death_1167 .
+
+jp:Person_Q270670 jp:deathYear "1167"^^xsd:gYear .
+jp:Relation_Q299200_death_1141 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1141"^^xsd:gYear .
+jp:Person_Q299200 jp:hasTimeRelation jp:Relation_Q299200_death_1141 .
+
+jp:Person_Q299200 jp:deathYear "1141"^^xsd:gYear .
+jp:Relation_Q299200_birth_1075 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1075"^^xsd:gYear .
+jp:Person_Q299200 jp:hasTimeRelation jp:Relation_Q299200_birth_1075 .
+
+jp:Person_Q299200 jp:birthYear "1075"^^xsd:gYear .
+jp:Relation_Q31439_death_1136 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1136"^^xsd:gYear .
+jp:Person_Q31439 jp:hasTimeRelation jp:Relation_Q31439_death_1136 .
+
+jp:Person_Q31439 jp:deathYear "1136"^^xsd:gYear .
+jp:Relation_Q31439_birth_1070 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1070"^^xsd:gYear .
+jp:Person_Q31439 jp:hasTimeRelation jp:Relation_Q31439_birth_1070 .
+
+jp:Person_Q31439 jp:birthYear "1070"^^xsd:gYear .
+jp:Relation_Q319902_birth_1437 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1437"^^xsd:gYear .
+jp:Person_Q319902 jp:hasTimeRelation jp:Relation_Q319902_birth_1437 .
+
+jp:Person_Q319902 jp:birthYear "1437"^^xsd:gYear .
+jp:Relation_Q319902_death_1508 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1508"^^xsd:gYear .
+jp:Person_Q319902 jp:hasTimeRelation jp:Relation_Q319902_death_1508 .
+
+jp:Person_Q319902 jp:deathYear "1508"^^xsd:gYear .
+jp:Relation_Q328748_death_942 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "942"^^xsd:gYear .
+jp:Person_Q328748 jp:hasTimeRelation jp:Relation_Q328748_death_942 .
+
+jp:Person_Q328748 jp:deathYear "942"^^xsd:gYear .
+jp:Relation_Q328748_birth_882 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "882"^^xsd:gYear .
+jp:Person_Q328748 jp:hasTimeRelation jp:Relation_Q328748_birth_882 .
+
+jp:Person_Q328748 jp:birthYear "882"^^xsd:gYear .
+jp:Relation_Q330821_death_1180 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1180"^^xsd:gYear .
+jp:Person_Q330821 jp:hasTimeRelation jp:Relation_Q330821_death_1180 .
+
+jp:Person_Q330821 jp:deathYear "1180"^^xsd:gYear .
+jp:Relation_Q330821_birth_1110 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1110"^^xsd:gYear .
+jp:Person_Q330821 jp:hasTimeRelation jp:Relation_Q330821_birth_1110 .
+
+jp:Person_Q330821 jp:birthYear "1110"^^xsd:gYear .
+jp:Relation_Q338123_birth_1150 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1150"^^xsd:gYear .
+jp:Person_Q338123 jp:hasTimeRelation jp:Relation_Q338123_birth_1150 .
+
+jp:Person_Q338123 jp:birthYear "1150"^^xsd:gYear .
+jp:Relation_Q338123_birth_1160 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1160"^^xsd:gYear .
+jp:Person_Q338123 jp:hasTimeRelation jp:Relation_Q338123_birth_1160 .
+
+jp:Person_Q338123 jp:birthYear "1160"^^xsd:gYear .
+jp:Relation_Q338123_death_1230 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1230"^^xsd:gYear .
+jp:Person_Q338123 jp:hasTimeRelation jp:Relation_Q338123_death_1230 .
+
+jp:Person_Q338123 jp:deathYear "1230"^^xsd:gYear .
+jp:Relation_Q348287_birth_1286 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1286"^^xsd:gYear .
+jp:Person_Q348287 jp:hasTimeRelation jp:Relation_Q348287_birth_1286 .
+
+jp:Person_Q348287 jp:birthYear "1286"^^xsd:gYear .
+jp:Relation_Q353633_birth_1288 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1288"^^xsd:gYear .
+jp:Person_Q353633 jp:hasTimeRelation jp:Relation_Q353633_birth_1288 .
+
+jp:Person_Q353633 jp:birthYear "1288"^^xsd:gYear .
+jp:Relation_Q353633_death_1344 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1344"^^xsd:gYear .
+jp:Person_Q353633 jp:hasTimeRelation jp:Relation_Q353633_death_1344 .
+
+jp:Person_Q353633 jp:deathYear "1344"^^xsd:gYear .
+jp:Relation_Q39837_death_1198 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1198"^^xsd:gYear .
+jp:Person_Q39837 jp:hasTimeRelation jp:Relation_Q39837_death_1198 .
+
+jp:Person_Q39837 jp:deathYear "1198"^^xsd:gYear .
+jp:Relation_Q39837_birth_1126 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1126"^^xsd:gYear .
+jp:Person_Q39837 jp:hasTimeRelation jp:Relation_Q39837_birth_1126 .
+
+jp:Person_Q39837 jp:birthYear "1126"^^xsd:gYear .
+jp:Relation_Q4256415_birth_1235 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1235"^^xsd:gYear .
+jp:Person_Q4256415 jp:hasTimeRelation jp:Relation_Q4256415_birth_1235 .
+
+jp:Person_Q4256415 jp:birthYear "1235"^^xsd:gYear .
+jp:Relation_Q4256415_birth_1245 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1245"^^xsd:gYear .
+jp:Person_Q4256415 jp:hasTimeRelation jp:Relation_Q4256415_birth_1245 .
+
+jp:Person_Q4256415 jp:birthYear "1245"^^xsd:gYear .
+jp:Relation_Q44977_birth_1989 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1989"^^xsd:gYear .
+jp:Person_Q44977 jp:hasTimeRelation jp:Relation_Q44977_birth_1989 .
+
+jp:Person_Q44977 jp:birthYear "1989"^^xsd:gYear .
+jp:Relation_Q461521_birth_1350 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1350"^^xsd:gYear .
+jp:Person_Q461521 jp:hasTimeRelation jp:Relation_Q461521_birth_1350 .
+
+jp:Person_Q461521 jp:birthYear "1350"^^xsd:gYear .
+jp:Relation_Q461521_death_1415 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1415"^^xsd:gYear .
+jp:Person_Q461521 jp:hasTimeRelation jp:Relation_Q461521_death_1415 .
+
+jp:Person_Q461521 jp:deathYear "1415"^^xsd:gYear .
+jp:Relation_Q4670201_death_2018 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "2018"^^xsd:gYear .
+jp:Person_Q4670201 jp:hasTimeRelation jp:Relation_Q4670201_death_2018 .
+
+jp:Person_Q4670201 jp:deathYear "2018"^^xsd:gYear .
+jp:Relation_Q4670201_birth_1940 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1940"^^xsd:gYear .
+jp:Person_Q4670201 jp:hasTimeRelation jp:Relation_Q4670201_birth_1940 .
+
+jp:Person_Q4670201 jp:birthYear "1940"^^xsd:gYear .
+jp:Relation_Q5241453_death_1526 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1526"^^xsd:gYear .
+jp:Person_Q5241453 jp:hasTimeRelation jp:Relation_Q5241453_death_1526 .
+
+jp:Person_Q5241453 jp:deathYear "1526"^^xsd:gYear .
+jp:Relation_Q5241453_birth_1470 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1470"^^xsd:gYear .
+jp:Person_Q5241453 jp:hasTimeRelation jp:Relation_Q5241453_birth_1470 .
+
+jp:Person_Q5241453 jp:birthYear "1470"^^xsd:gYear .
+jp:Relation_Q528415_birth_1340 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1340"^^xsd:gYear .
+jp:Person_Q528415 jp:hasTimeRelation jp:Relation_Q528415_birth_1340 .
+
+jp:Person_Q528415 jp:birthYear "1340"^^xsd:gYear .
+jp:Relation_Q528415_death_1412 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1412"^^xsd:gYear .
+jp:Person_Q528415 jp:hasTimeRelation jp:Relation_Q528415_death_1412 .
+
+jp:Person_Q528415 jp:deathYear "1412"^^xsd:gYear .
+jp:Relation_Q528415_death_1410 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1410"^^xsd:gYear .
+jp:Person_Q528415 jp:hasTimeRelation jp:Relation_Q528415_death_1410 .
+
+jp:Person_Q528415 jp:deathYear "1410"^^xsd:gYear .
+jp:Relation_Q559622_death_1444 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1444"^^xsd:gYear .
+jp:Person_Q559622 jp:hasTimeRelation jp:Relation_Q559622_death_1444 .
+
+jp:Person_Q559622 jp:deathYear "1444"^^xsd:gYear .
+jp:Relation_Q559622_birth_1380 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1380"^^xsd:gYear .
+jp:Person_Q559622 jp:hasTimeRelation jp:Relation_Q559622_birth_1380 .
+
+jp:Person_Q559622 jp:birthYear "1380"^^xsd:gYear .
+jp:Relation_Q669640_birth_1422 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1422"^^xsd:gYear .
+jp:Person_Q669640 jp:hasTimeRelation jp:Relation_Q669640_birth_1422 .
+
+jp:Person_Q669640 jp:birthYear "1422"^^xsd:gYear .
+jp:Relation_Q669640_death_1498 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1498"^^xsd:gYear .
+jp:Person_Q669640 jp:hasTimeRelation jp:Relation_Q669640_death_1498 .
+
+jp:Person_Q669640 jp:deathYear "1498"^^xsd:gYear .
+jp:Relation_Q719393_death_1139 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1139"^^xsd:gYear .
+jp:Person_Q719393 jp:hasTimeRelation jp:Relation_Q719393_death_1139 .
+
+jp:Person_Q719393 jp:deathYear "1139"^^xsd:gYear .
+jp:Relation_Q719393_death_1138 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1138"^^xsd:gYear .
+jp:Person_Q719393 jp:hasTimeRelation jp:Relation_Q719393_death_1138 .
+
+jp:Person_Q719393 jp:deathYear "1138"^^xsd:gYear .
+jp:Relation_Q719393_birth_1058 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1058"^^xsd:gYear .
+jp:Person_Q719393 jp:hasTimeRelation jp:Relation_Q719393_birth_1058 .
+
+jp:Person_Q719393 jp:birthYear "1058"^^xsd:gYear .
+jp:Relation_Q762229_death_1120 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1120"^^xsd:gYear .
+jp:Person_Q762229 jp:hasTimeRelation jp:Relation_Q762229_death_1120 .
+
+jp:Person_Q762229 jp:deathYear "1120"^^xsd:gYear .
+jp:Relation_Q762229_death_1100 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1100"^^xsd:gYear .
+jp:Person_Q762229 jp:hasTimeRelation jp:Relation_Q762229_death_1100 .
+
+jp:Person_Q762229 jp:deathYear "1100"^^xsd:gYear .
+jp:Relation_Q762229_birth_1050 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1050"^^xsd:gYear .
+jp:Person_Q762229 jp:hasTimeRelation jp:Relation_Q762229_birth_1050 .
+
+jp:Person_Q762229 jp:birthYear "1050"^^xsd:gYear .
+jp:Relation_Q762229_floruit_1100 a jp:TimeRelation ;
+    jp:timeType "floruit" ;
+    jp:timeFrom "1100"^^xsd:gYear .
+jp:Person_Q762229 jp:hasTimeRelation jp:Relation_Q762229_floruit_1100 .
+
+jp:Relation_Q8011_death_1037 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1037"^^xsd:gYear .
+jp:Person_Q8011 jp:hasTimeRelation jp:Relation_Q8011_death_1037 .
+
+jp:Person_Q8011 jp:deathYear "1037"^^xsd:gYear .
+jp:Relation_Q8011_birth_980 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "980"^^xsd:gYear .
+jp:Person_Q8011 jp:hasTimeRelation jp:Relation_Q8011_birth_980 .
+
+jp:Person_Q8011 jp:birthYear "980"^^xsd:gYear .
+jp:Relation_Q859_birth_428 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "428"^^xsd:gYear .
+jp:Person_Q859 jp:hasTimeRelation jp:Relation_Q859_birth_428 .
+
+jp:Person_Q859 jp:birthYear "428"^^xsd:gYear .
+jp:Relation_Q859_death_348 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "348"^^xsd:gYear .
+jp:Person_Q859 jp:hasTimeRelation jp:Relation_Q859_death_348 .
+
+jp:Person_Q859 jp:deathYear "348"^^xsd:gYear .
+jp:Relation_Q868_death_321 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "321"^^xsd:gYear .
+jp:Person_Q868 jp:hasTimeRelation jp:Relation_Q868_death_321 .
+
+jp:Person_Q868 jp:deathYear "321"^^xsd:gYear .
+jp:Relation_Q868_birth_383 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "383"^^xsd:gYear .
+jp:Person_Q868 jp:hasTimeRelation jp:Relation_Q868_birth_383 .
+
+jp:Person_Q868 jp:birthYear "383"^^xsd:gYear .
+jp:Relation_Q9438_death_1274 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1274"^^xsd:gYear .
+jp:Person_Q9438 jp:hasTimeRelation jp:Relation_Q9438_death_1274 .
+
+jp:Person_Q9438 jp:deathYear "1274"^^xsd:gYear .
+jp:Relation_Q9438_birth_1225 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1225"^^xsd:gYear .
+jp:Person_Q9438 jp:hasTimeRelation jp:Relation_Q9438_birth_1225 .
+
+jp:Person_Q9438 jp:birthYear "1225"^^xsd:gYear .
+jp:Relation_Q9546_birth_1058 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1058"^^xsd:gYear .
+jp:Person_Q9546 jp:hasTimeRelation jp:Relation_Q9546_birth_1058 .
+
+jp:Person_Q9546 jp:birthYear "1058"^^xsd:gYear .
+jp:Relation_Q9546_birth_1056 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1056"^^xsd:gYear .
+jp:Person_Q9546 jp:hasTimeRelation jp:Relation_Q9546_birth_1056 .
+
+jp:Person_Q9546 jp:birthYear "1056"^^xsd:gYear .
+jp:Relation_Q9546_death_1111 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1111"^^xsd:gYear .
+jp:Person_Q9546 jp:hasTimeRelation jp:Relation_Q9546_death_1111 .
+
+jp:Person_Q9546 jp:deathYear "1111"^^xsd:gYear .
+jp:Relation_Q958438_birth_1194 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1194"^^xsd:gYear .
+jp:Person_Q958438 jp:hasTimeRelation jp:Relation_Q958438_birth_1194 .
+
+jp:Person_Q958438 jp:birthYear "1194"^^xsd:gYear .
+jp:Relation_Q958438_death_1256 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1256"^^xsd:gYear .
+jp:Person_Q958438 jp:hasTimeRelation jp:Relation_Q958438_death_1256 .
+
+jp:Person_Q958438 jp:deathYear "1256"^^xsd:gYear .
+jp:Relation_Q959392_death_1345 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1345"^^xsd:gYear .
+jp:Person_Q959392 jp:hasTimeRelation jp:Relation_Q959392_death_1345 .
+
+jp:Person_Q959392 jp:deathYear "1345"^^xsd:gYear .
+jp:Relation_Q959392_birth_1280 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1280"^^xsd:gYear .
+jp:Person_Q959392 jp:hasTimeRelation jp:Relation_Q959392_birth_1280 .
+
+jp:Person_Q959392 jp:birthYear "1280"^^xsd:gYear .
+jp:Relation_Q962334_death_1295 a jp:TimeRelation ;
+    jp:timeType "death" ;
+    jp:timeFrom "1295"^^xsd:gYear .
+jp:Person_Q962334 jp:hasTimeRelation jp:Relation_Q962334_death_1295 .
+
+jp:Person_Q962334 jp:deathYear "1295"^^xsd:gYear .
+jp:Relation_Q962334_birth_1220 a jp:TimeRelation ;
+    jp:timeType "birth" ;
+    jp:timeFrom "1220"^^xsd:gYear .
+jp:Person_Q962334 jp:hasTimeRelation jp:Relation_Q962334_birth_1220 .
+
+jp:Person_Q962334 jp:birthYear "1220"^^xsd:gYear .
+jp:Relation_Q1140185_publication_1190 a jp:TimeRelation ;
+    jp:timeType "publication" ;
+    jp:timeFrom "1190"^^xsd:gYear .
+jp:Work_Q1140185 jp:hasTimeRelation jp:Relation_Q1140185_publication_1190 .
+
+jp:Work_Q1140185 jp:publicationYear "1190"^^xsd:gYear .
+jp:Relation_Q123397_publication_1963 a jp:TimeRelation ;
+    jp:timeType "publication" ;
+    jp:timeFrom "1963"^^xsd:gYear .
+jp:Work_Q123397 jp:hasTimeRelation jp:Relation_Q123397_publication_1963 .
+
+jp:Work_Q123397 jp:publicationYear "1963"^^xsd:gYear .
+jp:Relation_Q123397_inception_379 a jp:TimeRelation ;
+    jp:timeType "inception" ;
+    jp:timeFrom "379"^^xsd:gYear .
+jp:Work_Q123397 jp:hasTimeRelation jp:Relation_Q123397_inception_379 .
+
+jp:Work_Q123397 jp:publicationYear "379"^^xsd:gYear .
+jp:Relation_Q2315123_inception_1140 a jp:TimeRelation ;
+    jp:timeType "inception" ;
+    jp:timeFrom "1140"^^xsd:gYear .
+jp:Work_Q2315123 jp:hasTimeRelation jp:Relation_Q2315123_inception_1140 .
+
+jp:Work_Q2315123 jp:publicationYear "1140"^^xsd:gYear .
+jp:Relation_Q661655_inception_400 a jp:TimeRelation ;
+    jp:timeType "inception" ;
+    jp:timeFrom "400"^^xsd:gYear .
+jp:Work_Q661655 jp:hasTimeRelation jp:Relation_Q661655_inception_400 .
+
+jp:Work_Q661655 jp:publicationYear "400"^^xsd:gYear .
+jp:Relation_Q6654700_publication_2007 a jp:TimeRelation ;
+    jp:timeType "publication" ;
+    jp:timeFrom "2007"^^xsd:gYear .
+jp:Work_Q6654700 jp:hasTimeRelation jp:Relation_Q6654700_publication_2007 .
+
+jp:Work_Q6654700 jp:publicationYear "2007"^^xsd:gYear .
+jp:Relation_Q7099168_publication_1400 a jp:TimeRelation ;
+    jp:timeType "publication" ;
+    jp:timeFrom "1400"^^xsd:gYear .
+jp:Work_Q7099168 jp:hasTimeRelation jp:Relation_Q7099168_publication_1400 .
+
+jp:Work_Q7099168 jp:publicationYear "1400"^^xsd:gYear .
