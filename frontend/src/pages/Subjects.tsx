@@ -145,7 +145,7 @@ export default function Subjects() {
                         className="flex items-center hover:text-gray-900"
                         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
                     >
-                        Works
+                        Persons
                         <ArrowUpDown className="ml-2 h-4 w-4" />
                     </button>
                 )

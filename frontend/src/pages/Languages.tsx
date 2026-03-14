@@ -124,7 +124,7 @@ export default function Languages() {
         },
         {
             accessorKey: "count",
-            header: "Work Count",
+            header: "Person Count",
             cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
         },
     ]

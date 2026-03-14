@@ -177,17 +177,14 @@ ORDER BY ?type ?personLabel
 # --- SUBJECTS ---
 
 LIST_SUBJECTS = PREFIXES + """
-SELECT ?uri ?label (COUNT(DISTINCT ?work) as ?total) (COUNT(DISTINCT ?author) as ?author_count)
+SELECT ?uri ?label (COUNT(DISTINCT ?person) as ?total) (COUNT(DISTINCT ?work) as ?work_count)
 WHERE {{
     ?uri a jp:Subject .
     OPTIONAL {{ ?uri rdfs:label ?label }}
     OPTIONAL {{
         ?work jp:hasSubject ?uri .
         {source_filter}
-    }}
-    OPTIONAL {{
-        ?work jp:hasSubject ?uri .
-        ?work jp:author ?author .
+        OPTIONAL {{ ?work jp:writtenBy ?person }}
     }}
 }}
 GROUP BY ?uri ?label
@@ -262,13 +259,14 @@ WHERE {{
 # --- LANGUAGES ---
 
 LIST_LANGUAGES = PREFIXES + """
-SELECT ?uri ?label (COUNT(DISTINCT ?work) as ?total)
+SELECT ?uri ?label (COUNT(DISTINCT ?person) as ?total) (COUNT(DISTINCT ?work) as ?work_count)
 WHERE {{
     ?uri a jp:HistoricalLanguage .
     OPTIONAL {{ ?uri rdfs:label ?label }}
-    OPTIONAL {{ 
+    OPTIONAL {{
         ?work jp:writtenInLanguage ?uri .
         {source_filter}
+        OPTIONAL {{ ?work jp:writtenBy ?person }}
     }}
 }}
 GROUP BY ?uri ?label
