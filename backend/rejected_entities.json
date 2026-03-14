@@ -1,0 +1,514 @@
+[
+  {
+    "name": "Hebraeischen Uebersetzungen des Mittelalters",
+    "reason": "Heading keyword: 'hebraeischen uebersetzungen'"
+  },
+  {
+    "name": "6",
+    "reason": "Empty or too short"
+  },
+  {
+    "name": "[Eschatology ]",
+    "reason": "Work keyword: 'eschatology'"
+  },
+  {
+    "name": "Additional Notes",
+    "reason": "Heading keyword: 'additional notes'"
+  },
+  {
+    "name": "al-F\u0101r\u0101b\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Compendium",
+    "reason": "Work keyword: 'compendium'"
+  },
+  {
+    "name": "Middle Commentary",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Translation of Books VI and VII",
+    "reason": "Work keyword: 'translation'"
+  },
+  {
+    "name": "Anonymous Commentaries on Isagoge",
+    "reason": "Heading keyword: 'anonymous commentaries'"
+  },
+  {
+    "name": "Categories; De",
+    "reason": "Work keyword: 'categories'"
+  },
+  {
+    "name": "Abraham Bibago\u2019s Commentary on Posterior Analytics",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Anonymous Commentaries on Posterior Analytics",
+    "reason": "Heading keyword: 'anonymous commentaries'"
+  },
+  {
+    "name": "Topics",
+    "reason": "Work keyword: 'topics'"
+  },
+  {
+    "name": "Joseph Kaspi\u2019s Compendium",
+    "reason": "Work keyword: 'compendium'"
+  },
+  {
+    "name": "Long Commentary",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Compendium of Judah Messer Leon",
+    "reason": "Work keyword: 'compendium'"
+  },
+  {
+    "name": "Supercommentary of Levi ben Gershom",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "De Plantiis of Nicolaus",
+    "reason": "Work keyword: 'de plantiis'"
+  },
+  {
+    "name": "Averroes and supercommentary of Levi b. Gershom",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Compendium and supercommentary of Levi ben Gershom",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Al-F\u0101r\u0101b\u012b\u2019s Intentions of Aristotle\u2019s Metaphysics",
+    "reason": "Work keyword: 'intentions of'"
+  },
+  {
+    "name": "Translation of Latin Aristotle",
+    "reason": "Work keyword: 'translation'"
+  },
+  {
+    "name": "Supercommentary",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Anthology of Moses b. Shem Tov",
+    "reason": "Work keyword: 'anthology'"
+  },
+  {
+    "name": "Physical Questions (Averroes) and commentary of Moses of Narbonne",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "On the Substance of the Spheres (Averroes",
+    "reason": "Work keyword: 'on the substance'"
+  },
+  {
+    "name": "Short Treatises on Metaphysics by Other Arabs",
+    "reason": "Work keyword: 'treatise'"
+  },
+  {
+    "name": "Treatises by Averroes on the Intellect",
+    "reason": "Work keyword: 'treatise'"
+  },
+  {
+    "name": "On the Possibility of Conjunction with Active Intellect",
+    "reason": "Work keyword: 'on the possibility'"
+  },
+  {
+    "name": "Commentary of Moses of Narbonne",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Commentary of Joseph b. Shem Tov",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Short Version of the Above",
+    "reason": "Work keyword: 'short version'"
+  },
+  {
+    "name": "Short Commentary of Moses of Narbonne",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Three treatises on the conjunction of the human intellect with the separate",
+    "reason": "Work keyword: 'treatise'"
+  },
+  {
+    "name": "intellect",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Treatise 1",
+    "reason": "Work keyword: 'treatise'"
+  },
+  {
+    "name": "Treatise (by Averroes\u2019 son) with Levi\u2019s Commentary",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Paraphrase of Alexander On the Intellect",
+    "reason": "Work keyword: 'paraphrase'"
+  },
+  {
+    "name": "Various Monographs",
+    "reason": "Work keyword: 'various monographs'"
+  },
+  {
+    "name": "Hebrew Translations",
+    "reason": "Work keyword: 'translation'"
+  },
+  {
+    "name": "Commentaries by Joseph b. Shem Tov, Anonymous (mentioned by",
+    "reason": "Heading keyword: 'commentaries by'"
+  },
+  {
+    "name": "and Moses Almosnino",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Averroes\u2019 Middle Commentary",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Other Versions",
+    "reason": "Heading keyword: 'other versions'"
+  },
+  {
+    "name": "Plato\u2019s Republic in the Compendium of Averroes",
+    "reason": "Work keyword: 'compendium'"
+  },
+  {
+    "name": "Commentary by Joseph Kaspi",
+    "reason": "Work keyword: 'commentary'"
+  },
+  {
+    "name": "Problemata",
+    "reason": "Work keyword: 'problemata'"
+  },
+  {
+    "name": "122b",
+    "reason": "Fragment pattern: ^\\d+[a-z]?[\\)\\]]?\\s*$"
+  },
+  {
+    "name": "On Elements and Composites",
+    "reason": "Work keyword: 'on elements'"
+  },
+  {
+    "name": "On Minerals",
+    "reason": "Work keyword: 'on minerals'"
+  },
+  {
+    "name": "Book of Stones",
+    "reason": "Work keyword: 'book of'"
+  },
+  {
+    "name": "The Theology of Aristotle",
+    "reason": "Work keyword: 'theology of'"
+  },
+  {
+    "name": "Secretum Secretorum and associated literature",
+    "reason": "Work keyword: 'secretum'"
+  },
+  {
+    "name": "De causis (Proclus",
+    "reason": "Work keyword: 'de causis'"
+  },
+  {
+    "name": "De Pomo",
+    "reason": "Work keyword: 'de pomo'"
+  },
+  {
+    "name": "Book of the Universal Science; Book of the Tried and Tested; Geomancy",
+    "reason": "Work keyword: 'book of'"
+  },
+  {
+    "name": "Signs of the Moon",
+    "reason": "Work keyword: 'signs of the moon'"
+  },
+  {
+    "name": "De anima",
+    "reason": "Work keyword: 'de anima'"
+  },
+  {
+    "name": "Other Philosophers",
+    "reason": "Heading keyword: 'other philosophers'"
+  },
+  {
+    "name": "al-Ba\u1e6daly\u016bs\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Ghaz\u0101l\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Tabr\u012bz\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Qirqis\u0101n\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Doubtful Works",
+    "reason": "Heading keyword: 'doubtful works'"
+  },
+  {
+    "name": "Extracts from Judah Romano",
+    "reason": "Heading keyword: 'extracts from'"
+  },
+  {
+    "name": "Anonymous and Doubtful Works",
+    "reason": "Heading keyword: 'doubtful works'"
+  },
+  {
+    "name": "Some Logical Writings",
+    "reason": "Work keyword: 'some logical'"
+  },
+  {
+    "name": "al-Batt\u0101n\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Bi\u1e6dr\u016bj\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Fargh\u0101n\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-\u1e24a\u1e63\u1e63ar",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Qab\u012b\u1e63\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Kind\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Mat\u0101n\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-Muthann\u0101",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "The Mu\u02bf\u0101dhs",
+    "reason": "Plural 'The X' pattern (group/heading)"
+  },
+  {
+    "name": "al-Zarq\u0101l\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Jacob Corsono, Isaac ben Joseph Israeli",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Appendix. Jacob ben Makhir",
+    "reason": "Heading keyword: 'appendix'"
+  },
+  {
+    "name": "Anonymous Writings",
+    "reason": "Heading keyword: 'anonymous writings'"
+  },
+  {
+    "name": "al-Zahr\u0101w\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Uncertain",
+    "reason": "Heading keyword: 'uncertain'"
+  },
+  {
+    "name": "Preliminary Remark",
+    "reason": "Heading keyword: 'preliminary remark'"
+  },
+  {
+    "name": "Solomon Ibn Ya\u02bfish, Solomon ben Joseph Ibn Ayyub",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Dubious",
+    "reason": "Heading keyword: 'dubious'"
+  },
+  {
+    "name": "Encyclopedias",
+    "reason": "Work keyword: 'encyclopedia'"
+  },
+  {
+    "name": "al-Faz\u0101r\u012b al-Sarakust\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al-\u1e24ar\u012br\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "al- Majr\u012b\u1e6d\u012b",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Anonymous Writings: Preliminary Remark",
+    "reason": "Heading keyword: 'preliminary remark'"
+  },
+  {
+    "name": "On Animals",
+    "reason": "Work keyword: 'on animals'"
+  },
+  {
+    "name": "On Talismans",
+    "reason": "Work keyword: 'on talismans'"
+  },
+  {
+    "name": "The Prince and the Dervish",
+    "reason": "Work keyword: 'the prince'"
+  },
+  {
+    "name": "Oracle books",
+    "reason": "Work keyword: 'oracle'"
+  },
+  {
+    "name": "Chiromancy",
+    "reason": "Work keyword: 'chiromancy'"
+  },
+  {
+    "name": "Kal\u012bla wa-Dimnah",
+    "reason": "Work keyword: 'kal\u012bla'"
+  },
+  {
+    "name": "Treatise on Woman\u2019s Bickering",
+    "reason": "Work keyword: 'treatise'"
+  },
+  {
+    "name": "Scroll of the Gazelle",
+    "reason": "Work keyword: 'scroll'"
+  },
+  {
+    "name": "Book of Ethics (Ma\u1e25\u0101sin al-\u0101d\u0101b",
+    "reason": "Work keyword: 'book of'"
+  },
+  {
+    "name": "The Account of Bilar",
+    "reason": "Work keyword: 'the account'"
+  },
+  {
+    "name": "Tales of Sindabar",
+    "reason": "Work keyword: 'tales of'"
+  },
+  {
+    "name": "Book of Convulsions",
+    "reason": "Work keyword: 'book of'"
+  },
+  {
+    "name": "Alexander Romance",
+    "reason": "Work keyword: 'romance'"
+  },
+  {
+    "name": "Almanacs",
+    "reason": "Work keyword: 'almanac'"
+  },
+  {
+    "name": "Yefet ben \u02bfEli, Yefet b. David",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Joseph b. Abraham, Levi b. Yefet",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Book of Fernando Cortes (Francisco L\u00f3pez de G\u00f3mara",
+    "reason": "Work keyword: 'book of'"
+  },
+  {
+    "name": "Anonymous and Dubious: Book of the Stones",
+    "reason": "Heading keyword: 'dubious'"
+  },
+  {
+    "name": "Epistle of (the Fair) Magelone",
+    "reason": "Work keyword: 'epistle'"
+  },
+  {
+    "name": "Amadis de Gaula",
+    "reason": "Work keyword: 'amadis'"
+  },
+  {
+    "name": "Science of Making Pearls",
+    "reason": "Work keyword: 'science of making'"
+  },
+  {
+    "name": "Aphorisms from Latin",
+    "reason": "Work keyword: 'aphorisms'"
+  },
+  {
+    "name": "Bernabo and Luciana",
+    "reason": "Contains 'and' (likely multi-entity or work)"
+  },
+  {
+    "name": "Art of Making Gold Water",
+    "reason": "Work keyword: 'making gold water'"
+  },
+  {
+    "name": "King Artus",
+    "reason": "Work keyword: 'king artus'"
+  },
+  {
+    "name": "The Art of Truncating Flesh",
+    "reason": "Work keyword: 'the art of'"
+  },
+  {
+    "name": "The Widow\u2019s Vow",
+    "reason": "Work keyword: 'vow'"
+  },
+  {
+    "name": "Birds of Prey",
+    "reason": "Work keyword: 'birds of prey'"
+  },
+  {
+    "name": "Untitled Writings",
+    "reason": "Work keyword: 'untitled writings'"
+  },
+  {
+    "name": "Alexandria , Abraham de Balmes, Abraham b. Caslari, Andreas",
+    "reason": "Multi-entity list (multiple commas)"
+  },
+  {
+    "name": "del Medigo, Moses Faraj b. S\u0101lim",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Jacob b. Makhir, Jacob Mantino",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Judah b. Astruc, Judah b. Moses",
+    "reason": "Multi-entity list (comma separated full names)"
+  },
+  {
+    "name": "Joseph Vecino, Kalonymos b. David, Kalonymos b. Kalonymos",
+    "reason": "Multi-entity list (multiple commas)"
+  },
+  {
+    "name": "de Moncada",
+    "reason": "Fragment pattern: ^[a-z]"
+  },
+  {
+    "name": "Hebrew Titles II. Arabic Titles. III. Hebrew Words. IV. Arabic Words. V. Names and",
+    "reason": "Heading keyword: 'hebrew titles'"
+  },
+  {
+    "name": "Things.VI. Translators in chronological order. VII. Anonymous Translations",
+    "reason": "Work keyword: 'translation'"
+  },
+  {
+    "name": "VIII. Manuscripts according to collection",
+    "reason": "Heading keyword: 'manuscripts according'"
+  }
+]

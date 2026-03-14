@@ -11,6 +11,7 @@ from app.schemas.network import NetworkData, NetworkNode, NetworkEdge
 from app.schemas.source import Source
 from rdflib import URIRef, Literal, BNode
 from app.core import queries
+from app.core.queries import PREFIXES
 
 class EntityService:
     def _get_source_filter(self, source_id: Optional[str], var_name: str = "uri") -> str:
@@ -386,14 +387,15 @@ class EntityService:
     def list_subjects(self, source: Optional[str] = None) -> List[SubjectList]:
         sf = self._get_source_filter(source, "work")
         q = queries.LIST_SUBJECTS.format(source_filter=sf)
-        
+
         results = []
         for row in rdf_store.query(q):
              results.append(SubjectList(
                 id=row.uri.split("#")[-1],
-                uri=str(row.uri),
                 label=str(row.label),
-                count=int(row.total)
+                count=int(row.total),
+                works=int(row.total),
+                authors=int(row.author_count) if hasattr(row, 'author_count') and row.author_count else 0
             ))
         return results
 
@@ -618,15 +620,15 @@ class EntityService:
     def get_network_data(self, source: Optional[str] = None) -> NetworkData:
         nodes = []
         edges = []
-        
+
         def mk_id(uri): return uri.strip("/").split("/")[-1].split("#")[-1]
-        
-        # 1. Nodes
+
+        # 1. Nodes - Get source-filtered entities (persons, works, etc.)
         sf_nodes = self._get_source_filter(source, "s")
         q_nodes = queries.GET_NETWORK_NODES.format(source_filter=sf_nodes)
-        
+
         node_ids = set()
-        
+
         for row in rdf_store.query(q_nodes):
             nid = mk_id(row.s)
             etype = mk_id(row.type)
@@ -635,7 +637,7 @@ class EntityService:
             source_id = None
             if hasattr(row, 'source') and row.source:
                 source_id = mk_id(row.source)
-            
+
             nodes.append(NetworkNode(
                 id=nid,
                 label=str(label),
@@ -644,16 +646,11 @@ class EntityService:
             ))
             node_ids.add(mk_id(row.s)) # Use mk_id for safe checking
 
+
         # 2. Edges
-        # Filter edges? Usually if we filter nodes, we only want edges between those nodes.
-        # But we also want edges that are relevant to the source?
-        # GET_NETWORK_EDGES_DIRECT has property text filtering.
-        # If we filter nodes, we should probably only get edges where both ends are in filtered nodes.
-        # I'll rely on the Python-side check `if s_id in node_ids and o_id in node_ids`
-        
         sf_edges = "" # No source filter on edges query for now, relies on node filtering
         q_direct = queries.GET_NETWORK_EDGES_DIRECT.format(source_filter=sf_edges)
-        
+
         for row in rdf_store.query(q_direct):
             s_id = mk_id(row.s)
             o_id = mk_id(row.o)
@@ -664,9 +661,22 @@ class EntityService:
         for row in rdf_store.query(q_places):
             p_id = mk_id(row.person)
             pl_id = mk_id(row.place)
-            if p_id in node_ids and pl_id in node_ids:
-                 edges.append({"from": p_id, "to": pl_id})
-                 
+            if p_id in node_ids:
+                # Add place node if person is in filtered nodes, even if place isn't
+                if pl_id not in node_ids:
+                    try:
+                        label = str(row.place_label) if row.place_label else pl_id
+                    except:
+                        label = pl_id
+                    nodes.append(NetworkNode(
+                        id=pl_id,
+                        label=label,
+                        group="Place",
+                        source=None
+                    ))
+                    node_ids.add(pl_id)
+                edges.append({"from": p_id, "to": pl_id})
+
         return NetworkData(nodes=nodes, edges=edges)
 
 

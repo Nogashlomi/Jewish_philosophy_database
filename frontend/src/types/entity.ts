@@ -42,6 +42,8 @@ export interface SubjectList {
     id: string
     label: string
     count: number
+    authors?: number
+    works?: number
 }
 
 export interface LanguageList {

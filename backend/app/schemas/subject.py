@@ -13,3 +13,5 @@ class SubjectList(BaseModel):
     id: str
     label: str
     count: int
+    authors: int = 0
+    works: int = 0

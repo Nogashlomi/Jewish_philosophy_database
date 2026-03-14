@@ -25,6 +25,7 @@
     "react-force-graph-2d": "^1.29.1",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.13.0",
+    "recharts": "^3.8.0",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {

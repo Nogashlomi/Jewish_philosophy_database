@@ -160,13 +160,19 @@ export default function Works() {
             ),
         },
         {
-            accessorKey: "creation_year",
-            header: ({ column }) => (
-                <button className="flex items-center hover:text-gray-900" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
-                    Year <ArrowUpDown className="ml-2 h-4 w-4" />
-                </button>
-            ),
-            cell: ({ row }) => <span className="text-gray-500">{row.original.creation_year || "-"}</span>,
+            accessorKey: "authors",
+            header: "Author",
+            cell: ({ row }) => <span className="text-gray-700">{row.original.authors || "-"}</span>,
+        },
+        {
+            accessorKey: "subjects",
+            header: "Subject",
+            cell: ({ row }) => <span className="text-gray-700">{row.original.subjects || "-"}</span>,
+        },
+        {
+            accessorKey: "languages",
+            header: "Language",
+            cell: ({ row }) => <span className="text-gray-700">{row.original.languages || "-"}</span>,
         },
     ]
 

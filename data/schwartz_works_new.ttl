@@ -1,0 +1,355 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Historical Works from Schwartz Primary Literature
+# 58 works by medieval Jewish philosophers
+
+jp:Work_Schwartz_acht_kapitel a jp:HistoricalWork ;
+    rdfs:label "Acht Kapitel" ;
+    jp:title "Acht Kapitel" ;
+    jp:writtenBy jp:Person_Q156736 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_aristotle_de_anima_translation a jp:HistoricalWork ;
+    rdfs:label "Aristotle De anima translation" ;
+    jp:title "Aristotle De anima translation" ;
+    jp:writtenBy jp:Person_Schwartz_zerahyah_ben_isaak_b ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_astronomy_treatise a jp:HistoricalWork ;
+    rdfs:label "Astronomy treatise" ;
+    jp:title "Astronomy treatise" ;
+    jp:writtenBy jp:Person_Q369088 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_commentaries_on_euclid a jp:HistoricalWork ;
+    rdfs:label "Commentaries on Euclid" ;
+    jp:title "Commentaries on Euclid" ;
+    jp:writtenBy jp:Person_Q369088 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_commentary_on_ibn_rushd a jp:HistoricalWork ;
+    rdfs:label "Commentary on Ibn Rushd" ;
+    jp:title "Commentary on Ibn Rushd" ;
+    jp:writtenBy jp:Person_Q369127 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_commentary_to_hohelied a jp:HistoricalWork ;
+    rdfs:label "Commentary to Hohelied" ;
+    jp:title "Commentary to Hohelied" ;
+    jp:writtenBy jp:Person_Schwartz_moshe_ibn_tibbon ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_commentary_to_maimonides_guide a jp:HistoricalWork ;
+    rdfs:label "Commentary to Maimonides Guide" ;
+    jp:title "Commentary to Maimonides Guide" ;
+    jp:writtenBy jp:Person_Q369127 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_dalalat_al_hairin a jp:HistoricalWork ;
+    rdfs:label "Dalālat al-ḥā'irīn" ;
+    jp:title "Dalālat al-ḥā'irīn" ;
+    jp:writtenBy jp:Person_Q156736 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_das_buch_al_chazari a jp:HistoricalWork ;
+    rdfs:label "Das Buch al-Chazari" ;
+    jp:title "Das Buch al-Chazari" ;
+    jp:writtenBy jp:Person_Q156789 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_dialoghi_damore a jp:HistoricalWork ;
+    rdfs:label "Dialoghi d'amore" ;
+    jp:title "Dialoghi d'amore" ;
+    jp:writtenBy jp:Person_Q369130 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_epistle_of_the_debate a jp:HistoricalWork ;
+    rdfs:label "Epistle of the debate" ;
+    jp:title "Epistle of the debate" ;
+    jp:writtenBy jp:Person_Schwartz_shem-tov_ben_joseph_ ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_fons_vitae a jp:HistoricalWork ;
+    rdfs:label "Fons vitae" ;
+    jp:title "Fons vitae" ;
+    jp:writtenBy jp:Person_Q156864 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_gei_hizzayon a jp:HistoricalWork ;
+    rdfs:label "Gei Hizzayon" ;
+    jp:title "Gei Hizzayon" ;
+    jp:writtenBy jp:Person_Q2824359 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_givat_hamore a jp:HistoricalWork ;
+    rdfs:label "Givat HaMore" ;
+    jp:title "Givat HaMore" ;
+    jp:writtenBy jp:Person_Q370614 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_glossarium_philosophico_hebraicum a jp:HistoricalWork ;
+    rdfs:label "Glossarium philosophico-hebraicum" ;
+    jp:title "Glossarium philosophico-hebraicum" ;
+    jp:writtenBy jp:Person_Schwartz_moshe_von_salerno ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_ha_emunah_ha_ramah a jp:HistoricalWork ;
+    rdfs:label "Ha-Emunah ha-Ramah" ;
+    jp:title "Ha-Emunah ha-Ramah" ;
+    jp:writtenBy jp:Person_Q580007 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_hegyon_ha_nefesh_ha_atzuva a jp:HistoricalWork ;
+    rdfs:label "Hegyon ha-Nefesh ha-Atzuva" ;
+    jp:title "Hegyon ha-Nefesh ha-Atzuva" ;
+    jp:writtenBy jp:Person_Q370008 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_hesek_shelomo a jp:HistoricalWork ;
+    rdfs:label "Hešek Shelomo" ;
+    jp:title "Hešek Shelomo" ;
+    jp:writtenBy jp:Person_Schwartz_shelomo_ben_judah_vo ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_iggeret_shiur_qoma a jp:HistoricalWork ;
+    rdfs:label "Iggeret Shi'ur Qomā" ;
+    jp:title "Iggeret Shi'ur Qomā" ;
+    jp:writtenBy jp:Person_Q369127 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_kitab_al_answar_wal_maraqib a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-answār wa'l-marāqib" ;
+    jp:title "Kitāb al-answār wa'l-marāqib" ;
+    jp:writtenBy jp:Person_Schwartz_abu_jusuf_jaqub_al-q ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_kitab_al_amanat_wal_itiqadat a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-Āmānāt wa'l-I'tiqādāt" ;
+    jp:title "Kitāb al-Āmānāt wa'l-I'tiqādāt" ;
+    jp:writtenBy jp:Person_Q370010 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_krone_des_königtums a jp:HistoricalWork ;
+    rdfs:label "Krone des Königtums" ;
+    jp:title "Krone des Königtums" ;
+    jp:writtenBy jp:Person_Q156864 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_le_forme_degli_elementi a jp:HistoricalWork ;
+    rdfs:label "Le forme degli elementi" ;
+    jp:title "Le forme degli elementi" ;
+    jp:writtenBy jp:Person_Q369043 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_lebensgeschichte a jp:HistoricalWork ;
+    rdfs:label "Lebensgeschichte" ;
+    jp:title "Lebensgeschichte" ;
+    jp:writtenBy jp:Person_Q370614 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_letters a jp:HistoricalWork ;
+    rdfs:label "Letters" ;
+    jp:title "Letters" ;
+    jp:writtenBy jp:Person_Schwartz_zerahyah_ben_isaak_b ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_liber_de_definicionibus a jp:HistoricalWork ;
+    rdfs:label "Liber de definicionibus" ;
+    jp:title "Liber de definicionibus" ;
+    jp:writtenBy jp:Person_Schwartz_isaak_israeli ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_maamar_shelemut_ha_nefesh a jp:HistoricalWork ;
+    rdfs:label "Ma'amar Shelemut ha-Nefesh" ;
+    jp:title "Ma'amar Shelemut ha-Nefesh" ;
+    jp:writtenBy jp:Person_Q369127 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_mahberot_immanuel_haromi a jp:HistoricalWork ;
+    rdfs:label "Mahberot Immanuel Haromi" ;
+    jp:title "Mahberot Immanuel Haromi" ;
+    jp:writtenBy jp:Person_Q369129 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_malmad_ha_talmidim a jp:HistoricalWork ;
+    rdfs:label "Malmad ha-talmidim" ;
+    jp:title "Malmad ha-talmidim" ;
+    jp:writtenBy jp:Person_Schwartz_jaaqov_anatoli ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_milhamot_ha_shem a jp:HistoricalWork ;
+    rdfs:label "Milḥamot ha-Shem" ;
+    jp:title "Milḥamot ha-Shem" ;
+    jp:writtenBy jp:Person_Schwartz_jaaqov_ben_reuben ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_mischna_thora a jp:HistoricalWork ;
+    rdfs:label "Mischna Thora" ;
+    jp:title "Mischna Thora" ;
+    jp:writtenBy jp:Person_Q156736 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_moreh_ha_moreh a jp:HistoricalWork ;
+    rdfs:label "Moreh ha-Moreh" ;
+    jp:title "Moreh ha-Moreh" ;
+    jp:writtenBy jp:Person_Schwartz_shem-tov_ben_joseph_ ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_mostrador_de_justicia a jp:HistoricalWork ;
+    rdfs:label "Mostrador de justicia" ;
+    jp:title "Mostrador de justicia" ;
+    jp:writtenBy jp:Person_Q370000 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_omnia_opera a jp:HistoricalWork ;
+    rdfs:label "Omnia opera" ;
+    jp:title "Omnia opera" ;
+    jp:writtenBy jp:Person_Schwartz_isaak_israeli ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_otot_ha_shamayim a jp:HistoricalWork ;
+    rdfs:label "Otot ha-Shamayim" ;
+    jp:title "Otot ha-Shamayim" ;
+    jp:writtenBy jp:Person_Schwartz_shmuel_ben_judah_ibn ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_perush_ha_milim_ha_zarot a jp:HistoricalWork ;
+    rdfs:label "Perush ha-milim ha-zarot" ;
+    jp:title "Perush ha-milim ha-zarot" ;
+    jp:writtenBy jp:Person_Schwartz_shmuel_ben_judah_ibn ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_perushe_ha_torah a jp:HistoricalWork ;
+    rdfs:label "Perushe ha-Torah" ;
+    jp:title "Perushe ha-Torah" ;
+    jp:writtenBy jp:Person_Q369131 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_polemical_writings a jp:HistoricalWork ;
+    rdfs:label "Polemical writings" ;
+    jp:title "Polemical writings" ;
+    jp:writtenBy jp:Person_Q370000 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_reshit_hokhmah a jp:HistoricalWork ;
+    rdfs:label "Reshit Ḥokhmah" ;
+    jp:title "Reshit Ḥokhmah" ;
+    jp:writtenBy jp:Person_Schwartz_shem-tov_ben_joseph_ ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_rosh_amanah a jp:HistoricalWork ;
+    rdfs:label "Rosh Amanah" ;
+    jp:title "Rosh Amanah" ;
+    jp:writtenBy jp:Person_Q369043 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_ruah_hen a jp:HistoricalWork ;
+    rdfs:label "Ruaḥ Ḥen" ;
+    jp:title "Ruaḥ Ḥen" ;
+    jp:writtenBy jp:Person_Schwartz_jaaqov_anatoli ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_geulah a jp:HistoricalWork ;
+    rdfs:label "Sefer Ge'ulah" ;
+    jp:title "Sefer Ge'ulah" ;
+    jp:writtenBy jp:Person_Schwartz_abraham_ben_shmuel_a ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_or_adonaj a jp:HistoricalWork ;
+    rdfs:label "Sefer Or Adonaj" ;
+    jp:title "Sefer Or Adonaj" ;
+    jp:writtenBy jp:Person_Q369126 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_tagmule_ha_nefesh a jp:HistoricalWork ;
+    rdfs:label "Sefer Tagmule ha-Nefesh" ;
+    jp:title "Sefer Tagmule ha-Nefesh" ;
+    jp:writtenBy jp:Person_Schwartz_hillel_ben_shmuel_be ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_tiqqun_ha_deot a jp:HistoricalWork ;
+    rdfs:label "Sefer Tiqqun ha-De'ot" ;
+    jp:title "Sefer Tiqqun ha-De'ot" ;
+    jp:writtenBy jp:Person_Schwartz_isaak_albalag ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_ha_nefesh a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Nefesh" ;
+    jp:title "Sefer ha-Nefesh" ;
+    jp:writtenBy jp:Person_Schwartz_shem-tov_ben_joseph_ ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_ha_reason a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Reason" ;
+    jp:title "Sefer ha-Reason" ;
+    jp:writtenBy jp:Person_Q369131 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_ha_nefes a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-nefeš" ;
+    jp:title "Sefer ha-nefeš" ;
+    jp:writtenBy jp:Person_Schwartz_dominicus_gundissali ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_nefesh_ha_adam a jp:HistoricalWork ;
+    rdfs:label "Sefer nefesh ha-adam" ;
+    jp:title "Sefer nefesh ha-adam" ;
+    jp:writtenBy jp:Person_Schwartz_shmuel_ben_judah_ibn ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sefer_hayyei_ha_nefesh a jp:HistoricalWork ;
+    rdfs:label "Sefer Ḥayyei ha-Nefesh" ;
+    jp:title "Sefer Ḥayyei ha-Nefesh" ;
+    jp:writtenBy jp:Person_Schwartz_abraham_ben_shmuel_a ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_shaar_ha_shamayim a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Shamayim" ;
+    jp:title "Sha'ar ha-Shamayim" ;
+    jp:writtenBy jp:Person_Schwartz_gershom_ben_solomon_ ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_sitrei_torah a jp:HistoricalWork ;
+    rdfs:label "Sitrei Torah" ;
+    jp:title "Sitrei Torah" ;
+    jp:writtenBy jp:Person_Schwartz_abraham_ben_shmuel_a ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_socrate_overo_dellhumano_sapere a jp:HistoricalWork ;
+    rdfs:label "Socrate overo dell'humano sapere" ;
+    jp:title "Socrate overo dell'humano sapere" ;
+    jp:writtenBy jp:Person_Q2380857 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_translations a jp:HistoricalWork ;
+    rdfs:label "Translations" ;
+    jp:title "Translations" ;
+    jp:writtenBy jp:Person_Schwartz_judah_ibn_tibbon ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_yesod_mora_ve_sod_torah a jp:HistoricalWork ;
+    rdfs:label "Yesod mora ve-sod torah" ;
+    jp:title "Yesod mora ve-sod torah" ;
+    jp:writtenBy jp:Person_Q369131 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_yesode_ha_tebunah a jp:HistoricalWork ;
+    rdfs:label "Yesode ha-tebunah" ;
+    jp:title "Yesode ha-tebunah" ;
+    jp:writtenBy jp:Person_Q370008 ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_ethical_will a jp:HistoricalWork ;
+    rdfs:label "ethical will" ;
+    jp:title "ethical will" ;
+    jp:writtenBy jp:Person_Schwartz_judah_ibn_tibbon ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+
+jp:Work_Schwartz_various_writings a jp:HistoricalWork ;
+    rdfs:label "various writings" ;
+    jp:title "various writings" ;
+    jp:writtenBy jp:Person_Schwartz_moshe_ibn_tibbon ;
+    jp:hasSource jp:Source_Yossi_German_Paper .
+

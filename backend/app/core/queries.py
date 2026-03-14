@@ -177,13 +177,17 @@ ORDER BY ?type ?personLabel
 # --- SUBJECTS ---
 
 LIST_SUBJECTS = PREFIXES + """
-SELECT ?uri ?label (COUNT(DISTINCT ?work) as ?total)
+SELECT ?uri ?label (COUNT(DISTINCT ?work) as ?total) (COUNT(DISTINCT ?author) as ?author_count)
 WHERE {{
     ?uri a jp:Subject .
     OPTIONAL {{ ?uri rdfs:label ?label }}
-    OPTIONAL {{ 
+    OPTIONAL {{
         ?work jp:hasSubject ?uri .
         {source_filter}
+    }}
+    OPTIONAL {{
+        ?work jp:hasSubject ?uri .
+        ?work jp:author ?author .
     }}
 }}
 GROUP BY ?uri ?label
@@ -348,10 +352,11 @@ WHERE {{
 """
 
 GET_NETWORK_EDGES_PLACES = PREFIXES + """
-SELECT ?person ?place
+SELECT ?person ?place ?place_label
 WHERE {{
     ?person jp:hasPlaceRelation ?rel .
     ?rel jp:relatedPlace ?place .
+    OPTIONAL {{ ?place rdfs:label ?place_label }}
     {source_filter}
 }}
 """

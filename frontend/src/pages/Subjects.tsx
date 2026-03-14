@@ -5,6 +5,7 @@ import type { SubjectList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2 } from 'lucide-react';
 import SourceFilter from '../components/SourceFilter';
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 // Simple DataTable component
 function DataTable({ columns, data }: { columns: ColumnDef<SubjectList>[], data: SubjectList[] }) {
@@ -122,13 +123,41 @@ export default function Subjects() {
             ),
         },
         {
+            accessorKey: "authors",
+            header: ({ column }) => {
+                return (
+                    <button
+                        className="flex items-center hover:text-gray-900"
+                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+                    >
+                        Authors
+                        <ArrowUpDown className="ml-2 h-4 w-4" />
+                    </button>
+                )
+            },
+            cell: ({ row }) => <span className="text-gray-500">{row.original.authors || 0}</span>,
+        },
+        {
             accessorKey: "count",
-            header: "Count",
+            header: ({ column }) => {
+                return (
+                    <button
+                        className="flex items-center hover:text-gray-900"
+                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+                    >
+                        Works
+                        <ArrowUpDown className="ml-2 h-4 w-4" />
+                    </button>
+                )
+            },
             cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
         },
     ]
 
     if (loading) return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-indigo-500" /></div>
+
+    // Sort by count descending for chart
+    const chartData = filteredSubjects.sort((a, b) => b.count - a.count).slice(0, 15);
 
     return (
         <div className="space-y-6">
@@ -155,6 +184,21 @@ export default function Subjects() {
                     />
                 </div>
             </div>
+
+            {chartData.length > 0 && (
+                <div className="bg-white rounded-lg shadow p-6">
+                    <h2 className="text-lg font-semibold text-gray-900 mb-4">Top Subjects by Person Count</h2>
+                    <ResponsiveContainer width="100%" height={300}>
+                        <BarChart data={chartData}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="label" angle={-45} textAnchor="end" height={80} />
+                            <YAxis />
+                            <Tooltip />
+                            <Bar dataKey="count" fill="#4f46e5" />
+                        </BarChart>
+                    </ResponsiveContainer>
+                </div>
+            )}
 
             <div className="bg-white rounded-lg shadow overflow-hidden">
                 <DataTable columns={columns} data={filteredSubjects} />
