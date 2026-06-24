@@ -19,3 +19,7 @@ uvicorn.log
 # Vite
 *.local
 .vite/
+
+# Data files
+data/general_list.ttl
+data/*.csv

@@ -62,6 +62,9 @@ jp:TimeRelation a owl:Class ;
     rdfs:label "Time Relation" ;
     rdfs:comment "A temporal assertion relating an entity to a time span, e.g., birth, death, activity." .
 
+jp:TimeBucket a owl:Class ;
+    rdfs:label "Time Bucket" ;
+    rdfs:comment "A standard 50-year interval used for grouping entities by their active/living periods." .
 
 jp:PlaceRelation a owl:Class ;
     rdfs:label "Place Relation" ;
@@ -143,6 +146,11 @@ jp:timeType a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     rdfs:comment "The kind of temporal relation, e.g., birth, death, activity." .
 
+jp:inTimeBucket a owl:ObjectProperty ;
+    rdfs:label "in time bucket" ;
+    rdfs:domain [ owl:unionOf ( jp:HistoricalPerson jp:HistoricalWork jp:TimeRelation ) ] ;
+    rdfs:range jp:TimeBucket ;
+    rdfs:comment "Links an entity or a time relation to a standard 50-year bucket." .
 
 jp:hasPlaceRelation a owl:ObjectProperty ;
     rdfs:label "has place relation" ;
@@ -202,6 +210,12 @@ jp:timeUntil a owl:DatatypeProperty ;
     rdfs:domain jp:TimeRelation ;
     rdfs:range xsd:gYear ;
     rdfs:comment "End of the time interval (or single year)." .
+
+jp:bucketLabel a owl:DatatypeProperty ;
+    rdfs:label "bucket label" ;
+    rdfs:domain jp:TimeBucket ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Label of the 50-year interval, e.g., 1150-1200." .
 
 jp:placeType a owl:DatatypeProperty ;
     rdfs:label "place type" ;
