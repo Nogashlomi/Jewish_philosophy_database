@@ -7,11 +7,11 @@ from app.schemas.subject import SubjectList, SubjectDetail
 router = APIRouter()
 
 @router.get("/", response_model=List[SubjectList])
-async def list_subjects_json(source: Optional[str] = Query(None, description="Filter by data source ID")):
+async def list_subjects_json():
     """
     Get a list of all subjects.
     """
-    return entity_service.list_subjects(source=source)
+    return entity_service.list_subjects()
 
 @router.get("/{subject_id}", response_model=SubjectDetail)
 async def get_subject_detail_json(subject_id: str):

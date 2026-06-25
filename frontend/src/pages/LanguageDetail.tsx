@@ -33,21 +33,21 @@ export default function LanguageDetail() {
                 </div>
 
                 <div className="p-6">
-                    {/* Works linked to this language */}
-                    {language.works && language.works.length > 0 ? (
+                    {/* Persons speaking this language */}
+                    {language.persons && language.persons.length > 0 ? (
                         <div className="flex items-start gap-3">
                             <BookOpen className="h-5 w-5 text-pink-500 mt-0.5" />
                             <div className="w-full">
-                                <h3 className="font-medium text-gray-900 mb-3">Connections ({language.works.length})</h3>
+                                <h3 className="font-medium text-gray-900 mb-3">Speakers ({language.persons.length})</h3>
                                 <div className="grid gap-2 sm:grid-cols-2">
-                                    {language.works.map((work: any) => (
+                                    {language.persons.map((person: any) => (
                                         <Link
-                                            key={work.id}
-                                            to={`/works/${work.id}`}
+                                            key={person.id}
+                                            to={`/persons/${person.id}`}
                                             className="block p-3 rounded border border-gray-100 hover:bg-pink-50 hover:border-pink-200 transition-all"
                                         >
-                                            <div className="font-medium text-indigo-700 truncate" title={work.title}>{work.title}</div>
-                                            <div className="text-xs text-gray-400 mt-1">{work.id}</div>
+                                            <div className="font-medium text-indigo-700 truncate" title={person.name}>{person.name}</div>
+                                            <div className="text-xs text-gray-400 mt-1">{person.id}</div>
                                         </Link>
                                     ))}
                                 </div>

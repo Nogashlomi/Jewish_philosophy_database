@@ -6,23 +6,15 @@ class WorkAuthor(BaseModel):
     uri: str
     label: str
 
-class ScholarlyWorkRef(BaseModel):
-    id: str
-    uri: str
-    title: str
-    year: Optional[str] = None
-
 from app.schemas.person import PlaceRelation, TimeRelation
 
 class WorkDetail(BaseModel):
     id: str
     uri: str
     title: str
-    sources: List[str] = []
     authors: List[WorkAuthor] = []
     subjects: List[str] = []
     languages: List[str] = []
-    scholarly_mentions: List[ScholarlyWorkRef] = []
     places: List[PlaceRelation] = []
     times: List[TimeRelation] = []
 

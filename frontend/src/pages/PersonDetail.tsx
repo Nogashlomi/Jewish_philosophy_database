@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
-import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar, ExternalLink, GraduationCap } from 'lucide-react'
+import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar, } from 'lucide-react'
 
 export default function PersonDetail() {
     const { id } = useParams<{ id: string }>()
@@ -42,8 +42,30 @@ export default function PersonDetail() {
                                 <div className="mt-1 space-y-1">
                                     {person.times.map((time, idx) => (
                                         <div key={idx} className="text-gray-600">
-                                            {time.start} - {time.end} {time.type && <span className="text-xs text-gray-400">({time.type})</span>}
+                                            {time.label ? (
+                                                <span className="font-medium text-gray-800">{time.label}</span>
+                                            ) : (
+                                                <span>{time.start} - {time.end}</span>
+                                            )}
+                                            {time.type && <span className="ml-2 text-xs text-gray-400">({time.type})</span>}
                                         </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Time Buckets */}
+                    {person.time_buckets && person.time_buckets.length > 0 && (
+                        <div className="flex items-start gap-3 mt-4">
+                            <Calendar className="h-5 w-5 text-indigo-500 mt-0.5" />
+                            <div>
+                                <h3 className="font-medium text-gray-900">Time Buckets (50-year eras)</h3>
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {person.time_buckets.map((bucket: string, idx: number) => (
+                                        <span key={idx} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-50 text-amber-700 hover:bg-amber-100">
+                                            {bucket}
+                                        </span>
                                     ))}
                                 </div>
                             </div>
@@ -94,24 +116,6 @@ export default function PersonDetail() {
                         </div>
                     )}
 
-                    {/* Scholarly Mentions */}
-                    {person.scholarly && person.scholarly.length > 0 && (
-                        <div className="flex items-start gap-3">
-                            <GraduationCap className="h-5 w-5 text-indigo-500 mt-0.5" />
-                            <div className="w-full">
-                                <h3 className="font-medium text-gray-900 mb-2">Scholarly Mentions ({person.scholarly.length})</h3>
-                                <div className="space-y-2">
-                                    {person.scholarly.map((mention) => (
-                                        <div key={mention.id} className="p-3 bg-gray-50 rounded text-sm text-gray-700">
-                                            <div className="font-medium">{mention.title}</div>
-                                            {mention.year && <div className="text-xs text-gray-500 mt-1">{mention.year}</div>}
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
                     {/* Subjects */}
                     {person.subjects && person.subjects.length > 0 && (
                         <div className="flex items-start gap-3">
@@ -146,48 +150,7 @@ export default function PersonDetail() {
                         </div>
                     )}
 
-                    {/* Sources */}
-                    {person.sources && person.sources.length > 0 && (
-                        <div className="flex items-start gap-3 border-t border-gray-100 pt-6">
-                            <BookOpen className="h-5 w-5 text-gray-400 mt-0.5" />
-                            <div>
-                                <h3 className="font-medium text-gray-900">Data Sources</h3>
-                                <div className="mt-2 flex flex-wrap gap-2">
-                                    {person.sources.map((src: string, idx: number) => (
-                                        <span
-                                            key={idx}
-                                            className="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800"
-                                        >
-                                            {src}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    )}
 
-                    {/* Authority Links */}
-                    {person.authorities && person.authorities.length > 0 && (
-                        <div className="flex items-start gap-3 border-t border-gray-100 pt-6">
-                            <ExternalLink className="h-5 w-5 text-gray-400 mt-0.5" />
-                            <div>
-                                <h3 className="font-medium text-gray-900">External Authorities</h3>
-                                <div className="mt-1 space-y-1">
-                                    {person.authorities.map((auth: string, idx: number) => (
-                                        <a
-                                            key={idx}
-                                            href={auth}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="block text-sm text-blue-600 hover:underline truncate max-w-md"
-                                        >
-                                            {auth}
-                                        </a>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    )}
                 </div>
             </div>
         </div>

@@ -1,9 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
+import { SourceFilter } from '../components/SourceFilter';
+
 import { entityService } from '../services/entityService';
 import type { PersonList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
-import SourceFilter from '../components/SourceFilter';
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
 
 const PAGE_SIZE = 100;
@@ -111,23 +113,25 @@ export default function Persons() {
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
     const [page, setPage] = useState(1);
+
     const [searchParams, setSearchParams] = useSearchParams();
+    const source = searchParams.get('source');
 
-    const selectedSource = searchParams.get('source');
-
-    const handleSourceChange = (source: string | null) => {
-        setPage(1);
-        if (source) {
-            setSearchParams({ source });
+    const handleSourceChange = (newSource: string | null) => {
+        if (newSource) {
+            searchParams.set('source', newSource);
         } else {
-            setSearchParams({});
+            searchParams.delete('source');
         }
+        setSearchParams(searchParams);
+        setPage(1); // Reset page on source change
     };
+
 
     const fetchPersons = useCallback(async () => {
         setLoading(true);
         try {
-            const data = await entityService.getPersons(selectedSource || undefined, page, PAGE_SIZE);
+            const data = await entityService.getPersons(page, PAGE_SIZE, source || undefined);
             setPersons(data.items);
             setTotal(data.total);
             setTotalPages(data.total_pages);
@@ -136,7 +140,7 @@ export default function Persons() {
         } finally {
             setLoading(false);
         }
-    }, [selectedSource, page]);
+    }, [page, source]);
 
     useEffect(() => {
         fetchPersons();
@@ -162,22 +166,9 @@ export default function Persons() {
             ),
         },
         {
-            accessorKey: "birth_year",
-            header: ({ column }) => (
-                <button className="flex items-center hover:text-gray-900" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
-                    Birth Year <ArrowUpDown className="ml-2 h-4 w-4" />
-                </button>
-            ),
-            cell: ({ row }) => <span className="text-gray-500">{row.original.birth_year || "-"}</span>,
-        },
-        {
-            accessorKey: "death_year",
-            header: ({ column }) => (
-                <button className="flex items-center hover:text-gray-900" onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}>
-                    Death Year <ArrowUpDown className="ml-2 h-4 w-4" />
-                </button>
-            ),
-            cell: ({ row }) => <span className="text-gray-500">{row.original.death_year || "-"}</span>,
+            accessorKey: "subjects",
+            header: "Subjects",
+            cell: ({ row }) => <span className="text-gray-500 text-xs">{row.original.subjects || "-"}</span>,
         },
         {
             accessorKey: "places",
@@ -202,6 +193,7 @@ export default function Persons() {
                 </div>
 
                 <div className="flex items-center space-x-4">
+                    <SourceFilter selectedSource={source} onChange={handleSourceChange} />
                     <div className="relative">
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                         <input
@@ -212,10 +204,6 @@ export default function Persons() {
                             className="pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         />
                     </div>
-                    <SourceFilter
-                        selectedSource={selectedSource}
-                        onSourceChange={handleSourceChange}
-                    />
                 </div>
             </div>
 

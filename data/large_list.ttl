@@ -1,0 +1,5110 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Person_Aaron_Afia a jp:HistoricalPerson ;
+    rdfs:label "Aaron Afia"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aaron_David_Gordon a jp:HistoricalPerson ;
+    rdfs:label "Aaron David Gordon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aaron_Hughes a jp:HistoricalPerson ;
+    rdfs:label "Aaron Hughes"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Abigdor a jp:HistoricalPerson ;
+    rdfs:label "Abraham Abigdor"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_II_ben_Maimon a jp:HistoricalPerson ;
+    rdfs:label "Abraham II ben Maimon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Kook_son_Zvi_Yehuda_Kook a jp:HistoricalPerson ;
+    rdfs:label "Abraham Kook (son — Zvi Yehuda Kook)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Krochmal a jp:HistoricalPerson ;
+    rdfs:label "Abraham Krochmal"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Provenzalo a jp:HistoricalPerson ;
+    rdfs:label "Abraham Provenzalo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alex_Green a jp:HistoricalPerson ;
+    rdfs:label "Alex Green"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alfred_Ivry a jp:HistoricalPerson ;
+    rdfs:label "Alfred Ivry"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aristobulus_of_Alexandria a jp:HistoricalPerson ;
+    rdfs:label "Aristobulus of Alexandria"^^xsd:string ;
+    jp:hasLanguage jp:Language_Greek ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aron_Gurwitsch a jp:HistoricalPerson ;
+    rdfs:label "Aron Gurwitsch"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Arthur_Hyman a jp:HistoricalPerson ;
+    rdfs:label "Arthur Hyman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Avi_Sagi a jp:HistoricalPerson ;
+    rdfs:label "Avi Sagi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Avital_Ravitsky a jp:HistoricalPerson ;
+    rdfs:label "Avital Ravitsky"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Avshalom_Elitzur a jp:HistoricalPerson ;
+    rdfs:label "Avshalom Elitzur"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Barukh_Togarmi a jp:HistoricalPerson ;
+    rdfs:label "Barukh Togarmi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Benjamin_Fondane a jp:HistoricalPerson ;
+    rdfs:label "Benjamin Fondane"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_Romanian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Bracha_L_Ettinger a jp:HistoricalPerson ;
+    rdfs:label "Bracha L. Ettinger"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_French,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Caleb_Afendopulo a jp:HistoricalPerson ;
+    rdfs:label "Caleb Afendopulo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Charles_Manekin a jp:HistoricalPerson ;
+    rdfs:label "Charles Manekin"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Colette_Sirat a jp:HistoricalPerson ;
+    rdfs:label "Colette Sirat"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Constantin_Brunner a jp:HistoricalPerson ;
+    rdfs:label "Constantin Brunner"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Crescas_Vidal a jp:HistoricalPerson ;
+    rdfs:label "Crescas Vidal"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Daniel_Bensa_d a jp:HistoricalPerson ;
+    rdfs:label "Daniel Bensaïd"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Daniel_Lasker a jp:HistoricalPerson ;
+    rdfs:label "Daniel Lasker"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_II_Maimonides a jp:HistoricalPerson ;
+    rdfs:label "David II Maimonides"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Lemler a jp:HistoricalPerson ;
+    rdfs:label "David Lemler"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Shatz a jp:HistoricalPerson ;
+    rdfs:label "David Shatz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_ben_Yehoshua_ben_Maimon a jp:HistoricalPerson ;
+    rdfs:label "David ben Yehoshua ben Maimon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_ben_Yom_Tov_ibn_Bilia a jp:HistoricalPerson ;
+    rdfs:label "David ben Yom Tov ibn Bilia"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_del_Bene a jp:HistoricalPerson ;
+    rdfs:label "David del Bene"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Diana_Di_Segni a jp:HistoricalPerson ;
+    rdfs:label "Diana Di Segni"^^xsd:string ;
+    jp:hasLanguage jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Diana_Lobel a jp:HistoricalPerson ;
+    rdfs:label "Diana Lobel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Dov_Gabbay a jp:HistoricalPerson ;
+    rdfs:label "Dov Gabbay"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Dov_Schwartz a jp:HistoricalPerson ;
+    rdfs:label "Dov Schwartz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eli_Habillo a jp:HistoricalPerson ;
+    rdfs:label "Eli Habillo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eliezer_Schweid a jp:HistoricalPerson ;
+    rdfs:label "Eliezer Schweid"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Elisha_ben_Abuyah a jp:HistoricalPerson ;
+    rdfs:label "Elisha ben Abuyah"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eric_Gutkind a jp:HistoricalPerson ;
+    rdfs:label "Eric Gutkind"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ezra_ben_Isaac_Fano a jp:HistoricalPerson ;
+    rdfs:label "Ezra ben Isaac Fano"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Fabius_Mieses a jp:HistoricalPerson ;
+    rdfs:label "Fabius Mieses"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Felix_Adler a jp:HistoricalPerson ;
+    rdfs:label "Felix Adler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Felix_Kaufmann a jp:HistoricalPerson ;
+    rdfs:label "Felix Kaufmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Francesca_Gorgoni a jp:HistoricalPerson ;
+    rdfs:label "Francesca Gorgoni"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gad_Freudenthal a jp:HistoricalPerson ;
+    rdfs:label "Gad Freudenthal"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Giorgio_Veltri a jp:HistoricalPerson ;
+    rdfs:label "Giorgio Veltri"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Giuseppe_Veltri a jp:HistoricalPerson ;
+    rdfs:label "Giuseppe Veltri"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gustav_Bergmann a jp:HistoricalPerson ;
+    rdfs:label "Gustav Bergmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hannah_Kasher a jp:HistoricalPerson ;
+    rdfs:label "Hannah Kasher"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hasdai_ibn_Shaprut a jp:HistoricalPerson ;
+    rdfs:label "Hasdai ibn Shaprut"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Heinrich_Gomperz a jp:HistoricalPerson ;
+    rdfs:label "Heinrich Gomperz"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Herbert_Davidson a jp:HistoricalPerson ;
+    rdfs:label "Herbert Davidson"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Herbert_Feigl a jp:HistoricalPerson ;
+    rdfs:label "Herbert Feigl"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hezekiah_bar_Halafta_Bonenfant_de_Millau a jp:HistoricalPerson ;
+    rdfs:label "Hezekiah bar Halafta (Bonenfant de Millau)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hillel_Zeitlin a jp:HistoricalPerson ;
+    rdfs:label "Hillel Zeitlin"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hirsch_B_r_Fassel a jp:HistoricalPerson ;
+    rdfs:label "Hirsch Bär Fassel"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hiwi_al_Balkhi a jp:HistoricalPerson ;
+    rdfs:label "Hiwi al-Balkhi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hoter_ben_Solomon_Mansur_ben_Sulayman a jp:HistoricalPerson ;
+    rdfs:label "Hoter ben Solomon (Mansur ben Sulayman)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hugo_Bergmann a jp:HistoricalPerson ;
+    rdfs:label "Hugo Bergmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Idit_Dobbs_Weinstein a jp:HistoricalPerson ;
+    rdfs:label "Idit Dobbs-Weinstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ignaz_Maybaum a jp:HistoricalPerson ;
+    rdfs:label "Ignaz Maybaum"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Immanuel_ben_Jacob_Bonfils a jp:HistoricalPerson ;
+    rdfs:label "Immanuel ben Jacob Bonfils"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ben_Immanuel_de_Latas a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Immanuel de Latas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ben_Jacob_Canpanton a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Jacob Canpanton"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ben_Samuel_of_Acre a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Samuel of Acre"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ibn_Ghayyat a jp:HistoricalPerson ;
+    rdfs:label "Isaac ibn Ghayyat"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaak_Benrubi a jp:HistoricalPerson ;
+    rdfs:label "Isaak Benrubi"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_Freudenthal a jp:HistoricalPerson ;
+    rdfs:label "Jacob Freudenthal"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_Klatzkin a jp:HistoricalPerson ;
+    rdfs:label "Jacob Klatzkin"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_ben_Makhir_Ibn_Tibbon a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Makhir Ibn Tibbon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jakob_Guttmann a jp:HistoricalPerson ;
+    rdfs:label "Jakob Guttmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_James_T_Robinson a jp:HistoricalPerson ;
+    rdfs:label "James T. Robinson"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jeanne_Hersch a jp:HistoricalPerson ;
+    rdfs:label "Jeanne Hersch"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Johanan_ben_Zakai a jp:HistoricalPerson ;
+    rdfs:label "Johanan ben Zakai"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Bonfils_Tov_Elem a jp:HistoricalPerson ;
+    rdfs:label "Joseph Bonfils (Tov Elem)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Ibn_Tabul a jp:HistoricalPerson ;
+    rdfs:label "Joseph Ibn Tabul"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_ben_Judah_of_Ceuta a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Judah of Ceuta"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_ben_Shem_Tov a jp:HistoricalPerson ;
+    rdfs:label "Joseph ben Shem Tov"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_ibn_Shem_Tov a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Shem Tov"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_ibn_Yahya a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Yahya"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Mosconi a jp:HistoricalPerson ;
+    rdfs:label "Judah Mosconi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Romano a jp:HistoricalPerson ;
+    rdfs:label "Judah Romano"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_ben_Solomon_Canpanton a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon Canpanton"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_L_on_Ashkenazi_Manitou a jp:HistoricalPerson ;
+    rdfs:label "Léon Ashkenazi (Manitou)"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_L_on_Brunschvicg a jp:HistoricalPerson ;
+    rdfs:label "Léon Brunschvicg"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lazarus_Ben_David a jp:HistoricalPerson ;
+    rdfs:label "Lazarus Ben-David"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Le_n_Dujovne a jp:HistoricalPerson ;
+    rdfs:label "León Dujovne"^^xsd:string ;
+    jp:hasLanguage jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leo_L_wenthal a jp:HistoricalPerson ;
+    rdfs:label "Leo Löwenthal"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ludwig_Stein a jp:HistoricalPerson ;
+    rdfs:label "Ludwig Stein"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lyubov_Axelrod a jp:HistoricalPerson ;
+    rdfs:label "Lyubov Axelrod"^^xsd:string ;
+    jp:hasLanguage jp:Language_Russian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Manasseh_ben_Joseph_of_Ilye a jp:HistoricalPerson ;
+    rdfs:label "Manasseh ben Joseph of Ilye"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Marcus_Herz a jp:HistoricalPerson ;
+    rdfs:label "Marcus Herz"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Marienza_Benedetto a jp:HistoricalPerson ;
+    rdfs:label "Marienza Benedetto"^^xsd:string ;
+    jp:hasLanguage jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mark_Wahltuch a jp:HistoricalPerson ;
+    rdfs:label "Mark Wahltuch"^^xsd:string ;
+    jp:hasLanguage jp:Language_Italian,
+        jp:Language_Russian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Marvin_Farber a jp:HistoricalPerson ;
+    rdfs:label "Marvin Farber"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mauro_Zonta a jp:HistoricalPerson ;
+    rdfs:label "Mauro Zonta"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Meir_ben_Isaac_Arama a jp:HistoricalPerson ;
+    rdfs:label "Meir ben Isaac Arama"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menahem_Azariah_da_Fano a jp:HistoricalPerson ;
+    rdfs:label "Menahem Azariah da Fano"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menahem_Zion_Porto a jp:HistoricalPerson ;
+    rdfs:label "Menahem Zion Porto"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Michael_Engel a jp:HistoricalPerson ;
+    rdfs:label "Michael Engel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Michael_ben_Shabbetai_Cohen_Balbo a jp:HistoricalPerson ;
+    rdfs:label "Michael ben Shabbetai Cohen Balbo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Miguel_de_Barrios a jp:HistoricalPerson ;
+    rdfs:label "Miguel de Barrios"^^xsd:string ;
+    jp:hasLanguage jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Miles_of_Marseilles_Bongodos a jp:HistoricalPerson ;
+    rdfs:label "Miles of Marseilles (Bongodos)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mordecai_Finzi a jp:HistoricalPerson ;
+    rdfs:label "Mordecai Finzi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mordekhai_Comtino a jp:HistoricalPerson ;
+    rdfs:label "Mordekhai Comtino"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moritz_Brasch a jp:HistoricalPerson ;
+    rdfs:label "Moritz Brasch"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Ibn_Tibbon a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn Tibbon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_ben_Isaac_Alashkar a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Isaac Alashkar"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_ben_Joseph_Halevi_Moses_of_Burgos a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Joseph Halevi (Moses of Burgos)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_ben_Shabbetai a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Shabbetai"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nathan_Birnbaum a jp:HistoricalPerson ;
+    rdfs:label "Nathan Birnbaum"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nathan_Rotenstreich a jp:HistoricalPerson ;
+    rdfs:label "Nathan Rotenstreich"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Norbert_Samuelson a jp:HistoricalPerson ;
+    rdfs:label "Norbert Samuelson"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Obadiah_ben_Maimon a jp:HistoricalPerson ;
+    rdfs:label "Obadiah ben Maimon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ofer_Elior a jp:HistoricalPerson ;
+    rdfs:label "Ofer Elior"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Olga_Hahn_Neurath a jp:HistoricalPerson ;
+    rdfs:label "Olga Hahn-Neurath"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Bernays a jp:HistoricalPerson ;
+    rdfs:label "Paul Bernays"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Edwards a jp:HistoricalPerson ;
+    rdfs:label "Paul Edwards"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Fenton a jp:HistoricalPerson ;
+    rdfs:label "Paul Fenton"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Philipp_Frank a jp:HistoricalPerson ;
+    rdfs:label "Philipp Frank"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rabbi_Akiva a jp:HistoricalPerson ;
+    rdfs:label "Rabbi Akiva"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Racheli_Haliva a jp:HistoricalPerson ;
+    rdfs:label "Racheli Haliva"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Raphael_Jospe a jp:HistoricalPerson ;
+    rdfs:label "Raphael Jospe"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Resianne_Fontaine a jp:HistoricalPerson ;
+    rdfs:label "Resianne Fontaine"^^xsd:string ;
+    jp:hasLanguage jp:Language_Dutch,
+        jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rivka_Horwitz a jp:HistoricalPerson ;
+    rdfs:label "Rivka Horwitz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ruth_Glasner a jp:HistoricalPerson ;
+    rdfs:label "Ruth Glasner"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sa_adya_ben_David_ad_Dammari a jp:HistoricalPerson ;
+    rdfs:label "Sa'adya ben David ad-Dammari"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sadakah_ben_Abu_al_Faraj_Munajja a jp:HistoricalPerson ;
+    rdfs:label "Sadakah ben Abu al-Faraj Munajja"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sahl_ben_Mazliah_ha_Kohen a jp:HistoricalPerson ;
+    rdfs:label "Sahl ben Mazliah ha-Kohen"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Salmon_ben_Yeroham a jp:HistoricalPerson ;
+    rdfs:label "Salmon ben Yeroham"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_David_Luzzatto_Shadal a jp:HistoricalPerson ;
+    rdfs:label "Samuel David Luzzatto (Shadal)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_ben_Judah_of_Marseilles a jp:HistoricalPerson ;
+    rdfs:label "Samuel ben Judah of Marseilles"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sara_Klein_Braslavy a jp:HistoricalPerson ;
+    rdfs:label "Sara Klein-Braslavy"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sarah_Stroumsa a jp:HistoricalPerson ;
+    rdfs:label "Sarah Stroumsa"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Seymour_Feldman a jp:HistoricalPerson ;
+    rdfs:label "Seymour Feldman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shabbetai_Zvi a jp:HistoricalPerson ;
+    rdfs:label "Shabbetai Zvi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shalom_Sadik a jp:HistoricalPerson ;
+    rdfs:label "Shalom Sadik"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shemariah_Ikriti_of_Negropont a jp:HistoricalPerson ;
+    rdfs:label "Shemariah Ikriti of Negropont"^^xsd:string ;
+    jp:hasLanguage jp:Language_Greek,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shlomo_Sela a jp:HistoricalPerson ;
+    rdfs:label "Shlomo Sela"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Simcha_Bunim_of_Peshischa a jp:HistoricalPerson ;
+    rdfs:label "Simcha Bunim of Peshischa"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Alkonstantin a jp:HistoricalPerson ;
+    rdfs:label "Solomon Alkonstantin"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Bonafed a jp:HistoricalPerson ;
+    rdfs:label "Solomon Bonafed"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Feferman a jp:HistoricalPerson ;
+    rdfs:label "Solomon Feferman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Steven_Harvey a jp:HistoricalPerson ;
+    rdfs:label "Steven Harvey"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Steven_Schwarzschild a jp:HistoricalPerson ;
+    rdfs:label "Steven Schwarzschild"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Tamar_Rudavsky a jp:HistoricalPerson ;
+    rdfs:label "Tamar Rudavsky"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Thomas_Davidson a jp:HistoricalPerson ;
+    rdfs:label "Thomas Davidson"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Todros_Todrosi a jp:HistoricalPerson ;
+    rdfs:label "Todros Todrosi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Warren_Zev_Harvey a jp:HistoricalPerson ;
+    rdfs:label "Warren Zev Harvey"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Y_Tzvi_Langermann a jp:HistoricalPerson ;
+    rdfs:label "Y. Tzvi Langermann"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yefet_ben_Eli a jp:HistoricalPerson ;
+    rdfs:label "Yefet ben Eli"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehoshua_Bar_Hillel a jp:HistoricalPerson ;
+    rdfs:label "Yehoshua Bar-Hillel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehoshua_ben_Maimon a jp:HistoricalPerson ;
+    rdfs:label "Yehoshua ben Maimon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehuda_Elkana a jp:HistoricalPerson ;
+    rdfs:label "Yehuda Elkana"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehuda_Halper a jp:HistoricalPerson ;
+    rdfs:label "Yehuda Halper"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yoav_Meyrav a jp:HistoricalPerson ;
+    rdfs:label "Yoav Meyrav"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yossef_Schwartz a jp:HistoricalPerson ;
+    rdfs:label "Yossef Schwartz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Zerahyah_Hen_Zerahiah_ben_Shealtiel a jp:HistoricalPerson ;
+    rdfs:label "Zerahyah Hen (Zerahiah ben Shealtiel)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_liane_Amado_Levy_Valensi a jp:HistoricalPerson ;
+    rdfs:label "Éliane Amado Levy-Valensi"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Work_36_Arguments_for_the_Existence_of_God a jp:HistoricalWork ;
+    rdfs:label "36 Arguments for the Existence of God"^^xsd:string ;
+    jp:writtenBy jp:Person_Rebecca_Goldstein .
+
+jp:Work_900_Theses a jp:HistoricalWork ;
+    rdfs:label "900 Theses"^^xsd:string ;
+    jp:writtenBy jp:Person_Pico_della_Mirandola .
+
+jp:Work_A_Living_Covenant a jp:HistoricalWork ;
+    rdfs:label "A Living Covenant"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Hartman .
+
+jp:Work_A_Preface_to_Logic a jp:HistoricalWork ;
+    rdfs:label "A Preface to Logic"^^xsd:string ;
+    jp:writtenBy jp:Person_Morris_Raphael_Cohen .
+
+jp:Work_A_Social_and_Religious_History_of_the_Jews a jp:HistoricalWork ;
+    rdfs:label "A Social and Religious History of the Jews"^^xsd:string ;
+    jp:writtenBy jp:Person_Salo_Baron .
+
+jp:Work_A_Theory_of_Feelings a jp:HistoricalWork ;
+    rdfs:label "A Theory of Feelings"^^xsd:string ;
+    jp:writtenBy jp:Person_gnes_Heller .
+
+jp:Work_A_Tree_of_Life a jp:HistoricalWork ;
+    rdfs:label "A Tree of Life"^^xsd:string ;
+    jp:writtenBy jp:Person_Louis_Jacobs .
+
+jp:Work_Accepting_the_Yoke_of_Heaven a jp:HistoricalWork ;
+    rdfs:label "Accepting the Yoke of Heaven"^^xsd:string ;
+    jp:writtenBy jp:Person_Yeshayahu_Leibowitz .
+
+jp:Work_Adderet_Eliyahu a jp:HistoricalWork ;
+    rdfs:label "Adderet Eliyahu"^^xsd:string ;
+    jp:writtenBy jp:Person_Elijah_Bashyatchi .
+
+jp:Work_Aderet_Eliyahu a jp:HistoricalWork ;
+    rdfs:label "Aderet Eliyahu"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_Elijah_Gaon_of_Vilna .
+
+jp:Work_Aesthetic_Theory a jp:HistoricalWork ;
+    rdfs:label "Aesthetic Theory"^^xsd:string ;
+    jp:writtenBy jp:Person_Theodor_W_Adorno .
+
+jp:Work_After_the_End_of_Art a jp:HistoricalWork ;
+    rdfs:label "After the End of Art"^^xsd:string ;
+    jp:writtenBy jp:Person_Arthur_Danto .
+
+jp:Work_Afterthoughts a jp:HistoricalWork ;
+    rdfs:label "Afterthoughts"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Kaplan .
+
+jp:Work_Against_Apion a jp:HistoricalWork ;
+    rdfs:label "Against Apion"^^xsd:string ;
+    jp:writtenBy jp:Person_Josephus_Flavius .
+
+jp:Work_Against_the_Current a jp:HistoricalWork ;
+    rdfs:label "Against the Current"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaiah_Berlin .
+
+jp:Work_Akedat_Yitzhak a jp:HistoricalWork ;
+    rdfs:label "Akedat Yitzhak"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_ben_Moses_Arama .
+
+jp:Work_Al_Murshid_al_Kafi a jp:HistoricalWork ;
+    rdfs:label "Al-Murshid al-Kafi"^^xsd:string ;
+    jp:writtenBy jp:Person_Tan_um_ha_Yerushalmi .
+
+jp:Work_Al_Parashat_Derakhim_At_the_Crossroads_essays a jp:HistoricalWork ;
+    rdfs:label "Al Parashat Derakhim (At the Crossroads, essays)"^^xsd:string ;
+    jp:writtenBy jp:Person_Ahad_Ha_am_Asher_Ginsberg .
+
+jp:Work_Al_Tehi_ka_Avotekha a jp:HistoricalWork ;
+    rdfs:label "Al Tehi ka-Avotekha"^^xsd:string ;
+    jp:writtenBy jp:Person_Profiat_Duran_Efodi .
+
+jp:Work_All_Things_Are_Possible a jp:HistoricalWork ;
+    rdfs:label "All Things Are Possible"^^xsd:string ;
+    jp:writtenBy jp:Person_Lev_Shestov .
+
+jp:Work_All_or_Nothing_Systematicity_Transcendental_Arguments_and_Skepticism_in_German_Idealism a jp:HistoricalWork ;
+    rdfs:label "All or Nothing: Systematicity, Transcendental Arguments, and Skepticism in German Idealism"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Franks .
+
+jp:Work_Allegorical_Interpretation a jp:HistoricalWork ;
+    rdfs:label "Allegorical Interpretation"^^xsd:string ;
+    jp:writtenBy jp:Person_Philo_of_Alexandria .
+
+jp:Work_An_Essay_on_Man a jp:HistoricalWork ;
+    rdfs:label "An Essay on Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernst_Cassirer .
+
+jp:Work_An_Ethics_of_Remembering a jp:HistoricalWork ;
+    rdfs:label "An Ethics of Remembering"^^xsd:string ;
+    jp:writtenBy jp:Person_Edith_Wyschogrod .
+
+jp:Work_Anarchism_and_Other_Essays a jp:HistoricalWork ;
+    rdfs:label "Anarchism and Other Essays"^^xsd:string ;
+    jp:writtenBy jp:Person_Emma_Goldman .
+
+jp:Work_Arabic_translation_of_the_Torah_Tafsir a jp:HistoricalWork ;
+    rdfs:label "Arabic translation of the Torah (Tafsir)"^^xsd:string ;
+    jp:writtenBy jp:Person_Saadia_Gaon .
+
+jp:Work_Arcades_Project a jp:HistoricalWork ;
+    rdfs:label "Arcades Project"^^xsd:string ;
+    jp:writtenBy jp:Person_Walter_Benjamin .
+
+jp:Work_Ari_Nohem a jp:HistoricalWork ;
+    rdfs:label "Ari Nohem"^^xsd:string ;
+    jp:writtenBy jp:Person_Leone_Modena .
+
+jp:Work_Arpilei_Tohar a jp:HistoricalWork ;
+    rdfs:label "Arpilei Tohar"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Isaac_Kook_Rav_Kook .
+
+jp:Work_Arugat_ha_Bosem a jp:HistoricalWork ;
+    rdfs:label "Arugat ha-Bosem"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Archivolti .
+
+jp:Work_Aspects_of_the_Theory_of_Syntax a jp:HistoricalWork ;
+    rdfs:label "Aspects of the Theory of Syntax"^^xsd:string ;
+    jp:writtenBy jp:Person_Noam_Chomsky .
+
+jp:Work_At_the_Mind_s_Limits a jp:HistoricalWork ;
+    rdfs:label "At the Mind's Limits"^^xsd:string ;
+    jp:writtenBy jp:Person_Jean_Am_ry .
+
+jp:Work_Athens_and_Jerusalem a jp:HistoricalWork ;
+    rdfs:label "Athens and Jerusalem"^^xsd:string ;
+    jp:writtenBy jp:Person_Lev_Shestov .
+
+jp:Work_Auto_Emancipation a jp:HistoricalWork ;
+    rdfs:label "Auto-Emancipation"^^xsd:string ;
+    jp:writtenBy jp:Person_Leon_Pinsker .
+
+jp:Work_Autobiography_Lebensgeschichte a jp:HistoricalWork ;
+    rdfs:label "Autobiography (Lebensgeschichte)"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon .
+
+jp:Work_Avodat_ha_Kodesh a jp:HistoricalWork ;
+    rdfs:label "Avodat ha-Kodesh"^^xsd:string ;
+    jp:writtenBy jp:Person_Meir_ibn_Gabbai .
+
+jp:Work_Ba_alei_ha_Nefesh a jp:HistoricalWork ;
+    rdfs:label "Ba'alei ha-Nefesh"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_David_of_Posqui_res_Rabad_III .
+
+jp:Work_Bad_Faith_and_Antiblack_Racism a jp:HistoricalWork ;
+    rdfs:label "Bad Faith and Antiblack Racism"^^xsd:string ;
+    jp:writtenBy jp:Person_Lewis_Gordon .
+
+jp:Work_Be_er_ha_Golah a jp:HistoricalWork ;
+    rdfs:label "Be'er ha-Golah"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Loew_ben_Bezalel_Maharal .
+
+jp:Work_Behinat_Olam a jp:HistoricalWork ;
+    rdfs:label "Behinat Olam"^^xsd:string ;
+    jp:writtenBy jp:Person_Jedaiah_ben_Abraham_Bedersi_ha_Penini,
+        jp:Person_Jedaiah_ha_Penini_Bedersi .
+
+jp:Work_Behinat_ha_Dat a jp:HistoricalWork ;
+    rdfs:label "Behinat ha-Dat"^^xsd:string ;
+    jp:writtenBy jp:Person_Elia_del_Medigo,
+        jp:Person_Eliezer_Eilburg .
+
+jp:Work_Beit_Yosef a jp:HistoricalWork ;
+    rdfs:label "Beit Yosef"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Karo .
+
+jp:Work_Beitr_ge_zur_islamischen_Atomenlehre a jp:HistoricalWork ;
+    rdfs:label "Beiträge zur islamischen Atomenlehre"^^xsd:string ;
+    jp:writtenBy jp:Person_Shlomo_Pines .
+
+jp:Work_Betraying_Spinoza a jp:HistoricalWork ;
+    rdfs:label "Betraying Spinoza"^^xsd:string ;
+    jp:writtenBy jp:Person_Rebecca_Goldstein .
+
+jp:Work_Beyond_Objectivism_and_Relativism a jp:HistoricalWork ;
+    rdfs:label "Beyond Objectivism and Relativism"^^xsd:string ;
+    jp:writtenBy jp:Person_Richard_J_Bernstein .
+
+jp:Work_Biur_commentaries a jp:HistoricalWork ;
+    rdfs:label "Biur (commentaries)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_Elijah_Gaon_of_Vilna .
+
+jp:Work_Bodies_That_Matter a jp:HistoricalWork ;
+    rdfs:label "Bodies That Matter"^^xsd:string ;
+    jp:writtenBy jp:Person_Judith_Butler .
+
+jp:Work_Book_of_Definitions a jp:HistoricalWork ;
+    rdfs:label "Book of Definitions"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Israeli_ben_Solomon .
+
+jp:Work_Book_of_Elements a jp:HistoricalWork ;
+    rdfs:label "Book of Elements"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Israeli_ben_Solomon .
+
+jp:Work_Bustan_al_Uqul_Garden_of_Intellects a jp:HistoricalWork ;
+    rdfs:label "Bustan al-Uqul (Garden of Intellects)"^^xsd:string ;
+    jp:writtenBy jp:Person_Nathanel_al_Fayyumi .
+
+jp:Work_By_His_Light a jp:HistoricalWork ;
+    rdfs:label "By His Light"^^xsd:string ;
+    jp:writtenBy jp:Person_Aharon_Lichtenstein .
+
+jp:Work_Candelabrum_of_the_Sanctuary a jp:HistoricalWork ;
+    rdfs:label "Candelabrum of the Sanctuary"^^xsd:string ;
+    jp:writtenBy jp:Person_Gregory_Bar_Hebraeus .
+
+jp:Work_Capitalism_Socialism_Ecology a jp:HistoricalWork ;
+    rdfs:label "Capitalism, Socialism, Ecology"^^xsd:string ;
+    jp:writtenBy jp:Person_Andr_Gorz .
+
+jp:Work_Cartesian_Meditations a jp:HistoricalWork ;
+    rdfs:label "Cartesian Meditations"^^xsd:string ;
+    jp:writtenBy jp:Person_Edmund_Husserl .
+
+jp:Work_Casa_de_la_Divinidad a jp:HistoricalWork ;
+    rdfs:label "Casa de la Divinidad"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Cohen_de_Herrera .
+
+jp:Work_Centuriae_medical_case_studies a jp:HistoricalWork ;
+    rdfs:label "Centuriae (medical case studies)"^^xsd:string ;
+    jp:writtenBy jp:Person_Amatus_Lusitanus .
+
+jp:Work_Chovas_HaTalmidim a jp:HistoricalWork ;
+    rdfs:label "Chovas HaTalmidim"^^xsd:string ;
+    jp:writtenBy jp:Person_Kalonymus_Kalmish_Shapira_Piaseczno_Rebbe .
+
+jp:Work_Civilization_and_Its_Discontents a jp:HistoricalWork ;
+    rdfs:label "Civilization and Its Discontents"^^xsd:string ;
+    jp:writtenBy jp:Person_Sigmund_Freud .
+
+jp:Work_Collected_Papers a jp:HistoricalWork ;
+    rdfs:label "Collected Papers"^^xsd:string ;
+    jp:writtenBy jp:Person_Alfred_Sch_tz .
+
+jp:Work_Commentaries_on_Torah_and_Nevi_im a jp:HistoricalWork ;
+    rdfs:label "Commentaries on Torah and Nevi'im"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Abravanel .
+
+jp:Work_Commentary_on_Averroes a jp:HistoricalWork ;
+    rdfs:label "Commentary on Averroes"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_ben_Joshua_of_Narbonne .
+
+jp:Work_Commentary_on_Ecclesiastes a jp:HistoricalWork ;
+    rdfs:label "Commentary on Ecclesiastes"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Ibn_Tibbon .
+
+jp:Work_Commentary_on_Sefer_Yetzirah a jp:HistoricalWork ;
+    rdfs:label "Commentary on Sefer Yetzirah"^^xsd:string ;
+    jp:writtenBy jp:Person_Dunash_Ibn_Tamim,
+        jp:Person_Saadia_Gaon .
+
+jp:Work_Commentary_on_the_Guide_of_the_Perplexed a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Guide of the Perplexed"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_ben_Joshua_of_Narbonne .
+
+jp:Work_Commentary_on_the_Mishnah a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Mishnah"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Maimonides_Rambam .
+
+jp:Work_Commentary_on_the_Talmudic_Aggadot a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Talmudic Aggadot"^^xsd:string ;
+    jp:writtenBy jp:Person_Azriel_of_Gerona .
+
+jp:Work_Commentary_on_the_Torah a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Torah"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra,
+        jp:Person_Levi_ben_Gershom_Gersonides,
+        jp:Person_Nachmanides_Moses_ben_Nahman,
+        jp:Person_Ovadiah_Sforno,
+        jp:Person_Samson_Raphael_Hirsch .
+
+jp:Work_Conciliador a jp:HistoricalWork ;
+    rdfs:label "Conciliador"^^xsd:string ;
+    jp:writtenBy jp:Person_Menasseh_ben_Israel .
+
+jp:Work_Contingency_Irony_and_Solidarity a jp:HistoricalWork ;
+    rdfs:label "Contingency, Irony, and Solidarity"^^xsd:string ;
+    jp:writtenBy jp:Person_Richard_Rorty .
+
+jp:Work_Counterfactuals a jp:HistoricalWork ;
+    rdfs:label "Counterfactuals"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Lewis .
+
+jp:Work_Creating_Capabilities a jp:HistoricalWork ;
+    rdfs:label "Creating Capabilities"^^xsd:string ;
+    jp:writtenBy jp:Person_Martha_Nussbaum .
+
+jp:Work_Creative_Evolution a jp:HistoricalWork ;
+    rdfs:label "Creative Evolution"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Bergson .
+
+jp:Work_Crescas_Critique_of_Aristotle a jp:HistoricalWork ;
+    rdfs:label "Crescas' Critique of Aristotle"^^xsd:string ;
+    jp:writtenBy jp:Person_Harry_Wolfson .
+
+jp:Work_Critique_Norm_and_Utopia a jp:HistoricalWork ;
+    rdfs:label "Critique, Norm and Utopia"^^xsd:string ;
+    jp:writtenBy jp:Person_Seyla_Benhabib .
+
+jp:Work_Critique_of_Religion_and_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Critique of Religion and Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Walter_Kaufmann .
+
+jp:Work_Cybernetics a jp:HistoricalWork ;
+    rdfs:label "Cybernetics"^^xsd:string ;
+    jp:writtenBy jp:Person_Norbert_Wiener .
+
+jp:Work_Da_at_Tevunot a jp:HistoricalWork ;
+    rdfs:label "Da'at Tevunot"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Chaim_Luzzatto_Ramchal .
+
+jp:Work_Darkhei_ha_Mishnah a jp:HistoricalWork ;
+    rdfs:label "Darkhei ha-Mishnah"^^xsd:string ;
+    jp:writtenBy jp:Person_Zacharias_Frankel .
+
+jp:Work_De_Animalibus a jp:HistoricalWork ;
+    rdfs:label "De Animalibus"^^xsd:string ;
+    jp:writtenBy jp:Person_Albertus_Magnus .
+
+jp:Work_De_Docta_Ignorantia a jp:HistoricalWork ;
+    rdfs:label "De Docta Ignorantia"^^xsd:string ;
+    jp:writtenBy jp:Person_Nicholas_of_Cusa .
+
+jp:Work_De_Ente_et_Essentia a jp:HistoricalWork ;
+    rdfs:label "De Ente et Essentia"^^xsd:string ;
+    jp:writtenBy jp:Person_Thomas_Aquinas .
+
+jp:Work_De_Visione_Dei a jp:HistoricalWork ;
+    rdfs:label "De Visione Dei"^^xsd:string ;
+    jp:writtenBy jp:Person_Nicholas_of_Cusa .
+
+jp:Work_De_la_Fragilidad_Humana a jp:HistoricalWork ;
+    rdfs:label "De la Fragilidad Humana"^^xsd:string ;
+    jp:writtenBy jp:Person_Menasseh_ben_Israel .
+
+jp:Work_Degeneration a jp:HistoricalWork ;
+    rdfs:label "Degeneration"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Nordau .
+
+jp:Work_Demonstratives a jp:HistoricalWork ;
+    rdfs:label "Demonstratives"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Kaplan .
+
+jp:Work_Derashot_ha_Ran a jp:HistoricalWork ;
+    rdfs:label "Derashot ha-Ran"^^xsd:string ;
+    jp:writtenBy jp:Person_Nissim_ben_Reuben_Gerondi_Ran .
+
+jp:Work_Derekh_Emunah a jp:HistoricalWork ;
+    rdfs:label "Derekh Emunah"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Bibago .
+
+jp:Work_Derekh_Hashem a jp:HistoricalWork ;
+    rdfs:label "Derekh Hashem"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Chaim_Luzzatto_Ramchal .
+
+jp:Work_Derushe_ha_Tanninim a jp:HistoricalWork ;
+    rdfs:label "Derushe ha-Tanninim"^^xsd:string ;
+    jp:writtenBy jp:Person_Nathan_of_Gaza .
+
+jp:Work_Dialectic_of_Enlightenment a jp:HistoricalWork ;
+    rdfs:label "Dialectic of Enlightenment"^^xsd:string ;
+    jp:writtenBy jp:Person_Theodor_W_Adorno .
+
+jp:Work_Dialectic_of_Enlightenment_with_Adorno a jp:HistoricalWork ;
+    rdfs:label "Dialectic of Enlightenment (with Adorno)"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Horkheimer .
+
+jp:Work_Dialoghi_d_Amore_Dialogues_of_Love a jp:HistoricalWork ;
+    rdfs:label "Dialoghi d'Amore (Dialogues of Love)"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Abravanel_Leone_Ebreo .
+
+jp:Work_Dialogi a jp:HistoricalWork ;
+    rdfs:label "Dialogi"^^xsd:string ;
+    jp:writtenBy jp:Person_Petrus_Alfonsi .
+
+jp:Work_Dialogue_of_a_Philosopher_with_a_Jew_and_a_Christian a jp:HistoricalWork ;
+    rdfs:label "Dialogue of a Philosopher with a Jew and a Christian"^^xsd:string ;
+    jp:writtenBy jp:Person_Peter_Abelard .
+
+jp:Work_Die_Ethik_des_Judentums_The_Ethics_of_Judaism a jp:HistoricalWork ;
+    rdfs:label "Die Ethik des Judentums (The Ethics of Judaism)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moritz_Lazarus .
+
+jp:Work_Die_Offenbarung_nach_dem_Lehrbegriffe_der_Synagoge a jp:HistoricalWork ;
+    rdfs:label "Die Offenbarung nach dem Lehrbegriffe der Synagoge"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Ludwig_Steinheim .
+
+jp:Work_Die_Religion_des_Geistes a jp:HistoricalWork ;
+    rdfs:label "Die Religion des Geistes"^^xsd:string ;
+    jp:writtenBy jp:Person_Salomon_Formstecher .
+
+jp:Work_Die_Religionsphilosophie_der_Juden a jp:HistoricalWork ;
+    rdfs:label "Die Religionsphilosophie der Juden"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Hirsch .
+
+jp:Work_Difficult_Freedom a jp:HistoricalWork ;
+    rdfs:label "Difficult Freedom"^^xsd:string ;
+    jp:writtenBy jp:Person_Emmanuel_Levinas .
+
+jp:Work_Disciplina_Clericalis a jp:HistoricalWork ;
+    rdfs:label "Disciplina Clericalis"^^xsd:string ;
+    jp:writtenBy jp:Person_Petrus_Alfonsi .
+
+jp:Work_Discorso a jp:HistoricalWork ;
+    rdfs:label "Discorso"^^xsd:string ;
+    jp:writtenBy jp:Person_Simone_Luzzatto .
+
+jp:Work_Diwan_collected_poetry a jp:HistoricalWork ;
+    rdfs:label "Diwan (collected poetry)"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Halevi .
+
+jp:Work_Dodi_ve_Nekdi a jp:HistoricalWork ;
+    rdfs:label "Dodi ve-Nekdi"^^xsd:string ;
+    jp:writtenBy jp:Person_Berechiah_ben_Natronai_ha_Nakdan .
+
+jp:Work_Dogma_in_Medieval_Jewish_Thought a jp:HistoricalWork ;
+    rdfs:label "Dogma in Medieval Jewish Thought"^^xsd:string ;
+    jp:writtenBy jp:Person_Menachem_Kellner .
+
+jp:Work_Duties_of_the_Heart_Hovot_ha_Levavot a jp:HistoricalWork ;
+    rdfs:label "Duties of the Heart (Hovot ha-Levavot)"^^xsd:string ;
+    jp:writtenBy jp:Person_Bahya_Ibn_Paquda .
+
+jp:Work_Eben_Bohan a jp:HistoricalWork ;
+    rdfs:label "Eben Bohan"^^xsd:string ;
+    jp:writtenBy jp:Person_Shem_Tov_ben_Isaac_ibn_Shaprut .
+
+jp:Work_Eclipse_of_Reason a jp:HistoricalWork ;
+    rdfs:label "Eclipse of Reason"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Horkheimer .
+
+jp:Work_Eichmann_in_Jerusalem a jp:HistoricalWork ;
+    rdfs:label "Eichmann in Jerusalem"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt .
+
+jp:Work_Einleitung_in_die_Psychologie_und_Sprachwissenschaft a jp:HistoricalWork ;
+    rdfs:label "Einleitung in die Psychologie und Sprachwissenschaft"^^xsd:string ;
+    jp:writtenBy jp:Person_Hermann_Steinthal .
+
+jp:Work_Eisenmenger_the_Second a jp:HistoricalWork ;
+    rdfs:label "Eisenmenger the Second"^^xsd:string ;
+    jp:writtenBy jp:Person_Saul_Ascher .
+
+jp:Work_Elim a jp:HistoricalWork ;
+    rdfs:label "Elim"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Solomon_Delmedigo .
+
+jp:Work_Emendation_of_the_Intellect a jp:HistoricalWork ;
+    rdfs:label "Emendation of the Intellect"^^xsd:string ;
+    jp:writtenBy jp:Person_Baruch_Spinoza .
+
+jp:Work_Empiricism_and_the_Philosophy_of_Mind a jp:HistoricalWork ;
+    rdfs:label "Empiricism and the Philosophy of Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Wilfrid_Sellars .
+
+jp:Work_Emunah_Ramah_The_Exalted_Faith a jp:HistoricalWork ;
+    rdfs:label "Emunah Ramah (The Exalted Faith)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Daud .
+
+jp:Work_Emunot_ve_Deot_Book_of_Beliefs_and_Opinions a jp:HistoricalWork ;
+    rdfs:label "Emunot ve-Deot (Book of Beliefs and Opinions)"^^xsd:string ;
+    jp:writtenBy jp:Person_Saadia_Gaon .
+
+jp:Work_Encyclop_die a jp:HistoricalWork ;
+    rdfs:label "Encyclopédie"^^xsd:string ;
+    jp:writtenBy jp:Person_Denis_Diderot .
+
+jp:Work_Engendering_Judaism a jp:HistoricalWork ;
+    rdfs:label "Engendering Judaism"^^xsd:string ;
+    jp:writtenBy jp:Person_Rachel_Adler .
+
+jp:Work_Enlightenment_Contested a jp:HistoricalWork ;
+    rdfs:label "Enlightenment Contested"^^xsd:string ;
+    jp:writtenBy jp:Person_Jonathan_Israel .
+
+jp:Work_Entre_le_cristal_et_la_fum_e a jp:HistoricalWork ;
+    rdfs:label "Entre le cristal et la fumée"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Atlan .
+
+jp:Work_Eros_and_Civilization a jp:HistoricalWork ;
+    rdfs:label "Eros and Civilization"^^xsd:string ;
+    jp:writtenBy jp:Person_Herbert_Marcuse .
+
+jp:Work_Escape_from_Freedom a jp:HistoricalWork ;
+    rdfs:label "Escape from Freedom"^^xsd:string ;
+    jp:writtenBy jp:Person_Erich_Fromm .
+
+jp:Work_Esh_Kodesh a jp:HistoricalWork ;
+    rdfs:label "Esh Kodesh"^^xsd:string ;
+    jp:writtenBy jp:Person_Kalonymus_Kalmish_Shapira_Piaseczno_Rebbe .
+
+jp:Work_Eshkol_ha_Kofer a jp:HistoricalWork ;
+    rdfs:label "Eshkol ha-Kofer"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Hadassi .
+
+jp:Work_Esperan_a_de_Israel a jp:HistoricalWork ;
+    rdfs:label "Esperança de Israel"^^xsd:string ;
+    jp:writtenBy jp:Person_Menasseh_ben_Israel .
+
+jp:Work_Essay_on_Transcendental_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Essay on Transcendental Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon .
+
+jp:Work_Essays_on_the_Sociology_of_Knowledge a jp:HistoricalWork ;
+    rdfs:label "Essays on the Sociology of Knowledge"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_Mannheim .
+
+jp:Work_Ethics a jp:HistoricalWork ;
+    rdfs:label "Ethics"^^xsd:string ;
+    jp:writtenBy jp:Person_Baruch_Spinoza .
+
+jp:Work_Ethics_of_Pure_Will a jp:HistoricalWork ;
+    rdfs:label "Ethics of Pure Will"^^xsd:string ;
+    jp:writtenBy jp:Person_Hermann_Cohen .
+
+jp:Work_Etz_Hayyim a jp:HistoricalWork ;
+    rdfs:label "Etz Hayyim"^^xsd:string ;
+    jp:writtenBy jp:Person_Hayyim_Vital .
+
+jp:Work_Etz_Hayyim_Karaite a jp:HistoricalWork ;
+    rdfs:label "Etz Hayyim (Karaite)"^^xsd:string ;
+    jp:writtenBy jp:Person_Aaron_ben_Elijah_of_Nicomedia .
+
+jp:Work_Etz_Hayyim_recorded_by_Vital a jp:HistoricalWork ;
+    rdfs:label "Etz Hayyim (recorded by Vital)"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Luria_the_Ari .
+
+jp:Work_Even_Bohan a jp:HistoricalWork ;
+    rdfs:label "Even Bohan"^^xsd:string ;
+    jp:writtenBy jp:Person_Kalonymus_ben_Kalonymus .
+
+jp:Work_Everyday_Life a jp:HistoricalWork ;
+    rdfs:label "Everyday Life"^^xsd:string ;
+    jp:writtenBy jp:Person_gnes_Heller .
+
+jp:Work_Evil_in_Modern_Thought a jp:HistoricalWork ;
+    rdfs:label "Evil in Modern Thought"^^xsd:string ;
+    jp:writtenBy jp:Person_Susan_Neiman .
+
+jp:Work_Examination_of_Pharisaic_Traditions a jp:HistoricalWork ;
+    rdfs:label "Examination of Pharisaic Traditions"^^xsd:string ;
+    jp:writtenBy jp:Person_Uriel_da_Costa .
+
+jp:Work_Examination_of_the_Three_Faiths_Tanqih_al_Abhath a jp:HistoricalWork ;
+    rdfs:label "Examination of the Three Faiths (Tanqih al-Abhath)"^^xsd:string ;
+    jp:writtenBy jp:Person_Ibn_Kammuna_Sa_d_ibn_Mansur .
+
+jp:Work_Exemplar_Humanae_Vitae a jp:HistoricalWork ;
+    rdfs:label "Exemplar Humanae Vitae"^^xsd:string ;
+    jp:writtenBy jp:Person_Uriel_da_Costa .
+
+jp:Work_Expanding_the_Palace_of_Torah a jp:HistoricalWork ;
+    rdfs:label "Expanding the Palace of Torah"^^xsd:string ;
+    jp:writtenBy jp:Person_Tamar_Ross .
+
+jp:Work_Experience_and_Prediction a jp:HistoricalWork ;
+    rdfs:label "Experience and Prediction"^^xsd:string ;
+    jp:writtenBy jp:Person_Hans_Reichenbach .
+
+jp:Work_Extremos_y_Grandezas_de_Constantinopla a jp:HistoricalWork ;
+    rdfs:label "Extremos y Grandezas de Constantinopla"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_ben_Baruch_Almosnino .
+
+jp:Work_Ezer_ha_Dat a jp:HistoricalWork ;
+    rdfs:label "Ezer ha-Dat"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Polqar .
+
+jp:Work_Fact_Fiction_and_Forecast a jp:HistoricalWork ;
+    rdfs:label "Fact, Fiction and Forecast"^^xsd:string ;
+    jp:writtenBy jp:Person_Nelson_Goodman .
+
+jp:Work_Faith_after_the_Holocaust a jp:HistoricalWork ;
+    rdfs:label "Faith after the Holocaust"^^xsd:string ;
+    jp:writtenBy jp:Person_Eliezer_Berkovits .
+
+jp:Work_Fanon_and_the_Crisis_of_European_Man a jp:HistoricalWork ;
+    rdfs:label "Fanon and the Crisis of European Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Lewis_Gordon .
+
+jp:Work_Farewell_to_the_Working_Class a jp:HistoricalWork ;
+    rdfs:label "Farewell to the Working Class"^^xsd:string ;
+    jp:writtenBy jp:Person_Andr_Gorz .
+
+jp:Work_Finite_and_Eternal_Being a jp:HistoricalWork ;
+    rdfs:label "Finite and Eternal Being"^^xsd:string ;
+    jp:writtenBy jp:Person_Edith_Stein .
+
+jp:Work_Fons_Vitae_Meqor_Hayyim a jp:HistoricalWork ;
+    rdfs:label "Fons Vitae (Meqor Hayyim)"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Ibn_Gabirol .
+
+jp:Work_Formalism_in_Ethics_and_Non_Formal_Ethics_of_Values a jp:HistoricalWork ;
+    rdfs:label "Formalism in Ethics and Non-Formal Ethics of Values"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Scheler .
+
+jp:Work_Free_Will a jp:HistoricalWork ;
+    rdfs:label "Free Will"^^xsd:string ;
+    jp:writtenBy jp:Person_Sam_Harris .
+
+jp:Work_Freud_and_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Freud and Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Ricoeur .
+
+jp:Work_From_Hegel_to_Nietzsche a jp:HistoricalWork ;
+    rdfs:label "From Hegel to Nietzsche"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_L_with .
+
+jp:Work_From_a_Logical_Point_of_View a jp:HistoricalWork ;
+    rdfs:label "From a Logical Point of View"^^xsd:string ;
+    jp:writtenBy jp:Person_Willard_Van_Orman_Quine .
+
+jp:Work_G_del_Escher_Bach_An_Eternal_Golden_Braid a jp:HistoricalWork ;
+    rdfs:label "Gödel, Escher, Bach: An Eternal Golden Braid"^^xsd:string ;
+    jp:writtenBy jp:Person_Douglas_Hofstadter .
+
+jp:Work_Gei_Hizzayon a jp:HistoricalWork ;
+    rdfs:label "Gei Hizzayon"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_Hananiah_Yagel .
+
+jp:Work_Gender_Trouble a jp:HistoricalWork ;
+    rdfs:label "Gender Trouble"^^xsd:string ;
+    jp:writtenBy jp:Person_Judith_Butler .
+
+jp:Work_German_Jews_A_Dual_Identity a jp:HistoricalWork ;
+    rdfs:label "German Jews: A Dual Identity"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Mendes_Flohr .
+
+jp:Work_Gevurot_Hashem a jp:HistoricalWork ;
+    rdfs:label "Gevurot Hashem"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Loew_ben_Bezalel_Maharal .
+
+jp:Work_Ginnat_Egoz a jp:HistoricalWork ;
+    rdfs:label "Ginnat Egoz"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Gikatilla .
+
+jp:Work_God_Man_and_History a jp:HistoricalWork ;
+    rdfs:label "God, Man and History"^^xsd:string ;
+    jp:writtenBy jp:Person_Eliezer_Berkovits .
+
+jp:Work_God_in_Search_of_Man a jp:HistoricalWork ;
+    rdfs:label "God in Search of Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Joshua_Heschel .
+
+jp:Work_God_s_Presence_in_History a jp:HistoricalWork ;
+    rdfs:label "God's Presence in History"^^xsd:string ;
+    jp:writtenBy jp:Person_Emil_Fackenheim .
+
+jp:Work_Gravity_and_Grace a jp:HistoricalWork ;
+    rdfs:label "Gravity and Grace"^^xsd:string ;
+    jp:writtenBy jp:Person_Simone_Weil .
+
+jp:Work_Greek_Thinkers_Griechische_Denker a jp:HistoricalWork ;
+    rdfs:label "Greek Thinkers (Griechische Denker)"^^xsd:string ;
+    jp:writtenBy jp:Person_Theodor_Gomperz .
+
+jp:Work_Guide_of_the_Perplexed_Moreh_Nevukhim a jp:HistoricalWork ;
+    rdfs:label "Guide of the Perplexed (Moreh Nevukhim)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Maimonides_Rambam .
+
+jp:Work_Halakhic_Man a jp:HistoricalWork ;
+    rdfs:label "Halakhic Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_B_Soloveitchik_the_Rav .
+
+jp:Work_Halakhic_Mind a jp:HistoricalWork ;
+    rdfs:label "Halakhic Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_B_Soloveitchik_the_Rav .
+
+jp:Work_Harm_to_Others a jp:HistoricalWork ;
+    rdfs:label "Harm to Others"^^xsd:string ;
+    jp:writtenBy jp:Person_Joel_Feinberg .
+
+jp:Work_Hassagot_glosses_on_Maimonides a jp:HistoricalWork ;
+    rdfs:label "Hassagot (glosses on Maimonides)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_David_of_Posqui_res_Rabad_III .
+
+jp:Work_Hay_ha_Olamim a jp:HistoricalWork ;
+    rdfs:label "Hay ha-Olamim"^^xsd:string ;
+    jp:writtenBy jp:Person_Yohanan_Alemanno .
+
+jp:Work_Hayye_ha_Olam_ha_Ba a jp:HistoricalWork ;
+    rdfs:label "Hayye ha-Olam ha-Ba"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Abulafia .
+
+jp:Work_Hebrew_translations_of_Bahya_Halevi_Saadia_Ibn_Gabirol a jp:HistoricalWork ;
+    rdfs:label "Hebrew translations of Bahya, Halevi, Saadia, Ibn Gabirol"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_ben_Saul_Ibn_Tibbon .
+
+jp:Work_Hegel_Contra_Sociology a jp:HistoricalWork ;
+    rdfs:label "Hegel Contra Sociology"^^xsd:string ;
+    jp:writtenBy jp:Person_Gillian_Rose .
+
+jp:Work_Heptaplus a jp:HistoricalWork ;
+    rdfs:label "Heptaplus"^^xsd:string ;
+    jp:writtenBy jp:Person_Pico_della_Mirandola .
+
+jp:Work_Hidushei_ha_Rashba a jp:HistoricalWork ;
+    rdfs:label "Hidushei ha-Rashba"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_ibn_Adret_Rashba .
+
+jp:Work_Hidushim_on_Tractates_Bava_Batra_and_Shevuot a jp:HistoricalWork ;
+    rdfs:label "Hidushim on Tractates Bava Batra and Shevuot"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_ibn_Migash .
+
+jp:Work_Historia_de_riti_hebraici a jp:HistoricalWork ;
+    rdfs:label "Historia de' riti hebraici"^^xsd:string ;
+    jp:writtenBy jp:Person_Leone_Modena .
+
+jp:Work_History_of_the_Jews_Geschichte_der_Juden a jp:HistoricalWork ;
+    rdfs:label "History of the Jews (Geschichte der Juden)"^^xsd:string ;
+    jp:writtenBy jp:Person_Heinrich_Graetz .
+
+jp:Work_Horeb a jp:HistoricalWork ;
+    rdfs:label "Horeb"^^xsd:string ;
+    jp:writtenBy jp:Person_Samson_Raphael_Hirsch .
+
+jp:Work_How_Judaism_Became_a_Religion a jp:HistoricalWork ;
+    rdfs:label "How Judaism Became a Religion"^^xsd:string ;
+    jp:writtenBy jp:Person_Leora_Batnitzky .
+
+jp:Work_How_Natives_Think a jp:HistoricalWork ;
+    rdfs:label "How Natives Think"^^xsd:string ;
+    jp:writtenBy jp:Person_Lucien_L_vy_Bruhl .
+
+jp:Work_How_to_Read_a_Book a jp:HistoricalWork ;
+    rdfs:label "How to Read a Book"^^xsd:string ;
+    jp:writtenBy jp:Person_Mortimer_J_Adler .
+
+jp:Work_Human_Morality a jp:HistoricalWork ;
+    rdfs:label "Human Morality"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Scheffler .
+
+jp:Work_I_Am_a_Strange_Loop a jp:HistoricalWork ;
+    rdfs:label "I Am a Strange Loop"^^xsd:string ;
+    jp:writtenBy jp:Person_Douglas_Hofstadter .
+
+jp:Work_I_and_Thou a jp:HistoricalWork ;
+    rdfs:label "I and Thou"^^xsd:string ;
+    jp:writtenBy jp:Person_Martin_Buber .
+
+jp:Work_Ideas_I a jp:HistoricalWork ;
+    rdfs:label "Ideas I"^^xsd:string ;
+    jp:writtenBy jp:Person_Edmund_Husserl .
+
+jp:Work_Ideology_and_Utopia a jp:HistoricalWork ;
+    rdfs:label "Ideology and Utopia"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_Mannheim .
+
+jp:Work_Idolatry_and_Representation a jp:HistoricalWork ;
+    rdfs:label "Idolatry and Representation"^^xsd:string ;
+    jp:writtenBy jp:Person_Leora_Batnitzky .
+
+jp:Work_Idolatry_with_Margalit a jp:HistoricalWork ;
+    rdfs:label "Idolatry (with Margalit)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Halbertal .
+
+jp:Work_Iggeret_Hitnatzlut a jp:HistoricalWork ;
+    rdfs:label "Iggeret Hitnatzlut"^^xsd:string ;
+    jp:writtenBy jp:Person_Jedaiah_ben_Abraham_Bedersi_ha_Penini .
+
+jp:Work_Illuminations a jp:HistoricalWork ;
+    rdfs:label "Illuminations"^^xsd:string ;
+    jp:writtenBy jp:Person_Walter_Benjamin .
+
+jp:Work_In_a_Different_Voice a jp:HistoricalWork ;
+    rdfs:label "In a Different Voice"^^xsd:string ;
+    jp:writtenBy jp:Person_Carol_Gilligan .
+
+jp:Work_Introduction_to_the_Human_Sciences a jp:HistoricalWork ;
+    rdfs:label "Introduction to the Human Sciences"^^xsd:string ;
+    jp:writtenBy jp:Person_Wilhelm_Dilthey .
+
+jp:Work_Intuition_Imagination_and_Philosophical_Methodology a jp:HistoricalWork ;
+    rdfs:label "Intuition, Imagination, and Philosophical Methodology"^^xsd:string ;
+    jp:writtenBy jp:Person_Tamar_Gendler .
+
+jp:Work_Ishr_n_Maq_la_Twenty_Treatises a jp:HistoricalWork ;
+    rdfs:label "Ishrún Maqála (Twenty Treatises)"^^xsd:string ;
+    jp:writtenBy jp:Person_David_ibn_Merwan_al_Mukkamas .
+
+jp:Work_Israel_Vengado a jp:HistoricalWork ;
+    rdfs:label "Israel Vengado"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Orobio_de_Castro .
+
+jp:Work_Jerusalem a jp:HistoricalWork ;
+    rdfs:label "Jerusalem"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Mendelssohn .
+
+jp:Work_Jewish_Antiquities a jp:HistoricalWork ;
+    rdfs:label "Jewish Antiquities"^^xsd:string ;
+    jp:writtenBy jp:Person_Josephus_Flavius .
+
+jp:Work_Jewish_Thought_as_a_Factor_in_Civilization a jp:HistoricalWork ;
+    rdfs:label "Jewish Thought as a Factor in Civilization"^^xsd:string ;
+    jp:writtenBy jp:Person_Leon_Roth .
+
+jp:Work_Jewish_War a jp:HistoricalWork ;
+    rdfs:label "Jewish War"^^xsd:string ;
+    jp:writtenBy jp:Person_Josephus_Flavius .
+
+jp:Work_Judaism_Human_Values_and_the_Jewish_State a jp:HistoricalWork ;
+    rdfs:label "Judaism, Human Values, and the Jewish State"^^xsd:string ;
+    jp:writtenBy jp:Person_Yeshayahu_Leibowitz .
+
+jp:Work_Judaism_and_Modern_Man a jp:HistoricalWork ;
+    rdfs:label "Judaism and Modern Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Will_Herberg .
+
+jp:Work_Judaism_as_a_Civilization a jp:HistoricalWork ;
+    rdfs:label "Judaism as a Civilization"^^xsd:string ;
+    jp:writtenBy jp:Person_Mordecai_Kaplan .
+
+jp:Work_Just_and_Unjust_Wars a jp:HistoricalWork ;
+    rdfs:label "Just and Unjust Wars"^^xsd:string ;
+    jp:writtenBy jp:Person_Michael_Walzer .
+
+jp:Work_Justice_for_Hedgehogs a jp:HistoricalWork ;
+    rdfs:label "Justice for Hedgehogs"^^xsd:string ;
+    jp:writtenBy jp:Person_Ronald_Dworkin .
+
+jp:Work_Kabbalah_New_Perspectives a jp:HistoricalWork ;
+    rdfs:label "Kabbalah: New Perspectives"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Idel .
+
+jp:Work_Karl_Marx_s_Theory_of_History a jp:HistoricalWork ;
+    rdfs:label "Karl Marx's Theory of History"^^xsd:string ;
+    jp:writtenBy jp:Person_Gerald_Cohen .
+
+jp:Work_Kedushat_Levi a jp:HistoricalWork ;
+    rdfs:label "Kedushat Levi"^^xsd:string ;
+    jp:writtenBy jp:Person_Levi_Yitzhak_of_Berditchev .
+
+jp:Work_Keter_Malkhut a jp:HistoricalWork ;
+    rdfs:label "Keter Malkhut"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Ibn_Gabirol .
+
+jp:Work_Keter_Shem_Tov_collected_teachings a jp:HistoricalWork ;
+    rdfs:label "Keter Shem Tov (collected teachings)"^^xsd:string ;
+    jp:writtenBy jp:Person_Israel_ben_Eliezer_Baal_Shem_Tov .
+
+jp:Work_Kif_yat_al_bid_n a jp:HistoricalWork ;
+    rdfs:label "Kifāyat al-ʿĀbidīn"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Maimonides .
+
+jp:Work_Kit_b_al_Anw_r_wa_l_Mar_qib_Book_of_Lights_and_Watchtowers a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-Anwār wa-'l-Marāqib (Book of Lights and Watchtowers)"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_al_Qirqisani .
+
+jp:Work_Kit_b_al_Mansuri a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-Mansuri"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_al_Basir .
+
+jp:Work_Kit_b_al_Mu_tabar a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-Mu'tabar"^^xsd:string ;
+    jp:writtenBy jp:Person_Abu_l_Barakat_al_Baghdadi .
+
+jp:Work_Kit_b_al_Mu_taw a jp:HistoricalWork ;
+    rdfs:label "Kitāb al-Muḥtawī"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_al_Basir .
+
+jp:Work_Kitab_al_Bayan a jp:HistoricalWork ;
+    rdfs:label "Kitab al-Bayan"^^xsd:string ;
+    jp:writtenBy jp:Person_Tan_um_ha_Yerushalmi .
+
+jp:Work_Knowledge_and_Human_Interests a jp:HistoricalWork ;
+    rdfs:label "Knowledge and Human Interests"^^xsd:string ;
+    jp:writtenBy jp:Person_J_rgen_Habermas .
+
+jp:Work_Kol_ha_Nevuah a jp:HistoricalWork ;
+    rdfs:label "Kol ha-Nevuah"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Cohen_the_Nazir .
+
+jp:Work_Kuzari a jp:HistoricalWork ;
+    rdfs:label "Kuzari"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Halevi .
+
+jp:Work_L_Organisation_biologique_et_la_th_orie_de_l_information a jp:HistoricalWork ;
+    rdfs:label "L'Organisation biologique et la théorie de l'information"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Atlan .
+
+jp:Work_La_Trahison_des_clercs a jp:HistoricalWork ;
+    rdfs:label "La Trahison des clercs"^^xsd:string ;
+    jp:writtenBy jp:Person_Julien_Benda .
+
+jp:Work_Language_Truth_and_Logic a jp:HistoricalWork ;
+    rdfs:label "Language, Truth and Logic"^^xsd:string ;
+    jp:writtenBy jp:Person_Alfred_Jules_Ayer .
+
+jp:Work_Language_and_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Language and Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Black .
+
+jp:Work_Languages_of_Art a jp:HistoricalWork ;
+    rdfs:label "Languages of Art"^^xsd:string ;
+    jp:writtenBy jp:Person_Nelson_Goodman .
+
+jp:Work_Las_Excelencias_de_los_Hebreos a jp:HistoricalWork ;
+    rdfs:label "Las Excelencias de los Hebreos"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Cardoso .
+
+jp:Work_Laughable_Stories a jp:HistoricalWork ;
+    rdfs:label "Laughable Stories"^^xsd:string ;
+    jp:writtenBy jp:Person_Gregory_Bar_Hebraeus .
+
+jp:Work_Law_s_Empire a jp:HistoricalWork ;
+    rdfs:label "Law's Empire"^^xsd:string ;
+    jp:writtenBy jp:Person_Ronald_Dworkin .
+
+jp:Work_Leaves_of_Faith a jp:HistoricalWork ;
+    rdfs:label "Leaves of Faith"^^xsd:string ;
+    jp:writtenBy jp:Person_Aharon_Lichtenstein .
+
+jp:Work_Letters_on_Old_and_New_Judaism a jp:HistoricalWork ;
+    rdfs:label "Letters on Old and New Judaism"^^xsd:string ;
+    jp:writtenBy jp:Person_Simon_Dubnow .
+
+jp:Work_Leviathan a jp:HistoricalWork ;
+    rdfs:label "Leviathan"^^xsd:string ;
+    jp:writtenBy jp:Person_Saul_Ascher .
+
+jp:Work_Likkutei_Moharan a jp:HistoricalWork ;
+    rdfs:label "Likkutei Moharan"^^xsd:string ;
+    jp:writtenBy jp:Person_Nachman_of_Breslov .
+
+jp:Work_Liquid_Modernity a jp:HistoricalWork ;
+    rdfs:label "Liquid Modernity"^^xsd:string ;
+    jp:writtenBy jp:Person_Zygmunt_Bauman .
+
+jp:Work_Living_My_Life a jp:HistoricalWork ;
+    rdfs:label "Living My Life"^^xsd:string ;
+    jp:writtenBy jp:Person_Emma_Goldman .
+
+jp:Work_Livyat_Hen a jp:HistoricalWork ;
+    rdfs:label "Livyat Hen"^^xsd:string ;
+    jp:writtenBy jp:Person_Levi_ben_Abraham_of_Villefranche .
+
+jp:Work_Logical_Investigations a jp:HistoricalWork ;
+    rdfs:label "Logical Investigations"^^xsd:string ;
+    jp:writtenBy jp:Person_Edmund_Husserl .
+
+jp:Work_Long_Commentaries_on_Aristotle a jp:HistoricalWork ;
+    rdfs:label "Long Commentaries on Aristotle"^^xsd:string ;
+    jp:writtenBy jp:Person_Averroes_Ibn_Rushd .
+
+jp:Work_Love_s_Knowledge a jp:HistoricalWork ;
+    rdfs:label "Love's Knowledge"^^xsd:string ;
+    jp:writtenBy jp:Person_Martha_Nussbaum .
+
+jp:Work_Ma_amar_Yiqqawu_ha_Mayim a jp:HistoricalWork ;
+    rdfs:label "Ma'amar Yiqqawu ha-Mayim"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Ibn_Tibbon .
+
+jp:Work_Ma_ase_Nissim a jp:HistoricalWork ;
+    rdfs:label "Ma'ase Nissim"^^xsd:string ;
+    jp:writtenBy jp:Person_Nissim_ben_Moses_of_Marseilles .
+
+jp:Work_Ma_ase_ha_Shem a jp:HistoricalWork ;
+    rdfs:label "Ma'ase ha-Shem"^^xsd:string ;
+    jp:writtenBy jp:Person_Eliezer_Ashkenazi .
+
+jp:Work_Maaseh_Efod a jp:HistoricalWork ;
+    rdfs:label "Maaseh Efod"^^xsd:string ;
+    jp:writtenBy jp:Person_Profiat_Duran_Efodi .
+
+jp:Work_Magen_Avot a jp:HistoricalWork ;
+    rdfs:label "Magen Avot"^^xsd:string ;
+    jp:writtenBy jp:Person_Shimon_ben_Zemah_Duran .
+
+jp:Work_Maggid_Devarav_le_Ya_akov a jp:HistoricalWork ;
+    rdfs:label "Maggid Devarav le-Ya'akov"^^xsd:string ;
+    jp:writtenBy jp:Person_Dov_Ber_of_Mezeritch_the_Maggid .
+
+jp:Work_Maggid_Mesharim a jp:HistoricalWork ;
+    rdfs:label "Maggid Mesharim"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Karo .
+
+jp:Work_Mahberot_collected_poems_and_prose a jp:HistoricalWork ;
+    rdfs:label "Mahberot (collected poems and prose)"^^xsd:string ;
+    jp:writtenBy jp:Person_Immanuel_of_Rome .
+
+jp:Work_Maimonides_Life_and_Thought a jp:HistoricalWork ;
+    rdfs:label "Maimonides: Life and Thought"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Halbertal .
+
+jp:Work_Maimonides_Torah_and_Philosophic_Quest a jp:HistoricalWork ;
+    rdfs:label "Maimonides: Torah and Philosophic Quest"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Hartman .
+
+jp:Work_Maimonides_on_Judaism_and_the_Jewish_People a jp:HistoricalWork ;
+    rdfs:label "Maimonides on Judaism and the Jewish People"^^xsd:string ;
+    jp:writtenBy jp:Person_Menachem_Kellner .
+
+jp:Work_Major_Trends_in_Jewish_Mysticism a jp:HistoricalWork ;
+    rdfs:label "Major Trends in Jewish Mysticism"^^xsd:string ;
+    jp:writtenBy jp:Person_Gershom_Scholem .
+
+jp:Work_Malmad_ha_Talmidim a jp:HistoricalWork ;
+    rdfs:label "Malmad ha-Talmidim"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_Anatoli .
+
+jp:Work_Man_Is_Not_Alone a jp:HistoricalWork ;
+    rdfs:label "Man Is Not Alone"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Joshua_Heschel .
+
+jp:Work_Man_for_Himself a jp:HistoricalWork ;
+    rdfs:label "Man for Himself"^^xsd:string ;
+    jp:writtenBy jp:Person_Erich_Fromm .
+
+jp:Work_Manufacturing_Consent a jp:HistoricalWork ;
+    rdfs:label "Manufacturing Consent"^^xsd:string ;
+    jp:writtenBy jp:Person_Noam_Chomsky .
+
+jp:Work_Mapah_glosses_to_Shulchan_Aruch a jp:HistoricalWork ;
+    rdfs:label "Mapah (glosses to Shulchan Aruch)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Isserles_ReMA .
+
+jp:Work_Maqalat_al_Hadiqa a jp:HistoricalWork ;
+    rdfs:label "Maqalat al-Hadiqa"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Ibn_Ezra .
+
+jp:Work_Maqasid_al_Falasifah a jp:HistoricalWork ;
+    rdfs:label "Maqasid al-Falasifah"^^xsd:string ;
+    jp:writtenBy jp:Person_al_Ghazali .
+
+jp:Work_Marxism_and_Freedom a jp:HistoricalWork ;
+    rdfs:label "Marxism and Freedom"^^xsd:string ;
+    jp:writtenBy jp:Person_Raya_Dunayevskaya .
+
+jp:Work_Mashmi_a_Yeshu_a a jp:HistoricalWork ;
+    rdfs:label "Mashmi'a Yeshu'a"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Abravanel .
+
+jp:Work_Masoret_ha_Masoret a jp:HistoricalWork ;
+    rdfs:label "Masoret ha-Masoret"^^xsd:string ;
+    jp:writtenBy jp:Person_Elias_Levita .
+
+jp:Work_Massekhet_Purim a jp:HistoricalWork ;
+    rdfs:label "Massekhet Purim"^^xsd:string ;
+    jp:writtenBy jp:Person_Kalonymus_ben_Kalonymus .
+
+jp:Work_Mathematical_Truth a jp:HistoricalWork ;
+    rdfs:label "'Mathematical Truth'"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Benacerraf .
+
+jp:Work_Matter_and_Memory a jp:HistoricalWork ;
+    rdfs:label "Matter and Memory"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Bergson .
+
+jp:Work_Me_or_Einayim a jp:HistoricalWork ;
+    rdfs:label "Me'or Einayim"^^xsd:string ;
+    jp:writtenBy jp:Person_Azariah_de_Rossi .
+
+jp:Work_Meaning_in_History a jp:HistoricalWork ;
+    rdfs:label "Meaning in History"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_L_with .
+
+jp:Work_Meditation_of_the_Sad_Soul_Hegyon_ha_Nefesh a jp:HistoricalWork ;
+    rdfs:label "Meditation of the Sad Soul (Hegyon ha-Nefesh)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_bar_Hiyya .
+
+jp:Work_Megillat_Sefer a jp:HistoricalWork ;
+    rdfs:label "Megillat Sefer"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_Emden_Ya_avetz .
+
+jp:Work_Megillat_ha_Megalleh a jp:HistoricalWork ;
+    rdfs:label "Megillat ha-Megalleh"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_bar_Hiyya .
+
+jp:Work_Menorat_ha_Maor a jp:HistoricalWork ;
+    rdfs:label "Menorat ha-Maor"^^xsd:string ;
+    jp:writtenBy jp:Person_Ephraim_ben_Israel_Al_Nakawa,
+        jp:Person_Isaac_Aboab_I .
+
+jp:Work_Meqor_Hayyim a jp:HistoricalWork ;
+    rdfs:label "Meqor Hayyim"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_ibn_Seneh_Zarza .
+
+jp:Work_Meshiv_Devarim_Nekhokhim a jp:HistoricalWork ;
+    rdfs:label "Meshiv Devarim Nekhokhim"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_ben_Sheshet .
+
+jp:Work_Mesillat_Yesharim a jp:HistoricalWork ;
+    rdfs:label "Mesillat Yesharim"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Chaim_Luzzatto_Ramchal .
+
+jp:Work_Messianism_Zionism_and_Jewish_Religious_Radicalism a jp:HistoricalWork ;
+    rdfs:label "Messianism, Zionism, and Jewish Religious Radicalism"^^xsd:string ;
+    jp:writtenBy jp:Person_Aviezer_Ravitzky .
+
+jp:Work_Metaphor_in_Context a jp:HistoricalWork ;
+    rdfs:label "Metaphor in Context"^^xsd:string ;
+    jp:writtenBy jp:Person_Josef_Stern .
+
+jp:Work_Midrash_ha_Gadol a jp:HistoricalWork ;
+    rdfs:label "Midrash ha-Gadol"^^xsd:string ;
+    jp:writtenBy jp:Person_David_ben_Amram_al_Adani .
+
+jp:Work_Midrash_ha_Hefetz a jp:HistoricalWork ;
+    rdfs:label "Midrash ha-Hefetz"^^xsd:string ;
+    jp:writtenBy jp:Person_Zechariah_ben_Solomon_ha_Rofe .
+
+jp:Work_Midrash_ha_Hokhmah a jp:HistoricalWork ;
+    rdfs:label "Midrash ha-Hokhmah"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_ben_Solomon_ha_Kohen_Ibn_Matkah .
+
+jp:Work_Milhamot_HaShem_Wars_of_the_Lord a jp:HistoricalWork ;
+    rdfs:label "Milhamot HaShem (Wars of the Lord)"^^xsd:string ;
+    jp:writtenBy jp:Person_Levi_ben_Gershom_Gersonides .
+
+jp:Work_Minhat_Kenaot a jp:HistoricalWork ;
+    rdfs:label "Minhat Kenaot"^^xsd:string ;
+    jp:writtenBy jp:Person_Abba_Mari_ben_Eligdor_Astruc_de_Noves,
+        jp:Person_Abner_of_Burgos,
+        jp:Person_Yehiel_Nissim_da_Pisa .
+
+jp:Work_Minhat_Yehudah a jp:HistoricalWork ;
+    rdfs:label "Minhat Yehudah"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_ben_Jacob_Hayyat .
+
+jp:Work_Minima_Moralia a jp:HistoricalWork ;
+    rdfs:label "Minima Moralia"^^xsd:string ;
+    jp:writtenBy jp:Person_Theodor_W_Adorno .
+
+jp:Work_Mishneh_Kesef a jp:HistoricalWork ;
+    rdfs:label "Mishneh Kesef"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Caspi_Ibn_Kaspi .
+
+jp:Work_Mishneh_Torah a jp:HistoricalWork ;
+    rdfs:label "Mishneh Torah"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Maimonides_Rambam .
+
+jp:Work_Mitpahat_Sefarim a jp:HistoricalWork ;
+    rdfs:label "Mitpahat Sefarim"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_Emden_Ya_avetz .
+
+jp:Work_Mivhar_ha_Peninim_attrib a jp:HistoricalWork ;
+    rdfs:label "Mivhar ha-Peninim (attrib.)"^^xsd:string ;
+    jp:writtenBy jp:Person_Hai_Gaon .
+
+jp:Work_Models_and_Metaphors a jp:HistoricalWork ;
+    rdfs:label "Models and Metaphors"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Black .
+
+jp:Work_Modernity_and_the_Holocaust a jp:HistoricalWork ;
+    rdfs:label "Modernity and the Holocaust"^^xsd:string ;
+    jp:writtenBy jp:Person_Zygmunt_Bauman .
+
+jp:Work_Moral_Clarity a jp:HistoricalWork ;
+    rdfs:label "Moral Clarity"^^xsd:string ;
+    jp:writtenBy jp:Person_Susan_Neiman .
+
+jp:Work_Moral_Perception_and_Particularity a jp:HistoricalWork ;
+    rdfs:label "Moral Perception and Particularity"^^xsd:string ;
+    jp:writtenBy jp:Person_Lawrence_Blum .
+
+jp:Work_Moreh_Nevukhe_ha_Zeman_Guide_of_the_Perplexed_of_the_Time a jp:HistoricalWork ;
+    rdfs:label "Moreh Nevukhe ha-Zeman (Guide of the Perplexed of the Time)"^^xsd:string ;
+    jp:writtenBy jp:Person_Nachman_Krochmal .
+
+jp:Work_Moreh_Tzedek a jp:HistoricalWork ;
+    rdfs:label "Moreh Tzedek"^^xsd:string ;
+    jp:writtenBy jp:Person_Abner_of_Burgos .
+
+jp:Work_Moreh_ha_Moreh a jp:HistoricalWork ;
+    rdfs:label "Moreh ha-Moreh"^^xsd:string ;
+    jp:writtenBy jp:Person_Shem_Tov_Ibn_Falaquera .
+
+jp:Work_Morning_Hours_Morgenstunden a jp:HistoricalWork ;
+    rdfs:label "Morning Hours (Morgenstunden)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Mendelssohn .
+
+jp:Work_Mortal_Questions a jp:HistoricalWork ;
+    rdfs:label "Mortal Questions"^^xsd:string ;
+    jp:writtenBy jp:Person_Thomas_Nagel .
+
+jp:Work_Moses a jp:HistoricalWork ;
+    rdfs:label "Moses"^^xsd:string ;
+    jp:writtenBy jp:Person_Martin_Buber .
+
+jp:Work_Moses_Mendelssohn_A_Biographical_Study a jp:HistoricalWork ;
+    rdfs:label "Moses Mendelssohn: A Biographical Study"^^xsd:string ;
+    jp:writtenBy jp:Person_Alexander_Altmann .
+
+jp:Work_Moses_and_Monotheism a jp:HistoricalWork ;
+    rdfs:label "Moses and Monotheism"^^xsd:string ;
+    jp:writtenBy jp:Person_Sigmund_Freud .
+
+jp:Work_Must_We_Mean_What_We_Say a jp:HistoricalWork ;
+    rdfs:label "Must We Mean What We Say?"^^xsd:string ;
+    jp:writtenBy jp:Person_Stanley_Cavell .
+
+jp:Work_Naming_and_Necessity a jp:HistoricalWork ;
+    rdfs:label "Naming and Necessity"^^xsd:string ;
+    jp:writtenBy jp:Person_Saul_Kripke .
+
+jp:Work_Nations_and_Nationalism a jp:HistoricalWork ;
+    rdfs:label "Nations and Nationalism"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernest_Gellner .
+
+jp:Work_Natural_Law_in_Judaism a jp:HistoricalWork ;
+    rdfs:label "Natural Law in Judaism"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Novak .
+
+jp:Work_Natural_Right_and_History a jp:HistoricalWork ;
+    rdfs:label "Natural Right and History"^^xsd:string ;
+    jp:writtenBy jp:Person_Leo_Strauss .
+
+jp:Work_Nefutzot_Yehudah a jp:HistoricalWork ;
+    rdfs:label "Nefutzot Yehudah"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Moscato .
+
+jp:Work_Negative_Dialectics a jp:HistoricalWork ;
+    rdfs:label "Negative Dialectics"^^xsd:string ;
+    jp:writtenBy jp:Person_Theodor_W_Adorno .
+
+jp:Work_Nehmad_ve_Na_im a jp:HistoricalWork ;
+    rdfs:label "Nehmad ve-Na'im"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Gans .
+
+jp:Work_Netzah_Yisrael a jp:HistoricalWork ;
+    rdfs:label "Netzah Yisrael"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Loew_ben_Bezalel_Maharal .
+
+jp:Work_Neveh_Shalom a jp:HistoricalWork ;
+    rdfs:label "Neveh Shalom"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Shalom .
+
+jp:Work_Newton_s_Gift a jp:HistoricalWork ;
+    rdfs:label "Newton's Gift"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Berlinski .
+
+jp:Work_Nietzsche_Philosopher_Psychologist_Antichrist a jp:HistoricalWork ;
+    rdfs:label "Nietzsche: Philosopher, Psychologist, Antichrist"^^xsd:string ;
+    jp:writtenBy jp:Person_Walter_Kaufmann .
+
+jp:Work_Nietzsche_and_Metaphor a jp:HistoricalWork ;
+    rdfs:label "Nietzsche and Metaphor"^^xsd:string ;
+    jp:writtenBy jp:Person_Sarah_Kofman .
+
+jp:Work_Nofet_Tzufim_The_Honeycomb_s_Flow a jp:HistoricalWork ;
+    rdfs:label "Nofet Tzufim (The Honeycomb's Flow)"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Messer_Leon .
+
+jp:Work_Nur_al_Zalam a jp:HistoricalWork ;
+    rdfs:label "Nur al-Zalam"^^xsd:string ;
+    jp:writtenBy jp:Person_Nethanel_ben_Yesha_ya .
+
+jp:Work_Of_Grammatology a jp:HistoricalWork ;
+    rdfs:label "Of Grammatology"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacques_Derrida .
+
+jp:Work_Olam_Katan_Microcosm a jp:HistoricalWork ;
+    rdfs:label "Olam Katan (Microcosm)"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Ibn_Tzaddik .
+
+jp:Work_On_Aging a jp:HistoricalWork ;
+    rdfs:label "On Aging"^^xsd:string ;
+    jp:writtenBy jp:Person_Jean_Am_ry .
+
+jp:Work_On_Certainty a jp:HistoricalWork ;
+    rdfs:label "On Certainty"^^xsd:string ;
+    jp:writtenBy jp:Person_Ludwig_Wittgenstein .
+
+jp:Work_On_Compromise a jp:HistoricalWork ;
+    rdfs:label "On Compromise"^^xsd:string ;
+    jp:writtenBy jp:Person_Avishai_Margalit .
+
+jp:Work_On_the_Creation_of_the_World a jp:HistoricalWork ;
+    rdfs:label "On the Creation of the World"^^xsd:string ;
+    jp:writtenBy jp:Person_Philo_of_Alexandria .
+
+jp:Work_On_the_Iliad a jp:HistoricalWork ;
+    rdfs:label "On the Iliad"^^xsd:string ;
+    jp:writtenBy jp:Person_Rachel_Bespaloff .
+
+jp:Work_On_the_Kabbalah_and_Its_Symbolism a jp:HistoricalWork ;
+    rdfs:label "On the Kabbalah and Its Symbolism"^^xsd:string ;
+    jp:writtenBy jp:Person_Gershom_Scholem .
+
+jp:Work_On_the_Life_of_Moses a jp:HistoricalWork ;
+    rdfs:label "On the Life of Moses"^^xsd:string ;
+    jp:writtenBy jp:Person_Philo_of_Alexandria .
+
+jp:Work_On_the_Natural_Faculties a jp:HistoricalWork ;
+    rdfs:label "On the Natural Faculties"^^xsd:string ;
+    jp:writtenBy jp:Person_Galen_Claudius_Galenus .
+
+jp:Work_On_the_Origin_of_Our_Knowledge_of_Right_and_Wrong a jp:HistoricalWork ;
+    rdfs:label "On the Origin of Our Knowledge of Right and Wrong"^^xsd:string ;
+    jp:writtenBy jp:Person_Franz_Brentano .
+
+jp:Work_On_the_Plurality_of_Worlds a jp:HistoricalWork ;
+    rdfs:label "On the Plurality of Worlds"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Lewis .
+
+jp:Work_On_the_Problem_of_Empathy a jp:HistoricalWork ;
+    rdfs:label "On the Problem of Empathy"^^xsd:string ;
+    jp:writtenBy jp:Person_Edith_Stein .
+
+jp:Work_On_the_Special_Laws a jp:HistoricalWork ;
+    rdfs:label "On the Special Laws"^^xsd:string ;
+    jp:writtenBy jp:Person_Philo_of_Alexandria .
+
+jp:Work_On_the_Usefulness_of_the_Parts_of_the_Body a jp:HistoricalWork ;
+    rdfs:label "On the Usefulness of the Parts of the Body"^^xsd:string ;
+    jp:writtenBy jp:Person_Galen_Claudius_Galenus .
+
+jp:Work_One_Dimensional_Man a jp:HistoricalWork ;
+    rdfs:label "One-Dimensional Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Herbert_Marcuse .
+
+jp:Work_Oneself_as_Another a jp:HistoricalWork ;
+    rdfs:label "Oneself as Another"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Ricoeur .
+
+jp:Work_Opus_Majus a jp:HistoricalWork ;
+    rdfs:label "Opus Majus"^^xsd:string ;
+    jp:writtenBy jp:Person_Roger_Bacon .
+
+jp:Work_Or_Ammim a jp:HistoricalWork ;
+    rdfs:label "Or Ammim"^^xsd:string ;
+    jp:writtenBy jp:Person_Ovadiah_Sforno .
+
+jp:Work_Or_Hashem_Light_of_the_Lord a jp:HistoricalWork ;
+    rdfs:label "Or Hashem (Light of the Lord)"^^xsd:string ;
+    jp:writtenBy jp:Person_Hasdai_Crescas .
+
+jp:Work_Or_Ne_erav a jp:HistoricalWork ;
+    rdfs:label "Or Ne'erav"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Cordovero_Ramak .
+
+jp:Work_Or_Torah a jp:HistoricalWork ;
+    rdfs:label "Or Torah"^^xsd:string ;
+    jp:writtenBy jp:Person_Dov_Ber_of_Mezeritch_the_Maggid .
+
+jp:Work_Or_ha_Sekhel a jp:HistoricalWork ;
+    rdfs:label "Or ha-Sekhel"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Abulafia .
+
+jp:Work_Oration_on_the_Dignity_of_Man a jp:HistoricalWork ;
+    rdfs:label "Oration on the Dignity of Man"^^xsd:string ;
+    jp:writtenBy jp:Person_Pico_della_Mirandola .
+
+jp:Work_Orot a jp:HistoricalWork ;
+    rdfs:label "Orot"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Isaac_Kook_Rav_Kook .
+
+jp:Work_Orot_ha_Teshuva a jp:HistoricalWork ;
+    rdfs:label "Orot ha-Teshuva"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Isaac_Kook_Rav_Kook .
+
+jp:Work_Otherwise_than_Being a jp:HistoricalWork ;
+    rdfs:label "Otherwise than Being"^^xsd:string ;
+    jp:writtenBy jp:Person_Emmanuel_Levinas .
+
+jp:Work_Pardes_Rimmonim a jp:HistoricalWork ;
+    rdfs:label "Pardes Rimmonim"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Cordovero_Ramak .
+
+jp:Work_Peace_and_War a jp:HistoricalWork ;
+    rdfs:label "Peace and War"^^xsd:string ;
+    jp:writtenBy jp:Person_Raymond_Aron .
+
+jp:Work_People_of_the_Book a jp:HistoricalWork ;
+    rdfs:label "People of the Book"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Halbertal .
+
+jp:Work_Perceptions_of_Jewish_History a jp:HistoricalWork ;
+    rdfs:label "Perceptions of Jewish History"^^xsd:string ;
+    jp:writtenBy jp:Person_Amos_Funkenstein .
+
+jp:Work_Persecution_and_the_Art_of_Writing a jp:HistoricalWork ;
+    rdfs:label "Persecution and the Art of Writing"^^xsd:string ;
+    jp:writtenBy jp:Person_Leo_Strauss .
+
+jp:Work_Personal_Knowledge a jp:HistoricalWork ;
+    rdfs:label "Personal Knowledge"^^xsd:string ;
+    jp:writtenBy jp:Person_Michael_Polanyi .
+
+jp:Work_Perush_Sefer_Yetzirah a jp:HistoricalWork ;
+    rdfs:label "Perush Sefer Yetzirah"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_the_Blind_Sagi_Nahor .
+
+jp:Work_Phaedon a jp:HistoricalWork ;
+    rdfs:label "Phaedon"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Mendelssohn .
+
+jp:Work_Phenomenology_of_Spirit a jp:HistoricalWork ;
+    rdfs:label "Phenomenology of Spirit"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Wilhelm_Friedrich_Hegel .
+
+jp:Work_Philo a jp:HistoricalWork ;
+    rdfs:label "Philo"^^xsd:string ;
+    jp:writtenBy jp:Person_Harry_Wolfson .
+
+jp:Work_Philosophia_Libera a jp:HistoricalWork ;
+    rdfs:label "Philosophia Libera"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Cardoso .
+
+jp:Work_Philosophical_Investigations a jp:HistoricalWork ;
+    rdfs:label "Philosophical Investigations"^^xsd:string ;
+    jp:writtenBy jp:Person_Ludwig_Wittgenstein .
+
+jp:Work_Philosophical_Papers a jp:HistoricalWork ;
+    rdfs:label "Philosophical Papers"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Lewis .
+
+jp:Work_Philosophical_Religions_from_Plato_to_Spinoza a jp:HistoricalWork ;
+    rdfs:label "Philosophical Religions from Plato to Spinoza"^^xsd:string ;
+    jp:writtenBy jp:Person_Carlos_Fraenkel .
+
+jp:Work_Philosophies_of_Judaism_Die_Philosophie_des_Judentums a jp:HistoricalWork ;
+    rdfs:label "Philosophies of Judaism (Die Philosophie des Judentums)"^^xsd:string ;
+    jp:writtenBy jp:Person_Julius_Guttmann .
+
+jp:Work_Philosophy_and_Law a jp:HistoricalWork ;
+    rdfs:label "Philosophy and Law"^^xsd:string ;
+    jp:writtenBy jp:Person_Leo_Strauss .
+
+jp:Work_Philosophy_and_Revolution a jp:HistoricalWork ;
+    rdfs:label "Philosophy and Revolution"^^xsd:string ;
+    jp:writtenBy jp:Person_Raya_Dunayevskaya .
+
+jp:Work_Philosophy_and_the_Mirror_of_Nature a jp:HistoricalWork ;
+    rdfs:label "Philosophy and the Mirror of Nature"^^xsd:string ;
+    jp:writtenBy jp:Person_Richard_Rorty .
+
+jp:Work_Philosophy_of_Right a jp:HistoricalWork ;
+    rdfs:label "Philosophy of Right"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Wilhelm_Friedrich_Hegel .
+
+jp:Work_Philosophy_of_Symbolic_Forms a jp:HistoricalWork ;
+    rdfs:label "Philosophy of Symbolic Forms"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernst_Cassirer .
+
+jp:Work_Plough_Sword_and_Book a jp:HistoricalWork ;
+    rdfs:label "Plough, Sword and Book"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernest_Gellner .
+
+jp:Work_Political_Treatise a jp:HistoricalWork ;
+    rdfs:label "Political Treatise"^^xsd:string ;
+    jp:writtenBy jp:Person_Baruch_Spinoza .
+
+jp:Work_Politics_and_the_Limits_of_Law a jp:HistoricalWork ;
+    rdfs:label "Politics and the Limits of Law"^^xsd:string ;
+    jp:writtenBy jp:Person_Menachem_Lorberbaum .
+
+jp:Work_Post_Holocaust_Dialogues a jp:HistoricalWork ;
+    rdfs:label "Post-Holocaust Dialogues"^^xsd:string ;
+    jp:writtenBy jp:Person_Steven_Katz .
+
+jp:Work_Post_Scarcity_Anarchism a jp:HistoricalWork ;
+    rdfs:label "Post-Scarcity Anarchism"^^xsd:string ;
+    jp:writtenBy jp:Person_Murray_Bookchin .
+
+jp:Work_Postmodern_Ethics a jp:HistoricalWork ;
+    rdfs:label "Postmodern Ethics"^^xsd:string ;
+    jp:writtenBy jp:Person_Zygmunt_Bauman .
+
+jp:Work_Pragmatism_and_the_Tragic_Sense_of_Life a jp:HistoricalWork ;
+    rdfs:label "Pragmatism and the Tragic Sense of Life"^^xsd:string ;
+    jp:writtenBy jp:Person_Sidney_Hook .
+
+jp:Work_Praxis_and_Action a jp:HistoricalWork ;
+    rdfs:label "Praxis and Action"^^xsd:string ;
+    jp:writtenBy jp:Person_Richard_J_Bernstein .
+
+jp:Work_Precarious_Life a jp:HistoricalWork ;
+    rdfs:label "Precarious Life"^^xsd:string ;
+    jp:writtenBy jp:Person_Judith_Butler .
+
+jp:Work_Prevenci_n_Moral a jp:HistoricalWork ;
+    rdfs:label "Prevención Moral"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Orobio_de_Castro .
+
+jp:Work_Pri_Etz_Hayyim a jp:HistoricalWork ;
+    rdfs:label "Pri Etz Hayyim"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Luria_the_Ari .
+
+jp:Work_Primitive_Mentality a jp:HistoricalWork ;
+    rdfs:label "Primitive Mentality"^^xsd:string ;
+    jp:writtenBy jp:Person_Lucien_L_vy_Bruhl .
+
+jp:Work_Problems_and_Parables_of_Law a jp:HistoricalWork ;
+    rdfs:label "Problems and Parables of Law"^^xsd:string ;
+    jp:writtenBy jp:Person_Josef_Stern .
+
+jp:Work_Prophecy_The_History_of_an_Idea_in_Medieval_Jewish_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Prophecy: The History of an Idea in Medieval Jewish Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Hayim_Howard_Kreisel .
+
+jp:Work_Protestant_Catholic_Jew a jp:HistoricalWork ;
+    rdfs:label "Protestant, Catholic, Jew"^^xsd:string ;
+    jp:writtenBy jp:Person_Will_Herberg .
+
+jp:Work_Psychology_from_an_Empirical_Standpoint a jp:HistoricalWork ;
+    rdfs:label "Psychology from an Empirical Standpoint"^^xsd:string ;
+    jp:writtenBy jp:Person_Franz_Brentano .
+
+jp:Work_Puerta_del_Cielo_Gate_of_Heaven a jp:HistoricalWork ;
+    rdfs:label "Puerta del Cielo (Gate of Heaven)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Cohen_de_Herrera .
+
+jp:Work_Punishment_and_Responsibility a jp:HistoricalWork ;
+    rdfs:label "Punishment and Responsibility"^^xsd:string ;
+    jp:writtenBy jp:Person_Herbert_Hart .
+
+jp:Work_Putting_God_Second a jp:HistoricalWork ;
+    rdfs:label "Putting God Second"^^xsd:string ;
+    jp:writtenBy jp:Person_Donniel_Hartman .
+
+jp:Work_Radical_Enlightenment a jp:HistoricalWork ;
+    rdfs:label "Radical Enlightenment"^^xsd:string ;
+    jp:writtenBy jp:Person_Jonathan_Israel .
+
+jp:Work_Rameau_s_Nephew a jp:HistoricalWork ;
+    rdfs:label "Rameau's Nephew"^^xsd:string ;
+    jp:writtenBy jp:Person_Denis_Diderot .
+
+jp:Work_Rational_Rabbis a jp:HistoricalWork ;
+    rdfs:label "Rational Rabbis"^^xsd:string ;
+    jp:writtenBy jp:Person_Menachem_Fisch .
+
+jp:Work_Reason_Truth_and_History a jp:HistoricalWork ;
+    rdfs:label "Reason, Truth and History"^^xsd:string ;
+    jp:writtenBy jp:Person_Hilary_Putnam .
+
+jp:Work_Reason_and_Nature a jp:HistoricalWork ;
+    rdfs:label "Reason and Nature"^^xsd:string ;
+    jp:writtenBy jp:Person_Morris_Raphael_Cohen .
+
+jp:Work_Reason_and_Revolution a jp:HistoricalWork ;
+    rdfs:label "Reason and Revolution"^^xsd:string ;
+    jp:writtenBy jp:Person_Herbert_Marcuse .
+
+jp:Work_Religion_of_Reason_out_of_the_Sources_of_Judaism a jp:HistoricalWork ;
+    rdfs:label "Religion of Reason out of the Sources of Judaism"^^xsd:string ;
+    jp:writtenBy jp:Person_Hermann_Cohen .
+
+jp:Work_Renewing_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Renewing Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Hilary_Putnam .
+
+jp:Work_Renewing_the_Covenant a jp:HistoricalWork ;
+    rdfs:label "Renewing the Covenant"^^xsd:string ;
+    jp:writtenBy jp:Person_Eugene_Borowitz .
+
+jp:Work_Reshit_Hokhmah a jp:HistoricalWork ;
+    rdfs:label "Reshit Hokhmah"^^xsd:string ;
+    jp:writtenBy jp:Person_Elijah_de_Vidas,
+        jp:Person_Shem_Tov_Ibn_Falaquera .
+
+jp:Work_Responsa a jp:HistoricalWork ;
+    rdfs:label "Responsa"^^xsd:string ;
+    jp:writtenBy jp:Person_Hai_Gaon,
+        jp:Person_Joseph_ibn_Migash .
+
+jp:Work_Responsa_She_elot_u_Teshuvot a jp:HistoricalWork ;
+    rdfs:label "Responsa (She'elot u-Teshuvot)"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_bar_Sheshet_Rivash .
+
+jp:Work_Rights_Justice_and_the_Bounds_of_Liberty a jp:HistoricalWork ;
+    rdfs:label "Rights, Justice, and the Bounds of Liberty"^^xsd:string ;
+    jp:writtenBy jp:Person_Joel_Feinberg .
+
+jp:Work_Rokeah a jp:HistoricalWork ;
+    rdfs:label "Rokeah"^^xsd:string ;
+    jp:writtenBy jp:Person_Eleazar_ben_Judah_of_Worms .
+
+jp:Work_Rome_and_Jerusalem a jp:HistoricalWork ;
+    rdfs:label "Rome and Jerusalem"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Hess .
+
+jp:Work_Rosh_Amanah a jp:HistoricalWork ;
+    rdfs:label "Rosh Amanah"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Abravanel .
+
+jp:Work_Ruah_Hen a jp:HistoricalWork ;
+    rdfs:label "Ruah Hen"^^xsd:string ;
+    jp:writtenBy jp:Person_Rua_en_anonymous .
+
+jp:Work_Sabbatai_Sevi a jp:HistoricalWork ;
+    rdfs:label "Sabbatai Sevi"^^xsd:string ;
+    jp:writtenBy jp:Person_Gershom_Scholem .
+
+jp:Work_Saints_and_Postmodernism a jp:HistoricalWork ;
+    rdfs:label "Saints and Postmodernism"^^xsd:string ;
+    jp:writtenBy jp:Person_Edith_Wyschogrod .
+
+jp:Work_Science_Perception_and_Reality a jp:HistoricalWork ;
+    rdfs:label "Science, Perception and Reality"^^xsd:string ;
+    jp:writtenBy jp:Person_Wilfrid_Sellars .
+
+jp:Work_Science_of_Logic a jp:HistoricalWork ;
+    rdfs:label "Science of Logic"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Wilhelm_Friedrich_Hegel .
+
+jp:Work_Scrutinium_Scripturarum a jp:HistoricalWork ;
+    rdfs:label "Scrutinium Scripturarum"^^xsd:string ;
+    jp:writtenBy jp:Person_Pablo_de_Santa_Maria_Shlomo_Halevi .
+
+jp:Work_Sefer_Elim a jp:HistoricalWork ;
+    rdfs:label "Sefer Elim"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Solomon_Delmedigo .
+
+jp:Work_Sefer_Hakhmoni a jp:HistoricalWork ;
+    rdfs:label "Sefer Hakhmoni"^^xsd:string ;
+    jp:writtenBy jp:Person_Shabbetai_Donnolo .
+
+jp:Work_Sefer_Hasidim a jp:HistoricalWork ;
+    rdfs:label "Sefer Hasidim"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_he_Hasid_Judah_the_Pious .
+
+jp:Work_Sefer_Zikkaron a jp:HistoricalWork ;
+    rdfs:label "Sefer Zikkaron"^^xsd:string ;
+    jp:writtenBy jp:Person_Josef_Kimchi .
+
+jp:Work_Sefer_ha_Bahur a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Bahur"^^xsd:string ;
+    jp:writtenBy jp:Person_Elias_Levita .
+
+jp:Work_Sefer_ha_Beriah a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Beriah"^^xsd:string ;
+    jp:writtenBy jp:Person_Nathan_of_Gaza .
+
+jp:Work_Sefer_ha_Emunot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Emunot"^^xsd:string ;
+    jp:writtenBy jp:Person_Shem_Tov_ibn_Shem_Tov .
+
+jp:Work_Sefer_ha_Galui a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Galui"^^xsd:string ;
+    jp:writtenBy jp:Person_Josef_Kimchi .
+
+jp:Work_Sefer_ha_Gerem_ha_Mehayyeh a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Gerem ha-Mehayyeh"^^xsd:string ;
+    jp:writtenBy jp:Person_Elia_del_Medigo .
+
+jp:Work_Sefer_ha_Hibbur a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Hibbur"^^xsd:string ;
+    jp:writtenBy jp:Person_Berechiah_ben_Natronai_ha_Nakdan .
+
+jp:Work_Sefer_ha_Ibbur a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Ibbur"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra .
+
+jp:Work_Sefer_ha_Ikkarim_Book_of_Principles a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Ikkarim (Book of Principles)"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Albo .
+
+jp:Work_Sefer_ha_Iyyunim_ve_ha_Diyyunim a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Iyyunim ve-ha-Diyyunim"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Ibn_Ezra .
+
+jp:Work_Sefer_ha_Mitzvot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Mitzvot"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Maimonides_Rambam .
+
+jp:Work_Sefer_ha_Mitzvot_Book_of_Commandments a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Mitzvot (Book of Commandments)"^^xsd:string ;
+    jp:writtenBy jp:Person_Anan_ben_David .
+
+jp:Work_Sefer_ha_Mivhar a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Mivhar"^^xsd:string ;
+    jp:writtenBy jp:Person_Aaron_ben_Joseph_the_Karaite .
+
+jp:Work_Sefer_ha_Nefesh a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Nefesh"^^xsd:string ;
+    jp:writtenBy jp:Person_Shem_Tov_Ibn_Falaquera .
+
+jp:Work_Sefer_ha_Nizzahon a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Nizzahon"^^xsd:string ;
+    jp:writtenBy jp:Person_Yom_Tov_Lipmann_Muhlhausen .
+
+jp:Work_Sefer_ha_Ot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Ot"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Abulafia .
+
+jp:Work_Sefer_ha_Qabbalah a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Qabbalah"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Daud .
+
+jp:Work_Sefer_ha_Sod a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Sod"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Caspi_Ibn_Kaspi .
+
+jp:Work_Self_Ownership_Freedom_and_Equality a jp:HistoricalWork ;
+    rdfs:label "Self-Ownership, Freedom and Equality"^^xsd:string ;
+    jp:writtenBy jp:Person_Gerald_Cohen .
+
+jp:Work_Sendschreiben_an_einen_Prediger a jp:HistoricalWork ;
+    rdfs:label "Sendschreiben an einen Prediger"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Friedl_nder .
+
+jp:Work_Sha_ar_ha_Gemul a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Gemul"^^xsd:string ;
+    jp:writtenBy jp:Person_Nachmanides_Moses_ben_Nahman .
+
+jp:Work_Sha_ar_ha_Gilgulim a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Gilgulim"^^xsd:string ;
+    jp:writtenBy jp:Person_Hayyim_Vital .
+
+jp:Work_Sha_ar_ha_Hesheq a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Hesheq"^^xsd:string ;
+    jp:writtenBy jp:Person_Yohanan_Alemanno .
+
+jp:Work_Sha_ar_ha_Kavvanot a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Kavvanot"^^xsd:string ;
+    jp:writtenBy jp:Person_Hayyim_Vital .
+
+jp:Work_Sha_ar_ha_Shamayim a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Shamayim"^^xsd:string ;
+    jp:writtenBy jp:Person_Gershon_ben_Shlomo_of_Arles,
+        jp:Person_Isaac_ibn_Latif .
+
+jp:Work_Sha_ar_ha_Sho_el a jp:HistoricalWork ;
+    rdfs:label "Sha'ar ha-Sho'el"^^xsd:string ;
+    jp:writtenBy jp:Person_Azriel_of_Gerona .
+
+jp:Work_Sha_are_Orah_Gates_of_Light a jp:HistoricalWork ;
+    rdfs:label "Sha'are Orah (Gates of Light)"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Gikatilla .
+
+jp:Work_She_elot_u_Teshuvot a jp:HistoricalWork ;
+    rdfs:label "She'elot u-Teshuvot"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_ibn_Adret_Rashba .
+
+jp:Work_Shevile_Emunah a jp:HistoricalWork ;
+    rdfs:label "Shevile Emunah"^^xsd:string ;
+    jp:writtenBy jp:Person_Meir_Aldabi .
+
+jp:Work_Shiltei_ha_Gibborim a jp:HistoricalWork ;
+    rdfs:label "Shiltei ha-Gibborim"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Portaleone .
+
+jp:Work_Shnei_Luchot_ha_Brit a jp:HistoricalWork ;
+    rdfs:label "Shnei Luchot ha-Brit"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaiah_Horowitz_Shelah .
+
+jp:Work_Shulchan_Aruch a jp:HistoricalWork ;
+    rdfs:label "Shulchan Aruch"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Karo .
+
+jp:Work_Shulchan_Aruch_ha_Rav a jp:HistoricalWork ;
+    rdfs:label "Shulchan Aruch ha-Rav"^^xsd:string ;
+    jp:writtenBy jp:Person_Schneur_Zalman_of_Liadi_Alter_Rebbe .
+
+jp:Work_Sic_et_Non a jp:HistoricalWork ;
+    rdfs:label "Sic et Non"^^xsd:string ;
+    jp:writtenBy jp:Person_Peter_Abelard .
+
+jp:Work_Siddur_Beit_Ya_akov a jp:HistoricalWork ;
+    rdfs:label "Siddur Beit Ya'akov"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacob_Emden_Ya_avetz .
+
+jp:Work_Sipurey_Ma_asiyot a jp:HistoricalWork ;
+    rdfs:label "Sipurey Ma'asiyot"^^xsd:string ;
+    jp:writtenBy jp:Person_Nachman_of_Breslov .
+
+jp:Work_Situating_the_Self a jp:HistoricalWork ;
+    rdfs:label "Situating the Self"^^xsd:string ;
+    jp:writtenBy jp:Person_Seyla_Benhabib .
+
+jp:Work_Sociology a jp:HistoricalWork ;
+    rdfs:label "Sociology"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Simmel .
+
+jp:Work_Socrate a jp:HistoricalWork ;
+    rdfs:label "Socrate"^^xsd:string ;
+    jp:writtenBy jp:Person_Simone_Luzzatto .
+
+jp:Work_Socrates_Second_Sailing a jp:HistoricalWork ;
+    rdfs:label "Socrates' Second Sailing"^^xsd:string ;
+    jp:writtenBy jp:Person_Seth_Benardete .
+
+jp:Work_Space_Time_and_Deity a jp:HistoricalWork ;
+    rdfs:label "Space, Time and Deity"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Alexander .
+
+jp:Work_Speech_and_Phenomena a jp:HistoricalWork ;
+    rdfs:label "Speech and Phenomena"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacques_Derrida .
+
+jp:Work_Spheres_of_Justice a jp:HistoricalWork ;
+    rdfs:label "Spheres of Justice"^^xsd:string ;
+    jp:writtenBy jp:Person_Michael_Walzer .
+
+jp:Work_Spinoza a jp:HistoricalWork ;
+    rdfs:label "Spinoza"^^xsd:string ;
+    jp:writtenBy jp:Person_Leon_Roth .
+
+jp:Work_Spinoza_and_Other_Heretics a jp:HistoricalWork ;
+    rdfs:label "Spinoza and Other Heretics"^^xsd:string ;
+    jp:writtenBy jp:Person_Yirmiahu_Yovel .
+
+jp:Work_Studies_in_Religious_Philosophy_and_Mysticism a jp:HistoricalWork ;
+    rdfs:label "Studies in Religious Philosophy and Mysticism"^^xsd:string ;
+    jp:writtenBy jp:Person_Alexander_Altmann .
+
+jp:Work_Suicide a jp:HistoricalWork ;
+    rdfs:label "Suicide"^^xsd:string ;
+    jp:writtenBy jp:Person_mile_Durkheim .
+
+jp:Work_Sullam_ha_Aliyah a jp:HistoricalWork ;
+    rdfs:label "Sullam ha-Aliyah"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_ben_Moses_Albotini .
+
+jp:Work_Summa_Contra_Gentiles a jp:HistoricalWork ;
+    rdfs:label "Summa Contra Gentiles"^^xsd:string ;
+    jp:writtenBy jp:Person_Thomas_Aquinas .
+
+jp:Work_Summa_Theologiae a jp:HistoricalWork ;
+    rdfs:label "Summa Theologiae"^^xsd:string ;
+    jp:writtenBy jp:Person_Albertus_Magnus,
+        jp:Person_Thomas_Aquinas .
+
+jp:Work_Syntactic_Structures a jp:HistoricalWork ;
+    rdfs:label "Syntactic Structures"^^xsd:string ;
+    jp:writtenBy jp:Person_Noam_Chomsky .
+
+jp:Work_Tagmule_ha_Nefesh a jp:HistoricalWork ;
+    rdfs:label "Tagmule ha-Nefesh"^^xsd:string ;
+    jp:writtenBy jp:Person_Hillel_ben_Samuel_of_Verona .
+
+jp:Work_Taking_Rights_Seriously a jp:HistoricalWork ;
+    rdfs:label "Taking Rights Seriously"^^xsd:string ;
+    jp:writtenBy jp:Person_Ronald_Dworkin .
+
+jp:Work_Tales_of_the_Hasidim a jp:HistoricalWork ;
+    rdfs:label "Tales of the Hasidim"^^xsd:string ;
+    jp:writtenBy jp:Person_Martin_Buber .
+
+jp:Work_Talking_Wolves_Thomas_Hobbes_on_the_Language_of_Politics a jp:HistoricalWork ;
+    rdfs:label "Talking Wolves: Thomas Hobbes on the Language of Politics"^^xsd:string ;
+    jp:writtenBy jp:Person_Anat_Biletzki .
+
+jp:Work_Tanya a jp:HistoricalWork ;
+    rdfs:label "Tanya"^^xsd:string ;
+    jp:writtenBy jp:Person_Schneur_Zalman_of_Liadi_Alter_Rebbe .
+
+jp:Work_Tashbetz a jp:HistoricalWork ;
+    rdfs:label "Tashbetz"^^xsd:string ;
+    jp:writtenBy jp:Person_Shimon_ben_Zemah_Duran .
+
+jp:Work_Tefillah_le_Moshe a jp:HistoricalWork ;
+    rdfs:label "Tefillah le-Moshe"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_ben_Baruch_Almosnino .
+
+jp:Work_Testimony_with_Laub a jp:HistoricalWork ;
+    rdfs:label "Testimony (with Laub)"^^xsd:string ;
+    jp:writtenBy jp:Person_Shoshana_Felman .
+
+jp:Work_Th_orie_du_pouvoir_politique_et_religieux a jp:HistoricalWork ;
+    rdfs:label "Théorie du pouvoir politique et religieux"^^xsd:string ;
+    jp:writtenBy jp:Person_Louis_Gabriel_Ambroise_de_Bonald .
+
+jp:Work_The_Advent_of_the_Algorithm a jp:HistoricalWork ;
+    rdfs:label "The Advent of the Algorithm"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Berlinski .
+
+jp:Work_The_Art_of_Loving a jp:HistoricalWork ;
+    rdfs:label "The Art of Loving"^^xsd:string ;
+    jp:writtenBy jp:Person_Erich_Fromm .
+
+jp:Work_The_Attainment_of_Happiness a jp:HistoricalWork ;
+    rdfs:label "The Attainment of Happiness"^^xsd:string ;
+    jp:writtenBy jp:Person_Al_Farabi_Abu_Nasr_Mohammed .
+
+jp:Work_The_Body_of_Faith a jp:HistoricalWork ;
+    rdfs:label "The Body of Faith"^^xsd:string ;
+    jp:writtenBy jp:Person_Michael_Wyschogrod .
+
+jp:Work_The_Book_of_Evidence a jp:HistoricalWork ;
+    rdfs:label "The Book of Evidence"^^xsd:string ;
+    jp:writtenBy jp:Person_Peter_Achinstein .
+
+jp:Work_The_Book_of_Healing_Kit_b_al_Shif a jp:HistoricalWork ;
+    rdfs:label "The Book of Healing (Kitāb al-Shifāʾ)"^^xsd:string ;
+    jp:writtenBy jp:Person_Avicenna_Ibn_Sina .
+
+jp:Work_The_Broken_Middle a jp:HistoricalWork ;
+    rdfs:label "The Broken Middle"^^xsd:string ;
+    jp:writtenBy jp:Person_Gillian_Rose .
+
+jp:Work_The_Canon_of_Medicine a jp:HistoricalWork ;
+    rdfs:label "The Canon of Medicine"^^xsd:string ;
+    jp:writtenBy jp:Person_Avicenna_Ibn_Sina .
+
+jp:Work_The_Claim_of_Reason a jp:HistoricalWork ;
+    rdfs:label "The Claim of Reason"^^xsd:string ;
+    jp:writtenBy jp:Person_Stanley_Cavell .
+
+jp:Work_The_Closing_of_the_American_Mind a jp:HistoricalWork ;
+    rdfs:label "The Closing of the American Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Allan_Bloom .
+
+jp:Work_The_Concept_of_Law a jp:HistoricalWork ;
+    rdfs:label "The Concept of Law"^^xsd:string ;
+    jp:writtenBy jp:Person_Herbert_Hart .
+
+jp:Work_The_Conventional_Lies_of_Our_Civilization a jp:HistoricalWork ;
+    rdfs:label "The Conventional Lies of Our Civilization"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Nordau .
+
+jp:Work_The_Cook_and_the_Cannibal a jp:HistoricalWork ;
+    rdfs:label "The Cook and the Cannibal"^^xsd:string ;
+    jp:writtenBy jp:Person_Andr_Glucksmann .
+
+jp:Work_The_Crisis_of_European_Sciences a jp:HistoricalWork ;
+    rdfs:label "The Crisis of European Sciences"^^xsd:string ;
+    jp:writtenBy jp:Person_Edmund_Husserl .
+
+jp:Work_The_Decent_Society a jp:HistoricalWork ;
+    rdfs:label "The Decent Society"^^xsd:string ;
+    jp:writtenBy jp:Person_Avishai_Margalit .
+
+jp:Work_The_Defeat_of_the_Mind a jp:HistoricalWork ;
+    rdfs:label "The Defeat of the Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Alain_Finkielkraut .
+
+jp:Work_The_Division_of_Labour_in_Society a jp:HistoricalWork ;
+    rdfs:label "The Division of Labour in Society"^^xsd:string ;
+    jp:writtenBy jp:Person_mile_Durkheim .
+
+jp:Work_The_Ecology_of_Freedom a jp:HistoricalWork ;
+    rdfs:label "The Ecology of Freedom"^^xsd:string ;
+    jp:writtenBy jp:Person_Murray_Bookchin .
+
+jp:Work_The_Election_of_Israel a jp:HistoricalWork ;
+    rdfs:label "The Election of Israel"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Novak .
+
+jp:Work_The_Elementary_Forms_of_Religious_Life a jp:HistoricalWork ;
+    rdfs:label "The Elementary Forms of Religious Life"^^xsd:string ;
+    jp:writtenBy jp:Person_mile_Durkheim .
+
+jp:Work_The_End_of_Faith a jp:HistoricalWork ;
+    rdfs:label "The End of Faith"^^xsd:string ;
+    jp:writtenBy jp:Person_Sam_Harris .
+
+jp:Work_The_Enigma_of_Woman a jp:HistoricalWork ;
+    rdfs:label "The Enigma of Woman"^^xsd:string ;
+    jp:writtenBy jp:Person_Sarah_Kofman .
+
+jp:Work_The_Essence_of_Judaism_Das_Wesen_des_Judentums a jp:HistoricalWork ;
+    rdfs:label "The Essence of Judaism (Das Wesen des Judentums)"^^xsd:string ;
+    jp:writtenBy jp:Person_Leo_Baeck .
+
+jp:Work_The_Ethics_of_Memory a jp:HistoricalWork ;
+    rdfs:label "The Ethics of Memory"^^xsd:string ;
+    jp:writtenBy jp:Person_Avishai_Margalit .
+
+jp:Work_The_Flight_to_Objectivity a jp:HistoricalWork ;
+    rdfs:label "The Flight to Objectivity"^^xsd:string ;
+    jp:writtenBy jp:Person_Susan_Bordo .
+
+jp:Work_The_Formation_of_the_Historical_World a jp:HistoricalWork ;
+    rdfs:label "The Formation of the Historical World"^^xsd:string ;
+    jp:writtenBy jp:Person_Wilhelm_Dilthey .
+
+jp:Work_The_Fragility_of_Goodness a jp:HistoricalWork ;
+    rdfs:label "The Fragility of Goodness"^^xsd:string ;
+    jp:writtenBy jp:Person_Martha_Nussbaum .
+
+jp:Work_The_Great_Ideas a jp:HistoricalWork ;
+    rdfs:label "The Great Ideas"^^xsd:string ;
+    jp:writtenBy jp:Person_Mortimer_J_Adler .
+
+jp:Work_The_Growth_of_Philosophic_Radicalism a jp:HistoricalWork ;
+    rdfs:label "The Growth of Philosophic Radicalism"^^xsd:string ;
+    jp:writtenBy jp:Person_lie_Hal_vy .
+
+jp:Work_The_Hedgehog_and_the_Fox a jp:HistoricalWork ;
+    rdfs:label "The Hedgehog and the Fox"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaiah_Berlin .
+
+jp:Work_The_Hidden_God a jp:HistoricalWork ;
+    rdfs:label "The Hidden God"^^xsd:string ;
+    jp:writtenBy jp:Person_Lucien_Goldmann .
+
+jp:Work_The_Holocaust_in_Historical_Context a jp:HistoricalWork ;
+    rdfs:label "The Holocaust in Historical Context"^^xsd:string ;
+    jp:writtenBy jp:Person_Steven_Katz .
+
+jp:Work_The_Human_Condition a jp:HistoricalWork ;
+    rdfs:label "The Human Condition"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt .
+
+jp:Work_The_Human_Use_of_Human_Beings a jp:HistoricalWork ;
+    rdfs:label "The Human Use of Human Beings"^^xsd:string ;
+    jp:writtenBy jp:Person_Norbert_Wiener .
+
+jp:Work_The_Idea_of_Nationalism a jp:HistoricalWork ;
+    rdfs:label "The Idea of Nationalism"^^xsd:string ;
+    jp:writtenBy jp:Person_Hans_Kohn .
+
+jp:Work_The_Imaginary_Jew a jp:HistoricalWork ;
+    rdfs:label "The Imaginary Jew"^^xsd:string ;
+    jp:writtenBy jp:Person_Alain_Finkielkraut .
+
+jp:Work_The_Imperative_of_Responsibility a jp:HistoricalWork ;
+    rdfs:label "The Imperative of Responsibility"^^xsd:string ;
+    jp:writtenBy jp:Person_Hans_Jonas .
+
+jp:Work_The_Incoherence_of_the_Incoherence a jp:HistoricalWork ;
+    rdfs:label "The Incoherence of the Incoherence"^^xsd:string ;
+    jp:writtenBy jp:Person_Averroes_Ibn_Rushd .
+
+jp:Work_The_Incoherence_of_the_Philosophers a jp:HistoricalWork ;
+    rdfs:label "The Incoherence of the Philosophers"^^xsd:string ;
+    jp:writtenBy jp:Person_al_Ghazali .
+
+jp:Work_The_Interpretation_of_Dreams a jp:HistoricalWork ;
+    rdfs:label "The Interpretation of Dreams"^^xsd:string ;
+    jp:writtenBy jp:Person_Sigmund_Freud .
+
+jp:Work_The_Jewish_Question a jp:HistoricalWork ;
+    rdfs:label "The Jewish Question"^^xsd:string ;
+    jp:writtenBy jp:Person_Bruno_Bauer .
+
+jp:Work_The_Jewish_Return_into_History a jp:HistoricalWork ;
+    rdfs:label "The Jewish Return into History"^^xsd:string ;
+    jp:writtenBy jp:Person_Emil_Fackenheim .
+
+jp:Work_The_Language_of_Thought a jp:HistoricalWork ;
+    rdfs:label "The Language of Thought"^^xsd:string ;
+    jp:writtenBy jp:Person_Jerry_Fodor .
+
+jp:Work_The_Laugh_of_the_Medusa a jp:HistoricalWork ;
+    rdfs:label "The Laugh of the Medusa"^^xsd:string ;
+    jp:writtenBy jp:Person_H_l_ne_Cixous .
+
+jp:Work_The_Literary_Speech_Act a jp:HistoricalWork ;
+    rdfs:label "The Literary Speech Act"^^xsd:string ;
+    jp:writtenBy jp:Person_Shoshana_Felman .
+
+jp:Work_The_Logic_of_Scientific_Discovery a jp:HistoricalWork ;
+    rdfs:label "The Logic of Scientific Discovery"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_Popper .
+
+jp:Work_The_Logical_Structure_of_the_World_Aufbau a jp:HistoricalWork ;
+    rdfs:label "The Logical Structure of the World (Aufbau)"^^xsd:string ;
+    jp:writtenBy jp:Person_Rudolf_Carnap .
+
+jp:Work_The_Logical_Syntax_of_Language a jp:HistoricalWork ;
+    rdfs:label "The Logical Syntax of Language"^^xsd:string ;
+    jp:writtenBy jp:Person_Rudolf_Carnap .
+
+jp:Work_The_Lonely_Man_of_Faith a jp:HistoricalWork ;
+    rdfs:label "The Lonely Man of Faith"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_B_Soloveitchik_the_Rav .
+
+jp:Work_The_Many_Faces_of_Realism a jp:HistoricalWork ;
+    rdfs:label "The Many Faces of Realism"^^xsd:string ;
+    jp:writtenBy jp:Person_Hilary_Putnam .
+
+jp:Work_The_Master_Thinkers a jp:HistoricalWork ;
+    rdfs:label "The Master Thinkers"^^xsd:string ;
+    jp:writtenBy jp:Person_Andr_Glucksmann .
+
+jp:Work_The_Meaning_of_God_in_Modern_Jewish_Religion a jp:HistoricalWork ;
+    rdfs:label "The Meaning of God in Modern Jewish Religion"^^xsd:string ;
+    jp:writtenBy jp:Person_Mordecai_Kaplan .
+
+jp:Work_The_Metropolis_and_Mental_Life a jp:HistoricalWork ;
+    rdfs:label "'The Metropolis and Mental Life'"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Simmel .
+
+jp:Work_The_Modularity_of_Mind a jp:HistoricalWork ;
+    rdfs:label "The Modularity of Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Jerry_Fodor .
+
+jp:Work_The_Moral_Landscape a jp:HistoricalWork ;
+    rdfs:label "The Moral Landscape"^^xsd:string ;
+    jp:writtenBy jp:Person_Sam_Harris .
+
+jp:Work_The_Mystical_Experience_in_Abraham_Abulafia a jp:HistoricalWork ;
+    rdfs:label "The Mystical Experience in Abraham Abulafia"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Idel .
+
+jp:Work_The_Myth_of_the_State a jp:HistoricalWork ;
+    rdfs:label "The Myth of the State"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernst_Cassirer .
+
+jp:Work_The_Nature_of_Explanation a jp:HistoricalWork ;
+    rdfs:label "The Nature of Explanation"^^xsd:string ;
+    jp:writtenBy jp:Person_Peter_Achinstein .
+
+jp:Work_The_Nature_of_Sympathy a jp:HistoricalWork ;
+    rdfs:label "The Nature of Sympathy"^^xsd:string ;
+    jp:writtenBy jp:Person_Max_Scheler .
+
+jp:Work_The_Need_for_Roots a jp:HistoricalWork ;
+    rdfs:label "The Need for Roots"^^xsd:string ;
+    jp:writtenBy jp:Person_Simone_Weil .
+
+jp:Work_The_Newly_Born_Woman a jp:HistoricalWork ;
+    rdfs:label "The Newly Born Woman"^^xsd:string ;
+    jp:writtenBy jp:Person_H_l_ne_Cixous .
+
+jp:Work_The_Nineteen_Letters a jp:HistoricalWork ;
+    rdfs:label "The Nineteen Letters"^^xsd:string ;
+    jp:writtenBy jp:Person_Samson_Raphael_Hirsch .
+
+jp:Work_The_Object_of_Knowledge a jp:HistoricalWork ;
+    rdfs:label "The Object of Knowledge"^^xsd:string ;
+    jp:writtenBy jp:Person_Semyon_Frank .
+
+jp:Work_The_Obsolescence_of_Man_Die_Antiquiertheit_des_Menschen a jp:HistoricalWork ;
+    rdfs:label "The Obsolescence of Man (Die Antiquiertheit des Menschen)"^^xsd:string ;
+    jp:writtenBy jp:Person_G_nther_Anders .
+
+jp:Work_The_Open_Society_and_Its_Enemies a jp:HistoricalWork ;
+    rdfs:label "The Open Society and Its Enemies"^^xsd:string ;
+    jp:writtenBy jp:Person_Karl_Popper .
+
+jp:Work_The_Opinions_of_the_Inhabitants_of_the_Virtuous_City a jp:HistoricalWork ;
+    rdfs:label "The Opinions of the Inhabitants of the Virtuous City"^^xsd:string ;
+    jp:writtenBy jp:Person_Al_Farabi_Abu_Nasr_Mohammed .
+
+jp:Work_The_Opium_of_the_Intellectuals a jp:HistoricalWork ;
+    rdfs:label "The Opium of the Intellectuals"^^xsd:string ;
+    jp:writtenBy jp:Person_Raymond_Aron .
+
+jp:Work_The_Order_of_Evils a jp:HistoricalWork ;
+    rdfs:label "The Order of Evils"^^xsd:string ;
+    jp:writtenBy jp:Person_Adi_Ophir .
+
+jp:Work_The_Origin_of_German_Tragic_Drama a jp:HistoricalWork ;
+    rdfs:label "The Origin of German Tragic Drama"^^xsd:string ;
+    jp:writtenBy jp:Person_Walter_Benjamin .
+
+jp:Work_The_Origins_of_Totalitarianism a jp:HistoricalWork ;
+    rdfs:label "The Origins of Totalitarianism"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt .
+
+jp:Work_The_Other_Within_The_Marranos a jp:HistoricalWork ;
+    rdfs:label "The Other Within: The Marranos"^^xsd:string ;
+    jp:writtenBy jp:Person_Yirmiahu_Yovel .
+
+jp:Work_The_Phenomenology_of_the_Social_World a jp:HistoricalWork ;
+    rdfs:label "The Phenomenology of the Social World"^^xsd:string ;
+    jp:writtenBy jp:Person_Alfred_Sch_tz .
+
+jp:Work_The_Phenomenon_of_Life a jp:HistoricalWork ;
+    rdfs:label "The Phenomenon of Life"^^xsd:string ;
+    jp:writtenBy jp:Person_Hans_Jonas .
+
+jp:Work_The_Philosophy_of_Money a jp:HistoricalWork ;
+    rdfs:label "The Philosophy of Money"^^xsd:string ;
+    jp:writtenBy jp:Person_Georg_Simmel .
+
+jp:Work_The_Philosophy_of_Space_and_Time a jp:HistoricalWork ;
+    rdfs:label "The Philosophy of Space and Time"^^xsd:string ;
+    jp:writtenBy jp:Person_Hans_Reichenbach .
+
+jp:Work_The_Philosophy_of_Spinoza a jp:HistoricalWork ;
+    rdfs:label "The Philosophy of Spinoza"^^xsd:string ;
+    jp:writtenBy jp:Person_Harry_Wolfson .
+
+jp:Work_The_Principle_of_Hope a jp:HistoricalWork ;
+    rdfs:label "The Principle of Hope"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernst_Bloch .
+
+jp:Work_The_Problem_of_Knowledge a jp:HistoricalWork ;
+    rdfs:label "The Problem of Knowledge"^^xsd:string ;
+    jp:writtenBy jp:Person_Alfred_Jules_Ayer .
+
+jp:Work_The_Prophets a jp:HistoricalWork ;
+    rdfs:label "The Prophets"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Joshua_Heschel .
+
+jp:Work_The_Rejection_of_Consequentialism a jp:HistoricalWork ;
+    rdfs:label "The Rejection of Consequentialism"^^xsd:string ;
+    jp:writtenBy jp:Person_Samuel_Scheffler .
+
+jp:Work_The_Revival_of_the_Religious_Sciences a jp:HistoricalWork ;
+    rdfs:label "The Revival of the Religious Sciences"^^xsd:string ;
+    jp:writtenBy jp:Person_al_Ghazali .
+
+jp:Work_The_Rhetoric_of_Morality_and_Philosophy a jp:HistoricalWork ;
+    rdfs:label "The Rhetoric of Morality and Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Seth_Benardete .
+
+jp:Work_The_Sabbath a jp:HistoricalWork ;
+    rdfs:label "The Sabbath"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Joshua_Heschel .
+
+jp:Work_The_Shema a jp:HistoricalWork ;
+    rdfs:label "The Shema"^^xsd:string ;
+    jp:writtenBy jp:Person_Norman_Lamm .
+
+jp:Work_The_Spirit_of_Utopia a jp:HistoricalWork ;
+    rdfs:label "The Spirit of Utopia"^^xsd:string ;
+    jp:writtenBy jp:Person_Ernst_Bloch .
+
+jp:Work_The_Star_of_Redemption a jp:HistoricalWork ;
+    rdfs:label "The Star of Redemption"^^xsd:string ;
+    jp:writtenBy jp:Person_Franz_Rosenzweig .
+
+jp:Work_The_Tacit_Dimension a jp:HistoricalWork ;
+    rdfs:label "The Tacit Dimension"^^xsd:string ;
+    jp:writtenBy jp:Person_Michael_Polanyi .
+
+jp:Work_The_Theory_of_Communicative_Action a jp:HistoricalWork ;
+    rdfs:label "The Theory of Communicative Action"^^xsd:string ;
+    jp:writtenBy jp:Person_J_rgen_Habermas .
+
+jp:Work_The_Transfiguration_of_the_Commonplace a jp:HistoricalWork ;
+    rdfs:label "The Transfiguration of the Commonplace"^^xsd:string ;
+    jp:writtenBy jp:Person_Arthur_Danto .
+
+jp:Work_The_Two_Sources_of_Morality_and_Religion a jp:HistoricalWork ;
+    rdfs:label "The Two Sources of Morality and Religion"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Bergson .
+
+jp:Work_The_Unfathomable a jp:HistoricalWork ;
+    rdfs:label "The Unfathomable"^^xsd:string ;
+    jp:writtenBy jp:Person_Semyon_Frank .
+
+jp:Work_The_View_from_Nowhere a jp:HistoricalWork ;
+    rdfs:label "The View from Nowhere"^^xsd:string ;
+    jp:writtenBy jp:Person_Thomas_Nagel .
+
+jp:Work_Theologia a jp:HistoricalWork ;
+    rdfs:label "Theologia"^^xsd:string ;
+    jp:writtenBy jp:Person_Peter_Abelard .
+
+jp:Work_Theologico_Political_Treatise a jp:HistoricalWork ;
+    rdfs:label "Theologico-Political Treatise"^^xsd:string ;
+    jp:writtenBy jp:Person_Baruch_Spinoza .
+
+jp:Work_Theology_and_the_Scientific_Imagination a jp:HistoricalWork ;
+    rdfs:label "Theology and the Scientific Imagination"^^xsd:string ;
+    jp:writtenBy jp:Person_Amos_Funkenstein .
+
+jp:Work_Tiferet_Yisrael a jp:HistoricalWork ;
+    rdfs:label "Tiferet Yisrael"^^xsd:string ;
+    jp:writtenBy jp:Person_Judah_Loew_ben_Bezalel_Maharal .
+
+jp:Work_Time_and_Free_Will a jp:HistoricalWork ;
+    rdfs:label "Time and Free Will"^^xsd:string ;
+    jp:writtenBy jp:Person_Henri_Bergson .
+
+jp:Work_Time_and_Narrative a jp:HistoricalWork ;
+    rdfs:label "Time and Narrative"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Ricoeur .
+
+jp:Work_Tiqqun_ha_De_ot a jp:HistoricalWork ;
+    rdfs:label "Tiqqun ha-De'ot"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_Albalag .
+
+jp:Work_Tirat_Kesef a jp:HistoricalWork ;
+    rdfs:label "Tirat Kesef"^^xsd:string ;
+    jp:writtenBy jp:Person_Joseph_Caspi_Ibn_Kaspi .
+
+jp:Work_To_Mend_the_World a jp:HistoricalWork ;
+    rdfs:label "To Mend the World"^^xsd:string ;
+    jp:writtenBy jp:Person_Emil_Fackenheim .
+
+jp:Work_Tola_at_Ya_akov a jp:HistoricalWork ;
+    rdfs:label "Tola'at Ya'akov"^^xsd:string ;
+    jp:writtenBy jp:Person_Meir_ibn_Gabbai .
+
+jp:Work_Tomer_Devorah a jp:HistoricalWork ;
+    rdfs:label "Tomer Devorah"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Cordovero_Ramak .
+
+jp:Work_Torah_Or a jp:HistoricalWork ;
+    rdfs:label "Torah Or"^^xsd:string ;
+    jp:writtenBy jp:Person_Schneur_Zalman_of_Liadi_Alter_Rebbe .
+
+jp:Work_Torah_Umadda a jp:HistoricalWork ;
+    rdfs:label "Torah Umadda"^^xsd:string ;
+    jp:writtenBy jp:Person_Norman_Lamm .
+
+jp:Work_Torat_ha_Adam a jp:HistoricalWork ;
+    rdfs:label "Torat ha-Adam"^^xsd:string ;
+    jp:writtenBy jp:Person_Nachmanides_Moses_ben_Nahman .
+
+jp:Work_Torat_ha_Olah a jp:HistoricalWork ;
+    rdfs:label "Torat ha-Olah"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_Isserles_ReMA .
+
+jp:Work_Tosafot_Yom_Tov a jp:HistoricalWork ;
+    rdfs:label "Tosafot Yom Tov"^^xsd:string ;
+    jp:writtenBy jp:Person_Yom_Tov_Lipmann_Heller .
+
+jp:Work_Totality_and_Infinity a jp:HistoricalWork ;
+    rdfs:label "Totality and Infinity"^^xsd:string ;
+    jp:writtenBy jp:Person_Emmanuel_Levinas .
+
+jp:Work_Towards_a_Sociology_of_the_Novel a jp:HistoricalWork ;
+    rdfs:label "Towards a Sociology of the Novel"^^xsd:string ;
+    jp:writtenBy jp:Person_Lucien_Goldmann .
+
+jp:Work_Towards_the_Understanding_of_Karl_Marx a jp:HistoricalWork ;
+    rdfs:label "Towards the Understanding of Karl Marx"^^xsd:string ;
+    jp:writtenBy jp:Person_Sidney_Hook .
+
+jp:Work_Tractatus_Logico_Philosophicus a jp:HistoricalWork ;
+    rdfs:label "Tractatus Logico-Philosophicus"^^xsd:string ;
+    jp:writtenBy jp:Person_Ludwig_Wittgenstein .
+
+jp:Work_Two_Concepts_of_Liberty a jp:HistoricalWork ;
+    rdfs:label "Two Concepts of Liberty"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaiah_Berlin .
+
+jp:Work_Two_Dogmas_of_Empiricism a jp:HistoricalWork ;
+    rdfs:label "Two Dogmas of Empiricism"^^xsd:string ;
+    jp:writtenBy jp:Person_Willard_Van_Orman_Quine .
+
+jp:Work_Tzemah_David a jp:HistoricalWork ;
+    rdfs:label "Tzemah David"^^xsd:string ;
+    jp:writtenBy jp:Person_David_Gans .
+
+jp:Work_Tzurat_ha_Olam a jp:HistoricalWork ;
+    rdfs:label "Tzurat ha-Olam"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_ibn_Latif .
+
+jp:Work_Unbearable_Weight a jp:HistoricalWork ;
+    rdfs:label "Unbearable Weight"^^xsd:string ;
+    jp:writtenBy jp:Person_Susan_Bordo .
+
+jp:Work_Understanding_the_Sick_and_the_Healthy a jp:HistoricalWork ;
+    rdfs:label "Understanding the Sick and the Healthy"^^xsd:string ;
+    jp:writtenBy jp:Person_Franz_Rosenzweig .
+
+jp:Work_Uns_al_Gharib a jp:HistoricalWork ;
+    rdfs:label "Uns al-Gharib"^^xsd:string ;
+    jp:writtenBy jp:Person_Yehudah_ben_Nisim_Ibn_Malka .
+
+jp:Work_Upheavals_of_Thought a jp:HistoricalWork ;
+    rdfs:label "Upheavals of Thought"^^xsd:string ;
+    jp:writtenBy jp:Person_Martha_Nussbaum .
+
+jp:Work_Urschrift_und_bersetzungen_der_Bibel a jp:HistoricalWork ;
+    rdfs:label "Urschrift und Übersetzungen der Bibel"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Geiger .
+
+jp:Work_Waiting_for_God a jp:HistoricalWork ;
+    rdfs:label "Waiting for God"^^xsd:string ;
+    jp:writtenBy jp:Person_Simone_Weil .
+
+jp:Work_Ways_of_Worldmaking a jp:HistoricalWork ;
+    rdfs:label "Ways of Worldmaking"^^xsd:string ;
+    jp:writtenBy jp:Person_Nelson_Goodman .
+
+jp:Work_We_Have_Reason_to_Believe a jp:HistoricalWork ;
+    rdfs:label "We Have Reason to Believe"^^xsd:string ;
+    jp:writtenBy jp:Person_Louis_Jacobs .
+
+jp:Work_What_Are_Friends_For a jp:HistoricalWork ;
+    rdfs:label "What Are Friends For?"^^xsd:string ;
+    jp:writtenBy jp:Person_Marilyn_Friedman .
+
+jp:Work_What_Did_Mohammed_Borrow_from_Judaism a jp:HistoricalWork ;
+    rdfs:label "What Did Mohammed Borrow from Judaism?"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Geiger .
+
+jp:Work_What_Numbers_Could_Not_Be a jp:HistoricalWork ;
+    rdfs:label "'What Numbers Could Not Be'"^^xsd:string ;
+    jp:writtenBy jp:Person_Paul_Benacerraf .
+
+jp:Work_Who_Are_the_Jews_and_Who_Can_We_Become a jp:HistoricalWork ;
+    rdfs:label "Who Are the Jews and Who Can We Become?"^^xsd:string ;
+    jp:writtenBy jp:Person_Donniel_Hartman .
+
+jp:Work_Wisdom_of_Ben_Sira_Ecclesiasticus_Sefer_Ben_Sira a jp:HistoricalWork ;
+    rdfs:label "Wisdom of Ben Sira (Ecclesiasticus / Sefer Ben Sira)"^^xsd:string ;
+    jp:writtenBy jp:Person_Ben_Sira .
+
+jp:Work_Wittgenstein_on_Rules_and_Private_Language a jp:HistoricalWork ;
+    rdfs:label "Wittgenstein on Rules and Private Language"^^xsd:string ;
+    jp:writtenBy jp:Person_Saul_Kripke .
+
+jp:Work_Word_and_Object a jp:HistoricalWork ;
+    rdfs:label "Word and Object"^^xsd:string ;
+    jp:writtenBy jp:Person_Willard_Van_Orman_Quine .
+
+jp:Work_World_History_of_the_Jewish_People a jp:HistoricalWork ;
+    rdfs:label "World History of the Jewish People"^^xsd:string ;
+    jp:writtenBy jp:Person_Simon_Dubnow .
+
+jp:Work_Writing_and_Difference a jp:HistoricalWork ;
+    rdfs:label "Writing and Difference"^^xsd:string ;
+    jp:writtenBy jp:Person_Jacques_Derrida .
+
+jp:Work_Yad_Moshe a jp:HistoricalWork ;
+    rdfs:label "Yad Moshe"^^xsd:string ;
+    jp:writtenBy jp:Person_Moshe_Alfalas .
+
+jp:Work_Yesod_Mora a jp:HistoricalWork ;
+    rdfs:label "Yesod Mora"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra .
+
+jp:Work_Yesod_Olam a jp:HistoricalWork ;
+    rdfs:label "Yesod Olam"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_ben_Hananel_of_Esquira .
+
+jp:Work_Zohar_attributed_primary_redactor a jp:HistoricalWork ;
+    rdfs:label "Zohar (attributed / primary redactor)"^^xsd:string ;
+    jp:writtenBy jp:Person_Moses_de_Leon .
+
+jp:Work_astronomical_treatises a jp:HistoricalWork ;
+    rdfs:label "astronomical treatises"^^xsd:string ;
+    jp:writtenBy jp:Person_Levi_ben_Gershom_Gersonides .
+
+jp:Work_critical_edition_translation_of_Guide_of_the_Perplexed a jp:HistoricalWork ;
+    rdfs:label "critical edition/translation of Guide of the Perplexed"^^xsd:string ;
+    jp:writtenBy jp:Person_Shlomo_Pines .
+
+jp:Work_letters_on_Kabbalah a jp:HistoricalWork ;
+    rdfs:label "letters on Kabbalah"^^xsd:string ;
+    jp:writtenBy jp:Person_Isaac_the_Blind_Sagi_Nahor .
+
+jp:Language_Hebrew_philosophical_work_in_Arabic a jp:Language ;
+    rdfs:label "Hebrew (philosophical work in Arabic"^^xsd:string .
+
+jp:Language_Hebrew_translator_from_Arabic a jp:Language ;
+    rdfs:label "Hebrew (translator from Arabic"^^xsd:string .
+
+jp:Language_Judeo_German a jp:Language ;
+    rdfs:label "Judeo-German"^^xsd:string .
+
+jp:Language_Persian a jp:Language ;
+    rdfs:label "Persian"^^xsd:string .
+
+jp:Language_Polish a jp:Language ;
+    rdfs:label "Polish"^^xsd:string .
+
+jp:Language_Romanian a jp:Language ;
+    rdfs:label "Romanian"^^xsd:string .
+
+jp:Language_Syriac a jp:Language ;
+    rdfs:label "Syriac"^^xsd:string .
+
+jp:Language_Turkish a jp:Language ;
+    rdfs:label "Turkish"^^xsd:string .
+
+jp:Person_Aaron_ben_Elijah_of_Nicomedia a jp:HistoricalPerson ;
+    rdfs:label "Aaron ben Elijah of Nicomedia"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aaron_ben_Joseph_the_Karaite a jp:HistoricalPerson ;
+    rdfs:label "Aaron ben Joseph the Karaite"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abba_Mari_ben_Eligdor_Astruc_de_Noves a jp:HistoricalPerson ;
+    rdfs:label "Abba Mari ben Eligdor (Astruc de Noves)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Bibago a jp:HistoricalPerson ;
+    rdfs:label "Abraham Bibago"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Maimonides a jp:HistoricalPerson ;
+    rdfs:label "Abraham Maimonides"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Portaleone a jp:HistoricalPerson ;
+    rdfs:label "Abraham Portaleone"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Shalom a jp:HistoricalPerson ;
+    rdfs:label "Abraham Shalom"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_ben_Hananel_of_Esquira a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Hananel of Esquira"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_ben_Hananiah_Yagel a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Hananiah Yagel"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abu_l_Barakat_al_Baghdadi a jp:HistoricalPerson ;
+    rdfs:label "Abu'l-Barakat al-Baghdadi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Adi_Ophir a jp:HistoricalPerson ;
+    rdfs:label "Adi Ophir"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ahad_Ha_am_Asher_Ginsberg a jp:HistoricalPerson ;
+    rdfs:label "Ahad Ha'am (Asher Ginsberg)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Allan_Bloom a jp:HistoricalPerson ;
+    rdfs:label "Allan Bloom"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Amatus_Lusitanus a jp:HistoricalPerson ;
+    rdfs:label "Amatus Lusitanus"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin,
+        jp:Language_Portuguese ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Anan_ben_David a jp:HistoricalPerson ;
+    rdfs:label "Anan ben David"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Anat_Biletzki a jp:HistoricalPerson ;
+    rdfs:label "Anat Biletzki"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aviezer_Ravitzky a jp:HistoricalPerson ;
+    rdfs:label "Aviezer Ravitzky"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Azariah_de_Rossi a jp:HistoricalPerson ;
+    rdfs:label "Azariah de' Rossi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Bahya_Ibn_Paquda a jp:HistoricalPerson ;
+    rdfs:label "Bahya Ibn Paquda"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ben_Sira a jp:HistoricalPerson ;
+    rdfs:label "Ben Sira"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Bruno_Bauer a jp:HistoricalPerson ;
+    rdfs:label "Bruno Bauer"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Carlos_Fraenkel a jp:HistoricalPerson ;
+    rdfs:label "Carlos Fraenkel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Carol_Gilligan a jp:HistoricalPerson ;
+    rdfs:label "Carol Gilligan"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Cohen_the_Nazir a jp:HistoricalPerson ;
+    rdfs:label "David Cohen (the Nazir)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Friedl_nder a jp:HistoricalPerson ;
+    rdfs:label "David Friedländer"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_ben_Amram_al_Adani a jp:HistoricalPerson ;
+    rdfs:label "David ben Amram al-Adani"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_ibn_Merwan_al_Mukkamas a jp:HistoricalPerson ;
+    rdfs:label "David ibn Merwan al-Mukkamas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Dunash_Ibn_Tamim a jp:HistoricalPerson ;
+    rdfs:label "Dunash Ibn Tamim"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eleazar_ben_Judah_of_Worms a jp:HistoricalPerson ;
+    rdfs:label "Eleazar ben Judah of Worms"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eliezer_Ashkenazi a jp:HistoricalPerson ;
+    rdfs:label "Eliezer Ashkenazi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eliezer_Eilburg a jp:HistoricalPerson ;
+    rdfs:label "Eliezer Eilburg"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Elijah_Bashyatchi a jp:HistoricalPerson ;
+    rdfs:label "Elijah Bashyatchi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Elijah_de_Vidas a jp:HistoricalPerson ;
+    rdfs:label "Elijah de Vidas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ephraim_ben_Israel_Al_Nakawa a jp:HistoricalPerson ;
+    rdfs:label "Ephraim ben Israel Al-Nakawa"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eugene_Borowitz a jp:HistoricalPerson ;
+    rdfs:label "Eugene Borowitz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_G_nther_Anders a jp:HistoricalPerson ;
+    rdfs:label "Günther Anders"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gershon_ben_Shlomo_of_Arles a jp:HistoricalPerson ;
+    rdfs:label "Gershon ben Shlomo of Arles"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hans_Kohn a jp:HistoricalPerson ;
+    rdfs:label "Hans Kohn"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hasdai_Crescas a jp:HistoricalPerson ;
+    rdfs:label "Hasdai Crescas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hayim_Howard_Kreisel a jp:HistoricalPerson ;
+    rdfs:label "Hayim (Howard) Kreisel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Heinrich_Graetz a jp:HistoricalPerson ;
+    rdfs:label "Heinrich Graetz"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hermann_Steinthal a jp:HistoricalPerson ;
+    rdfs:label "Hermann Steinthal"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hillel_ben_Samuel_of_Verona a jp:HistoricalPerson ;
+    rdfs:label "Hillel ben Samuel of Verona"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ibn_Kammuna_Sa_d_ibn_Mansur a jp:HistoricalPerson ;
+    rdfs:label "Ibn Kammuna (Sa'd ibn Mansur)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Immanuel_of_Rome a jp:HistoricalPerson ;
+    rdfs:label "Immanuel of Rome"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Aboab_I a jp:HistoricalPerson ;
+    rdfs:label "Isaac Aboab I"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Albalag a jp:HistoricalPerson ;
+    rdfs:label "Isaac Albalag"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Polqar a jp:HistoricalPerson ;
+    rdfs:label "Isaac Polqar"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_bar_Sheshet_Rivash a jp:HistoricalPerson ;
+    rdfs:label "Isaac bar Sheshet (Rivash)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ben_Moses_Arama a jp:HistoricalPerson ;
+    rdfs:label "Isaac ben Moses Arama"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaiah_Horowitz_Shelah a jp:HistoricalPerson ;
+    rdfs:label "Isaiah Horowitz (Shelah)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Israel_ben_Eliezer_Baal_Shem_Tov a jp:HistoricalPerson ;
+    rdfs:label "Israel ben Eliezer (Baal Shem Tov)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_Anatoli a jp:HistoricalPerson ;
+    rdfs:label "Jacob Anatoli"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_al_Qirqisani a jp:HistoricalPerson ;
+    rdfs:label "Jacob al-Qirqisani"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_ben_Sheshet a jp:HistoricalPerson ;
+    rdfs:label "Jacob ben Sheshet"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jedaiah_ha_Penini_Bedersi a jp:HistoricalPerson ;
+    rdfs:label "Jedaiah ha-Penini (Bedersi)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Albo a jp:HistoricalPerson ;
+    rdfs:label "Joseph Albo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Ibn_Tzaddik a jp:HistoricalPerson ;
+    rdfs:label "Joseph Ibn Tzaddik"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Abravanel_Leone_Ebreo a jp:HistoricalPerson ;
+    rdfs:label "Judah Abravanel (Leone Ebreo)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Hadassi a jp:HistoricalPerson ;
+    rdfs:label "Judah Hadassi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Messer_Leon a jp:HistoricalPerson ;
+    rdfs:label "Judah Messer Leon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Moscato a jp:HistoricalPerson ;
+    rdfs:label "Judah Moscato"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_ben_Jacob_Hayyat a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Jacob Hayyat"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_ben_Moses_Albotini a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Moses Albotini"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_ben_Saul_Ibn_Tibbon a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Saul Ibn Tibbon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew_translator_from_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_ben_Solomon_ha_Kohen_Ibn_Matkah a jp:HistoricalPerson ;
+    rdfs:label "Judah ben Solomon ha-Kohen (Ibn Matkah)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_he_Hasid_Judah_the_Pious a jp:HistoricalPerson ;
+    rdfs:label "Judah he-Hasid (Judah the Pious)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Julien_Benda a jp:HistoricalPerson ;
+    rdfs:label "Julien Benda"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Julius_Guttmann a jp:HistoricalPerson ;
+    rdfs:label "Julius Guttmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lawrence_Blum a jp:HistoricalPerson ;
+    rdfs:label "Lawrence Blum"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leo_Baeck a jp:HistoricalPerson ;
+    rdfs:label "Leo Baeck"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leon_Pinsker a jp:HistoricalPerson ;
+    rdfs:label "Leon Pinsker"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Russian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Levi_Yitzhak_of_Berditchev a jp:HistoricalPerson ;
+    rdfs:label "Levi Yitzhak of Berditchev"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Levi_ben_Abraham_of_Villefranche a jp:HistoricalPerson ;
+    rdfs:label "Levi ben Abraham of Villefranche"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Louis_Gabriel_Ambroise_de_Bonald a jp:HistoricalPerson ;
+    rdfs:label "Louis-Gabriel-Ambroise de Bonald"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Marilyn_Friedman a jp:HistoricalPerson ;
+    rdfs:label "Marilyn Friedman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Meir_Aldabi a jp:HistoricalPerson ;
+    rdfs:label "Meir Aldabi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menachem_Fisch a jp:HistoricalPerson ;
+    rdfs:label "Menachem Fisch"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menachem_Lorberbaum a jp:HistoricalPerson ;
+    rdfs:label "Menachem Lorberbaum"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Michael_Wyschogrod a jp:HistoricalPerson ;
+    rdfs:label "Michael Wyschogrod"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moritz_Lazarus a jp:HistoricalPerson ;
+    rdfs:label "Moritz Lazarus"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Hess a jp:HistoricalPerson ;
+    rdfs:label "Moses Hess"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_de_Leon a jp:HistoricalPerson ;
+    rdfs:label "Moses de Leon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moshe_Alfalas a jp:HistoricalPerson ;
+    rdfs:label "Moshe Alfalas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nachman_Krochmal a jp:HistoricalPerson ;
+    rdfs:label "Nachman Krochmal"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nathanel_al_Fayyumi a jp:HistoricalPerson ;
+    rdfs:label "Nathanel al-Fayyumi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nethanel_ben_Yesha_ya a jp:HistoricalPerson ;
+    rdfs:label "Nethanel ben Yesha'ya"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nissim_ben_Moses_of_Marseilles a jp:HistoricalPerson ;
+    rdfs:label "Nissim ben Moses of Marseilles"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nissim_ben_Reuben_Gerondi_Ran a jp:HistoricalPerson ;
+    rdfs:label "Nissim ben Reuben Gerondi (Ran)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Pablo_de_Santa_Maria_Shlomo_Halevi a jp:HistoricalPerson ;
+    rdfs:label "Pablo de Santa Maria (Shlomo Halevi)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Castilian,
+        jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Franks a jp:HistoricalPerson ;
+    rdfs:label "Paul Franks"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Mendes_Flohr a jp:HistoricalPerson ;
+    rdfs:label "Paul Mendes-Flohr"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rachel_Adler a jp:HistoricalPerson ;
+    rdfs:label "Rachel Adler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rachel_Bespaloff a jp:HistoricalPerson ;
+    rdfs:label "Rachel Bespaloff"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Roger_Bacon a jp:HistoricalPerson ;
+    rdfs:label "Roger Bacon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rua_en_anonymous a jp:HistoricalPerson ;
+    rdfs:label "Ruaḥ Ḥen (anonymous)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Salo_Baron a jp:HistoricalPerson ;
+    rdfs:label "Salo Baron"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Salomon_Formstecher a jp:HistoricalPerson ;
+    rdfs:label "Salomon Formstecher"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_Alexander a jp:HistoricalPerson ;
+    rdfs:label "Samuel Alexander"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_Archivolti a jp:HistoricalPerson ;
+    rdfs:label "Samuel Archivolti"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_Hirsch a jp:HistoricalPerson ;
+    rdfs:label "Samuel Hirsch"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_ibn_Seneh_Zarza a jp:HistoricalPerson ;
+    rdfs:label "Samuel ibn Seneh Zarza"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shabbetai_Donnolo a jp:HistoricalPerson ;
+    rdfs:label "Shabbetai Donnolo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shem_Tov_ben_Isaac_ibn_Shaprut a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ben Isaac ibn Shaprut"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shem_Tov_ibn_Shem_Tov a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov ibn Shem Tov"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Ludwig_Steinheim a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ludwig Steinheim"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Tamar_Gendler a jp:HistoricalPerson ;
+    rdfs:label "Tamar Gendler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Tamar_Ross a jp:HistoricalPerson ;
+    rdfs:label "Tamar Ross"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Theodor_Gomperz a jp:HistoricalPerson ;
+    rdfs:label "Theodor Gomperz"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehiel_Nissim_da_Pisa a jp:HistoricalPerson ;
+    rdfs:label "Yehiel Nissim da Pisa"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yehudah_ben_Nisim_Ibn_Malka a jp:HistoricalPerson ;
+    rdfs:label "Yehudah ben Nisim Ibn Malka"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yom_Tov_Lipmann_Heller a jp:HistoricalPerson ;
+    rdfs:label "Yom Tov Lipmann Heller"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yom_Tov_Lipmann_Muhlhausen a jp:HistoricalPerson ;
+    rdfs:label "Yom-Tov Lipmann Muhlhausen"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Zacharias_Frankel a jp:HistoricalPerson ;
+    rdfs:label "Zacharias Frankel"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Zechariah_ben_Solomon_ha_Rofe a jp:HistoricalPerson ;
+    rdfs:label "Zechariah ben Solomon ha-Rofe"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_lie_Hal_vy a jp:HistoricalPerson ;
+    rdfs:label "Élie Halévy"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Language_Castilian a jp:Language ;
+    rdfs:label "Castilian"^^xsd:string .
+
+jp:Language_Dutch a jp:Language ;
+    rdfs:label "Dutch"^^xsd:string .
+
+jp:Language_Hungarian a jp:Language ;
+    rdfs:label "Hungarian"^^xsd:string .
+
+jp:Person_Abner_of_Burgos a jp:HistoricalPerson ;
+    rdfs:label "Abner of Burgos"^^xsd:string ;
+    jp:hasLanguage jp:Language_Castilian,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Cohen_de_Herrera a jp:HistoricalPerson ;
+    rdfs:label "Abraham Cohen de Herrera"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Geiger a jp:HistoricalPerson ;
+    rdfs:label "Abraham Geiger"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Ibn_Daud a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Daud"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_bar_Hiyya a jp:HistoricalPerson ;
+    rdfs:label "Abraham bar Hiyya"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_ben_David_of_Posqui_res_Rabad_III a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben David of Posquières (Rabad III)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_ben_Elijah_Gaon_of_Vilna a jp:HistoricalPerson ;
+    rdfs:label "Abraham ben Elijah (Gaon of Vilna)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Aharon_Lichtenstein a jp:HistoricalPerson ;
+    rdfs:label "Aharon Lichtenstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Al_Farabi_Abu_Nasr_Mohammed a jp:HistoricalPerson ;
+    rdfs:label "Al-Farabi (Abu Nasr Mohammed)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alain_Finkielkraut a jp:HistoricalPerson ;
+    rdfs:label "Alain Finkielkraut"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Albertus_Magnus a jp:HistoricalPerson ;
+    rdfs:label "Albertus Magnus"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alexander_Altmann a jp:HistoricalPerson ;
+    rdfs:label "Alexander Altmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alfred_Jules_Ayer a jp:HistoricalPerson ;
+    rdfs:label "Alfred Jules Ayer"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Alfred_Sch_tz a jp:HistoricalPerson ;
+    rdfs:label "Alfred Schütz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Amos_Funkenstein a jp:HistoricalPerson ;
+    rdfs:label "Amos Funkenstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Andr_Glucksmann a jp:HistoricalPerson ;
+    rdfs:label "André Glucksmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Andr_Gorz a jp:HistoricalPerson ;
+    rdfs:label "André Gorz"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Arthur_Danto a jp:HistoricalPerson ;
+    rdfs:label "Arthur Danto"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Averroes_Ibn_Rushd a jp:HistoricalPerson ;
+    rdfs:label "Averroes (Ibn Rushd)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Avicenna_Ibn_Sina a jp:HistoricalPerson ;
+    rdfs:label "Avicenna (Ibn Sina)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic,
+        jp:Language_Persian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Azriel_of_Gerona a jp:HistoricalPerson ;
+    rdfs:label "Azriel of Gerona"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Berechiah_ben_Natronai_ha_Nakdan a jp:HistoricalPerson ;
+    rdfs:label "Berechiah ben Natronai ha-Nakdan"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Berlinski a jp:HistoricalPerson ;
+    rdfs:label "David Berlinski"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Gans a jp:HistoricalPerson ;
+    rdfs:label "David Gans"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Hartman a jp:HistoricalPerson ;
+    rdfs:label "David Hartman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Kaplan a jp:HistoricalPerson ;
+    rdfs:label "David Kaplan"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Novak a jp:HistoricalPerson ;
+    rdfs:label "David Novak"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Denis_Diderot a jp:HistoricalPerson ;
+    rdfs:label "Denis Diderot"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Donniel_Hartman a jp:HistoricalPerson ;
+    rdfs:label "Donniel Hartman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Douglas_Hofstadter a jp:HistoricalPerson ;
+    rdfs:label "Douglas Hofstadter"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Dov_Ber_of_Mezeritch_the_Maggid a jp:HistoricalPerson ;
+    rdfs:label "Dov Ber of Mezeritch (the Maggid)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Edith_Stein a jp:HistoricalPerson ;
+    rdfs:label "Edith Stein"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Edith_Wyschogrod a jp:HistoricalPerson ;
+    rdfs:label "Edith Wyschogrod"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Elia_del_Medigo a jp:HistoricalPerson ;
+    rdfs:label "Elia del Medigo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Elias_Levita a jp:HistoricalPerson ;
+    rdfs:label "Elias Levita"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Eliezer_Berkovits a jp:HistoricalPerson ;
+    rdfs:label "Eliezer Berkovits"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Emma_Goldman a jp:HistoricalPerson ;
+    rdfs:label "Emma Goldman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ernest_Gellner a jp:HistoricalPerson ;
+    rdfs:label "Ernest Gellner"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ernst_Bloch a jp:HistoricalPerson ;
+    rdfs:label "Ernst Bloch"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Franz_Brentano a jp:HistoricalPerson ;
+    rdfs:label "Franz Brentano"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Franz_Rosenzweig a jp:HistoricalPerson ;
+    rdfs:label "Franz Rosenzweig"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Galen_Claudius_Galenus a jp:HistoricalPerson ;
+    rdfs:label "Galen (Claudius Galenus)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Greek ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gerald_Cohen a jp:HistoricalPerson ;
+    rdfs:label "Gerald Cohen"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gillian_Rose a jp:HistoricalPerson ;
+    rdfs:label "Gillian Rose"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gregory_Bar_Hebraeus a jp:HistoricalPerson ;
+    rdfs:label "Gregory Bar Hebraeus"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic,
+        jp:Language_Syriac ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_H_l_ne_Cixous a jp:HistoricalPerson ;
+    rdfs:label "Hélène Cixous"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hai_Gaon a jp:HistoricalPerson ;
+    rdfs:label "Hai Gaon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic,
+        jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hans_Jonas a jp:HistoricalPerson ;
+    rdfs:label "Hans Jonas"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hans_Reichenbach a jp:HistoricalPerson ;
+    rdfs:label "Hans Reichenbach"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Henri_Atlan a jp:HistoricalPerson ;
+    rdfs:label "Henri Atlan"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Herbert_Hart a jp:HistoricalPerson ;
+    rdfs:label "Herbert Hart"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hermann_Cohen a jp:HistoricalPerson ;
+    rdfs:label "Hermann Cohen"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Cardoso a jp:HistoricalPerson ;
+    rdfs:label "Isaac Cardoso"^^xsd:string ;
+    jp:hasLanguage jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Israeli_ben_Solomon a jp:HistoricalPerson ;
+    rdfs:label "Isaac Israeli ben Solomon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Luria_the_Ari a jp:HistoricalPerson ;
+    rdfs:label "Isaac Luria (the Ari)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Orobio_de_Castro a jp:HistoricalPerson ;
+    rdfs:label "Isaac Orobio de Castro"^^xsd:string ;
+    jp:hasLanguage jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_ibn_Latif a jp:HistoricalPerson ;
+    rdfs:label "Isaac ibn Latif"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_the_Blind_Sagi_Nahor a jp:HistoricalPerson ;
+    rdfs:label "Isaac the Blind (Sagi-Nahor)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_J_rgen_Habermas a jp:HistoricalPerson ;
+    rdfs:label "Jürgen Habermas"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jean_Am_ry a jp:HistoricalPerson ;
+    rdfs:label "Jean Améry"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jedaiah_ben_Abraham_Bedersi_ha_Penini a jp:HistoricalPerson ;
+    rdfs:label "Jedaiah ben Abraham Bedersi (ha-Penini)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jerry_Fodor a jp:HistoricalPerson ;
+    rdfs:label "Jerry Fodor"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joel_Feinberg a jp:HistoricalPerson ;
+    rdfs:label "Joel Feinberg"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jonathan_Israel a jp:HistoricalPerson ;
+    rdfs:label "Jonathan Israel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Josef_Kimchi a jp:HistoricalPerson ;
+    rdfs:label "Josef Kimchi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Josef_Stern a jp:HistoricalPerson ;
+    rdfs:label "Josef Stern"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Gikatilla a jp:HistoricalPerson ;
+    rdfs:label "Joseph Gikatilla"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Solomon_Delmedigo a jp:HistoricalPerson ;
+    rdfs:label "Joseph Solomon Delmedigo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_al_Basir a jp:HistoricalPerson ;
+    rdfs:label "Joseph al-Basir"^^xsd:string ;
+    jp:hasLanguage jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_ibn_Migash a jp:HistoricalPerson ;
+    rdfs:label "Joseph ibn Migash"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Halevi a jp:HistoricalPerson ;
+    rdfs:label "Judah Halevi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Kalonymus_Kalmish_Shapira_Piaseczno_Rebbe a jp:HistoricalPerson ;
+    rdfs:label "Kalonymus Kalmish Shapira (Piaseczno Rebbe)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Kalonymus_ben_Kalonymus a jp:HistoricalPerson ;
+    rdfs:label "Kalonymus ben Kalonymus"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Karl_L_with a jp:HistoricalPerson ;
+    rdfs:label "Karl Löwith"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Karl_Mannheim a jp:HistoricalPerson ;
+    rdfs:label "Karl Mannheim"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Karl_Popper a jp:HistoricalPerson ;
+    rdfs:label "Karl Popper"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leon_Roth a jp:HistoricalPerson ;
+    rdfs:label "Leon Roth"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leone_Modena a jp:HistoricalPerson ;
+    rdfs:label "Leone Modena"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leora_Batnitzky a jp:HistoricalPerson ;
+    rdfs:label "Leora Batnitzky"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lev_Shestov a jp:HistoricalPerson ;
+    rdfs:label "Lev Shestov"^^xsd:string ;
+    jp:hasLanguage jp:Language_French,
+        jp:Language_Russian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lewis_Gordon a jp:HistoricalPerson ;
+    rdfs:label "Lewis Gordon"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Louis_Jacobs a jp:HistoricalPerson ;
+    rdfs:label "Louis Jacobs"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lucien_Goldmann a jp:HistoricalPerson ;
+    rdfs:label "Lucien Goldmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Lucien_L_vy_Bruhl a jp:HistoricalPerson ;
+    rdfs:label "Lucien Lévy-Bruhl"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Max_Black a jp:HistoricalPerson ;
+    rdfs:label "Max Black"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Max_Horkheimer a jp:HistoricalPerson ;
+    rdfs:label "Max Horkheimer"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Max_Nordau a jp:HistoricalPerson ;
+    rdfs:label "Max Nordau"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Max_Scheler a jp:HistoricalPerson ;
+    rdfs:label "Max Scheler"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Meir_ibn_Gabbai a jp:HistoricalPerson ;
+    rdfs:label "Meir ibn Gabbai"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menachem_Kellner a jp:HistoricalPerson ;
+    rdfs:label "Menachem Kellner"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Michael_Polanyi a jp:HistoricalPerson ;
+    rdfs:label "Michael Polanyi"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hungarian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Michael_Walzer a jp:HistoricalPerson ;
+    rdfs:label "Michael Walzer"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mordecai_Kaplan a jp:HistoricalPerson ;
+    rdfs:label "Mordecai Kaplan"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Morris_Raphael_Cohen a jp:HistoricalPerson ;
+    rdfs:label "Morris Raphael Cohen"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Mortimer_J_Adler a jp:HistoricalPerson ;
+    rdfs:label "Mortimer J. Adler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Ibn_Ezra a jp:HistoricalPerson ;
+    rdfs:label "Moses Ibn Ezra"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Isserles_ReMA a jp:HistoricalPerson ;
+    rdfs:label "Moses Isserles (ReMA)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_ben_Baruch_Almosnino a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Baruch Almosnino"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_ben_Joshua_of_Narbonne a jp:HistoricalPerson ;
+    rdfs:label "Moses ben Joshua of Narbonne"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moshe_Idel a jp:HistoricalPerson ;
+    rdfs:label "Moshe Idel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Murray_Bookchin a jp:HistoricalPerson ;
+    rdfs:label "Murray Bookchin"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nachman_of_Breslov a jp:HistoricalPerson ;
+    rdfs:label "Nachman of Breslov"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nathan_of_Gaza a jp:HistoricalPerson ;
+    rdfs:label "Nathan of Gaza"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nicholas_of_Cusa a jp:HistoricalPerson ;
+    rdfs:label "Nicholas of Cusa"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Norbert_Wiener a jp:HistoricalPerson ;
+    rdfs:label "Norbert Wiener"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Norman_Lamm a jp:HistoricalPerson ;
+    rdfs:label "Norman Lamm"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ovadiah_Sforno a jp:HistoricalPerson ;
+    rdfs:label "Ovadiah Sforno"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Benacerraf a jp:HistoricalPerson ;
+    rdfs:label "Paul Benacerraf"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Peter_Achinstein a jp:HistoricalPerson ;
+    rdfs:label "Peter Achinstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Petrus_Alfonsi a jp:HistoricalPerson ;
+    rdfs:label "Petrus Alfonsi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Profiat_Duran_Efodi a jp:HistoricalPerson ;
+    rdfs:label "Profiat Duran (Efodi)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Raya_Dunayevskaya a jp:HistoricalPerson ;
+    rdfs:label "Raya Dunayevskaya"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Raymond_Aron a jp:HistoricalPerson ;
+    rdfs:label "Raymond Aron"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rebecca_Goldstein a jp:HistoricalPerson ;
+    rdfs:label "Rebecca Goldstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Richard_J_Bernstein a jp:HistoricalPerson ;
+    rdfs:label "Richard J. Bernstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Richard_Rorty a jp:HistoricalPerson ;
+    rdfs:label "Richard Rorty"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Rudolf_Carnap a jp:HistoricalPerson ;
+    rdfs:label "Rudolf Carnap"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_Ibn_Tibbon a jp:HistoricalPerson ;
+    rdfs:label "Samuel Ibn Tibbon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samuel_Scheffler a jp:HistoricalPerson ;
+    rdfs:label "Samuel Scheffler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sarah_Kofman a jp:HistoricalPerson ;
+    rdfs:label "Sarah Kofman"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Saul_Ascher a jp:HistoricalPerson ;
+    rdfs:label "Saul Ascher"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Saul_Kripke a jp:HistoricalPerson ;
+    rdfs:label "Saul Kripke"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Semyon_Frank a jp:HistoricalPerson ;
+    rdfs:label "Semyon Frank"^^xsd:string ;
+    jp:hasLanguage jp:Language_Russian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Seth_Benardete a jp:HistoricalPerson ;
+    rdfs:label "Seth Benardete"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Seyla_Benhabib a jp:HistoricalPerson ;
+    rdfs:label "Seyla Benhabib"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Turkish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shimon_ben_Zemah_Duran a jp:HistoricalPerson ;
+    rdfs:label "Shimon ben Zemah Duran"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shlomo_Pines a jp:HistoricalPerson ;
+    rdfs:label "Shlomo Pines"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_French,
+        jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shoshana_Felman a jp:HistoricalPerson ;
+    rdfs:label "Shoshana Felman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sidney_Hook a jp:HistoricalPerson ;
+    rdfs:label "Sidney Hook"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Simon_Dubnow a jp:HistoricalPerson ;
+    rdfs:label "Simon Dubnow"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Russian,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Simone_Luzzatto a jp:HistoricalPerson ;
+    rdfs:label "Simone Luzzatto"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Italian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Ibn_Gabirol a jp:HistoricalPerson ;
+    rdfs:label "Solomon Ibn Gabirol"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew_philosophical_work_in_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_Maimon a jp:HistoricalPerson ;
+    rdfs:label "Solomon Maimon"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Solomon_ibn_Adret_Rashba a jp:HistoricalPerson ;
+    rdfs:label "Solomon ibn Adret (Rashba)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Stanley_Cavell a jp:HistoricalPerson ;
+    rdfs:label "Stanley Cavell"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Steven_Katz a jp:HistoricalPerson ;
+    rdfs:label "Steven Katz"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Susan_Bordo a jp:HistoricalPerson ;
+    rdfs:label "Susan Bordo"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Susan_Neiman a jp:HistoricalPerson ;
+    rdfs:label "Susan Neiman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Tan_um_ha_Yerushalmi a jp:HistoricalPerson ;
+    rdfs:label "Tanḥum ha-Yerushalmi"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Thomas_Nagel a jp:HistoricalPerson ;
+    rdfs:label "Thomas Nagel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Uriel_da_Costa a jp:HistoricalPerson ;
+    rdfs:label "Uriel da Costa"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin,
+        jp:Language_Portuguese ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Walter_Kaufmann a jp:HistoricalPerson ;
+    rdfs:label "Walter Kaufmann"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Wilfrid_Sellars a jp:HistoricalPerson ;
+    rdfs:label "Wilfrid Sellars"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Wilhelm_Dilthey a jp:HistoricalPerson ;
+    rdfs:label "Wilhelm Dilthey"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Will_Herberg a jp:HistoricalPerson ;
+    rdfs:label "Will Herberg"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yeshayahu_Leibowitz a jp:HistoricalPerson ;
+    rdfs:label "Yeshayahu Leibowitz"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yirmiahu_Yovel a jp:HistoricalPerson ;
+    rdfs:label "Yirmiahu Yovel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Yohanan_Alemanno a jp:HistoricalPerson ;
+    rdfs:label "Yohanan Alemanno"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_gnes_Heller a jp:HistoricalPerson ;
+    rdfs:label "Ágnes Heller"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hungarian ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Language_Portuguese a jp:Language ;
+    rdfs:label "Portuguese"^^xsd:string .
+
+jp:Person_Abraham_Abulafia a jp:HistoricalPerson ;
+    rdfs:label "Abraham Abulafia"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Ibn_Ezra a jp:HistoricalPerson ;
+    rdfs:label "Abraham Ibn Ezra"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Isaac_Kook_Rav_Kook a jp:HistoricalPerson ;
+    rdfs:label "Abraham Isaac Kook (Rav Kook)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Avishai_Margalit a jp:HistoricalPerson ;
+    rdfs:label "Avishai Margalit"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_David_Lewis a jp:HistoricalPerson ;
+    rdfs:label "David Lewis"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Emil_Fackenheim a jp:HistoricalPerson ;
+    rdfs:label "Emil Fackenheim"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Emmanuel_Levinas a jp:HistoricalPerson ;
+    rdfs:label "Emmanuel Levinas"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Erich_Fromm a jp:HistoricalPerson ;
+    rdfs:label "Erich Fromm"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ernst_Cassirer a jp:HistoricalPerson ;
+    rdfs:label "Ernst Cassirer"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Georg_Simmel a jp:HistoricalPerson ;
+    rdfs:label "Georg Simmel"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Georg_Wilhelm_Friedrich_Hegel a jp:HistoricalPerson ;
+    rdfs:label "Georg Wilhelm Friedrich Hegel"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Gershom_Scholem a jp:HistoricalPerson ;
+    rdfs:label "Gershom Scholem"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hannah_Arendt a jp:HistoricalPerson ;
+    rdfs:label "Hannah Arendt"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Harry_Wolfson a jp:HistoricalPerson ;
+    rdfs:label "Harry Wolfson"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hayyim_Vital a jp:HistoricalPerson ;
+    rdfs:label "Hayyim Vital"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Herbert_Marcuse a jp:HistoricalPerson ;
+    rdfs:label "Herbert Marcuse"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Hilary_Putnam a jp:HistoricalPerson ;
+    rdfs:label "Hilary Putnam"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaac_Abravanel a jp:HistoricalPerson ;
+    rdfs:label "Isaac Abravanel"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Isaiah_Berlin a jp:HistoricalPerson ;
+    rdfs:label "Isaiah Berlin"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacob_Emden_Ya_avetz a jp:HistoricalPerson ;
+    rdfs:label "Jacob Emden (Ya'avetz)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Jacques_Derrida a jp:HistoricalPerson ;
+    rdfs:label "Jacques Derrida"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_B_Soloveitchik_the_Rav a jp:HistoricalPerson ;
+    rdfs:label "Joseph B. Soloveitchik (the Rav)"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Caspi_Ibn_Kaspi a jp:HistoricalPerson ;
+    rdfs:label "Joseph Caspi (Ibn Kaspi)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Joseph_Karo a jp:HistoricalPerson ;
+    rdfs:label "Joseph Karo"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Josephus_Flavius a jp:HistoricalPerson ;
+    rdfs:label "Josephus Flavius"^^xsd:string ;
+    jp:hasLanguage jp:Language_Aramaic,
+        jp:Language_Greek ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judith_Butler a jp:HistoricalPerson ;
+    rdfs:label "Judith Butler"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Leo_Strauss a jp:HistoricalPerson ;
+    rdfs:label "Leo Strauss"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Levi_ben_Gershom_Gersonides a jp:HistoricalPerson ;
+    rdfs:label "Levi ben Gershom (Gersonides)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ludwig_Wittgenstein a jp:HistoricalPerson ;
+    rdfs:label "Ludwig Wittgenstein"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Martin_Buber a jp:HistoricalPerson ;
+    rdfs:label "Martin Buber"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Menasseh_ben_Israel a jp:HistoricalPerson ;
+    rdfs:label "Menasseh ben Israel"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Portuguese,
+        jp:Language_Spanish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Cordovero_Ramak a jp:HistoricalPerson ;
+    rdfs:label "Moses Cordovero (Ramak)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Mendelssohn a jp:HistoricalPerson ;
+    rdfs:label "Moses Mendelssohn"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moshe_Chaim_Luzzatto_Ramchal a jp:HistoricalPerson ;
+    rdfs:label "Moshe Chaim Luzzatto (Ramchal)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moshe_Halbertal a jp:HistoricalPerson ;
+    rdfs:label "Moshe Halbertal"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nachmanides_Moses_ben_Nahman a jp:HistoricalPerson ;
+    rdfs:label "Nachmanides (Moses ben Nahman)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Nelson_Goodman a jp:HistoricalPerson ;
+    rdfs:label "Nelson Goodman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Noam_Chomsky a jp:HistoricalPerson ;
+    rdfs:label "Noam Chomsky"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Paul_Ricoeur a jp:HistoricalPerson ;
+    rdfs:label "Paul Ricoeur"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Peter_Abelard a jp:HistoricalPerson ;
+    rdfs:label "Peter Abelard"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Pico_della_Mirandola a jp:HistoricalPerson ;
+    rdfs:label "Pico della Mirandola"^^xsd:string ;
+    jp:hasLanguage jp:Language_Italian,
+        jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Ronald_Dworkin a jp:HistoricalPerson ;
+    rdfs:label "Ronald Dworkin"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Saadia_Gaon a jp:HistoricalPerson ;
+    rdfs:label "Saadia Gaon"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sam_Harris a jp:HistoricalPerson ;
+    rdfs:label "Sam Harris"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Samson_Raphael_Hirsch a jp:HistoricalPerson ;
+    rdfs:label "Samson Raphael Hirsch"^^xsd:string ;
+    jp:hasLanguage jp:Language_German,
+        jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Schneur_Zalman_of_Liadi_Alter_Rebbe a jp:HistoricalPerson ;
+    rdfs:label "Schneur Zalman of Liadi (Alter Rebbe)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Shem_Tov_Ibn_Falaquera a jp:HistoricalPerson ;
+    rdfs:label "Shem Tov Ibn Falaquera"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Sigmund_Freud a jp:HistoricalPerson ;
+    rdfs:label "Sigmund Freud"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Simone_Weil a jp:HistoricalPerson ;
+    rdfs:label "Simone Weil"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Thomas_Aquinas a jp:HistoricalPerson ;
+    rdfs:label "Thomas Aquinas"^^xsd:string ;
+    jp:hasLanguage jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Walter_Benjamin a jp:HistoricalPerson ;
+    rdfs:label "Walter Benjamin"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Willard_Van_Orman_Quine a jp:HistoricalPerson ;
+    rdfs:label "Willard Van Orman Quine"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Zygmunt_Bauman a jp:HistoricalPerson ;
+    rdfs:label "Zygmunt Bauman"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Polish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_al_Ghazali a jp:HistoricalPerson ;
+    rdfs:label "al-Ghazali"^^xsd:string ;
+    jp:hasLanguage jp:Language_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_mile_Durkheim a jp:HistoricalPerson ;
+    rdfs:label "Émile Durkheim"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Abraham_Joshua_Heschel a jp:HistoricalPerson ;
+    rdfs:label "Abraham Joshua Heschel"^^xsd:string ;
+    jp:hasLanguage jp:Language_English,
+        jp:Language_Hebrew,
+        jp:Language_Yiddish ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Baruch_Spinoza a jp:HistoricalPerson ;
+    rdfs:label "Baruch Spinoza"^^xsd:string ;
+    jp:hasLanguage jp:Language_Dutch,
+        jp:Language_Latin ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Edmund_Husserl a jp:HistoricalPerson ;
+    rdfs:label "Edmund Husserl"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Henri_Bergson a jp:HistoricalPerson ;
+    rdfs:label "Henri Bergson"^^xsd:string ;
+    jp:hasLanguage jp:Language_French ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Judah_Loew_ben_Bezalel_Maharal a jp:HistoricalPerson ;
+    rdfs:label "Judah Loew ben Bezalel (Maharal)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Martha_Nussbaum a jp:HistoricalPerson ;
+    rdfs:label "Martha Nussbaum"^^xsd:string ;
+    jp:hasLanguage jp:Language_English ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Moses_Maimonides_Rambam a jp:HistoricalPerson ;
+    rdfs:label "Moses Maimonides (Rambam)"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew,
+        jp:Language_Judeo_Arabic ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Philo_of_Alexandria a jp:HistoricalPerson ;
+    rdfs:label "Philo of Alexandria"^^xsd:string ;
+    jp:hasLanguage jp:Language_Greek ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Person_Theodor_W_Adorno a jp:HistoricalPerson ;
+    rdfs:label "Theodor W. Adorno"^^xsd:string ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSource jp:Source_General_List .
+
+jp:Language_Greek a jp:Language ;
+    rdfs:label "Greek"^^xsd:string .
+
+jp:Language_Aramaic a jp:Language ;
+    rdfs:label "Aramaic"^^xsd:string .
+
+jp:Language_Russian a jp:Language ;
+    rdfs:label "Russian"^^xsd:string .
+
+jp:Language_Spanish a jp:Language ;
+    rdfs:label "Spanish"^^xsd:string .
+
+jp:Language_Arabic a jp:Language ;
+    rdfs:label "Arabic"^^xsd:string .
+
+jp:Language_Latin a jp:Language ;
+    rdfs:label "Latin"^^xsd:string .
+
+jp:Language_Yiddish a jp:Language ;
+    rdfs:label "Yiddish"^^xsd:string .
+
+jp:Language_Italian a jp:Language ;
+    rdfs:label "Italian"^^xsd:string .
+
+jp:Language_Judeo_Arabic a jp:Language ;
+    rdfs:label "Judeo-Arabic"^^xsd:string .
+
+jp:Language_French a jp:Language ;
+    rdfs:label "French"^^xsd:string .
+
+jp:Language_German a jp:Language ;
+    rdfs:label "German"^^xsd:string .
+
+jp:Language_English a jp:Language ;
+    rdfs:label "English"^^xsd:string .
+
+jp:Language_Hebrew a jp:Language ;
+    rdfs:label "Hebrew"^^xsd:string .
+
+jp:Source_General_List a jp:Source ;
+    rdfs:label "General List"^^xsd:string .
+

@@ -7,11 +7,11 @@ from app.schemas.place import PlaceList, PlaceDetail
 router = APIRouter()
 
 @router.get("/", response_model=List[PlaceList])
-async def list_places_json(source: Optional[str] = Query(None, description="Filter by data source ID")):
+async def list_places_json():
     """
     Get a list of all places.
     """
-    return entity_service.list_places(source=source)
+    return entity_service.list_places()
 
 @router.get("/{place_id}", response_model=PlaceDetail)
 async def get_place_detail_json(place_id: str):

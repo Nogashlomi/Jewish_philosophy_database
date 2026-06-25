@@ -7,11 +7,11 @@ from app.schemas.language import LanguageList, LanguageDetail
 router = APIRouter()
 
 @router.get("/", response_model=List[LanguageList])
-async def list_languages_json(source: Optional[str] = Query(None, description="Filter by data source ID")):
+async def list_languages_json():
     """
     Get a list of all languages.
     """
-    return entity_service.list_languages(source=source)
+    return entity_service.list_languages()
 
 @router.get("/{lang_id}", response_model=LanguageDetail)
 async def get_language_detail_json(lang_id: str):

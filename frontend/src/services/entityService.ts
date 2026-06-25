@@ -1,40 +1,29 @@
 import api from './api'
-import type { PersonList, WorkList, PlaceList, SubjectList, LanguageList, ScholarlyList, PersonDetail, PaginatedResponse } from '../types/entity'
+import type { PersonList, WorkList, PlaceList, SubjectList, LanguageList, PersonDetail, PaginatedResponse } from '../types/entity'
 
 export const entityService = {
-    getPersons: async (source?: string, page: number = 1, page_size: number = 100) => {
-        const params: Record<string, any> = { page, page_size }
-        if (source) params.source = source
-        const response = await api.get<PaginatedResponse<PersonList>>('/persons/', { params })
+    getPersons: async (page: number = 1, page_size: number = 100, source?: string) => {
+        const url = source ? `/persons/?page=${page}&page_size=${page_size}&source=${source}` : `/persons/?page=${page}&page_size=${page_size}`
+        const response = await api.get<PaginatedResponse<PersonList>>(url)
         return response.data
     },
-    getWorks: async (source?: string, page: number = 1, page_size: number = 100) => {
-        const params: Record<string, any> = { page, page_size }
-        if (source) params.source = source
-        const response = await api.get<PaginatedResponse<WorkList>>('/works/', { params })
+    getWorks: async (page: number = 1, page_size: number = 100) => {
+        const response = await api.get<PaginatedResponse<WorkList>>(`/works/?page=${page}&page_size=${page_size}`)
         return response.data
     },
-    getPlaces: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<PlaceList[]>('/places/', { params })
+    getPlaces: async () => {
+                const response = await api.get<PlaceList[]>('/places/')
         return response.data
     },
-    getSubjects: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<SubjectList[]>('/subjects/', { params })
+    getSubjects: async () => {
+                const response = await api.get<SubjectList[]>('/subjects/')
         return response.data
     },
-    getLanguages: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<LanguageList[]>('/languages/', { params })
+    getLanguages: async () => {
+                const response = await api.get<LanguageList[]>('/languages/')
         return response.data
     },
-    getScholarlyWorks: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<ScholarlyList[]>('/scholarly/', { params })
-        return response.data
-    },
-    getPersonDetail: async (id: string) => {
+        getPersonDetail: async (id: string) => {
         const response = await api.get<PersonDetail>(`/persons/${id}`)
         return response.data
     },
@@ -54,13 +43,9 @@ export const entityService = {
         const response = await api.get<any>(`/languages/${id}`)
         return response.data
     },
-    getScholarlyDetail: async (id: string) => {
-        const response = await api.get<any>(`/scholarly/${id}`)
-        return response.data
-    },
-    getNetworkData: async (source?: string) => {
-        const params = source ? { source } : {}
-        const response = await api.get<any>('/network/', { params })
+        getNetworkData: async (source?: string) => {
+        const url = source ? `/network/?source=${source}` : `/network/`
+        const response = await api.get<any>(url)
         return response.data
     },
     getSources: async () => {

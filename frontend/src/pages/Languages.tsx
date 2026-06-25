@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { entityService } from '../services/entityService';
 import type { LanguageList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2 } from 'lucide-react';
-import SourceFilter from '../components/SourceFilter';
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 // Simple DataTable component if not imported from shared
 function DataTable({ columns, data }: { columns: ColumnDef<LanguageList>[], data: LanguageList[] }) {
@@ -71,23 +70,12 @@ export default function Languages() {
     const [languages, setLanguages] = useState<LanguageList[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
-    const [searchParams, setSearchParams] = useSearchParams();
-
-    const selectedSource = searchParams.get('source');
-
-    const handleSourceChange = (source: string | null) => {
-        if (source) {
-            setSearchParams({ source });
-        } else {
-            setSearchParams({});
-        }
-    };
 
     useEffect(() => {
         const fetchLanguages = async () => {
             setLoading(true);
             try {
-                const data = await entityService.getLanguages(selectedSource || undefined);
+                const data = await entityService.getLanguages();
                 setLanguages(data);
             } catch (error) {
                 console.error("Failed to fetch languages", error);
@@ -96,7 +84,7 @@ export default function Languages() {
             }
         };
         fetchLanguages();
-    }, [selectedSource]);
+    }, []);
 
     const filteredLanguages = languages.filter(lang =>
         lang.label.toLowerCase().includes(searchTerm.toLowerCase())
@@ -124,13 +112,8 @@ export default function Languages() {
         },
         {
             accessorKey: "count",
-            header: "Person Count",
-            cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
-        },
-        {
-            accessorKey: "works",
-            header: "Works",
-            cell: ({ row }) => <span className="text-gray-500">{row.original.works || 0}</span>,
+            header: "Persons",
+            cell: ({ row }) => <span className="text-gray-500">{row.original.count || 0}</span>,
         },
     ]
 
@@ -158,10 +141,6 @@ export default function Languages() {
                             className="pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         />
                     </div>
-                    <SourceFilter
-                        selectedSource={selectedSource}
-                        onSourceChange={handleSourceChange}
-                    />
                 </div>
             </div>
 

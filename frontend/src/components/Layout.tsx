@@ -28,18 +28,14 @@ export default function Layout() {
                                 <Link to="/works" className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/works') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}`}>
                                     Works
                                 </Link>
-                                <Link to="/places" className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/places') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}`}>
-                                    Places
-                                </Link>
+
                                 <Link to="/subjects" className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/subjects') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}`}>
                                     Subjects
                                 </Link>
                                 <Link to="/languages" className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/languages') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}`}>
                                     Languages
                                 </Link>
-                                <Link to="/scholarly" className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/scholarly') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'}`}>
-                                    Scholarly Works
-                                </Link>
+
                                 <Link to="/sources"
                                     className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${isActive('/sources')
                                         ? 'border-indigo-500 text-gray-900'

@@ -1,16 +1,15 @@
 from typing import List
 from pydantic import BaseModel
 
-class LanguageWorkInfo(BaseModel):
+class LanguagePersonInfo(BaseModel):
     id: str
-    title: str
+    name: str
 
 class LanguageDetail(BaseModel):
     label: str
-    works: List[LanguageWorkInfo] = []
+    persons: List[LanguagePersonInfo] = []
 
 class LanguageList(BaseModel):
     id: str
     label: str
     count: int
-    works: int = 0

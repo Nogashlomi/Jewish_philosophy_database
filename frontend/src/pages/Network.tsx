@@ -1,39 +1,50 @@
+import { useSearchParams } from 'react-router-dom';
+import { SourceFilter } from '../components/SourceFilter';
 import { useQuery } from '@tanstack/react-query'
 import { entityService } from '../services/entityService'
 import ForceGraph2D from 'react-force-graph-2d'
 import { Loader2, Search } from 'lucide-react'
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { useNavigate, useSearchParams } from 'react-router-dom'
-import SourceFilter from '../components/SourceFilter'
+import { useNavigate, } from 'react-router-dom'
 
 // Color mapping from original app
 const COLORS = {
     HistoricalPerson: '#e74c3c', // Red
     HistoricalWork: '#3498db',   // Blue
-    ScholarlyWork: '#9b59b6',    // Purple
     Place: '#2ecc71',            // Green
     Subject: '#f1c40f',          // Yellow
-    HistoricalLanguage: '#95a5a6' // Grey
+    Language: '#95a5a6' // Grey
 }
 
 const LEGEND_ITEMS = [
     { label: 'Person', color: COLORS.HistoricalPerson, type: 'HistoricalPerson' },
     { label: 'Work', color: COLORS.HistoricalWork, type: 'HistoricalWork' },
-    { label: 'Scholarly', color: COLORS.ScholarlyWork, type: 'ScholarlyWork' },
+    
     { label: 'Place', color: COLORS.Place, type: 'Place' },
     { label: 'Subject', color: COLORS.Subject, type: 'Subject' },
-    { label: 'Language', color: COLORS.HistoricalLanguage, type: 'HistoricalLanguage' },
+    { label: 'Language', color: COLORS.Language, type: 'Language' },
 ]
 
 export default function Network() {
+
+    const [searchParams, setSearchParams] = useSearchParams();
+    const source = searchParams.get('source');
+
+    const handleSourceChange = (newSource: string | null) => {
+        if (newSource) {
+            searchParams.set('source', newSource);
+        } else {
+            searchParams.delete('source');
+        }
+        setSearchParams(searchParams);
+    };
+
     const navigate = useNavigate()
     const fgRef = useRef<any>(null)
-    const [searchParams, setSearchParams] = useSearchParams();
-    const selectedSource = searchParams.get('source');
 
     const { data, isLoading, error } = useQuery({
-        queryKey: ['network', selectedSource],
-        queryFn: () => entityService.getNetworkData(selectedSource || undefined),
+        queryKey: ['network'],
+        queryFn: () => entityService.getNetworkData(source || undefined),
     })
 
     const [graphData, setGraphData] = useState<{ nodes: any[], links: any[] } | null>(null)
@@ -43,19 +54,11 @@ export default function Network() {
     const [selectedTypes, setSelectedTypes] = useState<Record<string, boolean>>({
         HistoricalPerson: true,
         HistoricalWork: true,
-        ScholarlyWork: true,
+        
         Place: true,
         Subject: true,
         HistoricalLanguage: true
     })
-
-    const handleSourceChange = (source: string | null) => {
-        if (source) {
-            setSearchParams({ source });
-        } else {
-            setSearchParams({});
-        }
-    };
 
     useEffect(() => {
         if (data) {
@@ -117,10 +120,15 @@ export default function Network() {
     return (
         <div className="space-y-4 h-[calc(100vh-8rem)] flex flex-col">
             <div className="flex items-center justify-between flex-shrink-0">
-                <h1 className="text-2xl font-bold font-sans">Network Graph</h1>
-                <span className="text-sm text-gray-500 font-sans">
-                    Nodes: {filteredData.nodes.length}, Edges: {filteredData.links.length}
-                </span>
+                <div className="flex items-center gap-4">
+                    <h1 className="text-2xl font-bold font-sans">Network Graph</h1>
+                    <span className="text-sm text-gray-500 font-sans mt-1">
+                        Nodes: {filteredData.nodes.length}, Edges: {filteredData.links.length}
+                    </span>
+                </div>
+                <div className="ml-auto">
+                    <SourceFilter selectedSource={source} onChange={handleSourceChange} />
+                </div>
             </div>
 
             <div className="flex flex-1 border border-gray-200 rounded-lg overflow-hidden bg-slate-50 relative">
@@ -129,72 +137,24 @@ export default function Network() {
                 <div className="w-80 bg-white border-r border-gray-200 flex flex-col z-10 shrink-0">
 
                     {/* Filters Section */}
-                    <div className="p-4 border-b border-gray-200 bg-gray-50">
-                        <div className="mb-4">
-                            <SourceFilter
-                                selectedSource={selectedSource}
-                                onSourceChange={handleSourceChange}
-                            />
-                        </div>
-
+                    <div className="p-4 border-b border-gray-200 bg-gray-50 flex-1">
                         <div className="mb-2">
-                            <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Show Types</label>
-                            <div className="space-y-1">
+                            <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-4">Show Types</label>
+                            <div className="space-y-3">
                                 {LEGEND_ITEMS.map(item => (
-                                    <label key={item.type} className="flex items-center space-x-2 text-sm cursor-pointer">
+                                    <label key={item.type} className="flex items-center space-x-3 text-sm cursor-pointer p-2 rounded hover:bg-gray-100 transition-colors">
                                         <input
                                             type="checkbox"
                                             checked={selectedTypes[item.type]}
                                             onChange={() => toggleType(item.type)}
-                                            className="rounded text-indigo-600 focus:ring-indigo-500"
+                                            className="w-4 h-4 rounded text-indigo-600 focus:ring-indigo-500 cursor-pointer"
                                         />
-                                        <span className="w-3 h-3 rounded-sm inline-block" style={{ backgroundColor: item.color }}></span>
-                                        <span className="text-gray-700">{item.label}</span>
+                                        <span className="w-4 h-4 rounded-sm shadow-sm inline-block" style={{ backgroundColor: item.color }}></span>
+                                        <span className="text-gray-700 font-medium">{item.label}</span>
                                     </label>
                                 ))}
                             </div>
                         </div>
-                    </div>
-
-                    {/* Search Section */}
-                    <div className="p-4 border-b border-gray-100">
-                        <div className="relative">
-                            <input
-                                type="text"
-                                placeholder="Search filtered nodes..."
-                                className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                value={searchTerm}
-                                onChange={(e) => setSearchTerm(e.target.value)}
-                            />
-                            <Search className="h-4 w-4 text-gray-400 absolute left-3 top-2.5" />
-                        </div>
-                    </div>
-
-                    {/* Node List */}
-                    <div className="flex-1 overflow-y-auto">
-                        {sidebarNodes.length > 0 ? (
-                            <div className="divide-y divide-gray-100">
-                                {sidebarNodes.map((node) => (
-                                    <button
-                                        key={node.id}
-                                        onClick={() => handleSidebarNodeClick(node)}
-                                        className="w-full text-left px-4 py-2 hover:bg-indigo-50 transition-colors group"
-                                    >
-                                        <div className="text-sm font-medium text-gray-900 group-hover:text-indigo-700 truncate">
-                                            {node.label}
-                                        </div>
-                                        <div className="text-xs text-gray-500 mt-0.5 capitalize flex items-center gap-1">
-                                            <span className="w-2 h-2 rounded-full inline-block" style={{ backgroundColor: COLORS[node.group as keyof typeof COLORS] }}></span>
-                                            {node.group?.replace('Historical', '')}
-                                        </div>
-                                    </button>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="p-4 text-sm text-gray-500 text-center">
-                                No nodes found
-                            </div>
-                        )}
                     </div>
                 </div>
 
@@ -212,8 +172,8 @@ export default function Network() {
                             else if (node.group === 'HistoricalWork') navigate(`/works/${node.id}`)
                             else if (node.group === 'Place') navigate(`/places/${node.id}`)
                             else if (node.group === 'Subject') navigate(`/subjects/${node.id}`)
-                            else if (node.group === 'HistoricalLanguage') navigate(`/languages/${node.id}`)
-                            else if (node.group === 'ScholarlyWork') navigate(`/scholarly/${node.id}`)
+                            else if (node.group === 'Language') navigate(`/languages/${node.id}`)
+                            
                         }}
                         width={800} // Dynamic sizing is tricky in wrappers, but flexbox helps
                         height={600}

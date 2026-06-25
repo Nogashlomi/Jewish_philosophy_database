@@ -8,11 +8,10 @@ from app.api import (
     places as api_places,
     subjects as api_subjects,
     languages as api_languages,
-    scholarly as api_scholarly,
     network as api_network,
-    sources as api_sources,
     index as api_index,
-    ontology as api_ontology
+    ontology as api_ontology,
+    sources as api_sources
 )
 
 # Lifespan Context Manager (Startup/Shutdown)
@@ -66,10 +65,9 @@ app.include_router(api_works.router, prefix="/api/v1/works", tags=["api-works"])
 app.include_router(api_places.router, prefix="/api/v1/places", tags=["api-places"])
 app.include_router(api_subjects.router, prefix="/api/v1/subjects", tags=["api-subjects"])
 app.include_router(api_languages.router, prefix="/api/v1/languages", tags=["api-languages"])
-app.include_router(api_scholarly.router, prefix="/api/v1/scholarly", tags=["api-scholarly"])
 app.include_router(api_network.router, prefix="/api/v1/network", tags=["api-network"])
-app.include_router(api_sources.router, prefix="/api/v1/sources", tags=["api-sources"])
 app.include_router(api_ontology.router, prefix="/api/v1/ontology", tags=["api-ontology"])
+app.include_router(api_sources.router, prefix="/api/v1/sources", tags=["api-sources"])
 
 # Direct GeoJSON endpoint for Map Component
 from app.services.entity_service import entity_service
@@ -78,4 +76,4 @@ from typing import Optional
 
 @app.get("/api/v1/geojson")
 async def get_geojson_points(source: Optional[str] = Query(None, description="Filter by data source ID")):
-    return entity_service.get_geo_json(source=source)
+    return entity_service.get_geo_json(source)

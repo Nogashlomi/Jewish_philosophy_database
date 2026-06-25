@@ -1,9 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { entityService } from '../services/entityService';
 import type { WorkList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2, ChevronLeft, ChevronRight } from 'lucide-react';
-import SourceFilter from '../components/SourceFilter';
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
 
 const PAGE_SIZE = 100;
@@ -110,23 +109,11 @@ export default function Works() {
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
     const [page, setPage] = useState(1);
-    const [searchParams, setSearchParams] = useSearchParams();
-
-    const selectedSource = searchParams.get('source');
-
-    const handleSourceChange = (source: string | null) => {
-        setPage(1);
-        if (source) {
-            setSearchParams({ source });
-        } else {
-            setSearchParams({});
-        }
-    };
 
     const fetchWorks = useCallback(async () => {
         setLoading(true);
         try {
-            const data = await entityService.getWorks(selectedSource || undefined, page, PAGE_SIZE);
+            const data = await entityService.getWorks(page, PAGE_SIZE);
             setWorks(data.items);
             setTotal(data.total);
             setTotalPages(data.total_pages);
@@ -135,7 +122,7 @@ export default function Works() {
         } finally {
             setLoading(false);
         }
-    }, [selectedSource, page]);
+    }, [page]);
 
     useEffect(() => {
         fetchWorks();
@@ -164,16 +151,6 @@ export default function Works() {
             header: "Author",
             cell: ({ row }) => <span className="text-gray-700">{row.original.authors || "-"}</span>,
         },
-        {
-            accessorKey: "subjects",
-            header: "Subject",
-            cell: ({ row }) => <span className="text-gray-700">{row.original.subjects || "-"}</span>,
-        },
-        {
-            accessorKey: "languages",
-            header: "Language",
-            cell: ({ row }) => <span className="text-gray-700">{row.original.languages || "-"}</span>,
-        },
     ]
 
     if (loading) return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-indigo-500" /></div>
@@ -197,10 +174,6 @@ export default function Works() {
                             className="pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         />
                     </div>
-                    <SourceFilter
-                        selectedSource={selectedSource}
-                        onSourceChange={handleSourceChange}
-                    />
                 </div>
             </div>
 

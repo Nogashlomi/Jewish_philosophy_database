@@ -8,4 +8,4 @@ from fastapi import Query
 
 @router.get("/stats")
 async def get_stats(source: Optional[str] = Query(None, description="Filter by data source ID")):
-    return entity_service.get_global_stats(source=source)
+    return entity_service.get_global_stats(source)

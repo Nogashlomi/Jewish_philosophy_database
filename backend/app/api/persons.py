@@ -7,14 +7,14 @@ router = APIRouter()
 
 @router.get("/")
 async def list_persons_json(
-    source: Optional[str] = Query(None, description="Filter by data source ID"),
     page: int = Query(1, ge=1, description="Page number"),
     page_size: int = Query(100, ge=1, le=500, description="Items per page"),
+    source: Optional[str] = Query(None, description="Filter by data source ID")
 ):
     """
     Get a paginated list of historical persons with summary data.
     """
-    return entity_service.list_persons(source=source, page=page, page_size=page_size)
+    return entity_service.list_persons(page=page, page_size=page_size, source=source)
 
 @router.get("/{person_id}", response_model=PersonDetail)
 async def get_person_detail_json(person_id: str):

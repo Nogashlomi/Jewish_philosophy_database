@@ -1,33 +1,24 @@
 from typing import List, Optional, Dict, Any
 import math
 from app.core.rdf_store import rdf_store, JP, RDF, RDFS
-from app.schemas.person import PersonList, PersonDetail, RelatedWork, ScholarlyMention, PlaceRelation, TimeRelation
-from app.schemas.work import WorkList, WorkDetail, WorkAuthor, ScholarlyWorkRef
+from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation
+from app.schemas.work import WorkList, WorkDetail, WorkAuthor
 from app.schemas.place import PlaceList, PlaceDetail, PersonAtPlace
 from app.schemas.subject import SubjectList, SubjectDetail, SubjectWorkInfo
-from app.schemas.language import LanguageList, LanguageDetail, LanguageWorkInfo
-from app.schemas.scholarly import ScholarlyList, ScholarlyDetail, MentionedPerson, MentionedWork, Scholar, Source as ScholarlySource
+from app.schemas.language import LanguageList, LanguageDetail, LanguagePersonInfo
 from app.schemas.network import NetworkData, NetworkNode, NetworkEdge
-from app.schemas.source import Source
 from rdflib import URIRef, Literal, BNode
 from app.core import queries
 from app.core.queries import PREFIXES
 
 class EntityService:
-    def _get_source_filter(self, source_id: Optional[str], var_name: str = "uri") -> str:
-        if not source_id:
-            return ""
-        # Assuming source_id is just the ID (e.g. "Source_Wikidata")
-        # We need the full URI: <http://jewish_philosophy.org/ontology#Source_Wikidata>
-        return f"?{var_name} jp:hasSource <{JP}{source_id}> ."
 
-    def list_persons(self, source: Optional[str] = None, page: int = 1, page_size: int = 100) -> Dict[str, Any]:
-        sf = self._get_source_filter(source, "uri")
+    def list_persons(self, page: int = 1, page_size: int = 100, source: str = None) -> Dict[str, Any]:
         offset = (page - 1) * page_size
         pagination = f"LIMIT {page_size} OFFSET {offset}"
 
         # Single combined query — persons + birth/death years in one pass
-        q = queries.LIST_PERSONS.format(source_filter=sf, pagination=pagination)
+        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter="")
         items = []
         for row in rdf_store.query(q):
             uri = str(row.uri)
@@ -43,14 +34,30 @@ class EntityService:
             # Extra times list
             times_list = []
             for trow in rdf_store.query(queries.GET_PERSON_TIMES, initBindings={'person': uri_ref}):
-                start = str(trow.start) if trow.start else ""
-                end = str(trow.end) if trow.end else ""
-                t_type = str(trow.type).capitalize() if trow.type else "Time"
-                if start or end:
-                    time_str = start
-                    if end:
-                        time_str += f"-{end}"
-                    times_list.append(f"{time_str} ({t_type})")
+                t_label = str(trow.label) if trow.label else None
+                if t_label:
+                    times_list.append(t_label)
+                else:
+                    start = str(trow.start) if trow.start else ""
+                    end = str(trow.end) if trow.end else ""
+                    t_type = str(trow.type).capitalize() if trow.type else "Time"
+                    if start or end:
+                        time_str = start
+                        if end:
+                            time_str += f"-{end}"
+                        times_list.append(f"{time_str} ({t_type})")
+                        
+            # Time buckets
+            buckets = []
+            for bucket_uri in rdf_store.g.objects(uri_ref, JP.inTimeBucket):
+                lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
+                if lbl: buckets.append(str(lbl))
+
+            # Subjects
+            subjects = []
+            for subj_uri in rdf_store.g.objects(uri_ref, JP.hasSubject):
+                lbl = rdf_store.g.value(subj_uri, RDFS.label) or subj_uri.split("#")[-1]
+                subjects.append(str(lbl))
 
             items.append(PersonList(
                 id=uri.strip("/").split("/")[-1].split("#")[-1],
@@ -59,11 +66,13 @@ class EntityService:
                 birth_year=str(row.birthYear) if getattr(row, 'birthYear', None) else None,
                 death_year=str(row.deathYear) if getattr(row, 'deathYear', None) else None,
                 places=", ".join(list(set(places_list))) if places_list else None,
-                times=", ".join(list(set(times_list))) if times_list else None
+                times=", ".join(list(set(times_list))) if times_list else None,
+                time_buckets=", ".join(list(set(buckets))) if buckets else None,
+                subjects=", ".join(list(set(subjects))) if subjects else None
             ))
 
         # Get total count (cached after first call)
-        count_q = queries.COUNT_PERSONS.format(source_filter=sf)
+        count_q = queries.COUNT_PERSONS.format(search_filter="")
         total = 0
         for row in rdf_store.query(count_q):
             total = int(row.total)
@@ -133,15 +142,24 @@ class EntityService:
             start = str(row.start) if row.start else None
             end = str(row.end) if row.end else None
             rel_type = str(row.type) if row.type else "Life"
-            if start or end:
-                key = f"{rel_type.lower()}_{start}_{end}"
+            label_val = str(row.label) if row.label else None
+            if start or end or label_val:
+                key = f"{rel_type.lower()}_{start}_{end}_{label_val}"
                 if key not in times_map:
                     times_map[key] = TimeRelation(
                         type=rel_type,
                         start=start,
-                        end=end
+                        end=end,
+                        label=label_val
                     )
         times = list(times_map.values())
+
+        # Time Buckets
+        time_buckets = []
+        for bucket_uri in rdf_store.g.objects(uri, JP.inTimeBucket):
+            b_lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
+            if b_lbl:
+                time_buckets.append(str(b_lbl))
 
         # 7. Subjects & Languages
         subjects = []
@@ -164,23 +182,21 @@ class EntityService:
             id=person_id,
             uri=str(uri),
             label=str(label),
-            sources=sources,
-            authorities=authorities,
             works=authored_works,
             scholarly=scholarly_mentions,
             places=places,
             times=times,
+            time_buckets=time_buckets,
             subjects=subjects,
             languages=languages
         )
 
 
-    def list_works(self, source: Optional[str] = None, page: int = 1, page_size: int = 100) -> Dict[str, Any]:
-        sf = self._get_source_filter(source, "uri")
+    def list_works(self, page: int = 1, page_size: int = 100) -> Dict[str, Any]:
         offset = (page - 1) * page_size
         pagination = f"LIMIT {page_size} OFFSET {offset}"
 
-        q = queries.LIST_WORKS.format(source_filter=sf, pagination=pagination)
+        q = queries.LIST_WORKS.format(pagination=pagination, search_filter="")
         items = []
         for row in rdf_store.query(q):
             uri = str(row.uri)
@@ -216,7 +232,7 @@ class EntityService:
             ))
 
         # Get total count (cached after first call)
-        count_q = queries.COUNT_WORKS.format(source_filter=sf)
+        count_q = queries.COUNT_WORKS.format(search_filter="")
         total = 0
         for row in rdf_store.query(count_q):
             total = int(row.total)
@@ -258,22 +274,6 @@ class EntityService:
             label = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
             languages.append(str(label))
 
-        # 5. Scholarly Mentions
-        scholarly_mentions = []
-        for row in rdf_store.query(queries.GET_WORK_SCHOLARLY, initBindings={'work': uri}):
-            scholarly_mentions.append(ScholarlyWorkRef(
-                id=row.sw.split("#")[-1],
-                uri=str(row.sw),
-                title=str(row.title),
-                year=str(row.year) if row.year else None
-            ))
-
-        # 6. Source Attribution
-        sources = []
-        for source_uri in rdf_store.g.objects(uri, JP.hasSource):
-            source_label = rdf_store.g.value(source_uri, RDFS.label)
-            sources.append(str(source_label) if source_label else str(source_uri).split("#")[-1])
-
         # 7. Places
         places_map = {}
         for row in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri}):
@@ -311,17 +311,15 @@ class EntityService:
             id=work_id,
             uri=str(uri),
             title=str(title),
-            sources=sources,
             authors=authors,
             subjects=subjects,
             languages=languages,
-            scholarly_mentions=scholarly_mentions,
             places=places,
             times=times
         )
 
     
-    def list_places(self, source: Optional[str] = None) -> List[PlaceList]:
+    def list_places(self, ) -> List[PlaceList]:
         # For places, we filter by the people/works associated with the place in the source?
         # Or does the place itself have a source?
         # The query LIST_PLACES joins with optional person.
@@ -333,8 +331,7 @@ class EntityService:
         # If I inject source_filter into that optional block, it will filter the persons.
         # `queries.LIST_PLACES` has `{source_filter}` inside the OPTIONAL block for person relations.
         
-        sf = self._get_source_filter(source, "person")
-        q = queries.LIST_PLACES.format(source_filter=sf)
+        q = queries.LIST_PLACES.format(search_filter="")
         
         results = []
         for row in rdf_store.query(q):
@@ -365,7 +362,7 @@ class EntityService:
         # But if they meant detail view too... complex. Sticking to list for now.
         
         people = []
-        for row in rdf_store.query(queries.GET_PLACE_PEOPLE.format(source_filter=""), initBindings={'place': uri}):
+        for row in rdf_store.query(queries.GET_PLACE_PEOPLE.format(), initBindings={'place': uri}):
             people.append(PersonAtPlace(
                 id=row.person.split("#")[-1],
                 uri=str(row.person),
@@ -384,18 +381,15 @@ class EntityService:
 
     # --- SUBJECTS ---
 
-    def list_subjects(self, source: Optional[str] = None) -> List[SubjectList]:
-        sf = self._get_source_filter(source, "work")
-        q = queries.LIST_SUBJECTS.format(source_filter=sf)
+    def list_subjects(self, ) -> List[SubjectList]:
+        q = queries.LIST_SUBJECTS.format(search_filter="")
 
         results = []
         for row in rdf_store.query(q):
              results.append(SubjectList(
                 id=row.uri.split("#")[-1],
                 label=str(row.label),
-                count=int(row.total),
-                works=int(row.work_count) if row.work_count else 0,
-                authors=0
+                count=int(row.total)
             ))
         return results
 
@@ -412,10 +406,9 @@ class EntityService:
         # 2. Works
         works = []
         # GET_SUBJECT_WORKS likely has source_filter placeholder
-        sf = "" # No source filter on detail page yet
         
         # Using format just in case
-        q = queries.GET_SUBJECT_WORKS.format(source_filter="")
+        q = queries.GET_SUBJECT_WORKS.format()
             
         for row in rdf_store.query(q, initBindings={'subject': uri}):
             t = str(row.title) if row.title else (str(row.label) if row.label else str(row.work).split("#")[-1])
@@ -453,17 +446,15 @@ class EntityService:
 
 
     # --- Languages ---
-    def list_languages(self, source: Optional[str] = None) -> List[LanguageList]:
-        sf = self._get_source_filter(source, "work")
-        q = queries.LIST_LANGUAGES.format(source_filter=sf)
+    def list_languages(self, ) -> List[LanguageList]:
+        q = queries.LIST_LANGUAGES.format(search_filter="")
         results = []
         for row in rdf_store.query(q):
             label = str(row.label) if row.label else str(row.uri).split("#")[-1]
             results.append(LanguageList(
                 id=row.uri.split("#")[-1],
                 label=label,
-                count=int(row.total),
-                works=int(row.work_count) if row.work_count else 0
+                count=int(row.total)
             ))
         return results
 
@@ -474,151 +465,23 @@ class EntityService:
         if not label:
             label = lang_id
             
-        works = []
-        q = queries.GET_LANGUAGE_WORKS.format(source_filter="")
+        persons = []
+        q = queries.GET_LANGUAGE_PERSONS.format()
         for row in rdf_store.query(q, initBindings={'lang': uri}):
-            t = str(row.title) if row.title else (str(row.label) if row.label else str(row.work).split("#")[-1])
-            works.append(LanguageWorkInfo(
-                id=row.work.split("#")[-1],
-                title=t
+            p_name = str(row.label) if row.label else str(row.person).split("#")[-1]
+            persons.append(LanguagePersonInfo(
+                id=row.person.split("#")[-1],
+                name=p_name
             ))
 
         return LanguageDetail(
             label=str(label),
-            works=works
+            persons=persons
         )
 
     # --- Scholarly Works ---
-    def list_scholarly_works(self, source: Optional[str] = None) -> List[ScholarlyList]:
-        sf = self._get_source_filter(source, "uri")
-        q = queries.LIST_SCHOLARLY_WORKS.format(source_filter=sf)
-        
-        works_map = {}
-        
-        for row in rdf_store.query(q):
-            uri = str(row.uri)
-            title = str(row.title) if row.title else str(row.label) if row.label else uri.split("#")[-1]
-            if uri not in works_map:
-                works_map[uri] = {
-                    "uri": row.uri,
-                    "id": uri.split("#")[-1],
-                    "title": title,
-                    "year": str(row.year) if row.year else None,
-                    "authors": {}, # uri -> name map to dedup
-                    "sources": {}, # uri -> label map
-                    "publisher": str(row.publisher) if row.publisher else None,
-                    "type": str(row.type) if row.type else None,
-                    "mentions_person": set(),
-                    "mentions_work": set()
-                }
-            
-            entry = works_map[uri]
-            
-            # Collect Authors
-            if row.authorUri and row.authorName:
-                entry["authors"][str(row.authorUri)] = str(row.authorName)
-                
-            # Set Source
-            if row.sourceUri and row.sourceLabel:
-                entry["sources"][str(row.sourceUri)] = str(row.sourceLabel)
-                
-            if row.person: entry["mentions_person"].add(row.person)
-            if row.work: entry["mentions_work"].add(row.work)
-
-        results = []
-        for w in works_map.values():
-            # Convert authors dict to list of Scholar objects
-            author_list = [
-                Scholar(id=uri.split("#")[-1], name=name)
-                for uri, name in w["authors"].items()
-            ]
-            # Sort authors by name
-            author_list.sort(key=lambda x: x.name)
-            # Convert sources dict to list of Source objects
-            from app.schemas.scholarly import Source as ScholarlySource
-            source_list = [
-                ScholarlySource(id=suri.split("#")[-1], label=slabel)
-                for suri, slabel in w["sources"].items()
-            ]
-            source_list.sort(key=lambda x: x.label)
-
-            results.append(ScholarlyList(
-                uri=str(w["uri"]),
-                id=w["id"],
-                title=w["title"],
-                year=w["year"],
-                authors=author_list,
-                sources=source_list,
-                publisher=w["publisher"],
-                type=w["type"],
-                mentions_person_count=len(w["mentions_person"]),
-                mentions_work_count=len(w["mentions_work"])
-            ))
-            
-        # Sort by Year (descending), then Title
-        results.sort(key=lambda x: (x.year or "0", x.title), reverse=True)
-        return results
-
-    def get_scholarly_detail(self, work_id: str) -> Optional[ScholarlyDetail]:
-        uri = URIRef(f"{JP}{work_id}")
-        
-        title = rdf_store.g.value(uri, JP.title)
-        if not title:
-            return None
-
-        # Standardized year
-        year = rdf_store.g.value(uri, JP.publicationYear)
-        if not year:
-             year = rdf_store.g.value(uri, JP.year)
-
-        # Sources
-        sources = []
-        for source_uri in rdf_store.g.objects(uri, JP.hasSource):
-            source_label = rdf_store.g.value(source_uri, RDFS.label)
-            sources.append(ScholarlySource(
-                id=str(source_uri).split("#")[-1],
-                label=str(source_label) if source_label else str(source_uri).split("#")[-1]
-            ))
-        sources.sort(key=lambda x: x.label)
-
-        # Authors
-        authors = []
-        for author_uri in rdf_store.g.objects(uri, JP.hasAuthor):
-            author_name = rdf_store.g.value(author_uri, RDFS.label)
-            authors.append(Scholar(
-                id=str(author_uri).split("#")[-1],
-                name=str(author_name) if author_name else str(author_uri).split("#")[-1]
-            ))
-        authors.sort(key=lambda x: x.name)
-
-        mentions_person = []
-        for p in rdf_store.g.objects(uri, JP.aboutPerson):
-            label = rdf_store.g.value(p, RDFS.label)
-            mentions_person.append(MentionedPerson(
-                id=p.split("#")[-1],
-                label=str(label) if label else p.split("#")[-1]
-            ))
-            
-        mentions_work = []
-        for w in rdf_store.g.objects(uri, JP.aboutWork):
-            w_title = rdf_store.g.value(w, JP.title)
-            mentions_work.append(MentionedWork(
-                id=w.split("#")[-1],
-                title=str(w_title) if w_title else w.split("#")[-1]
-            ))
-
-        return ScholarlyDetail(
-            uri=str(uri),
-            title=str(title),
-            year=str(year) if year else None,
-            authors=authors,
-            sources=sources,
-            mentions_person=mentions_person,
-            mentions_work=mentions_work
-        )
-
     # --- Network ---
-    def get_network_data(self, source: Optional[str] = None) -> NetworkData:
+    def get_network_data(self, source: str = None) -> NetworkData:
         nodes = []
         edges = []
 
@@ -626,7 +489,7 @@ class EntityService:
 
         # 1. Nodes - Get source-filtered entities (persons, works, etc.)
         sf_nodes = self._get_source_filter(source, "s")
-        q_nodes = queries.GET_NETWORK_NODES.format(source_filter=sf_nodes)
+        q_nodes = queries.GET_NETWORK_NODES.format(search_filter=sf_nodes)
 
         node_ids = set()
 
@@ -642,15 +505,14 @@ class EntityService:
             nodes.append(NetworkNode(
                 id=nid,
                 label=str(label),
-                group=etype,
-                source=source_id  # Add source to node
+                group=etype
             ))
             node_ids.add(mk_id(row.s)) # Use mk_id for safe checking
 
 
         # 2. Edges
         sf_edges = "" # No source filter on edges query for now, relies on node filtering
-        q_direct = queries.GET_NETWORK_EDGES_DIRECT.format(source_filter=sf_edges)
+        q_direct = queries.GET_NETWORK_EDGES_DIRECT.format()
 
         for row in rdf_store.query(q_direct):
             s_id = mk_id(row.s)
@@ -658,7 +520,7 @@ class EntityService:
             if s_id in node_ids and o_id in node_ids:
                 edges.append({"from": s_id, "to": o_id})
 
-        q_places = queries.GET_NETWORK_EDGES_PLACES.format(source_filter="")
+        q_places = queries.GET_NETWORK_EDGES_PLACES.format()
         for row in rdf_store.query(q_places):
             p_id = mk_id(row.person)
             pl_id = mk_id(row.place)
@@ -673,7 +535,7 @@ class EntityService:
                         id=pl_id,
                         label=label,
                         group="Place",
-                        source=None
+                        
                     ))
                     node_ids.add(pl_id)
                 edges.append({"from": p_id, "to": pl_id})
@@ -682,17 +544,36 @@ class EntityService:
 
 
     # --- Stats ---
-    def get_global_stats(self, source: Optional[str] = None) -> Dict[str, int]:
+
+    def _get_source_filter(self, source: str, var_name: str = "uri") -> str:
+        if not source:
+            return ""
+        return f"?{var_name} jp:hasSource <{JP}{source}> ."
+
+    def get_sources(self) -> List[dict]:
+        results = []
+        for row in rdf_store.query(queries.GET_SOURCES):
+            results.append({
+                "id": str(row.uri).split("#")[-1],
+                "label": str(row.label) if row.label else str(row.uri).split("#")[-1]
+            })
+        results.sort(key=lambda x: x["label"])
+        return results
+
+    def get_global_stats(self, source: str = None) -> Dict[str, int]:
         stats_queries = queries.STATS_QUERIES
         PREFIXES = queries.PREFIXES
         
-        sf = self._get_source_filter(source, "s")
         
         stats = {}
+        sf = self._get_source_filter(source, "s")
         for key, q in stats_queries.items():
-            # Format the query with source_filter
-            # Note: "s" is hardcoded in STATS_QUERIES
-            formatted_q = q.format(source_filter=sf)
+            # Format the query with source_filter if applicable
+            if "{search_filter}" in q:
+                formatted_q = q.format(search_filter=sf)
+            else:
+                # If there are braces in q that aren't variables, format() will fail, so just don't format if not needed.
+                formatted_q = q
             full_q = PREFIXES + formatted_q
             
             for row in rdf_store.query(full_q):
@@ -701,14 +582,12 @@ class EntityService:
         return stats
 
 
-    def get_geo_json(self, source: Optional[str] = None) -> Dict[str, Any]:
+    def get_geo_json(self, source: str = None) -> Dict[str, Any]:
         """
-        Return a GeoJSON FeatureCollection of Persons at Places.
-        Matches frontend expectation: person_id, person_label, place_label, start, end.
+        Return GeoJSON FeatureCollection for places associated with historical persons.
         """
-        # Filter persons by source
         sf = self._get_source_filter(source, "person")
-        q = queries.GET_GEO_JSON.format(source_filter=sf)
+        q = queries.GET_GEO_JSON.format(search_filter=sf)
         
         features = []
         for row in rdf_store.query(q):
@@ -717,8 +596,7 @@ class EntityService:
                 long = float(row.long)
                 
                 # Time handling
-                start_year = int(row.start) if row.start else None
-                end_year = int(row.end) if row.end else None
+                bucket_label = str(row.bucketLabel) if getattr(row, 'bucketLabel', None) else None
                 
                 features.append({
                     "type": "Feature",
@@ -730,9 +608,8 @@ class EntityService:
                         "person_id": row.person.split("#")[-1],
                         "person_label": str(row.personLabel),
                         "place_label": str(row.placeLabel),
-                        "type": str(row.placeType) if row.placeType else "Unknown",
-                        "start": start_year,
-                        "end": end_year
+                        "type": str(row.placeType) if getattr(row, 'placeType', None) else "Unknown",
+                        "bucket": bucket_label
                     }
                 })
             except (ValueError, TypeError):

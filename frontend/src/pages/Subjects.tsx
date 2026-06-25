@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { entityService } from '../services/entityService';
 import type { SubjectList } from '../types/entity';
 import { Search, ArrowUpDown, Loader2 } from 'lucide-react';
-import SourceFilter from '../components/SourceFilter';
 import { flexRender, getCoreRowModel, getSortedRowModel, useReactTable, type ColumnDef, type SortingState } from "@tanstack/react-table"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 // Simple DataTable component
 function DataTable({ columns, data }: { columns: ColumnDef<SubjectList>[], data: SubjectList[] }) {
@@ -71,23 +70,12 @@ export default function Subjects() {
     const [subjects, setSubjects] = useState<SubjectList[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
-    const [searchParams, setSearchParams] = useSearchParams();
-
-    const selectedSource = searchParams.get('source');
-
-    const handleSourceChange = (source: string | null) => {
-        if (source) {
-            setSearchParams({ source });
-        } else {
-            setSearchParams({});
-        }
-    };
 
     useEffect(() => {
         const fetchSubjects = async () => {
             setLoading(true);
             try {
-                const data = await entityService.getSubjects(selectedSource || undefined);
+                const data = await entityService.getSubjects();
                 setSubjects(data);
             } catch (error) {
                 console.error("Failed to fetch subjects", error);
@@ -96,7 +84,7 @@ export default function Subjects() {
             }
         };
         fetchSubjects();
-    }, [selectedSource]);
+    }, []);
 
     const filteredSubjects = subjects.filter(subject =>
         subject.label.toLowerCase().includes(searchTerm.toLowerCase())
@@ -130,27 +118,12 @@ export default function Subjects() {
                         className="flex items-center hover:text-gray-900"
                         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
                     >
-                        Authors
+                        Persons
                         <ArrowUpDown className="ml-2 h-4 w-4" />
                     </button>
                 )
             },
             cell: ({ row }) => <span className="text-gray-500">{row.original.count}</span>,
-        },
-        {
-            accessorKey: "works",
-            header: ({ column }) => {
-                return (
-                    <button
-                        className="flex items-center hover:text-gray-900"
-                        onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-                    >
-                        Works
-                        <ArrowUpDown className="ml-2 h-4 w-4" />
-                    </button>
-                )
-            },
-            cell: ({ row }) => <span className="text-gray-500">{row.original.works || 0}</span>,
         },
     ]
 
@@ -178,10 +151,6 @@ export default function Subjects() {
                             className="pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         />
                     </div>
-                    <SourceFilter
-                        selectedSource={selectedSource}
-                        onSourceChange={handleSourceChange}
-                    />
                 </div>
             </div>
 

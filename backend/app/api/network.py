@@ -10,4 +10,4 @@ async def get_network_graph(source: Optional[str] = Query(None, description="Fil
     """
     Get nodes and edges for network visualization.
     """
-    return entity_service.get_network_data(source=source)
+    return entity_service.get_network_data(source)
