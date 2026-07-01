@@ -279,6 +279,12 @@ jp:translated a owl:ObjectProperty ;
     rdfs:range jp:HistoricalPerson ;
     rdfs:comment "Indicates that this person translated the work of another person." .
 
+jp:translatedBy a owl:ObjectProperty ;
+    rdfs:label "translated by" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates the translator of a historical work." .
+
 jp:isTranslationOf a owl:ObjectProperty ;
     rdfs:label "is translation of" ;
     rdfs:domain jp:HistoricalWork ;

@@ -531,8 +531,9 @@ class EntityService:
         for row in rdf_store.query(q_direct):
             s_id = mk_id(row.s)
             o_id = mk_id(row.o)
+            p_id = mk_id(row.p)
             if s_id in node_ids and o_id in node_ids:
-                edges.append({"from": s_id, "to": o_id})
+                edges.append({"from": s_id, "to": o_id, "relation": p_id})
                 
                 # Track for cross connections
                 if node_types.get(s_id) == 'HistoricalPerson':

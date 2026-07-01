@@ -281,7 +281,7 @@ WHERE {{
 """
 
 GET_NETWORK_EDGES_DIRECT = PREFIXES + """
-SELECT ?s ?o
+SELECT ?s ?p ?o
 WHERE {{
     ?s ?p ?o .
     FILTER (?p IN (
@@ -290,7 +290,7 @@ WHERE {{
         jp:hasLanguage,
         jp:translated,
         jp:isTranslationOf,
-        <http://schema.org/author>
+        jp:translatedBy
     ))
     
 }}

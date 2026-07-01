@@ -60,6 +60,8 @@ export default function Network() {
     // Keep a ref to preserve node objects (and their x, y coordinates) across renders/fetches
     const nodeCache = useRef<Map<string, any>>(new Map())
 
+    const [showTranslationConnections, setShowTranslationConnections] = useState(false);
+
     // Filters State
     const [selectedTypes, setSelectedTypes] = useState<Record<string, boolean>>({
         HistoricalPerson: true,
@@ -87,7 +89,8 @@ export default function Network() {
             const links = data.edges.map((e: any) => ({
                 source: e.from,
                 target: e.to,
-                dashes: e.dashes
+                dashes: e.dashes,
+                relation: e.relation
             }))
             setGraphData({ nodes, links })
         }
@@ -144,11 +147,18 @@ export default function Network() {
         let links = graphData.links.filter(l => {
             const sourceId = typeof l.source === 'object' ? l.source.id : l.source
             const targetId = typeof l.target === 'object' ? l.target.id : l.target
-            return visibleNodeIds.has(sourceId) && visibleNodeIds.has(targetId)
+            if (!visibleNodeIds.has(sourceId) || !visibleNodeIds.has(targetId)) return false;
+
+            if (!showTranslationConnections) {
+                if (l.relation && (l.relation.includes('translated') || l.relation.includes('isTranslationOf'))) {
+                    return false;
+                }
+            }
+            return true;
         })
 
         return { nodes, links }
-    }, [graphData, selectedTypes, timeRange])
+    }, [graphData, selectedTypes, timeRange, showTranslationConnections])
 
 
     const toggleType = (type: string) => {
@@ -229,6 +239,19 @@ export default function Network() {
                                 ))}
                             </div>
                         </div>
+                    </div>
+
+                    {/* Translation Toggle */}
+                    <div className="p-4 border-b border-gray-200 bg-white">
+                        <label className="flex items-center space-x-3 text-sm cursor-pointer hover:bg-orange-50 p-2 rounded transition-colors border border-transparent hover:border-orange-100">
+                            <input
+                                type="checkbox"
+                                checked={showTranslationConnections}
+                                onChange={() => setShowTranslationConnections(!showTranslationConnections)}
+                                className="w-4 h-4 rounded text-orange-500 focus:ring-orange-500 cursor-pointer"
+                            />
+                            <span className="text-orange-700 font-bold">Show Translations</span>
+                        </label>
                     </div>
                 </div>
 
