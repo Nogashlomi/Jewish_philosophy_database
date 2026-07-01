@@ -24,11 +24,11 @@ export default function Sources() {
 
     return (
         <div className="space-y-6">
-            <div>
-                <h1 className="text-2xl font-bold text-gray-900 font-sans">Data Sources</h1>
-                <p className="text-gray-500 text-sm mt-1">
-                    Projects and datasets integrated into the platform
-                </p>
+            <div className="flex justify-between items-center">
+                <div>
+                    <h1 className="text-2xl font-bold text-gray-900 font-sans">Data Sources / Research Projects / Collaborators</h1>
+                    <p className="text-gray-500 mt-1">Research projects and data sources powering the knowledge graph.</p>
+                </div>
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

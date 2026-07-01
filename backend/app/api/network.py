@@ -6,7 +6,9 @@ from app.schemas.network import NetworkData
 router = APIRouter()
 
 @router.get("/", response_model=NetworkData)
-async def get_network_graph(source: Optional[str] = Query(None, description="Filter by data source ID")):
+async def get_network_graph(
+    source: Optional[str] = Query(None, description="Filter by data source ID")
+):
     """
     Get nodes and edges for network visualization.
     """

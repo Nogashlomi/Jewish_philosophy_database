@@ -189,21 +189,24 @@ ORDER BY ?title
 # --- GEOJSON ---
 
 GET_GEO_JSON = PREFIXES + """
-SELECT DISTINCT ?person ?personLabel ?placeLabel ?lat ?long ?bucketLabel ?placeType
+SELECT DISTINCT ?person ?personLabel ?placeLabel ?lat ?long ?bucketLabel ?placeType ?sourceLabel
 WHERE {{
     ?person a jp:HistoricalPerson ;
             rdfs:label ?personLabel ;
             jp:hasPlaceRelation ?pr .
     {search_filter}
     
+    OPTIONAL {{
+        ?person jp:hasSource ?source .
+        ?source rdfs:label ?sourceLabel .
+    }}
+
     ?pr jp:relatedPlace ?place .
     OPTIONAL {{ ?pr jp:placeType ?placeType }}
     
-    ?place rdfs:label ?placeLabel .
-    ?coordPlace a jp:Place ;
-                rdfs:label ?placeLabel ;
-                jp:latitude ?lat ;
-                jp:longitude ?long .
+    ?place rdfs:label ?placeLabel ;
+           jp:latitude ?lat ;
+           jp:longitude ?long .
            
     # Time data from TimeBucket
     OPTIONAL {{
@@ -212,6 +215,25 @@ WHERE {{
         ?bucket jp:bucketLabel ?bucketLabel .
     }}
 }}
+"""
+
+GET_TRANSLATION_FLOWS = PREFIXES + """
+SELECT DISTINCT ?translator ?translatorLabel ?translatorLat ?translatorLong ?author ?authorLabel ?authorLat ?authorLong
+WHERE {
+    ?translator jp:translated ?author .
+    
+    ?translator rdfs:label ?translatorLabel ;
+                jp:hasPlaceRelation ?tpr .
+    ?tpr jp:relatedPlace ?tp .
+    ?tp jp:latitude ?translatorLat ;
+        jp:longitude ?translatorLong .
+        
+    ?author rdfs:label ?authorLabel ;
+            jp:hasPlaceRelation ?apr .
+    ?apr jp:relatedPlace ?ap .
+    ?ap jp:latitude ?authorLat ;
+        jp:longitude ?authorLong .
+}
 """
 
 # --- LANGUAGES ---
@@ -265,7 +287,10 @@ WHERE {{
     FILTER (?p IN (
         jp:writtenBy, 
         jp:hasSubject, 
-        jp:hasLanguage
+        jp:hasLanguage,
+        jp:translated,
+        jp:isTranslationOf,
+        <http://schema.org/author>
     ))
     
 }}

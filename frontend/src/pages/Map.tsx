@@ -34,6 +34,7 @@ interface GeoJSONFeature {
         place_label: string
         type: string
         bucket: string | null
+        source: string
     }
 }
 
@@ -46,6 +47,19 @@ interface GeoJSONResponse {
 const fetchGeoJSON = async (source?: string | null) => {
     const params = source ? { source } : {}
     const { data } = await api.get<GeoJSONResponse>('/geojson', { params })
+    return data
+}
+
+interface TranslationFlow {
+    translator_id: string;
+    translator_label: string;
+    author_id: string;
+    author_label: string;
+    path: [number, number][];
+}
+
+const fetchTranslationFlows = async () => {
+    const { data } = await api.get<TranslationFlow[]>('/places/translations/flows')
     return data
 }
 
@@ -66,6 +80,13 @@ export default function MapView() {
     const { data, isLoading, error } = useQuery({
         queryKey: ['map-geojson', source],
         queryFn: () => fetchGeoJSON(source),
+        staleTime: Infinity,
+        gcTime: Infinity
+    })
+
+    const { data: translationFlows } = useQuery({
+        queryKey: ['map-translation-flows'],
+        queryFn: fetchTranslationFlows,
         staleTime: Infinity,
         gcTime: Infinity
     })
@@ -101,6 +122,8 @@ export default function MapView() {
 
     const [selectedYear, setSelectedYear] = useState<number>(1100);
     const [showConnections, setShowConnections] = useState(false);
+    const [showTranslationFlows, setShowTranslationFlows] = useState(false);
+    const [colorBySource, setColorBySource] = useState(false);
 
     // Make sure selectedYear is updated if it's out of bounds when data loads
     useMemo(() => {
@@ -110,8 +133,8 @@ export default function MapView() {
     }, [bucketsList]);
 
     // Group features by place for the selected bucket
-    const { groupedPlaces, connections } = useMemo(() => {
-        if (!data) return { groupedPlaces: [], connections: [] };
+    const { groupedPlaces, connections, activePersonIds } = useMemo(() => {
+        if (!data) return { groupedPlaces: [], connections: [], activePersonIds: [] };
 
         const bucketStrPrefix = `${selectedYear}-`;
 
@@ -124,7 +147,8 @@ export default function MapView() {
         const placeMap = new Map<string, {
             label: string,
             coords: [number, number],
-            persons: Map<string, string> // id -> label
+            persons: Map<string, string>, // id -> label
+            sources: Set<string>
         }>();
 
         // Also track which places a person is at for connections
@@ -137,11 +161,15 @@ export default function MapView() {
                 placeMap.set(placeKey, {
                     label: f.properties.place_label,
                     coords: [f.geometry.coordinates[1], f.geometry.coordinates[0]], // Leaflet expects [lat, lng]
-                    persons: new Map()
+                    persons: new Map(),
+                    sources: new Set()
                 });
             }
             const p = placeMap.get(placeKey)!;
             p.persons.set(f.properties.person_id, f.properties.person_label);
+            if (f.properties.source) {
+                p.sources.add(f.properties.source);
+            }
 
             // Add to person places
             if (!personPlaces.has(f.properties.person_id)) {
@@ -166,9 +194,19 @@ export default function MapView() {
 
         return {
             groupedPlaces: Array.from(placeMap.values()),
-            connections: conns
+            connections: conns,
+            activePersonIds: Array.from(personPlaces.keys())
         };
     }, [data, selectedYear]);
+
+    const activeTranslationFlows = useMemo(() => {
+        if (!translationFlows || !data) return [];
+        const activePersons = new Set(activePersonIds);
+        return translationFlows.filter(flow => 
+            activePersons.has(flow.translator_id) || activePersons.has(flow.author_id)
+        );
+    }, [translationFlows, activePersonIds]);
+
 
 
     if (isLoading) return <div className="flex justify-center p-8"><Loader2 className="h-8 w-8 animate-spin text-indigo-500" /></div>
@@ -188,6 +226,18 @@ export default function MapView() {
                             Time Bucket: <span className="text-indigo-600 tabular-nums ml-2">{selectedYear} - {selectedYear + 49}</span>
                         </label>
                         <div className="ml-auto flex items-center gap-4">
+                            <button 
+                                onClick={() => setColorBySource(!colorBySource)}
+                                className={`text-sm px-3 py-1.5 rounded-md font-medium transition-colors ${colorBySource ? 'bg-pink-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                            >
+                                {colorBySource ? "Stop Coloring by Source" : "Color by Source"}
+                            </button>
+                            <button 
+                                onClick={() => setShowTranslationFlows(!showTranslationFlows)}
+                                className={`text-sm px-3 py-1.5 rounded-md font-medium transition-colors ${showTranslationFlows ? 'bg-orange-500 text-white' : 'bg-orange-100 text-orange-700 hover:bg-orange-200'}`}
+                            >
+                                {showTranslationFlows ? "Hide Translation Flows" : "Show Translation Flows"}
+                            </button>
                             <button 
                                 onClick={() => setShowConnections(!showConnections)}
                                 className={`text-sm px-3 py-1.5 rounded-md font-medium transition-colors ${showConnections ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
@@ -219,6 +269,28 @@ export default function MapView() {
                     <p className="text-xs text-gray-500 mt-6 font-serif italic text-center">
                         Showing grouped places for people active between {selectedYear} and {selectedYear + 49}.
                     </p>
+
+                    {/* Color Index Legend */}
+                    {colorBySource && (
+                        <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm font-sans font-medium text-gray-700 bg-gray-50 py-3 rounded-lg border border-gray-100">
+                            <div className="flex items-center gap-2">
+                                <span className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: '#3498db' }}></span> 
+                                General List
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <span className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: '#2ecc71' }}></span> 
+                                Zonta Table
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <span className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: '#9b59b6' }}></span> 
+                                Mixed Sources
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <span className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: '#f1c40f' }}></span> 
+                                Other
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
 
@@ -240,10 +312,38 @@ export default function MapView() {
                         />
                     ))}
 
+                    {/* Render Translation Flows */}
+                    {showTranslationFlows && activeTranslationFlows.map((flow, idx) => (
+                        <Polyline 
+                            key={`tflow-${idx}`} 
+                            positions={flow.path} 
+                            pathOptions={{ color: '#f97316', weight: 3, opacity: 0.8, dashArray: '8, 8' }} 
+                        >
+                            <Popup>
+                                <div className="font-serif text-sm">
+                                    <Link to={`/persons/${flow.translator_id}`} className="font-bold text-indigo-600 hover:underline">{flow.translator_label}</Link> 
+                                    {' '}translated{' '} 
+                                    <Link to={`/persons/${flow.author_id}`} className="font-bold text-indigo-600 hover:underline">{flow.author_label}</Link>
+                                </div>
+                            </Popup>
+                        </Polyline>
+                    ))}
+
                     {/* Render Grouped Places */}
                     {groupedPlaces.map((place, idx) => {
                         const personCount = place.persons.size;
-                        const color = '#e74c3c';
+                        
+                        let color = '#e74c3c'; // Default Red
+                        if (colorBySource) {
+                            if (place.sources.size > 1) {
+                                color = '#9b59b6'; // Purple for mixed
+                            } else if (place.sources.size === 1) {
+                                const s = Array.from(place.sources)[0].toLowerCase();
+                                if (s.includes('zonta')) color = '#2ecc71'; // Green
+                                else if (s.includes('general')) color = '#3498db'; // Blue
+                                else color = '#f1c40f'; // Yellow for other singular source
+                            }
+                        }
 
                         return (
                             <CircleMarker

@@ -2,9 +2,15 @@ import api from './api'
 import type { PersonList, WorkList, PlaceList, SubjectList, LanguageList, PersonDetail, PaginatedResponse } from '../types/entity'
 
 export const entityService = {
-    getPersons: async (page: number = 1, page_size: number = 100, source?: string) => {
-        const url = source ? `/persons/?page=${page}&page_size=${page_size}&source=${source}` : `/persons/?page=${page}&page_size=${page_size}`
-        const response = await api.get<PaginatedResponse<PersonList>>(url)
+    getPersons: async (page: number = 1, page_size: number = 100, source?: string, search?: string) => {
+        const params = new URLSearchParams({
+            page: page.toString(),
+            page_size: page_size.toString()
+        });
+        if (source) params.append('source', source);
+        if (search) params.append('search', search);
+        
+        const response = await api.get<PaginatedResponse<PersonList>>(`/persons/?${params.toString()}`)
         return response.data
     },
     getWorks: async (page: number = 1, page_size: number = 100) => {
@@ -43,10 +49,12 @@ export const entityService = {
         const response = await api.get<any>(`/languages/${id}`)
         return response.data
     },
-        getNetworkData: async (source?: string) => {
-        const url = source ? `/network/?source=${source}` : `/network/`
-        const response = await api.get<any>(url)
-        return response.data
+    getNetworkData: async (source?: string, bucket?: string): Promise<any> => {
+        const params: Record<string, string> = {};
+        if (source) params.source = source;
+        if (bucket) params.bucket = bucket;
+        const response = await api.get('/network/', { params });
+        return response.data;
     },
     getSources: async () => {
         const response = await api.get<any[]>('/sources/')

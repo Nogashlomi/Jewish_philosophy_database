@@ -1,4 +1,5 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { useSearchParams } from 'react-router-dom';
 import { SourceFilter } from '../components/SourceFilter';
@@ -107,12 +108,17 @@ function Pagination({ page, totalPages, onPageChange }: { page: number, totalPag
 }
 
 export default function Persons() {
-    const [persons, setPersons] = useState<PersonList[]>([]);
-    const [total, setTotal] = useState(0);
-    const [totalPages, setTotalPages] = useState(1);
-    const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
+    const [debouncedSearch, setDebouncedSearch] = useState('');
     const [page, setPage] = useState(1);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setDebouncedSearch(searchTerm);
+            setPage(1); // Reset to page 1 on new search
+        }, 300);
+        return () => clearTimeout(timer);
+    }, [searchTerm]);
 
     const [searchParams, setSearchParams] = useSearchParams();
     const source = searchParams.get('source');
@@ -127,29 +133,15 @@ export default function Persons() {
         setPage(1); // Reset page on source change
     };
 
+    const { data, isLoading: loading } = useQuery({
+        queryKey: ['persons', page, source, debouncedSearch],
+        queryFn: () => entityService.getPersons(page, PAGE_SIZE, source || undefined, debouncedSearch || undefined),
+        staleTime: 60000, // 1 minute
+    });
 
-    const fetchPersons = useCallback(async () => {
-        setLoading(true);
-        try {
-            const data = await entityService.getPersons(page, PAGE_SIZE, source || undefined);
-            setPersons(data.items);
-            setTotal(data.total);
-            setTotalPages(data.total_pages);
-        } catch (error) {
-            console.error("Failed to fetch persons", error);
-        } finally {
-            setLoading(false);
-        }
-    }, [page, source]);
-
-    useEffect(() => {
-        fetchPersons();
-    }, [fetchPersons]);
-
-    // Client-side search within the current page
-    const filteredPersons = persons.filter(person =>
-        person.label.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const persons = data?.items || [];
+    const total = data?.total || 0;
+    const totalPages = data?.total_pages || 1;
 
     const columns: ColumnDef<PersonList>[] = [
         {
@@ -208,8 +200,8 @@ export default function Persons() {
             </div>
 
             <div className="bg-white rounded-lg shadow overflow-hidden">
-                <DataTable columns={columns} data={filteredPersons} />
-                <Pagination page={page} totalPages={totalPages} onPageChange={(p) => { setPage(p); setSearchTerm(''); }} />
+                <DataTable columns={columns} data={persons} />
+                <Pagination page={page} totalPages={totalPages} onPageChange={(p) => { setPage(p); }} />
             </div>
         </div>
     )

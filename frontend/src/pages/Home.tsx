@@ -14,19 +14,16 @@ export default function Home() {
 
         { label: "Subjects", count: stats?.subjects, path: "/subjects" },
         { label: "Languages", count: stats?.languages, path: "/languages" },
-        { label: "Data Sources / Research Projects", count: stats?.sources, path: "/sources" }
+        { label: "Data Sources / Research Projects / Collaborators", count: stats?.sources, path: "/sources" }
     ]
 
     return (
         <div className="h-full flex flex-col justify-center items-center font-serif text-gray-900 max-w-5xl mx-auto px-4 py-8">
             <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
                 <div className="flex-1 space-y-6">
-                    <h2 className="text-2xl font-bold font-sans text-gray-800">About the Project</h2>
+                    <h2 className="text-2xl font-bold font-sans text-gray-800">Mapping Philosophy in Jewish History</h2>
                     <p className="text-gray-600 leading-relaxed text-lg">
-                        Welcome to the Jewish Philosophy Knowledge Graph. This project maps the rich history of Jewish philosophical thought, tracking the movement of historical figures, the works they authored, and the subjects they engaged with across different regions and time periods.
-                    </p>
-                    <p className="text-gray-600 leading-relaxed text-lg">
-                        Explore the interactive map, delve into the network of connections, and discover the diverse data sources that power this platform.
+                        This digital tool traces the intellectual networks of Jewish philosophical thought across history; from ancient sources and medieval traditions to modern reception. It gathers and organizes traces of Jewish engagement with philosophical content by language, chronology, and geography, revealing the intercultural constellations between Jewish intellectual centers and peripheries. The project contributes to a global history of philosophy told from a Jewish perspective.
                     </p>
                 </div>
                 <div className="flex-1 flex flex-col justify-center items-center">

@@ -5,6 +5,7 @@ class NetworkNode(BaseModel):
     id: str
     label: str
     group: str
+    buckets: List[str] = []
 
 class NetworkEdge(BaseModel):
     from_node: str # 'from' is a reserved keyword in Python, using from_node map to 'from' in export if needed

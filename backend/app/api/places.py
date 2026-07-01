@@ -29,3 +29,11 @@ async def get_places_geojson():
     Get all places as a GeoJSON FeatureCollection.
     """
     return entity_service.get_geo_json()
+
+@router.get("/translations/flows", response_model=list)
+async def get_translation_flows():
+    """
+    Get all translation flows between places.
+    """
+    return entity_service.get_translation_flows()
+

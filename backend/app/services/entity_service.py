@@ -8,17 +8,31 @@ from app.schemas.subject import SubjectList, SubjectDetail, SubjectWorkInfo
 from app.schemas.language import LanguageList, LanguageDetail, LanguagePersonInfo
 from app.schemas.network import NetworkData, NetworkNode, NetworkEdge
 from rdflib import URIRef, Literal, BNode
+from rdflib.namespace import OWL
 from app.core import queries
 from app.core.queries import PREFIXES
 
 class EntityService:
+    """
+    Core service class responsible for fetching and transforming RDF graph data 
+    into application-specific schemas (Pydantic models). It acts as the bridge 
+    between the SPARQL queries in `rdf_store` and the REST API.
+    """
 
-    def list_persons(self, page: int = 1, page_size: int = 100, source: str = None) -> Dict[str, Any]:
+    def list_persons(self, page: int = 1, page_size: int = 100, source: str = None, search: str = None) -> Dict[str, Any]:
+        """
+        Retrieves a paginated list of historical persons with optional search filtering.
+        """
         offset = (page - 1) * page_size
         pagination = f"LIMIT {page_size} OFFSET {offset}"
 
+        search_filter = ""
+        if search:
+            safe_search = search.replace('"', '\\"')
+            search_filter = f'FILTER(CONTAINS(LCASE(?label), LCASE("{safe_search}")))'
+
         # Single combined query — persons + birth/death years in one pass
-        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter="")
+        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter=search_filter)
         items = []
         for row in rdf_store.query(q):
             uri = str(row.uri)
@@ -71,8 +85,8 @@ class EntityService:
                 subjects=", ".join(list(set(subjects))) if subjects else None
             ))
 
-        # Get total count (cached after first call)
-        count_q = queries.COUNT_PERSONS.format(search_filter="")
+        # Get total count (cached after first call if no search)
+        count_q = queries.COUNT_PERSONS.format(search_filter=search_filter)
         total = 0
         for row in rdf_store.query(count_q):
             total = int(row.total)
@@ -110,17 +124,6 @@ class EntityService:
                 title=str(row.title)
             ))
             
-        # 4. Scholarly Works about this person
-        scholarly_mentions = []
-        for row in rdf_store.query(queries.GET_PERSON_SCHOLARLY, initBindings={'person': uri}):
-            title = str(row.title) if row.title else str(row.label) if row.label else row.sw.split("#")[-1]
-            scholarly_mentions.append(ScholarlyMention(
-                uri=str(row.sw),
-                id=row.sw.split("#")[-1],
-                title=title,
-                year=str(row.year) if row.year else None
-            ))
-
         # 5. Place Relations
         places_map = {}
         for row in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri}):
@@ -183,7 +186,6 @@ class EntityService:
             uri=str(uri),
             label=str(label),
             works=authored_works,
-            scholarly=scholarly_mentions,
             places=places,
             times=times,
             time_buckets=time_buckets,
@@ -281,7 +283,6 @@ class EntityService:
             p_type = str(row.type).lower() if row.type else ""
             key = f"{p_id}_{p_type}"
             if key not in places_map:
-                from app.schemas.person import PlaceRelation
                 places_map[key] = PlaceRelation(
                     place_uri=str(row.place),
                     place_id=p_id,
@@ -299,7 +300,6 @@ class EntityService:
             if start or end:
                 key = f"{rel_type.lower()}_{start}_{end}"
                 if key not in times_map:
-                    from app.schemas.person import TimeRelation
                     times_map[key] = TimeRelation(
                         type=rel_type,
                         start=start,
@@ -319,7 +319,7 @@ class EntityService:
         )
 
     
-    def list_places(self, ) -> List[PlaceList]:
+    def list_places(self) -> List[PlaceList]:
         # For places, we filter by the people/works associated with the place in the source?
         # Or does the place itself have a source?
         # The query LIST_PLACES joins with optional person.
@@ -381,7 +381,7 @@ class EntityService:
 
     # --- SUBJECTS ---
 
-    def list_subjects(self, ) -> List[SubjectList]:
+    def list_subjects(self) -> List[SubjectList]:
         q = queries.LIST_SUBJECTS.format(search_filter="")
 
         results = []
@@ -446,7 +446,7 @@ class EntityService:
 
 
     # --- Languages ---
-    def list_languages(self, ) -> List[LanguageList]:
+    def list_languages(self) -> List[LanguageList]:
         q = queries.LIST_LANGUAGES.format(search_filter="")
         results = []
         for row in rdf_store.query(q):
@@ -486,12 +486,22 @@ class EntityService:
         edges = []
 
         def mk_id(uri): return uri.strip("/").split("/")[-1].split("#")[-1]
+        
+        person_buckets = {}
+        q_all_buckets = "SELECT ?person ?b_lbl WHERE { ?person jp:hasTimeRelation ?tr . ?tr jp:inTimeBucket ?b . ?b jp:bucketLabel ?b_lbl }"
+        for row in rdf_store.query(queries.PREFIXES + q_all_buckets):
+            pid = mk_id(row.person)
+            blbl = str(row.b_lbl)
+            if pid not in person_buckets:
+                person_buckets[pid] = []
+            person_buckets[pid].append(blbl)
 
         # 1. Nodes - Get source-filtered entities (persons, works, etc.)
         sf_nodes = self._get_source_filter(source, "s")
         q_nodes = queries.GET_NETWORK_NODES.format(search_filter=sf_nodes)
 
         node_ids = set()
+        node_types = {}
 
         for row in rdf_store.query(q_nodes):
             nid = mk_id(row.s)
@@ -505,10 +515,14 @@ class EntityService:
             nodes.append(NetworkNode(
                 id=nid,
                 label=str(label),
-                group=etype
+                group=etype,
+                buckets=person_buckets.get(nid, []) if etype == 'HistoricalPerson' else []
             ))
-            node_ids.add(mk_id(row.s)) # Use mk_id for safe checking
+            node_ids.add(nid)
+            node_types[nid] = etype
 
+        # Dictionary to map Person ID -> set of connected non-person entity IDs
+        person_connections = {}
 
         # 2. Edges
         sf_edges = "" # No source filter on edges query for now, relies on node filtering
@@ -519,6 +533,16 @@ class EntityService:
             o_id = mk_id(row.o)
             if s_id in node_ids and o_id in node_ids:
                 edges.append({"from": s_id, "to": o_id})
+                
+                # Track for cross connections
+                if node_types.get(s_id) == 'HistoricalPerson':
+                    if s_id not in person_connections:
+                        person_connections[s_id] = set()
+                    person_connections[s_id].add(o_id)
+                elif node_types.get(o_id) == 'HistoricalPerson':
+                    if o_id not in person_connections:
+                        person_connections[o_id] = set()
+                    person_connections[o_id].add(s_id)
 
         q_places = queries.GET_NETWORK_EDGES_PLACES.format()
         for row in rdf_store.query(q_places):
@@ -538,7 +562,35 @@ class EntityService:
                         
                     ))
                     node_ids.add(pl_id)
+                    node_types[pl_id] = "Place"
+                    
                 edges.append({"from": p_id, "to": pl_id})
+                
+                # Track for cross connections
+                if p_id not in person_connections:
+                    person_connections[p_id] = set()
+                person_connections[p_id].add(pl_id)
+
+        # 3. Generate implicit cross-connections (e.g. Place <-> Subject via Person)
+        existing_edges = set()
+        for edge in edges:
+            t = tuple(sorted([edge['from'], edge['to']]))
+            existing_edges.add(t)
+
+        for p_id, connected_entities in person_connections.items():
+            ent_list = list(connected_entities)
+            for i in range(len(ent_list)):
+                for j in range(i + 1, len(ent_list)):
+                    e1 = ent_list[i]
+                    e2 = ent_list[j]
+                    # Only cross-connect if neither is a Person just to be safe
+                    if node_types.get(e1) != 'HistoricalPerson' and node_types.get(e2) != 'HistoricalPerson':
+                        t = tuple(sorted([e1, e2]))
+                        if t not in existing_edges:
+                            edges.append({"from": e1, "to": e2, "dashes": True})
+                            existing_edges.add(t)
+
+
 
         return NetworkData(nodes=nodes, edges=edges)
 
@@ -609,7 +661,8 @@ class EntityService:
                         "person_label": str(row.personLabel),
                         "place_label": str(row.placeLabel),
                         "type": str(row.placeType) if getattr(row, 'placeType', None) else "Unknown",
-                        "bucket": bucket_label
+                        "bucket": bucket_label,
+                        "source": str(row.sourceLabel) if getattr(row, 'sourceLabel', None) else "Unknown"
                     }
                 })
             except (ValueError, TypeError):
@@ -619,6 +672,31 @@ class EntityService:
             "type": "FeatureCollection",
             "features": features
         }
+
+    def get_translation_flows(self) -> List[Dict[str, Any]]:
+        """
+        Return a list of translation flows between places for map visualization.
+        """
+        q = queries.GET_TRANSLATION_FLOWS
+        flows = []
+        for row in rdf_store.query(q):
+            try:
+                t_lat = float(row.translatorLat)
+                t_long = float(row.translatorLong)
+                a_lat = float(row.authorLat)
+                a_long = float(row.authorLong)
+                
+                flows.append({
+                    "translator_id": row.translator.split("#")[-1],
+                    "translator_label": str(row.translatorLabel),
+                    "author_id": row.author.split("#")[-1],
+                    "author_label": str(row.authorLabel),
+                    "path": [[t_lat, t_long], [a_lat, a_long]]
+                })
+            except (ValueError, TypeError):
+                continue
+        return flows
+
 
     def get_ontology_graph(self) -> Dict[str, Any]:
         """
@@ -641,8 +719,6 @@ class EntityService:
             classes.add(uri)
             
         # 2. Properties -> Edges
-        from rdflib import BNode, URIRef
-        from rdflib.namespace import OWL, RDF
 
         def get_class_uris(node):
             if isinstance(node, URIRef):
