@@ -152,17 +152,7 @@ jp:hasSource a owl:ObjectProperty ;
 #######################################################################
 
 
-jp:workID a owl:DatatypeProperty ;
-    rdfs:label "Work ID" ;
-    rdfs:domain jp:HistoricalWork ;
-    rdfs:range xsd:string ;
-    rdfs:comment "Unique internal identifier for a historical work, e.g., W_001." .
 
-jp:title a owl:DatatypeProperty ;
-    rdfs:label "title" ;
-    rdfs:domain jp:HistoricalWork ;
-    rdfs:range xsd:string ;
-    rdfs:comment "A human-readable title of a historical or scholarly work." .
 
 
 
@@ -223,7 +213,7 @@ jp:longitude a owl:DatatypeProperty ;
 
 
 
-# Note: jp:publisher (string) and jp:title (string) are already defined.
+# Note: jp:publisher (string) is already defined.
 
 #######################################################################
 # END OF VOCABULARY
@@ -282,3 +272,16 @@ jp:timeUntil a owl:DatatypeProperty ;
     rdfs:domain jp:TimeData ;
     rdfs:range xsd:integer ;
     rdfs:comment "End year." .
+
+jp:translated a owl:ObjectProperty ;
+    rdfs:label "translated" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates that this person translated the work of another person." .
+
+jp:isTranslationOf a owl:ObjectProperty ;
+    rdfs:label "is translation of" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range jp:HistoricalWork ;
+    rdfs:comment "Indicates that this work is a translation of another work." .
+
