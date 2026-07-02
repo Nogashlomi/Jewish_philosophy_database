@@ -10,6 +10,7 @@ class RDFStore:
         self.store_path = store_path
         self.g = None
         self._cache = {}  # query_str -> list of result rows
+        self._compiled_queries = {} # query_str -> compiled query object
         self._init_graph()
 
     def _init_graph(self):
@@ -65,6 +66,7 @@ class RDFStore:
 
         print(f"\n✓ Graph loaded with {len(self.g)} triples from {loaded_count}/{len(ttl_files)} files.")
         self._cache.clear()  # Invalidate cache after reload
+        self._compiled_queries.clear()
         print("✓ Query cache cleared.")
         print("=== RDF Data Loading Complete ===\n")
 
@@ -74,7 +76,17 @@ class RDFStore:
             if query_str not in self._cache:
                 self._cache[query_str] = list(self.g.query(query_str))
             return self._cache[query_str]
-        return self.g.query(query_str, **kwargs)
+            
+        # For queries with bindings, use compiled queries to avoid re-parsing overhead
+        from rdflib.plugins.sparql import prepareQuery
+        if query_str not in self._compiled_queries:
+            try:
+                self._compiled_queries[query_str] = prepareQuery(query_str)
+            except Exception as e:
+                print(f"Warning: Failed to compile query: {e}")
+                return self.g.query(query_str, **kwargs)
+                
+        return self.g.query(self._compiled_queries[query_str], **kwargs)
 
     def close(self):
         if self.store_type == "Sleepycat":
