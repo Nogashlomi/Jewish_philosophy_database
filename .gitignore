@@ -21,5 +21,4 @@ uvicorn.log
 .vite/
 
 # Data files
-data/general_list.ttl
 data/*.csv
