@@ -274,7 +274,8 @@ SELECT ?s ?label ?type ?source
 WHERE {{
     ?s a ?type .
     OPTIONAL {{ ?s rdfs:label ?label }}
-    
+    OPTIONAL {{ ?s jp:hasSource ?source }}
+    {search_filter}
     FILTER (?type IN (jp:HistoricalPerson, jp:HistoricalWork, jp:Place, jp:Subject, jp:Language))
     
 }}
@@ -338,6 +339,14 @@ WHERE {{
     ?uri a jp:Source .
     OPTIONAL {{ ?uri rdfs:label ?label }}
 }}
+"""
+
+# List sources with counts
+LIST_SOURCES = PREFIXES + """
+SELECT ?source ?label (COUNT(DISTINCT ?s) AS ?total) WHERE {
+    ?s jp:hasSource ?source .
+    OPTIONAL { ?source rdfs:label ?label }
+} GROUP BY ?source ?label ORDER BY ?label
 """
 
 # --- STATS ---

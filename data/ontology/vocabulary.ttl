@@ -94,6 +94,14 @@ jp:hasSubject a owl:ObjectProperty ;
     rdfs:comment "Associates a historical work with its subject or topical classification." .
 
 
+# Reverse link: a subject is associated with a historical person
+jp:isSubjectOf a owl:ObjectProperty ;
+    rdfs:label "is subject of" ;
+    rdfs:domain jp:Subject ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Links a subject back to the historical person it pertains to." ;
+    owl:inverseOf jp:hasSubject .
+
 
 
 
@@ -217,6 +225,12 @@ jp:longitude a owl:DatatypeProperty ;
 
 #######################################################################
 # END OF VOCABULARY
+# New property linking HistoricalPerson to their HistoricalWork
+jp:hasWrittenWork a owl:ObjectProperty ;
+    rdfs:label "has written work" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:HistoricalWork ;
+    owl:inverseOf jp:writtenBy .
 #######################################################################
 
 jp:hasLanguage a owl:ObjectProperty ;

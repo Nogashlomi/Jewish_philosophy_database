@@ -1,0 +1,391 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+# Places
+jp:Place_Heraklion_Candia a jp:Place ;
+    rdfs:label "Heraklion (Candia)"^^xsd:string ;
+    jp:hasRelation "Birthplace of Delmedigo"^^xsd:string ;
+    geo:lat "35.3387"^^xsd:float ;
+    geo:long "25.1442"^^xsd:float .
+
+jp:Place_Padua a jp:Place ;
+    rdfs:label "Padua"^^xsd:string ;
+    jp:hasRelation "University studies in medicine, natural philosophy, and law"^^xsd:string .
+
+jp:Place_Alexandria a jp:Place ;
+    rdfs:label "Alexandria"^^xsd:string ;
+    jp:hasRelation "Travel destination"^^xsd:string .
+
+jp:Place_Cairo a jp:Place ;
+    rdfs:label "Cairo"^^xsd:string ;
+    jp:hasRelation "Travel destination"^^xsd:string .
+
+jp:Place_Istanbul a jp:Place ;
+    rdfs:label "Istanbul"^^xsd:string ;
+    jp:hasRelation "Travel destination"^^xsd:string .
+
+jp:Place_Eastern_Europe a jp:Place ;
+    rdfs:label "Eastern Europe"^^xsd:string ;
+    jp:hasRelation "Travel region"^^xsd:string ;
+    geo:lat "50"^^xsd:float ;
+    geo:long "30"^^xsd:float .
+
+jp:Place_Lithuania a jp:Place ;
+    rdfs:label "Lithuania"^^xsd:string ;
+    jp:hasRelation "Served as physician to Prince Janusz Radziwiłł"^^xsd:string ;
+    geo:lat "55.17"^^xsd:float ;
+    geo:long "23.89"^^xsd:float .
+
+jp:Place_Hamburg a jp:Place ;
+    rdfs:label "Hamburg"^^xsd:string ;
+    jp:hasRelation "Served as physician to the Jewish community"^^xsd:string ;
+    geo:lat "53.5511"^^xsd:float ;
+    geo:long "9.9937"^^xsd:float .
+
+jp:Place_Amsterdam a jp:Place ;
+    rdfs:label "Amsterdam"^^xsd:string ;
+    jp:hasRelation "Published Sefer Elim"^^xsd:string ;
+    geo:lat "52.374"^^xsd:float ;
+    geo:long "4.8897"^^xsd:float .
+
+jp:Place_Frankfurt_am_Main a jp:Place ;
+    rdfs:label "Frankfurt am Main"^^xsd:string ;
+    jp:hasRelation "Served as community physician"^^xsd:string ;
+    geo:lat "50.1106"^^xsd:float ;
+    geo:long "8.6822"^^xsd:float .
+
+jp:Place_Prague a jp:Place ;
+    rdfs:label "Prague"^^xsd:string ;
+    jp:hasRelation "Served as community physician and passed away"^^xsd:string ;
+    geo:lat "50.0755"^^xsd:float ;
+    geo:long "14.4378"^^xsd:float .
+
+# Connections to Joseph Solomon Delmedigo
+
+# Place relations
+jp:DelmedigoPlaceRel_Heraklion a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Heraklion_Candia .
+
+jp:DelmedigoPlaceRel_Padua a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Padua .
+
+jp:DelmedigoPlaceRel_Alexandria a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Alexandria .
+
+jp:DelmedigoPlaceRel_Cairo a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Cairo .
+
+jp:DelmedigoPlaceRel_Istanbul a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Istanbul .
+
+jp:DelmedigoPlaceRel_Eastern_Europe a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Eastern_Europe .
+
+jp:DelmedigoPlaceRel_Lithuania a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Lithuania .
+
+jp:DelmedigoPlaceRel_Hamburg a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Hamburg .
+
+jp:DelmedigoPlaceRel_Amsterdam a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Amsterdam .
+
+jp:DelmedigoPlaceRel_Frankfurt_am_Main a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Frankfurt_am_Main .
+
+jp:DelmedigoPlaceRel_Prague a jp:PlaceRelation ;
+    jp:placeType "associated"^^xsd:string ;
+    jp:relatedPlace jp:Place_Prague .
+
+# Subject relations
+jp:Person_Joseph_Solomon_Delmedigo jp:hasSubject jp:Subject_Astronomy ;
+    jp:hasSubject jp:Subject_Cosmology ;
+    jp:hasSubject jp:Subject_Medicine ;
+    jp:hasSubject jp:Subject_Anatomy ;
+    jp:hasSubject jp:Subject_Natural_Philosophy ;
+    jp:hasSubject jp:Subject_Geometry ;
+    jp:hasSubject jp:Subject_Mathematics ;
+    jp:hasSubject jp:Subject_Jewish_Theology ;
+    jp:hasSubject jp:Subject_Talmudic_Law ;
+    jp:hasSubject jp:Subject_Halakha ;
+    jp:hasSubject jp:Subject_Kabbalah ;
+    jp:hasSubject jp:Subject_Alchemy ;
+    jp:hasSubject jp:Subject_Metallurgy ;
+    jp:hasSubject jp:Subject_Aristotelianism ;
+    jp:hasSubject jp:Subject_Heliocentrism ;
+    jp:hasSubject jp:Subject_Geocentrism ;
+    jp:hasSubject jp:Subject_Skepticism ;
+    jp:hasSubject jp:Subject_Telescopic_Observation ;
+    jp:hasSubject jp:Subject_Epistolary_Scientific_Writing .
+
+# Place relations linking the person
+jp:Person_Joseph_Solomon_Delmedigo jp:hasPlaceRelation jp:DelmedigoPlaceRel_Heraklion ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Padua ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Alexandria ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Cairo ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Istanbul ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Eastern_Europe ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Lithuania ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Hamburg ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Amsterdam ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Frankfurt_am_Main ;
+    jp:hasPlaceRelation jp:DelmedigoPlaceRel_Prague .
+
+# Topics
+jp:Subject_Astronomy a jp:Subject ;
+    rdfs:label "Astronomy"^^xsd:string ;
+    jp:hasDescription "Core scientific discipline in Delmedigo's works"^^xsd:string .
+
+jp:Subject_Cosmology a jp:Subject ;
+    rdfs:label "Cosmology"^^xsd:string ;
+    jp:hasDescription "Study of world models (heliocentric vs geocentric)"^^xsd:string .
+
+jp:Subject_Medicine a jp:Subject ;
+    rdfs:label "Medicine"^^xsd:string ;
+    jp:hasDescription "Delmedigo's primary profession"^^xsd:string .
+
+jp:Subject_Anatomy a jp:Subject ;
+    rdfs:label "Anatomy"^^xsd:string ;
+    jp:hasDescription "Medical study domain"^^xsd:string .
+
+jp:Subject_Natural_Philosophy a jp:Subject ;
+    rdfs:label "Natural Philosophy"^^xsd:string ;
+    jp:hasDescription "Overarching academic field of physical sciences"^^xsd:string .
+
+jp:Subject_Geometry a jp:Subject ;
+    rdfs:label "Geometry"^^xsd:string ;
+    jp:hasDescription "Mathematical basis used for astronomical proofs"^^xsd:string .
+
+jp:Subject_Mathematics a jp:Subject ;
+    rdfs:label "Mathematics"^^xsd:string ;
+    jp:hasDescription "Scientific foundation"^^xsd:string .
+
+jp:Subject_Jewish_Theology a jp:Subject ;
+    rdfs:label "Jewish Theology"^^xsd:string ;
+    jp:hasDescription "Integration of faith and scientific knowledge"^^xsd:string .
+
+jp:Subject_Talmudic_Law a jp:Subject ;
+    rdfs:label "Talmudic Law"^^xsd:string ;
+    jp:hasDescription "Rabbinic scholarship background"^^xsd:string .
+
+jp:Subject_Halakha a jp:Subject ;
+    rdfs:label "Halakha"^^xsd:string ;
+    jp:hasDescription "Jewish legal applications of astronomy"^^xsd:string .
+
+jp:Subject_Kabbalah a jp:Subject ;
+    rdfs:label "Kabbalah"^^xsd:string ;
+    jp:hasDescription "Esoteric mysticism discussed in works like Novelot Chokhmah"^^xsd:string .
+
+jp:Subject_Alchemy a jp:Subject ;
+    rdfs:label "Alchemy"^^xsd:string ;
+    jp:hasDescription "Subject of a misattributed manuscript and empirical skepticism"^^xsd:string .
+
+jp:Subject_Metallurgy a jp:Subject ;
+    rdfs:label "Metallurgy"^^xsd:string ;
+    jp:hasDescription "Practical processes mentioned in Sefer Elim"^^xsd:string .
+
+jp:Subject_Aristotelianism a jp:Subject ;
+    rdfs:label "Aristotelianism"^^xsd:string ;
+    jp:hasDescription "Classical philosophy framework examined and questioned"^^xsd:string .
+
+jp:Subject_Heliocentrism a jp:Subject ;
+    rdfs:label "Heliocentrism"^^xsd:string ;
+    jp:hasDescription "Copernican model introduced to Hebrew readers"^^xsd:string .
+
+jp:Subject_Geocentrism a jp:Subject ;
+    rdfs:label "Geocentrism"^^xsd:string ;
+    jp:hasDescription "Traditional Ptolemaic astronomical system"^^xsd:string .
+
+jp:Subject_Skepticism a jp:Subject ;
+    rdfs:label "Skepticism"^^xsd:string ;
+    jp:hasDescription "Methodological stance toward occult and unverified claims"^^xsd:string .
+
+jp:Subject_Telescopic_Observation a jp:Subject ;
+    rdfs:label "Telescopic Observation"^^xsd:string ;
+    jp:hasDescription "New astronomical methodology using optical instruments"^^xsd:string .
+
+jp:Subject_Epistolary_Scientific_Writing a jp:Subject ;
+    rdfs:label "Epistolary Scientific Writing"^^xsd:string ;
+    jp:hasDescription "Literary style used in Sefer Elim"^^xsd:string .
+
+# Reverse links: each subject points back to Joseph Solomon Delmedigo
+jp:Subject_Astronomy jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Cosmology jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Medicine jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Anatomy jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Natural_Philosophy jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Geometry jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Mathematics jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Jewish_Theology jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Talmudic_Law jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Halakha jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Kabbalah jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Alchemy jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Metallurgy jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Aristotelianism jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Heliocentrism jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Geocentrism jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Skepticism jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Telescopic_Observation jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+jp:Subject_Epistolary_Scientific_Writing jp:isSubjectOf jp:Person_Joseph_Solomon_Delmedigo .
+# Persons (subset)
+jp:Person_Galileo_Galilei a jp:HistoricalPerson ;
+    rdfs:label "Galileo Galilei"^^xsd:string ;
+    jp:hasRelation "Teacher of Delmedigo in Padua"^^xsd:string .
+
+jp:Person_Elia_Delmedigo a jp:HistoricalPerson ;
+    rdfs:label "Elia Delmedigo"^^xsd:string ;
+    jp:hasRelation "Ancestor and 15th-century philosopher in Padua"^^xsd:string .
+
+jp:Person_Janusz_Radziwiłł a jp:HistoricalPerson ;
+    rdfs:label "Janusz Radziwiłł"^^xsd:string ;
+    jp:hasRelation "Lithuanian prince and Delmedigo's employer"^^xsd:string .
+
+jp:Person_Menasseh_ben_Israel a jp:HistoricalPerson ;
+    rdfs:label "Menasseh ben Israel"^^xsd:string ;
+    jp:hasRelation "Publisher and printer of Sefer Elim in Amsterdam"^^xsd:string .
+
+jp:Person_Simone_Luzzatto a jp:HistoricalPerson ;
+    rdfs:label "Simone Luzzatto"^^xsd:string ;
+    jp:hasRelation "Venetian Rabbi who gave approbation to Sefer Elim"^^xsd:string .
+
+jp:Person_Leon_Modena a jp:HistoricalPerson ;
+    rdfs:label "Leon Modena"^^xsd:string ;
+    jp:hasRelation "Venetian Rabbi who gave approbation to Sefer Elim"^^xsd:string .
+
+jp:Person_Zerach_ben_Natan a jp:HistoricalPerson ;
+    rdfs:label "Zerach ben Natan"^^xsd:string ;
+    jp:hasRelation "Karaite scholar whose 82 questions prompted Sefer Elim"^^xsd:string .
+
+jp:Person_Moshe_Metz a jp:HistoricalPerson ;
+    rdfs:label "Moshe Metz"^^xsd:string ;
+    jp:hasRelation "Ashkenazi student mentioned in Sefer Elim"^^xsd:string .
+
+jp:Person_Maimonides a jp:HistoricalPerson ;
+    rdfs:label "Maimonides"^^xsd:string ;
+    jp:hasRelation "Philosophical and theological authority for Delmedigo"^^xsd:string .
+
+jp:Person_Nicolaus_Copernicus a jp:HistoricalPerson ;
+    rdfs:label "Nicolaus Copernicus"^^xsd:string ;
+    jp:hasRelation "Astronomer whose heliocentric model Delmedigo presented"^^xsd:string .
+
+jp:Person_Tycho_Brahe a jp:HistoricalPerson ;
+    rdfs:label "Tycho Brahe"^^xsd:string ;
+    jp:hasRelation "Astronomer whose cosmological model Delmedigo discussed"^^xsd:string .
+
+jp:Person_Andrea_Argoli a jp:HistoricalPerson ;
+    rdfs:label "Andrea Argoli"^^xsd:string ;
+    jp:hasRelation "Paduan astronomer whose Ephemerides tables Delmedigo used"^^xsd:string .
+
+jp:Person_Yaakov_al_Faraji a jp:HistoricalPerson ;
+    rdfs:label "Ya‘akov al-Faraji"^^xsd:string ;
+    jp:hasRelation "Alexandrian rabbi who defended Delmedigo"^^xsd:string .
+
+jp:Person_Avraham_ben_Mordechai_Halevi a jp:HistoricalPerson ;
+    rdfs:label "Avraham ben Mordechai Halevi"^^xsd:string ;
+    jp:hasRelation "Cairene rabbi who criticized and rejected Delmedigo"^^xsd:string .
+
+jp:Person_Yitzchak_Lupis a jp:HistoricalPerson ;
+    rdfs:label "Yitzchak Lupis"^^xsd:string ;
+    jp:hasRelation "Aleppine scholar who admired and modeled his work after Delmedigo"^^xsd:string .
+
+jp:Person_Raphael_Mordechai_Malki a jp:HistoricalPerson ;
+    rdfs:label "Raphael Mordechai Malki"^^xsd:string ;
+    jp:hasRelation "Jerusalem physician/scholar who wrote in a similar style"^^xsd:string .
+
+jp:Person_Tuviah_Cohen a jp:HistoricalPerson ;
+    rdfs:label "Tuviah Cohen"^^xsd:string ;
+    jp:hasRelation "Padua-trained physician who rejected Copernicanism"^^xsd:string .
+
+jp:Person_Yitzchak_Barzilay a jp:HistoricalPerson ;
+    rdfs:label "Yitzchak Barzilay"^^xsd:string ;
+    jp:hasRelation "Intellectual biographer of Delmedigo"^^xsd:string .
+
+jp:Person_David_Ruderman a jp:HistoricalPerson ;
+    rdfs:label "David Ruderman"^^xsd:string ;
+    jp:hasRelation "Historian who emphasized Renaissance synthesis in Delmedigo"^^xsd:string .
+
+jp:Person_Avner_Ben_Zaken a jp:HistoricalPerson ;
+    rdfs:label "Avner Ben-Zaken"^^xsd:string ;
+    jp:hasRelation "Historian who analyzed Eastern reception and esotericism"^^xsd:string .
+
+jp:Person_Nancy_Siraisi a jp:HistoricalPerson ;
+    rdfs:label "Nancy Siraisi"^^xsd:string ;
+    jp:hasRelation "Medical historian who contextualized Paduan epistolary writing"^^xsd:string .
+
+jp:Person_Ian_Maclean a jp:HistoricalPerson ;
+    rdfs:label "Ian Maclean"^^xsd:string ;
+    jp:hasRelation "Historian of early modern medical correspondence"^^xsd:string .
+
+jp:Person_Tzvi_Langermann a jp:HistoricalPerson ;
+    rdfs:label "Tzvi Langermann"^^xsd:string ;
+    jp:hasRelation "Manuscript scholar who examined the alchemy text attribution"^^xsd:string .
+
+jp:Source_Goren_Delmedigo_Paper a jp:Source ;
+    rdfs:label "Goren Delmedigo Paper"^^xsd:string .
+
+# Source connections
+jp:Person_Joseph_Solomon_Delmedigo jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Heraklion_Candia jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Padua jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Alexandria jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Cairo jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Istanbul jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Eastern_Europe jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Lithuania jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Hamburg jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Amsterdam jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Frankfurt_am_Main jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Place_Prague jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+
+jp:Subject_Astronomy jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Cosmology jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Medicine jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Anatomy jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Natural_Philosophy jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Geometry jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Mathematics jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Jewish_Theology jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Talmudic_Law jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Halakha jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Kabbalah jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Alchemy jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Metallurgy jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Aristotelianism jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Heliocentrism jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Geocentrism jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Skepticism jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Telescopic_Observation jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Subject_Epistolary_Scientific_Writing jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+
+jp:Person_Galileo_Galilei jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Elia_Delmedigo jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Janusz_Radziwiłł jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Menasseh_ben_Israel jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Simone_Luzzatto jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Leon_Modena jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Zerach_ben_Natan jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Moshe_Metz jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Maimonides jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Nicolaus_Copernicus jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Tycho_Brahe jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Andrea_Argoli jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Yaakov_al_Faraji jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Avraham_ben_Mordechai_Halevi jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Yitzchak_Lupis jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Nancy_Siraisi jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Ian_Maclean jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+jp:Person_Tzvi_Langermann jp:hasSource jp:Source_Goren_Delmedigo_Paper .
+
+# End of TTL file

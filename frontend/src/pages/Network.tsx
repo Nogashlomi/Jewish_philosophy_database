@@ -61,7 +61,18 @@ export default function Network() {
     const nodeCache = useRef<Map<string, any>>(new Map())
 
     const [showTranslationConnections, setShowTranslationConnections] = useState(false);
-
+    const [searchTerm, setSearchTerm] = useState('');
+    const handleSearch = () => {
+        if (!graphData) return;
+        const term = searchTerm.trim().toLowerCase();
+        const found = graphData.nodes.find((n: any) => n.label && n.label.toLowerCase().includes(term));
+        if (found) {
+            const node = nodeCache.current.get(found.id) || found;
+            const { x = 0, y = 0 } = node;
+            fgRef.current?.centerAt(x, y, 500);
+            fgRef.current?.zoom(2, 500);
+        }
+    };
     // Filters State
     const [selectedTypes, setSelectedTypes] = useState<Record<string, boolean>>({
         HistoricalPerson: true,
@@ -180,8 +191,23 @@ export default function Network() {
                 </div>
                 <div className="ml-auto flex items-center gap-4">
                     {isLoading && <Loader2 className="h-5 w-5 animate-spin text-indigo-500" />}
-                    <SourceFilter selectedSource={source} onChange={handleSourceChange} />
+                <SourceFilter selectedSource={source} onChange={handleSourceChange} />
+                {/* Search input */}
+                <div className="flex items-center gap-2 ml-4">
+                    <input
+                        type="text"
+                        placeholder="Search nodes..."
+                        value={searchTerm}
+                        onChange={e => setSearchTerm(e.target.value)}
+                        onKeyDown={e => { if (e.key === 'Enter') handleSearch(); }}
+                        className="border border-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                    <button
+                        onClick={handleSearch}
+                        className="bg-indigo-600 text-white px-2 py-1 rounded text-sm hover:bg-indigo-700 transition"
+                    >Search</button>
                 </div>
+            </div>
             </div>
 
             <div className="flex flex-1 border border-gray-200 rounded-lg overflow-hidden bg-slate-50 relative">

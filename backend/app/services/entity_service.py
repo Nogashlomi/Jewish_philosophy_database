@@ -500,26 +500,51 @@ class EntityService:
         sf_nodes = self._get_source_filter(source, "s")
         q_nodes = queries.GET_NETWORK_NODES.format(search_filter=sf_nodes)
 
-        node_ids = set()
-        node_types = {}
+        # Temporary collections before filtering
+        temp_nodes = []
+        temp_node_ids = set()
+        temp_node_types = {}
+        temp_node_sources = {}
 
         for row in rdf_store.query(q_nodes):
             nid = mk_id(row.s)
             etype = mk_id(row.type)
             label = row.label or nid
-            # Fix potential source error: check if attribute exists on row
             source_id = None
             if hasattr(row, 'source') and row.source:
                 source_id = mk_id(row.source)
+            temp_nodes.append({'nid': nid, 'etype': etype, 'label': label, 'source_id': source_id})
+            temp_node_ids.add(nid)
+            temp_node_types[nid] = etype
+            temp_node_sources[nid] = source_id
 
-            nodes.append(NetworkNode(
-                id=nid,
-                label=str(label),
-                group=etype,
-                buckets=person_buckets.get(nid, []) if etype == 'HistoricalPerson' else []
-            ))
-            node_ids.add(nid)
-            node_types[nid] = etype
+        # Apply source filter if provided
+        filtered_node_ids = temp_node_ids
+        if source:
+            filtered_node_ids = set()
+            for node in temp_nodes:
+                # Include node if it matches the source or if it has no source (e.g., places)
+                if not node['source_id'] or node['source_id'] == source:
+                    filtered_node_ids.add(node['nid'])
+                    nodes.append(NetworkNode(
+                        id=node['nid'],
+                        label=str(node['label']),
+                        group=node['etype'],
+                        buckets=person_buckets.get(node['nid'], []) if node['etype'] == 'HistoricalPerson' else []
+                    ))
+        else:
+            # No source filter, include all nodes
+            for node in temp_nodes:
+                nodes.append(NetworkNode(
+                    id=node['nid'],
+                    label=str(node['label']),
+                    group=node['etype'],
+                    buckets=person_buckets.get(node['nid'], []) if node['etype'] == 'HistoricalPerson' else []
+                ))
+
+        # Update node_ids and node_types based on filtered nodes
+        node_ids = filtered_node_ids
+        node_types = temp_node_types
 
         # Dictionary to map Person ID -> set of connected non-person entity IDs
         person_connections = {}
@@ -604,14 +629,7 @@ class EntityService:
         return f"?{var_name} jp:hasSource <{JP}{source}> ."
 
     def get_sources(self) -> List[dict]:
-        results = []
-        for row in rdf_store.query(queries.GET_SOURCES):
-            results.append({
-                "id": str(row.uri).split("#")[-1],
-                "label": str(row.label) if row.label else str(row.uri).split("#")[-1]
-            })
-        results.sort(key=lambda x: x["label"])
-        return results
+        return self.list_sources()
 
     def get_global_stats(self, source: str = None) -> Dict[str, int]:
         stats_queries = queries.STATS_QUERIES
