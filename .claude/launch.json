@@ -4,13 +4,13 @@
     {
       "name": "Backend (Python)",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd backend && source ../venv/bin/activate && uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload"],
+      "runtimeArgs": ["-c", "cd backend && uv sync && uv run uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload"],
       "port": 8000
     },
     {
       "name": "Frontend (React)",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "cd frontend && npm run dev"],
+      "runtimeArgs": ["-c", "cd frontend && yarn && yarn dev"],
       "port": 5173
     }
   ]
