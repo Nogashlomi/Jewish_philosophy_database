@@ -15,6 +15,9 @@ dist/
 *.log
 app.log
 uvicorn.log
+*.bak
+*_updated.ttl
+
 
 # Vite
 *.local
