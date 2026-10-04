@@ -10,3 +10,7 @@ dist/
 *.local
 .vite/
 .idea
+*.log
+app.log
+uvicorn.log
+*.bak

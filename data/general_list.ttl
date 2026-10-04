@@ -8,7 +8,7 @@ jp:Person_Aaron_Afia a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Aaron_Afia_PlaceRel_Aragon,
         jp:Person_Aaron_Afia_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Logic,
         jp:Subject_Philosophy ;
@@ -29,7 +29,8 @@ jp:Person_Aaron_Hughes a jp:HistoricalPerson ;
     rdfs:label "Aaron Hughes"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Aaron_Hughes_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Neoplatonism ;
     jp:hasTimeRelation jp:Person_Aaron_Hughes_TimeRel ;
     schema1:description "Medieval Jewish Neoplatonism; Ibn Ezra; Judah Halevi; dialogue form; Jewish identity"^^xsd:string .
@@ -38,7 +39,8 @@ jp:Person_Abraham_Abigdor a jp:HistoricalPerson ;
     rdfs:label "Abraham Abigdor"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_Abigdor_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Abraham_Abigdor_TimeRel ;
     schema1:description "Translator of Averroes into Hebrew; medical philosophy"^^xsd:string .
@@ -69,7 +71,8 @@ jp:Person_Abraham_Krochmal a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_Krochmal_PlaceRel_Galicia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Abraham_Krochmal_TimeRel ;
     schema1:description "Son of Nachman Krochmal; Haskalah; editor of philosophical texts"^^xsd:string .
@@ -89,7 +92,8 @@ jp:Person_Alex_Green a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Alex_Green_PlaceRel_Canada,
         jp:Person_Alex_Green_PlaceRel_Toronto ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Alex_Green_TimeRel ;
@@ -99,7 +103,8 @@ jp:Person_Alfred_Ivry a jp:HistoricalPerson ;
     rdfs:label "Alfred Ivry"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Alfred_Ivry_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Alfred_Ivry_TimeRel ;
     schema1:description "Maimonides; Averroes; conjunction theory; medieval Jewish and Islamic philosophy"^^xsd:string .
@@ -109,7 +114,7 @@ jp:Person_Aristobulus_of_Alexandria a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Greek ;
     jp:hasPlaceRelation jp:Person_Aristobulus_of_Alexandria_PlaceRel_Alexandria,
         jp:Person_Aristobulus_of_Alexandria_PlaceRel_Egypt ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Aristobulus_of_Alexandria_TimeRel ;
     schema1:description "Allegorical Torah; earliest Judeo-Greek philosophy"^^xsd:string .
@@ -121,7 +126,7 @@ jp:Person_Aron_Gurwitsch a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Aron_Gurwitsch_PlaceRel_Paris,
         jp:Person_Aron_Gurwitsch_PlaceRel_Vilnius,
         jp:Person_Aron_Gurwitsch_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Aron_Gurwitsch_TimeRel ;
     schema1:description "Phenomenology; field of consciousness; Gestalt"^^xsd:string .
@@ -131,7 +136,8 @@ jp:Person_Arthur_Hyman a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Arthur_Hyman_PlaceRel_USA,
         jp:Person_Arthur_Hyman_PlaceRel_University ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Arthur_Hyman_TimeRel ;
     schema1:description "Medieval Jewish philosophy; Maimonides; history of philosophy; teacher of scholars"^^xsd:string .
@@ -141,7 +147,7 @@ jp:Person_Avi_Sagi a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Avi_Sagi_PlaceRel_Ilan,
         jp:Person_Avi_Sagi_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Avi_Sagi_TimeRel ;
     schema1:description "Jewish identity; existentialist religious philosophy"^^xsd:string .
@@ -150,7 +156,8 @@ jp:Person_Avital_Ravitsky a jp:HistoricalPerson ;
     rdfs:label "Avital Ravitsky"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Avital_Ravitsky_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Logic,
         jp:Subject_Philosophy ;
@@ -162,7 +169,7 @@ jp:Person_Avshalom_Elitzur a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Avshalom_Elitzur_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Avshalom_Elitzur_TimeRel ;
     schema1:description "Philosophy of physics; quantum mechanics; consciousness"^^xsd:string .
@@ -183,7 +190,7 @@ jp:Person_Benjamin_Fondane a jp:HistoricalPerson ;
         jp:Language_Romanian ;
     jp:hasPlaceRelation jp:Person_Benjamin_Fondane_PlaceRel_Paris,
         jp:Person_Benjamin_Fondane_PlaceRel_Romania ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Poetry ;
     jp:hasTimeRelation jp:Person_Benjamin_Fondane_TimeRel ;
@@ -219,7 +226,9 @@ jp:Person_Charles_Manekin a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Charles_Manekin_PlaceRel_Maryland,
         jp:Person_Charles_Manekin_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Logic,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Charles_Manekin_TimeRel ;
@@ -230,7 +239,8 @@ jp:Person_Colette_Sirat a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Colette_Sirat_PlaceRel_EPHE,
         jp:Person_Colette_Sirat_PlaceRel_France ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Colette_Sirat_TimeRel ;
     schema1:description "History of medieval Jewish philosophy; Hebrew manuscripts; Gersonides scholarship"^^xsd:string .
@@ -241,7 +251,7 @@ jp:Person_Constantin_Brunner a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Constantin_Brunner_PlaceRel_Altona,
         jp:Person_Constantin_Brunner_PlaceRel_Berlin,
         jp:Person_Constantin_Brunner_PlaceRel_Hague ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Metaphysics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Constantin_Brunner_TimeRel ;
@@ -252,7 +262,7 @@ jp:Person_Crescas_Vidal a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Crescas_Vidal_PlaceRel_Aragon,
         jp:Person_Crescas_Vidal_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Crescas_Vidal_TimeRel ;
     schema1:description "Philosophy of Jewish law; follower of Crescas"^^xsd:string .
@@ -272,7 +282,8 @@ jp:Person_Daniel_Lasker a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Daniel_Lasker_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Apologetics,
         jp:Subject_Philosophy,
         jp:Subject_Theology,
@@ -285,7 +296,8 @@ jp:Person_David_II_Maimonides a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew,
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_David_II_Maimonides_PlaceRel_Egypt ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_David_II_Maimonides_TimeRel ;
@@ -296,7 +308,8 @@ jp:Person_David_Lemler a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_David_Lemler_PlaceRel_EPHE,
         jp:Person_David_Lemler_PlaceRel_France ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_David_Lemler_TimeRel ;
     schema1:description "Creation in medieval Jewish philosophy; esotericism; Spinoza and Maimonides"^^xsd:string .
@@ -305,7 +318,7 @@ jp:Person_David_Shatz a jp:HistoricalPerson ;
     rdfs:label "David Shatz"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_David_Shatz_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_David_Shatz_TimeRel ;
@@ -325,7 +338,7 @@ jp:Person_David_ben_Yom_Tov_ibn_Bilia a jp:HistoricalPerson ;
     rdfs:label "David ben Yom Tov ibn Bilia"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_David_ben_Yom_Tov_ibn_Bilia_PlaceRel_Portugal ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Poetry ;
     jp:hasTimeRelation jp:Person_David_ben_Yom_Tov_ibn_Bilia_TimeRel ;
@@ -347,7 +360,8 @@ jp:Person_Diana_Di_Segni a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Diana_Di_Segni_PlaceRel_Germany,
         jp:Person_Diana_Di_Segni_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Diana_Di_Segni_TimeRel ;
     schema1:description "Dux neutrorum (Latin Maimonides); Pico della Mirandola and Maimonides; critical editions"^^xsd:string .
@@ -356,7 +370,8 @@ jp:Person_Diana_Lobel a jp:HistoricalPerson ;
     rdfs:label "Diana Lobel"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Diana_Lobel_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Diana_Lobel_TimeRel ;
     schema1:description "Bahya ibn Paquda; Judah Halevi; Sufi-Jewish philosophy; philosophy of happiness"^^xsd:string .
@@ -367,7 +382,7 @@ jp:Person_Dov_Gabbay a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Dov_Gabbay_PlaceRel_Jerusalem,
         jp:Person_Dov_Gabbay_PlaceRel_London,
         jp:Person_Dov_Gabbay_PlaceRel_Luxembourg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Logic,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Dov_Gabbay_TimeRel ;
@@ -388,7 +403,8 @@ jp:Person_Eli_Habillo a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Eli_Habillo_PlaceRel_Spain,
         jp:Person_Eli_Habillo_PlaceRel_n ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Eli_Habillo_TimeRel ;
     schema1:description "Translator of Scholastic philosophy into Hebrew; Thomas Aquinas into Hebrew"^^xsd:string .
@@ -397,7 +413,7 @@ jp:Person_Eliezer_Schweid a jp:HistoricalPerson ;
     rdfs:label "Eliezer Schweid"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Eliezer_Schweid_PlaceRel_Aviv ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Eliezer_Schweid_TimeRel ;
     schema1:description "Jewish philosophy; Zionism; Holocaust thought"^^xsd:string .
@@ -407,7 +423,7 @@ jp:Person_Elisha_ben_Abuyah a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Aramaic,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Elisha_ben_Abuyah_PlaceRel_Judea ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Elisha_ben_Abuyah_TimeRel ;
     schema1:description "Gnostic-influenced speculation; radical heterodoxy"^^xsd:string .
@@ -418,7 +434,7 @@ jp:Person_Eric_Gutkind a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Eric_Gutkind_PlaceRel_Berlin,
         jp:Person_Eric_Gutkind_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Eric_Gutkind_TimeRel ;
     schema1:description "Cosmic community; mystical social philosophy; correspondence with Einstein"^^xsd:string .
@@ -438,7 +454,8 @@ jp:Person_Fabius_Mieses a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Fabius_Mieses_PlaceRel_Galicia,
         jp:Person_Fabius_Mieses_PlaceRel_Leipzig ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Fabius_Mieses_TimeRel ;
     schema1:description "Galician Jewish philosopher; Haskalah; history of philosophy"^^xsd:string .
@@ -449,7 +466,7 @@ jp:Person_Felix_Adler a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Felix_Adler_PlaceRel_Alzey,
         jp:Person_Felix_Adler_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Felix_Adler_TimeRel ;
     schema1:description "Ethical culture; philosophical ethics without religion"^^xsd:string .
@@ -460,7 +477,7 @@ jp:Person_Felix_Kaufmann a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Felix_Kaufmann_PlaceRel_Vienna,
         jp:Person_Felix_Kaufmann_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Felix_Kaufmann_TimeRel ;
     schema1:description "Phenomenology; philosophy of law; Vienna Circle"^^xsd:string .
@@ -471,7 +488,8 @@ jp:Person_Francesca_Gorgoni a jp:HistoricalPerson ;
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Francesca_Gorgoni_PlaceRel_Italy,
         jp:Person_Francesca_Gorgoni_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Francesca_Gorgoni_TimeRel ;
     schema1:description "Medieval Hebrew translations; Averroes; Todros Todrosi; Aristotle's Poetics in Hebrew"^^xsd:string .
@@ -482,7 +500,9 @@ jp:Person_Gad_Freudenthal a jp:HistoricalPerson ;
         jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Gad_Freudenthal_PlaceRel_CNRS,
         jp:Person_Gad_Freudenthal_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Gad_Freudenthal_TimeRel ;
@@ -495,7 +515,8 @@ jp:Person_Giorgio_Veltri a jp:HistoricalPerson ;
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Giorgio_Veltri_PlaceRel_Germany,
         jp:Person_Giorgio_Veltri_PlaceRel_Hamburg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Giorgio_Veltri_TimeRel ;
     schema1:description "Jewish philosophy; scepticism; director of Maimonides Centre for Advanced Studies"^^xsd:string .
@@ -505,7 +526,7 @@ jp:Person_Giuseppe_Veltri a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German,
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Giuseppe_Veltri_PlaceRel_Germany ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Giuseppe_Veltri_TimeRel ;
     schema1:description "Director of MCAS; Jewish skepticism, magic, and Renaissance philosophical traditions"^^xsd:string .
@@ -516,7 +537,7 @@ jp:Person_Gustav_Bergmann a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Gustav_Bergmann_PlaceRel_City,
         jp:Person_Gustav_Bergmann_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Gustav_Bergmann_TimeRel ;
     schema1:description "Logical positivism; ontology; Iowa School"^^xsd:string .
@@ -525,7 +546,8 @@ jp:Person_Hannah_Kasher a jp:HistoricalPerson ;
     rdfs:label "Hannah Kasher"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Hannah_Kasher_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hannah_Kasher_TimeRel ;
     schema1:description "Maimonides; prophecy; Judah Halevi; divine attributes; medieval Jewish philosophy"^^xsd:string .
@@ -535,7 +557,8 @@ jp:Person_Hasdai_ibn_Shaprut a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Arabic,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Hasdai_ibn_Shaprut_PlaceRel_Andalus ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Hasdai_ibn_Shaprut_TimeRel ;
@@ -546,7 +569,7 @@ jp:Person_Heinrich_Gomperz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Heinrich_Gomperz_PlaceRel_Angeles,
         jp:Person_Heinrich_Gomperz_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Heinrich_Gomperz_TimeRel ;
     schema1:description "Semantics; history of philosophy; neo-positivism"^^xsd:string .
@@ -555,7 +578,8 @@ jp:Person_Herbert_Davidson a jp:HistoricalPerson ;
     rdfs:label "Herbert Davidson"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Herbert_Davidson_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Herbert_Davidson_TimeRel ;
     schema1:description "Maimonides biography; Alfarabi; medieval Jewish rationalism; authoritative scholarship"^^xsd:string .
@@ -567,7 +591,7 @@ jp:Person_Herbert_Feigl a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Herbert_Feigl_PlaceRel_Aigen,
         jp:Person_Herbert_Feigl_PlaceRel_Minneapolis,
         jp:Person_Herbert_Feigl_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Herbert_Feigl_TimeRel ;
     schema1:description "Vienna Circle; mind-body identity theory"^^xsd:string .
@@ -588,7 +612,7 @@ jp:Person_Hillel_Zeitlin a jp:HistoricalPerson ;
         jp:Language_Yiddish ;
     jp:hasPlaceRelation jp:Person_Hillel_Zeitlin_PlaceRel_Belarus,
         jp:Person_Hillel_Zeitlin_PlaceRel_Warsaw ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Hasidism,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hillel_Zeitlin_TimeRel ;
@@ -629,7 +653,7 @@ jp:Person_Hugo_Bergmann a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Hugo_Bergmann_PlaceRel_Jerusalem,
         jp:Person_Hugo_Bergmann_PlaceRel_Prague ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Logic,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hugo_Bergmann_TimeRel ;
@@ -680,7 +704,8 @@ jp:Person_Isaac_ben_Jacob_Canpanton a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_ben_Jacob_Canpanton_PlaceRel_Spain,
         jp:Person_Isaac_ben_Jacob_Canpanton_PlaceRel_Zamora ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Isaac_ben_Jacob_Canpanton_TimeRel ;
@@ -691,7 +716,7 @@ jp:Person_Isaac_ben_Samuel_of_Acre a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_ben_Samuel_of_Acre_PlaceRel_Israel,
         jp:Person_Isaac_ben_Samuel_of_Acre_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_ben_Samuel_of_Acre_TimeRel ;
     schema1:description "Mystical philosophy; infinite nature of Ein Sof; early Kabbalistic epistemology"^^xsd:string .
@@ -702,7 +727,8 @@ jp:Person_Isaac_ibn_Ghayyat a jp:HistoricalPerson ;
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Isaac_ibn_Ghayyat_PlaceRel_Andalus,
         jp:Person_Isaac_ibn_Ghayyat_PlaceRel_Lucena ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_ibn_Ghayyat_TimeRel ;
     schema1:description "Rabbi, philosopher, and liturgical poet; Neoplatonic-Aristotelian synthesis"^^xsd:string .
@@ -713,7 +739,7 @@ jp:Person_Isaak_Benrubi a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Isaak_Benrubi_PlaceRel_Berlin,
         jp:Person_Isaak_Benrubi_PlaceRel_Geneva ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaak_Benrubi_TimeRel ;
     schema1:description "Neo-Kantian; French philosophy; philosophical historiography"^^xsd:string .
@@ -723,7 +749,8 @@ jp:Person_Jacob_Freudenthal a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Jacob_Freudenthal_PlaceRel_Breslau,
         jp:Person_Jacob_Freudenthal_PlaceRel_Germany ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jacob_Freudenthal_TimeRel ;
     schema1:description "Historian of Greek and Jewish philosophy; Spinoza scholarship"^^xsd:string .
@@ -745,7 +772,8 @@ jp:Person_Jacob_ben_Makhir_Ibn_Tibbon a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Jacob_ben_Makhir_Ibn_Tibbon_PlaceRel_France,
         jp:Person_Jacob_ben_Makhir_Ibn_Tibbon_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Jacob_ben_Makhir_Ibn_Tibbon_TimeRel ;
@@ -756,7 +784,7 @@ jp:Person_Jakob_Guttmann a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Jakob_Guttmann_PlaceRel_Beuthen,
         jp:Person_Jakob_Guttmann_PlaceRel_Breslau ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jakob_Guttmann_TimeRel ;
     schema1:description "Medieval Jewish philosophy; Maimonides scholarship"^^xsd:string .
@@ -774,7 +802,7 @@ jp:Person_Jeanne_Hersch a jp:HistoricalPerson ;
     rdfs:label "Jeanne Hersch"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Jeanne_Hersch_PlaceRel_Geneva ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jeanne_Hersch_TimeRel ;
     schema1:description "Existentialist philosophy; philosophy of liberty; UNESCO"^^xsd:string .
@@ -785,7 +813,7 @@ jp:Person_Johanan_ben_Zakai a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Johanan_ben_Zakai_PlaceRel_Jerusalem,
         jp:Person_Johanan_ben_Zakai_PlaceRel_Yavne ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Johanan_ben_Zakai_TimeRel ;
@@ -819,7 +847,9 @@ jp:Person_Joseph_ben_Judah_of_Ceuta a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Joseph_ben_Judah_of_Ceuta_PlaceRel_Alexandria,
         jp:Person_Joseph_ben_Judah_of_Ceuta_PlaceRel_Ceuta,
         jp:Person_Joseph_ben_Judah_of_Ceuta_PlaceRel_Fustat ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_ben_Judah_of_Ceuta_TimeRel ;
     schema1:description "Student of Maimonides; necessary existence"^^xsd:string .
@@ -828,7 +858,8 @@ jp:Person_Joseph_ben_Shem_Tov a jp:HistoricalPerson ;
     rdfs:label "Joseph ben Shem Tov"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_ben_Shem_Tov_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_ben_Shem_Tov_TimeRel ;
     schema1:description "Supercommentaries on Averroes; philosophy of happiness; Jewish scholasticism in Spain"^^xsd:string .
@@ -837,7 +868,8 @@ jp:Person_Joseph_ibn_Shem_Tov a jp:HistoricalPerson ;
     rdfs:label "Joseph ibn Shem Tov"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_ibn_Shem_Tov_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_ibn_Shem_Tov_TimeRel ;
@@ -848,7 +880,8 @@ jp:Person_Joseph_ibn_Yahya a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_ibn_Yahya_PlaceRel_Florence,
         jp:Person_Joseph_ibn_Yahya_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_ibn_Yahya_TimeRel ;
     schema1:description "Italian Jewish exegete and philosopher; Spanish exile family"^^xsd:string .
@@ -858,7 +891,8 @@ jp:Person_Judah_Mosconi a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Judah_Mosconi_PlaceRel_Bulgaria,
         jp:Person_Judah_Mosconi_PlaceRel_Empire ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Judah_Mosconi_TimeRel ;
     schema1:description "Byzantine Jewish philosopher; encyclopedist; supercommentaries on Ibn Ezra"^^xsd:string .
@@ -867,7 +901,8 @@ jp:Person_Judah_Romano a jp:HistoricalPerson ;
     rdfs:label "Judah Romano"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Judah_Romano_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Judah_Romano_TimeRel ;
     schema1:description "Translator of Scholastic texts into Hebrew; bridge between Latin and Jewish thought"^^xsd:string .
@@ -878,7 +913,7 @@ jp:Person_Judah_ben_Solomon_Canpanton a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Judah_ben_Solomon_Canpanton_PlaceRel_Castile,
         jp:Person_Judah_ben_Solomon_Canpanton_PlaceRel_Spain,
         jp:Person_Judah_ben_Solomon_Canpanton_PlaceRel_Zamora ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Grammar,
         jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Judah_ben_Solomon_Canpanton_TimeRel ;
@@ -947,7 +982,8 @@ jp:Person_Ludwig_Stein a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Ludwig_Stein_PlaceRel_Berlin,
         jp:Person_Ludwig_Stein_PlaceRel_Bern,
         jp:Person_Ludwig_Stein_PlaceRel_Hungary ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ludwig_Stein_TimeRel ;
     schema1:description "Neo-Kantian philosopher; history of philosophy; social philosophy"^^xsd:string .
@@ -958,7 +994,7 @@ jp:Person_Lyubov_Axelrod a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Lyubov_Axelrod_PlaceRel_Dunilovichi,
         jp:Person_Lyubov_Axelrod_PlaceRel_Geneva,
         jp:Person_Lyubov_Axelrod_PlaceRel_Moscow ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Lyubov_Axelrod_TimeRel ;
     schema1:description "Marxist philosophy; epistemology"^^xsd:string .
@@ -969,7 +1005,8 @@ jp:Person_Manasseh_ben_Joseph_of_Ilye a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Manasseh_ben_Joseph_of_Ilye_PlaceRel_Lithuania,
         jp:Person_Manasseh_ben_Joseph_of_Ilye_PlaceRel_Smorgony,
         jp:Person_Manasseh_ben_Joseph_of_Ilye_PlaceRel_region ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Manasseh_ben_Joseph_of_Ilye_TimeRel ;
@@ -979,7 +1016,7 @@ jp:Person_Marcus_Herz a jp:HistoricalPerson ;
     rdfs:label "Marcus Herz"^^xsd:string ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Marcus_Herz_PlaceRel_Prussia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Medicine,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Marcus_Herz_TimeRel ;
@@ -990,7 +1027,8 @@ jp:Person_Marienza_Benedetto a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Marienza_Benedetto_PlaceRel_Bari,
         jp:Person_Marienza_Benedetto_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Marienza_Benedetto_TimeRel ;
     schema1:description "Medieval Hebrew encyclopedias; Judah ben Solomon ha-Kohen; astrology; Jewish scholasticism"^^xsd:string .
@@ -1003,7 +1041,8 @@ jp:Person_Mark_Wahltuch a jp:HistoricalPerson ;
         jp:Person_Mark_Wahltuch_PlaceRel_Florence,
         jp:Person_Mark_Wahltuch_PlaceRel_Odessa,
         jp:Person_Mark_Wahltuch_PlaceRel_Pisa ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Mark_Wahltuch_TimeRel ;
     schema1:description "Russian-Italian Jewish philosopher and author; cosmopolitan thought"^^xsd:string .
@@ -1012,7 +1051,7 @@ jp:Person_Marvin_Farber a jp:HistoricalPerson ;
     rdfs:label "Marvin Farber"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Marvin_Farber_PlaceRel_NY ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Marvin_Farber_TimeRel ;
     schema1:description "Phenomenology; Husserl scholarship; naturalism"^^xsd:string .
@@ -1023,7 +1062,8 @@ jp:Person_Mauro_Zonta a jp:HistoricalPerson ;
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Mauro_Zonta_PlaceRel_Italy,
         jp:Person_Mauro_Zonta_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Mauro_Zonta_TimeRel ;
     schema1:description "Medieval Jewish philosophy; Hebrew translations of Arabic texts; Scholasticism and Jewish thought"^^xsd:string .
@@ -1034,7 +1074,8 @@ jp:Person_Meir_ben_Isaac_Arama a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Meir_ben_Isaac_Arama_PlaceRel_Naples,
         jp:Person_Meir_ben_Isaac_Arama_PlaceRel_Salonica,
         jp:Person_Meir_ben_Isaac_Arama_PlaceRel_Zaragoza ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Sermons ;
     jp:hasTimeRelation jp:Person_Meir_ben_Isaac_Arama_TimeRel ;
     schema1:description "Philosopher-commentator; son of Isaac Arama; continued father's sermons"^^xsd:string .
@@ -1064,7 +1105,8 @@ jp:Person_Michael_Engel a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Michael_Engel_PlaceRel_Belgium,
         jp:Person_Michael_Engel_PlaceRel_Cambridge ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Michael_Engel_TimeRel ;
     schema1:description "Elijah del Medigo; Paduan Averroism; human intellect; Averroes and Pico della Mirandola"^^xsd:string .
@@ -1084,7 +1126,7 @@ jp:Person_Miguel_de_Barrios a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Spanish ;
     jp:hasPlaceRelation jp:Person_Miguel_de_Barrios_PlaceRel_Amsterdam,
         jp:Person_Miguel_de_Barrios_PlaceRel_Montilla ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Poetry ;
     jp:hasTimeRelation jp:Person_Miguel_de_Barrios_TimeRel ;
     schema1:description "Philosophical poetry; Sephardic Baroque thought"^^xsd:string .
@@ -1102,7 +1144,8 @@ jp:Person_Mordecai_Finzi a jp:HistoricalPerson ;
     rdfs:label "Mordecai Finzi"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Mordecai_Finzi_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Mordecai_Finzi_TimeRel ;
@@ -1112,7 +1155,8 @@ jp:Person_Mordekhai_Comtino a jp:HistoricalPerson ;
     rdfs:label "Mordekhai Comtino"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Mordekhai_Comtino_PlaceRel_Empire ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Mordekhai_Comtino_TimeRel ;
     schema1:description "Byzantine Jewish mathematician-philosopher; commentaries on Ibn Ezra"^^xsd:string .
@@ -1122,7 +1166,8 @@ jp:Person_Moritz_Brasch a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Moritz_Brasch_PlaceRel_Leipzig,
         jp:Person_Moritz_Brasch_PlaceRel_Prussia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moritz_Brasch_TimeRel ;
     schema1:description "German-Jewish philosopher; historian of German philosophy"^^xsd:string .
@@ -1132,7 +1177,8 @@ jp:Person_Moses_Ibn_Tibbon a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Moses_Ibn_Tibbon_PlaceRel_France,
         jp:Person_Moses_Ibn_Tibbon_PlaceRel_Montpellier ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Moses_Ibn_Tibbon_TimeRel ;
@@ -1164,7 +1210,8 @@ jp:Person_Moses_ben_Shabbetai a jp:HistoricalPerson ;
     rdfs:label "Moses ben Shabbetai"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Moses_ben_Shabbetai_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moses_ben_Shabbetai_TimeRel ;
     schema1:description "Shaʿare Tzedeq; Hebrew translation of Liber de causis; Latin-to-Hebrew philosophical translation"^^xsd:string .
@@ -1174,7 +1221,7 @@ jp:Person_Nathan_Birnbaum a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Nathan_Birnbaum_PlaceRel_Berlin,
         jp:Person_Nathan_Birnbaum_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Nathan_Birnbaum_TimeRel ;
     schema1:description "Zionist philosophy; later ultra-Orthodox philosophy of language"^^xsd:string .
@@ -1185,7 +1232,7 @@ jp:Person_Nathan_Rotenstreich a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Nathan_Rotenstreich_PlaceRel_Jerusalem,
         jp:Person_Nathan_Rotenstreich_PlaceRel_Sambor ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Nathan_Rotenstreich_TimeRel ;
     schema1:description "Philosophy of Jewish existence; Hegel and Jewish thought"^^xsd:string .
@@ -1195,7 +1242,7 @@ jp:Person_Norbert_Samuelson a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Norbert_Samuelson_PlaceRel_Chicago,
         jp:Person_Norbert_Samuelson_PlaceRel_Philadelphia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Norbert_Samuelson_TimeRel ;
@@ -1215,7 +1262,8 @@ jp:Person_Ofer_Elior a jp:HistoricalPerson ;
     rdfs:label "Ofer Elior"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Ofer_Elior_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Ofer_Elior_TimeRel ;
@@ -1237,7 +1285,7 @@ jp:Person_Paul_Bernays a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Paul_Bernays_PlaceRel_Berlin,
         jp:Person_Paul_Bernays_PlaceRel_London,
         jp:Person_Paul_Bernays_PlaceRel_rich ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Paul_Bernays_TimeRel ;
@@ -1248,7 +1296,7 @@ jp:Person_Paul_Edwards a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Paul_Edwards_PlaceRel_Vienna,
         jp:Person_Paul_Edwards_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Paul_Edwards_TimeRel ;
     schema1:description "Encyclopedia of Philosophy editor; analytic philosophy"^^xsd:string .
@@ -1258,7 +1306,8 @@ jp:Person_Paul_Fenton a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Paul_Fenton_PlaceRel_France ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Mysticism ;
     jp:hasTimeRelation jp:Person_Paul_Fenton_TimeRel ;
     schema1:description "Judeo-Sufi mysticism; Abraham Maimonides; Cairo Genizah; Jewish-Islamic spirituality"^^xsd:string .
@@ -1271,7 +1320,7 @@ jp:Person_Philipp_Frank a jp:HistoricalPerson ;
         jp:Person_Philipp_Frank_PlaceRel_MA,
         jp:Person_Philipp_Frank_PlaceRel_Prague,
         jp:Person_Philipp_Frank_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Rationalism,
         jp:Subject_Science ;
@@ -1283,7 +1332,7 @@ jp:Person_Rabbi_Akiva a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Aramaic,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Rabbi_Akiva_PlaceRel_Judea ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Rabbi_Akiva_TimeRel ;
     schema1:description "Hermeneutics; free will vs divine foreknowledge"^^xsd:string .
@@ -1294,7 +1343,8 @@ jp:Person_Racheli_Haliva a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Racheli_Haliva_PlaceRel_Canada,
         jp:Person_Racheli_Haliva_PlaceRel_Hamburg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Racheli_Haliva_TimeRel ;
     schema1:description "Jewish Averroism; Isaac Polqar; scepticism in medieval Jewish philosophy"^^xsd:string .
@@ -1305,7 +1355,8 @@ jp:Person_Raphael_Jospe a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Raphael_Jospe_PlaceRel_Israel,
         jp:Person_Raphael_Jospe_PlaceRel_University ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Raphael_Jospe_TimeRel ;
     schema1:description "Medieval Jewish philosophy; Saadia to Maimonides; Jewish philosophy textbooks"^^xsd:string .
@@ -1316,7 +1367,9 @@ jp:Person_Resianne_Fontaine a jp:HistoricalPerson ;
         jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Resianne_Fontaine_PlaceRel_Amsterdam,
         jp:Person_Resianne_Fontaine_PlaceRel_Universiteit ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Resianne_Fontaine_TimeRel ;
@@ -1328,7 +1381,7 @@ jp:Person_Rivka_Horwitz a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Rivka_Horwitz_PlaceRel_Beersheba,
         jp:Person_Rivka_Horwitz_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Rivka_Horwitz_TimeRel ;
     schema1:description "Rosenzweig scholarship; modern Jewish philosophy"^^xsd:string .
@@ -1338,7 +1391,8 @@ jp:Person_Ruth_Glasner a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Ruth_Glasner_PlaceRel_University ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Aristotelianism,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Ruth_Glasner_TimeRel ;
@@ -1379,7 +1433,8 @@ jp:Person_Salmon_ben_Yeroham a jp:HistoricalPerson ;
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Salmon_ben_Yeroham_PlaceRel_Egypt,
         jp:Person_Salmon_ben_Yeroham_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Rationalism,
         jp:Subject_Theology,
         jp:Subject_Thought ;
@@ -1402,7 +1457,8 @@ jp:Person_Samuel_ben_Judah_of_Marseilles a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Samuel_ben_Judah_of_Marseilles_PlaceRel_Marseilles,
         jp:Person_Samuel_ben_Judah_of_Marseilles_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Aristotelianism,
         jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Samuel_ben_Judah_of_Marseilles_TimeRel ;
@@ -1424,7 +1480,8 @@ jp:Person_Sarah_Stroumsa a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Sarah_Stroumsa_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Sarah_Stroumsa_TimeRel ;
     schema1:description "Andalusian philosophy; Saadia; Dāwūd al-Muqammaṣ; Jewish-Islamic intellectual history"^^xsd:string .
@@ -1434,7 +1491,8 @@ jp:Person_Seymour_Feldman a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Seymour_Feldman_PlaceRel_University,
         jp:Person_Seymour_Feldman_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Seymour_Feldman_TimeRel ;
     schema1:description "Medieval Jewish philosophy; Gersonides translator and scholar; providence and creation"^^xsd:string .
@@ -1456,7 +1514,8 @@ jp:Person_Shalom_Sadik a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Shalom_Sadik_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Shalom_Sadik_TimeRel ;
     schema1:description "Abner of Burgos; determinism; Jewish Averroism; medieval apostates and philosophy"^^xsd:string .
@@ -1468,7 +1527,8 @@ jp:Person_Shemariah_Ikriti_of_Negropont a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Shemariah_Ikriti_of_Negropont_PlaceRel_Greece,
         jp:Person_Shemariah_Ikriti_of_Negropont_PlaceRel_Negropont,
         jp:Person_Shemariah_Ikriti_of_Negropont_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Poetry ;
     jp:hasTimeRelation jp:Person_Shemariah_Ikriti_of_Negropont_TimeRel ;
     schema1:description "Greek-Jewish Aristotelian; translator; philosophical poetry"^^xsd:string .
@@ -1478,7 +1538,8 @@ jp:Person_Shlomo_Sela a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Shlomo_Sela_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Shlomo_Sela_TimeRel ;
     schema1:description "Abraham Ibn Ezra; astrology and astronomy in medieval Jewish thought; critical editions"^^xsd:string .
@@ -1488,7 +1549,7 @@ jp:Person_Simcha_Bunim_of_Peshischa a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew,
         jp:Language_Yiddish ;
     jp:hasPlaceRelation jp:Person_Simcha_Bunim_of_Peshischa_PlaceRel_Poland ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Hasidism,
         jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Simcha_Bunim_of_Peshischa_TimeRel ;
@@ -1508,7 +1569,8 @@ jp:Person_Solomon_Bonafed a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Solomon_Bonafed_PlaceRel_Spain,
         jp:Person_Solomon_Bonafed_PlaceRel_Zaragoza ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Solomon_Bonafed_TimeRel ;
     schema1:description "Philosopher-poet; satirist; defender of philosophical study"^^xsd:string .
@@ -1518,7 +1580,7 @@ jp:Person_Solomon_Feferman a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Solomon_Feferman_PlaceRel_Stanford,
         jp:Person_Solomon_Feferman_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Solomon_Feferman_TimeRel ;
@@ -1530,7 +1592,8 @@ jp:Person_Steven_Harvey a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Steven_Harvey_PlaceRel_Israel,
         jp:Person_Steven_Harvey_PlaceRel_USA,
         jp:Person_Steven_Harvey_PlaceRel_University ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Steven_Harvey_TimeRel ;
     schema1:description "Medieval Jewish and Islamic philosophy; Averroes commentaries; influence of Islam on Jewish thought"^^xsd:string .
@@ -1540,7 +1603,7 @@ jp:Person_Steven_Schwarzschild a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Steven_Schwarzschild_PlaceRel_Frankfurt,
         jp:Person_Steven_Schwarzschild_PlaceRel_Louis ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Steven_Schwarzschild_TimeRel ;
     schema1:description "Neo-Kantian Jewish ethics; messianism; pacifism"^^xsd:string .
@@ -1549,7 +1612,8 @@ jp:Person_Tamar_Rudavsky a jp:HistoricalPerson ;
     rdfs:label "Tamar Rudavsky"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Tamar_Rudavsky_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Tamar_Rudavsky_TimeRel ;
     schema1:description "Medieval Jewish philosophy; time and cosmology; Gersonides; Maimonides"^^xsd:string .
@@ -1560,7 +1624,9 @@ jp:Person_Thomas_Davidson a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Thomas_Davidson_PlaceRel_London,
         jp:Person_Thomas_Davidson_PlaceRel_Scotland,
         jp:Person_Thomas_Davidson_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Thomas_Davidson_TimeRel ;
     schema1:description "Scottish-American philosopher; Aristotle scholar; close ties with Jewish intellectual circles"^^xsd:string .
@@ -1570,7 +1636,8 @@ jp:Person_Todros_Todrosi a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Todros_Todrosi_PlaceRel_France,
         jp:Person_Todros_Todrosi_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Todros_Todrosi_TimeRel ;
     schema1:description "Philosophical anthology; prolific translator of Averroes into Hebrew; popularized Arabic philosophy"^^xsd:string .
@@ -1581,7 +1648,8 @@ jp:Person_Warren_Zev_Harvey a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Warren_Zev_Harvey_PlaceRel_Jerusalem,
         jp:Person_Warren_Zev_Harvey_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Warren_Zev_Harvey_TimeRel ;
     schema1:description "Hasdai Crescas; Maimonides; medieval Jewish philosophy"^^xsd:string .
@@ -1603,7 +1671,8 @@ jp:Person_Yefet_ben_Eli a jp:HistoricalPerson ;
     rdfs:label "Yefet ben Eli"^^xsd:string ;
     jp:hasLanguage jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Yefet_ben_Eli_PlaceRel_Palestine ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Rationalism,
         jp:Subject_Theology,
         jp:Subject_Thought ;
@@ -1639,7 +1708,7 @@ jp:Person_Yehuda_Elkana a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Yehuda_Elkana_PlaceRel_Budapest,
         jp:Person_Yehuda_Elkana_PlaceRel_Hungary,
         jp:Person_Yehuda_Elkana_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Yehuda_Elkana_TimeRel ;
@@ -1651,7 +1720,7 @@ jp:Person_Yehuda_Halper a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Yehuda_Halper_PlaceRel_Israel,
         jp:Person_Yehuda_Halper_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Yehuda_Halper_TimeRel ;
     schema1:description "Medieval Jewish and Islamic philosophy; Averroes; Socratic questioning in Hebrew texts; Aristotle reception"^^xsd:string .
@@ -1662,7 +1731,8 @@ jp:Person_Yoav_Meyrav a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Yoav_Meyrav_PlaceRel_Aviv,
         jp:Person_Yoav_Meyrav_PlaceRel_Germany ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Metaphysics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Yoav_Meyrav_TimeRel ;
@@ -1676,7 +1746,7 @@ jp:Person_Yossef_Schwartz a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Yossef_Schwartz_PlaceRel_Frankfurt,
         jp:Person_Yossef_Schwartz_PlaceRel_Israel,
         jp:Person_Yossef_Schwartz_PlaceRel_Munich ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Yossef_Schwartz_TimeRel ;
     schema1:description "Medieval intellectual history; Latin-to-Hebrew translation movements; Christian Hebraism; Meister Eckhart and Maimonides"^^xsd:string .
@@ -4368,7 +4438,10 @@ jp:Person_Abraham_Bibago a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_Bibago_PlaceRel_Aragon,
         jp:Person_Abraham_Bibago_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Aristotelianism ;
     jp:hasTimeRelation jp:Person_Abraham_Bibago_TimeRel ;
     schema1:description "Derech Emunah; Aristotelianism and Jewish faith"^^xsd:string .
@@ -4658,7 +4731,8 @@ jp:Person_Abraham_Shalom a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_Shalom_PlaceRel_Aragon,
         jp:Person_Abraham_Shalom_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Abraham_Shalom_TimeRel ;
@@ -4821,7 +4895,7 @@ jp:Person_Adi_Ophir a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Adi_Ophir_PlaceRel_Aviv,
         jp:Person_Adi_Ophir_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Adi_Ophir_TimeRel ;
     schema1:description "Political philosophy; catastrophe; The Order of Evils"^^xsd:string .
@@ -5051,7 +5125,7 @@ jp:Person_Allan_Bloom a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Allan_Bloom_PlaceRel_Chicago,
         jp:Person_Allan_Bloom_PlaceRel_Indianapolis ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Allan_Bloom_TimeRel ;
     schema1:description "Political philosophy; Plato; Strauss scholarship"^^xsd:string .
@@ -5083,7 +5157,8 @@ jp:Person_Amatus_Lusitanus a jp:HistoricalPerson ;
         jp:Person_Amatus_Lusitanus_PlaceRel_Ferrara,
         jp:Person_Amatus_Lusitanus_PlaceRel_Portugal,
         jp:Person_Amatus_Lusitanus_PlaceRel_Salonica ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Amatus_Lusitanus_TimeRel ;
     schema1:description "Portuguese Jewish physician-philosopher; medical philosophy; anatomy"^^xsd:string .
@@ -5138,7 +5213,9 @@ jp:Person_Anan_ben_David a jp:HistoricalPerson ;
     rdfs:label "Anan ben David"^^xsd:string ;
     jp:hasLanguage jp:Language_Aramaic ;
     jp:hasPlaceRelation jp:Person_Anan_ben_David_PlaceRel_Iraq ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Anan_ben_David_TimeRel ;
     schema1:description "Founder of Karaism; scripture-based rationalism"^^xsd:string .
@@ -5164,7 +5241,7 @@ jp:Person_Anat_Biletzki a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Anat_Biletzki_PlaceRel_Aviv,
         jp:Person_Anat_Biletzki_PlaceRel_Haven ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Anat_Biletzki_TimeRel ;
     schema1:description "Wittgenstein scholarship; philosophy of language; human rights"^^xsd:string .
@@ -5368,7 +5445,7 @@ jp:Person_Aviezer_Ravitzky a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Aviezer_Ravitzky_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Aviezer_Ravitzky_TimeRel ;
     schema1:description "Messianism; Zionism; Jewish political thought"^^xsd:string .
@@ -5477,7 +5554,9 @@ jp:Person_Bahya_Ibn_Paquda a jp:HistoricalPerson ;
     rdfs:label "Bahya Ibn Paquda"^^xsd:string ;
     jp:hasLanguage jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Bahya_Ibn_Paquda_PlaceRel_Andalus ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Bahya_Ibn_Paquda_TimeRel ;
     schema1:description "Duties of the Heart; ethics of intention"^^xsd:string .
@@ -5620,7 +5699,9 @@ jp:Person_Bruno_Bauer a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Bruno_Bauer_PlaceRel_Eisenburg,
         jp:Person_Bruno_Bauer_PlaceRel_Germany ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Bruno_Bauer_TimeRel ;
     schema1:description "Young Hegelian; critique of Jewish emancipation; debated by Marx and Jewish thinkers"^^xsd:string .
@@ -5668,7 +5749,8 @@ jp:Person_Carlos_Fraenkel a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Carlos_Fraenkel_PlaceRel_Canada ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Carlos_Fraenkel_TimeRel ;
     schema1:description "Maimonides and Spinoza; Samuel Maimon; Copernican revolution in Jewish philosophy"^^xsd:string .
@@ -5692,7 +5774,7 @@ jp:Person_Carol_Gilligan a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Carol_Gilligan_PlaceRel_Harvard,
         jp:Person_Carol_Gilligan_PlaceRel_NYU,
         jp:Person_Carol_Gilligan_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Carol_Gilligan_TimeRel ;
     schema1:description "Ethics of care; feminist moral psychology"^^xsd:string .
@@ -6276,7 +6358,9 @@ jp:Person_Dunash_Ibn_Tamim a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Dunash_Ibn_Tamim_PlaceRel_Kairouan,
         jp:Person_Dunash_Ibn_Tamim_PlaceRel_Tunisia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Dunash_Ibn_Tamim_TimeRel ;
     schema1:description "Neoplatonist cosmology; Sefer Yetzirah commentary"^^xsd:string .
@@ -6458,7 +6542,8 @@ jp:Person_Eliezer_Ashkenazi a jp:HistoricalPerson ;
         jp:Person_Eliezer_Ashkenazi_PlaceRel_Prague,
         jp:Person_Eliezer_Ashkenazi_PlaceRel_Venice,
         jp:Person_Eliezer_Ashkenazi_PlaceRel_w ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Aristotelianism,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Eliezer_Ashkenazi_TimeRel ;
@@ -6567,7 +6652,8 @@ jp:Person_Elijah_Bashyatchi a jp:HistoricalPerson ;
     rdfs:label "Elijah Bashyatchi"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Elijah_Bashyatchi_PlaceRel_Empire ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology,
         jp:Subject_Thought ;
@@ -6853,7 +6939,7 @@ jp:Person_Eugene_Borowitz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Eugene_Borowitz_PlaceRel_Columbus,
         jp:Person_Eugene_Borowitz_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Eugene_Borowitz_TimeRel ;
@@ -7385,7 +7471,7 @@ jp:Person_Hans_Kohn a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Hans_Kohn_PlaceRel_Prague,
         jp:Person_Hans_Kohn_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hans_Kohn_TimeRel ;
     schema1:description "Philosophy of nationalism; liberal Zionism"^^xsd:string .
@@ -7467,7 +7553,9 @@ jp:Person_Hasdai_Crescas a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Hasdai_Crescas_PlaceRel_Aragon,
         jp:Person_Hasdai_Crescas_PlaceRel_Barcelona ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hasdai_Crescas_TimeRel ;
     schema1:description "Or Hashem; critique of Aristotle; infinite space"^^xsd:string .
@@ -7579,7 +7667,7 @@ jp:Person_Heinrich_Graetz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Heinrich_Graetz_PlaceRel_Breslau,
         jp:Person_Heinrich_Graetz_PlaceRel_Wollstein ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Heinrich_Graetz_TimeRel ;
     schema1:description "Philosophy of Jewish history"^^xsd:string .
@@ -7754,7 +7842,8 @@ jp:Person_Hermann_Steinthal a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Hermann_Steinthal_PlaceRel_Anhalt,
         jp:Person_Hermann_Steinthal_PlaceRel_Berlin ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hermann_Steinthal_TimeRel ;
     schema1:description "Völkerpsychologie with Lazarus; philosophy of language; biblical interpretation"^^xsd:string .
@@ -7848,7 +7937,9 @@ jp:Person_Hillel_ben_Samuel_of_Verona a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Hillel_ben_Samuel_of_Verona_PlaceRel_Italy,
         jp:Person_Hillel_ben_Samuel_of_Verona_PlaceRel_Rome,
         jp:Person_Hillel_ben_Samuel_of_Verona_PlaceRel_Verona ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hillel_ben_Samuel_of_Verona_TimeRel ;
     schema1:description "Soul immortality; Latin Scholastics and Hebrew thought"^^xsd:string .
@@ -8025,7 +8116,7 @@ jp:Person_Immanuel_of_Rome a jp:HistoricalPerson ;
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Immanuel_of_Rome_PlaceRel_Italy,
         jp:Person_Immanuel_of_Rome_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Immanuel_of_Rome_TimeRel ;
     schema1:description "Poet and commentator; contemporary of Dante; integrated philosophy into allegorical biblical verse"^^xsd:string .
@@ -8108,7 +8199,9 @@ jp:Person_Isaac_Albalag a jp:HistoricalPerson ;
     rdfs:label "Isaac Albalag"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_Albalag_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_Albalag_TimeRel ;
     schema1:description "Double-truth theory; radical Averroism"^^xsd:string .
@@ -8211,7 +8304,8 @@ jp:Person_Isaac_Polqar a jp:HistoricalPerson ;
     rdfs:label "Isaac Polqar"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_Polqar_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Isaac_Polqar_TimeRel ;
@@ -8301,7 +8395,7 @@ jp:Person_Isaac_ben_Moses_Arama a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_ben_Moses_Arama_PlaceRel_Aragon,
         jp:Person_Isaac_ben_Moses_Arama_PlaceRel_Naples ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Sermons ;
     jp:hasTimeRelation jp:Person_Isaac_ben_Moses_Arama_TimeRel ;
     schema1:description "Akedat Yitzhak; philosophical sermons"^^xsd:string .
@@ -8538,7 +8632,9 @@ jp:Person_Jacob_Anatoli a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Jacob_Anatoli_PlaceRel_Marseille,
         jp:Person_Jacob_Anatoli_PlaceRel_Naples ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Jacob_Anatoli_TimeRel ;
     schema1:description "Malmad ha-Talmidim; Maimonidean rationalism"^^xsd:string .
@@ -8675,7 +8771,8 @@ jp:Person_Jacob_ben_Sheshet a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Jacob_ben_Sheshet_PlaceRel_Catalonia,
         jp:Person_Jacob_ben_Sheshet_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Jacob_ben_Sheshet_TimeRel ;
@@ -8952,7 +9049,9 @@ jp:Person_Joseph_Albo a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_Albo_PlaceRel_Aragon,
         jp:Person_Joseph_Albo_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_Albo_TimeRel ;
     schema1:description "Sefer ha-Ikkarim; three dogmas of Judaism"^^xsd:string .
@@ -9074,7 +9173,7 @@ jp:Person_Joseph_Ibn_Tzaddik a jp:HistoricalPerson ;
     rdfs:label "Joseph Ibn Tzaddik"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_Ibn_Tzaddik_PlaceRel_Andalus ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_Ibn_Tzaddik_TimeRel ;
     schema1:description "Olam Katan; Neoplatonic microcosm theory"^^xsd:string .
@@ -9308,7 +9407,8 @@ jp:Person_Judah_Hadassi a jp:HistoricalPerson ;
     rdfs:label "Judah Hadassi"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Judah_Hadassi_PlaceRel_Empire ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Science,
         jp:Subject_Thought ;
     jp:hasTimeRelation jp:Person_Judah_Hadassi_TimeRel ;
@@ -9414,7 +9514,8 @@ jp:Person_Judah_Moscato a jp:HistoricalPerson ;
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Judah_Moscato_PlaceRel_Italy,
         jp:Person_Judah_Moscato_PlaceRel_Osimo ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Sermons ;
     jp:hasTimeRelation jp:Person_Judah_Moscato_TimeRel ;
     schema1:description "Italian rabbi-philosopher; Renaissance Jewish thought; Nefutzot Yehudah sermons"^^xsd:string .
@@ -9535,7 +9636,10 @@ jp:Person_Judah_ben_Saul_Ibn_Tibbon a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew_translator_from_Arabic ;
     jp:hasPlaceRelation jp:Person_Judah_ben_Saul_Ibn_Tibbon_PlaceRel_Granada,
         jp:Person_Judah_ben_Saul_Ibn_Tibbon_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Judah_ben_Saul_Ibn_Tibbon_TimeRel ;
     schema1:description "Hebrew translation movement; philosophy of language"^^xsd:string .
@@ -9671,7 +9775,7 @@ jp:Person_Julien_Benda a jp:HistoricalPerson ;
     rdfs:label "Julien Benda"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Julien_Benda_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Julien_Benda_TimeRel ;
     schema1:description "La Trahison des clercs; critique of political intellectuals"^^xsd:string .
@@ -9699,7 +9803,8 @@ jp:Person_Julius_Guttmann a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Julius_Guttmann_PlaceRel_Berlin,
         jp:Person_Julius_Guttmann_PlaceRel_Hildesheim,
         jp:Person_Julius_Guttmann_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Julius_Guttmann_TimeRel ;
     schema1:description "Philosophies of Judaism; history of Jewish thought"^^xsd:string .
@@ -9887,7 +9992,7 @@ jp:Person_Lawrence_Blum a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Lawrence_Blum_PlaceRel_Cambridge,
         jp:Person_Lawrence_Blum_PlaceRel_MA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Lawrence_Blum_TimeRel ;
     schema1:description "Moral philosophy; race; friendship; anti-racism"^^xsd:string .
@@ -9955,7 +10060,7 @@ jp:Person_Leo_Baeck a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Leo_Baeck_PlaceRel_Berlin,
         jp:Person_Leo_Baeck_PlaceRel_Lissa,
         jp:Person_Leo_Baeck_PlaceRel_London ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Leo_Baeck_TimeRel ;
     schema1:description "Essence of Judaism; liberal Jewish theology"^^xsd:string .
@@ -10137,7 +10242,7 @@ jp:Person_Levi_Yitzhak_of_Berditchev a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew,
         jp:Language_Yiddish ;
     jp:hasPlaceRelation jp:Person_Levi_Yitzhak_of_Berditchev_PlaceRel_Ukraine ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Levi_Yitzhak_of_Berditchev_TimeRel ;
@@ -10165,7 +10270,9 @@ jp:Person_Levi_ben_Abraham_of_Villefranche a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Levi_ben_Abraham_of_Villefranche_PlaceRel_Montpellier,
         jp:Person_Levi_ben_Abraham_of_Villefranche_PlaceRel_Provence,
         jp:Person_Levi_ben_Abraham_of_Villefranche_PlaceRel_Villefranche ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Levi_ben_Abraham_of_Villefranche_TimeRel ;
     schema1:description "Livyat Hen; encyclopaedist; Aristotelian natural philosophy; Maimonidean controversies"^^xsd:string .
@@ -10453,7 +10560,7 @@ jp:Person_Marilyn_Friedman a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Marilyn_Friedman_PlaceRel_Detroit,
         jp:Person_Marilyn_Friedman_PlaceRel_Louis,
         jp:Person_Marilyn_Friedman_PlaceRel_Vancouver ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Marilyn_Friedman_TimeRel ;
@@ -10684,7 +10791,8 @@ jp:Person_Meir_Aldabi a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Meir_Aldabi_PlaceRel_Castile,
         jp:Person_Meir_Aldabi_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Meir_Aldabi_TimeRel ;
@@ -10758,7 +10866,7 @@ jp:Person_Menachem_Fisch a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Menachem_Fisch_PlaceRel_Aviv,
         jp:Person_Menachem_Fisch_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Rationalism,
         jp:Subject_Science ;
@@ -10804,7 +10912,7 @@ jp:Person_Menachem_Lorberbaum a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Menachem_Lorberbaum_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Menachem_Lorberbaum_TimeRel ;
@@ -10940,7 +11048,7 @@ jp:Person_Michael_Wyschogrod a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Michael_Wyschogrod_PlaceRel_Berlin,
         jp:Person_Michael_Wyschogrod_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Michael_Wyschogrod_TimeRel ;
     schema1:description "Body of faith; Jewish election; theology and embodiment"^^xsd:string .
@@ -11088,7 +11196,8 @@ jp:Person_Moritz_Lazarus a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Moritz_Lazarus_PlaceRel_Berlin,
         jp:Person_Moritz_Lazarus_PlaceRel_Chur,
         jp:Person_Moritz_Lazarus_PlaceRel_Posen ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Moritz_Lazarus_TimeRel ;
     schema1:description "Völkerpsychologie; ethics of Judaism; founder of folk psychology"^^xsd:string .
@@ -11177,7 +11286,7 @@ jp:Person_Moses_Hess a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Moses_Hess_PlaceRel_Bonn,
         jp:Person_Moses_Hess_PlaceRel_Paris,
         jp:Person_Moses_Hess_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moses_Hess_TimeRel ;
     schema1:description "Rome and Jerusalem; socialist Zionism; philosophy of nationalism"^^xsd:string .
@@ -11396,7 +11505,9 @@ jp:Person_Moses_de_Leon a jp:HistoricalPerson ;
         jp:Person_Moses_de_Leon_PlaceRel_Spain,
         jp:Person_Moses_de_Leon_PlaceRel_Valladolid,
         jp:Person_Moses_de_Leon_PlaceRel_n ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Metaphysics ;
     jp:hasTimeRelation jp:Person_Moses_de_Leon_TimeRel ;
     schema1:description "Central figure in the redaction/publication of the Zohar (traditionally attributed to R. Shimon bar Yochai); Kabbalistic metaphysics and theosophy"^^xsd:string .
@@ -11529,7 +11640,8 @@ jp:Person_Nachman_Krochmal a jp:HistoricalPerson ;
     rdfs:label "Nachman Krochmal"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Nachman_Krochmal_PlaceRel_Poland ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Nachman_Krochmal_TimeRel ;
     schema1:description "Guide of the Perplexed of the Time; Hegelian Jewish historicism"^^xsd:string .
@@ -11736,7 +11848,8 @@ jp:Person_Nissim_ben_Moses_of_Marseilles a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Nissim_ben_Moses_of_Marseilles_PlaceRel_France,
         jp:Person_Nissim_ben_Moses_of_Marseilles_PlaceRel_Provence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Nissim_ben_Moses_of_Marseilles_TimeRel ;
     schema1:description "Maʿase Nissim; philosophical rationalism; critique of miracles; radical Maimonideanism"^^xsd:string .
@@ -12046,7 +12159,7 @@ jp:Person_Paul_Franks a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Paul_Franks_PlaceRel_Oxford,
         jp:Person_Paul_Franks_PlaceRel_Toronto,
         jp:Person_Paul_Franks_PlaceRel_Yale ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Paul_Franks_TimeRel ;
     schema1:description "German Idealism; Jewish philosophy; Kant and Maimon"^^xsd:string .
@@ -12287,7 +12400,7 @@ jp:Person_Rachel_Adler a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Rachel_Adler_PlaceRel_Angeles,
         jp:Person_Rachel_Adler_PlaceRel_Chicago ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Rachel_Adler_TimeRel ;
@@ -12317,7 +12430,7 @@ jp:Person_Rachel_Bespaloff a jp:HistoricalPerson ;
         jp:Person_Rachel_Bespaloff_PlaceRel_Paris,
         jp:Person_Rachel_Bespaloff_PlaceRel_Sofia,
         jp:Person_Rachel_Bespaloff_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Rachel_Bespaloff_TimeRel ;
     schema1:description "Philosophy of war; Homer; Weil; existentialism"^^xsd:string .
@@ -12522,7 +12635,9 @@ jp:Person_Roger_Bacon a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Roger_Bacon_PlaceRel_France,
         jp:Person_Roger_Bacon_PlaceRel_Ilchester,
         jp:Person_Roger_Bacon_PlaceRel_Oxford ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Roger_Bacon_TimeRel ;
     schema1:description "Natural philosophy; optics; Hebrew scholarship; cited Jewish sources"^^xsd:string .
@@ -12726,7 +12841,7 @@ jp:Person_Salo_Baron a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Salo_Baron_PlaceRel_Poland,
         jp:Person_Salo_Baron_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Salo_Baron_TimeRel ;
     schema1:description "Philosophy of Jewish history; counter-lachrymose narrative"^^xsd:string .
@@ -12756,7 +12871,7 @@ jp:Person_Salomon_Formstecher a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Salomon_Formstecher_PlaceRel_Germany,
         jp:Person_Salomon_Formstecher_PlaceRel_Offenbach ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Salomon_Formstecher_TimeRel ;
     schema1:description "Pioneer of Reform Jewish philosophy; adapted Schelling's idealism; Die Religion des Geistes"^^xsd:string .
@@ -12817,7 +12932,7 @@ jp:Person_Samuel_Alexander a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Samuel_Alexander_PlaceRel_Sydney,
         jp:Person_Samuel_Alexander_PlaceRel_UK ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Samuel_Alexander_TimeRel ;
     schema1:description "Space, Time and Deity; emergentism; naturalism"^^xsd:string .
@@ -12892,7 +13007,7 @@ jp:Person_Samuel_Hirsch a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Samuel_Hirsch_PlaceRel_Luxembourg,
         jp:Person_Samuel_Hirsch_PlaceRel_Philadelphia,
         jp:Person_Samuel_Hirsch_PlaceRel_Thalfang ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Samuel_Hirsch_TimeRel ;
     schema1:description "Hegelian philosophy of Judaism"^^xsd:string .
@@ -13295,7 +13410,8 @@ jp:Person_Shem_Tov_ibn_Shem_Tov a jp:HistoricalPerson ;
     rdfs:label "Shem Tov ibn Shem Tov"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Shem_Tov_ibn_Shem_Tov_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Shem_Tov_ibn_Shem_Tov_TimeRel ;
     schema1:description "Sefer ha-Emunot; Kabbalist-critic of Maimonidean rationalism; anti-philosophical polemic"^^xsd:string .
@@ -13612,7 +13728,8 @@ jp:Person_Solomon_Ludwig_Steinheim a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Solomon_Ludwig_Steinheim_PlaceRel_Altona,
         jp:Person_Solomon_Ludwig_Steinheim_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Solomon_Ludwig_Steinheim_TimeRel ;
     schema1:description "Philosophy of revelation vs reason; critique of Kant from Jewish perspective"^^xsd:string .
@@ -13796,7 +13913,7 @@ jp:Person_Tamar_Gendler a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Tamar_Gendler_PlaceRel_Haven,
         jp:Person_Tamar_Gendler_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Tamar_Gendler_TimeRel ;
     schema1:description "Imagination; belief; alief; philosophy of mind"^^xsd:string .
@@ -13823,7 +13940,7 @@ jp:Person_Tamar_Ross a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Tamar_Ross_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Tamar_Ross_TimeRel ;
@@ -13879,7 +13996,7 @@ jp:Person_Theodor_Gomperz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Theodor_Gomperz_PlaceRel_Vienna,
         jp:Person_Theodor_Gomperz_PlaceRel_nn ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Theodor_Gomperz_TimeRel ;
     schema1:description "Greek Thinkers; philosophy of ancient Greece"^^xsd:string .
@@ -14481,7 +14598,7 @@ jp:Person_Zacharias_Frankel a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Zacharias_Frankel_PlaceRel_Breslau,
         jp:Person_Zacharias_Frankel_PlaceRel_Dresden,
         jp:Person_Zacharias_Frankel_PlaceRel_Prague ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Zacharias_Frankel_TimeRel ;
     schema1:description "Historical Judaism; Conservative philosophy"^^xsd:string .
@@ -16234,7 +16351,9 @@ jp:Person_Abner_of_Burgos a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Castilian,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abner_of_Burgos_PlaceRel_Castile ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Abner_of_Burgos_TimeRel ;
     schema1:description "Determinism; free will; converted to Christianity"^^xsd:string .
@@ -16246,7 +16365,7 @@ jp:Person_Abraham_Cohen_de_Herrera a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Abraham_Cohen_de_Herrera_PlaceRel_Amsterdam,
         jp:Person_Abraham_Cohen_de_Herrera_PlaceRel_Florence,
         jp:Person_Abraham_Cohen_de_Herrera_PlaceRel_Hamburg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Metaphysics ;
     jp:hasTimeRelation jp:Person_Abraham_Cohen_de_Herrera_TimeRel ;
     schema1:description "Kabbalistic metaphysics; Gate of Heaven"^^xsd:string .
@@ -16258,7 +16377,7 @@ jp:Person_Abraham_Geiger a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Abraham_Geiger_PlaceRel_Berlin,
         jp:Person_Abraham_Geiger_PlaceRel_Frankfurt,
         jp:Person_Abraham_Geiger_PlaceRel_aw ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Abraham_Geiger_TimeRel ;
     schema1:description "Reform Judaism; historical-critical method"^^xsd:string .
@@ -16268,7 +16387,10 @@ jp:Person_Abraham_Ibn_Daud a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_Ibn_Daud_PlaceRel_Spain,
         jp:Person_Abraham_Ibn_Daud_PlaceRel_rdoba ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Aristotelianism ;
     jp:hasTimeRelation jp:Person_Abraham_Ibn_Daud_TimeRel ;
     schema1:description "First systematic Aristotelianism in Hebrew; Emunah Ramah"^^xsd:string .
@@ -16277,7 +16399,8 @@ jp:Person_Abraham_bar_Hiyya a jp:HistoricalPerson ;
     rdfs:label "Abraham bar Hiyya"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Abraham_bar_Hiyya_PlaceRel_Catalonia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Eschatology,
         jp:Subject_Neoplatonism ;
     jp:hasTimeRelation jp:Person_Abraham_bar_Hiyya_TimeRel ;
@@ -16311,7 +16434,7 @@ jp:Person_Aharon_Lichtenstein a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Aharon_Lichtenstein_PlaceRel_Jerusalem,
         jp:Person_Aharon_Lichtenstein_PlaceRel_Paris,
         jp:Person_Aharon_Lichtenstein_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Halakha,
         jp:Subject_Philosophy ;
@@ -16333,7 +16456,7 @@ jp:Person_Alain_Finkielkraut a jp:HistoricalPerson ;
     rdfs:label "Alain Finkielkraut"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Alain_Finkielkraut_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Alain_Finkielkraut_TimeRel ;
     schema1:description "Philosophy of culture; defeat of the mind; Jewish identity"^^xsd:string .
@@ -16344,7 +16467,10 @@ jp:Person_Albertus_Magnus a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Albertus_Magnus_PlaceRel_Cologne,
         jp:Person_Albertus_Magnus_PlaceRel_France,
         jp:Person_Albertus_Magnus_PlaceRel_Lauingen ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Albertus_Magnus_TimeRel ;
     schema1:description "Aristotelian synthesis; natural philosophy; influenced Jewish scholastics via Latin translations"^^xsd:string .
@@ -16355,7 +16481,8 @@ jp:Person_Alexander_Altmann a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Alexander_Altmann_PlaceRel_Manchester,
         jp:Person_Alexander_Altmann_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Alexander_Altmann_TimeRel ;
     schema1:description "Saadia Gaon; Moses Mendelssohn; history of Jewish philosophy; German-Jewish thought"^^xsd:string .
@@ -16364,7 +16491,8 @@ jp:Person_Alfred_Jules_Ayer a jp:HistoricalPerson ;
     rdfs:label "Alfred Jules Ayer"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Alfred_Jules_Ayer_PlaceRel_UK ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Alfred_Jules_Ayer_TimeRel ;
     schema1:description "Logical positivism; verification principle"^^xsd:string .
@@ -16386,7 +16514,8 @@ jp:Person_Amos_Funkenstein a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Amos_Funkenstein_PlaceRel_Aviv,
         jp:Person_Amos_Funkenstein_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Science,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Amos_Funkenstein_TimeRel ;
@@ -16418,7 +16547,7 @@ jp:Person_Arthur_Danto a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Arthur_Danto_PlaceRel_Arbor,
         jp:Person_Arthur_Danto_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Arthur_Danto_TimeRel ;
     schema1:description "Philosophy of art; end of art; analytical aesthetics"^^xsd:string .
@@ -16474,7 +16603,7 @@ jp:Person_David_Berlinski a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_David_Berlinski_PlaceRel_Paris,
         jp:Person_David_Berlinski_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_David_Berlinski_TimeRel ;
@@ -16495,7 +16624,7 @@ jp:Person_David_Hartman a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_David_Hartman_PlaceRel_Brooklyn,
         jp:Person_David_Hartman_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_David_Hartman_TimeRel ;
@@ -16505,7 +16634,7 @@ jp:Person_David_Kaplan a jp:HistoricalPerson ;
     rdfs:label "David Kaplan"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_David_Kaplan_PlaceRel_Angeles ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_David_Kaplan_TimeRel ;
     schema1:description "Logic of indexicals; direct reference; demonstratives"^^xsd:string .
@@ -16515,7 +16644,7 @@ jp:Person_David_Novak a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_David_Novak_PlaceRel_Chicago,
         jp:Person_David_Novak_PlaceRel_Toronto ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_David_Novak_TimeRel ;
     schema1:description "Natural law in Judaism; covenantal ethics"^^xsd:string .
@@ -16525,7 +16654,9 @@ jp:Person_Denis_Diderot a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Denis_Diderot_PlaceRel_France,
         jp:Person_Denis_Diderot_PlaceRel_Langres ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Denis_Diderot_TimeRel ;
     schema1:description "Encyclopédiste; materialist philosophy; Enlightenment; context for Jewish emancipation thought"^^xsd:string .
@@ -16536,7 +16667,7 @@ jp:Person_Donniel_Hartman a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Donniel_Hartman_PlaceRel_Jerusalem,
         jp:Person_Donniel_Hartman_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Donniel_Hartman_TimeRel ;
@@ -16548,7 +16679,7 @@ jp:Person_Douglas_Hofstadter a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Douglas_Hofstadter_PlaceRel_Bloomington,
         jp:Person_Douglas_Hofstadter_PlaceRel_Stanford,
         jp:Person_Douglas_Hofstadter_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Douglas_Hofstadter_TimeRel ;
     schema1:description "Self-reference; Gödel Escher Bach; philosophy of consciousness"^^xsd:string .
@@ -16571,7 +16702,7 @@ jp:Person_Edith_Stein a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Edith_Stein_PlaceRel_Cologne,
         jp:Person_Edith_Stein_PlaceRel_aw,
         jp:Person_Edith_Stein_PlaceRel_ttingen ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Edith_Stein_TimeRel ;
     schema1:description "Phenomenology; empathy; later converted to Catholicism"^^xsd:string .
@@ -16580,7 +16711,7 @@ jp:Person_Edith_Wyschogrod a jp:HistoricalPerson ;
     rdfs:label "Edith Wyschogrod"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Edith_Wyschogrod_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Edith_Wyschogrod_TimeRel ;
@@ -16593,7 +16724,9 @@ jp:Person_Elia_del_Medigo a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Elia_del_Medigo_PlaceRel_Crete,
         jp:Person_Elia_del_Medigo_PlaceRel_Florence,
         jp:Person_Elia_del_Medigo_PlaceRel_Padua ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Elia_del_Medigo_TimeRel ;
     schema1:description "Averroist; teacher of Pico della Mirandola; philosophy of intellect"^^xsd:string .
@@ -16605,7 +16738,8 @@ jp:Person_Elias_Levita a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Elias_Levita_PlaceRel_Italy,
         jp:Person_Elias_Levita_PlaceRel_Neustadt,
         jp:Person_Elias_Levita_PlaceRel_Venice ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Grammar ;
     jp:hasTimeRelation jp:Person_Elias_Levita_TimeRel ;
     schema1:description "Hebrew grammarian-philosopher; Masoretic scholarship; Christian Hebraism"^^xsd:string .
@@ -16617,7 +16751,7 @@ jp:Person_Eliezer_Berkovits a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Eliezer_Berkovits_PlaceRel_Berlin,
         jp:Person_Eliezer_Berkovits_PlaceRel_Boston,
         jp:Person_Eliezer_Berkovits_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Eliezer_Berkovits_TimeRel ;
     schema1:description "Holocaust philosophy; faith after the Shoah"^^xsd:string .
@@ -16630,7 +16764,7 @@ jp:Person_Emma_Goldman a jp:HistoricalPerson ;
         jp:Person_Emma_Goldman_PlaceRel_London,
         jp:Person_Emma_Goldman_PlaceRel_Petersburg,
         jp:Person_Emma_Goldman_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Emma_Goldman_TimeRel ;
     schema1:description "Anarchism; feminist philosophy; freedom"^^xsd:string .
@@ -16642,7 +16776,7 @@ jp:Person_Ernest_Gellner a jp:HistoricalPerson ;
         jp:Person_Ernest_Gellner_PlaceRel_London,
         jp:Person_Ernest_Gellner_PlaceRel_Paris,
         jp:Person_Ernest_Gellner_PlaceRel_Prague ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Ernest_Gellner_TimeRel ;
@@ -16654,7 +16788,7 @@ jp:Person_Ernst_Bloch a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Ernst_Bloch_PlaceRel_Berlin,
         jp:Person_Ernst_Bloch_PlaceRel_Ludwigshafen,
         jp:Person_Ernst_Bloch_PlaceRel_bingen ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ernst_Bloch_TimeRel ;
     schema1:description "Principle of Hope; utopian Marxism; not-yet-being"^^xsd:string .
@@ -16664,7 +16798,7 @@ jp:Person_Franz_Brentano a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Franz_Brentano_PlaceRel_Marienberg,
         jp:Person_Franz_Brentano_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Franz_Brentano_TimeRel ;
     schema1:description "Intentionality; act psychology; precursor of phenomenology"^^xsd:string .
@@ -16675,7 +16809,8 @@ jp:Person_Franz_Rosenzweig a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Franz_Rosenzweig_PlaceRel_Berlin,
         jp:Person_Franz_Rosenzweig_PlaceRel_Frankfurt,
         jp:Person_Franz_Rosenzweig_PlaceRel_Kassel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Logic,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Franz_Rosenzweig_TimeRel ;
@@ -16697,7 +16832,7 @@ jp:Person_Gerald_Cohen a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Gerald_Cohen_PlaceRel_London,
         jp:Person_Gerald_Cohen_PlaceRel_Montreal,
         jp:Person_Gerald_Cohen_PlaceRel_Oxford ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Gerald_Cohen_TimeRel ;
     schema1:description "Analytical Marxism; self-ownership; luck egalitarianism"^^xsd:string .
@@ -16706,7 +16841,7 @@ jp:Person_Gillian_Rose a jp:HistoricalPerson ;
     rdfs:label "Gillian Rose"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Gillian_Rose_PlaceRel_London ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Gillian_Rose_TimeRel ;
     schema1:description "Hegel; social theory; Judaism and modernity"^^xsd:string .
@@ -16718,7 +16853,9 @@ jp:Person_Gregory_Bar_Hebraeus a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Gregory_Bar_Hebraeus_PlaceRel_Iraq,
         jp:Person_Gregory_Bar_Hebraeus_PlaceRel_Malatia,
         jp:Person_Gregory_Bar_Hebraeus_PlaceRel_Maragha ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Gregory_Bar_Hebraeus_TimeRel ;
     schema1:description "Syriac Christian philosopher; encyclopaedist; bridge between Arabic and Jewish thought"^^xsd:string .
@@ -16739,7 +16876,8 @@ jp:Person_Hai_Gaon a jp:HistoricalPerson ;
         jp:Language_Hebrew,
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Hai_Gaon_PlaceRel_Iraq ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hai_Gaon_TimeRel ;
@@ -16752,7 +16890,7 @@ jp:Person_Hans_Jonas a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Hans_Jonas_PlaceRel_Jerusalem,
         jp:Person_Hans_Jonas_PlaceRel_York,
         jp:Person_Hans_Jonas_PlaceRel_nchengladbach ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Hans_Jonas_TimeRel ;
     schema1:description "Ethics of responsibility; Gnosticism; technology"^^xsd:string .
@@ -16765,7 +16903,7 @@ jp:Person_Hans_Reichenbach a jp:HistoricalPerson ;
         jp:Person_Hans_Reichenbach_PlaceRel_Berlin,
         jp:Person_Hans_Reichenbach_PlaceRel_Hamburg,
         jp:Person_Hans_Reichenbach_PlaceRel_Istanbul ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic,
         jp:Subject_Philosophy,
         jp:Subject_Science ;
@@ -16778,7 +16916,7 @@ jp:Person_Henri_Atlan a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Henri_Atlan_PlaceRel_Algeria,
         jp:Person_Henri_Atlan_PlaceRel_Jerusalem,
         jp:Person_Henri_Atlan_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Henri_Atlan_TimeRel ;
     schema1:description "Philosophy of biology; self-organisation; complexity"^^xsd:string .
@@ -16788,7 +16926,7 @@ jp:Person_Herbert_Hart a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Herbert_Hart_PlaceRel_Harrogate,
         jp:Person_Herbert_Hart_PlaceRel_UK ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Herbert_Hart_TimeRel ;
     schema1:description "Legal positivism; The Concept of Law"^^xsd:string .
@@ -16799,7 +16937,8 @@ jp:Person_Hermann_Cohen a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Hermann_Cohen_PlaceRel_Berlin,
         jp:Person_Hermann_Cohen_PlaceRel_Coswig,
         jp:Person_Hermann_Cohen_PlaceRel_Marburg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Hermann_Cohen_TimeRel ;
     schema1:description "Neo-Kantian ethics; Religion of Reason out of the Sources of Judaism"^^xsd:string .
@@ -16809,7 +16948,8 @@ jp:Person_Isaac_Cardoso a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Spanish ;
     jp:hasPlaceRelation jp:Person_Isaac_Cardoso_PlaceRel_Italy,
         jp:Person_Isaac_Cardoso_PlaceRel_Madrid ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_Cardoso_TimeRel ;
     schema1:description "Defence of Judaism; philosophy of nature"^^xsd:string .
@@ -16820,7 +16960,10 @@ jp:Person_Isaac_Israeli_ben_Solomon a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Isaac_Israeli_ben_Solomon_PlaceRel_Egypt,
         jp:Person_Isaac_Israeli_ben_Solomon_PlaceRel_Kairouan,
         jp:Person_Isaac_Israeli_ben_Solomon_PlaceRel_Tunisia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_Israeli_ben_Solomon_TimeRel ;
     schema1:description "Neoplatonist physician; emanation cosmology"^^xsd:string .
@@ -16840,7 +16983,7 @@ jp:Person_Isaac_Orobio_de_Castro a jp:HistoricalPerson ;
     rdfs:label "Isaac Orobio de Castro"^^xsd:string ;
     jp:hasLanguage jp:Language_Spanish ;
     jp:hasPlaceRelation jp:Person_Isaac_Orobio_de_Castro_PlaceRel_Amsterdam ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_Orobio_de_Castro_TimeRel ;
     schema1:description "Defence of Judaism against Spinoza and deism"^^xsd:string .
@@ -16850,7 +16993,8 @@ jp:Person_Isaac_ibn_Latif a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Isaac_ibn_Latif_PlaceRel_Spain,
         jp:Person_Isaac_ibn_Latif_PlaceRel_Toledo ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Kabbalah ;
     jp:hasTimeRelation jp:Person_Isaac_ibn_Latif_TimeRel ;
     schema1:description "Neoplatonic-Kabbalistic synthesis; Shaʿar ha-Shamayim; philosopher-mystic bridging Maimonides and Kabbalah"^^xsd:string .
@@ -16902,7 +17046,7 @@ jp:Person_Jerry_Fodor a jp:HistoricalPerson ;
     rdfs:label "Jerry Fodor"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Jerry_Fodor_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jerry_Fodor_TimeRel ;
     schema1:description "Language of thought; modularity of mind; intentionality"^^xsd:string .
@@ -16913,7 +17057,7 @@ jp:Person_Joel_Feinberg a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Joel_Feinberg_PlaceRel_Detroit,
         jp:Person_Joel_Feinberg_PlaceRel_Princeton,
         jp:Person_Joel_Feinberg_PlaceRel_Tucson ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joel_Feinberg_TimeRel ;
     schema1:description "Harm principle; rights theory"^^xsd:string .
@@ -16923,7 +17067,7 @@ jp:Person_Jonathan_Israel a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Jonathan_Israel_PlaceRel_London,
         jp:Person_Jonathan_Israel_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jonathan_Israel_TimeRel ;
     schema1:description "Radical Enlightenment; Spinoza; democratic revolution"^^xsd:string .
@@ -16944,7 +17088,8 @@ jp:Person_Josef_Stern a jp:HistoricalPerson ;
     rdfs:label "Josef Stern"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Josef_Stern_PlaceRel_Chicago ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Josef_Stern_TimeRel ;
     schema1:description "Maimonides' esoteric thought; philosophy of metaphor"^^xsd:string .
@@ -16954,7 +17099,7 @@ jp:Person_Joseph_Gikatilla a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Joseph_Gikatilla_PlaceRel_Castile,
         jp:Person_Joseph_Gikatilla_PlaceRel_Medinaceli ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_Gikatilla_TimeRel ;
     schema1:description "Sha'are Orah; Kabbalistic philosophy of divine names"^^xsd:string .
@@ -16966,7 +17111,9 @@ jp:Person_Joseph_Solomon_Delmedigo a jp:HistoricalPerson ;
         jp:Person_Joseph_Solomon_Delmedigo_PlaceRel_Crete,
         jp:Person_Joseph_Solomon_Delmedigo_PlaceRel_Egypt,
         jp:Person_Joseph_Solomon_Delmedigo_PlaceRel_Lithuania ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Joseph_Solomon_Delmedigo_TimeRel ;
@@ -16988,7 +17135,7 @@ jp:Person_Joseph_ibn_Migash a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew,
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Joseph_ibn_Migash_PlaceRel_Andalus ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Joseph_ibn_Migash_TimeRel ;
@@ -17001,7 +17148,9 @@ jp:Person_Judah_Halevi a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Judah_Halevi_PlaceRel_Andalus,
         jp:Person_Judah_Halevi_PlaceRel_Egypt,
         jp:Person_Judah_Halevi_PlaceRel_Toledo ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Aristotelianism ;
     jp:hasTimeRelation jp:Person_Judah_Halevi_TimeRel ;
     schema1:description "Kuzari; anti-Aristotelianism; Jewish particularism"^^xsd:string .
@@ -17024,7 +17173,8 @@ jp:Person_Kalonymus_ben_Kalonymus a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Kalonymus_ben_Kalonymus_PlaceRel_Arles,
         jp:Person_Kalonymus_ben_Kalonymus_PlaceRel_Naples,
         jp:Person_Kalonymus_ben_Kalonymus_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Kalonymus_ben_Kalonymus_TimeRel ;
     schema1:description "Translator; philosophical satire and ethics"^^xsd:string .
@@ -17049,7 +17199,7 @@ jp:Person_Karl_Mannheim a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Karl_Mannheim_PlaceRel_Budapest,
         jp:Person_Karl_Mannheim_PlaceRel_Frankfurt,
         jp:Person_Karl_Mannheim_PlaceRel_London ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Karl_Mannheim_TimeRel ;
     schema1:description "Sociology of knowledge; ideology and utopia"^^xsd:string .
@@ -17061,7 +17211,7 @@ jp:Person_Karl_Popper a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Karl_Popper_PlaceRel_London,
         jp:Person_Karl_Popper_PlaceRel_UK,
         jp:Person_Karl_Popper_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Karl_Popper_TimeRel ;
@@ -17072,7 +17222,7 @@ jp:Person_Leon_Roth a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Leon_Roth_PlaceRel_Jerusalem,
         jp:Person_Leon_Roth_PlaceRel_London ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Leon_Roth_TimeRel ;
     schema1:description "Spinoza scholarship; Jewish humanism; philosophy of religion"^^xsd:string .
@@ -17082,7 +17232,7 @@ jp:Person_Leone_Modena a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew,
         jp:Language_Italian ;
     jp:hasPlaceRelation jp:Person_Leone_Modena_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Kabbalah ;
     jp:hasTimeRelation jp:Person_Leone_Modena_TimeRel ;
     schema1:description "Critique of Kabbalah (Ari Nohem); religious scepticism"^^xsd:string .
@@ -17091,7 +17241,7 @@ jp:Person_Leora_Batnitzky a jp:HistoricalPerson ;
     rdfs:label "Leora Batnitzky"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Leora_Batnitzky_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Leora_Batnitzky_TimeRel ;
     schema1:description "Modern Jewish philosophy; Strauss; liberal religion"^^xsd:string .
@@ -17102,7 +17252,7 @@ jp:Person_Lev_Shestov a jp:HistoricalPerson ;
         jp:Language_Russian ;
     jp:hasPlaceRelation jp:Person_Lev_Shestov_PlaceRel_Kyiv,
         jp:Person_Lev_Shestov_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Lev_Shestov_TimeRel ;
     schema1:description "Existentialism; irrationalism; critique of Greek reason"^^xsd:string .
@@ -17114,7 +17264,7 @@ jp:Person_Lewis_Gordon a jp:HistoricalPerson ;
         jp:Person_Lewis_Gordon_PlaceRel_Jamaica,
         jp:Person_Lewis_Gordon_PlaceRel_Philadelphia,
         jp:Person_Lewis_Gordon_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Lewis_Gordon_TimeRel ;
     schema1:description "Afro-Jewish philosophy; existential phenomenology; decolonial thought"^^xsd:string .
@@ -17124,7 +17274,7 @@ jp:Person_Louis_Jacobs a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Louis_Jacobs_PlaceRel_London,
         jp:Person_Louis_Jacobs_PlaceRel_Manchester ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Louis_Jacobs_TimeRel ;
@@ -17135,7 +17285,7 @@ jp:Person_Lucien_Goldmann a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Lucien_Goldmann_PlaceRel_Bucharest,
         jp:Person_Lucien_Goldmann_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Lucien_Goldmann_TimeRel ;
     schema1:description "Dialectical materialism; sociology of literature; tragic vision"^^xsd:string .
@@ -17156,7 +17306,7 @@ jp:Person_Max_Black a jp:HistoricalPerson ;
         jp:Person_Max_Black_PlaceRel_London,
         jp:Person_Max_Black_PlaceRel_MA,
         jp:Person_Max_Black_PlaceRel_NY ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Max_Black_TimeRel ;
     schema1:description "Analytic philosophy; philosophy of language; metaphor"^^xsd:string .
@@ -17167,7 +17317,7 @@ jp:Person_Max_Horkheimer a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Max_Horkheimer_PlaceRel_Frankfurt,
         jp:Person_Max_Horkheimer_PlaceRel_Stuttgart,
         jp:Person_Max_Horkheimer_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Max_Horkheimer_TimeRel ;
     schema1:description "Critical theory; instrumental reason; Frankfurt School"^^xsd:string .
@@ -17177,7 +17327,8 @@ jp:Person_Max_Nordau a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Max_Nordau_PlaceRel_Budapest,
         jp:Person_Max_Nordau_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Max_Nordau_TimeRel ;
     schema1:description "Philosophy of degeneration; Zionist political philosophy; The Conventional Lies of Civilization"^^xsd:string .
@@ -17188,7 +17339,7 @@ jp:Person_Max_Scheler a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Max_Scheler_PlaceRel_Cologne,
         jp:Person_Max_Scheler_PlaceRel_Frankfurt,
         jp:Person_Max_Scheler_PlaceRel_Munich ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Max_Scheler_TimeRel ;
     schema1:description "Philosophy of values; phenomenology of emotion"^^xsd:string .
@@ -17198,7 +17349,7 @@ jp:Person_Meir_ibn_Gabbai a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Meir_ibn_Gabbai_PlaceRel_Spain,
         jp:Person_Meir_ibn_Gabbai_PlaceRel_Turkey ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Meir_ibn_Gabbai_TimeRel ;
     schema1:description "Avodat ha-Kodesh; systematic Kabbalistic theology; divine unity and cosmic structure"^^xsd:string .
@@ -17209,7 +17360,7 @@ jp:Person_Menachem_Kellner a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Menachem_Kellner_PlaceRel_Buffalo,
         jp:Person_Menachem_Kellner_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Menachem_Kellner_TimeRel ;
     schema1:description "Maimonidean scholarship; Jewish dogma and heresy"^^xsd:string .
@@ -17221,7 +17372,7 @@ jp:Person_Michael_Polanyi a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Michael_Polanyi_PlaceRel_Budapest,
         jp:Person_Michael_Polanyi_PlaceRel_Manchester,
         jp:Person_Michael_Polanyi_PlaceRel_UK ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Michael_Polanyi_TimeRel ;
@@ -17232,7 +17383,7 @@ jp:Person_Michael_Walzer a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Michael_Walzer_PlaceRel_Johnstown,
         jp:Person_Michael_Walzer_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Michael_Walzer_TimeRel ;
     schema1:description "Just war theory; spheres of justice; political pluralism"^^xsd:string .
@@ -17242,7 +17393,7 @@ jp:Person_Mordecai_Kaplan a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Mordecai_Kaplan_PlaceRel_Lithuania,
         jp:Person_Mordecai_Kaplan_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Mordecai_Kaplan_TimeRel ;
     schema1:description "Judaism as a Civilization; Reconstructionism"^^xsd:string .
@@ -17252,7 +17403,7 @@ jp:Person_Morris_Raphael_Cohen a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Morris_Raphael_Cohen_PlaceRel_Minsk,
         jp:Person_Morris_Raphael_Cohen_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Morris_Raphael_Cohen_TimeRel ;
     schema1:description "Legal philosophy; pragmatism; scientific method"^^xsd:string .
@@ -17273,7 +17424,10 @@ jp:Person_Moses_Ibn_Ezra a jp:HistoricalPerson ;
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Moses_Ibn_Ezra_PlaceRel_Granada,
         jp:Person_Moses_Ibn_Ezra_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Exegesis,
         jp:Subject_Neoplatonism,
         jp:Subject_Poetry ;
@@ -17306,7 +17460,10 @@ jp:Person_Moses_ben_Joshua_of_Narbonne a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Moses_ben_Joshua_of_Narbonne_PlaceRel_Africa,
         jp:Person_Moses_ben_Joshua_of_Narbonne_PlaceRel_Perpignan,
         jp:Person_Moses_ben_Joshua_of_Narbonne_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moses_ben_Joshua_of_Narbonne_TimeRel ;
     schema1:description "Averroist commentator; intellect; determinism"^^xsd:string .
@@ -17317,7 +17474,7 @@ jp:Person_Moshe_Idel a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Moshe_Idel_PlaceRel_Jerusalem,
         jp:Person_Moshe_Idel_PlaceRel_Romania ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moshe_Idel_TimeRel ;
@@ -17328,7 +17485,7 @@ jp:Person_Murray_Bookchin a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Murray_Bookchin_PlaceRel_VT,
         jp:Person_Murray_Bookchin_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Murray_Bookchin_TimeRel ;
     schema1:description "Social ecology; anarchism; libertarian municipalism"^^xsd:string .
@@ -17339,7 +17496,7 @@ jp:Person_Nachman_of_Breslov a jp:HistoricalPerson ;
         jp:Language_Yiddish ;
     jp:hasPlaceRelation jp:Person_Nachman_of_Breslov_PlaceRel_Medzhybizh,
         jp:Person_Nachman_of_Breslov_PlaceRel_Ukraine ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Nachman_of_Breslov_TimeRel ;
@@ -17362,7 +17519,9 @@ jp:Person_Nicholas_of_Cusa a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Nicholas_of_Cusa_PlaceRel_Italy,
         jp:Person_Nicholas_of_Cusa_PlaceRel_Kues,
         jp:Person_Nicholas_of_Cusa_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Nicholas_of_Cusa_TimeRel ;
     schema1:description "Learned ignorance; coincidence of opposites; dialogue with Jewish thought"^^xsd:string .
@@ -17373,7 +17532,7 @@ jp:Person_Norbert_Wiener a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Norbert_Wiener_PlaceRel_Cambridge,
         jp:Person_Norbert_Wiener_PlaceRel_MA,
         jp:Person_Norbert_Wiener_PlaceRel_MO ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Norbert_Wiener_TimeRel ;
     schema1:description "Cybernetics; philosophy of information and control"^^xsd:string .
@@ -17384,7 +17543,7 @@ jp:Person_Norman_Lamm a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Norman_Lamm_PlaceRel_Brooklyn,
         jp:Person_Norman_Lamm_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Norman_Lamm_TimeRel ;
     schema1:description "Torah u-Madda; Orthodox philosophy; philosophy of prayer"^^xsd:string .
@@ -17395,7 +17554,8 @@ jp:Person_Ovadiah_Sforno a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Ovadiah_Sforno_PlaceRel_Bologna,
         jp:Person_Ovadiah_Sforno_PlaceRel_Cesena,
         jp:Person_Ovadiah_Sforno_PlaceRel_Italy ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_SIEPM ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ovadiah_Sforno_TimeRel ;
     schema1:description "ʿOr Ammim; philosophy for gentiles and Jews; Renaissance Neoplatonic biblical philosophy"^^xsd:string .
@@ -17405,7 +17565,7 @@ jp:Person_Paul_Benacerraf a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Paul_Benacerraf_PlaceRel_Paris,
         jp:Person_Paul_Benacerraf_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Paul_Benacerraf_TimeRel ;
@@ -17416,7 +17576,7 @@ jp:Person_Peter_Achinstein a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Peter_Achinstein_PlaceRel_Baltimore,
         jp:Person_Peter_Achinstein_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Science ;
     jp:hasTimeRelation jp:Person_Peter_Achinstein_TimeRel ;
@@ -17450,7 +17610,7 @@ jp:Person_Raya_Dunayevskaya a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Raya_Dunayevskaya_PlaceRel_Chicago,
         jp:Person_Raya_Dunayevskaya_PlaceRel_Ukraine,
         jp:Person_Raya_Dunayevskaya_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Raya_Dunayevskaya_TimeRel ;
     schema1:description "Marxist-Humanism; absolute idea; philosophy of freedom"^^xsd:string .
@@ -17459,7 +17619,7 @@ jp:Person_Raymond_Aron a jp:HistoricalPerson ;
     rdfs:label "Raymond Aron"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Raymond_Aron_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Raymond_Aron_TimeRel ;
     schema1:description "Political philosophy; sociology; philosophy of history"^^xsd:string .
@@ -17469,7 +17629,7 @@ jp:Person_Rebecca_Goldstein a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Rebecca_Goldstein_PlaceRel_NY,
         jp:Person_Rebecca_Goldstein_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Rebecca_Goldstein_TimeRel ;
     schema1:description "Philosophy of mind; Spinoza biography; fiction and philosophy"^^xsd:string .
@@ -17490,7 +17650,7 @@ jp:Person_Richard_Rorty a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Richard_Rorty_PlaceRel_Princeton,
         jp:Person_Richard_Rorty_PlaceRel_Virginia,
         jp:Person_Richard_Rorty_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Richard_Rorty_TimeRel ;
     schema1:description "Neo-pragmatism; anti-foundationalism; contingency"^^xsd:string .
@@ -17503,7 +17663,7 @@ jp:Person_Rudolf_Carnap a jp:HistoricalPerson ;
         jp:Person_Rudolf_Carnap_PlaceRel_Prague,
         jp:Person_Rudolf_Carnap_PlaceRel_Ronsdorf,
         jp:Person_Rudolf_Carnap_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Rudolf_Carnap_TimeRel ;
     schema1:description "Logical empiricism; Vienna Circle; Aufbau"^^xsd:string .
@@ -17522,7 +17682,7 @@ jp:Person_Samuel_Scheffler a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Samuel_Scheffler_PlaceRel_Berkeley,
         jp:Person_Samuel_Scheffler_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Samuel_Scheffler_TimeRel ;
     schema1:description "Agent-centred prerogatives; afterlife thought experiment"^^xsd:string .
@@ -17531,7 +17691,7 @@ jp:Person_Sarah_Kofman a jp:HistoricalPerson ;
     rdfs:label "Sarah Kofman"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Sarah_Kofman_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Sarah_Kofman_TimeRel ;
     schema1:description "Nietzsche; Freud; Derrida; feminist philosophy"^^xsd:string .
@@ -17540,7 +17700,7 @@ jp:Person_Saul_Ascher a jp:HistoricalPerson ;
     rdfs:label "Saul Ascher"^^xsd:string ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Saul_Ascher_PlaceRel_Berlin ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Saul_Ascher_TimeRel ;
     schema1:description "Leviathan; philosophy of Jewish religious reform"^^xsd:string .
@@ -17552,7 +17712,7 @@ jp:Person_Saul_Kripke a jp:HistoricalPerson ;
         jp:Person_Saul_Kripke_PlaceRel_MA,
         jp:Person_Saul_Kripke_PlaceRel_Omaha,
         jp:Person_Saul_Kripke_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Saul_Kripke_TimeRel ;
     schema1:description "Modal logic; rigid designators; Naming and Necessity"^^xsd:string .
@@ -17564,7 +17724,7 @@ jp:Person_Semyon_Frank a jp:HistoricalPerson ;
         jp:Person_Semyon_Frank_PlaceRel_London,
         jp:Person_Semyon_Frank_PlaceRel_Moscow,
         jp:Person_Semyon_Frank_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Semyon_Frank_TimeRel ;
     schema1:description "Russian religious philosophy; unknowable ground of being"^^xsd:string .
@@ -17573,7 +17733,7 @@ jp:Person_Seth_Benardete a jp:HistoricalPerson ;
     rdfs:label "Seth Benardete"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Seth_Benardete_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Seth_Benardete_TimeRel ;
     schema1:description "Platonic philosophy; ancient Greek thought; Straussian hermeneutics"^^xsd:string .
@@ -17585,7 +17745,7 @@ jp:Person_Seyla_Benhabib a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Seyla_Benhabib_PlaceRel_Columbia,
         jp:Person_Seyla_Benhabib_PlaceRel_Istanbul,
         jp:Person_Seyla_Benhabib_PlaceRel_Yale ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Seyla_Benhabib_TimeRel ;
     schema1:description "Critical theory; cosmopolitanism; feminist political philosophy"^^xsd:string .
@@ -17595,7 +17755,7 @@ jp:Person_Shimon_ben_Zemah_Duran a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Shimon_ben_Zemah_Duran_PlaceRel_Algiers,
         jp:Person_Shimon_ben_Zemah_Duran_PlaceRel_Majorca ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Shimon_ben_Zemah_Duran_TimeRel ;
     schema1:description "Philosophy of Jewish law; Magen Avot"^^xsd:string .
@@ -17609,7 +17769,9 @@ jp:Person_Shlomo_Pines a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Shlomo_Pines_PlaceRel_Berlin,
         jp:Person_Shlomo_Pines_PlaceRel_Jerusalem,
         jp:Person_Shlomo_Pines_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Shlomo_Pines_TimeRel ;
     schema1:description "Maimonides scholarship; Islamic-Jewish philosophical history"^^xsd:string .
@@ -17621,7 +17783,7 @@ jp:Person_Shoshana_Felman a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Shoshana_Felman_PlaceRel_Emory,
         jp:Person_Shoshana_Felman_PlaceRel_Haven,
         jp:Person_Shoshana_Felman_PlaceRel_Israel ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Shoshana_Felman_TimeRel ;
     schema1:description "Testimony; trauma; psychoanalysis and literary theory"^^xsd:string .
@@ -17630,7 +17792,7 @@ jp:Person_Sidney_Hook a jp:HistoricalPerson ;
     rdfs:label "Sidney Hook"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Sidney_Hook_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Sidney_Hook_TimeRel ;
     schema1:description "Pragmatism; Dewey scholarship; social philosophy"^^xsd:string .
@@ -17675,7 +17837,7 @@ jp:Person_Solomon_Maimon a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Solomon_Maimon_PlaceRel_Berlin,
         jp:Person_Solomon_Maimon_PlaceRel_Poland,
         jp:Person_Solomon_Maimon_PlaceRel_Prussia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Solomon_Maimon_TimeRel ;
     schema1:description "Critique of Kant; infinite intellect; sceptical Kantianism"^^xsd:string .
@@ -17696,7 +17858,7 @@ jp:Person_Stanley_Cavell a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Stanley_Cavell_PlaceRel_Atlanta,
         jp:Person_Stanley_Cavell_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Stanley_Cavell_TimeRel ;
     schema1:description "Ordinary language philosophy; Wittgenstein; film"^^xsd:string .
@@ -17706,7 +17868,7 @@ jp:Person_Steven_Katz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Steven_Katz_PlaceRel_Boston,
         jp:Person_Steven_Katz_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Mysticism,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Steven_Katz_TimeRel ;
@@ -17717,7 +17879,7 @@ jp:Person_Susan_Bordo a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Susan_Bordo_PlaceRel_KY,
         jp:Person_Susan_Bordo_PlaceRel_NJ ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Susan_Bordo_TimeRel ;
     schema1:description "Feminist philosophy; body; Cartesian masculinity"^^xsd:string .
@@ -17728,7 +17890,7 @@ jp:Person_Susan_Neiman a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Susan_Neiman_PlaceRel_Atlanta,
         jp:Person_Susan_Neiman_PlaceRel_Germany ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Susan_Neiman_TimeRel ;
     schema1:description "Evil in modern thought; moral clarity; Enlightenment defence"^^xsd:string .
@@ -17750,7 +17912,7 @@ jp:Person_Thomas_Nagel a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Thomas_Nagel_PlaceRel_Belgrade,
         jp:Person_Thomas_Nagel_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Thomas_Nagel_TimeRel ;
     schema1:description "Consciousness; what is it like to be a bat; moral philosophy"^^xsd:string .
@@ -17761,7 +17923,7 @@ jp:Person_Uriel_da_Costa a jp:HistoricalPerson ;
         jp:Language_Portuguese ;
     jp:hasPlaceRelation jp:Person_Uriel_da_Costa_PlaceRel_Amsterdam,
         jp:Person_Uriel_da_Costa_PlaceRel_Porto ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Uriel_da_Costa_TimeRel ;
     schema1:description "Critique of Oral Law; early Jewish freethinking"^^xsd:string .
@@ -17772,7 +17934,7 @@ jp:Person_Walter_Kaufmann a jp:HistoricalPerson ;
         jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Walter_Kaufmann_PlaceRel_Freiburg,
         jp:Person_Walter_Kaufmann_PlaceRel_USA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Walter_Kaufmann_TimeRel ;
     schema1:description "Nietzsche translator; critique of religion; existentialism"^^xsd:string .
@@ -17782,7 +17944,7 @@ jp:Person_Wilfrid_Sellars a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Wilfrid_Sellars_PlaceRel_Arbor,
         jp:Person_Wilfrid_Sellars_PlaceRel_Pittsburgh ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Wilfrid_Sellars_TimeRel ;
     schema1:description "Myth of the Given; philosophy of mind; functionalism"^^xsd:string .
@@ -17792,7 +17954,7 @@ jp:Person_Wilhelm_Dilthey a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_German ;
     jp:hasPlaceRelation jp:Person_Wilhelm_Dilthey_PlaceRel_Berlin,
         jp:Person_Wilhelm_Dilthey_PlaceRel_Biebrich ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Wilhelm_Dilthey_TimeRel ;
     schema1:description "Hermeneutics; Geisteswissenschaften; philosophy of life"^^xsd:string .
@@ -17801,7 +17963,7 @@ jp:Person_Will_Herberg a jp:HistoricalPerson ;
     rdfs:label "Will Herberg"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Will_Herberg_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Will_Herberg_TimeRel ;
     schema1:description "Jewish existentialism; Protestant-Catholic-Jew; philosophy of religion"^^xsd:string .
@@ -17811,7 +17973,7 @@ jp:Person_Yeshayahu_Leibowitz a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Yeshayahu_Leibowitz_PlaceRel_Jerusalem,
         jp:Person_Yeshayahu_Leibowitz_PlaceRel_Riga ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Halakha,
         jp:Subject_Rationalism ;
     jp:hasTimeRelation jp:Person_Yeshayahu_Leibowitz_TimeRel ;
@@ -17823,7 +17985,7 @@ jp:Person_Yirmiahu_Yovel a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Yirmiahu_Yovel_PlaceRel_Aviv,
         jp:Person_Yirmiahu_Yovel_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Yirmiahu_Yovel_TimeRel ;
     schema1:description "Spinoza scholarship; Marrano identity; Jewish secular thought"^^xsd:string .
@@ -17833,7 +17995,7 @@ jp:Person_Yohanan_Alemanno a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Yohanan_Alemanno_PlaceRel_Italy,
         jp:Person_Yohanan_Alemanno_PlaceRel_Mantua ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Neoplatonism,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Yohanan_Alemanno_TimeRel ;
@@ -18121,7 +18283,8 @@ jp:Person_Abraham_Abulafia a jp:HistoricalPerson ;
         jp:Person_Abraham_Abulafia_PlaceRel_Italy,
         jp:Person_Abraham_Abulafia_PlaceRel_Malta,
         jp:Person_Abraham_Abulafia_PlaceRel_Zaragoza ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Abraham_Abulafia_TimeRel ;
@@ -18135,7 +18298,9 @@ jp:Person_Abraham_Ibn_Ezra a jp:HistoricalPerson ;
         jp:Person_Abraham_Ibn_Ezra_PlaceRel_Italy,
         jp:Person_Abraham_Ibn_Ezra_PlaceRel_Spain,
         jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Neoplatonism ;
     jp:hasTimeRelation jp:Person_Abraham_Ibn_Ezra_TimeRel ;
     schema1:description "Biblical commentary; Neoplatonism; astrology"^^xsd:string .
@@ -18156,7 +18321,7 @@ jp:Person_Avishai_Margalit a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Avishai_Margalit_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Avishai_Margalit_TimeRel ;
     schema1:description "Decent society; memory; on compromise"^^xsd:string .
@@ -18167,7 +18332,7 @@ jp:Person_David_Lewis a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_David_Lewis_PlaceRel_Angeles,
         jp:Person_David_Lewis_PlaceRel_Oberlin,
         jp:Person_David_Lewis_PlaceRel_Princeton ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_David_Lewis_TimeRel ;
     schema1:description "Modal realism; possible worlds; counterfactuals"^^xsd:string .
@@ -18179,7 +18344,7 @@ jp:Person_Emil_Fackenheim a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Emil_Fackenheim_PlaceRel_Halle,
         jp:Person_Emil_Fackenheim_PlaceRel_Jerusalem,
         jp:Person_Emil_Fackenheim_PlaceRel_Toronto ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Emil_Fackenheim_TimeRel ;
     schema1:description "Post-Holocaust philosophy; 614th commandment"^^xsd:string .
@@ -18190,7 +18355,7 @@ jp:Person_Emmanuel_Levinas a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Emmanuel_Levinas_PlaceRel_Kaunas,
         jp:Person_Emmanuel_Levinas_PlaceRel_Paris,
         jp:Person_Emmanuel_Levinas_PlaceRel_Strasbourg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Emmanuel_Levinas_TimeRel ;
@@ -18203,7 +18368,7 @@ jp:Person_Erich_Fromm a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Erich_Fromm_PlaceRel_City,
         jp:Person_Erich_Fromm_PlaceRel_Frankfurt,
         jp:Person_Erich_Fromm_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Erich_Fromm_TimeRel ;
     schema1:description "Escape from Freedom; humanist psychoanalysis"^^xsd:string .
@@ -18215,7 +18380,7 @@ jp:Person_Ernst_Cassirer a jp:HistoricalPerson ;
         jp:Person_Ernst_Cassirer_PlaceRel_Hamburg,
         jp:Person_Ernst_Cassirer_PlaceRel_Oxford,
         jp:Person_Ernst_Cassirer_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ernst_Cassirer_TimeRel ;
     schema1:description "Neo-Kantian; symbolic forms; philosophy of culture"^^xsd:string .
@@ -18235,7 +18400,9 @@ jp:Person_Georg_Wilhelm_Friedrich_Hegel a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Georg_Wilhelm_Friedrich_Hegel_PlaceRel_Germany,
         jp:Person_Georg_Wilhelm_Friedrich_Hegel_PlaceRel_Jena,
         jp:Person_Georg_Wilhelm_Friedrich_Hegel_PlaceRel_Stuttgart ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Georg_Wilhelm_Friedrich_Hegel_TimeRel ;
     schema1:description "Dialectics; absolute idealism; major influence on 19th-century Jewish philosophy (Krochmal, S. Hirsch, Formstecher)"^^xsd:string .
@@ -18246,7 +18413,8 @@ jp:Person_Gershom_Scholem a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Gershom_Scholem_PlaceRel_Berlin,
         jp:Person_Gershom_Scholem_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Mysticism,
         jp:Subject_Philosophy ;
@@ -18261,7 +18429,7 @@ jp:Person_Hannah_Arendt a jp:HistoricalPerson ;
         jp:Person_Hannah_Arendt_PlaceRel_Hanover,
         jp:Person_Hannah_Arendt_PlaceRel_Paris,
         jp:Person_Hannah_Arendt_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hannah_Arendt_TimeRel ;
     schema1:description "Human Condition; totalitarianism; political action"^^xsd:string .
@@ -18272,7 +18440,7 @@ jp:Person_Harry_Wolfson a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Harry_Wolfson_PlaceRel_Belarus,
         jp:Person_Harry_Wolfson_PlaceRel_Cambridge,
         jp:Person_Harry_Wolfson_PlaceRel_MA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Harry_Wolfson_TimeRel ;
     schema1:description "History of Jewish philosophy: Philo, Crescas, Spinoza"^^xsd:string .
@@ -18282,7 +18450,7 @@ jp:Person_Hayyim_Vital a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Hayyim_Vital_PlaceRel_Empire,
         jp:Person_Hayyim_Vital_PlaceRel_Safed ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hayyim_Vital_TimeRel ;
@@ -18296,7 +18464,7 @@ jp:Person_Herbert_Marcuse a jp:HistoricalPerson ;
         jp:Person_Herbert_Marcuse_PlaceRel_Boston,
         jp:Person_Herbert_Marcuse_PlaceRel_Diego,
         jp:Person_Herbert_Marcuse_PlaceRel_Geneva ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Herbert_Marcuse_TimeRel ;
     schema1:description "Eros and Civilization; one-dimensional man"^^xsd:string .
@@ -18320,7 +18488,8 @@ jp:Person_Isaac_Abravanel a jp:HistoricalPerson ;
         jp:Person_Isaac_Abravanel_PlaceRel_Lisbon,
         jp:Person_Isaac_Abravanel_PlaceRel_Naples,
         jp:Person_Isaac_Abravanel_PlaceRel_Venice ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaac_Abravanel_TimeRel ;
     schema1:description "Political philosophy; messianism; biblical-philosophical synthesis"^^xsd:string .
@@ -18331,7 +18500,7 @@ jp:Person_Isaiah_Berlin a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Isaiah_Berlin_PlaceRel_London,
         jp:Person_Isaiah_Berlin_PlaceRel_Oxford,
         jp:Person_Isaiah_Berlin_PlaceRel_Riga ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Isaiah_Berlin_TimeRel ;
     schema1:description "Two concepts of liberty; value pluralism; history of ideas"^^xsd:string .
@@ -18352,7 +18521,8 @@ jp:Person_Jacques_Derrida a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Jacques_Derrida_PlaceRel_Algeria,
         jp:Person_Jacques_Derrida_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Jacques_Derrida_TimeRel ;
     schema1:description "Deconstruction; différance; Jewish identity in philosophy"^^xsd:string .
@@ -18400,7 +18570,8 @@ jp:Person_Josephus_Flavius a jp:HistoricalPerson ;
         jp:Language_Greek ;
     jp:hasPlaceRelation jp:Person_Josephus_Flavius_PlaceRel_Jerusalem,
         jp:Person_Josephus_Flavius_PlaceRel_Rome ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Apologetics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Josephus_Flavius_TimeRel ;
@@ -18412,7 +18583,7 @@ jp:Person_Judith_Butler a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Judith_Butler_PlaceRel_Berkeley,
         jp:Person_Judith_Butler_PlaceRel_Cleveland,
         jp:Person_Judith_Butler_PlaceRel_Yale ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Judith_Butler_TimeRel ;
     schema1:description "Gender performativity; precarious life; ethics of non-violence"^^xsd:string .
@@ -18425,7 +18596,8 @@ jp:Person_Leo_Strauss a jp:HistoricalPerson ;
         jp:Person_Leo_Strauss_PlaceRel_Chicago,
         jp:Person_Leo_Strauss_PlaceRel_Kirchhain,
         jp:Person_Leo_Strauss_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Leo_Strauss_TimeRel ;
     schema1:description "Natural right; esotericism; Athens vs Jerusalem"^^xsd:string .
@@ -18446,7 +18618,7 @@ jp:Person_Ludwig_Wittgenstein a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Ludwig_Wittgenstein_PlaceRel_Cambridge,
         jp:Person_Ludwig_Wittgenstein_PlaceRel_Norway,
         jp:Person_Ludwig_Wittgenstein_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ludwig_Wittgenstein_TimeRel ;
     schema1:description "Tractatus; Philosophical Investigations; language games"^^xsd:string .
@@ -18458,7 +18630,7 @@ jp:Person_Martin_Buber a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Martin_Buber_PlaceRel_Frankfurt,
         jp:Person_Martin_Buber_PlaceRel_Jerusalem,
         jp:Person_Martin_Buber_PlaceRel_Vienna ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Hasidism,
         jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Martin_Buber_TimeRel ;
@@ -18470,7 +18642,7 @@ jp:Person_Menasseh_ben_Israel a jp:HistoricalPerson ;
         jp:Language_Portuguese,
         jp:Language_Spanish ;
     jp:hasPlaceRelation jp:Person_Menasseh_ben_Israel_PlaceRel_Amsterdam ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Menasseh_ben_Israel_TimeRel ;
     schema1:description "Conciliador; philosophy of prophecy; Jewish-Christian dialogue"^^xsd:string .
@@ -18490,7 +18662,9 @@ jp:Person_Moses_Mendelssohn a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Moses_Mendelssohn_PlaceRel_Dessau,
         jp:Person_Moses_Mendelssohn_PlaceRel_Prussia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moses_Mendelssohn_TimeRel ;
     schema1:description "Jerusalem; Phaedon; German Enlightenment; aesthetics"^^xsd:string .
@@ -18512,7 +18686,7 @@ jp:Person_Moshe_Halbertal a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English,
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Moshe_Halbertal_PlaceRel_Jerusalem ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Moshe_Halbertal_TimeRel ;
     schema1:description "Idolatry; political violence; Maimonides biography"^^xsd:string .
@@ -18532,7 +18706,7 @@ jp:Person_Nelson_Goodman a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Nelson_Goodman_PlaceRel_Boston,
         jp:Person_Nelson_Goodman_PlaceRel_Somerville ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Nelson_Goodman_TimeRel ;
     schema1:description "Goodman's paradox; nominalism; worldmaking; languages of art"^^xsd:string .
@@ -18543,7 +18717,7 @@ jp:Person_Noam_Chomsky a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Noam_Chomsky_PlaceRel_Cambridge,
         jp:Person_Noam_Chomsky_PlaceRel_MA,
         jp:Person_Noam_Chomsky_PlaceRel_Philadelphia ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Grammar ;
     jp:hasTimeRelation jp:Person_Noam_Chomsky_TimeRel ;
     schema1:description "Universal grammar; generative linguistics; anarchism"^^xsd:string .
@@ -18554,7 +18728,7 @@ jp:Person_Paul_Ricoeur a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Paul_Ricoeur_PlaceRel_Chicago,
         jp:Person_Paul_Ricoeur_PlaceRel_Paris,
         jp:Person_Paul_Ricoeur_PlaceRel_Valence ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Paul_Ricoeur_TimeRel ;
     schema1:description "Hermeneutics; narrative identity; Time and Narrative"^^xsd:string .
@@ -18564,7 +18738,9 @@ jp:Person_Peter_Abelard a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Latin ;
     jp:hasPlaceRelation jp:Person_Peter_Abelard_PlaceRel_France,
         jp:Person_Peter_Abelard_PlaceRel_Nantes ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Peter_Abelard_TimeRel ;
     schema1:description "Scholastic logic; universals; dialogue between philosopher, Jew and Christian"^^xsd:string .
@@ -18575,7 +18751,9 @@ jp:Person_Pico_della_Mirandola a jp:HistoricalPerson ;
         jp:Language_Latin ;
     jp:hasPlaceRelation jp:Person_Pico_della_Mirandola_PlaceRel_Italy,
         jp:Person_Pico_della_Mirandola_PlaceRel_Mirandola ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
     jp:hasSubject jp:Subject_Kabbalah,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Pico_della_Mirandola_TimeRel ;
@@ -18587,7 +18765,7 @@ jp:Person_Ronald_Dworkin a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Ronald_Dworkin_PlaceRel_London,
         jp:Person_Ronald_Dworkin_PlaceRel_Providence,
         jp:Person_Ronald_Dworkin_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Ronald_Dworkin_TimeRel ;
     schema1:description "Rights as trumps; law as integrity"^^xsd:string .
@@ -18598,7 +18776,9 @@ jp:Person_Saadia_Gaon a jp:HistoricalPerson ;
         jp:Language_Judeo_Arabic ;
     jp:hasPlaceRelation jp:Person_Saadia_Gaon_PlaceRel_Egypt,
         jp:Person_Saadia_Gaon_PlaceRel_Iraq ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Kalam,
         jp:Subject_Rationalism,
         jp:Subject_Theology ;
@@ -18609,7 +18789,7 @@ jp:Person_Sam_Harris a jp:HistoricalPerson ;
     rdfs:label "Sam Harris"^^xsd:string ;
     jp:hasLanguage jp:Language_English ;
     jp:hasPlaceRelation jp:Person_Sam_Harris_PlaceRel_Angeles ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Sam_Harris_TimeRel ;
     schema1:description "New Atheism; philosophy of mind; free will"^^xsd:string .
@@ -18620,7 +18800,7 @@ jp:Person_Samson_Raphael_Hirsch a jp:HistoricalPerson ;
         jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Samson_Raphael_Hirsch_PlaceRel_Frankfurt,
         jp:Person_Samson_Raphael_Hirsch_PlaceRel_Hamburg ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Samson_Raphael_Hirsch_TimeRel ;
     schema1:description "Neo-Orthodox philosophy; Torah im Derech Eretz"^^xsd:string .
@@ -18641,7 +18821,10 @@ jp:Person_Shem_Tov_Ibn_Falaquera a jp:HistoricalPerson ;
     rdfs:label "Shem Tov Ibn Falaquera"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasPlaceRelation jp:Person_Shem_Tov_Ibn_Falaquera_PlaceRel_Spain ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Shem_Tov_Ibn_Falaquera_TimeRel ;
     schema1:description "Encyclopaedist; disseminator of Arabic philosophy in Hebrew"^^xsd:string .
@@ -18663,7 +18846,7 @@ jp:Person_Simone_Weil a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Simone_Weil_PlaceRel_London,
         jp:Person_Simone_Weil_PlaceRel_Marseille,
         jp:Person_Simone_Weil_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Simone_Weil_TimeRel ;
     schema1:description "Mystical philosophy; affliction; attention; social justice"^^xsd:string .
@@ -18674,7 +18857,10 @@ jp:Person_Thomas_Aquinas a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Thomas_Aquinas_PlaceRel_Aquino,
         jp:Person_Thomas_Aquinas_PlaceRel_France,
         jp:Person_Thomas_Aquinas_PlaceRel_Paris ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_NonJewish ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Thomas_Aquinas_TimeRel ;
     schema1:description "Synthesis of Aristotle and theology; read Maimonides closely; influenced Jewish Latin-readers"^^xsd:string .
@@ -18685,7 +18871,7 @@ jp:Person_Walter_Benjamin a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Walter_Benjamin_PlaceRel_Berlin,
         jp:Person_Walter_Benjamin_PlaceRel_Paris,
         jp:Person_Walter_Benjamin_PlaceRel_Portbou ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Walter_Benjamin_TimeRel ;
     schema1:description "Critical theory; allegory; Arcades Project; messianism"^^xsd:string .
@@ -18696,7 +18882,7 @@ jp:Person_Willard_Van_Orman_Quine a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Willard_Van_Orman_Quine_PlaceRel_Akron,
         jp:Person_Willard_Van_Orman_Quine_PlaceRel_Cambridge,
         jp:Person_Willard_Van_Orman_Quine_PlaceRel_MA ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Willard_Van_Orman_Quine_TimeRel ;
     schema1:description "Two Dogmas; naturalism; ontological relativity"^^xsd:string .
@@ -18708,7 +18894,7 @@ jp:Person_Zygmunt_Bauman a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Zygmunt_Bauman_PlaceRel_Pozna,
         jp:Person_Zygmunt_Bauman_PlaceRel_UK,
         jp:Person_Zygmunt_Bauman_PlaceRel_Warsaw ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_Wikipedia ;
     jp:hasSubject jp:Subject_Ethics,
         jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Zygmunt_Bauman_TimeRel ;
@@ -18913,7 +19099,7 @@ jp:Person_Abraham_Joshua_Heschel a jp:HistoricalPerson ;
         jp:Person_Abraham_Joshua_Heschel_PlaceRel_Cincinnati,
         jp:Person_Abraham_Joshua_Heschel_PlaceRel_Warsaw,
         jp:Person_Abraham_Joshua_Heschel_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_KabHas ;
     jp:hasSubject jp:Subject_Philosophy,
         jp:Subject_Theology ;
     jp:hasTimeRelation jp:Person_Abraham_Joshua_Heschel_TimeRel ;
@@ -18925,7 +19111,10 @@ jp:Person_Baruch_Spinoza a jp:HistoricalPerson ;
         jp:Language_Latin ;
     jp:hasPlaceRelation jp:Person_Baruch_Spinoza_PlaceRel_Amsterdam,
         jp:Person_Baruch_Spinoza_PlaceRel_Netherlands ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_JE ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Baruch_Spinoza_TimeRel ;
     schema1:description "Ethics; Tractatus; pantheism; substance monism; biblical criticism"^^xsd:string .
@@ -18936,7 +19125,7 @@ jp:Person_Edmund_Husserl a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Edmund_Husserl_PlaceRel_Freiburg,
         jp:Person_Edmund_Husserl_PlaceRel_jov,
         jp:Person_Edmund_Husserl_PlaceRel_ttingen ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Logic ;
     jp:hasTimeRelation jp:Person_Edmund_Husserl_TimeRel ;
     schema1:description "Founder of phenomenology; intentionality; Logical Investigations"^^xsd:string .
@@ -18945,7 +19134,7 @@ jp:Person_Henri_Bergson a jp:HistoricalPerson ;
     rdfs:label "Henri Bergson"^^xsd:string ;
     jp:hasLanguage jp:Language_French ;
     jp:hasPlaceRelation jp:Person_Henri_Bergson_PlaceRel_France ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Henri_Bergson_TimeRel ;
     schema1:description "Durée; élan vital; creative evolution; philosophy of time"^^xsd:string .
@@ -18969,7 +19158,7 @@ jp:Person_Martha_Nussbaum a jp:HistoricalPerson ;
     jp:hasPlaceRelation jp:Person_Martha_Nussbaum_PlaceRel_Boston,
         jp:Person_Martha_Nussbaum_PlaceRel_Chicago,
         jp:Person_Martha_Nussbaum_PlaceRel_York ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Ethics ;
     jp:hasTimeRelation jp:Person_Martha_Nussbaum_TimeRel ;
     schema1:description "Capabilities approach; emotion in ethics; political liberalism"^^xsd:string .
@@ -18992,7 +19181,9 @@ jp:Person_Philo_of_Alexandria a jp:HistoricalPerson ;
     jp:hasLanguage jp:Language_Greek ;
     jp:hasPlaceRelation jp:Person_Philo_of_Alexandria_PlaceRel_Alexandria,
         jp:Person_Philo_of_Alexandria_PlaceRel_Egypt ;
-    jp:hasSource jp:Source_General_List ;
+    jp:hasSource jp:Source_SEP ;
+    jp:hasSource jp:Source_Cambridge ;
+    jp:hasSource jp:Source_Freudenthal_Book ;
     jp:hasSubject jp:Subject_Exegesis ;
     jp:hasTimeRelation jp:Person_Philo_of_Alexandria_TimeRel ;
     schema1:description "Logos; Neoplatonic-Jewish synthesis; allegorical exegesis"^^xsd:string .
