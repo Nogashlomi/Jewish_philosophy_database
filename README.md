@@ -2,6 +2,8 @@
 
 A research-oriented web application for mapping and studying medieval Jewish philosophy.
 
+Deployed at [https://jephy-db.web.app](https://jephy-db.web.app).
+
 ## Backend
 
 ### Local run
