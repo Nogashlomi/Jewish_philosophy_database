@@ -1,24 +1,12 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
+.venv/
 .env
 .pytest_cache/
-
-# Node
 node_modules/
 dist/
 .DS_Store
-
-# Logs & temp files
-*.log
-app.log
-uvicorn.log
-
-# Vite
 *.local
 .vite/
-
-# Data files
-data/*.csv
+.idea

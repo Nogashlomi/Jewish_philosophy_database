@@ -1,0 +1,14 @@
+[project]
+name = "JePhy-DB-Server"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.128.0",
+    "jinja2==3.1.2",
+    "pydantic==2.12.5",
+    "pydantic-settings==2.0.3",
+    "pyshacl==0.31.0",
+    "python-multipart==0.0.20",
+    "rdflib==7.5.0",
+    "uvicorn==0.39.0",
+]
