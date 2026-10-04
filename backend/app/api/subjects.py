@@ -19,9 +19,6 @@ async def get_subject_detail_json(subject_id: str):
     Get detailed information about a specific subject.
     """
     subject = entity_service.get_subject_detail(subject_id)
-    # The service returns a SubjectDetail with works list even if "not found" logic isn't explicit relative to 404
-    # Because a subject ID might be valid but have no label. 
-    # But usually we want to return 404 if it truly doesn't exist. 
-    # The service currently constructs it even if label is just ID.
-    # We can rely on that for now.
+    if not subject:
+        raise HTTPException(status_code=404, detail="Subject not found")
     return subject

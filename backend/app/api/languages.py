@@ -19,4 +19,6 @@ async def get_language_detail_json(lang_id: str):
     Get detailed information about a specific language.
     """
     language = entity_service.get_language_detail(lang_id)
+    if not language:
+        raise HTTPException(status_code=404, detail="Language not found")
     return language

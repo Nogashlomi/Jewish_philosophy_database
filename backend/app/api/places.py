@@ -13,16 +13,6 @@ async def list_places_json():
     """
     return entity_service.list_places()
 
-@router.get("/{place_id}", response_model=PlaceDetail)
-async def get_place_detail_json(place_id: str):
-    """
-    Get detailed information about a specific place.
-    """
-    place = entity_service.get_place_detail(place_id)
-    if not place:
-        raise HTTPException(status_code=404, detail="Place not found")
-    return place
-
 @router.get("/geojson", response_model=dict)
 async def get_places_geojson():
     """
@@ -37,3 +27,12 @@ async def get_translation_flows():
     """
     return entity_service.get_translation_flows()
 
+@router.get("/{place_id}", response_model=PlaceDetail)
+async def get_place_detail_json(place_id: str):
+    """
+    Get detailed information about a specific place.
+    """
+    place = entity_service.get_place_detail(place_id)
+    if not place:
+        raise HTTPException(status_code=404, detail="Place not found")
+    return place

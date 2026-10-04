@@ -9,17 +9,18 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # --- PERSONS ---
 
 LIST_PERSONS = PREFIXES + """
-SELECT ?uri ?label (SAMPLE(?by) AS ?birthYear) (SAMPLE(?dy) AS ?deathYear)
+SELECT ?uri (MIN(?label) AS ?name) (SAMPLE(?by) AS ?birthYear) (SAMPLE(?dy) AS ?deathYear)
 WHERE {{
     ?uri a jp:HistoricalPerson ;
          rdfs:label ?label .
     OPTIONAL {{ ?uri jp:birthYear ?by }}
     OPTIONAL {{ ?uri jp:deathYear ?dy }}
     
+    {source_filter}
     {search_filter}
 }}
-GROUP BY ?uri ?label
-ORDER BY ?label
+GROUP BY ?uri
+ORDER BY ?name
 {pagination}
 """
 
@@ -54,11 +55,14 @@ WHERE {{
 
 
 GET_PERSON_WORKS = PREFIXES + """
-SELECT ?work ?title
-WHERE {{
-    ?work jp:writtenBy ?person ;
-          jp:title ?title .
-}}
+SELECT ?work (SAMPLE(COALESCE(?title_prop, ?label_prop, STR(?work))) AS ?title)
+WHERE {
+    ?work jp:writtenBy ?person .
+    OPTIONAL { ?work jp:title ?title_prop }
+    OPTIONAL { ?work rdfs:label ?label_prop }
+}
+GROUP BY ?work
+ORDER BY ?title
 """
 
 
@@ -113,11 +117,12 @@ WHERE {{
 
 
 GET_WORK_AUTHORS = PREFIXES + """
-SELECT ?author ?name
+SELECT ?author (MIN(?label) AS ?name)
 WHERE {
     ?work jp:writtenBy ?author .
-    ?author rdfs:label ?name .
+    ?author rdfs:label ?label .
 }
+GROUP BY ?author
 """
 
 
@@ -125,11 +130,11 @@ WHERE {
 # --- PLACES ---
 
 LIST_PLACES = PREFIXES + """
-SELECT ?uri ?label ?lat ?long (COUNT(DISTINCT ?person) as ?total)
+SELECT ?uri (MIN(?l) AS ?label) (SAMPLE(?la) AS ?lat) (SAMPLE(?lo) AS ?long) (COUNT(DISTINCT ?person) as ?total)
 WHERE {{
     ?uri a jp:Place ;
-         rdfs:label ?label .
-    OPTIONAL {{ ?uri jp:latitude ?lat ; jp:longitude ?long }}
+         rdfs:label ?l .
+    OPTIONAL {{ ?uri jp:latitude ?la ; jp:longitude ?lo }}
     OPTIONAL {{
         ?person jp:hasPlaceRelation ?pr .
         ?pr jp:relatedPlace ?uri .
@@ -137,29 +142,30 @@ WHERE {{
     }}
     {search_filter}
 }}
-GROUP BY ?uri ?label ?lat ?long
+GROUP BY ?uri
 ORDER BY ?label
 """
 
 GET_PLACE_PEOPLE = PREFIXES + """
-SELECT ?person ?personLabel ?type
-WHERE {{
+SELECT ?person (MIN(?label) AS ?personLabel) ?type
+WHERE {
     ?person jp:hasPlaceRelation ?rel .
-    ?person rdfs:label ?personLabel .
+    ?person rdfs:label ?label .
     ?rel jp:relatedPlace ?place ;
          jp:placeType ?type .
     
 }
+GROUP BY ?person ?type
 ORDER BY ?type ?personLabel
 """
 
 # --- SUBJECTS ---
 
 LIST_SUBJECTS = PREFIXES + """
-SELECT ?uri ?label (COUNT(DISTINCT ?person) as ?total)
+SELECT ?uri (MIN(?l) AS ?label) (COUNT(DISTINCT ?person) as ?total)
 WHERE {{
     ?uri a jp:Subject .
-    OPTIONAL {{ ?uri rdfs:label ?label }}
+    OPTIONAL {{ ?uri rdfs:label ?l }}
     OPTIONAL {{
         ?person jp:hasSubject ?uri .
         ?person a jp:HistoricalPerson .
@@ -167,19 +173,21 @@ WHERE {{
     }}
     {search_filter}
 }}
-GROUP BY ?uri ?label
+GROUP BY ?uri
 ORDER BY ?label
 """
 
 GET_SUBJECT_WORKS = PREFIXES + """
-SELECT ?work ?title ?label
-WHERE {{
-    ?work jp:hasSubject ?subject .
-    OPTIONAL {{ ?work jp:title ?title }}
-    OPTIONAL {{ ?work rdfs:label ?label }}
+SELECT ?work (SAMPLE(?t) AS ?title) (MIN(?l) AS ?label)
+WHERE {
+    ?work jp:hasSubject ?subject ;
+          a jp:HistoricalWork .
+    OPTIONAL { ?work jp:title ?t }
+    OPTIONAL { ?work rdfs:label ?l }
     
-}}
-ORDER BY ?title
+}
+GROUP BY ?work
+ORDER BY ?label
 """
 
 # --- SOURCES ---
@@ -195,18 +203,18 @@ WHERE {{
             rdfs:label ?personLabel ;
             jp:hasPlaceRelation ?pr .
     {search_filter}
+
+    ?pr jp:relatedPlace ?place .
+    ?place rdfs:label ?placeLabel ;
+           jp:latitude ?lat ;
+           jp:longitude ?long .
+    
+    OPTIONAL {{ ?pr jp:placeType ?placeType }}
     
     OPTIONAL {{
         ?person jp:hasSource ?source .
         ?source rdfs:label ?sourceLabel .
     }}
-
-    ?pr jp:relatedPlace ?place .
-    OPTIONAL {{ ?pr jp:placeType ?placeType }}
-    
-    ?place rdfs:label ?placeLabel ;
-           jp:latitude ?lat ;
-           jp:longitude ?long .
            
     # Time data from TimeBucket
     OPTIONAL {{
@@ -217,49 +225,31 @@ WHERE {{
 }}
 """
 
-GET_TRANSLATION_FLOWS = PREFIXES + """
-SELECT DISTINCT ?translator ?translatorLabel ?translatorLat ?translatorLong ?author ?authorLabel ?authorLat ?authorLong
-WHERE {
-    ?translator jp:translated ?author .
-    
-    ?translator rdfs:label ?translatorLabel ;
-                jp:hasPlaceRelation ?tpr .
-    ?tpr jp:relatedPlace ?tp .
-    ?tp jp:latitude ?translatorLat ;
-        jp:longitude ?translatorLong .
-        
-    ?author rdfs:label ?authorLabel ;
-            jp:hasPlaceRelation ?apr .
-    ?apr jp:relatedPlace ?ap .
-    ?ap jp:latitude ?authorLat ;
-        jp:longitude ?authorLong .
-}
-"""
-
 # --- LANGUAGES ---
 
 LIST_LANGUAGES = PREFIXES + """
-SELECT ?uri ?label (COUNT(DISTINCT ?person) as ?total)
+SELECT ?uri (MIN(?l) AS ?label) (COUNT(DISTINCT ?person) as ?total)
 WHERE {{
     ?uri a jp:Language .
-    OPTIONAL {{ ?uri rdfs:label ?label }}
+    OPTIONAL {{ ?uri rdfs:label ?l }}
     OPTIONAL {{
         ?person jp:hasLanguage ?uri .
         ?person a jp:HistoricalPerson .
     }}
     {search_filter}
 }}
-GROUP BY ?uri ?label
+GROUP BY ?uri
 ORDER BY ?label
 """
 
 GET_LANGUAGE_PERSONS = PREFIXES + """
-SELECT DISTINCT ?person ?label
-WHERE {{
+SELECT ?person (MIN(?l) AS ?label)
+WHERE {
     ?person jp:hasLanguage ?lang .
     ?person a jp:HistoricalPerson .
-    OPTIONAL {{ ?person rdfs:label ?label }}
-}}
+    OPTIONAL { ?person rdfs:label ?l }
+}
+GROUP BY ?person
 ORDER BY ?label
 """
 
@@ -270,41 +260,35 @@ ORDER BY ?label
 # --- NETWORK ---
 
 GET_NETWORK_NODES = PREFIXES + """
-SELECT ?s ?label ?type ?source
+SELECT ?s (MIN(?l) AS ?label) ?type
 WHERE {{
     ?s a ?type .
-    OPTIONAL {{ ?s rdfs:label ?label }}
-    OPTIONAL {{ ?s jp:hasSource ?source }}
+    OPTIONAL {{ ?s rdfs:label ?l }}
     {search_filter}
     FILTER (?type IN (jp:HistoricalPerson, jp:HistoricalWork, jp:Place, jp:Subject, jp:Language))
     
 }}
+GROUP BY ?s ?type
 """
 
-GET_NETWORK_EDGES_DIRECT = PREFIXES + """
-SELECT ?s ?p ?o
-WHERE {{
-    ?s ?p ?o .
-    FILTER (?p IN (
-        jp:writtenBy, 
-        jp:hasSubject, 
-        jp:hasLanguage,
-        jp:translated,
-        jp:isTranslationOf,
-        jp:translatedBy
-    ))
-    
-}}
-"""
+NETWORK_EDGE_PREDICATES = [
+    "writtenBy",
+    "hasSubject",
+    "hasLanguage",
+    "translated",
+    "isTranslationOf",
+    "translatedBy",
+]
 
 GET_NETWORK_EDGES_PLACES = PREFIXES + """
-SELECT ?person ?place ?place_label
+SELECT DISTINCT ?person ?place (MIN(?l) AS ?place_label)
 WHERE {{
     ?person jp:hasPlaceRelation ?rel .
     ?rel jp:relatedPlace ?place .
-    OPTIONAL {{ ?place rdfs:label ?place_label }}
+    OPTIONAL {{ ?place rdfs:label ?l }}
     
 }}
+GROUP BY ?person ?place
 """
 
 
@@ -343,17 +327,17 @@ WHERE {{
 
 # List sources with counts
 LIST_SOURCES = PREFIXES + """
-SELECT ?source ?label (COUNT(DISTINCT ?s) AS ?total) WHERE {
+SELECT ?source (MIN(?l) AS ?label) (COUNT(DISTINCT ?s) AS ?total) WHERE {
     ?s jp:hasSource ?source .
-    OPTIONAL { ?source rdfs:label ?label }
-} GROUP BY ?source ?label ORDER BY ?label
+    OPTIONAL { ?source rdfs:label ?l }
+} GROUP BY ?source ORDER BY ?label
 """
 
 # --- STATS ---
 # These are fragments used in get_global_stats
 STATS_QUERIES = {
     "persons": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:HistoricalPerson . {search_filter} }}",
-    "works": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:HistoricalWork .  }}",
+    "works": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:HistoricalWork . {search_filter} }}",
     
     "places": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:Place }}",
     "subjects": "SELECT (COUNT(?s) as ?total) WHERE {{ ?s a jp:Subject }}",
@@ -367,6 +351,7 @@ WHERE {{
     ?uri a jp:HistoricalPerson .
     OPTIONAL {{ ?uri rdfs:label ?label }}
     
+    {source_filter}
     {search_filter}
 }}
 """

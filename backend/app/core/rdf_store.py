@@ -1,15 +1,17 @@
+from collections import OrderedDict
 from pathlib import Path
-from rdflib import Graph, Namespace, RDF, RDFS, OWL, SH
+from rdflib import Graph, Namespace, RDF, RDFS, OWL
 
 # Define Namespaces
 JP = Namespace("http://jewish_philosophy.org/ontology#")
 
 class RDFStore:
-    def __init__(self, store_type="Memory", store_path="db"):
+    def __init__(self, store_type="Memory", store_path="db", cache_size=256):
         self.store_type = store_type
         self.store_path = store_path
         self.g = None
-        self._cache = {}  # query_str -> list of result rows
+        self.cache_size = cache_size
+        self._cache = OrderedDict()  # query_str -> list of result rows
         self._compiled_queries = {} # query_str -> compiled query object
         self._init_graph()
 
@@ -32,7 +34,6 @@ class RDFStore:
 
         self.g.bind("jp", JP)
         self.g.bind("owl", OWL)
-        self.g.bind("sh", SH)
         
     def load_data(self):
         """Load all TTL files from the data directory dynamically."""
@@ -73,9 +74,14 @@ class RDFStore:
     def query(self, query_str: str, **kwargs):
         # Only cache queries with no runtime bindings (list/stats queries)
         if not kwargs:
-            if query_str not in self._cache:
-                self._cache[query_str] = list(self.g.query(query_str))
-            return self._cache[query_str]
+            if query_str in self._cache:
+                self._cache.move_to_end(query_str)
+                return self._cache[query_str]
+            result = list(self.g.query(query_str))
+            self._cache[query_str] = result
+            if len(self._cache) > self.cache_size:
+                self._cache.popitem(last=False)
+            return result
             
         # For queries with bindings, use compiled queries to avoid re-parsing overhead
         from rdflib.plugins.sparql import prepareQuery

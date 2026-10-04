@@ -1,5 +1,6 @@
 from typing import List, Optional, Dict, Any
 import math
+from urllib.parse import quote
 from app.core.rdf_store import rdf_store, JP, RDF, RDFS
 from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation
 from app.schemas.work import WorkList, WorkDetail, WorkAuthor
@@ -28,11 +29,11 @@ class EntityService:
 
         search_filter = ""
         if search:
-            safe_search = search.replace('"', '\\"')
-            search_filter = f'FILTER(CONTAINS(LCASE(?label), LCASE("{safe_search}")))'
+            search_filter = f'FILTER(CONTAINS(LCASE(?label), LCASE({Literal(search).n3()})))'
+        source_filter = self._get_source_filter(source, "uri")
 
         # Single combined query — persons + birth/death years in one pass
-        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter=search_filter)
+        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter=search_filter, source_filter=source_filter)
         items = []
         for row in rdf_store.query(q):
             uri = str(row.uri)
@@ -62,10 +63,7 @@ class EntityService:
                         times_list.append(f"{time_str} ({t_type})")
                         
             # Time buckets
-            buckets = []
-            for bucket_uri in rdf_store.g.objects(uri_ref, JP.inTimeBucket):
-                lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
-                if lbl: buckets.append(str(lbl))
+            buckets = self._get_time_buckets(uri_ref)
 
             # Subjects
             subjects = []
@@ -76,7 +74,7 @@ class EntityService:
             items.append(PersonList(
                 id=uri.strip("/").split("/")[-1].split("#")[-1],
                 uri=uri,
-                label=str(row.label),
+                label=str(row.name),
                 birth_year=str(row.birthYear) if getattr(row, 'birthYear', None) else None,
                 death_year=str(row.deathYear) if getattr(row, 'deathYear', None) else None,
                 places=", ".join(list(set(places_list))) if places_list else None,
@@ -86,7 +84,7 @@ class EntityService:
             ))
 
         # Get total count (cached after first call if no search)
-        count_q = queries.COUNT_PERSONS.format(search_filter=search_filter)
+        count_q = queries.COUNT_PERSONS.format(search_filter=search_filter, source_filter=source_filter)
         total = 0
         for row in rdf_store.query(count_q):
             total = int(row.total)
@@ -158,11 +156,7 @@ class EntityService:
         times = list(times_map.values())
 
         # Time Buckets
-        time_buckets = []
-        for bucket_uri in rdf_store.g.objects(uri, JP.inTimeBucket):
-            b_lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
-            if b_lbl:
-                time_buckets.append(str(b_lbl))
+        time_buckets = self._get_time_buckets(uri)
 
         # 7. Subjects & Languages
         subjects = []
@@ -171,7 +165,7 @@ class EntityService:
             subjects.append(str(lbl))
 
         languages = []
-        for lang_uri in rdf_store.g.objects(uri, JP.writtenInLanguage):
+        for lang_uri in rdf_store.g.objects(uri, JP.hasLanguage):
             lbl = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
             languages.append(str(lbl))
 
@@ -219,7 +213,7 @@ class EntityService:
                 
             # Fetch Languages
             languages = []
-            for lang_uri in rdf_store.g.objects(uri_ref, JP.writtenInLanguage):
+            for lang_uri in rdf_store.g.objects(uri_ref, JP.hasLanguage):
                 lbl = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
                 languages.append(str(lbl))
 
@@ -272,7 +266,7 @@ class EntityService:
 
         # 4. Languages
         languages = []
-        for lang_uri in rdf_store.g.objects(uri, JP.writtenInLanguage):
+        for lang_uri in rdf_store.g.objects(uri, JP.hasLanguage):
             label = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
             languages.append(str(label))
 
@@ -362,7 +356,7 @@ class EntityService:
         # But if they meant detail view too... complex. Sticking to list for now.
         
         people = []
-        for row in rdf_store.query(queries.GET_PLACE_PEOPLE.format(), initBindings={'place': uri}):
+        for row in rdf_store.query(queries.GET_PLACE_PEOPLE, initBindings={'place': uri}):
             people.append(PersonAtPlace(
                 id=row.person.split("#")[-1],
                 uri=str(row.person),
@@ -388,7 +382,7 @@ class EntityService:
         for row in rdf_store.query(q):
              results.append(SubjectList(
                 id=row.uri.split("#")[-1],
-                label=str(row.label),
+                label=str(row.label) if row.label else row.uri.split("#")[-1],
                 count=int(row.total)
             ))
         return results
@@ -405,12 +399,7 @@ class EntityService:
         
         # 2. Works
         works = []
-        # GET_SUBJECT_WORKS likely has source_filter placeholder
-        
-        # Using format just in case
-        q = queries.GET_SUBJECT_WORKS.format()
-            
-        for row in rdf_store.query(q, initBindings={'subject': uri}):
+        for row in rdf_store.query(queries.GET_SUBJECT_WORKS, initBindings={'subject': uri}):
             t = str(row.title) if row.title else (str(row.label) if row.label else str(row.work).split("#")[-1])
             works.append(SubjectWorkInfo(
                 id=row.work.split("#")[-1],
@@ -437,7 +426,7 @@ class EntityService:
             count_val = int(row.total)
             results.append({
                 "id": source_id,
-                "label": str(row.label),
+                "label": str(row.label) if row.label else source_id,
                 "description": f"Data source containing {count_val} entities",
                 "count": count_val
             })
@@ -461,13 +450,12 @@ class EntityService:
     def get_language_detail(self, lang_id: str) -> Optional[LanguageDetail]:
         uri = URIRef(f"{JP}{lang_id}")
         
-        label = rdf_store.g.value(uri, RDFS.label)
-        if not label:
-            label = lang_id
+        if (uri, RDF.type, JP.Language) not in rdf_store.g:
+            return None
+        label = rdf_store.g.value(uri, RDFS.label) or lang_id
             
         persons = []
-        q = queries.GET_LANGUAGE_PERSONS.format()
-        for row in rdf_store.query(q, initBindings={'lang': uri}):
+        for row in rdf_store.query(queries.GET_LANGUAGE_PERSONS, initBindings={'lang': uri}):
             p_name = str(row.label) if row.label else str(row.person).split("#")[-1]
             persons.append(LanguagePersonInfo(
                 id=row.person.split("#")[-1],
@@ -494,69 +482,42 @@ class EntityService:
             blbl = str(row.b_lbl)
             if pid not in person_buckets:
                 person_buckets[pid] = []
-            person_buckets[pid].append(blbl)
+            if blbl not in person_buckets[pid]:
+                person_buckets[pid].append(blbl)
 
         # 1. Nodes - Get source-filtered entities (persons, works, etc.)
         sf_nodes = self._get_source_filter(source, "s")
         q_nodes = queries.GET_NETWORK_NODES.format(search_filter=sf_nodes)
 
-        # Temporary collections before filtering
-        temp_nodes = []
-        temp_node_ids = set()
-        temp_node_types = {}
-        temp_node_sources = {}
+        node_ids = set()
+        node_types = {}
 
         for row in rdf_store.query(q_nodes):
             nid = mk_id(row.s)
+            if nid in node_ids:
+                continue
             etype = mk_id(row.type)
-            label = row.label or nid
-            source_id = None
-            if hasattr(row, 'source') and row.source:
-                source_id = mk_id(row.source)
-            temp_nodes.append({'nid': nid, 'etype': etype, 'label': label, 'source_id': source_id})
-            temp_node_ids.add(nid)
-            temp_node_types[nid] = etype
-            temp_node_sources[nid] = source_id
-
-        # Apply source filter if provided
-        filtered_node_ids = temp_node_ids
-        if source:
-            filtered_node_ids = set()
-            for node in temp_nodes:
-                # Include node if it matches the source or if it has no source (e.g., places)
-                if not node['source_id'] or node['source_id'] == source:
-                    filtered_node_ids.add(node['nid'])
-                    nodes.append(NetworkNode(
-                        id=node['nid'],
-                        label=str(node['label']),
-                        group=node['etype'],
-                        buckets=person_buckets.get(node['nid'], []) if node['etype'] == 'HistoricalPerson' else []
-                    ))
-        else:
-            # No source filter, include all nodes
-            for node in temp_nodes:
-                nodes.append(NetworkNode(
-                    id=node['nid'],
-                    label=str(node['label']),
-                    group=node['etype'],
-                    buckets=person_buckets.get(node['nid'], []) if node['etype'] == 'HistoricalPerson' else []
-                ))
-
-        # Update node_ids and node_types based on filtered nodes
-        node_ids = filtered_node_ids
-        node_types = temp_node_types
+            node_ids.add(nid)
+            node_types[nid] = etype
+            nodes.append(NetworkNode(
+                id=nid,
+                label=str(row.label or nid),
+                group=etype,
+                buckets=person_buckets.get(nid, []) if etype == 'HistoricalPerson' else []
+            ))
 
         # Dictionary to map Person ID -> set of connected non-person entity IDs
         person_connections = {}
 
         # 2. Edges
-        sf_edges = "" # No source filter on edges query for now, relies on node filtering
-        q_direct = queries.GET_NETWORK_EDGES_DIRECT.format()
-
-        for row in rdf_store.query(q_direct):
-            s_id = mk_id(row.s)
-            o_id = mk_id(row.o)
-            p_id = mk_id(row.p)
+        direct_edges = (
+            (s, p_name, o)
+            for p_name in queries.NETWORK_EDGE_PREDICATES
+            for s, o in rdf_store.g.subject_objects(JP[p_name])
+        )
+        for s, p_id, o in direct_edges:
+            s_id = mk_id(s)
+            o_id = mk_id(o)
             if s_id in node_ids and o_id in node_ids:
                 edges.append({"from": s_id, "to": o_id, "relation": p_id})
                 
@@ -626,7 +587,16 @@ class EntityService:
     def _get_source_filter(self, source: str, var_name: str = "uri") -> str:
         if not source:
             return ""
-        return f"?{var_name} jp:hasSource <{JP}{source}> ."
+        return f"?{var_name} jp:hasSource <{JP}{quote(source, safe='')}> ."
+
+    def _get_time_buckets(self, uri: URIRef) -> List[str]:
+        buckets = []
+        for tr in rdf_store.g.objects(uri, JP.hasTimeRelation):
+            for bucket_uri in rdf_store.g.objects(tr, JP.inTimeBucket):
+                lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
+                if lbl and str(lbl) not in buckets:
+                    buckets.append(str(lbl))
+        return buckets
 
     def get_sources(self) -> List[dict]:
         return self.list_sources()
@@ -696,24 +666,45 @@ class EntityService:
         """
         Return a list of translation flows between places for map visualization.
         """
-        q = queries.GET_TRANSLATION_FLOWS
+        g = rdf_store.g
+        coords_cache = {}
+
+        def person_coords(person):
+            if person not in coords_cache:
+                coords = []
+                for rel in g.objects(person, JP.hasPlaceRelation):
+                    for place in g.objects(rel, JP.relatedPlace):
+                        for lat in g.objects(place, JP.latitude):
+                            for long in g.objects(place, JP.longitude):
+                                try:
+                                    point = (float(lat), float(long))
+                                except (ValueError, TypeError):
+                                    continue
+                                if point not in coords:
+                                    coords.append(point)
+                coords_cache[person] = coords
+            return coords_cache[person]
+
         flows = []
-        for row in rdf_store.query(q):
-            try:
-                t_lat = float(row.translatorLat)
-                t_long = float(row.translatorLong)
-                a_lat = float(row.authorLat)
-                a_long = float(row.authorLong)
-                
-                flows.append({
-                    "translator_id": row.translator.split("#")[-1],
-                    "translator_label": str(row.translatorLabel),
-                    "author_id": row.author.split("#")[-1],
-                    "author_label": str(row.authorLabel),
-                    "path": [[t_lat, t_long], [a_lat, a_long]]
-                })
-            except (ValueError, TypeError):
+        seen = set()
+        for translator, author in g.subject_objects(JP.translated):
+            translator_label = g.value(translator, RDFS.label)
+            author_label = g.value(author, RDFS.label)
+            if translator_label is None or author_label is None:
                 continue
+            for t_lat, t_long in person_coords(translator):
+                for a_lat, a_long in person_coords(author):
+                    key = (translator, author, t_lat, t_long, a_lat, a_long)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    flows.append({
+                        "translator_id": translator.split("#")[-1],
+                        "translator_label": str(translator_label),
+                        "author_id": author.split("#")[-1],
+                        "author_label": str(author_label),
+                        "path": [[t_lat, t_long], [a_lat, a_long]]
+                    })
         return flows
 
 
