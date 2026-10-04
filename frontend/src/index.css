@@ -8,6 +8,11 @@
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html,
+body {
+  overscroll-behavior: none;
+}
+
 body {
   @apply bg-gray-50 text-gray-900;
   font-family: var(--font-serif);
