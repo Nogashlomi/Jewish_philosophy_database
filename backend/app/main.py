@@ -38,12 +38,9 @@ import os
 # Build CORS origins list from config with fallback to explicit list
 config_origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
 
-# Ensure production Render domains are always included
+# Ensure production domains are always included
 production_origins = [
-    "https://pjh-frontend.onrender.com",
-    "https://pjh.onrender.com",
-    "https://pjh-frontend-i8oj.onrender.com",
-    "https://pjh-backend-i8oj.onrender.com",
+    "https://jephy-db.web.app",
 ]
 
 # Combine: use config origins, but ensure production domains are included

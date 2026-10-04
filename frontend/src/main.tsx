@@ -4,18 +4,21 @@ import App from './App.tsx'
 import './index.css'
 import 'leaflet/dist/leaflet.css'
 
-class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { hasError: boolean, error: Error | null }> {
+class ErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean; error: Error | null }
+> {
   constructor(props: { children: React.ReactNode }) {
-    super(props);
-    this.state = { hasError: false, error: null };
+    super(props)
+    this.state = { hasError: false, error: null }
   }
 
   static getDerivedStateFromError(error: Error) {
-    return { hasError: true, error };
+    return { hasError: true, error }
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error("Uncaught error:", error, errorInfo);
+    console.error('Uncaught error:', error, errorInfo)
   }
 
   render() {
@@ -26,10 +29,10 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { has
           <pre>{this.state.error?.toString()}</pre>
           <pre>{this.state.error?.stack}</pre>
         </div>
-      );
+      )
     }
 
-    return this.props.children;
+    return this.props.children
   }
 }
 
