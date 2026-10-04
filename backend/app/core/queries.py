@@ -374,8 +374,7 @@ WHERE {{
 COUNT_WORKS = PREFIXES + """
 SELECT (COUNT(DISTINCT ?uri) as ?total)
 WHERE {{
-    ?uri a jp:HistoricalWork ;
-         jp:title ?title .
+    ?uri a jp:HistoricalWork .
     
     {search_filter}
 }}

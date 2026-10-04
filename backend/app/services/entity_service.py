@@ -251,7 +251,7 @@ class EntityService:
         uri = URIRef(f"{JP}{work_id}")
         
         # 1. Basic Info
-        title = rdf_store.g.value(uri, JP.title)
+        title = rdf_store.g.value(uri, JP.title) or rdf_store.g.value(uri, RDFS.label)
         if not title:
             return None
             

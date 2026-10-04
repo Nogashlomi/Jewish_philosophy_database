@@ -7,10 +7,17 @@ A research-oriented web application for mapping and studying medieval Jewish phi
 ### Backend
 Make sure you have `uv` installed.
 
-   ```bash
-   uv sync
-   uv run uvicorn app.main:app --reload
-   ```
+```bash
+cd backend
+uv sync
+uv run uvicorn app.main:app --reload
+```
+
+To run tests:
+
+```shell
+PYTHONPATH=. uv run --with pytest --with pytest-asyncio --with httpx pytest tests
+```
 
 ### Frontend
 
