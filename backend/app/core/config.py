@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
 
     # CORS configuration
-    ALLOWED_ORIGINS: str = os.getenv("ALLOWED_ORIGINS", "https://jephy-db.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174")
+    ALLOWED_ORIGINS: str = os.getenv("ALLOWED_ORIGINS", "https://jephy-db.web.app,https://jephy-index.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174")
 
     # Base dir is the backend/ directory
     # file is backend/app/core/config.py

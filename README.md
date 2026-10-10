@@ -2,7 +2,7 @@
 
 A research-oriented web application for mapping and studying medieval Jewish philosophy.
 
-Deployed at [https://jephy-db.web.app](https://jephy-db.web.app).
+Deployed at [https://jephy-index.web.app](https://jephy-index.web.app).
 
 ## Backend
 
@@ -51,7 +51,7 @@ yarn dev
 
 ### Frontend deploy
 
-Deployed to Firebase Hosting at https://jephy-db.web.app. Run from `frontend/`. `firebase deploy` first runs `yarn build` (the `predeploy` hook in `firebase.json`), which uses the production API URL from `.env.production`:
+Deployed to Firebase Hosting at https://jephy-index.web.app. Run from `frontend/`. The Firebase Hosting target is explicitly mapped to the `jephy-index` site, so `firebase deploy` deploys there while retaining the `jephy-db` Firebase project. The command first runs `yarn build` (the `predeploy` hook in `firebase.json`), which uses the production API URL from `.env.production`:
 
 ```shell
 yarn firebase login

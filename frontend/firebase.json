@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "jephy-index",
     "public": "dist",
     "predeploy": ["yarn lint", "yarn build"],
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],

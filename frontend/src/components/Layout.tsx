@@ -1,11 +1,26 @@
+import { useState } from 'react'
+import { Menu, X } from 'lucide-react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 
 export default function Layout() {
   const location = useLocation()
+  const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
   const isActive = (path: string) => {
     return location.pathname === path
   }
+
+  const mobileLinks = [
+    { to: '/', label: 'Home' },
+    { to: '/persons', label: 'Persons' },
+    { to: '/works', label: 'Works' },
+    { to: '/subjects', label: 'Subjects' },
+    { to: '/languages', label: 'Languages' },
+    { to: '/sources', label: 'Data Sources / Projects / Collaborators' },
+    { to: '/map', label: 'Map' },
+    { to: '/network', label: 'Network' },
+    { to: '/ontology', label: 'Ontology' },
+  ]
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
@@ -17,7 +32,7 @@ export default function Layout() {
                 Philosophy in Jewish History: Research Explorer
               </span>
             </div>
-            <div className="w-full flex justify-center">
+            <div className="hidden w-full justify-center sm:flex">
               <div className="hidden sm:flex sm:space-x-4">
                 <Link
                   to="/"
@@ -80,6 +95,32 @@ export default function Layout() {
                   Ontology
                 </Link>
               </div>
+            </div>
+            <div className="w-full sm:hidden">
+              <button
+                type="button"
+                className="flex w-full items-center justify-center gap-2 rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                onClick={() => setMobileNavOpen((isOpen) => !isOpen)}
+                aria-expanded={mobileNavOpen}
+                aria-controls="mobile-navigation"
+              >
+                {mobileNavOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
+                {mobileNavOpen ? 'Close navigation' : 'Navigate'}
+              </button>
+              {mobileNavOpen && (
+                <nav id="mobile-navigation" aria-label="Mobile navigation" className="mt-2 rounded-md border border-gray-200 bg-white p-2 shadow-sm">
+                  {mobileLinks.map(({ to, label }) => (
+                    <Link
+                      key={to}
+                      to={to}
+                      onClick={() => setMobileNavOpen(false)}
+                      className={`block rounded px-3 py-2 text-sm font-medium ${isActive(to) ? 'bg-indigo-50 text-indigo-700' : 'text-gray-700 hover:bg-gray-50'}`}
+                    >
+                      {label}
+                    </Link>
+                  ))}
+                </nav>
+              )}
             </div>
           </div>
         </div>

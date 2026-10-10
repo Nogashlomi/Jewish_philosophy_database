@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "jephy-db"
+  },
+  "targets": {
+    "jephy-db": {
+      "hosting": {
+        "jephy-index": [
+          "jephy-index"
+        ]
+      }
+    }
   }
 }

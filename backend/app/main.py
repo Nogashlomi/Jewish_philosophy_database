@@ -41,6 +41,7 @@ config_origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",
 # Ensure production domains are always included
 production_origins = [
     "https://jephy-db.web.app",
+    "https://jephy-index.web.app",
 ]
 
 # Combine: use config origins, but ensure production domains are included
