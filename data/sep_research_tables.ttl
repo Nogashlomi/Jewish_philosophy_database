@@ -1,0 +1,1213 @@
+@prefix jp: <http://jewish_philosophy.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+jp:Source_SEP a jp:Source ;
+    rdfs:label "Stanford Encyclopedia of Philosophy" ;
+    schema1:url "https://plato.stanford.edu/" .
+
+jp:Place_Lucca a jp:Place ;
+    rdfs:label "Lucca"^^xsd:string ;
+    jp:latitude "43.8429197"^^xsd:float ;
+    jp:longitude "10.5026977"^^xsd:float .
+
+jp:Place_Beziers a jp:Place ;
+    rdfs:label "Béziers"^^xsd:string ;
+    jp:latitude "43.3442"^^xsd:float ;
+    jp:longitude "3.2158"^^xsd:float .
+
+jp:Place_Rouen a jp:Place ;
+    rdfs:label "Rouen"^^xsd:string ;
+    jp:latitude "49.4404591"^^xsd:float ;
+    jp:longitude "1.0939658"^^xsd:float .
+
+jp:Place_Suchowyborg a jp:Place ;
+    rdfs:label "Suchowyborg (Sukowy Borek, near Mir)"^^xsd:string ;
+    jp:latitude "53.4544"^^xsd:float ;
+    jp:longitude "26.4728"^^xsd:float .
+
+jp:Place_Mezrich a jp:Place ;
+    rdfs:label "Mezrich (Velyki Mezhyrichi)"^^xsd:string ;
+    jp:latitude "50.643"^^xsd:float ;
+    jp:longitude "26.872"^^xsd:float .
+
+jp:Place_Posen a jp:Place ;
+    rdfs:label "Posen"^^xsd:string ;
+    jp:latitude "52.4064"^^xsd:float ;
+    jp:longitude "16.9252"^^xsd:float .
+
+jp:Place_Weimar a jp:Place ;
+    rdfs:label "Weimar"^^xsd:string ;
+    jp:latitude "50.9795"^^xsd:float ;
+    jp:longitude "11.3235"^^xsd:float .
+
+jp:Place_Siegersdorf a jp:Place ;
+    rdfs:label "Siegersdorf (Lower Silesia)"^^xsd:string ;
+    jp:latitude "51.2275"^^xsd:float ;
+    jp:longitude "15.6017"^^xsd:float .
+
+jp:Place_Glogau a jp:Place ;
+    rdfs:label "Glogau"^^xsd:string ;
+    jp:latitude "51.6634"^^xsd:float ;
+    jp:longitude "16.0848"^^xsd:float .
+
+#######################################################################
+# Abraham Ibn Ezra
+#######################################################################
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela_Birth a jp:PlaceRelation ;
+    jp:placeType "birth"^^xsd:string ;
+    jp:relatedPlace jp:Place_Tudela ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela_Birth_Time ;
+    schema1:description "Born here around 1093; lived the first five decades of his life eking out a living as a poet until fleeing the Almohad onslaught in 1140."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela_Birth_Time a jp:Time ;
+    jp:timeFrom "1093"^^xsd:gYear ;
+    jp:timeLabel "c. 1093–1140"^^xsd:string ;
+    jp:timeUntil "1140"^^xsd:gYear .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rome_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Rome ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rome_Residence_Time ;
+    schema1:description "One of the places where he spent time during three decades of wandering across Europe."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rome_Residence_Time a jp:Time ;
+    jp:timeFrom "1140"^^xsd:gYear ;
+    jp:timeLabel "Post-1140"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Lucca_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Lucca ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_Lucca_Residence_Time ;
+    schema1:description "Station in Europe where he stayed; composed Sefer Zahut."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Lucca_Residence_Time a jp:Time ;
+    jp:timeFrom "1140"^^xsd:gYear ;
+    jp:timeLabel "Post-1140"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Beziers_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Beziers ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_Beziers_Residence_Time ;
+    schema1:description "Station in Europe where he stayed and spent time."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Beziers_Residence_Time a jp:Time ;
+    jp:timeFrom "1140"^^xsd:gYear ;
+    jp:timeLabel "Post-1140"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rouen_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Rouen ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rouen_Residence_Time ;
+    schema1:description "Station in Europe where he stayed and spent time."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rouen_Residence_Time a jp:Time ;
+    jp:timeFrom "1140"^^xsd:gYear ;
+    jp:timeLabel "Post-1140"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_London_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_London ;
+    jp:hasTimeData jp:Person_Abraham_Ibn_Ezra_PlaceRel_London_Residence_Time ;
+    schema1:description "Station in Europe where he stayed; composed Yesod Mora very late in his life."^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra_PlaceRel_London_Residence_Time a jp:Time ;
+    jp:timeFrom "1140"^^xsd:gYear ;
+    jp:timeLabel "Post-1140"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra jp:hasPlaceRelation jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela_Birth,
+        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rome_Residence,
+        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Lucca_Residence,
+        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Beziers_Residence,
+        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Rouen_Residence,
+        jp:Person_Abraham_Ibn_Ezra_PlaceRel_London_Residence .
+
+jp:Subject_Psychology a jp:Subject ;
+    rdfs:label "Science of the Soul / Psychology"^^xsd:string .
+
+jp:Subject_Arithmology a jp:Subject ;
+    rdfs:label "Arithmology / Pythagoreanism"^^xsd:string .
+
+jp:Subject_Rationale_for_the_Commandments a jp:Subject ;
+    rdfs:label "Rationale for the Commandments"^^xsd:string .
+
+jp:Subject_Esotericism a jp:Subject ;
+    rdfs:label "Esotericism / Secrets"^^xsd:string .
+
+jp:Subject_Soteriology a jp:Subject ;
+    rdfs:label "Soteriology / Individual Salvation"^^xsd:string .
+
+jp:Subject_Philosophical_Allegory a jp:Subject ;
+    rdfs:label "Philosophical Allegory"^^xsd:string .
+
+jp:Subject_Translation a jp:Subject ;
+    rdfs:label "Transmission of Sciences / Translation"^^xsd:string .
+
+jp:Person_Abraham_Ibn_Ezra jp:hasSubject jp:Subject_astrology,
+        jp:Subject_astronomy,
+        jp:Subject_Psychology,
+        jp:Subject_Exegesis,
+        jp:Subject_Neoplatonism,
+        jp:Subject_Kalam,
+        jp:Subject_Arithmology,
+        jp:Subject_Rationale_for_the_Commandments,
+        jp:Subject_Esotericism,
+        jp:Subject_Poetry,
+        jp:Subject_Soteriology,
+        jp:Subject_Philosophical_Allegory,
+        jp:Subject_Translation,
+        jp:Subject_Grammar .
+
+jp:Work_Arugat_ha_Bosem a jp:HistoricalWork ;
+    rdfs:label "Arugat ha-Bosem"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Kalam, jp:Subject_Poetry ;
+    jp:authorshipStatus "questioned"^^xsd:string ;
+    schema1:description "Poetic theological tract containing atomism doctrines from the kalam tradition. Attribution questioned by Hermann Greive and Nachman Krochmal."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_Elections a jp:HistoricalWork ;
+    rdfs:label "Book of Elections"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract (extant in three versions; edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_Interrogations a jp:HistoricalWork ;
+    rdfs:label "Book of Interrogations"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract (extant in three versions; edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_Nativities a jp:HistoricalWork ;
+    rdfs:label "Book of Nativities"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract on nativities (edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_Reasons a jp:HistoricalWork ;
+    rdfs:label "Book of Reasons"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract (extant in two versions; edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_Revolution a jp:HistoricalWork ;
+    rdfs:label "Book of Revolution"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract on continuous horoscopy (edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_the_Luminaries a jp:HistoricalWork ;
+    rdfs:label "Book of the Luminaries"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology, jp:Subject_Medicine ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract on medical astrology (edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Book_of_the_World a jp:HistoricalWork ;
+    rdfs:label "Book of the World"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_astrology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Astrological tract (extant in two versions; edited by Shlomo Sela)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Commentary_to_Daniel a jp:HistoricalWork ;
+    rdfs:label "Commentary to Daniel"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Exegesis ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Biblical commentary (e.g., gloss to Daniel 9:2)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Commentary_to_Ecclesiastes a jp:HistoricalWork ;
+    rdfs:label "Commentary to Ecclesiastes"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Exegesis ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Biblical commentary (e.g., gloss to Ecclesiastes 7:9)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Commentary_to_the_Torah a jp:HistoricalWork ;
+    rdfs:label "Commentary to the Torah (Ibn Ezra)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Exegesis, jp:Subject_Esotericism ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Biblical commentary on the plain sense (peshat), containing famous excursuses and esoteric hints (sodot)."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ibn_Ezra_Commentary_to_Sefer_Yesira a jp:HistoricalWork ;
+    rdfs:label "Commentary to Sefer Yesira (attributed to Ibn Ezra)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Esotericism ;
+    jp:authorshipStatus "ascribed"^^xsd:string ;
+    schema1:description "Commentary on Sefer Yesira (possibly a Hebrew condensation of Dunash Ibn Tamîm's commentary). Ascribed to Ibn Ezra by some medieval writers."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Hayy_ben_Meqitz a jp:HistoricalWork ;
+    rdfs:label "Hayy ben Meqitz"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Poetry, jp:Subject_Philosophical_Allegory, jp:Subject_Soteriology ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Poetic visionary recital / initiatory tale in rhymed Hebrew prose based on Ibn Sînâ's model, written for Samuel Ibn Jami."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Sefer_ha_Ehad a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Ehad"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Arithmology, jp:Subject_Mathematics ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Arithmological treatise in the Pythagorean tradition."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Sefer_ha_Shem a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Shem"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Esotericism ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Enigmatic monograph on the divine names (AHYH and YHWH) and properties of letters/numbers."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Sefer_Zahut a jp:HistoricalWork ;
+    rdfs:label "Sefer Zahut (Sefer Tzahut)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Grammar ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Grammatical treatise written in Lucca, containing theological reflections."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Tzomah_Nafshi a jp:HistoricalWork ;
+    rdfs:label "Tzom’ah nafshi"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Poetry ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Liturgical hymn (\"My soul thirsts\") expressing longing for the divine."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Yesod_Mora a jp:HistoricalWork ;
+    rdfs:label "Yesod Mora (Yesod Mora ve-Sod Torah)"^^xsd:string ;
+    jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Rationale_for_the_Commandments ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    schema1:description "Monograph on the rationale underlying the biblical commandments, surveying logic, mathematics, astronomy, and physiology."^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Sefer_ha_Ibbur jp:hasLanguage jp:Language_Hebrew .
+
+jp:Work_Sefer_Yesira a jp:HistoricalWork ;
+    rdfs:label "Sefer Yesira"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Shiur_Qoma a jp:HistoricalWork ;
+    rdfs:label "Shi‘ur Qoma"^^xsd:string ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Sefer_ha_Yihud a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Yihud"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Person_Saadia_Gaon .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Saadia_Gaon .
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Work_Sefer_Yesira .
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Person_Solomon_Ibn_Gabirol .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Solomon_Ibn_Gabirol .
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Work_Shiur_Qoma .
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Work_Sefer_ha_Yihud .
+jp:Person_Abraham_Ibn_Ezra jp:cites jp:Person_Judah_Halevi .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Judah_Halevi .
+jp:Person_Abraham_Ibn_Ezra jp:interlocutorOf jp:Person_Judah_Halevi .
+jp:Person_Judah_Halevi jp:interlocutorOf jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Abraham_bar_Hiyya .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Avicenna_Ibn_Sina .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Dunash_Ibn_Tamim .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Nicomachus_of_Gerasa .
+jp:Person_Abraham_Ibn_Ezra jp:influencedBy jp:Person_Philo_of_Alexandria .
+jp:Person_Moses_Maimonides_Rambam jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Abraham_Maimonides jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Abraham_Maimonides jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Levi_ben_Gershom_Gersonides jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Levi_ben_Gershom_Gersonides jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Nachmanides_Moses_ben_Nahman jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Nachmanides_Moses_ben_Nahman jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Mordekhai_Comtino jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Mordekhai_Comtino jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Judah_Moscato jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Baruch_Spinoza jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Baruch_Spinoza jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Nachman_Krochmal jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Nachman_Krochmal jp:influencedBy jp:Person_Abraham_Ibn_Ezra .
+
+#######################################################################
+# Hannah Arendt
+#######################################################################
+
+jp:Person_Hannah_Arendt_PlaceRel_Hanover_Birth a jp:PlaceRelation ;
+    jp:placeType "birth"^^xsd:string ;
+    jp:relatedPlace jp:Place_Hanover ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Hanover_Birth_Time ;
+    schema1:description "Birthplace into a German-Jewish family."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Hanover_Birth_Time a jp:Time ;
+    jp:timeFrom "1906"^^xsd:gYear ;
+    jp:timeLabel "1906"^^xsd:string ;
+    jp:timeUntil "1906"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Marburg_Study a jp:PlaceRelation ;
+    jp:placeType "study"^^xsd:string ;
+    jp:relatedPlace jp:Place_Marburg ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Marburg_Study_Time ;
+    schema1:description "Studied with Martin Heidegger; brief love affair."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Marburg_Study_Time a jp:Time ;
+    jp:timeFrom "1924"^^xsd:gYear ;
+    jp:timeLabel "1924–1925"^^xsd:string ;
+    jp:timeUntil "1925"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Freiburg_Study a jp:PlaceRelation ;
+    jp:placeType "study"^^xsd:string ;
+    jp:relatedPlace jp:Place_Freiburg ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Freiburg_Study_Time ;
+    schema1:description "Attended Edmund Husserl's lectures for one semester."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Freiburg_Study_Time a jp:Time ;
+    jp:timeFrom "1925"^^xsd:gYear ;
+    jp:timeLabel "c. 1925"^^xsd:string ;
+    jp:timeUntil "1925"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Heidelberg_Study a jp:PlaceRelation ;
+    jp:placeType "study"^^xsd:string ;
+    jp:relatedPlace jp:Place_Heidelberg ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Heidelberg_Study_Time ;
+    schema1:description "Studied with Karl Jaspers; completed doctoral dissertation (1929)."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Heidelberg_Study_Time a jp:Time ;
+    jp:timeFrom "1926"^^xsd:gYear ;
+    jp:timeLabel "1926–1929"^^xsd:string ;
+    jp:timeUntil "1929"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Prague_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Prague ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Prague_Travel_Time ;
+    schema1:description "Brief stay after fleeing Germany."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Prague_Travel_Time a jp:Time ;
+    jp:timeFrom "1933"^^xsd:gYear ;
+    jp:timeLabel "1933"^^xsd:string ;
+    jp:timeUntil "1933"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Geneva_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Geneva ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Geneva_Travel_Time ;
+    schema1:description "Brief stay while fleeing Europe."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Geneva_Travel_Time a jp:Time ;
+    jp:timeFrom "1933"^^xsd:gYear ;
+    jp:timeLabel "1933"^^xsd:string ;
+    jp:timeUntil "1933"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Paris_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Paris ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Paris_Residence_Time ;
+    schema1:description "Worked for Jewish refugee organizations (1933–1939); wrote on Rahel Varnhagen; fled in 1941."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Paris_Residence_Time a jp:Time ;
+    jp:timeFrom "1933"^^xsd:gYear ;
+    jp:timeLabel "1933–1941"^^xsd:string ;
+    jp:timeUntil "1941"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_New_York_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_New_York ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_New_York_Residence_Time ;
+    schema1:description "Immigrated with husband and mother; Partisan Review circle; academic posts (New School); died in 1975."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_New_York_Residence_Time a jp:Time ;
+    jp:timeFrom "1941"^^xsd:gYear ;
+    jp:timeLabel "1941–1975"^^xsd:string ;
+    jp:timeUntil "1975"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_New_York_Death_2 a jp:PlaceRelation ;
+    jp:placeType "death"^^xsd:string ;
+    jp:relatedPlace jp:Place_New_York ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_New_York_Death_2_Time ;
+    schema1:description "Died in New York in 1975."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_New_York_Death_2_Time a jp:Time ;
+    jp:timeFrom "1975"^^xsd:gYear ;
+    jp:timeLabel "1975"^^xsd:string ;
+    jp:timeUntil "1975"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt_PlaceRel_Jerusalem_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Jerusalem ;
+    jp:hasTimeData jp:Person_Hannah_Arendt_PlaceRel_Jerusalem_Travel_Time ;
+    schema1:description "Attended the Adolf Eichmann trial as a reporter for The New Yorker."^^xsd:string .
+
+jp:Person_Hannah_Arendt_PlaceRel_Jerusalem_Travel_Time a jp:Time ;
+    jp:timeFrom "1961"^^xsd:gYear ;
+    jp:timeLabel "1961"^^xsd:string ;
+    jp:timeUntil "1961"^^xsd:gYear .
+
+jp:Person_Hannah_Arendt jp:hasPlaceRelation jp:Person_Hannah_Arendt_PlaceRel_Hanover_Birth,
+        jp:Person_Hannah_Arendt_PlaceRel_Marburg_Study,
+        jp:Person_Hannah_Arendt_PlaceRel_Freiburg_Study,
+        jp:Person_Hannah_Arendt_PlaceRel_Heidelberg_Study,
+        jp:Person_Hannah_Arendt_PlaceRel_Prague_Travel,
+        jp:Person_Hannah_Arendt_PlaceRel_Geneva_Travel,
+        jp:Person_Hannah_Arendt_PlaceRel_Paris_Residence,
+        jp:Person_Hannah_Arendt_PlaceRel_New_York_Residence,
+        jp:Person_Hannah_Arendt_PlaceRel_New_York_Death_2,
+        jp:Person_Hannah_Arendt_PlaceRel_Jerusalem_Travel .
+
+jp:Work_Between_Past_and_Future a jp:HistoricalWork ;
+    rdfs:label "Between Past and Future"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Crises_of_the_Republic a jp:HistoricalWork ;
+    rdfs:label "Crises of the Republic"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Denktagebuch_1950_1973 a jp:HistoricalWork ;
+    rdfs:label "Denktagebuch 1950–1973"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_German, jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Der_Liebesbegriff_bei_Augustin a jp:HistoricalWork ;
+    rdfs:label "Der Liebesbegriff bei Augustin"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Eichmann_in_Jerusalem a jp:HistoricalWork ;
+    rdfs:label "Eichmann in Jerusalem"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Essays_in_Understanding_1930_1954 a jp:HistoricalWork ;
+    rdfs:label "Essays in Understanding: 1930–1954"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Lectures_on_Kants_Political_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Lectures on Kant’s Political Philosophy"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Men_in_Dark_Times a jp:HistoricalWork ;
+    rdfs:label "Men in Dark Times"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_On_Revolution a jp:HistoricalWork ;
+    rdfs:label "On Revolution"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_On_Violence a jp:HistoricalWork ;
+    rdfs:label "On Violence"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Personal_Responsibility_under_Dictatorship a jp:HistoricalWork ;
+    rdfs:label "Personal Responsibility under Dictatorship"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Public_Rights_and_Private_Interests a jp:HistoricalWork ;
+    rdfs:label "Public Rights and Private Interests"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Rahel_Varnhagen_The_Life_of_a_Jewish_Woman a jp:HistoricalWork ;
+    rdfs:label "Rahel Varnhagen: The Life of a Jewish Woman"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Responsibility_and_Judgment a jp:HistoricalWork ;
+    rdfs:label "Responsibility and Judgment"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Human_Condition a jp:HistoricalWork ;
+    rdfs:label "The Human Condition"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Jew_as_Pariah a jp:HistoricalWork ;
+    rdfs:label "The Jew as Pariah"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Jewish_Writings a jp:HistoricalWork ;
+    rdfs:label "The Jewish Writings"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Life_of_the_Mind a jp:HistoricalWork ;
+    rdfs:label "The Life of the Mind"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Origins_of_Totalitarianism a jp:HistoricalWork ;
+    rdfs:label "The Origins of Totalitarianism"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Promise_of_Politics a jp:HistoricalWork ;
+    rdfs:label "The Promise of Politics"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Thinking_and_Moral_Considerations a jp:HistoricalWork ;
+    rdfs:label "Thinking and Moral Considerations"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Understanding_and_Politics a jp:HistoricalWork ;
+    rdfs:label "Understanding and Politics"^^xsd:string ;
+    jp:writtenBy jp:Person_Hannah_Arendt ;
+    jp:hasLanguage jp:Language_English ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Martin_Heidegger .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Edmund_Husserl .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Karl_Jaspers .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Augustine_of_Hippo .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Augustine_of_Hippo .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Walter_Benjamin .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Immanuel_Kant .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Immanuel_Kant .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Aristotle .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Aristotle .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Niccolò_Machiavelli .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Niccolò_Machiavelli .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Montesquieu .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Montesquieu .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Thomas_Jefferson .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Thomas_Jefferson .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Alexis_de_Tocqueville .
+jp:Person_Hannah_Arendt jp:influencedBy jp:Person_Alexis_de_Tocqueville .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Plato .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Thomas_Hobbes .
+jp:Person_Hannah_Arendt jp:cites jp:Person_Gershom_Scholem .
+jp:Person_Margaret_Canovan jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Seyla_Benhabib jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Richard_J_Bernstein jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Hanna_F_Pitkin jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Sheldon_Wolin jp:cites jp:Person_Hannah_Arendt .
+jp:Person_David_Cesarani jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Deborah_Lipstadt jp:cites jp:Person_Hannah_Arendt .
+jp:Person_Bettina_Stangneth jp:cites jp:Person_Hannah_Arendt .
+
+#######################################################################
+# Salomon Maimon
+#######################################################################
+
+jp:Person_Solomon_Maimon_PlaceRel_Suchowyborg_Birth a jp:PlaceRelation ;
+    jp:placeType "birth"^^xsd:string ;
+    jp:relatedPlace jp:Place_Suchowyborg ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Suchowyborg_Birth_Time ;
+    schema1:description "Birthplace; traditional Talmudic education; early arranged marriage (age 11) and birth of son David (1767); early encounter with Maimonides and Kabbalah."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Suchowyborg_Birth_Time a jp:Time ;
+    jp:timeFrom "1753"^^xsd:gYear ;
+    jp:timeLabel "1753–1770s"^^xsd:string ;
+    jp:timeUntil "1779"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Mezrich_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Mezrich ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Mezrich_Travel_Time ;
+    schema1:description "Visited the court of the Maggid of Mezrich for several weeks; influenced by early Hassidism."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Mezrich_Travel_Time a jp:Time ;
+    jp:timeFrom "1770"^^xsd:gYear ;
+    jp:timeLabel "c. 1770"^^xsd:string ;
+    jp:timeUntil "1770"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Berlin ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_Time ;
+    schema1:description "First visit: expelled almost immediately by the Jewish community after stating intention to study philosophy; spent following half year as a wandering beggar."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_Time a jp:Time ;
+    jp:timeFrom "1775"^^xsd:gYear ;
+    jp:timeLabel "Late 1770s (mid-twenties)"^^xsd:string ;
+    jp:timeUntil "1779"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Posen_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Posen ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Posen_Residence_Time ;
+    schema1:description "Sheltered by the chief rabbi; worked as a tutor; wrote Hesheq Shelomo."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Posen_Residence_Time a jp:Time ;
+    jp:timeFrom "1775"^^xsd:gYear ;
+    jp:timeLabel "Late 1770s"^^xsd:string ;
+    jp:timeUntil "1779"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_2 a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Berlin ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_2_Time ;
+    schema1:description "Second visit: entered Haskalah circles; associated with Moses Mendelssohn; asked to leave in 1783 due to open Spinozism and bohemian lifestyle."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_2_Time a jp:Time ;
+    jp:timeFrom "1780"^^xsd:gYear ;
+    jp:timeLabel "1780–1783"^^xsd:string ;
+    jp:timeUntil "1783"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Hamburg_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Hamburg ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Hamburg_Travel_Time ;
+    schema1:description "Traveled following departure from Berlin."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Hamburg_Travel_Time a jp:Time ;
+    jp:timeFrom "1783"^^xsd:gYear ;
+    jp:timeLabel "1783"^^xsd:string ;
+    jp:timeUntil "1783"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Amsterdam_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Amsterdam ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Amsterdam_Travel_Time ;
+    schema1:description "Traveled following departure from Berlin."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Amsterdam_Travel_Time a jp:Time ;
+    jp:timeFrom "1783"^^xsd:gYear ;
+    jp:timeLabel "1783"^^xsd:string ;
+    jp:timeUntil "1783"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Altona_Study a jp:PlaceRelation ;
+    jp:placeType "study"^^xsd:string ;
+    jp:relatedPlace jp:Place_Altona ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Altona_Study_Time ;
+    schema1:description "Attended the Gymnasium Christianeum for two years; improved German, European languages, and natural sciences."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Altona_Study_Time a jp:Time ;
+    jp:timeFrom "1783"^^xsd:gYear ;
+    jp:timeLabel "1783–1785"^^xsd:string ;
+    jp:timeUntil "1785"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Travel_3 a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Berlin ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Berlin_Travel_3_Time ;
+    schema1:description "Brief visit: met Mendelssohn for the last time."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Travel_3_Time a jp:Time ;
+    jp:timeFrom "1785"^^xsd:gYear ;
+    jp:timeLabel "1785"^^xsd:string ;
+    jp:timeUntil "1785"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Dessau_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Dessau ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Dessau_Residence_Time ;
+    schema1:description "Stayed briefly; wrote a Hebrew textbook on mathematics."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Dessau_Residence_Time a jp:Time ;
+    jp:timeFrom "1785"^^xsd:gYear ;
+    jp:timeLabel "1785"^^xsd:string ;
+    jp:timeUntil "1785"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Breslau_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Breslau ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Breslau_Residence_Time ;
+    schema1:description "Worked as tutor; wrote Ta’alumoth Hochma; granted divorce to his wife Sarah."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Breslau_Residence_Time a jp:Time ;
+    jp:timeFrom "1785"^^xsd:gYear ;
+    jp:timeLabel "1785–1787"^^xsd:string ;
+    jp:timeUntil "1787"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_4 a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Berlin ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_4_Time ;
+    schema1:description "Third visit: studied Kant's Critique of Pure Reason; achieved fame; published Versuch über die Transcendentalphilosophie (1790), edited Magazin zur Erfahrungsseelenkunde with K. P. Moritz; extreme poverty."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_4_Time a jp:Time ;
+    jp:timeFrom "1787"^^xsd:gYear ;
+    jp:timeLabel "1787–1795"^^xsd:string ;
+    jp:timeUntil "1795"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Weimar_Travel a jp:PlaceRelation ;
+    jp:placeType "travel"^^xsd:string ;
+    jp:relatedPlace jp:Place_Weimar ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Weimar_Travel_Time ;
+    schema1:description "Invited by Goethe, though the relationship did not succeed."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Weimar_Travel_Time a jp:Time ;
+    jp:timeFrom "1793"^^xsd:gYear ;
+    jp:timeLabel "c. 1793–1794"^^xsd:string ;
+    jp:timeUntil "1794"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Residence a jp:PlaceRelation ;
+    jp:placeType "residence"^^xsd:string ;
+    jp:relatedPlace jp:Place_Siegersdorf ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Residence_Time ;
+    schema1:description "Lived on the estate of Graf Heinrich Wilhelm Adolf Kalkreuth until his death on November 22, 1800."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Residence_Time a jp:Time ;
+    jp:timeFrom "1795"^^xsd:gYear ;
+    jp:timeLabel "1795–1800"^^xsd:string ;
+    jp:timeUntil "1800"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Death_2 a jp:PlaceRelation ;
+    jp:placeType "death"^^xsd:string ;
+    jp:relatedPlace jp:Place_Siegersdorf ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Death_2_Time ;
+    schema1:description "Died on the Kalkreuth estate on November 22, 1800."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Death_2_Time a jp:Time ;
+    jp:timeFrom "1800"^^xsd:gYear ;
+    jp:timeLabel "1800"^^xsd:string ;
+    jp:timeUntil "1800"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon_PlaceRel_Glogau_Burial a jp:PlaceRelation ;
+    jp:placeType "burial"^^xsd:string ;
+    jp:relatedPlace jp:Place_Glogau ;
+    jp:hasTimeData jp:Person_Solomon_Maimon_PlaceRel_Glogau_Burial_Time ;
+    schema1:description "Buried at the margins of the Jewish cemetery of Glogau."^^xsd:string .
+
+jp:Person_Solomon_Maimon_PlaceRel_Glogau_Burial_Time a jp:Time ;
+    jp:timeFrom "1800"^^xsd:gYear ;
+    jp:timeLabel "1800"^^xsd:string ;
+    jp:timeUntil "1800"^^xsd:gYear .
+
+jp:Person_Solomon_Maimon jp:hasPlaceRelation jp:Person_Solomon_Maimon_PlaceRel_Suchowyborg_Birth,
+        jp:Person_Solomon_Maimon_PlaceRel_Mezrich_Travel,
+        jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence,
+        jp:Person_Solomon_Maimon_PlaceRel_Posen_Residence,
+        jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_2,
+        jp:Person_Solomon_Maimon_PlaceRel_Hamburg_Travel,
+        jp:Person_Solomon_Maimon_PlaceRel_Amsterdam_Travel,
+        jp:Person_Solomon_Maimon_PlaceRel_Altona_Study,
+        jp:Person_Solomon_Maimon_PlaceRel_Berlin_Travel_3,
+        jp:Person_Solomon_Maimon_PlaceRel_Dessau_Residence,
+        jp:Person_Solomon_Maimon_PlaceRel_Breslau_Residence,
+        jp:Person_Solomon_Maimon_PlaceRel_Berlin_Residence_4,
+        jp:Person_Solomon_Maimon_PlaceRel_Weimar_Travel,
+        jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Residence,
+        jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Death_2,
+        jp:Person_Solomon_Maimon_PlaceRel_Glogau_Burial .
+
+jp:Person_Solomon_Maimon jp:hasLanguage jp:Language_Hebrew .
+
+jp:Work_Maimon_Anfangsgruende_der_Newtonischen_Philosophie a jp:HistoricalWork ;
+    rdfs:label "Anfangsgründe der Newtonischen Philosophie von Dr. Pemberton"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "translation with notes"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ankuendigung_und_Aufforderung_zu_einer_allgemeinen_Revision_der_Wissenschaften a jp:HistoricalWork ;
+    rdfs:label "Ankündigung und Aufforderung zu einer allgemeinen Revision der Wissenschaften"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Attempt_at_a_New_Presentation_of_the_Principle_of_Morality a jp:HistoricalWork ;
+    rdfs:label "Attempt at a New Presentation of the Principle of Morality and a New Deduction of its Reality"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Bacons_von_Verulam_neues_Organon a jp:HistoricalWork ;
+    rdfs:label "Bacons von Verulam neues Organon"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "edition with notes"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Commentary_on_Aristotles_Ethics a jp:HistoricalWork ;
+    rdfs:label "Commentary on Aristotle's Ethics"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:preservationStatus "missing (fragmentary)"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Die_Kathegorien_des_Aristoteles a jp:HistoricalWork ;
+    rdfs:label "Die Kathegorien des Aristoteles"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Die_Mysterien_der_Philosophie a jp:HistoricalWork ;
+    rdfs:label "Die Mysterien der Philosophie"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:preservationStatus "missing"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Early_Commentary_on_Maimonides_Guide a jp:HistoricalWork ;
+    rdfs:label "Early Commentary on Maimonides' Guide"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:preservationStatus "missing"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_First_Grounds_of_Natural_Right a jp:HistoricalWork ;
+    rdfs:label "First Grounds of Natural Right"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Gibeath_Hamore a jp:HistoricalWork ;
+    rdfs:label "Gibeath Hamore (Giva'ath ha-Moreh)"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Hesheq_Shelomo a jp:HistoricalWork ;
+    rdfs:label "Hesheq Shelomo"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Hebrew_Translation_of_Morgenstunden a jp:HistoricalWork ;
+    rdfs:label "Hebrew translation of Mendelssohn's Morgenstunden"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "translation"^^xsd:string ;
+    jp:preservationStatus "lost"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Hebrew_Textbook_on_Mathematics a jp:HistoricalWork ;
+    rdfs:label "Hebrew textbook on mathematics (Dessau)"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasSubject jp:Subject_Mathematics ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Kritische_Untersuchungen_ueber_den_menschlichen_Geist a jp:HistoricalWork ;
+    rdfs:label "Kritische Untersuchungen über den menschlichen Geist"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Philosophisches_Woerterbuch a jp:HistoricalWork ;
+    rdfs:label "Philosophisches Wörterbuch"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Autobiography_Lebensgeschichte a jp:HistoricalWork ;
+    rdfs:label "Salomon Maimon's Lebensgeschichte"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Salomon_Maimons_Streifereien_im_Gebiete_der_Philosophie a jp:HistoricalWork ;
+    rdfs:label "Salomon Maimon's Streifereien im Gebiete der Philosophie"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Taalumoth_Hochma a jp:HistoricalWork ;
+    rdfs:label "Ta'alumoth Hochma"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_Hebrew ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_The_Moral_Skeptic a jp:HistoricalWork ;
+    rdfs:label "The Moral Skeptic"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ueber_die_Progressen_der_Philosophie a jp:HistoricalWork ;
+    rdfs:label "Über die Progressen der Philosophie"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Ueber_Logik a jp:HistoricalWork ;
+    rdfs:label "Über Logik"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSubject jp:Subject_Logic ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:preservationStatus "missing"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Versuch_einer_neuen_Logik_oder_Theorie_des_Denkens a jp:HistoricalWork ;
+    rdfs:label "Versuch einer neuen Logik, oder Theorie des Denkens"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:hasSubject jp:Subject_Logic ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Essay_on_Transcendental_Philosophy a jp:HistoricalWork ;
+    rdfs:label "Versuch über die Transcendentalphilosophie"^^xsd:string ;
+    jp:writtenBy jp:Person_Solomon_Maimon ;
+    jp:hasLanguage jp:Language_German ;
+    jp:authorshipStatus "authored"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Work_Maimon_Anfangsgruende_der_Newtonischen_Philosophie jp:translatedBy jp:Person_Solomon_Maimon .
+jp:Work_Maimon_Hebrew_Translation_of_Morgenstunden jp:translatedBy jp:Person_Solomon_Maimon ;
+    jp:isTranslationOf jp:Work_Morning_Hours_Morgenstunden .
+jp:Work_Morning_Hours_Morgenstunden jp:hasLanguage jp:Language_German .
+
+jp:Person_Solomon_Maimon jp:cites jp:Person_Moses_Maimonides_Rambam .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Moses_Maimonides_Rambam .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Dov_Ber_of_Mezeritch_the_Maggid .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Moses_Mendelssohn .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Moses_Mendelssohn .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Baruch_Spinoza .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Gottfried_Wilhelm_Leibniz .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_David_Hume .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Christian_Wolff .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Alexander_Gottlieb_Baumgarten .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Isaac_Newton .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Francis_Bacon .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Aristotle .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Aristotle .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Nissim_ben_Reuben_Gerondi_Ran .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Abraham_Ibn_Ezra .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Bahya_ben_Asher_ibn_Halawa .
+jp:Person_Solomon_Maimon jp:cites jp:Person_Immanuel_Kant .
+jp:Person_Solomon_Maimon jp:influencedBy jp:Person_Immanuel_Kant .
+jp:Person_Solomon_Maimon jp:interlocutorOf jp:Person_Karl_Philipp_Moritz .
+jp:Person_Karl_Philipp_Moritz jp:interlocutorOf jp:Person_Solomon_Maimon .
+jp:Person_Solomon_Maimon jp:interlocutorOf jp:Person_Johann_Wolfgang_von_Goethe .
+jp:Person_Johann_Wolfgang_von_Goethe jp:interlocutorOf jp:Person_Solomon_Maimon .
+jp:Person_Solomon_Maimon jp:interlocutorOf jp:Person_Marcus_Herz .
+jp:Person_Marcus_Herz jp:interlocutorOf jp:Person_Solomon_Maimon .
+jp:Person_Solomon_Maimon jp:interlocutorOf jp:Person_Friedrich_Heinrich_Jacobi .
+jp:Person_Friedrich_Heinrich_Jacobi jp:interlocutorOf jp:Person_Solomon_Maimon .
+jp:Person_Johann_Gottlieb_Fichte jp:influencedBy jp:Person_Solomon_Maimon .
+jp:Person_Johann_Gottlieb_Fichte jp:cites jp:Person_Solomon_Maimon .
+jp:Person_Solomon_Maimon jp:interlocutorOf jp:Person_Karl_Leonhard_Reinhold .
+jp:Person_Karl_Leonhard_Reinhold jp:interlocutorOf jp:Person_Solomon_Maimon .
+jp:Person_Karl_Leonhard_Reinhold jp:influencedBy jp:Person_Solomon_Maimon .
+jp:Person_Georg_Wilhelm_Friedrich_Hegel jp:influencedBy jp:Person_Solomon_Maimon .
+jp:Person_Friedrich_Wilhelm_Joseph_Schelling jp:influencedBy jp:Person_Solomon_Maimon .
+jp:Person_Hermann_Cohen jp:influencedBy jp:Person_Solomon_Maimon .
+jp:Person_Manfred_Frank jp:cites jp:Person_Solomon_Maimon .
+
+#######################################################################
+# Persons referenced by the SEP research tables
+#######################################################################
+
+jp:Person_Alexander_Gottlieb_Baumgarten a jp:HistoricalPerson ;
+    rdfs:label "Alexander Gottlieb Baumgarten"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Alexis_de_Tocqueville a jp:HistoricalPerson ;
+    rdfs:label "Alexis de Tocqueville"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Augustine_of_Hippo a jp:HistoricalPerson ;
+    rdfs:label "Augustine of Hippo"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Bahya_ben_Asher_ibn_Halawa a jp:HistoricalPerson ;
+    rdfs:label "Bahya ben Asher ibn Halawa"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Bettina_Stangneth a jp:HistoricalPerson ;
+    rdfs:label "Bettina Stangneth"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Christian_Wolff a jp:HistoricalPerson ;
+    rdfs:label "Christian Wolff"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_David_Cesarani a jp:HistoricalPerson ;
+    rdfs:label "David Cesarani"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_David_Hume a jp:HistoricalPerson ;
+    rdfs:label "David Hume"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Deborah_Lipstadt a jp:HistoricalPerson ;
+    rdfs:label "Deborah Lipstadt"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Francis_Bacon a jp:HistoricalPerson ;
+    rdfs:label "Francis Bacon"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Friedrich_Heinrich_Jacobi a jp:HistoricalPerson ;
+    rdfs:label "Friedrich Heinrich Jacobi"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Friedrich_Wilhelm_Joseph_Schelling a jp:HistoricalPerson ;
+    rdfs:label "Friedrich Wilhelm Joseph Schelling"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Gottfried_Wilhelm_Leibniz a jp:HistoricalPerson ;
+    rdfs:label "Gottfried Wilhelm Leibniz"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Hanna_F_Pitkin a jp:HistoricalPerson ;
+    rdfs:label "Hanna F. Pitkin"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Immanuel_Kant a jp:HistoricalPerson ;
+    rdfs:label "Immanuel Kant"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Isaac_Newton a jp:HistoricalPerson ;
+    rdfs:label "Isaac Newton"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Johann_Gottlieb_Fichte a jp:HistoricalPerson ;
+    rdfs:label "Johann Gottlieb Fichte"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Johann_Wolfgang_von_Goethe a jp:HistoricalPerson ;
+    rdfs:label "Johann Wolfgang von Goethe"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Karl_Jaspers a jp:HistoricalPerson ;
+    rdfs:label "Karl Jaspers"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Karl_Leonhard_Reinhold a jp:HistoricalPerson ;
+    rdfs:label "Karl Leonhard Reinhold"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Karl_Philipp_Moritz a jp:HistoricalPerson ;
+    rdfs:label "Karl Philipp Moritz"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Manfred_Frank a jp:HistoricalPerson ;
+    rdfs:label "Manfred Frank"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Margaret_Canovan a jp:HistoricalPerson ;
+    rdfs:label "Margaret Canovan"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Martin_Heidegger a jp:HistoricalPerson ;
+    rdfs:label "Martin Heidegger"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Montesquieu a jp:HistoricalPerson ;
+    rdfs:label "Montesquieu"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Niccolò_Machiavelli a jp:HistoricalPerson ;
+    rdfs:label "Niccolò Machiavelli"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Plato a jp:HistoricalPerson ;
+    rdfs:label "Plato"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Sheldon_Wolin a jp:HistoricalPerson ;
+    rdfs:label "Sheldon Wolin"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Thomas_Hobbes a jp:HistoricalPerson ;
+    rdfs:label "Thomas Hobbes"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .
+
+jp:Person_Thomas_Jefferson a jp:HistoricalPerson ;
+    rdfs:label "Thomas Jefferson"^^xsd:string ;
+    jp:hasSource jp:Source_SEP .

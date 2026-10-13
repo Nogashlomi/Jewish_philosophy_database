@@ -12,7 +12,11 @@ class WorkDetail(BaseModel):
     id: str
     uri: str
     title: str
+    description: Optional[str] = None
+    authorship_status: Optional[str] = None
+    preservation_status: Optional[str] = None
     authors: List[WorkAuthor] = []
+    cited_by: List[WorkAuthor] = []
     subjects: List[str] = []
     languages: List[str] = []
     places: List[PlaceRelation] = []

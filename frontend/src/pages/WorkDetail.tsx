@@ -9,6 +9,7 @@ import {
   Hash,
   Languages as LanguagesIcon,
   GraduationCap,
+  Quote,
 } from 'lucide-react'
 
 export default function WorkDetail() {
@@ -47,9 +48,25 @@ export default function WorkDetail() {
         <div className="bg-teal-50 px-6 py-4 border-b border-teal-100">
           <h1 className="text-2xl font-bold text-gray-900">{work.title}</h1>
           <div className="text-sm text-gray-500 mt-1 font-mono">{work.id}</div>
+          {(work.authorship_status || work.preservation_status) && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {work.authorship_status && (
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-white text-teal-700 border border-teal-200">
+                  {work.authorship_status}
+                </span>
+              )}
+              {work.preservation_status && (
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-white text-amber-700 border border-amber-200">
+                  {work.preservation_status}
+                </span>
+              )}
+            </div>
+          )}
         </div>
 
         <div className="p-6 space-y-8">
+          {work.description && <p className="text-gray-700">{work.description}</p>}
+
           {/* Basic Info / Times */}
           {work.times && work.times.length > 0 && (
             <div className="flex items-start gap-3">
@@ -104,6 +121,26 @@ export default function WorkDetail() {
                       className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
                     >
                       {author.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {work.cited_by && work.cited_by.length > 0 && (
+            <div className="flex items-start gap-3">
+              <Quote className="h-5 w-5 text-teal-500 mt-0.5" />
+              <div>
+                <h3 className="font-medium text-gray-900">Cited by</h3>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {work.cited_by.map((person) => (
+                    <Link
+                      key={person.id}
+                      to={`/persons/${person.id}`}
+                      className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
+                    >
+                      {person.label}
                     </Link>
                   ))}
                 </div>

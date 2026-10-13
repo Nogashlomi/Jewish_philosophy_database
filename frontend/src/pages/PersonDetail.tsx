@@ -1,7 +1,16 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
-import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar } from 'lucide-react'
+import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar, Users } from 'lucide-react'
+import type { IntellectualRelation } from '../types/entity'
+
+const RELATION_GROUPS: { relation: IntellectualRelation['relation']; title: string }[] = [
+  { relation: 'influenced_by', title: 'Influenced by' },
+  { relation: 'cites', title: 'Cites' },
+  { relation: 'interlocutor', title: 'Interlocutors / Associates' },
+  { relation: 'influenced', title: 'Influenced' },
+  { relation: 'cited_by', title: 'Cited by' },
+]
 
 export default function PersonDetail() {
   const { id } = useParams<{ id: string }>()
@@ -92,20 +101,48 @@ export default function PersonDetail() {
           {person.places && person.places.length > 0 && (
             <div className="flex items-start gap-3">
               <MapPin className="h-5 w-5 text-indigo-500 mt-0.5" />
-              <div>
+              <div className="w-full">
                 <h3 className="font-medium text-gray-900">Related Places</h3>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  {person.places.map((place, idx) => (
-                    <Link
-                      key={idx}
-                      to={`/places/${place.place_id}`}
-                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100"
-                    >
-                      {place.label}
-                      {place.type && <span className="ml-1 opacity-60">({place.type})</span>}
-                    </Link>
-                  ))}
-                </div>
+                {person.places.some((place) => place.time_label || place.description) ? (
+                  <ol className="mt-2 space-y-3">
+                    {person.places.map((place, idx) => (
+                      <li key={idx} className="border-l-2 border-blue-100 pl-3">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <Link
+                            to={`/places/${place.place_id}`}
+                            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100"
+                          >
+                            {place.label}
+                          </Link>
+                          {place.time_label && (
+                            <span className="text-sm font-medium text-gray-800">
+                              {place.time_label}
+                            </span>
+                          )}
+                          {place.type && (
+                            <span className="text-xs text-gray-400">({place.type})</span>
+                          )}
+                        </div>
+                        {place.description && (
+                          <p className="mt-1 text-sm text-gray-600">{place.description}</p>
+                        )}
+                      </li>
+                    ))}
+                  </ol>
+                ) : (
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {person.places.map((place, idx) => (
+                      <Link
+                        key={idx}
+                        to={`/places/${place.place_id}`}
+                        className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100"
+                      >
+                        {place.label}
+                        {place.type && <span className="ml-1 opacity-60">({place.type})</span>}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           )}
@@ -131,6 +168,45 @@ export default function PersonDetail() {
                       <div className="text-xs text-gray-400 mt-1">{work.id}</div>
                     </Link>
                   ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {person.relations && person.relations.length > 0 && (
+            <div className="flex items-start gap-3">
+              <Users className="h-5 w-5 text-indigo-500 mt-0.5" />
+              <div className="w-full">
+                <h3 className="font-medium text-gray-900">Citations and Influences</h3>
+                <div className="mt-2 space-y-3">
+                  {RELATION_GROUPS.map(({ relation, title }) => {
+                    const related = person.relations!.filter((r) => r.relation === relation)
+                    if (related.length === 0) return null
+                    return (
+                      <div key={relation}>
+                        <div className="text-xs uppercase tracking-wide text-gray-400">{title}</div>
+                        <div className="mt-1 flex flex-wrap gap-2">
+                          {related.map((r) => (
+                            <Link
+                              key={r.id}
+                              to={
+                                r.entity_type === 'HistoricalWork'
+                                  ? `/works/${r.id}`
+                                  : `/persons/${r.id}`
+                              }
+                              className={
+                                r.entity_type === 'HistoricalWork'
+                                  ? 'inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-50 text-teal-700 hover:bg-teal-100'
+                                  : 'inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 hover:bg-indigo-100'
+                              }
+                            >
+                              {r.label}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             </div>

@@ -1909,10 +1909,6 @@ jp:Work_Auto_Emancipation a jp:HistoricalWork ;
     rdfs:label "Auto-Emancipation"^^xsd:string ;
     jp:writtenBy jp:Person_Leon_Pinsker .
 
-jp:Work_Autobiography_Lebensgeschichte a jp:HistoricalWork ;
-    rdfs:label "Autobiography (Lebensgeschichte)"^^xsd:string ;
-    jp:writtenBy jp:Person_Solomon_Maimon .
-
 jp:Work_Avodat_ha_Kodesh a jp:HistoricalWork ;
     rdfs:label "Avodat ha-Kodesh"^^xsd:string ;
     jp:writtenBy jp:Person_Meir_ibn_Gabbai .
@@ -2042,8 +2038,7 @@ jp:Work_Commentary_on_the_Talmudic_Aggadot a jp:HistoricalWork ;
 
 jp:Work_Commentary_on_the_Torah a jp:HistoricalWork ;
     rdfs:label "Commentary on the Torah"^^xsd:string ;
-    jp:writtenBy jp:Person_Abraham_Ibn_Ezra,
-        jp:Person_Levi_ben_Gershom_Gersonides,
+    jp:writtenBy jp:Person_Levi_ben_Gershom_Gersonides,
         jp:Person_Nachmanides_Moses_ben_Nahman,
         jp:Person_Ovadiah_Sforno,
         jp:Person_Samson_Raphael_Hirsch .
@@ -2208,10 +2203,6 @@ jp:Work_Eclipse_of_Reason a jp:HistoricalWork ;
     rdfs:label "Eclipse of Reason"^^xsd:string ;
     jp:writtenBy jp:Person_Max_Horkheimer .
 
-jp:Work_Eichmann_in_Jerusalem a jp:HistoricalWork ;
-    rdfs:label "Eichmann in Jerusalem"^^xsd:string ;
-    jp:writtenBy jp:Person_Hannah_Arendt .
-
 jp:Work_Einleitung_in_die_Psychologie_und_Sprachwissenschaft a jp:HistoricalWork ;
     rdfs:label "Einleitung in die Psychologie und Sprachwissenschaft"^^xsd:string ;
     jp:writtenBy jp:Person_Hermann_Steinthal .
@@ -2275,10 +2266,6 @@ jp:Work_Eshkol_ha_Kofer a jp:HistoricalWork ;
 jp:Work_Esperan_a_de_Israel a jp:HistoricalWork ;
     rdfs:label "Esperança de Israel"^^xsd:string ;
     jp:writtenBy jp:Person_Menasseh_ben_Israel .
-
-jp:Work_Essay_on_Transcendental_Philosophy a jp:HistoricalWork ;
-    rdfs:label "Essay on Transcendental Philosophy"^^xsd:string ;
-    jp:writtenBy jp:Person_Solomon_Maimon .
 
 jp:Work_Essays_on_the_Sociology_of_Knowledge a jp:HistoricalWork ;
     rdfs:label "Essays on the Sociology of Knowledge"^^xsd:string ;
@@ -3759,10 +3746,6 @@ jp:Work_The_Holocaust_in_Historical_Context a jp:HistoricalWork ;
     rdfs:label "The Holocaust in Historical Context"^^xsd:string ;
     jp:writtenBy jp:Person_Steven_Katz .
 
-jp:Work_The_Human_Condition a jp:HistoricalWork ;
-    rdfs:label "The Human Condition"^^xsd:string ;
-    jp:writtenBy jp:Person_Hannah_Arendt .
-
 jp:Work_The_Human_Use_of_Human_Beings a jp:HistoricalWork ;
     rdfs:label "The Human Use of Human Beings"^^xsd:string ;
     jp:writtenBy jp:Person_Norbert_Wiener .
@@ -3906,10 +3889,6 @@ jp:Work_The_Order_of_Evils a jp:HistoricalWork ;
 jp:Work_The_Origin_of_German_Tragic_Drama a jp:HistoricalWork ;
     rdfs:label "The Origin of German Tragic Drama"^^xsd:string ;
     jp:writtenBy jp:Person_Walter_Benjamin .
-
-jp:Work_The_Origins_of_Totalitarianism a jp:HistoricalWork ;
-    rdfs:label "The Origins of Totalitarianism"^^xsd:string ;
-    jp:writtenBy jp:Person_Hannah_Arendt .
 
 jp:Work_The_Other_Within_The_Marranos a jp:HistoricalWork ;
     rdfs:label "The Other Within: The Marranos"^^xsd:string ;
@@ -4166,10 +4145,6 @@ jp:Work_Writing_and_Difference a jp:HistoricalWork ;
 jp:Work_Yad_Moshe a jp:HistoricalWork ;
     rdfs:label "Yad Moshe"^^xsd:string ;
     jp:writtenBy jp:Person_Moshe_Alfalas .
-
-jp:Work_Yesod_Mora a jp:HistoricalWork ;
-    rdfs:label "Yesod Mora"^^xsd:string ;
-    jp:writtenBy jp:Person_Abraham_Ibn_Ezra .
 
 jp:Work_Yesod_Olam a jp:HistoricalWork ;
     rdfs:label "Yesod Olam"^^xsd:string ;
@@ -4545,26 +4520,6 @@ jp:Person_Abraham_Ibn_Daud_TimeRel a jp:TimeRelation ;
     jp:inTimeBucket jp:Bucket_1100_CE,
         jp:Bucket_1150_CE ;
     jp:timeType "lifespan"^^xsd:string .
-
-jp:Person_Abraham_Ibn_Ezra_PlaceRel_England a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_England .
-
-jp:Person_Abraham_Ibn_Ezra_PlaceRel_France a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_France .
-
-jp:Person_Abraham_Ibn_Ezra_PlaceRel_Italy a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Italy .
-
-jp:Person_Abraham_Ibn_Ezra_PlaceRel_Spain a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Spain .
-
-jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Tudela .
 
 jp:Person_Abraham_Ibn_Ezra_Time a jp:Time ;
     jp:timeFrom "1089"^^xsd:gYear ;
@@ -7401,22 +7356,6 @@ jp:Person_Hai_Gaon_TimeRel a jp:TimeRelation ;
         jp:Bucket_900_CE,
         jp:Bucket_950_CE ;
     jp:timeType "lifespan"^^xsd:string .
-
-jp:Person_Hannah_Arendt_PlaceRel_Berlin a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Berlin .
-
-jp:Person_Hannah_Arendt_PlaceRel_Hanover a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Hanover .
-
-jp:Person_Hannah_Arendt_PlaceRel_Paris a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Paris .
-
-jp:Person_Hannah_Arendt_PlaceRel_York a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_New_York .
 
 jp:Person_Hannah_Arendt_Time a jp:Time ;
     jp:timeFrom "1906"^^xsd:gYear ;
@@ -13754,18 +13693,6 @@ jp:Person_Solomon_Ludwig_Steinheim_TimeRel a jp:TimeRelation ;
         jp:Bucket_1850_CE ;
     jp:timeType "lifespan"^^xsd:string .
 
-jp:Person_Solomon_Maimon_PlaceRel_Berlin a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Berlin .
-
-jp:Person_Solomon_Maimon_PlaceRel_Poland a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Poland .
-
-jp:Person_Solomon_Maimon_PlaceRel_Prussia a jp:PlaceRelation ;
-    jp:placeType "associated"^^xsd:string ;
-    jp:relatedPlace jp:Place_Prussia .
-
 jp:Person_Solomon_Maimon_Time a jp:Time ;
     jp:timeFrom "1753"^^xsd:gYear ;
     jp:timeLabel "c.1753–1800"^^xsd:string ;
@@ -17834,9 +17761,6 @@ jp:Person_Solomon_Ibn_Gabirol a jp:HistoricalPerson ;
 jp:Person_Solomon_Maimon a jp:HistoricalPerson ;
     rdfs:label "Solomon Maimon"^^xsd:string ;
     jp:hasLanguage jp:Language_German ;
-    jp:hasPlaceRelation jp:Person_Solomon_Maimon_PlaceRel_Berlin,
-        jp:Person_Solomon_Maimon_PlaceRel_Poland,
-        jp:Person_Solomon_Maimon_PlaceRel_Prussia ;
     jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Solomon_Maimon_TimeRel ;
@@ -18293,11 +18217,6 @@ jp:Person_Abraham_Abulafia a jp:HistoricalPerson ;
 jp:Person_Abraham_Ibn_Ezra a jp:HistoricalPerson ;
     rdfs:label "Abraham Ibn Ezra"^^xsd:string ;
     jp:hasLanguage jp:Language_Hebrew ;
-    jp:hasPlaceRelation jp:Person_Abraham_Ibn_Ezra_PlaceRel_England,
-        jp:Person_Abraham_Ibn_Ezra_PlaceRel_France,
-        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Italy,
-        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Spain,
-        jp:Person_Abraham_Ibn_Ezra_PlaceRel_Tudela ;
     jp:hasSource jp:Source_SEP ;
     jp:hasSource jp:Source_Cambridge ;
     jp:hasSource jp:Source_Freudenthal_Book ;
@@ -18425,10 +18344,6 @@ jp:Person_Hannah_Arendt a jp:HistoricalPerson ;
     rdfs:label "Hannah Arendt"^^xsd:string ;
     jp:hasLanguage jp:Language_English,
         jp:Language_German ;
-    jp:hasPlaceRelation jp:Person_Hannah_Arendt_PlaceRel_Berlin,
-        jp:Person_Hannah_Arendt_PlaceRel_Hanover,
-        jp:Person_Hannah_Arendt_PlaceRel_Paris,
-        jp:Person_Hannah_Arendt_PlaceRel_York ;
     jp:hasSource jp:Source_SEP ;
     jp:hasSubject jp:Subject_Philosophy ;
     jp:hasTimeRelation jp:Person_Hannah_Arendt_TimeRel ;

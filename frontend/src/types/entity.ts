@@ -64,6 +64,15 @@ export interface PersonDetail {
   time_buckets: string[]
   subjects?: string[]
   languages?: string[]
+  relations?: IntellectualRelation[]
+}
+
+export interface IntellectualRelation {
+  id: string
+  uri: string
+  label: string
+  entity_type: string
+  relation: 'influenced_by' | 'influenced' | 'cites' | 'cited_by' | 'interlocutor'
 }
 
 export interface RelatedWork {
@@ -77,6 +86,10 @@ export interface PlaceRelation {
   place_uri: string
   label: string
   type?: string
+  start?: string
+  end?: string
+  time_label?: string
+  description?: string
 }
 
 export interface TimeRelation {
@@ -102,7 +115,11 @@ export interface WorkDetail {
   id: string
   uri: string
   title: string
+  description?: string
+  authorship_status?: string
+  preservation_status?: string
   authors: WorkAuthor[]
+  cited_by?: WorkAuthor[]
   subjects: string[]
   languages: string[]
   places: PlaceRelation[]

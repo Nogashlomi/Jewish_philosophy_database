@@ -14,6 +14,17 @@ class PlaceRelation(BaseModel):
     place_uri: str
     label: str
     type: Optional[str] = None
+    start: Optional[str] = None
+    end: Optional[str] = None
+    time_label: Optional[str] = None
+    description: Optional[str] = None
+
+class IntellectualRelation(BaseModel):
+    id: str
+    uri: str
+    label: str
+    entity_type: str
+    relation: str
 
 class TimeRelation(BaseModel):
     type: Optional[str] = None
@@ -31,6 +42,7 @@ class PersonDetail(BaseModel):
     time_buckets: List[str] = []
     subjects: List[str] = []
     languages: List[str] = []
+    relations: List[IntellectualRelation] = []
 
 class PersonList(BaseModel):
     id: str

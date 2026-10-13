@@ -2,7 +2,7 @@ from typing import List, Optional, Dict, Any
 import math
 from urllib.parse import quote
 from app.core.rdf_store import rdf_store, JP, RDF, RDFS
-from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation
+from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation, IntellectualRelation
 from app.schemas.work import WorkList, WorkDetail, WorkAuthor
 from app.schemas.place import PlaceList, PlaceDetail, PersonAtPlace
 from app.schemas.subject import SubjectList, SubjectDetail, SubjectWorkInfo
@@ -127,13 +127,17 @@ class EntityService:
         for row in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri}):
             p_id = row.place.split("#")[-1]
             p_type = str(row.type).lower() if row.type else ""
-            key = f"{p_id}_{p_type}"
+            key = f"{p_id}_{p_type}" if not row.timeLabel else str(row.rel)
             if key not in places_map:
                 places_map[key] = PlaceRelation(
                     place_uri=str(row.place),
                     place_id=p_id,
                     label=str(row.placeLabel),
-                    type=str(row.type) if row.type else None
+                    type=str(row.type) if row.type else None,
+                    start=str(row.start) if row.start else None,
+                    end=str(row.end) if row.end else None,
+                    time_label=str(row.timeLabel) if row.timeLabel else None,
+                    description=str(row.description) if row.description else None
                 )
         places = list(places_map.values())
 
@@ -169,6 +173,17 @@ class EntityService:
             lbl = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
             languages.append(str(lbl))
 
+        relations = [
+            IntellectualRelation(
+                id=row.other.split("#")[-1],
+                uri=str(row.other),
+                label=str(row.label),
+                entity_type=row.type.split("#")[-1],
+                relation=str(row.relation)
+            )
+            for row in rdf_store.query(queries.GET_PERSON_RELATIONS, initBindings={'person': uri})
+        ]
+
         # 8. Source Attribution
         sources = []
         for source_uri in rdf_store.g.objects(uri, JP.hasSource):
@@ -184,7 +199,8 @@ class EntityService:
             times=times,
             time_buckets=time_buckets,
             subjects=subjects,
-            languages=languages
+            languages=languages,
+            relations=relations
         )
 
 
@@ -258,6 +274,15 @@ class EntityService:
                 label=str(row.name)
             ))
 
+        cited_by = [
+            WorkAuthor(
+                id=row.person.split("#")[-1],
+                uri=str(row.person),
+                label=str(row.name)
+            )
+            for row in rdf_store.query(queries.GET_WORK_CITED_BY, initBindings={'work': uri})
+        ]
+
         # 3. Subjects
         subjects = []
         for subj_uri in rdf_store.g.objects(uri, JP.hasSubject):
@@ -305,7 +330,11 @@ class EntityService:
             id=work_id,
             uri=str(uri),
             title=str(title),
+            description=self._optional_str(rdf_store.g.value(uri, URIRef("http://schema.org/description"))),
+            authorship_status=self._optional_str(rdf_store.g.value(uri, JP.authorshipStatus)),
+            preservation_status=self._optional_str(rdf_store.g.value(uri, JP.preservationStatus)),
             authors=authors,
+            cited_by=cited_by,
             subjects=subjects,
             languages=languages,
             places=places,
@@ -588,6 +617,9 @@ class EntityService:
         if not source:
             return ""
         return f"?{var_name} jp:hasSource <{JP}{quote(source, safe='')}> ."
+
+    def _optional_str(self, value) -> Optional[str]:
+        return str(value) if value is not None else None
 
     def _get_time_buckets(self, uri: URIRef) -> List[str]:
         buckets = []

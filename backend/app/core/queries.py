@@ -68,13 +68,46 @@ ORDER BY ?title
 
 
 GET_PERSON_PLACES = PREFIXES + """
-SELECT ?rel ?place ?placeLabel ?type
+PREFIX schema: <http://schema.org/>
+SELECT ?rel ?place ?placeLabel ?type ?start ?end ?timeLabel ?description
 WHERE {
      ?person jp:hasPlaceRelation ?rel .
      ?rel jp:relatedPlace ?place ;
           jp:placeType ?type .
      ?place rdfs:label ?placeLabel .
+     OPTIONAL { ?rel jp:hasTimeData ?td . ?td jp:timeFrom ?start }
+     OPTIONAL { ?rel jp:hasTimeData ?td . ?td jp:timeUntil ?end }
+     OPTIONAL { ?rel jp:hasTimeData ?td . ?td jp:timeLabel ?timeLabel }
+     OPTIONAL { ?rel schema:description ?description }
 }
+ORDER BY ?start
+"""
+
+GET_PERSON_RELATIONS = PREFIXES + """
+SELECT ?other (MIN(?l) AS ?label) ?type ?relation
+WHERE {
+     {
+          ?person jp:influencedBy ?other .
+          BIND("influenced_by" AS ?relation)
+     } UNION {
+          ?other jp:influencedBy ?person .
+          BIND("influenced" AS ?relation)
+     } UNION {
+          ?person jp:cites ?other .
+          BIND("cites" AS ?relation)
+     } UNION {
+          ?other jp:cites ?person .
+          BIND("cited_by" AS ?relation)
+     } UNION {
+          ?person jp:interlocutorOf ?other .
+          BIND("interlocutor" AS ?relation)
+     }
+     ?other a ?type ;
+            rdfs:label ?l .
+     FILTER (?type IN (jp:HistoricalPerson, jp:HistoricalWork))
+}
+GROUP BY ?other ?type ?relation
+ORDER BY ?relation ?label
 """
 
 GET_PERSON_TIMES = PREFIXES + """
@@ -115,6 +148,16 @@ WHERE {{
 """
 
 
+
+GET_WORK_CITED_BY = PREFIXES + """
+SELECT ?person (MIN(?label) AS ?name)
+WHERE {
+    ?person jp:cites ?work ;
+            rdfs:label ?label .
+}
+GROUP BY ?person
+ORDER BY ?name
+"""
 
 GET_WORK_AUTHORS = PREFIXES + """
 SELECT ?author (MIN(?label) AS ?name)
@@ -278,6 +321,9 @@ NETWORK_EDGE_PREDICATES = [
     "translated",
     "isTranslationOf",
     "translatedBy",
+    "influencedBy",
+    "cites",
+    "interlocutorOf",
 ]
 
 GET_NETWORK_EDGES_PLACES = PREFIXES + """

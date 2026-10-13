@@ -121,7 +121,7 @@ jp:timeType a owl:DatatypeProperty ;
 
 jp:hasTimeData a owl:ObjectProperty ;
     rdfs:label "has time data" ;
-    rdfs:domain jp:TimeRelation ;
+    rdfs:domain [ owl:unionOf ( jp:TimeRelation jp:PlaceRelation ) ] ;
     rdfs:range jp:Time ;
     rdfs:comment "Links a time relation to the specific time data." .
 
@@ -304,4 +304,34 @@ jp:isTranslationOf a owl:ObjectProperty ;
     rdfs:domain jp:HistoricalWork ;
     rdfs:range jp:HistoricalWork ;
     rdfs:comment "Indicates that this work is a translation of another work." .
+
+jp:influencedBy a owl:ObjectProperty ;
+    rdfs:label "influenced by" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates that a person was intellectually influenced by another person." .
+
+jp:cites a owl:ObjectProperty ;
+    rdfs:label "cites" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range [ owl:unionOf ( jp:HistoricalPerson jp:HistoricalWork ) ] ;
+    rdfs:comment "Indicates that a person cites another person or a work in their writings." .
+
+jp:interlocutorOf a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "interlocutor of" ;
+    rdfs:domain jp:HistoricalPerson ;
+    rdfs:range jp:HistoricalPerson ;
+    rdfs:comment "Indicates that two persons were interlocutors or personally associated." .
+
+jp:authorshipStatus a owl:DatatypeProperty ;
+    rdfs:label "authorship status" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Status of the attribution of a work to its author, e.g., authored, ascribed, questioned, translation." .
+
+jp:preservationStatus a owl:DatatypeProperty ;
+    rdfs:label "preservation status" ;
+    rdfs:domain jp:HistoricalWork ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Whether a work survives, e.g., lost, missing, fragmentary." .
 
