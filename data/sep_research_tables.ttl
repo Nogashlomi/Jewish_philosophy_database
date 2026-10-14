@@ -169,8 +169,8 @@ jp:Work_Arugat_ha_Bosem a jp:HistoricalWork ;
     schema1:description "Poetic theological tract containing atomism doctrines from the kalam tradition. Attribution questioned by Hermann Greive and Nachman Krochmal."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_Elections a jp:HistoricalWork ;
-    rdfs:label "Book of Elections"^^xsd:string ;
+jp:Work_Ibn_Ezra_Sefer_ha_Mivharim a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Mivḥarim"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_astrology ;
@@ -178,8 +178,8 @@ jp:Work_Ibn_Ezra_Book_of_Elections a jp:HistoricalWork ;
     schema1:description "Astrological tract (extant in three versions; edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_Interrogations a jp:HistoricalWork ;
-    rdfs:label "Book of Interrogations"^^xsd:string ;
+jp:Work_Ibn_Ezra_Sefer_ha_Seelot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Se’elot"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_astrology ;
@@ -187,26 +187,26 @@ jp:Work_Ibn_Ezra_Book_of_Interrogations a jp:HistoricalWork ;
     schema1:description "Astrological tract (extant in three versions; edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_Nativities a jp:HistoricalWork ;
-    rdfs:label "Book of Nativities"^^xsd:string ;
+jp:Work_Ibn_Ezra_Liber_de_Nativitatibus a jp:HistoricalWork ;
+    rdfs:label "Liber de nativitatibus"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
-    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasLanguage jp:Language_Latin ;
     jp:hasSubject jp:Subject_astrology ;
     jp:authorshipStatus "authored"^^xsd:string ;
     schema1:description "Astrological tract on nativities (edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_Reasons a jp:HistoricalWork ;
-    rdfs:label "Book of Reasons"^^xsd:string ;
+jp:Work_Ibn_Ezra_Liber_de_Rationibus a jp:HistoricalWork ;
+    rdfs:label "Liber de Rationibus"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
-    jp:hasLanguage jp:Language_Hebrew ;
+    jp:hasLanguage jp:Language_Latin ;
     jp:hasSubject jp:Subject_astrology ;
     jp:authorshipStatus "authored"^^xsd:string ;
     schema1:description "Astrological tract (extant in two versions; edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_Revolution a jp:HistoricalWork ;
-    rdfs:label "Book of Revolution"^^xsd:string ;
+jp:Work_Sefer_ha_Ibbur a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Ibur"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_astrology ;
@@ -214,8 +214,8 @@ jp:Work_Ibn_Ezra_Book_of_Revolution a jp:HistoricalWork ;
     schema1:description "Astrological tract on continuous horoscopy (edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_the_Luminaries a jp:HistoricalWork ;
-    rdfs:label "Book of the Luminaries"^^xsd:string ;
+jp:Work_Ibn_Ezra_Sefer_ha_Meorot a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Me’orot"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_astrology, jp:Subject_Medicine ;
@@ -223,8 +223,8 @@ jp:Work_Ibn_Ezra_Book_of_the_Luminaries a jp:HistoricalWork ;
     schema1:description "Astrological tract on medical astrology (edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Book_of_the_World a jp:HistoricalWork ;
-    rdfs:label "Book of the World"^^xsd:string ;
+jp:Work_Ibn_Ezra_Sefer_ha_Olam a jp:HistoricalWork ;
+    rdfs:label "Sefer ha-Olam"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_astrology ;
@@ -232,8 +232,8 @@ jp:Work_Ibn_Ezra_Book_of_the_World a jp:HistoricalWork ;
     schema1:description "Astrological tract (extant in two versions; edited by Shlomo Sela)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Commentary_to_Daniel a jp:HistoricalWork ;
-    rdfs:label "Commentary to Daniel"^^xsd:string ;
+jp:Work_Ibn_Ezra_Commentary_on_Daniel a jp:HistoricalWork ;
+    rdfs:label "Commentary on Daniel"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_Exegesis ;
@@ -241,8 +241,8 @@ jp:Work_Ibn_Ezra_Commentary_to_Daniel a jp:HistoricalWork ;
     schema1:description "Biblical commentary (e.g., gloss to Daniel 9:2)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Commentary_to_Ecclesiastes a jp:HistoricalWork ;
-    rdfs:label "Commentary to Ecclesiastes"^^xsd:string ;
+jp:Work_Ibn_Ezra_Commentary_on_Ecclesiastes a jp:HistoricalWork ;
+    rdfs:label "Commentary on Ecclesiastes"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_Exegesis ;
@@ -250,8 +250,8 @@ jp:Work_Ibn_Ezra_Commentary_to_Ecclesiastes a jp:HistoricalWork ;
     schema1:description "Biblical commentary (e.g., gloss to Ecclesiastes 7:9)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Commentary_to_the_Torah a jp:HistoricalWork ;
-    rdfs:label "Commentary to the Torah (Ibn Ezra)"^^xsd:string ;
+jp:Work_Ibn_Ezra_Commentary_on_the_Torah a jp:HistoricalWork ;
+    rdfs:label "Commentary on the Torah (Ibn Ezra)"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_Exegesis, jp:Subject_Esotericism ;
@@ -259,8 +259,8 @@ jp:Work_Ibn_Ezra_Commentary_to_the_Torah a jp:HistoricalWork ;
     schema1:description "Biblical commentary on the plain sense (peshat), containing famous excursuses and esoteric hints (sodot)."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Ibn_Ezra_Commentary_to_Sefer_Yesira a jp:HistoricalWork ;
-    rdfs:label "Commentary to Sefer Yesira (attributed to Ibn Ezra)"^^xsd:string ;
+jp:Work_Ibn_Ezra_Commentary_on_Sefer_Yesira a jp:HistoricalWork ;
+    rdfs:label "Commentary on Sefer Yesira (attributed to Ibn Ezra)"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_Esotericism ;
@@ -304,8 +304,8 @@ jp:Work_Sefer_Zahut a jp:HistoricalWork ;
     schema1:description "Grammatical treatise written in Lucca, containing theological reflections."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Tzomah_Nafshi a jp:HistoricalWork ;
-    rdfs:label "Tzom’ah nafshi"^^xsd:string ;
+jp:Work_Tzamah_Nafshi a jp:HistoricalWork ;
+    rdfs:label "Tzam’ah nafshi"^^xsd:string ;
     jp:writtenBy jp:Person_Abraham_Ibn_Ezra ;
     jp:hasLanguage jp:Language_Hebrew ;
     jp:hasSubject jp:Subject_Poetry ;
@@ -322,7 +322,7 @@ jp:Work_Yesod_Mora a jp:HistoricalWork ;
     schema1:description "Monograph on the rationale underlying the biblical commandments, surveying logic, mathematics, astronomy, and physiology."^^xsd:string ;
     jp:hasSource jp:Source_SEP .
 
-jp:Work_Sefer_ha_Ibbur jp:hasLanguage jp:Language_Hebrew .
+jp:Person_Abraham_Ibn_Ezra jp:hasLanguage jp:Language_Hebrew, jp:Language_Latin .
 
 jp:Work_Sefer_Yesira a jp:HistoricalWork ;
     rdfs:label "Sefer Yesira"^^xsd:string ;
@@ -493,6 +493,8 @@ jp:Person_Hannah_Arendt jp:hasPlaceRelation jp:Person_Hannah_Arendt_PlaceRel_Han
         jp:Person_Hannah_Arendt_PlaceRel_New_York_Residence,
         jp:Person_Hannah_Arendt_PlaceRel_New_York_Death_2,
         jp:Person_Hannah_Arendt_PlaceRel_Jerusalem_Travel .
+
+jp:Person_Hannah_Arendt jp:hasLanguage jp:Language_English, jp:Language_French, jp:Language_German, jp:Language_Yiddish .
 
 jp:Work_Between_Past_and_Future a jp:HistoricalWork ;
     rdfs:label "Between Past and Future"^^xsd:string ;
@@ -875,7 +877,7 @@ jp:Person_Solomon_Maimon jp:hasPlaceRelation jp:Person_Solomon_Maimon_PlaceRel_S
         jp:Person_Solomon_Maimon_PlaceRel_Siegersdorf_Death_2,
         jp:Person_Solomon_Maimon_PlaceRel_Glogau_Burial .
 
-jp:Person_Solomon_Maimon jp:hasLanguage jp:Language_Hebrew .
+jp:Person_Solomon_Maimon jp:hasLanguage jp:Language_German, jp:Language_Hebrew .
 
 jp:Work_Maimon_Anfangsgruende_der_Newtonischen_Philosophie a jp:HistoricalWork ;
     rdfs:label "Anfangsgründe der Newtonischen Philosophie von Dr. Pemberton"^^xsd:string ;

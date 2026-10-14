@@ -3404,10 +3404,6 @@ jp:Work_Sefer_ha_Hibbur a jp:HistoricalWork ;
     rdfs:label "Sefer ha-Hibbur"^^xsd:string ;
     jp:writtenBy jp:Person_Berechiah_ben_Natronai_ha_Nakdan .
 
-jp:Work_Sefer_ha_Ibbur a jp:HistoricalWork ;
-    rdfs:label "Sefer ha-Ibbur"^^xsd:string ;
-    jp:writtenBy jp:Person_Abraham_Ibn_Ezra .
-
 jp:Work_Sefer_ha_Ikkarim_Book_of_Principles a jp:HistoricalWork ;
     rdfs:label "Sefer ha-Ikkarim (Book of Principles)"^^xsd:string ;
     jp:writtenBy jp:Person_Joseph_Albo .
