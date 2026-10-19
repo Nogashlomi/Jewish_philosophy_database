@@ -48,6 +48,12 @@ export default function PersonDetail() {
       <div className="bg-white shadow rounded-lg overflow-hidden border border-gray-100">
         <div className="bg-indigo-50 px-6 py-4 border-b border-indigo-100">
           <h1 className="text-2xl font-bold text-gray-900">{person.label}</h1>
+          {person.alt_names.length > 0 && (
+            <div className="text-sm text-gray-600 mt-1">
+              <span className="text-gray-400">Also known as: </span>
+              {person.alt_names.join(' · ')}
+            </div>
+          )}
           <div className="text-sm text-gray-500 mt-1 font-mono">{person.id}</div>
         </div>
 
