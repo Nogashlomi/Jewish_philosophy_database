@@ -58,7 +58,7 @@ export default function Ontology() {
     <div className="space-y-6 h-[calc(100vh-8rem)] flex flex-col">
       <div className="flex justify-between items-center flex-shrink-0">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900 font-serif">Ontology explorer</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Ontology explorer</h1>
           <p className="text-gray-500 mt-2 font-light">
             Structure defined by the{' '}
             <span className="font-mono text-sm bg-gray-100 p-1 rounded">jephy</span> MongoDB schema
@@ -96,7 +96,7 @@ export default function Ontology() {
               const nodeX = node.x ?? 0
               const nodeY = node.y ?? 0
               const fontSize = 12 / globalScale
-              ctx.font = `500 ${fontSize}px Inter, sans-serif`
+              ctx.font = `500 ${fontSize}px Rubik, sans-serif`
 
               const textWidth = ctx.measureText(label).width
               const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.8)
@@ -145,7 +145,7 @@ export default function Ontology() {
 
               const label = link.label
               const fontSize = Math.min(MAX_FONT_SIZE, 12 / globalScale)
-              ctx.font = `${fontSize}px Sans-Serif`
+              ctx.font = `${fontSize}px Rubik, sans-serif`
               const textWidth = ctx.measureText(label).width
 
               // Draw background for link label

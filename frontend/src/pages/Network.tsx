@@ -194,9 +194,9 @@ export default function Network() {
     <div className="space-y-4 h-[calc(100vh-8rem)] flex flex-col">
       <div className="flex items-center justify-between flex-shrink-0">
         <div className="flex items-center gap-4">
-          <h1 className="text-2xl font-bold font-sans">Network Graph</h1>
+          <h1 className="text-2xl font-bold">Network Graph</h1>
           {filteredData && (
-            <span className="text-sm text-gray-500 font-sans mt-1">
+            <span className="text-sm text-gray-500 mt-1">
               Nodes: {filteredData.nodes.length}, Edges: {filteredData.links.length}
             </span>
           )}

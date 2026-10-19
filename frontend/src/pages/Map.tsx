@@ -224,7 +224,7 @@ export default function MapView() {
       <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
         <div className="mb-4">
           <div className="flex justify-between items-start mb-4">
-            <label className="font-bold text-gray-700 block mb-2 font-sans flex items-center">
+            <label className="font-bold text-gray-700 block mb-2 flex items-center">
               Time Bucket:{' '}
               <span className="text-indigo-600 tabular-nums ml-2">
                 {selectedYear} - {selectedYear + 49}
@@ -281,13 +281,13 @@ export default function MapView() {
               }}
             />
           </div>
-          <p className="text-xs text-gray-500 mt-6 font-serif italic text-center">
+          <p className="text-xs text-gray-500 mt-6 italic text-center">
             Showing grouped places for people active between {selectedYear} and {selectedYear + 49}.
           </p>
 
           {/* Color Index Legend */}
           {colorBySource && (
-            <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm font-sans font-medium text-gray-700 bg-gray-50 py-3 rounded-lg border border-gray-100">
+            <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm font-medium text-gray-700 bg-gray-50 py-3 rounded-lg border border-gray-100">
               <div className="flex items-center gap-2">
                 <span
                   className="w-3.5 h-3.5 rounded-full"
@@ -354,7 +354,7 @@ export default function MapView() {
                 pathOptions={{ color: '#f97316', weight: 3, opacity: 0.8, dashArray: '8, 8' }}
               >
                 <Popup>
-                  <div className="font-serif text-sm">
+                  <div className="text-sm">
                     <Link
                       to={`/persons/${flow.translator_id}`}
                       className="font-bold text-indigo-600 hover:underline"
@@ -405,7 +405,7 @@ export default function MapView() {
                 }}
               >
                 <Popup maxWidth={300}>
-                  <div className="font-serif text-sm">
+                  <div className="text-sm">
                     <div className="font-bold mb-2 text-base border-b pb-1">
                       {place.label}
                       <span className="text-gray-500 text-xs ml-2 font-normal">

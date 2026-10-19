@@ -22,10 +22,10 @@ export default function Home() {
   ]
 
   return (
-    <div className="h-full flex flex-col justify-center items-center font-serif text-gray-900 max-w-5xl mx-auto px-4 py-8">
+    <div className="h-full flex flex-col justify-center items-center text-gray-900 max-w-5xl mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
         <div className="flex-1 space-y-6">
-          <h2 className="text-2xl font-bold font-sans text-gray-800">
+          <h2 className="text-2xl font-bold text-gray-800">
             Mapping Philosophy in Jewish History
           </h2>
           <p className="text-gray-600 leading-relaxed text-lg">
@@ -43,7 +43,7 @@ export default function Home() {
             alt="Historical Jewish Philosophy Manuscript Tree"
             className="rounded-xl shadow-lg border border-gray-200 max-h-80 object-cover"
           />
-          <div className="mt-4 text-[10px] text-gray-400 text-center max-w-sm font-sans leading-tight">
+          <div className="mt-4 text-[10px] text-gray-400 text-center max-w-sm leading-tight">
             <p>
               A fifteenth-century diagram of the three faculties of the soul from Italy, inscribed
               in the Cambridge Hebrew manuscript. Cambridge, University Library, MS Dd.10.68, fol.
@@ -70,7 +70,7 @@ export default function Home() {
             <span className="text-2xl font-bold mb-2 tracking-tight text-indigo-700">
               {isLoading ? '-' : item.count || 0}
             </span>
-            <span className="text-xs uppercase tracking-wider opacity-80 group-hover:opacity-100 font-sans font-medium text-gray-500">
+            <span className="text-xs uppercase tracking-wider opacity-80 group-hover:opacity-100 font-medium text-gray-500">
               {item.label}
             </span>
           </Link>

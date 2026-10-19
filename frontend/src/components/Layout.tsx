@@ -29,7 +29,7 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col items-center space-y-4">
             <div className="w-full flex flex-col items-center gap-3 sm:relative sm:flex-row sm:justify-center">
-              <span className="text-xl font-bold text-gray-900 tracking-tight font-serif text-center">
+              <span className="text-xl font-bold text-gray-900 tracking-tight text-center">
                 Philosophy in Jewish History: Research Explorer
               </span>
               <div className="sm:absolute sm:right-0">

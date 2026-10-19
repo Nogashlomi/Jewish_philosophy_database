@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Georgia', 'serif'],
-        sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        sans: ['Rubik', 'sans-serif'],
       },
     },
   },
