@@ -9,14 +9,14 @@ async def test_read_works(async_client):
     assert data["total"] > 0
 
 @pytest.mark.asyncio
-async def test_read_work_detail(async_client):
-    # Test with a known ID from the sample data
-    response = await async_client.get("/api/v1/works/Work_Guide_of_the_Perplexed_Moreh_Nevukhim")
+async def test_read_work_detail(async_client, entity_id):
+    work_id = entity_id("works", "Guide of the Perplexed (Moreh Nevukhim)")
+    response = await async_client.get(f"/api/v1/works/{work_id}")
     assert response.status_code == 200
     data = response.json()
-    assert data["id"] == "Work_Guide_of_the_Perplexed_Moreh_Nevukhim"
+    assert data["id"] == work_id
     assert "Guide" in data["title"]
-    assert [author["id"] for author in data["authors"]] == ["Person_Moses_Maimonides_Rambam"]
+    assert [author["label"] for author in data["authors"]] == ["Moses Maimonides (Rambam)"]
 
 @pytest.mark.asyncio
 async def test_read_works_total_matches_items(async_client):

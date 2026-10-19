@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { entityService } from '../services/entityService'
 import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar, Users } from 'lucide-react'
 import type { IntellectualRelation } from '../types/entity'
+import { NameVerification } from '../components/NameVerification'
 
 const RELATION_GROUPS: { relation: IntellectualRelation['relation']; title: string }[] = [
   { relation: 'influenced_by', title: 'Influenced by' },
@@ -51,6 +52,8 @@ export default function PersonDetail() {
         </div>
 
         <div className="p-6 space-y-8">
+          <NameVerification key={`${person.id}-${person.label}`} person={person} />
+
           {/* Basic Info / Times */}
           {person.times && person.times.length > 0 && (
             <div className="flex items-start gap-3">

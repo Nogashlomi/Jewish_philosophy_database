@@ -1,9 +1,6 @@
 export interface PersonList {
   id: string
-  uri: string
   label: string
-  birth_year?: string
-  death_year?: string
   workCount: number
   mentionCount: number
   places: string
@@ -22,9 +19,7 @@ export interface PaginatedResponse<T> {
 
 export interface WorkList {
   id: string
-  uri: string
   title: string
-  creation_year?: string
   authors?: string
   subjects?: string
   languages?: string
@@ -33,7 +28,6 @@ export interface WorkList {
 
 export interface PlaceList {
   id: string
-  uri: string
   label: string
   lat?: string
   long?: string
@@ -54,10 +48,24 @@ export interface LanguageList {
 }
 
 // Minimal Detail interfaces for now, extend as needed
+export interface ViafSuggestion {
+  viaf_id: string
+  viaf_name: string
+  name: string
+}
+
+export interface VerifyNameRequest {
+  name?: string
+  viaf_id?: string
+}
+
 export interface PersonDetail {
   id: string
-  uri: string
   label: string
+  alt_names: string[]
+  name_verified: boolean
+  viaf_id?: string | null
+  viaf_suggestions: ViafSuggestion[]
   works: RelatedWork[]
   places: PlaceRelation[]
   times: TimeRelation[]
@@ -69,7 +77,6 @@ export interface PersonDetail {
 
 export interface IntellectualRelation {
   id: string
-  uri: string
   label: string
   entity_type: string
   relation: 'influenced_by' | 'influenced' | 'cites' | 'cited_by' | 'interlocutor'
@@ -77,13 +84,11 @@ export interface IntellectualRelation {
 
 export interface RelatedWork {
   id: string
-  uri: string
   title: string
 }
 
 export interface PlaceRelation {
   place_id: string
-  place_uri: string
   label: string
   type?: string
   start?: string
@@ -101,7 +106,6 @@ export interface TimeRelation {
 
 export interface WorkAuthor {
   id: string
-  uri: string
   label: string
 }
 
@@ -113,7 +117,6 @@ export interface ScholarlyMention {
 
 export interface WorkDetail {
   id: string
-  uri: string
   title: string
   description?: string
   authorship_status?: string
@@ -136,7 +139,6 @@ export interface PersonAtPlace {
 
 export interface PlaceDetail {
   id: string
-  uri: string
   label: string
   lat?: string
   long?: string

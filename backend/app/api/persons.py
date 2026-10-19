@@ -1,7 +1,8 @@
 from typing import Optional
-from fastapi import APIRouter, HTTPException, Query
-from app.services.entity_service import entity_service
-from app.schemas.person import PersonDetail
+from fastapi import APIRouter, Depends, HTTPException, Query
+from app.core.auth import get_current_user
+from app.services.entity_service import entity_service, ConflictError
+from app.schemas.person import PersonDetail, VerifyName
 
 router = APIRouter()
 
@@ -26,3 +27,14 @@ async def get_person_detail_json(person_id: str):
     if not person:
         raise HTTPException(status_code=404, detail="Person not found")
     return person
+
+@router.post("/{person_id}/name/verify", response_model=PersonDetail, dependencies=[Depends(get_current_user)])
+async def verify_person_name(person_id: str, body: VerifyName):
+    try:
+        return entity_service.verify_name(person_id, body.name, body.viaf_id)
+    except LookupError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except ConflictError as e:
+        raise HTTPException(status_code=409, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))

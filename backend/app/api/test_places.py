@@ -9,8 +9,8 @@ async def test_read_places(async_client):
     assert len(ids) == len(set(ids))
 
 @pytest.mark.asyncio
-async def test_read_place_detail(async_client):
-    response = await async_client.get("/api/v1/places/Place_Cairo")
+async def test_read_place_detail(async_client, entity_id):
+    response = await async_client.get(f"/api/v1/places/{entity_id('places', 'Cairo')}")
     assert response.status_code == 200
     data = response.json()
     assert data["label"] == "Cairo"

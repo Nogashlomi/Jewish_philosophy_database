@@ -9,16 +9,9 @@ class Settings(BaseSettings):
     # CORS configuration
     ALLOWED_ORIGINS: str = os.getenv("ALLOWED_ORIGINS", "https://jephy-db.web.app,https://jephy-index.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174")
 
-    # Base dir is the backend/ directory
-    # file is backend/app/core/config.py
-    # parent -> backend/app/core
-    # parent -> backend/app
-    # parent -> backend
-    BACKEND_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    # Data is in sibling of backend: ../data
-    PROJECT_ROOT: str = os.path.dirname(BACKEND_DIR)
-
-    DATA_DIR: str = os.path.join(PROJECT_ROOT, "data")
+    MONGODB_URI: str
+    MONGODB_DB: str = "jephy"
+    FIREBASE_PROJECT_ID: str = "jephy-db"
 
     class Config:
         env_file = ".env"

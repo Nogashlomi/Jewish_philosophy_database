@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
+import { AuthButton } from './AuthButton'
 
 export default function Layout() {
   const location = useLocation()
@@ -27,10 +28,13 @@ export default function Layout() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col items-center space-y-4">
-            <div className="w-full flex justify-center">
+            <div className="w-full flex flex-col items-center gap-3 sm:relative sm:flex-row sm:justify-center">
               <span className="text-xl font-bold text-gray-900 tracking-tight font-serif text-center">
                 Philosophy in Jewish History: Research Explorer
               </span>
+              <div className="sm:absolute sm:right-0">
+                <AuthButton />
+              </div>
             </div>
             <div className="hidden w-full justify-center sm:flex">
               <div className="hidden sm:flex sm:space-x-4">

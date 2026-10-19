@@ -13,8 +13,8 @@ async def test_read_network(async_client):
     assert any(node["buckets"] for node in data["nodes"] if node["group"] == "HistoricalPerson")
 
 @pytest.mark.asyncio
-async def test_read_network_source_filter(async_client):
-    response = await async_client.get("/api/v1/network/", params={"source": "Source_Wikipedia"})
+async def test_read_network_source_filter(async_client, entity_id):
+    response = await async_client.get("/api/v1/network/", params={"source": entity_id("sources", "Wikipedia")})
     assert response.status_code == 200
     data = response.json()
     ids = [node["id"] for node in data["nodes"]]

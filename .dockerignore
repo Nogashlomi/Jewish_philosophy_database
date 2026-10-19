@@ -2,6 +2,5 @@
 !backend/pyproject.toml
 !backend/uv.lock
 !backend/app
-!data
 **/__pycache__
 **/.DS_Store

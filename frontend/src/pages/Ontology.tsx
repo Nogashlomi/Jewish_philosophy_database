@@ -60,8 +60,8 @@ export default function Ontology() {
         <div>
           <h1 className="text-3xl font-bold text-gray-900 font-serif">Ontology explorer</h1>
           <p className="text-gray-500 mt-2 font-light">
-            Structure defined in{' '}
-            <span className="font-mono text-sm bg-gray-100 p-1 rounded">vocabulary.ttl</span>
+            Structure defined by the{' '}
+            <span className="font-mono text-sm bg-gray-100 p-1 rounded">jephy</span> MongoDB schema
           </p>
         </div>
         <div className="flex bg-gray-100 p-1 rounded-lg">

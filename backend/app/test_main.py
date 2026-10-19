@@ -11,7 +11,7 @@ async def test_read_geojson(async_client):
     assert -180 <= lon <= 180 and -90 <= lat <= 90
 
 @pytest.mark.asyncio
-async def test_read_geojson_source_filter(async_client):
+async def test_read_geojson_source_filter(async_client, entity_id):
     full = (await async_client.get("/api/v1/geojson")).json()
-    filtered = (await async_client.get("/api/v1/geojson", params={"source": "Source_Zonta"})).json()
+    filtered = (await async_client.get("/api/v1/geojson", params={"source": entity_id("sources", "Zonta Table")})).json()
     assert 0 < len(filtered["features"]) < len(full["features"])

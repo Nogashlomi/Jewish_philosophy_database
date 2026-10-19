@@ -14,7 +14,6 @@ COPY backend/pyproject.toml backend/uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 
 COPY backend/app ./app
-COPY data /app/data
 
 EXPOSE $PORT
 

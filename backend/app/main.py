@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from app.core.rdf_store import rdf_store
 from app.core.config import settings
+from app.core.db import client, db
+from app.core.db_schema import ensure_schema
 from app.api import (
     persons as api_persons, 
     works as api_works, 
@@ -11,7 +12,8 @@ from app.api import (
     network as api_network,
     index as api_index,
     ontology as api_ontology,
-    sources as api_sources
+    sources as api_sources,
+    search as api_search
 )
 
 # Lifespan Context Manager (Startup/Shutdown)
@@ -20,13 +22,10 @@ import contextlib
 @contextlib.asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Starting up Research Explorer (Lifespan)...")
-    try:
-        rdf_store.load_data()
-        print(f"Graph initialized with {len(rdf_store.g)} triples.")
-    except Exception as e:
-        print(f"Error loading data: {e}")
+    ensure_schema(db)
     yield
     print("Shutting down Research Explorer...")
+    client.close()
 
 # Initialize App with lifespan
 app = FastAPI(title=settings.APP_NAME, version=settings.VERSION, lifespan=lifespan)
@@ -66,6 +65,7 @@ app.include_router(api_languages.router, prefix="/api/v1/languages", tags=["api-
 app.include_router(api_network.router, prefix="/api/v1/network", tags=["api-network"])
 app.include_router(api_ontology.router, prefix="/api/v1/ontology", tags=["api-ontology"])
 app.include_router(api_sources.router, prefix="/api/v1/sources", tags=["api-sources"])
+app.include_router(api_search.router, prefix="/api/v1/search", tags=["api-search"])
 
 # Direct GeoJSON endpoint for Map Component
 from app.services.entity_service import entity_service

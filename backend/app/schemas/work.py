@@ -3,14 +3,12 @@ from pydantic import BaseModel
 
 class WorkAuthor(BaseModel):
     id: str
-    uri: str
     label: str
 
 from app.schemas.person import PlaceRelation, TimeRelation
 
 class WorkDetail(BaseModel):
     id: str
-    uri: str
     title: str
     description: Optional[str] = None
     authorship_status: Optional[str] = None
@@ -24,9 +22,7 @@ class WorkDetail(BaseModel):
 
 class WorkList(BaseModel):
     id: str
-    uri: str
     title: str
-    creation_year: Optional[str] = None
     authors: Optional[str] = None
     subjects: Optional[str] = None
     languages: Optional[str] = None

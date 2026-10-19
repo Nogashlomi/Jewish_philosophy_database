@@ -15,6 +15,7 @@ import type {
   OntologyGraph,
   OntologyAudit,
   PaginatedResponse,
+  VerifyNameRequest,
 } from '../types/entity'
 
 export const entityService = {
@@ -54,6 +55,10 @@ export const entityService = {
   },
   getPersonDetail: async (id: string) => {
     const response = await api.get<PersonDetail>(`/persons/${id}`)
+    return response.data
+  },
+  verifyPersonName: async (id: string, body: VerifyNameRequest) => {
+    const response = await api.post<PersonDetail>(`/persons/${id}/name/verify`, body)
     return response.data
   },
   getWorkDetail: async (id: string) => {

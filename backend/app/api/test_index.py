@@ -9,9 +9,9 @@ async def test_read_stats(async_client):
     assert stats["works"] > 0
 
 @pytest.mark.asyncio
-async def test_read_stats_source_filter(async_client):
+async def test_read_stats_source_filter(async_client, entity_id):
     full = (await async_client.get("/api/v1/stats")).json()
-    filtered = (await async_client.get("/api/v1/stats", params={"source": "Source_Zonta"})).json()
+    filtered = (await async_client.get("/api/v1/stats", params={"source": entity_id("sources", "Zonta Table")})).json()
     assert 0 < filtered["persons"] < full["persons"]
     assert 0 < filtered["works"] < full["works"]
 

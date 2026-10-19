@@ -1,94 +1,85 @@
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Iterable
 import math
-from urllib.parse import quote
-from app.core.rdf_store import rdf_store, JP, RDF, RDFS
+import re
+from app.core.db import db
+from app.core.db_schema import COLLECTIONS, NAME_COLLATION, PREFIX_COLLECTIONS, SEARCH_FIELDS, SEARCH_INDEX_NAME, id_prefix, ref_targets
 from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation, IntellectualRelation
 from app.schemas.work import WorkList, WorkDetail, WorkAuthor
 from app.schemas.place import PlaceList, PlaceDetail, PersonAtPlace
 from app.schemas.subject import SubjectList, SubjectDetail, SubjectWorkInfo
 from app.schemas.language import LanguageList, LanguageDetail, LanguagePersonInfo
-from app.schemas.network import NetworkData, NetworkNode, NetworkEdge
-from rdflib import URIRef, Literal, BNode
-from rdflib.namespace import OWL
-from app.core import queries
-from app.core.queries import PREFIXES
+from app.schemas.network import NetworkData, NetworkNode
+
+ENTITY_GROUPS = {
+    "persons": "HistoricalPerson",
+    "works": "HistoricalWork",
+    "places": "Place",
+    "subjects": "Subject",
+    "languages": "Language",
+}
+OUTGOING_RELATIONS = {"influenced_by": "influenced_by", "cites": "cites", "interlocutor_of": "interlocutor"}
+INCOMING_RELATIONS = {"influenced_by": "influenced", "cites": "cited_by", "interlocutor_of": "interlocutor"}
+NETWORK_RELATIONS = {"influenced_by": "influencedBy", "cites": "cites", "interlocutor_of": "interlocutorOf"}
+BUCKET_SIZE = 50
+
+
+class ConflictError(Exception):
+    pass
+
+
+def bucket_starts(times: Iterable[dict]) -> List[int]:
+    starts = set()
+    for t in times:
+        start = t["from"]
+        until = t.get("until", start)
+        starts.update(range(start // BUCKET_SIZE * BUCKET_SIZE, until // BUCKET_SIZE * BUCKET_SIZE + 1, BUCKET_SIZE))
+    return sorted(starts)
+
+
+def bucket_label(start: int) -> str:
+    end = start + BUCKET_SIZE - 1
+    return f"{-start}BCE-{-end}BCE" if start < 0 else f"{start}-{end}"
+
+
+def time_buckets(times: Iterable[dict]) -> List[str]:
+    return [bucket_label(start) for start in bucket_starts(times)]
+
+
+def escape_wildcard(word: str) -> str:
+    return re.sub(r"([\\*?])", r"\\\1", word)
+
+
+def _year(value) -> Optional[str]:
+    return str(value) if value is not None else None
+
+
+def _unique(values: Iterable) -> list:
+    return list(dict.fromkeys(values))
+
 
 class EntityService:
-    """
-    Core service class responsible for fetching and transforming RDF graph data 
-    into application-specific schemas (Pydantic models). It acts as the bridge 
-    between the SPARQL queries in `rdf_store` and the REST API.
-    """
 
-    def list_persons(self, page: int = 1, page_size: int = 100, source: str = None, search: str = None) -> Dict[str, Any]:
-        """
-        Retrieves a paginated list of historical persons with optional search filtering.
-        """
-        offset = (page - 1) * page_size
-        pagination = f"LIMIT {page_size} OFFSET {offset}"
+    def _names(self, collection: str, ids: Iterable[str]) -> Dict[str, str]:
+        ids = list(set(ids))
+        if not ids:
+            return {}
+        field = "title" if collection == "works" else "name"
+        return {doc["_id"]: doc[field] for doc in db[collection].find({"_id": {"$in": ids}}, {field: 1})}
 
-        search_filter = ""
-        if search:
-            search_filter = f'FILTER(CONTAINS(LCASE(?label), LCASE({Literal(search).n3()})))'
-        source_filter = self._get_source_filter(source, "uri")
+    def _entity_names(self, ids: Iterable[str]) -> Dict[str, str]:
+        by_collection = {}
+        for entity_id in ids:
+            by_collection.setdefault(PREFIX_COLLECTIONS.get(id_prefix(entity_id)), []).append(entity_id)
+        names = {}
+        for collection, collection_ids in by_collection.items():
+            if collection:
+                names.update(self._names(collection, collection_ids))
+        return names
 
-        # Single combined query — persons + birth/death years in one pass
-        q = queries.LIST_PERSONS.format(pagination=pagination, search_filter=search_filter, source_filter=source_filter)
-        items = []
-        for row in rdf_store.query(q):
-            uri = str(row.uri)
-            uri_ref = URIRef(uri)
+    def _source_query(self, source: Optional[str]) -> dict:
+        return {"sources": source} if source else {}
 
-            # Extra places list
-            places_list = []
-            for prow in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri_ref}):
-                p_label = str(prow.placeLabel)
-                p_type = str(prow.type).capitalize() if prow.type else "Unknown"
-                places_list.append(f"{p_label} ({p_type})")
-
-            # Extra times list
-            times_list = []
-            for trow in rdf_store.query(queries.GET_PERSON_TIMES, initBindings={'person': uri_ref}):
-                t_label = str(trow.label) if trow.label else None
-                if t_label:
-                    times_list.append(t_label)
-                else:
-                    start = str(trow.start) if trow.start else ""
-                    end = str(trow.end) if trow.end else ""
-                    t_type = str(trow.type).capitalize() if trow.type else "Time"
-                    if start or end:
-                        time_str = start
-                        if end:
-                            time_str += f"-{end}"
-                        times_list.append(f"{time_str} ({t_type})")
-                        
-            # Time buckets
-            buckets = self._get_time_buckets(uri_ref)
-
-            # Subjects
-            subjects = []
-            for subj_uri in rdf_store.g.objects(uri_ref, JP.hasSubject):
-                lbl = rdf_store.g.value(subj_uri, RDFS.label) or subj_uri.split("#")[-1]
-                subjects.append(str(lbl))
-
-            items.append(PersonList(
-                id=uri.strip("/").split("/")[-1].split("#")[-1],
-                uri=uri,
-                label=str(row.name),
-                birth_year=str(row.birthYear) if getattr(row, 'birthYear', None) else None,
-                death_year=str(row.deathYear) if getattr(row, 'deathYear', None) else None,
-                places=", ".join(list(set(places_list))) if places_list else None,
-                times=", ".join(list(set(times_list))) if times_list else None,
-                time_buckets=", ".join(list(set(buckets))) if buckets else None,
-                subjects=", ".join(list(set(subjects))) if subjects else None
-            ))
-
-        # Get total count (cached after first call if no search)
-        count_q = queries.COUNT_PERSONS.format(search_filter=search_filter, source_filter=source_filter)
-        total = 0
-        for row in rdf_store.query(count_q):
-            total = int(row.total)
-
+    def _paginate(self, total: int, page: int, page_size: int, items: list) -> Dict[str, Any]:
         return {
             "items": items,
             "total": total,
@@ -97,745 +88,583 @@ class EntityService:
             "total_pages": math.ceil(total / page_size) if page_size else 1,
         }
 
+    def _time_text(self, t: dict) -> Optional[str]:
+        if t.get("label"):
+            return t["label"]
+        text = str(t["from"])
+        if t.get("until") is not None:
+            text += f"-{t['until']}"
+        return f"{text} ({t['type'].capitalize() if t.get('type') else 'Time'})"
+
+    def _translation_pairs(self, person_ids: Optional[set] = None) -> List[tuple]:
+        translations = list(db.works.find(
+            {"translation_of": {"$exists": True}, "translators.0": {"$exists": True}},
+            {"translation_of": 1, "translators": 1},
+        ))
+        originals = {
+            doc["_id"]: doc["authors"]
+            for doc in db.works.find({"_id": {"$in": [t["translation_of"] for t in translations]}}, {"authors": 1})
+        }
+        pairs = [
+            (translator, author)
+            for t in translations
+            for translator in t["translators"]
+            for author in originals.get(t["translation_of"], [])
+        ]
+        for doc in db.persons.find({"relations.type": "translated"}, {"relations": 1}):
+            pairs += [(doc["_id"], r["target"]) for r in doc["relations"] if r["type"] == "translated"]
+        pairs = _unique(pairs)
+        if person_ids is not None:
+            pairs = [p for p in pairs if p[0] in person_ids and p[1] in person_ids]
+        return pairs
+
+    def list_persons(self, page: int = 1, page_size: int = 100, source: str = None, search: str = None) -> Dict[str, Any]:
+        query = self._source_query(source)
+        if search:
+            pattern = {"$regex": re.escape(search), "$options": "i"}
+            query["$or"] = [{"name": pattern}, {"alt_names": pattern}]
+
+        total = db.persons.count_documents(query)
+        docs = list(
+            db.persons.find(query, {"name": 1, "places": 1, "times": 1, "subjects": 1, "name_verified": 1, "viaf_id": 1, "viaf_suggestions": 1})
+            .sort([("name", 1), ("_id", 1)])
+            .collation(NAME_COLLATION)
+            .skip((page - 1) * page_size)
+            .limit(page_size)
+        )
+        place_names = self._names("places", (p["place"] for d in docs for p in d["places"]))
+        subject_names = self._names("subjects", (s for d in docs for s in d["subjects"]))
+
+        items = []
+        for d in docs:
+            places = _unique(
+                f"{place_names.get(p['place'], p['place'])} ({p['type'].capitalize() if p.get('type') else 'Unknown'})"
+                for p in d["places"]
+            )
+            times = _unique(self._time_text(t) for t in d["times"])
+            buckets = time_buckets(d["times"])
+            subjects = _unique(subject_names[s] for s in d["subjects"] if s in subject_names)
+            items.append(PersonList(
+                id=d["_id"],
+                label=d["name"],
+                **self._viaf_fields(d),
+                places=", ".join(places) or None,
+                times=", ".join(times) or None,
+                time_buckets=", ".join(buckets) or None,
+                subjects=", ".join(subjects) or None,
+            ))
+
+        return self._paginate(total, page, page_size, items)
+
     def get_person_detail(self, person_id: str) -> Optional[PersonDetail]:
-        # Try finding the person with the ontology namespace first
-        uri = URIRef(f"{JP}{person_id}")
-        
-        # If not found (no label), try the ID namespace
-        if not rdf_store.g.value(uri, RDFS.label):
-            uri = URIRef(f"http://jewish_philosophy.org/id/{person_id}")
-            
-        # 1. Basic Info
-        label = rdf_store.g.value(uri, RDFS.label)
-        if not label:
+        d = db.persons.find_one({"_id": person_id})
+        if not d:
             return None
 
-        # 2. Authority Links
-        authorities = [str(obj) for obj in rdf_store.g.objects(uri, JP.authorityLink)]
-        
-        # 3. Authored Works
-        authored_works = []
-        for row in rdf_store.query(queries.GET_PERSON_WORKS, initBindings={'person': uri}):
-            authored_works.append(RelatedWork(
-                uri=str(row.work),
-                id=row.work.split("#")[-1],
-                title=str(row.title)
-            ))
-            
-        # 5. Place Relations
-        places_map = {}
-        for row in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri}):
-            p_id = row.place.split("#")[-1]
-            p_type = str(row.type).lower() if row.type else ""
-            key = f"{p_id}_{p_type}" if not row.timeLabel else str(row.rel)
-            if key not in places_map:
-                places_map[key] = PlaceRelation(
-                    place_uri=str(row.place),
-                    place_id=p_id,
-                    label=str(row.placeLabel),
-                    type=str(row.type) if row.type else None,
-                    start=str(row.start) if row.start else None,
-                    end=str(row.end) if row.end else None,
-                    time_label=str(row.timeLabel) if row.timeLabel else None,
-                    description=str(row.description) if row.description else None
-                )
-        places = list(places_map.values())
-
-        # 6. Time Relations
-        times_map = {}
-        for row in rdf_store.query(queries.GET_PERSON_TIMES, initBindings={'person': uri}):
-            start = str(row.start) if row.start else None
-            end = str(row.end) if row.end else None
-            rel_type = str(row.type) if row.type else "Life"
-            label_val = str(row.label) if row.label else None
-            if start or end or label_val:
-                key = f"{rel_type.lower()}_{start}_{end}_{label_val}"
-                if key not in times_map:
-                    times_map[key] = TimeRelation(
-                        type=rel_type,
-                        start=start,
-                        end=end,
-                        label=label_val
-                    )
-        times = list(times_map.values())
-
-        # Time Buckets
-        time_buckets = self._get_time_buckets(uri)
-
-        # 7. Subjects & Languages
-        subjects = []
-        for subj_uri in rdf_store.g.objects(uri, JP.hasSubject):
-            lbl = rdf_store.g.value(subj_uri, RDFS.label) or subj_uri.split("#")[-1]
-            subjects.append(str(lbl))
-
-        languages = []
-        for lang_uri in rdf_store.g.objects(uri, JP.hasLanguage):
-            lbl = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
-            languages.append(str(lbl))
-
-        relations = [
-            IntellectualRelation(
-                id=row.other.split("#")[-1],
-                uri=str(row.other),
-                label=str(row.label),
-                entity_type=row.type.split("#")[-1],
-                relation=str(row.relation)
-            )
-            for row in rdf_store.query(queries.GET_PERSON_RELATIONS, initBindings={'person': uri})
+        works = [
+            RelatedWork(id=w["_id"], title=w["title"])
+            for w in db.works.find({"authors": person_id}, {"title": 1}).sort("title", 1).collation(NAME_COLLATION)
         ]
 
-        # 8. Source Attribution
-        sources = []
-        for source_uri in rdf_store.g.objects(uri, JP.hasSource):
-            source_label = rdf_store.g.value(source_uri, RDFS.label)
-            sources.append(str(source_label) if source_label else str(source_uri).split("#")[-1])
+        place_names = self._names("places", (p["place"] for p in d["places"]))
+        places_map = {}
+        for i, p in enumerate(sorted(d["places"], key=lambda p: (p.get("from") is not None, p.get("from", 0)))):
+            p_type = p.get("type", "")
+            key = i if p.get("time_label") else f"{p['place']}_{p_type.lower()}"
+            if key not in places_map:
+                places_map[key] = PlaceRelation(
+                    place_id=p["place"],
+                    label=place_names.get(p["place"], p["place"]),
+                    type=p.get("type"),
+                    start=_year(p.get("from")),
+                    end=_year(p.get("until")),
+                    time_label=p.get("time_label"),
+                    description=p.get("description"),
+                )
+
+        times_map = {}
+        for t in d["times"]:
+            time = TimeRelation(type=t.get("type") or "Life", start=_year(t["from"]), end=_year(t.get("until")), label=t.get("label"))
+            times_map.setdefault((time.type.lower(), time.start, time.end, time.label), time)
+
+        subject_names = self._names("subjects", d["subjects"])
+        language_names = self._names("languages", d["languages"])
+
+        related = [(r["target"], OUTGOING_RELATIONS[r["type"]]) for r in d["relations"] if r["type"] in OUTGOING_RELATIONS]
+        for other in db.persons.find({"relations.target": person_id}, {"relations": 1}):
+            related += [
+                (other["_id"], INCOMING_RELATIONS[r["type"]])
+                for r in other["relations"]
+                if r["target"] == person_id and r["type"] in INCOMING_RELATIONS
+            ]
+        related = _unique(related)
+        related_names = self._entity_names(other_id for other_id, _ in related)
+        relations = sorted(
+            (
+                IntellectualRelation(
+                    id=other_id,
+                    label=related_names[other_id],
+                    entity_type=ENTITY_GROUPS[PREFIX_COLLECTIONS[id_prefix(other_id)]],
+                    relation=relation,
+                )
+                for other_id, relation in related
+                if other_id in related_names
+            ),
+            key=lambda r: (r.relation, r.label),
+        )
 
         return PersonDetail(
             id=person_id,
-            uri=str(uri),
-            label=str(label),
-            works=authored_works,
-            places=places,
-            times=times,
-            time_buckets=time_buckets,
-            subjects=subjects,
-            languages=languages,
-            relations=relations
+            label=d["name"],
+            alt_names=d["alt_names"],
+            **self._viaf_fields(d),
+            works=works,
+            places=list(places_map.values()),
+            times=list(times_map.values()),
+            time_buckets=time_buckets(d["times"]),
+            subjects=[subject_names[s] for s in d["subjects"] if s in subject_names],
+            languages=[language_names[l] for l in d["languages"] if l in language_names],
+            relations=relations,
         )
 
-
-    def list_works(self, page: int = 1, page_size: int = 100) -> Dict[str, Any]:
-        offset = (page - 1) * page_size
-        pagination = f"LIMIT {page_size} OFFSET {offset}"
-
-        q = queries.LIST_WORKS.format(pagination=pagination, search_filter="")
-        items = []
-        for row in rdf_store.query(q):
-            uri = str(row.uri)
-            uri_ref = URIRef(uri)
-            
-            creation_year = str(row.creationYear) if getattr(row, 'creationYear', None) else None
-            
-            # Fetch Authors
-            authors = []
-            for arow in rdf_store.query(queries.GET_WORK_AUTHORS, initBindings={'work': uri_ref}):
-                authors.append(str(arow.name))
-                
-            # Fetch Subjects
-            subjects = []
-            for subj_uri in rdf_store.g.objects(uri_ref, JP.hasSubject):
-                lbl = rdf_store.g.value(subj_uri, RDFS.label) or subj_uri.split("#")[-1]
-                subjects.append(str(lbl))
-                
-            # Fetch Languages
-            languages = []
-            for lang_uri in rdf_store.g.objects(uri_ref, JP.hasLanguage):
-                lbl = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
-                languages.append(str(lbl))
-
-            items.append(WorkList(
-                id=uri.strip("/").split("/")[-1].split("#")[-1],
-                uri=uri,
-                title=str(row.title),
-                creation_year=creation_year,
-                authors=", ".join(authors) if authors else None,
-                subjects=", ".join(subjects) if subjects else None,
-                languages=", ".join(languages) if languages else None
-            ))
-
-        # Get total count (cached after first call)
-        count_q = queries.COUNT_WORKS.format(search_filter="")
-        total = 0
-        for row in rdf_store.query(count_q):
-            total = int(row.total)
-
+    def _viaf_fields(self, d: dict) -> Dict[str, Any]:
+        verified = d.get("name_verified", False)
         return {
-            "items": items,
-            "total": total,
-            "page": page,
-            "page_size": page_size,
-            "total_pages": math.ceil(total / page_size) if page_size else 1,
+            "name_verified": verified,
+            "viaf_id": d.get("viaf_id"),
+            "viaf_suggestions": [] if verified else d.get("viaf_suggestions", []),
         }
 
-    def get_work_detail(self, work_id: str) -> Optional[WorkDetail]:
-        uri = URIRef(f"{JP}{work_id}")
-        
-        # 1. Basic Info
-        title = rdf_store.g.value(uri, JP.title) or rdf_store.g.value(uri, RDFS.label)
-        if not title:
-            return None
-            
-        # 2. Authors
-        authors = []
-        for row in rdf_store.query(queries.GET_WORK_AUTHORS, initBindings={'work': uri}):
-            authors.append(WorkAuthor(
-                id=row.author.split("#")[-1],
-                uri=str(row.author),
-                label=str(row.name)
+    def verify_name(self, person_id: str, name: Optional[str], viaf_id: Optional[str]) -> PersonDetail:
+        d = db.persons.find_one({"_id": person_id}, {"name": 1, "alt_names": 1, "name_verified": 1, "viaf_suggestions": 1})
+        if not d:
+            raise LookupError("Person not found")
+        if d.get("name_verified"):
+            raise ConflictError("Person name is already verified")
+        name = name.strip() if name else None
+        if not name:
+            suggestion = next((s for s in d.get("viaf_suggestions", []) if s["viaf_id"] == viaf_id), None)
+            if not suggestion:
+                raise ValueError("Provide a name, or a VIAF id that is one of the person's suggestions")
+            name = suggestion["name"]
+
+        alt_names = d["alt_names"] + ([d["name"]] if d["name"] != name else [])
+        update = {"name": name, "alt_names": _unique(alt_names), "name_verified": True}
+        if viaf_id:
+            update["viaf_id"] = viaf_id
+        result = db.persons.update_one(
+            {"_id": person_id, "name": d["name"], "name_verified": {"$ne": True}},
+            {"$set": update},
+        )
+        if not result.modified_count:
+            raise ConflictError("Person was modified concurrently")
+        return self.get_person_detail(person_id)
+
+    def list_works(self, page: int = 1, page_size: int = 100) -> Dict[str, Any]:
+        total = db.works.count_documents({})
+        docs = list(
+            db.works.find({}, {"title": 1, "authors": 1, "subjects": 1, "languages": 1})
+            .sort([("title", 1), ("_id", 1)])
+            .collation(NAME_COLLATION)
+            .skip((page - 1) * page_size)
+            .limit(page_size)
+        )
+        author_names = self._names("persons", (a for d in docs for a in d["authors"]))
+        subject_names = self._names("subjects", (s for d in docs for s in d["subjects"]))
+        language_names = self._names("languages", (l for d in docs for l in d["languages"]))
+
+        items = []
+        for d in docs:
+            authors = [author_names[a] for a in d["authors"] if a in author_names]
+            subjects = [subject_names[s] for s in d["subjects"] if s in subject_names]
+            languages = [language_names[l] for l in d["languages"] if l in language_names]
+            items.append(WorkList(
+                id=d["_id"],
+                title=d["title"],
+                authors=", ".join(authors) or None,
+                subjects=", ".join(subjects) or None,
+                languages=", ".join(languages) or None,
             ))
 
+        return self._paginate(total, page, page_size, items)
+
+    def get_work_detail(self, work_id: str) -> Optional[WorkDetail]:
+        d = db.works.find_one({"_id": work_id})
+        if not d:
+            return None
+
+        author_names = self._names("persons", d["authors"])
+        authors = [WorkAuthor(id=a, label=author_names[a]) for a in d["authors"] if a in author_names]
         cited_by = [
-            WorkAuthor(
-                id=row.person.split("#")[-1],
-                uri=str(row.person),
-                label=str(row.name)
-            )
-            for row in rdf_store.query(queries.GET_WORK_CITED_BY, initBindings={'work': uri})
+            WorkAuthor(id=p["_id"], label=p["name"])
+            for p in db.persons.find(
+                {"relations": {"$elemMatch": {"type": "cites", "target": work_id}}}, {"name": 1}
+            ).sort("name", 1).collation(NAME_COLLATION)
         ]
-
-        # 3. Subjects
-        subjects = []
-        for subj_uri in rdf_store.g.objects(uri, JP.hasSubject):
-            label = rdf_store.g.value(subj_uri, RDFS.label) or subj_uri.split("#")[-1]
-            subjects.append(str(label))
-
-        # 4. Languages
-        languages = []
-        for lang_uri in rdf_store.g.objects(uri, JP.hasLanguage):
-            label = rdf_store.g.value(lang_uri, RDFS.label) or lang_uri.split("#")[-1]
-            languages.append(str(label))
-
-        # 7. Places
-        places_map = {}
-        for row in rdf_store.query(queries.GET_PERSON_PLACES, initBindings={'person': uri}):
-            p_id = row.place.split("#")[-1]
-            p_type = str(row.type).lower() if row.type else ""
-            key = f"{p_id}_{p_type}"
-            if key not in places_map:
-                places_map[key] = PlaceRelation(
-                    place_uri=str(row.place),
-                    place_id=p_id,
-                    label=str(row.placeLabel),
-                    type=str(row.type) if row.type else None
-                )
-        places = list(places_map.values())
-
-        # 8. Times
-        times_map = {}
-        for row in rdf_store.query(queries.GET_PERSON_TIMES, initBindings={'person': uri}):
-            start = str(row.start) if row.start else None
-            end = str(row.end) if row.end else None
-            rel_type = str(row.type) if row.type else "Time"
-            if start or end:
-                key = f"{rel_type.lower()}_{start}_{end}"
-                if key not in times_map:
-                    times_map[key] = TimeRelation(
-                        type=rel_type,
-                        start=start,
-                        end=end
-                    )
-        times = list(times_map.values())
+        subject_names = self._names("subjects", d["subjects"])
+        language_names = self._names("languages", d["languages"])
 
         return WorkDetail(
             id=work_id,
-            uri=str(uri),
-            title=str(title),
-            description=self._optional_str(rdf_store.g.value(uri, URIRef("http://schema.org/description"))),
-            authorship_status=self._optional_str(rdf_store.g.value(uri, JP.authorshipStatus)),
-            preservation_status=self._optional_str(rdf_store.g.value(uri, JP.preservationStatus)),
+            title=d["title"],
+            description=d.get("description"),
+            authorship_status=d.get("authorship_status"),
+            preservation_status=d.get("preservation_status"),
             authors=authors,
             cited_by=cited_by,
-            subjects=subjects,
-            languages=languages,
-            places=places,
-            times=times
+            subjects=[subject_names[s] for s in d["subjects"] if s in subject_names],
+            languages=[language_names[l] for l in d["languages"] if l in language_names],
         )
 
-    
+    def _person_counts(self, field: str, collection: str = "persons") -> Dict[str, int]:
+        return {
+            row["_id"]: row["count"]
+            for row in db[collection].aggregate([
+                {"$unwind": f"${field}"},
+                {"$group": {"_id": f"${field}", "entities": {"$addToSet": "$_id"}}},
+                {"$project": {"count": {"$size": "$entities"}}},
+            ])
+        }
+
     def list_places(self) -> List[PlaceList]:
-        # For places, we filter by the people/works associated with the place in the source?
-        # Or does the place itself have a source?
-        # The query LIST_PLACES joins with optional person.
-        # If we filter by source, we likely mean "show me places connected to people from this source"
-        # Or "places that have source X" (unlikely for Places themselves often).
-        # Let's assume we filter the related PERSONS by source, and count those.
-        
-        # BUT, the query structure for LIST_PLACES has an OPTIONAL block for persons.
-        # If I inject source_filter into that optional block, it will filter the persons.
-        # `queries.LIST_PLACES` has `{source_filter}` inside the OPTIONAL block for person relations.
-        
-        q = queries.LIST_PLACES.format(search_filter="")
-        
+        counts = self._person_counts("places.place")
         results = []
-        for row in rdf_store.query(q):
+        for p in db.places.find({}, {"name": 1, "location": 1}).sort("name", 1).collation(NAME_COLLATION):
+            coordinates = p.get("location", {}).get("coordinates")
             results.append(PlaceList(
-                id=row.uri.split("#")[-1],
-                uri=str(row.uri),
-                label=str(row.label),
-                lat=str(row.lat) if row.lat else None,
-                long=str(row.long) if row.long else None,
-                personCount=int(row.total)
+                id=p["_id"],
+                label=p["name"],
+                lat=str(coordinates[1]) if coordinates else None,
+                long=str(coordinates[0]) if coordinates else None,
+                personCount=counts.get(p["_id"], 0),
             ))
         return results
 
     def get_place_detail(self, place_id: str) -> Optional[PlaceDetail]:
-        uri = URIRef(f"{JP}{place_id}")
-        
-        # 1. Basic Info
-        label = rdf_store.g.value(uri, RDFS.label)
-        if not label:
+        p = db.places.find_one({"_id": place_id})
+        if not p:
             return None
-            
-        lat = rdf_store.g.value(uri, JP.latitude)
-        long = rdf_store.g.value(uri, JP.longitude)
-        
-        # 2. People
-        # Note: No source filtering on detail page for now unless requested.
-        # The user said "filter by source in each entity page", implying list view.
-        # But if they meant detail view too... complex. Sticking to list for now.
-        
-        people = []
-        for row in rdf_store.query(queries.GET_PLACE_PEOPLE, initBindings={'place': uri}):
-            people.append(PersonAtPlace(
-                id=row.person.split("#")[-1],
-                uri=str(row.person),
-                label=str(row.personLabel),
-                type=str(row.type) if row.type else None
-            ))
-            
+        coordinates = p.get("location", {}).get("coordinates")
+
+        people = {}
+        for person in db.persons.find({"places.place": place_id}, {"name": 1, "places": 1}):
+            for rel in person["places"]:
+                if rel["place"] == place_id:
+                    people.setdefault(
+                        (person["_id"], rel.get("type")),
+                        PersonAtPlace(id=person["_id"], label=person["name"], type=rel.get("type")),
+                    )
+
         return PlaceDetail(
             id=place_id,
-            uri=str(uri),
-            label=str(label),
-            lat=str(lat) if lat else None,
-            long=str(long) if long else None,
-            people=people
+            label=p["name"],
+            lat=str(coordinates[1]) if coordinates else None,
+            long=str(coordinates[0]) if coordinates else None,
+            people=sorted(people.values(), key=lambda person: (person.type or "", person.label)),
         )
-
-    # --- SUBJECTS ---
 
     def list_subjects(self) -> List[SubjectList]:
-        q = queries.LIST_SUBJECTS.format(search_filter="")
-
-        results = []
-        for row in rdf_store.query(q):
-             results.append(SubjectList(
-                id=row.uri.split("#")[-1],
-                label=str(row.label) if row.label else row.uri.split("#")[-1],
-                count=int(row.total)
-            ))
-        return results
+        person_counts = self._person_counts("subjects")
+        work_counts = self._person_counts("subjects", "works")
+        return [
+            SubjectList(
+                id=s["_id"],
+                label=s["name"],
+                count=person_counts.get(s["_id"], 0),
+                authors=person_counts.get(s["_id"], 0),
+                works=work_counts.get(s["_id"], 0),
+            )
+            for s in db.subjects.find({}, {"name": 1}).sort("name", 1).collation(NAME_COLLATION)
+        ]
 
     def get_subject_detail(self, subject_id: str) -> Optional[SubjectDetail]:
-        uri = URIRef(f"{JP}{subject_id}")
-        
-        # 1. Basic Info
-        label = rdf_store.g.value(uri, RDFS.label)
-        if not label:
+        s = db.subjects.find_one({"_id": subject_id})
+        if not s:
             return None
-        
-        description = rdf_store.g.value(uri, JP.subjectDescription)
-        
-        # 2. Works
-        works = []
-        for row in rdf_store.query(queries.GET_SUBJECT_WORKS, initBindings={'subject': uri}):
-            t = str(row.title) if row.title else (str(row.label) if row.label else str(row.work).split("#")[-1])
-            works.append(SubjectWorkInfo(
-                id=row.work.split("#")[-1],
-                uri=str(row.work),
-                title=t
-            ))
-            
-        return SubjectDetail(
-            id=subject_id,
-            uri=str(uri),
-            label=str(label),
-            description=str(description) if description else None,
-            works=works
-        )
-
-    # --- SOURCES ---
+        works = [
+            SubjectWorkInfo(id=w["_id"], title=w["title"])
+            for w in db.works.find({"subjects": subject_id}, {"title": 1}).sort("title", 1).collation(NAME_COLLATION)
+        ]
+        return SubjectDetail(label=s["name"], works=works)
 
     def list_sources(self) -> List[dict]:
-        """List all sources with counts."""
-        q = queries.LIST_SOURCES
-        results = []
-        for row in rdf_store.query(q):
-            source_id = row.source.split("#")[-1]
-            count_val = int(row.total)
-            results.append({
-                "id": source_id,
-                "label": str(row.label) if row.label else source_id,
-                "description": f"Data source containing {count_val} entities",
-                "count": count_val
-            })
-        
-        return results
+        counts = {}
+        for collection in ("persons", "works", "places", "subjects"):
+            for source_id, count in self._person_counts("sources", collection).items():
+                counts[source_id] = counts.get(source_id, 0) + count
+        return [
+            {
+                "id": s["_id"],
+                "label": s["name"],
+                "description": f"Data source containing {counts.get(s['_id'], 0)} entities",
+                "count": counts.get(s["_id"], 0),
+            }
+            for s in db.sources.find({}, {"name": 1}).sort("name", 1).collation(NAME_COLLATION)
+        ]
 
-
-    # --- Languages ---
     def list_languages(self) -> List[LanguageList]:
-        q = queries.LIST_LANGUAGES.format(search_filter="")
-        results = []
-        for row in rdf_store.query(q):
-            label = str(row.label) if row.label else str(row.uri).split("#")[-1]
-            results.append(LanguageList(
-                id=row.uri.split("#")[-1],
-                label=label,
-                count=int(row.total)
-            ))
-        return results
+        counts = self._person_counts("languages")
+        return [
+            LanguageList(id=l["_id"], label=l["name"], count=counts.get(l["_id"], 0))
+            for l in db.languages.find({}, {"name": 1}).sort("name", 1).collation(NAME_COLLATION)
+        ]
 
     def get_language_detail(self, lang_id: str) -> Optional[LanguageDetail]:
-        uri = URIRef(f"{JP}{lang_id}")
-        
-        if (uri, RDF.type, JP.Language) not in rdf_store.g:
+        l = db.languages.find_one({"_id": lang_id})
+        if not l:
             return None
-        label = rdf_store.g.value(uri, RDFS.label) or lang_id
-            
-        persons = []
-        for row in rdf_store.query(queries.GET_LANGUAGE_PERSONS, initBindings={'lang': uri}):
-            p_name = str(row.label) if row.label else str(row.person).split("#")[-1]
-            persons.append(LanguagePersonInfo(
-                id=row.person.split("#")[-1],
-                name=p_name
-            ))
+        persons = [
+            LanguagePersonInfo(id=p["_id"], name=p["name"])
+            for p in db.persons.find({"languages": lang_id}, {"name": 1}).sort("name", 1).collation(NAME_COLLATION)
+        ]
+        return LanguageDetail(label=l["name"], persons=persons)
 
-        return LanguageDetail(
-            label=str(label),
-            persons=persons
-        )
+    def _search_pipeline(self, collection: str, text: str, limit: int) -> List[dict]:
+        words = text.split()
+        should = [{"phrase": {"query": text, "path": {"wildcard": "*"}, "score": {"boost": {"value": 8}}}}]
+        for word in words:
+            should.append({"text": {"query": word, "path": {"wildcard": "*"}}})
+            should.append({"wildcard": {
+                "query": f"*{escape_wildcard(word.lower())}*",
+                "path": {"wildcard": "*"},
+                "allowAnalyzedField": True,
+            }})
+        return [
+            {"$search": {"index": SEARCH_INDEX_NAME, "compound": {"should": should, "minimumShouldMatch": 1}}},
+            {"$limit": limit},
+            {"$project": {
+                "label": "$title" if collection == "works" else "$name",
+                "entity_type": {"$literal": ENTITY_GROUPS[collection]},
+                "_searchScore": {"$meta": "searchScore"},
+            }},
+        ]
 
-    # --- Scholarly Works ---
-    # --- Network ---
+    def search(self, text: str, limit: int = 20) -> List[Dict[str, Any]]:
+        collections = list(SEARCH_FIELDS)
+        pipeline = self._search_pipeline(collections[0], text, limit)
+        for collection in collections[1:]:
+            pipeline.append({"$unionWith": {"coll": collection, "pipeline": self._search_pipeline(collection, text, limit)}})
+        pipeline += [{"$sort": {"_searchScore": -1}}, {"$limit": limit}]
+        return [
+            {"id": doc["_id"], "label": doc["label"], "entity_type": doc["entity_type"], "score": doc["_searchScore"]}
+            for doc in db[collections[0]].aggregate(pipeline)
+        ]
+
     def get_network_data(self, source: str = None) -> NetworkData:
+        query = self._source_query(source)
         nodes = []
         edges = []
-
-        def mk_id(uri): return uri.strip("/").split("/")[-1].split("#")[-1]
-        
-        person_buckets = {}
-        q_all_buckets = "SELECT ?person ?b_lbl WHERE { ?person jp:hasTimeRelation ?tr . ?tr jp:inTimeBucket ?b . ?b jp:bucketLabel ?b_lbl }"
-        for row in rdf_store.query(queries.PREFIXES + q_all_buckets):
-            pid = mk_id(row.person)
-            blbl = str(row.b_lbl)
-            if pid not in person_buckets:
-                person_buckets[pid] = []
-            if blbl not in person_buckets[pid]:
-                person_buckets[pid].append(blbl)
-
-        # 1. Nodes - Get source-filtered entities (persons, works, etc.)
-        sf_nodes = self._get_source_filter(source, "s")
-        q_nodes = queries.GET_NETWORK_NODES.format(search_filter=sf_nodes)
-
-        node_ids = set()
         node_types = {}
 
-        for row in rdf_store.query(q_nodes):
-            nid = mk_id(row.s)
-            if nid in node_ids:
-                continue
-            etype = mk_id(row.type)
-            node_ids.add(nid)
-            node_types[nid] = etype
-            nodes.append(NetworkNode(
-                id=nid,
-                label=str(row.label or nid),
-                group=etype,
-                buckets=person_buckets.get(nid, []) if etype == 'HistoricalPerson' else []
-            ))
+        def add_node(node_id: str, label: str, group: str, buckets: List[str] = None):
+            node_types[node_id] = group
+            nodes.append(NetworkNode(id=node_id, label=label, group=group, buckets=buckets or []))
 
-        # Dictionary to map Person ID -> set of connected non-person entity IDs
+        persons = list(db.persons.find(query, {"name": 1, "times": 1, "places": 1, "subjects": 1, "languages": 1, "relations": 1}))
+        works = list(db.works.find(query, {"title": 1, "authors": 1, "translators": 1, "translation_of": 1, "subjects": 1, "languages": 1}))
+        for p in persons:
+            add_node(p["_id"], p["name"], ENTITY_GROUPS["persons"], time_buckets(p["times"]))
+        for w in works:
+            add_node(w["_id"], w["title"], ENTITY_GROUPS["works"])
+        for collection in ("places", "subjects", "languages"):
+            for doc in db[collection].find(query, {"name": 1}):
+                add_node(doc["_id"], doc["name"], ENTITY_GROUPS[collection])
+
         person_connections = {}
+        person_group = ENTITY_GROUPS["persons"]
 
-        # 2. Edges
-        direct_edges = (
-            (s, p_name, o)
-            for p_name in queries.NETWORK_EDGE_PREDICATES
-            for s, o in rdf_store.g.subject_objects(JP[p_name])
-        )
-        for s, p_id, o in direct_edges:
-            s_id = mk_id(s)
-            o_id = mk_id(o)
-            if s_id in node_ids and o_id in node_ids:
-                edges.append({"from": s_id, "to": o_id, "relation": p_id})
-                
-                # Track for cross connections
-                if node_types.get(s_id) == 'HistoricalPerson':
-                    if s_id not in person_connections:
-                        person_connections[s_id] = set()
-                    person_connections[s_id].add(o_id)
-                elif node_types.get(o_id) == 'HistoricalPerson':
-                    if o_id not in person_connections:
-                        person_connections[o_id] = set()
-                    person_connections[o_id].add(s_id)
+        def add_edge(from_id: str, to_id: str, relation: str):
+            if from_id not in node_types or to_id not in node_types:
+                return
+            edges.append({"from": from_id, "to": to_id, "relation": relation})
+            if node_types[from_id] == person_group:
+                person_connections.setdefault(from_id, set()).add(to_id)
+            elif node_types[to_id] == person_group:
+                person_connections.setdefault(to_id, set()).add(from_id)
 
-        q_places = queries.GET_NETWORK_EDGES_PLACES.format()
-        for row in rdf_store.query(q_places):
-            p_id = mk_id(row.person)
-            pl_id = mk_id(row.place)
-            if p_id in node_ids:
-                # Add place node if person is in filtered nodes, even if place isn't
-                if pl_id not in node_ids:
-                    try:
-                        label = str(row.place_label) if row.place_label else pl_id
-                    except:
-                        label = pl_id
-                    nodes.append(NetworkNode(
-                        id=pl_id,
-                        label=label,
-                        group="Place",
-                        
-                    ))
-                    node_ids.add(pl_id)
-                    node_types[pl_id] = "Place"
-                    
-                edges.append({"from": p_id, "to": pl_id})
-                
-                # Track for cross connections
-                if p_id not in person_connections:
-                    person_connections[p_id] = set()
-                person_connections[p_id].add(pl_id)
+        for w in works:
+            for author in w["authors"]:
+                add_edge(w["_id"], author, "writtenBy")
+            for translator in w["translators"]:
+                add_edge(w["_id"], translator, "translatedBy")
+            if w.get("translation_of"):
+                add_edge(w["_id"], w["translation_of"], "isTranslationOf")
+        for doc in persons + works:
+            for subject in doc["subjects"]:
+                add_edge(doc["_id"], subject, "hasSubject")
+            for language in doc["languages"]:
+                add_edge(doc["_id"], language, "hasLanguage")
+        for p in persons:
+            for r in p["relations"]:
+                if r["type"] in NETWORK_RELATIONS:
+                    add_edge(p["_id"], r["target"], NETWORK_RELATIONS[r["type"]])
+        for translator, author in self._translation_pairs():
+            add_edge(translator, author, "translated")
 
-        # 3. Generate implicit cross-connections (e.g. Place <-> Subject via Person)
-        existing_edges = set()
-        for edge in edges:
-            t = tuple(sorted([edge['from'], edge['to']]))
-            existing_edges.add(t)
+        place_names = self._names("places", (rel["place"] for p in persons for rel in p["places"]))
+        for p in persons:
+            for place_id in _unique(rel["place"] for rel in p["places"]):
+                if place_id not in node_types:
+                    add_node(place_id, place_names.get(place_id, place_id), ENTITY_GROUPS["places"])
+                edges.append({"from": p["_id"], "to": place_id})
+                person_connections.setdefault(p["_id"], set()).add(place_id)
 
-        for p_id, connected_entities in person_connections.items():
+        existing_edges = {tuple(sorted([edge["from"], edge["to"]])) for edge in edges}
+        for connected_entities in person_connections.values():
             ent_list = list(connected_entities)
             for i in range(len(ent_list)):
                 for j in range(i + 1, len(ent_list)):
                     e1 = ent_list[i]
                     e2 = ent_list[j]
-                    # Only cross-connect if neither is a Person just to be safe
-                    if node_types.get(e1) != 'HistoricalPerson' and node_types.get(e2) != 'HistoricalPerson':
+                    if node_types.get(e1) != person_group and node_types.get(e2) != person_group:
                         t = tuple(sorted([e1, e2]))
                         if t not in existing_edges:
                             edges.append({"from": e1, "to": e2, "dashes": True})
                             existing_edges.add(t)
 
-
-
         return NetworkData(nodes=nodes, edges=edges)
-
-
-    # --- Stats ---
-
-    def _get_source_filter(self, source: str, var_name: str = "uri") -> str:
-        if not source:
-            return ""
-        return f"?{var_name} jp:hasSource <{JP}{quote(source, safe='')}> ."
-
-    def _optional_str(self, value) -> Optional[str]:
-        return str(value) if value is not None else None
-
-    def _get_time_buckets(self, uri: URIRef) -> List[str]:
-        buckets = []
-        for tr in rdf_store.g.objects(uri, JP.hasTimeRelation):
-            for bucket_uri in rdf_store.g.objects(tr, JP.inTimeBucket):
-                lbl = rdf_store.g.value(bucket_uri, JP.bucketLabel)
-                if lbl and str(lbl) not in buckets:
-                    buckets.append(str(lbl))
-        return buckets
 
     def get_sources(self) -> List[dict]:
         return self.list_sources()
 
     def get_global_stats(self, source: str = None) -> Dict[str, int]:
-        stats_queries = queries.STATS_QUERIES
-        PREFIXES = queries.PREFIXES
-        
-        
-        stats = {}
-        sf = self._get_source_filter(source, "s")
-        for key, q in stats_queries.items():
-            # Format the query with source_filter if applicable
-            if "{search_filter}" in q:
-                formatted_q = q.format(search_filter=sf)
-            else:
-                # If there are braces in q that aren't variables, format() will fail, so just don't format if not needed.
-                formatted_q = q
-            full_q = PREFIXES + formatted_q
-            
-            for row in rdf_store.query(full_q):
-                stats[key] = int(row.total)
-                
-        return stats
-
-
-    def get_geo_json(self, source: str = None) -> Dict[str, Any]:
-        """
-        Return GeoJSON FeatureCollection for places associated with historical persons.
-        """
-        sf = self._get_source_filter(source, "person")
-        q = queries.GET_GEO_JSON.format(search_filter=sf)
-        
-        features = []
-        for row in rdf_store.query(q):
-            try:
-                lat = float(row.lat)
-                long = float(row.long)
-                
-                # Time handling
-                bucket_label = str(row.bucketLabel) if getattr(row, 'bucketLabel', None) else None
-                
-                features.append({
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [long, lat]
-                    },
-                    "properties": {
-                        "person_id": row.person.split("#")[-1],
-                        "person_label": str(row.personLabel),
-                        "place_label": str(row.placeLabel),
-                        "type": str(row.placeType) if getattr(row, 'placeType', None) else "Unknown",
-                        "bucket": bucket_label,
-                        "source": str(row.sourceLabel) if getattr(row, 'sourceLabel', None) else "Unknown"
-                    }
-                })
-            except (ValueError, TypeError):
-                continue
-
+        query = self._source_query(source)
         return {
-            "type": "FeatureCollection",
-            "features": features
+            "persons": db.persons.count_documents(query),
+            "works": db.works.count_documents(query),
+            "places": db.places.count_documents({}),
+            "subjects": db.subjects.count_documents({}),
+            "languages": db.languages.count_documents({}),
+            "sources": db.sources.count_documents({}),
         }
 
-    def get_translation_flows(self) -> List[Dict[str, Any]]:
-        """
-        Return a list of translation flows between places for map visualization.
-        """
-        g = rdf_store.g
-        coords_cache = {}
+    def _place_coordinates(self, place_ids: Iterable[str]) -> Dict[str, tuple]:
+        return {
+            p["_id"]: (p["name"], p["location"]["coordinates"])
+            for p in db.places.find({"_id": {"$in": list(set(place_ids))}, "location": {"$exists": True}}, {"name": 1, "location": 1})
+        }
 
-        def person_coords(person):
-            if person not in coords_cache:
-                coords = []
-                for rel in g.objects(person, JP.hasPlaceRelation):
-                    for place in g.objects(rel, JP.relatedPlace):
-                        for lat in g.objects(place, JP.latitude):
-                            for long in g.objects(place, JP.longitude):
-                                try:
-                                    point = (float(lat), float(long))
-                                except (ValueError, TypeError):
-                                    continue
-                                if point not in coords:
-                                    coords.append(point)
-                coords_cache[person] = coords
-            return coords_cache[person]
+    def get_geo_json(self, source: str = None) -> Dict[str, Any]:
+        persons = list(db.persons.find(self._source_query(source), {"name": 1, "places": 1, "times": 1, "sources": 1}))
+        places = self._place_coordinates(rel["place"] for p in persons for rel in p["places"])
+        source_names = self._names("sources", (s for p in persons for s in p["sources"]))
+
+        features = []
+        seen = set()
+        for p in persons:
+            buckets = time_buckets(p["times"]) or [None]
+            sources = [source_names[s] for s in p["sources"] if s in source_names] or ["Unknown"]
+            for rel in p["places"]:
+                if rel["place"] not in places:
+                    continue
+                place_label, (long, lat) = places[rel["place"]]
+                place_type = rel.get("type") or "Unknown"
+                for bucket in buckets:
+                    for source_label in sources:
+                        key = (p["_id"], rel["place"], place_type, bucket, source_label)
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                        features.append({
+                            "type": "Feature",
+                            "geometry": {"type": "Point", "coordinates": [long, lat]},
+                            "properties": {
+                                "person_id": p["_id"],
+                                "person_label": p["name"],
+                                "place_label": place_label,
+                                "type": place_type,
+                                "bucket": bucket,
+                                "source": source_label,
+                            },
+                        })
+
+        return {"type": "FeatureCollection", "features": features}
+
+    def get_translation_flows(self) -> List[Dict[str, Any]]:
+        pairs = self._translation_pairs()
+        persons = {
+            p["_id"]: p
+            for p in db.persons.find({"_id": {"$in": _unique(i for pair in pairs for i in pair)}}, {"name": 1, "places": 1})
+        }
+        places = self._place_coordinates(rel["place"] for p in persons.values() for rel in p["places"])
+
+        def person_coords(person: dict) -> List[tuple]:
+            return _unique((lat, long) for _, (long, lat) in (places[rel["place"]] for rel in person["places"] if rel["place"] in places))
 
         flows = []
-        seen = set()
-        for translator, author in g.subject_objects(JP.translated):
-            translator_label = g.value(translator, RDFS.label)
-            author_label = g.value(author, RDFS.label)
-            if translator_label is None or author_label is None:
+        for translator_id, author_id in pairs:
+            translator = persons.get(translator_id)
+            author = persons.get(author_id)
+            if not translator or not author:
                 continue
             for t_lat, t_long in person_coords(translator):
                 for a_lat, a_long in person_coords(author):
-                    key = (translator, author, t_lat, t_long, a_lat, a_long)
-                    if key in seen:
-                        continue
-                    seen.add(key)
                     flows.append({
-                        "translator_id": translator.split("#")[-1],
-                        "translator_label": str(translator_label),
-                        "author_id": author.split("#")[-1],
-                        "author_label": str(author_label),
-                        "path": [[t_lat, t_long], [a_lat, a_long]]
+                        "translator_id": translator_id,
+                        "translator_label": translator["name"],
+                        "author_id": author_id,
+                        "author_label": author["name"],
+                        "path": [[t_lat, t_long], [a_lat, a_long]],
                     })
         return flows
 
+    def _schema_fields(self, schema: dict, prefix: str = ""):
+        for name, prop in schema.get("properties", {}).items():
+            path = f"{prefix}{name}"
+            yield path, prop
+            item = prop.get("items", prop)
+            if "properties" in item:
+                yield from self._schema_fields(item, f"{path}.")
+
+    def _document_fields(self, value, prefix: str = ""):
+        if isinstance(value, dict):
+            for name, child in value.items():
+                path = f"{prefix}{name}"
+                yield path
+                yield from self._document_fields(child, f"{path}.")
+        elif isinstance(value, list):
+            for child in value:
+                yield from self._document_fields(child, prefix)
 
     def get_ontology_graph(self) -> Dict[str, Any]:
-        """
-        Return nodes (Classes) and edges (Properties) for ontology visualization.
-        """
-        nodes = []
+        nodes = [
+            {"id": name, "label": schema["title"], "title": schema.get("description"), "group": "Class"}
+            for name, schema in COLLECTIONS.items()
+        ]
         edges = []
-        
-        # 1. Classes -> Nodes
-        classes = set()
-        for row in rdf_store.query(queries.GET_ONTOLOGY_CLASSES):
-            uri = str(row.uri)
-            label = str(row.label) if row.label else uri.split("#")[-1]
-            nodes.append({
-                "id": uri,
-                "label": label,
-                "title": str(row.comment) if row.comment else None,
-                "group": "Class"
-            })
-            classes.add(uri)
-            
-        # 2. Properties -> Edges
-
-        def get_class_uris(node):
-            if isinstance(node, URIRef):
-                return [str(node)]
-            elif isinstance(node, BNode):
-                # Try to resolve owl:unionOf
-                union_list = rdf_store.g.value(node, OWL.unionOf)
-                if not union_list:
-                    return []
-                # Traverse the RDF list
-                uris = []
-                current = union_list
-                while current and current != RDF.nil:
-                    first = rdf_store.g.value(current, RDF.first)
-                    if isinstance(first, URIRef):
-                        uris.append(str(first))
-                    current = rdf_store.g.value(current, RDF.rest)
-                return uris
-            return []
-
-        for row in rdf_store.query(queries.GET_ONTOLOGY_PROPERTIES):
-            if row.domain and row.range:
-                domains = get_class_uris(row.domain)
-                ranges = get_class_uris(row.range)
-                
-                label = str(row.label) if row.label else str(row.uri).split("#")[-1]
-                
-                for d in domains:
-                    for r in ranges:
-                        if d in classes and r in classes:
-                            edges.append({
-                                "from": d,
-                                "to": r,
-                                "label": label,
-                                "arrows": "to",
-                                "font": {"align": "middle"}
-                            })
-                    
+        for name, schema in COLLECTIONS.items():
+            for path, prop in self._schema_fields(schema):
+                pattern = prop.get("items", prop).get("pattern")
+                if path == "_id" or not pattern:
+                    continue
+                for target in ref_targets(pattern):
+                    edges.append({"from": name, "to": target, "label": path, "arrows": "to", "font": {"align": "middle"}})
         return {"nodes": nodes, "edges": edges}
 
     def get_ontology_audit(self) -> Dict[str, Any]:
-        """
-        Compare defined ontology (vocabulary.ttl) with actual data.
-        """
-        # 1. Get defined classes/properties from ontology
-        defined_classes = set()
-        for row in rdf_store.query(queries.GET_ONTOLOGY_CLASSES):
-            defined_classes.add(str(row.uri))
-            
-        defined_properties = set()
-        for row in rdf_store.query(queries.GET_ONTOLOGY_PROPERTIES):
-            defined_properties.add(str(row.uri))
-            
-        # 2. Get actual classes/properties used in data
+        defined_classes = set(COLLECTIONS)
+        defined_properties = {f"{name}.{path}" for name, schema in COLLECTIONS.items() for path, _ in self._schema_fields(schema)}
+
         actual_classes = set()
-        for row in rdf_store.query(queries.GET_DATA_CLASSES):
-            actual_classes.add(str(row.type))
-            
         actual_properties = set()
-        for row in rdf_store.query(queries.GET_DATA_PROPERTIES):
-            actual_properties.add(str(row.p))
-            
+        for name in db.list_collection_names():
+            for doc in db[name].find():
+                actual_classes.add(name)
+                actual_properties.update(f"{name}.{path}" for path in self._document_fields(doc))
+
         return {
             "classes": {
                 "defined_count": len(defined_classes),
                 "actual_count": len(actual_classes),
-                "unused": list(defined_classes - actual_classes),
-                "undefined": list(actual_classes - defined_classes)
+                "unused": sorted(defined_classes - actual_classes),
+                "undefined": sorted(actual_classes - defined_classes),
             },
             "properties": {
                 "defined_count": len(defined_properties),
                 "actual_count": len(actual_properties),
-                "unused": list(defined_properties - actual_properties),
-                "undefined": list(actual_properties - defined_properties)
-            }
+                "unused": sorted(defined_properties - actual_properties),
+                "undefined": sorted(actual_properties - defined_properties),
+            },
         }
 
 

@@ -1,4 +1,4 @@
-# Medieval Jewish Philosophy - RDF Explorer
+# Medieval Jewish Philosophy - Research Explorer
 
 A research-oriented web application for mapping and studying medieval Jewish philosophy.
 
@@ -10,11 +10,19 @@ Deployed at [https://jephy-index.web.app](https://jephy-index.web.app).
 
 Make sure you have `uv` installed.
 
+The data lives in the `jephy` MongoDB database (Atlas), which is the source of truth. Set the connection string in `backend/.env`:
+
+```shell
+MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>/
+```
+
 ```bash
 cd backend
 uv sync
 uv run uvicorn app.main:app --reload
 ```
+
+On startup the backend applies the collection validators, indexes and Atlas Search indexes defined in `backend/app/core/db_schema.py`.
 
 To run tests:
 
@@ -39,7 +47,8 @@ export REGION=europe-west1
 gcloud run deploy jephy-backend \
   --source . \
   --project ${PROJECT_ID} --region ${REGION} \
-  --allow-unauthenticated
+  --allow-unauthenticated \
+  --set-env-vars MONGODB_URI=...
 ```
 
 ### Frontend

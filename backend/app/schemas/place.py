@@ -8,7 +8,6 @@ class PersonAtPlace(BaseModel):
 
 class PlaceDetail(BaseModel):
     id: str
-    uri: str
     label: str
     lat: Optional[str] = None
     long: Optional[str] = None
@@ -16,7 +15,6 @@ class PlaceDetail(BaseModel):
 
 class PlaceList(BaseModel):
     id: str
-    uri: str
     label: str
     lat: Optional[str] = None
     long: Optional[str] = None

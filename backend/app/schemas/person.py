@@ -1,17 +1,21 @@
 from typing import List, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
-class AuthorityLink(BaseModel):
-    uri: str
+class ViafSuggestion(BaseModel):
+    viaf_id: str
+    viaf_name: str
+    name: str
+
+class VerifyName(BaseModel):
+    name: Optional[str] = Field(None, min_length=1)
+    viaf_id: Optional[str] = Field(None, pattern=r"^\d+$")
 
 class RelatedWork(BaseModel):
     id: str
-    uri: str
     title: str
 
 class PlaceRelation(BaseModel):
     place_id: str
-    place_uri: str
     label: str
     type: Optional[str] = None
     start: Optional[str] = None
@@ -21,7 +25,6 @@ class PlaceRelation(BaseModel):
 
 class IntellectualRelation(BaseModel):
     id: str
-    uri: str
     label: str
     entity_type: str
     relation: str
@@ -34,8 +37,11 @@ class TimeRelation(BaseModel):
 
 class PersonDetail(BaseModel):
     id: str
-    uri: str
     label: str
+    alt_names: List[str] = []
+    name_verified: bool = False
+    viaf_id: Optional[str] = None
+    viaf_suggestions: List[ViafSuggestion] = []
     works: List[RelatedWork] = []
     places: List[PlaceRelation] = []
     times: List[TimeRelation] = []
@@ -46,10 +52,10 @@ class PersonDetail(BaseModel):
 
 class PersonList(BaseModel):
     id: str
-    uri: str
     label: str
-    birth_year: Optional[str] = None
-    death_year: Optional[str] = None
+    name_verified: bool = False
+    viaf_id: Optional[str] = None
+    viaf_suggestions: List[ViafSuggestion] = []
     places: Optional[str] = None
     times: Optional[str] = None
     time_buckets: Optional[str] = None

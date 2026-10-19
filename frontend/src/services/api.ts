@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { auth } from './firebase'
 
 // Determine API base URL based on environment
 function getApiBaseUrl(): string {
@@ -17,6 +18,12 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+})
+
+api.interceptors.request.use(async (config) => {
+  const token = await auth.currentUser?.getIdToken()
+  if (token) config.headers.Authorization = `Bearer ${token}`
+  return config
 })
 
 export default api

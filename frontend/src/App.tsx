@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
+import { AuthProvider } from './auth/AuthProvider'
 import Home from './pages/Home'
 
 import Persons from './pages/Persons'
@@ -21,27 +22,29 @@ const queryClient = new QueryClient()
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="persons" element={<Persons />} />
-            <Route path="persons/:id" element={<PersonDetail />} />
-            <Route path="works" element={<Works />} />
-            <Route path="works/:id" element={<WorkDetail />} />
-            <Route path="subjects" element={<Subjects />} />
-            <Route path="subjects/:id" element={<SubjectDetail />} />
-            <Route path="languages" element={<Languages />} />
-            <Route path="languages/:id" element={<LanguageDetail />} />
-            <Route path="sources" element={<Sources />} />
-            <Route path="map" element={<MapView />} />
-            <Route path="network" element={<Network />} />
-            <Route path="ontology" element={<Ontology />} />
-            {/* Additional routes will be added here */}
-            <Route path="*" element={<div className="p-8">Page Not Found</div>} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="persons" element={<Persons />} />
+              <Route path="persons/:id" element={<PersonDetail />} />
+              <Route path="works" element={<Works />} />
+              <Route path="works/:id" element={<WorkDetail />} />
+              <Route path="subjects" element={<Subjects />} />
+              <Route path="subjects/:id" element={<SubjectDetail />} />
+              <Route path="languages" element={<Languages />} />
+              <Route path="languages/:id" element={<LanguageDetail />} />
+              <Route path="sources" element={<Sources />} />
+              <Route path="map" element={<MapView />} />
+              <Route path="network" element={<Network />} />
+              <Route path="ontology" element={<Ontology />} />
+              {/* Additional routes will be added here */}
+              <Route path="*" element={<div className="p-8">Page Not Found</div>} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </QueryClientProvider>
   )
 }
