@@ -57,6 +57,7 @@ export interface ViafSuggestion {
 export interface VerifyNameRequest {
   name?: string
   viaf_id?: string
+  alt_names?: string[]
 }
 
 export interface PersonDetail {

@@ -9,6 +9,7 @@ class ViafSuggestion(BaseModel):
 class VerifyName(BaseModel):
     name: Optional[str] = Field(None, min_length=1)
     viaf_id: Optional[str] = Field(None, pattern=r"^\d+$")
+    alt_names: Optional[List[str]] = None
 
 class RelatedWork(BaseModel):
     id: str

@@ -31,7 +31,7 @@ async def get_person_detail_json(person_id: str):
 @router.post("/{person_id}/name/verify", response_model=PersonDetail, dependencies=[Depends(get_current_user)])
 async def verify_person_name(person_id: str, body: VerifyName):
     try:
-        return entity_service.verify_name(person_id, body.name, body.viaf_id)
+        return entity_service.verify_name(person_id, body.name, body.viaf_id, body.alt_names)
     except LookupError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except ConflictError as e:

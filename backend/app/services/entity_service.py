@@ -235,7 +235,7 @@ class EntityService:
             "viaf_suggestions": [] if verified else d.get("viaf_suggestions", []),
         }
 
-    def verify_name(self, person_id: str, name: Optional[str], viaf_id: Optional[str]) -> PersonDetail:
+    def verify_name(self, person_id: str, name: Optional[str], viaf_id: Optional[str], alt_names: Optional[List[str]] = None) -> PersonDetail:
         d = db.persons.find_one({"_id": person_id}, {"name": 1, "alt_names": 1, "name_verified": 1, "viaf_suggestions": 1})
         if not d:
             raise LookupError("Person not found")
@@ -248,8 +248,10 @@ class EntityService:
                 raise ValueError("Provide a name, or a VIAF id that is one of the person's suggestions")
             name = suggestion["name"]
 
-        alt_names = d["alt_names"] + ([d["name"]] if d["name"] != name else [])
-        update = {"name": name, "alt_names": _unique(alt_names), "name_verified": True}
+        if alt_names is None:
+            alt_names = d["alt_names"] + [d["name"]]
+        alt_names = _unique(n for n in (a.strip() for a in alt_names) if n and n != name)
+        update = {"name": name, "alt_names": alt_names, "name_verified": True}
         if viaf_id:
             update["viaf_id"] = viaf_id
         result = db.persons.update_one(

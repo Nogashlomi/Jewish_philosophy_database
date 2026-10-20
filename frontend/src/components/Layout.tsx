@@ -108,11 +108,19 @@ export default function Layout() {
                 aria-expanded={mobileNavOpen}
                 aria-controls="mobile-navigation"
               >
-                {mobileNavOpen ? <X className="h-5 w-5" aria-hidden="true" /> : <Menu className="h-5 w-5" aria-hidden="true" />}
+                {mobileNavOpen ? (
+                  <X className="h-5 w-5" aria-hidden="true" />
+                ) : (
+                  <Menu className="h-5 w-5" aria-hidden="true" />
+                )}
                 {mobileNavOpen ? 'Close navigation' : 'Navigate'}
               </button>
               {mobileNavOpen && (
-                <nav id="mobile-navigation" aria-label="Mobile navigation" className="mt-2 rounded-md border border-gray-200 bg-white p-2 shadow-sm">
+                <nav
+                  id="mobile-navigation"
+                  aria-label="Mobile navigation"
+                  className="mt-2 rounded-md border border-gray-200 bg-white p-2 shadow-sm"
+                >
                   {mobileLinks.map(({ to, label }) => (
                     <Link
                       key={to}

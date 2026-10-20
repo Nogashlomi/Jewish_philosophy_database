@@ -25,9 +25,7 @@ export default function Home() {
     <div className="h-full flex flex-col justify-center items-center text-gray-900 max-w-5xl mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
         <div className="flex-1 space-y-6">
-          <h2 className="text-2xl font-bold text-gray-800">
-            Mapping Philosophy in Jewish History
-          </h2>
+          <h2 className="text-2xl font-bold text-gray-800">Mapping Philosophy in Jewish History</h2>
           <p className="text-gray-600 leading-relaxed text-lg">
             This digital tool traces the intellectual networks of Jewish philosophical thought
             across history; from ancient sources and medieval traditions to modern reception. It
