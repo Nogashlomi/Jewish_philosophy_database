@@ -17,7 +17,7 @@ export default function Layout() {
     { to: '/works', label: 'Works' },
     { to: '/subjects', label: 'Subjects' },
     { to: '/languages', label: 'Languages' },
-    { to: '/sources', label: 'Data Sources / Projects / Collaborators' },
+    { to: '/sources', label: 'Sources' },
     { to: '/map', label: 'Map' },
     { to: '/network', label: 'Network' },
     { to: '/ontology', label: 'Ontology' },
@@ -78,7 +78,7 @@ export default function Layout() {
                       : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
                   }`}
                 >
-                  Data Sources / Projects / Collaborators
+                  Sources
                 </Link>
                 <Link
                   to="/map"

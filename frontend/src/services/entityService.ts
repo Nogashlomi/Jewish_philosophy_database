@@ -11,6 +11,9 @@ import type {
   SubjectDetail,
   LanguageDetail,
   Source,
+  SourceInput,
+  PersonConnectionInput,
+  PlaceInput,
   NetworkData,
   OntologyGraph,
   OntologyAudit,
@@ -61,6 +64,14 @@ export const entityService = {
     const response = await api.post<PersonDetail>(`/persons/${id}/name/verify`, body)
     return response.data
   },
+  updatePersonConnections: async (id: string, connections: PersonConnectionInput[]) => {
+    const response = await api.put<PersonDetail>(`/persons/${id}/connections`, { connections })
+    return response.data
+  },
+  createPlace: async (body: PlaceInput) => {
+    const response = await api.post<PlaceList>('/places/', body)
+    return response.data
+  },
   getWorkDetail: async (id: string) => {
     const response = await api.get<WorkDetail>(`/works/${id}`)
     return response.data
@@ -87,6 +98,17 @@ export const entityService = {
   getSources: async () => {
     const response = await api.get<Source[]>('/sources/')
     return response.data
+  },
+  createSource: async (body: SourceInput) => {
+    const response = await api.post<Source>('/sources/', body)
+    return response.data
+  },
+  updateSource: async (id: string, body: SourceInput) => {
+    const response = await api.put<Source>(`/sources/${id}`, body)
+    return response.data
+  },
+  deleteSource: async (id: string) => {
+    await api.delete(`/sources/${id}`)
   },
   getOntologyGraph: async () => {
     const response = await api.get<OntologyGraph>('/ontology/')

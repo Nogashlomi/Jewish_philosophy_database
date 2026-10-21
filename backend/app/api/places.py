@@ -1,8 +1,9 @@
 from typing import List
 from typing import List, Optional
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, status
+from app.core.auth import get_current_user
 from app.services.entity_service import entity_service
-from app.schemas.place import PlaceList, PlaceDetail
+from app.schemas.place import PlaceList, PlaceDetail, PlaceInput
 
 router = APIRouter()
 
@@ -12,6 +13,10 @@ async def list_places_json():
     Get a list of all places.
     """
     return entity_service.list_places()
+
+@router.post("/", response_model=PlaceList, status_code=status.HTTP_201_CREATED, dependencies=[Depends(get_current_user)])
+async def create_place(body: PlaceInput):
+    return entity_service.create_place(body)
 
 @router.get("/geojson", response_model=dict)
 async def get_places_geojson():

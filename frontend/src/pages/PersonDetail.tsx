@@ -4,6 +4,7 @@ import { entityService } from '../services/entityService'
 import { Loader2, ArrowLeft, BookOpen, MapPin, Calendar, Users } from 'lucide-react'
 import type { IntellectualRelation } from '../types/entity'
 import { NameVerification } from '../components/NameVerification'
+import { PersonConnections } from '../components/PersonConnections'
 
 const RELATION_GROUPS: { relation: IntellectualRelation['relation']; title: string }[] = [
   { relation: 'influenced_by', title: 'Influenced by' },
@@ -12,6 +13,19 @@ const RELATION_GROUPS: { relation: IntellectualRelation['relation']; title: stri
   { relation: 'influenced', title: 'Influenced' },
   { relation: 'cited_by', title: 'Cited by' },
 ]
+
+const eraYear = (year: number) => (year < 0 ? `${-year} BCE` : `${year}`)
+
+function yearRange(item: { start?: string; end?: string; estimated?: boolean }): string | null {
+  if (!item.start) return null
+  const start = Number(item.start)
+  const end = item.end ? Number(item.end) : start
+  const prefix = item.estimated ? 'c. ' : ''
+  if (end === start) return prefix + eraYear(start)
+  if (end < 0) return `${prefix}${-start}–${-end} BCE`
+  if (start < 0) return `${prefix}${-start} BCE–${end} CE`
+  return `${prefix}${start}–${end}`
+}
 
 export default function PersonDetail() {
   const { id } = useParams<{ id: string }>()
@@ -60,6 +74,8 @@ export default function PersonDetail() {
         <div className="p-6 space-y-8">
           <NameVerification key={`${person.id}-${person.label}`} person={person} />
 
+          <PersonConnections person={person} />
+
           {/* Basic Info / Times */}
           {person.times && person.times.length > 0 && (
             <div className="flex items-start gap-3">
@@ -69,15 +85,15 @@ export default function PersonDetail() {
                 <div className="mt-1 space-y-1">
                   {person.times.map((time, idx) => (
                     <div key={idx} className="text-gray-600">
-                      {time.label ? (
-                        <span className="font-medium text-gray-800">{time.label}</span>
-                      ) : (
-                        <span>
-                          {time.start} - {time.end}
-                        </span>
-                      )}
+                      <span>{yearRange(time)}</span>
                       {time.type && (
                         <span className="ml-2 text-xs text-gray-400">({time.type})</span>
+                      )}
+                      {time.source && (
+                        <span className="ml-2 text-xs text-gray-400">· {time.source}</span>
+                      )}
+                      {time.description && (
+                        <p className="text-sm text-gray-600">{time.description}</p>
                       )}
                     </div>
                   ))}
@@ -112,7 +128,7 @@ export default function PersonDetail() {
               <MapPin className="h-5 w-5 text-indigo-500 mt-0.5" />
               <div className="w-full">
                 <h3 className="font-medium text-gray-900">Related Places</h3>
-                {person.places.some((place) => place.time_label || place.description) ? (
+                {person.places.some((place) => place.start || place.description || place.source) ? (
                   <ol className="mt-2 space-y-3">
                     {person.places.map((place, idx) => (
                       <li key={idx} className="border-l-2 border-blue-100 pl-3">
@@ -123,13 +139,16 @@ export default function PersonDetail() {
                           >
                             {place.label}
                           </Link>
-                          {place.time_label && (
+                          {place.start && (
                             <span className="text-sm font-medium text-gray-800">
-                              {place.time_label}
+                              {yearRange(place)}
                             </span>
                           )}
                           {place.type && (
                             <span className="text-xs text-gray-400">({place.type})</span>
+                          )}
+                          {place.source && (
+                            <span className="text-xs text-gray-400">· {place.source}</span>
                           )}
                         </div>
                         {place.description && (

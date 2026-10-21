@@ -20,11 +20,14 @@ async def test_read_work_detail(async_client, entity_id):
 
 @pytest.mark.asyncio
 async def test_read_works_total_matches_items(async_client):
-    response = await async_client.get("/api/v1/works/", params={"page_size": 500})
+    response = await async_client.get("/api/v1/works/", params={"page_size": 3})
     data = response.json()
-    assert data["total_pages"] == -(-data["total"] // 500)
+    assert data["total_pages"] == -(-data["total"] // 3)
     ids = [item["id"] for item in data["items"]]
-    assert len(ids) == len(set(ids)) == 500
+    while data["page"] < data["total_pages"]:
+        data = (await async_client.get("/api/v1/works/", params={"page_size": 3, "page": data["page"] + 1})).json()
+        ids += [item["id"] for item in data["items"]]
+    assert len(ids) == len(set(ids)) == data["total"]
 
 @pytest.mark.asyncio
 async def test_read_work_not_found(async_client):

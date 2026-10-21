@@ -1,24 +1,14 @@
 import { useState } from 'react'
 import type { FormEvent } from 'react'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
-import { isAxiosError } from 'axios'
 import { BadgeCheck, ExternalLink, Loader2, X } from 'lucide-react'
 import { useAuth } from '../auth/authContext'
 import { entityService } from '../services/entityService'
 import { ConfirmDialog } from './ConfirmDialog'
+import { errorMessage } from './errorMessage'
 import type { PersonDetail, VerifyNameRequest } from '../types/entity'
 
 const viafUrl = (viafId: string) => `https://viaf.org/viaf/${viafId}`
-
-function errorMessage(error: unknown): string {
-  if (isAxiosError(error)) {
-    const detail = error.response?.data?.detail
-    if (typeof detail === 'string') return detail
-    if (Array.isArray(detail)) return detail.map((d) => d.msg).join(', ')
-    return error.message
-  }
-  return String(error)
-}
 
 export function NameVerification({ person }: { person: PersonDetail }) {
   const { user } = useAuth()

@@ -2,13 +2,14 @@ from typing import List, Optional, Dict, Any, Iterable
 import math
 import re
 from app.core.db import db
-from app.core.db_schema import COLLECTIONS, NAME_COLLATION, PREFIX_COLLECTIONS, SEARCH_FIELDS, SEARCH_INDEX_NAME, id_prefix, ref_targets
-from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation, IntellectualRelation
+from app.core.db_schema import COLLECTIONS, NAME_COLLATION, PREFIX_COLLECTIONS, SEARCH_FIELDS, SEARCH_INDEX_NAME, id_prefix, new_id, ref_targets
+from app.schemas.person import PersonList, PersonDetail, RelatedWork, PlaceRelation, TimeRelation, IntellectualRelation, PersonConnection, PersonConnectionInput
 from app.schemas.work import WorkList, WorkDetail, WorkAuthor
-from app.schemas.place import PlaceList, PlaceDetail, PersonAtPlace
+from app.schemas.place import PlaceList, PlaceDetail, PersonAtPlace, PlaceInput
 from app.schemas.subject import SubjectList, SubjectDetail, SubjectWorkInfo
 from app.schemas.language import LanguageList, LanguageDetail, LanguagePersonInfo
 from app.schemas.network import NetworkData, NetworkNode
+from app.schemas.source import SourceInput
 
 ENTITY_GROUPS = {
     "persons": "HistoricalPerson",
@@ -18,6 +19,8 @@ ENTITY_GROUPS = {
     "languages": "Language",
 }
 OUTGOING_RELATIONS = {"influenced_by": "influenced_by", "cites": "cites", "interlocutor_of": "interlocutor"}
+SOURCE_LINKED_COLLECTIONS = ("persons", "works", "places", "subjects")
+SOURCE_REFERENCE_FIELDS = {"persons": ("sources", "times.source", "places.source"), "works": ("sources",), "places": ("sources",), "subjects": ("sources",)}
 INCOMING_RELATIONS = {"influenced_by": "influenced", "cites": "cited_by", "interlocutor_of": "interlocutor"}
 NETWORK_RELATIONS = {"influenced_by": "influencedBy", "cites": "cites", "interlocutor_of": "interlocutorOf"}
 BUCKET_SIZE = 50
@@ -43,6 +46,25 @@ def bucket_label(start: int) -> str:
 
 def time_buckets(times: Iterable[dict]) -> List[str]:
     return [bucket_label(start) for start in bucket_starts(times)]
+
+
+def person_times(person: dict) -> List[dict]:
+    return person["times"] + [p for p in person["places"] if p.get("from") is not None]
+
+
+def _era_year(year: int) -> str:
+    return f"{-year} BCE" if year < 0 else str(year)
+
+
+def format_years(start: int, until: Optional[int] = None, estimated: bool = False) -> str:
+    prefix = "c. " if estimated else ""
+    if until is None or until == start:
+        return prefix + _era_year(start)
+    if until < 0:
+        return f"{prefix}{-start}–{-until} BCE"
+    if start < 0:
+        return f"{prefix}{-start} BCE–{until} CE"
+    return f"{prefix}{start}–{until}"
 
 
 def escape_wildcard(word: str) -> str:
@@ -89,12 +111,7 @@ class EntityService:
         }
 
     def _time_text(self, t: dict) -> Optional[str]:
-        if t.get("label"):
-            return t["label"]
-        text = str(t["from"])
-        if t.get("until") is not None:
-            text += f"-{t['until']}"
-        return f"{text} ({t['type'].capitalize() if t.get('type') else 'Time'})"
+        return f"{format_years(t['from'], t.get('until'), t.get('estimated', False))} ({t['type'].capitalize() if t.get('type') else 'Time'})"
 
     def _translation_pairs(self, person_ids: Optional[set] = None) -> List[tuple]:
         translations = list(db.works.find(
@@ -142,7 +159,7 @@ class EntityService:
                 for p in d["places"]
             )
             times = _unique(self._time_text(t) for t in d["times"])
-            buckets = time_buckets(d["times"])
+            buckets = time_buckets(person_times(d))
             subjects = _unique(subject_names[s] for s in d["subjects"] if s in subject_names)
             items.append(PersonList(
                 id=d["_id"],
@@ -167,25 +184,47 @@ class EntityService:
         ]
 
         place_names = self._names("places", (p["place"] for p in d["places"]))
+        source_names = self._names("sources", (r["source"] for r in d["times"] + d["places"] if r.get("source")))
         places_map = {}
-        for i, p in enumerate(sorted(d["places"], key=lambda p: (p.get("from") is not None, p.get("from", 0)))):
-            p_type = p.get("type", "")
-            key = i if p.get("time_label") else f"{p['place']}_{p_type.lower()}"
-            if key not in places_map:
-                places_map[key] = PlaceRelation(
-                    place_id=p["place"],
-                    label=place_names.get(p["place"], p["place"]),
-                    type=p.get("type"),
-                    start=_year(p.get("from")),
-                    end=_year(p.get("until")),
-                    time_label=p.get("time_label"),
-                    description=p.get("description"),
-                )
+        for p in sorted(d["places"], key=lambda p: (p.get("from") is not None, p.get("from", 0))):
+            place = PlaceRelation(
+                place_id=p["place"],
+                label=place_names.get(p["place"], p["place"]),
+                type=p.get("type"),
+                start=_year(p.get("from")),
+                end=_year(p.get("until")),
+                estimated=p.get("estimated", False),
+                description=p.get("description"),
+                source=source_names.get(p.get("source")),
+            )
+            places_map.setdefault((place.place_id, (place.type or "").lower(), place.start, place.end, place.estimated, place.description, place.source), place)
 
         times_map = {}
         for t in d["times"]:
-            time = TimeRelation(type=t.get("type") or "Life", start=_year(t["from"]), end=_year(t.get("until")), label=t.get("label"))
-            times_map.setdefault((time.type.lower(), time.start, time.end, time.label), time)
+            time = TimeRelation(
+                type=t.get("type") or "Life",
+                start=_year(t["from"]),
+                end=_year(t.get("until")),
+                estimated=t.get("estimated", False),
+                description=t.get("description"),
+                source=source_names.get(t.get("source")),
+            )
+            times_map.setdefault((time.type.lower(), time.start, time.end, time.estimated, time.description, time.source), time)
+
+        connections = [
+            PersonConnection(
+                type=r["type"],
+                place_id=r.get("place"),
+                start=r.get("from"),
+                end=r.get("until"),
+                estimated=r.get("estimated", False),
+                description=r.get("description"),
+                source_id=r.get("source"),
+                place_label=place_names.get(r["place"], r["place"]) if "place" in r else None,
+                source_label=source_names.get(r.get("source")),
+            )
+            for r in d["times"] + d["places"]
+        ]
 
         subject_names = self._names("subjects", d["subjects"])
         language_names = self._names("languages", d["languages"])
@@ -221,11 +260,53 @@ class EntityService:
             works=works,
             places=list(places_map.values()),
             times=list(times_map.values()),
-            time_buckets=time_buckets(d["times"]),
+            connections=connections,
+            time_buckets=time_buckets(person_times(d)),
             subjects=[subject_names[s] for s in d["subjects"] if s in subject_names],
             languages=[language_names[l] for l in d["languages"] if l in language_names],
             relations=relations,
         )
+
+    def _check_exist(self, collection: str, ids: Iterable[str], label: str) -> None:
+        ids = set(ids)
+        missing = ids - set(self._names(collection, ids))
+        if missing:
+            raise ValueError(f"Unknown {label}: {', '.join(sorted(missing))}")
+
+    def update_connections(self, person_id: str, connections: List[PersonConnectionInput]) -> PersonDetail:
+        if not db.persons.find_one({"_id": person_id}, {"_id": 1}):
+            raise LookupError("Person not found")
+        self._check_exist("places", (c.place_id for c in connections if c.place_id), "places")
+        self._check_exist("sources", (c.source_id for c in connections if c.source_id), "sources")
+
+        times, places = [], []
+        for c in connections:
+            row = {"place": c.place_id} if c.place_id else {}
+            row["type"] = c.type
+            if c.start is not None:
+                row["from"] = c.start
+            if c.end is not None:
+                row["until"] = c.end
+            if c.estimated and c.start is not None:
+                row["estimated"] = True
+            if c.description:
+                row["description"] = c.description
+            if c.source_id:
+                row["source"] = c.source_id
+            target = places if c.place_id else times
+            if row not in target:
+                target.append(row)
+        times.sort(key=lambda t: t["from"])
+        places.sort(key=lambda p: (p.get("from") is None, p.get("from", 0)))
+
+        db.persons.update_one(
+            {"_id": person_id},
+            {
+                "$set": {"times": times, "places": places},
+                "$addToSet": {"sources": {"$each": _unique(c.source_id for c in connections if c.source_id)}},
+            },
+        )
+        return self.get_person_detail(person_id)
 
     def _viaf_fields(self, d: dict) -> Dict[str, Any]:
         verified = d.get("name_verified", False)
@@ -342,6 +423,16 @@ class EntityService:
             ))
         return results
 
+    def create_place(self, body: PlaceInput) -> PlaceList:
+        place_id = new_id("place")
+        db.places.insert_one({
+            "_id": place_id,
+            "name": body.name,
+            "sources": [],
+            "location": {"type": "Point", "coordinates": [float(body.long), float(body.lat)]},
+        })
+        return PlaceList(id=place_id, label=body.name, lat=str(body.lat), long=str(body.long), personCount=0)
+
     def get_place_detail(self, place_id: str) -> Optional[PlaceDetail]:
         p = db.places.find_one({"_id": place_id})
         if not p:
@@ -391,18 +482,53 @@ class EntityService:
 
     def list_sources(self) -> List[dict]:
         counts = {}
-        for collection in ("persons", "works", "places", "subjects"):
+        for collection in SOURCE_LINKED_COLLECTIONS:
             for source_id, count in self._person_counts("sources", collection).items():
                 counts[source_id] = counts.get(source_id, 0) + count
         return [
             {
                 "id": s["_id"],
                 "label": s["name"],
+                "shelfmark": s.get("shelfmark"),
+                "url": s.get("url"),
                 "description": f"Data source containing {counts.get(s['_id'], 0)} entities",
                 "count": counts.get(s["_id"], 0),
             }
-            for s in db.sources.find({}, {"name": 1}).sort("name", 1).collation(NAME_COLLATION)
+            for s in db.sources.find({}, {"name": 1, "shelfmark": 1, "url": 1}).sort("name", 1).collation(NAME_COLLATION)
         ]
+
+    def _source(self, source_id: str) -> dict:
+        s = db.sources.find_one({"_id": source_id}, {"name": 1, "shelfmark": 1, "url": 1})
+        if not s:
+            raise LookupError("Source not found")
+        return {"id": s["_id"], "label": s["name"], "shelfmark": s.get("shelfmark"), "url": s.get("url")}
+
+    def create_source(self, body: SourceInput) -> dict:
+        source_id = new_id("source")
+        db.sources.insert_one({"_id": source_id, **body.model_dump(exclude_none=True)})
+        return self._source(source_id)
+
+    def update_source(self, source_id: str, body: SourceInput) -> dict:
+        update = {"$set": body.model_dump(exclude_none=True)}
+        cleared = {field: "" for field, value in body.model_dump().items() if value is None}
+        if cleared:
+            update["$unset"] = cleared
+        result = db.sources.update_one({"_id": source_id}, update)
+        if not result.matched_count:
+            raise LookupError("Source not found")
+        return self._source(source_id)
+
+    def delete_source(self, source_id: str) -> None:
+        if not db.sources.find_one({"_id": source_id}, {"_id": 1}):
+            raise LookupError("Source not found")
+        linked = {
+            collection: db[collection].count_documents({"$or": [{field: source_id} for field in fields]})
+            for collection, fields in SOURCE_REFERENCE_FIELDS.items()
+        }
+        linked = {collection: count for collection, count in linked.items() if count}
+        if linked:
+            raise ConflictError(f"Source is linked to {', '.join(f'{count} {collection}' for collection, count in linked.items())}")
+        db.sources.delete_one({"_id": source_id})
 
     def list_languages(self) -> List[LanguageList]:
         counts = self._person_counts("languages")
@@ -465,7 +591,7 @@ class EntityService:
         persons = list(db.persons.find(query, {"name": 1, "times": 1, "places": 1, "subjects": 1, "languages": 1, "relations": 1}))
         works = list(db.works.find(query, {"title": 1, "authors": 1, "translators": 1, "translation_of": 1, "subjects": 1, "languages": 1}))
         for p in persons:
-            add_node(p["_id"], p["name"], ENTITY_GROUPS["persons"], time_buckets(p["times"]))
+            add_node(p["_id"], p["name"], ENTITY_GROUPS["persons"], time_buckets(person_times(p)))
         for w in works:
             add_node(w["_id"], w["title"], ENTITY_GROUPS["works"])
         for collection in ("places", "subjects", "languages"):
@@ -554,7 +680,7 @@ class EntityService:
         features = []
         seen = set()
         for p in persons:
-            buckets = time_buckets(p["times"]) or [None]
+            buckets = time_buckets(person_times(p)) or [None]
             sources = [source_names[s] for s in p["sources"] if s in source_names] or ["Unknown"]
             for rel in p["places"]:
                 if rel["place"] not in places:

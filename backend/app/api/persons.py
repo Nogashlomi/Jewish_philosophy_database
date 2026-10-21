@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException, Query
 from app.core.auth import get_current_user
 from app.services.entity_service import entity_service, ConflictError
-from app.schemas.person import PersonDetail, VerifyName
+from app.schemas.person import PersonDetail, VerifyName, UpdateConnections
 
 router = APIRouter()
 
@@ -36,5 +36,14 @@ async def verify_person_name(person_id: str, body: VerifyName):
         raise HTTPException(status_code=404, detail=str(e))
     except ConflictError as e:
         raise HTTPException(status_code=409, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.put("/{person_id}/connections", response_model=PersonDetail, dependencies=[Depends(get_current_user)])
+async def update_person_connections(person_id: str, body: UpdateConnections):
+    try:
+        return entity_service.update_connections(person_id, body.connections)
+    except LookupError as e:
+        raise HTTPException(status_code=404, detail=str(e))
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))

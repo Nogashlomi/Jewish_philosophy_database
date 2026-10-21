@@ -70,6 +70,7 @@ export interface PersonDetail {
   works: RelatedWork[]
   places: PlaceRelation[]
   times: TimeRelation[]
+  connections: PersonConnection[]
   time_buckets: string[]
   subjects?: string[]
   languages?: string[]
@@ -94,15 +95,53 @@ export interface PlaceRelation {
   type?: string
   start?: string
   end?: string
-  time_label?: string
+  estimated?: boolean
   description?: string
+  source?: string | null
 }
 
 export interface TimeRelation {
   type?: string
   start?: string
   end?: string
-  label?: string
+  estimated?: boolean
+  description?: string | null
+  source?: string | null
+}
+
+export const CONNECTION_TYPES = [
+  'birth',
+  'death',
+  'burial',
+  'lifespan',
+  'activity',
+  'residence',
+  'study',
+  'travel',
+  'associated',
+] as const
+
+export type ConnectionType = (typeof CONNECTION_TYPES)[number]
+
+export interface PersonConnectionInput {
+  type: ConnectionType
+  place_id?: string | null
+  start?: number | null
+  end?: number | null
+  estimated: boolean
+  description?: string | null
+  source_id?: string | null
+}
+
+export interface PersonConnection extends PersonConnectionInput {
+  place_label?: string | null
+  source_label?: string | null
+}
+
+export interface PlaceInput {
+  name: string
+  lat: number
+  long: number
 }
 
 export interface WorkAuthor {
@@ -169,8 +208,16 @@ export interface LanguageDetail {
 export interface Source {
   id: string
   label: string
+  shelfmark: string | null
+  url: string | null
   description: string
   count: number
+}
+
+export interface SourceInput {
+  name: string
+  shelfmark?: string | null
+  url?: string | null
 }
 
 export interface NetworkNode {
