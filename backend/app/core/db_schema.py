@@ -46,6 +46,18 @@ def ref_targets(pattern: str) -> list:
 STRING = {"bsonType": "string"}
 STRINGS = {"bsonType": "array", "items": STRING}
 YEAR = {"bsonType": "int"}
+SOURCE_LINKS = {
+    "bsonType": "array",
+    "items": {
+        "bsonType": "object",
+        "required": ["source"],
+        "properties": {
+            "source": _ref("source"),
+            "shelfmark": STRING,
+            "url": STRING,
+        },
+    },
+}
 
 COLLECTIONS = {
     "sources": {
@@ -79,7 +91,7 @@ COLLECTIONS = {
             "_id": _ref("subject"),
             "name": STRING,
             "description": STRING,
-            "sources": _refs("source"),
+            "sources": SOURCE_LINKS,
         },
     },
     "places": {
@@ -98,7 +110,7 @@ COLLECTIONS = {
                     "coordinates": {"bsonType": "array", "minItems": 2, "maxItems": 2, "items": {"bsonType": "double"}},
                 },
             },
-            "sources": _refs("source"),
+            "sources": SOURCE_LINKS,
         },
     },
     "persons": {
@@ -126,7 +138,7 @@ COLLECTIONS = {
             },
             "description": STRING,
             "notes": STRINGS,
-            "sources": _refs("source"),
+            "sources": SOURCE_LINKS,
             "subjects": _refs("subject"),
             "languages": _refs("language"),
             "times": {
@@ -141,6 +153,8 @@ COLLECTIONS = {
                         "estimated": {"bsonType": "bool"},
                         "description": STRING,
                         "source": _ref("source"),
+                        "source_shelfmark": STRING,
+                        "source_url": STRING,
                     },
                 },
             },
@@ -157,6 +171,8 @@ COLLECTIONS = {
                         "estimated": {"bsonType": "bool"},
                         "description": STRING,
                         "source": _ref("source"),
+                        "source_shelfmark": STRING,
+                        "source_url": STRING,
                     },
                 },
             },
@@ -184,7 +200,7 @@ COLLECTIONS = {
             "description": STRING,
             "authorship_status": STRING,
             "preservation_status": STRING,
-            "sources": _refs("source"),
+            "sources": SOURCE_LINKS,
             "subjects": _refs("subject"),
             "languages": _refs("language"),
             "authors": _refs("person"),
@@ -197,12 +213,12 @@ COLLECTIONS = {
 INDEXES = {
     "sources": [("name", NAME_COLLATION)],
     "languages": [("name", NAME_COLLATION)],
-    "subjects": [("name", NAME_COLLATION), ("sources", None)],
-    "places": [("name", NAME_COLLATION), ("sources", None)],
+    "subjects": [("name", NAME_COLLATION), ("sources.source", None)],
+    "places": [("name", NAME_COLLATION), ("sources.source", None)],
     "persons": [
         ("name", NAME_COLLATION),
         ("alt_names", None),
-        ("sources", None),
+        ("sources.source", None),
         ("subjects", None),
         ("languages", None),
         ("places.place", None),
@@ -212,7 +228,7 @@ INDEXES = {
     ],
     "works": [
         ("title", NAME_COLLATION),
-        ("sources", None),
+        ("sources.source", None),
         ("subjects", None),
         ("languages", None),
         ("authors", None),

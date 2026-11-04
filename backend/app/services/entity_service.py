@@ -20,7 +20,7 @@ ENTITY_GROUPS = {
 }
 OUTGOING_RELATIONS = {"influenced_by": "influenced_by", "cites": "cites", "interlocutor_of": "interlocutor"}
 SOURCE_LINKED_COLLECTIONS = ("persons", "works", "places", "subjects")
-SOURCE_REFERENCE_FIELDS = {"persons": ("sources", "times.source", "places.source"), "works": ("sources",), "places": ("sources",), "subjects": ("sources",)}
+SOURCE_REFERENCE_FIELDS = {"persons": ("sources.source", "times.source", "places.source"), "works": ("sources.source",), "places": ("sources.source",), "subjects": ("sources.source",)}
 INCOMING_RELATIONS = {"influenced_by": "influenced", "cites": "cited_by", "interlocutor_of": "interlocutor"}
 NETWORK_RELATIONS = {"influenced_by": "influencedBy", "cites": "cites", "interlocutor_of": "interlocutorOf"}
 BUCKET_SIZE = 50
@@ -99,7 +99,7 @@ class EntityService:
         return names
 
     def _source_query(self, source: Optional[str]) -> dict:
-        return {"sources": source} if source else {}
+        return {"sources.source": source} if source else {}
 
     def _paginate(self, total: int, page: int, page_size: int, items: list) -> Dict[str, Any]:
         return {
@@ -196,8 +196,10 @@ class EntityService:
                 estimated=p.get("estimated", False),
                 description=p.get("description"),
                 source=source_names.get(p.get("source")),
+                source_shelfmark=p.get("source_shelfmark"),
+                source_url=p.get("source_url"),
             )
-            places_map.setdefault((place.place_id, (place.type or "").lower(), place.start, place.end, place.estimated, place.description, place.source), place)
+            places_map.setdefault((place.place_id, (place.type or "").lower(), place.start, place.end, place.estimated, place.description, place.source, place.source_shelfmark, place.source_url), place)
 
         times_map = {}
         for t in d["times"]:
@@ -208,8 +210,10 @@ class EntityService:
                 estimated=t.get("estimated", False),
                 description=t.get("description"),
                 source=source_names.get(t.get("source")),
+                source_shelfmark=t.get("source_shelfmark"),
+                source_url=t.get("source_url"),
             )
-            times_map.setdefault((time.type.lower(), time.start, time.end, time.estimated, time.description, time.source), time)
+            times_map.setdefault((time.type.lower(), time.start, time.end, time.estimated, time.description, time.source, time.source_shelfmark, time.source_url), time)
 
         connections = [
             PersonConnection(
@@ -220,6 +224,8 @@ class EntityService:
                 estimated=r.get("estimated", False),
                 description=r.get("description"),
                 source_id=r.get("source"),
+                source_shelfmark=r.get("source_shelfmark"),
+                source_url=r.get("source_url"),
                 place_label=place_names.get(r["place"], r["place"]) if "place" in r else None,
                 source_label=source_names.get(r.get("source")),
             )
@@ -274,7 +280,8 @@ class EntityService:
             raise ValueError(f"Unknown {label}: {', '.join(sorted(missing))}")
 
     def update_connections(self, person_id: str, connections: List[PersonConnectionInput]) -> PersonDetail:
-        if not db.persons.find_one({"_id": person_id}, {"_id": 1}):
+        person = db.persons.find_one({"_id": person_id}, {"sources": 1})
+        if not person:
             raise LookupError("Person not found")
         self._check_exist("places", (c.place_id for c in connections if c.place_id), "places")
         self._check_exist("sources", (c.source_id for c in connections if c.source_id), "sources")
@@ -293,17 +300,26 @@ class EntityService:
                 row["description"] = c.description
             if c.source_id:
                 row["source"] = c.source_id
+            if c.source_shelfmark:
+                row["source_shelfmark"] = c.source_shelfmark
+            if c.source_url:
+                row["source_url"] = c.source_url
             target = places if c.place_id else times
             if row not in target:
                 target.append(row)
         times.sort(key=lambda t: t["from"])
         places.sort(key=lambda p: (p.get("from") is None, p.get("from", 0)))
 
+        linked = {s["source"] for s in person["sources"]}
         db.persons.update_one(
             {"_id": person_id},
             {
                 "$set": {"times": times, "places": places},
-                "$addToSet": {"sources": {"$each": _unique(c.source_id for c in connections if c.source_id)}},
+                "$push": {"sources": {"$each": [
+                    {"source": source_id}
+                    for source_id in _unique(c.source_id for c in connections if c.source_id)
+                    if source_id not in linked
+                ]}},
             },
         )
         return self.get_person_detail(person_id)
@@ -483,7 +499,7 @@ class EntityService:
     def list_sources(self) -> List[dict]:
         counts = {}
         for collection in SOURCE_LINKED_COLLECTIONS:
-            for source_id, count in self._person_counts("sources", collection).items():
+            for source_id, count in self._person_counts("sources.source", collection).items():
                 counts[source_id] = counts.get(source_id, 0) + count
         return [
             {
@@ -675,13 +691,13 @@ class EntityService:
     def get_geo_json(self, source: str = None) -> Dict[str, Any]:
         persons = list(db.persons.find(self._source_query(source), {"name": 1, "places": 1, "times": 1, "sources": 1}))
         places = self._place_coordinates(rel["place"] for p in persons for rel in p["places"])
-        source_names = self._names("sources", (s for p in persons for s in p["sources"]))
+        source_names = self._names("sources", (s["source"] for p in persons for s in p["sources"]))
 
         features = []
         seen = set()
         for p in persons:
             buckets = time_buckets(person_times(p)) or [None]
-            sources = [source_names[s] for s in p["sources"] if s in source_names] or ["Unknown"]
+            sources = _unique(source_names[s["source"]] for s in p["sources"] if s["source"] in source_names) or ["Unknown"]
             for rel in p["places"]:
                 if rel["place"] not in places:
                     continue

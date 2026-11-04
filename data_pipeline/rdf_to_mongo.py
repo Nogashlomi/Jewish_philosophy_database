@@ -79,6 +79,9 @@ class Migration:
                     self.warnings.append(f"dangling {local_name(predicate)} from {local_name(u)} to {local_name(o)}")
         return unique(result)
 
+    def source_links(self, uris) -> list:
+        return [{"source": source_id} for source_id in self.refs(uris, JP.hasSource)]
+
     def entity_uris(self, collection: str) -> list:
         uris = set(self.g.subjects(RDF.type, CLASSES[collection]))
         if collection == "sources":
@@ -140,14 +143,14 @@ class Migration:
         return {"_id": entity_id, "name": self.name(uris)}
 
     def build_subjects(self, entity_id, uris) -> dict:
-        doc = {"_id": entity_id, "name": self.name(uris), "sources": self.refs(uris, JP.hasSource)}
+        doc = {"_id": entity_id, "name": self.name(uris), "sources": self.source_links(uris)}
         description = self.first(uris, JP.hasDescription)
         if description is not None:
             doc["description"] = str(description)
         return doc
 
     def build_places(self, entity_id, uris) -> dict:
-        doc = {"_id": entity_id, "name": self.name(uris), "sources": self.refs(uris, JP.hasSource)}
+        doc = {"_id": entity_id, "name": self.name(uris), "sources": self.source_links(uris)}
         for lat_predicate, long_predicate in ((JP.latitude, JP.longitude), (GEO.lat, GEO.long)):
             lat = self.first(uris, lat_predicate)
             long = self.first(uris, long_predicate)
@@ -162,7 +165,7 @@ class Migration:
             "_id": entity_id,
             "name": name,
             "alt_names": [l for l in self.labels(uris) if l != name],
-            "sources": self.refs(uris, JP.hasSource),
+            "sources": self.source_links(uris),
             "subjects": unique(self.refs(uris, JP.hasSubject) + [
                 self.ids[s] for u in uris for s in self.g.subjects(JP.isSubjectOf, u) if s in self.ids
             ]),
@@ -211,7 +214,7 @@ class Migration:
         doc = {
             "_id": entity_id,
             "title": self.name(uris),
-            "sources": self.refs(uris, JP.hasSource),
+            "sources": self.source_links(uris),
             "subjects": self.refs(uris, JP.hasSubject),
             "languages": self.refs(uris, JP.hasLanguage),
             "authors": self.refs(uris, JP.writtenBy),

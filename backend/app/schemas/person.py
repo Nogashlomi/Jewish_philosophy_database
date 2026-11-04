@@ -27,6 +27,8 @@ class PlaceRelation(BaseModel):
     estimated: bool = False
     description: Optional[str] = None
     source: Optional[str] = None
+    source_shelfmark: Optional[str] = None
+    source_url: Optional[str] = None
 
 class IntellectualRelation(BaseModel):
     id: str
@@ -41,6 +43,8 @@ class TimeRelation(BaseModel):
     estimated: bool = False
     description: Optional[str] = None
     source: Optional[str] = None
+    source_shelfmark: Optional[str] = None
+    source_url: Optional[str] = None
 
 class PersonConnectionInput(BaseModel):
     type: ConnectionType
@@ -50,10 +54,18 @@ class PersonConnectionInput(BaseModel):
     estimated: bool = False
     description: OptionalText = None
     source_id: Optional[str] = None
+    source_shelfmark: OptionalText = None
+    source_url: OptionalText = None
 
     @model_validator(mode="after")
     def check_place_or_time(self):
         self.description = self.description or None
+        self.source_shelfmark = self.source_shelfmark or None
+        self.source_url = self.source_url or None
+        if (self.source_shelfmark or self.source_url) and not self.source_id:
+            raise ValueError("A shelfmark or link requires a source")
+        if self.source_url and not self.source_url.startswith(("http://", "https://")):
+            raise ValueError("Link must start with http:// or https://")
         if self.place_id is None and self.start is None:
             raise ValueError("A connection needs a place, a start year, or both")
         if self.end is not None and self.start is None:

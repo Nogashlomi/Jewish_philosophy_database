@@ -98,6 +98,8 @@ export interface PlaceRelation {
   estimated?: boolean
   description?: string
   source?: string | null
+  source_shelfmark?: string | null
+  source_url?: string | null
 }
 
 export interface TimeRelation {
@@ -107,6 +109,8 @@ export interface TimeRelation {
   estimated?: boolean
   description?: string | null
   source?: string | null
+  source_shelfmark?: string | null
+  source_url?: string | null
 }
 
 export const CONNECTION_TYPES = [
@@ -131,6 +135,8 @@ export interface PersonConnectionInput {
   estimated: boolean
   description?: string | null
   source_id?: string | null
+  source_shelfmark?: string | null
+  source_url?: string | null
 }
 
 export interface PersonConnection extends PersonConnectionInput {

@@ -27,6 +27,32 @@ function yearRange(item: { start?: string; end?: string; estimated?: boolean }):
   return `${prefix}${start}–${end}`
 }
 
+function SourceCitation({
+  item,
+}: {
+  item: { source?: string | null; source_shelfmark?: string | null; source_url?: string | null }
+}) {
+  if (!item.source) return null
+  const label = item.source_shelfmark ? `${item.source}, ${item.source_shelfmark}` : item.source
+  return (
+    <span className="text-xs text-gray-400">
+      ·{' '}
+      {item.source_url ? (
+        <a
+          href={item.source_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-indigo-600 hover:underline"
+        >
+          {label}
+        </a>
+      ) : (
+        label
+      )}
+    </span>
+  )
+}
+
 export default function PersonDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
@@ -90,7 +116,9 @@ export default function PersonDetail() {
                         <span className="ml-2 text-xs text-gray-400">({time.type})</span>
                       )}
                       {time.source && (
-                        <span className="ml-2 text-xs text-gray-400">· {time.source}</span>
+                        <span className="ml-2">
+                          <SourceCitation item={time} />
+                        </span>
                       )}
                       {time.description && (
                         <p className="text-sm text-gray-600">{time.description}</p>
@@ -147,9 +175,7 @@ export default function PersonDetail() {
                           {place.type && (
                             <span className="text-xs text-gray-400">({place.type})</span>
                           )}
-                          {place.source && (
-                            <span className="text-xs text-gray-400">· {place.source}</span>
-                          )}
+                          <SourceCitation item={place} />
                         </div>
                         {place.description && (
                           <p className="mt-1 text-sm text-gray-600">{place.description}</p>

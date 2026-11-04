@@ -132,7 +132,7 @@ async def test_update_connections(async_client, auth_headers, seeded_db):
         {"place": "place_cordoba1", "type": "birth", "from": 1136, "until": 1138, "estimated": True, "description": "Born here", "source": "source_unused01"},
         {"place": "place_cairo001", "type": "residence"},
     ]
-    assert stored["sources"] == ["source_zonta001", "source_wiki0001", "source_unused01"]
+    assert stored["sources"] == [{"source": "source_zonta001"}, {"source": "source_wiki0001"}, {"source": "source_unused01"}]
 
     birth = next(c for c in data["connections"] if c["type"] == "birth")
     assert birth["source_label"] == "Unused Source"

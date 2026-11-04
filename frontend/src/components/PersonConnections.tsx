@@ -27,6 +27,8 @@ interface Draft {
   estimated: boolean
   description: string
   source: EntityOption | null
+  sourceShelfmark: string
+  sourceUrl: string
 }
 
 type Creating = { key: number; kind: 'place' | 'source'; name: string } | null
@@ -42,6 +44,8 @@ const toDraft = (c: PersonConnection): Draft => ({
   estimated: c.estimated,
   description: c.description ?? '',
   source: c.source_id ? { id: c.source_id, label: c.source_label ?? c.source_id } : null,
+  sourceShelfmark: c.source_shelfmark ?? '',
+  sourceUrl: c.source_url ?? '',
 })
 
 const emptyDraft = (): Draft => ({
@@ -53,6 +57,8 @@ const emptyDraft = (): Draft => ({
   estimated: false,
   description: '',
   source: null,
+  sourceShelfmark: '',
+  sourceUrl: '',
 })
 
 const parseYear = (value: string): number | null | undefined => {
@@ -69,6 +75,8 @@ function draftError(draft: Draft): string | null {
   if (!draft.place && start === null) return 'Choose a place, a start year, or both'
   if (end !== null && start === null) return 'An end year requires a start year'
   if (end !== null && start !== null && end < start) return 'End year must not be before start year'
+  const url = draft.sourceUrl.trim()
+  if (draft.source && url && !/^https?:\/\//.test(url)) return 'Link must start with http:// or https://'
   return null
 }
 
@@ -82,6 +90,8 @@ function toInput(draft: Draft): PersonConnectionInput {
     estimated: start !== null && draft.estimated,
     description: draft.description.trim() || null,
     source_id: draft.source?.id ?? null,
+    source_shelfmark: (draft.source && draft.sourceShelfmark.trim()) || null,
+    source_url: (draft.source && draft.sourceUrl.trim()) || null,
   }
 }
 
@@ -300,6 +310,31 @@ function DraftRow({
           />
         </div>
       </div>
+
+      {draft.source && (
+        <div className="flex flex-wrap items-end gap-3">
+          <label className="flex-1 min-w-[10rem] text-sm text-gray-700">
+            Shelfmark (optional)
+            <input
+              type="text"
+              value={draft.sourceShelfmark}
+              onChange={(event) => onChange({ ...draft, sourceShelfmark: event.target.value })}
+              placeholder="e.g. page or folio within the source"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-1.5 text-sm"
+            />
+          </label>
+          <label className="flex-1 min-w-[10rem] text-sm text-gray-700">
+            Link (optional)
+            <input
+              type="url"
+              value={draft.sourceUrl}
+              onChange={(event) => onChange({ ...draft, sourceUrl: event.target.value })}
+              placeholder="https://"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-1.5 text-sm"
+            />
+          </label>
+        </div>
+      )}
 
       {creating?.kind === 'source' && (
         <div className="rounded-md border border-indigo-200 bg-indigo-50 p-3">
