@@ -48,6 +48,18 @@ all_origins = list(set(config_origins + production_origins))
 
 print(f"DEBUG: CORS origins configured: {all_origins}")
 
+import logging
+from fastapi import Request
+from fastapi.responses import JSONResponse
+
+@app.middleware("http")
+async def catch_unhandled_exceptions(request: Request, call_next):
+    try:
+        return await call_next(request)
+    except Exception:
+        logging.getLogger("uvicorn.error").exception("Unhandled error on %s %s", request.method, request.url.path)
+        return JSONResponse(status_code=500, content={"detail": "Internal Server Error"})
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=all_origins,
