@@ -215,15 +215,6 @@ def export_entry(fetcher: Fetcher, identifier: str, dirs: dict) -> dict | None:
     return entry
 
 
-def write_combined(dirs: dict, output_dir: Path):
-    paths = sorted(dirs["json"].glob("*.json"))
-    with open(output_dir / "sep_entries.jsonl", "w", encoding="utf-8") as out:
-        for path in paths:
-            with open(path, encoding="utf-8") as f:
-                out.write(json.dumps(json.load(f), ensure_ascii=False) + "\n")
-    logging.info(f"wrote {len(paths)} entries to {output_dir / 'sep_entries.jsonl'}")
-
-
 def main():
     parser = argparse.ArgumentParser(description="Export all Stanford Encyclopedia of Philosophy entries (JSON + Markdown + raw HTML).")
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
@@ -257,7 +248,6 @@ def main():
             logging.error(f"[{i}/{len(identifiers)}] {identifier}: {e}")
             failed.append(identifier)
 
-    write_combined(dirs, args.output_dir)
     if failed:
         logging.warning(f"{len(failed)} failed: {' '.join(failed)}")
 
