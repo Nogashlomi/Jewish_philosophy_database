@@ -260,6 +260,8 @@ class Assembler:
                     continue
                 if kind == "works" and not self.works_share_author(a, b):
                     continue
+                if kind == "works" and self.derived_from(a, b):
+                    continue
                 uf.union(a.ref, b.ref)
         groups = {}
         for item in items:
@@ -268,6 +270,13 @@ class Assembler:
         for root, members in groups.items():
             for member in members:
                 self.group_of[(kind, member.ref)] = root
+
+    def derived_from(self, a: Item, b: Item) -> bool:
+        for x, y in ((a, b), (b, a)):
+            for field in ("translation_of", "commentary_on"):
+                if self.local_ref("works", x.entry, x.data.get(field)) == ("item", y.ref):
+                    return True
+        return False
 
     def person_key(self, entry: str, ref):
         target = self.local_ref("persons", entry, ref)
@@ -635,7 +644,9 @@ class Assembler:
             for m in members:
                 if m.data.get(field):
                     target = self.ref_id("works", m.entry, m.data[field], context)
-                    if target:
+                    if target and target == self.resolved.get(("works", root), (None, None))[1]:
+                        self.report.add("dropped_refs", f"{context}: {field} points to itself")
+                    elif target:
                         doc[field] = target
                         break
         return doc

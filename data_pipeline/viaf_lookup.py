@@ -9,11 +9,11 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from rdflib import Graph, Namespace, RDF, RDFS
+from pymongo import MongoClient
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-JP = Namespace("http://jewish_philosophy.org/ontology#")
+DB_NAME = "jephy"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 OUTPUT_CSV = DATA_DIR / "viaf_lookup.csv"
 SEARCH_URL = "https://viaf.org/viaf/AutoSuggest"
@@ -32,13 +32,10 @@ class RateLimited(Exception):
 
 
 def load_person_names():
-    g = Graph()
-    for ttl in sorted(DATA_DIR.rglob("*.ttl")):
-        g.parse(ttl, format="turtle")
-    names = set()
-    for person in g.subjects(RDF.type, JP.HistoricalPerson):
-        for label in g.objects(person, RDFS.label):
-            names.add(str(label).strip())
+    client = MongoClient(os.environ["MONGODB_URI"])
+    query = {"name_verified": {"$ne": True}, "viaf_id": {"$in": [None, ""]}}
+    names = {(person.get("name") or "").strip() for person in client[DB_NAME].persons.find(query, {"name": 1})}
+    client.close()
     return sorted(n for n in names if n)
 
 

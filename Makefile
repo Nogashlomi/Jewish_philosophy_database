@@ -3,7 +3,7 @@ REGION ?= europe-west1
 SERVICE ?= jephy-backend
 ENV_FILE ?= backend/.env
 
-.PHONY: server-deploy server-dev frontend-deploy frontend-dev frontend-dev-remote
+.PHONY: server-deploy server-dev frontend-deploy frontend-dev frontend-dev-remote viaf-lookup viaf-import
 
 server-deploy:
 	@MONGODB_URI="$$(grep -E '^MONGODB_URI=' $(ENV_FILE) | head -n1 | cut -d= -f2-)"; \
@@ -25,3 +25,9 @@ frontend-dev:
 
 frontend-dev-remote:
 	cd frontend && yarn dev:remote
+
+viaf-lookup:
+	cd data_pipeline && uv run --env-file $(abspath $(ENV_FILE)) python viaf_lookup.py
+
+viaf-import:
+	cd data_pipeline && uv run --env-file $(abspath $(ENV_FILE)) python import_viaf_suggestions.py

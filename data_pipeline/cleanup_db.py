@@ -114,7 +114,7 @@ class Cleanup:
             if other is None:
                 self.log.append(f"skip merge: {other_id} missing")
                 continue
-            self.merge_common(keep, other, alt_field)
+            self.merge_common(keep, other, None if op.get("same_title") else alt_field)
             if collection == "persons":
                 note = qualifier(other["name"]) or ("?" if other["name"].rstrip().endswith("?") else "")
                 if note:
@@ -169,7 +169,9 @@ class Cleanup:
             doc[field] = value
         for field, values in op.get("add", {}).items():
             doc[field] = unique(doc.get(field, []) + values)
-        self.log.append(f"set {op['collection']} {op['_id']}: {list(op['set']) + list(op.get('add', {}))}")
+        for field in op.get("unset", []):
+            doc.pop(field, None)
+        self.log.append(f"set {op['collection']} {op['_id']}: {list(op['set']) + list(op.get('add', {})) + list(op.get('unset', []))}")
 
     def remove_elements(self, op: dict):
         doc = self.docs[op["collection"]][op["_id"]]
