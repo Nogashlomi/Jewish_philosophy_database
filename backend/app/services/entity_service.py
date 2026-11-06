@@ -20,7 +20,7 @@ ENTITY_GROUPS = {
 }
 OUTGOING_RELATIONS = {"influenced_by": "influenced_by", "cites": "cites", "interlocutor_of": "interlocutor"}
 SOURCE_LINKED_COLLECTIONS = ("persons", "works", "places", "subjects")
-SOURCE_REFERENCE_FIELDS = {"persons": ("sources.source", "times.source", "places.source"), "works": ("sources.source",), "places": ("sources.source",), "subjects": ("sources.source",)}
+SOURCE_REFERENCE_FIELDS = {"persons": ("sources.source", "times.source", "places.source", "relations.source"), "works": ("sources.source", "times.source"), "places": ("sources.source",), "subjects": ("sources.source",)}
 INCOMING_RELATIONS = {"influenced_by": "influenced", "cites": "cited_by", "interlocutor_of": "interlocutor"}
 NETWORK_RELATIONS = {"influenced_by": "influencedBy", "cites": "cites", "interlocutor_of": "interlocutorOf"}
 BUCKET_SIZE = 50

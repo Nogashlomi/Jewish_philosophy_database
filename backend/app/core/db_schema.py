@@ -58,6 +58,23 @@ SOURCE_LINKS = {
         },
     },
 }
+TIMES = {
+    "bsonType": "array",
+    "items": {
+        "bsonType": "object",
+        "required": ["type", "from"],
+        "properties": {
+            "type": STRING,
+            "from": YEAR,
+            "until": YEAR,
+            "estimated": {"bsonType": "bool"},
+            "description": STRING,
+            "source": _ref("source"),
+            "source_shelfmark": STRING,
+            "source_url": STRING,
+        },
+    },
+}
 
 COLLECTIONS = {
     "sources": {
@@ -141,23 +158,7 @@ COLLECTIONS = {
             "sources": SOURCE_LINKS,
             "subjects": _refs("subject"),
             "languages": _refs("language"),
-            "times": {
-                "bsonType": "array",
-                "items": {
-                    "bsonType": "object",
-                    "required": ["type", "from"],
-                    "properties": {
-                        "type": STRING,
-                        "from": YEAR,
-                        "until": YEAR,
-                        "estimated": {"bsonType": "bool"},
-                        "description": STRING,
-                        "source": _ref("source"),
-                        "source_shelfmark": STRING,
-                        "source_url": STRING,
-                    },
-                },
-            },
+            "times": TIMES,
             "places": {
                 "bsonType": "array",
                 "items": {
@@ -182,8 +183,12 @@ COLLECTIONS = {
                     "bsonType": "object",
                     "required": ["type", "target"],
                     "properties": {
-                        "type": {"enum": ["influenced_by", "cites", "interlocutor_of", "translated"]},
+                        "type": {"enum": ["influenced_by", "cites", "interlocutor_of", "translated", "student_of"]},
                         "target": _ref("person", "work"),
+                        "description": STRING,
+                        "source": _ref("source"),
+                        "source_shelfmark": STRING,
+                        "source_url": STRING,
                     },
                 },
             },
@@ -197,6 +202,7 @@ COLLECTIONS = {
         "properties": {
             "_id": _ref("work"),
             "title": STRING,
+            "alt_titles": STRINGS,
             "description": STRING,
             "authorship_status": STRING,
             "preservation_status": STRING,
@@ -206,6 +212,8 @@ COLLECTIONS = {
             "authors": _refs("person"),
             "translators": _refs("person"),
             "translation_of": _ref("work"),
+            "commentary_on": _ref("work"),
+            "times": TIMES,
         },
     },
 }
@@ -225,6 +233,7 @@ INDEXES = {
         ("times.source", None),
         ("places.source", None),
         ("relations.target", None),
+        ("relations.source", None),
     ],
     "works": [
         ("title", NAME_COLLATION),
@@ -234,6 +243,9 @@ INDEXES = {
         ("authors", None),
         ("translators", None),
         ("translation_of", None),
+        ("commentary_on", None),
+        ("alt_titles", None),
+        ("times.source", None),
     ],
 }
 
@@ -241,7 +253,7 @@ INDEXES = {
 SEARCH_INDEX_NAME = "text_search"
 SEARCH_FIELDS = {
     "persons": ["name", "alt_names", "description", "notes"],
-    "works": ["title", "description"],
+    "works": ["title", "alt_titles", "description"],
     "places": ["name"],
 }
 
