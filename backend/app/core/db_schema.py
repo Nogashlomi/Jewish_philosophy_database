@@ -204,6 +204,7 @@ COLLECTIONS = {
             "title": STRING,
             "alt_titles": STRINGS,
             "description": STRING,
+            "notes": STRINGS,
             "authorship_status": STRING,
             "preservation_status": STRING,
             "sources": SOURCE_LINKS,
@@ -253,7 +254,7 @@ INDEXES = {
 SEARCH_INDEX_NAME = "text_search"
 SEARCH_FIELDS = {
     "persons": ["name", "alt_names", "description", "notes"],
-    "works": ["title", "alt_titles", "description"],
+    "works": ["title", "alt_titles", "description", "notes"],
     "places": ["name"],
 }
 

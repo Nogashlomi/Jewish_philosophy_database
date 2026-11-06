@@ -15,3 +15,7 @@ app.log
 uvicorn.log
 *.bak
 .firebase/
+
+data/db_snapshot.json
+data/db_backups/
+data/sep_import/

@@ -1,5 +1,6 @@
 import argparse
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -7,6 +8,7 @@ from pathlib import Path
 from common import (
     DEFAULT_EXPORT,
     ENTRIES_DIR,
+    IDS_FILE,
     REPO,
     SNAPSHOT,
     WORK_DIR,
@@ -31,10 +33,14 @@ SEP_URL = "https://plato.stanford.edu/"
 ID_PATTERN = re.compile(rf"^({'|'.join(COLLECTION_PREFIXES.values())})_[a-z0-9]{{{ID_LENGTH}}}$")
 SECTION_NUMBER = re.compile(r"^[\dA-Z]+(\.\d+)*\.?\s+")
 NEAR_DUPLICATE = 0.88
+SINGULAR_TIMES = ("lifespan", "birth", "death")
 ENTITY_KINDS = ("persons", "works", "places")
 LABEL_KEY = {"persons": "name", "works": "title", "places": "name"}
 ALT_KEY = {"persons": "alt_names", "works": "alt_titles", "places": "alt_names"}
 OUTPUT_ORDER = ("sources", "languages", "subjects", "places", "persons", "works")
+NUMBERED_SUFFIX = re.compile(r"\s*\(\d+\)\s*$")
+MERGED_WORK_GAP = 100
+COORDINATE_GAP_KM = 100
 
 
 class Report:
@@ -58,6 +64,7 @@ class Item:
 class UnionFind:
     def __init__(self):
         self.parent = {}
+        self.db_ids = {}
 
     def find(self, x):
         self.parent.setdefault(x, x)
@@ -66,10 +73,17 @@ class UnionFind:
             x = self.parent[x]
         return x
 
-    def union(self, a, b):
+    def union(self, a, b) -> bool:
         ra, rb = self.find(a), self.find(b)
-        if ra != rb:
-            self.parent[max(ra, rb)] = min(ra, rb)
+        if ra == rb:
+            return True
+        ids = self.db_ids.get(ra, set()) | self.db_ids.get(rb, set())
+        if len(ids) > 1:
+            return False
+        root, child = min(ra, rb), max(ra, rb)
+        self.parent[child] = root
+        self.db_ids[root] = ids
+        return True
 
 
 def bson_type_ok(value, bson_type: str) -> bool:
@@ -124,6 +138,7 @@ class Assembler:
         self.ids_path = ids_path
         self.ids = load_json(ids_path) if ids_path.exists() else {}
         self.used_ids = {d["_id"] for c in COLLECTIONS for d in snapshot[c]} | set(self.ids.values())
+        self.created_ids = set(self.ids.values())
         self.db = {c: {d["_id"]: d for d in snapshot[c]} for c in COLLECTIONS}
         self.db_labels = {
             kind: [
@@ -225,10 +240,13 @@ class Assembler:
         by_db = {}
         for item in items:
             uf.find(item.ref)
+            if item.data.get("db_id"):
+                uf.db_ids[item.ref] = {item.data["db_id"]}
+        for item in items:
             for ref in item.data.get("same_as", []):
                 target = self.local_ref(kind, item.entry, ref)
-                if target and target[0] == "item":
-                    uf.union(item.ref, target[1])
+                if target and target[0] == "item" and not uf.union(item.ref, target[1]):
+                    self.report.add("conflicting_same_as", f"{item.ref} -> {ref}: different db_ids")
             if item.data.get("db_id"):
                 by_db.setdefault(item.data["db_id"], []).append(item.ref)
         for refs in by_db.values():
@@ -236,8 +254,6 @@ class Assembler:
                 uf.union(refs[0], ref)
         for i, a in enumerate(items):
             for b in items[i + 1:]:
-                if a.data.get("db_id") and b.data.get("db_id") and a.data["db_id"] != b.data["db_id"]:
-                    continue
                 if not (a.variants & b.variants):
                     continue
                 if kind == "persons" and not spans_compatible(self.item_span(a), self.item_span(b)):
@@ -265,7 +281,7 @@ class Assembler:
         authors_a = {self.person_key(a.entry, r) for r in a.data.get("authors", [])} - {None}
         authors_b = {self.person_key(b.entry, r) for r in b.data.get("authors", [])} - {None}
         if not authors_a or not authors_b:
-            return True
+            return normalize(a.label) == normalize(b.label)
         if authors_a & authors_b:
             return True
         names_a = {n for k in authors_a for n in self.key_variants(k)}
@@ -283,6 +299,9 @@ class Assembler:
         return {v for m in self.groups["persons"].get(key, []) for v in m.variants}
 
     def match_db(self, kind: str, root: str, members: list):
+        imported = unique(self.ids[m.ref] for m in members if self.ids.get(m.ref) in self.db[kind])
+        if len(imported) == 1 and not any(m.data.get("db_id") and m.data["db_id"] != imported[0] for m in members):
+            return imported[0]
         explicit = unique(m.data["db_id"] for m in members if m.data.get("db_id"))
         for db_id in explicit:
             if db_id not in self.db[kind]:
@@ -391,12 +410,19 @@ class Assembler:
         for root, members in self.groups["persons"].items():
             status = self.jewish_status(members)
             if status is True:
-                missing = [m.ref for m in members if m.data.get("jewish") is True and not ((m.data.get("jewish_evidence") or {}).get("quote") or (m.data.get("jewish_evidence") or {}).get("reason"))]
+                evidenced = [m for m in members if m.data.get("jewish") is True and self.has_evidence(m.data.get("jewish_evidence") or {})]
+                missing = [m.ref for m in members if m.data.get("jewish") is True] if not evidenced else []
                 if missing:
                     self.report.add("errors", f"jewish without evidence quote: {missing}")
                 self.emit["persons"].add(root)
             elif status == "uncertain":
-                self.report.add("review_uncertain_jewish", {"group": root, "label": members[0].label, "notes": [m.data.get("jewish_evidence") for m in members]})
+                resolved = self.resolved.get(("persons", root))
+                in_db = resolved[1] if resolved and resolved[0] == "existing" and resolved[1] not in self.created_ids else None
+                if in_db:
+                    self.emit["persons"].add(root)
+                    self.report.add("uncertain_in_db_assumed_jewish", {"_id": in_db, "label": members[0].label})
+                else:
+                    self.report.add("review_uncertain_jewish", {"group": root, "label": members[0].label, "notes": [m.data.get("jewish_evidence") for m in members]})
         jewish = set(self.emit["persons"])
         jewish_ids = {("db", self.resolved[("persons", root)][1]) for root in jewish if self.resolved.get(("persons", root))}
         changed = True
@@ -442,6 +468,23 @@ class Assembler:
                         self.emit["places"].add(self.group_of[("places", target[1])])
         self.non_jewish = self.emit["persons"] - jewish
 
+    def has_evidence(self, evidence: dict) -> bool:
+        external = evidence.get("external") or {}
+        return bool(evidence.get("quote") or evidence.get("reason") or (external.get("url") and external.get("quote")))
+
+    def external_source(self, external: dict) -> dict:
+        name = external["source_name"].strip()
+        source_id = next((d["_id"] for d in list(self.snapshot["sources"]) + list(self.new_docs["sources"].values()) if normalize(d["name"]) == normalize(name)), None)
+        if source_id is None:
+            source_id = self.allocate("source", f"sources:{normalize(name)}")
+            root = re.match(r"^https?://[^/]+/", external["url"])
+            doc = {"_id": source_id, "name": name}
+            if root:
+                doc["url"] = root.group(0)
+            self.new_docs["sources"][source_id] = doc
+            self.report.add("new_sources", name)
+        return {"source": source_id, "url": external["url"]}
+
     def emit_work_ref(self, entry: str, ref) -> bool:
         target = self.local_ref("works", entry, ref)
         if not target or target[0] != "item":
@@ -478,6 +521,9 @@ class Assembler:
     def time_records(self, member: Item, context: str) -> list:
         times = []
         for t in member.data.get("times", []):
+            if not isinstance(t.get("from"), int) and isinstance(t.get("until"), int):
+                t = {**t, "from": t["until"], "estimated": True}
+                t.pop("until")
             if not isinstance(t.get("from"), int) or not t.get("type"):
                 self.report.add("dropped_data", f"{context}: time without type/int from {t}")
                 continue
@@ -540,10 +586,12 @@ class Assembler:
         context = f"person {main.label}"
         jewish = root not in self.non_jewish
         alt_names = unique(n for m in members for n in [m.label] + m.data.get("alt_names", []) if n != main.label)
+        external = [(m.data.get("jewish_evidence") or {}).get("external") for m in members]
+        external = [e for e in external if e and e.get("url") and e.get("quote") and e.get("source_name")]
         doc = {
             "name": main.label,
             "alt_names": alt_names,
-            "sources": unique(self.entry_source(m.entry) for m in members),
+            "sources": unique([self.entry_source(m.entry) for m in members] + [self.external_source(e) for e in external]),
             "subjects": self.resolve_named("subjects", unique(s for m in members for s in m.data.get("subjects", [])), main.entry) if jewish else [],
             "languages": self.resolve_named("languages", unique(s for m in members for s in m.data.get("languages", [])), main.entry) if jewish else [],
             "times": self.dedupe_times([t for m in members for t in self.time_records(m, context)]),
@@ -554,7 +602,9 @@ class Assembler:
         if description:
             doc["description"] = description
         notes = unique(n for m in members for n in m.data.get("notes", []))
-        if jewish:
+        if jewish and external:
+            notes = unique([f"Jewish identity ({e['source_name']}, {e['url']}): {e['quote']}" for e in external][:1] + notes)
+        elif jewish:
             notes = unique([f"Jewish identity ({m.data['jewish_evidence'].get('section') or 'preamble'}, {self.entries[m.entry]['url']}): {m.data['jewish_evidence']['quote']}" for m in members if m.data.get("jewish") is True and (m.data.get("jewish_evidence") or {}).get("quote")][:1] + notes)
         if notes:
             doc["notes"] = notes
@@ -616,6 +666,37 @@ class Assembler:
                 result.append(r)
         return result
 
+    def element_key(self, field: str, element: dict, keys: tuple) -> tuple:
+        return tuple(self.place_name(element[k]) if (field, k) == ("places", "place") else element.get(k) for k in keys)
+
+    def merge_elements(self, kind: str, entity_id: str, field: str, current: list, incoming: list, keys: tuple, add: dict, element_sets: list):
+        claimed = set()
+        singular = {e["type"]: e for e in current if field == "times" and e["type"] in SINGULAR_TIMES}
+        for item in incoming:
+            key = self.element_key(field, item, keys)
+            matches = [i for i, e in enumerate(current) if self.element_key(field, e, keys) == key]
+            if any(current[i].get("source") == item["source"] and current[i].get("source_url") == item.get("source_url") for i in matches):
+                continue
+            unsourced = [i for i in matches if "source" not in current[i] and i not in claimed]
+            if unsourced:
+                i = unsourced[0]
+                claimed.add(i)
+                values = {k: item[k] for k in ("source", "source_url") if k in item}
+                for extra in ("description", "estimated", "until"):
+                    if extra in item and extra not in current[i] and extra not in keys:
+                        values[extra] = item[extra]
+                match = {k: current[i].get(k) for k in keys}
+                element_sets.append({"field": field, "match": match, "set": values})
+                continue
+            if not matches and item.get("type") in singular:
+                other = singular[item["type"]]
+                self.report.add("conflicting_values_added", {"collection": kind, "_id": entity_id, "field": f"{field}.{item['type']}", "db": [other["from"], other.get("until")], "sep": [item["from"], item.get("until")], "sep_url": item.get("source_url")})
+            add.setdefault(field, []).append(item)
+
+    def place_name(self, place_id: str) -> str:
+        doc = self.db["places"].get(place_id) or self.new_docs["places"].get(place_id)
+        return normalize(re.sub(r"\s*\(.*$", "", doc["name"])) if doc else place_id
+
     def merge_existing(self, kind: str, entity_id: str, doc: dict):
         existing = self.db[kind][entity_id]
         add, set_missing = {}, {}
@@ -634,33 +715,36 @@ class Assembler:
             values = [v for v in doc.get(field, []) if v not in existing.get(field, [])]
             if values:
                 add[field] = values
+        element_sets = []
         if "times" in doc:
-            keys = {(t["type"], t["from"], t.get("until")) for t in existing.get("times", [])}
-            values = [t for t in doc["times"] if (t["type"], t["from"], t.get("until")) not in keys]
-            if values:
-                add["times"] = values
+            self.merge_elements(kind, entity_id, "times", existing.get("times", []), doc["times"], ("type", "from", "until"), add, element_sets)
         if kind == "persons":
-            keys = {(p["place"], p["type"], p.get("from")) for p in existing.get("places", [])}
-            values = [p for p in doc["places"] if (p["place"], p["type"], p.get("from")) not in keys]
-            if values:
-                add["places"] = values
-            keys = {(r["type"], r["target"]) for r in existing.get("relations", [])}
-            values = [r for r in doc["relations"] if (r["type"], r["target"]) not in keys]
-            if values:
-                add["relations"] = values
+            self.merge_elements(kind, entity_id, "places", existing.get("places", []), doc["places"], ("place", "type", "from"), add, element_sets)
+            self.merge_elements(kind, entity_id, "relations", existing.get("relations", []), doc["relations"], ("type", "target"), add, element_sets)
         for field in ("description", "authorship_status", "preservation_status", "translation_of", "commentary_on", "location"):
             if field in doc and field not in existing:
                 set_missing[field] = doc[field]
+            elif field == "description" and field in doc and normalize(existing[field]) != normalize(doc[field]):
+                url = doc["sources"][0]["url"] if doc.get("sources") else SEP_URL
+                note = f"SEP ({url}): {doc[field]}"
+                if note not in existing.get("notes", []):
+                    add.setdefault("notes", []).append(note)
             elif field in doc and existing.get(field) != doc[field] and field != "location":
                 self.report.add("kept_existing_values", {"collection": kind, "_id": entity_id, "field": field, "db": existing[field], "sep": doc[field]})
-        if add or set_missing:
+        if add or set_missing or element_sets:
             update = {"collection": kind, "_id": entity_id, "label": existing[label_field]}
             if add:
                 update["add_to_set"] = add
             if set_missing:
                 update["set_if_missing"] = set_missing
+            if element_sets:
+                update["set_element_fields"] = element_sets
             self.updates[(kind, entity_id)] = update
-            merged = dict(existing)
+            merged = {k: (list(v) if isinstance(v, list) else v) for k, v in existing.items()}
+            for change in element_sets:
+                for i, element in enumerate(merged[change["field"]]):
+                    if all(element.get(k) == v for k, v in change["match"].items()) and "source" not in element:
+                        merged[change["field"]][i] = {**element, **change["set"]}
             for field, values in add.items():
                 merged[field] = merged.get(field, []) + values
             merged.update(set_missing)
@@ -676,14 +760,85 @@ class Assembler:
                 doc = builder(root, members)
                 if state == "new":
                     self.new_docs[kind][entity_id] = {"_id": entity_id, **doc}
-                elif kind == "persons" and root in self.non_jewish:
-                    continue
                 else:
                     self.merge_existing(kind, entity_id, doc)
         for kind, docs in self.new_docs.items():
             for doc in docs.values():
                 for error in validate(doc, COLLECTIONS[kind]):
                     self.report.add("validation_errors", f"new {kind} {doc['_id']}: {error}")
+
+    def distance_km(self, a: list, b: list) -> float:
+        lon1, lat1, lon2, lat2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+        h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
+        return 6371 * 2 * math.asin(math.sqrt(h))
+
+    def db_cleanup(self, notes_path: Path) -> dict:
+        used = set()
+        for update in self.updates.values():
+            used.add(update["_id"])
+        for docs in self.new_docs.values():
+            used |= set(re.findall(r"(?:person|work|place)_[a-z0-9]{8}", json.dumps(list(docs.values()))))
+        person_span = {d["_id"]: span(d.get("times", []) + d.get("places", [])) for d in self.snapshot["persons"]}
+        cleanup = {"duplicate_records": [], "suspected_merged_works": [], "suspect_coordinates": [], "conflicting_dates": self.report.sections.get("conflicting_values_added", [])}
+        for kind in ENTITY_KINDS:
+            uf = UnionFind()
+            by_variant = {}
+            for doc in self.snapshot[kind]:
+                labels = [NUMBERED_SUFFIX.sub("", doc_label(kind, doc) or "")] + doc_alt_labels(kind, doc)
+                if kind == "places":
+                    labels = [re.sub(r"\s*\(.*$", "", l) for l in labels]
+                for v in variants(*labels):
+                    by_variant.setdefault(v, []).append(doc["_id"])
+            for ids in by_variant.values():
+                for a in ids:
+                    for b in ids:
+                        if a >= b:
+                            continue
+                        if kind == "persons" and not spans_compatible(person_span[a], person_span[b]):
+                            continue
+                        if kind == "works":
+                            aa, ab = set(self.db["works"][a].get("authors", [])), set(self.db["works"][b].get("authors", []))
+                            names_a = {n for x in aa if x in self.db["persons"] for n in variants(self.db["persons"][x]["name"])}
+                            names_b = {n for x in ab if x in self.db["persons"] for n in variants(self.db["persons"][x]["name"])}
+                            if aa and ab and not (aa & ab) and not (names_a & names_b):
+                                continue
+                            wa, wb = self.db["works"][a], self.db["works"][b]
+                            if wa.get("translation_of") and wb.get("translation_of") and wa["translation_of"] != wb["translation_of"]:
+                                continue
+                            if wa.get("translators") and wb.get("translators") and not set(wa["translators"]) & set(wb["translators"]):
+                                continue
+                            if not aa and not ab and not (wa.get("translation_of") or wa.get("translators")) and not (wb.get("translation_of") or wb.get("translators")):
+                                continue
+                        uf.union(a, b)
+            groups = {}
+            for doc in self.snapshot[kind]:
+                groups.setdefault(uf.find(doc["_id"]), []).append(doc["_id"])
+            for ids in groups.values():
+                if len(ids) > 1:
+                    numbered = sum(1 for i in ids if NUMBERED_SUFFIX.search(doc_label(kind, self.db[kind][i]) or ""))
+                    cleanup["duplicate_records"].append({
+                        "collection": kind,
+                        "kind": "numbered_variants_maybe_intentional" if numbered == len(ids) else "duplicate",
+                        "records": [{"_id": i, "label": doc_label(kind, self.db[kind][i]), "coordinates": self.db[kind][i].get("location", {}).get("coordinates") if kind == "places" else None} for i in ids],
+                        "touched_by_sep_import": sorted(set(ids) & used),
+                    })
+                    if kind == "places":
+                        coords = [(i, self.db["places"][i]["location"]["coordinates"]) for i in ids if self.db["places"][i].get("location")]
+                        far = [(a, b) for x, (a, ca) in enumerate(coords) for b, cb in coords[x + 1:] if self.distance_km(ca, cb) > COORDINATE_GAP_KM]
+                        if far:
+                            cleanup["suspect_coordinates"].append({"label": doc_label(kind, self.db[kind][ids[0]]), "pairs_over_100km": far})
+        for doc in self.snapshot["works"]:
+            spans = [(a, person_span.get(a)) for a in doc.get("authors", []) if person_span.get(a)]
+            for x, (a, sa) in enumerate(spans):
+                for b, sb in spans[x + 1:]:
+                    if sa[0] - MERGED_WORK_GAP > sb[1] or sb[0] - MERGED_WORK_GAP > sa[1]:
+                        cleanup["suspected_merged_works"].append({"_id": doc["_id"], "title": doc["title"], "authors": [self.db["persons"][i]["name"] for i in doc["authors"] if i in self.db["persons"]]})
+                        break
+                else:
+                    continue
+                break
+        cleanup["noted_during_extraction"] = load_json(notes_path) if notes_path.exists() else []
+        return cleanup
 
     def run(self):
         self.load_entries()
@@ -709,7 +864,8 @@ def main():
     parser.add_argument("--snapshot", type=Path, default=SNAPSHOT)
     parser.add_argument("--export", type=Path, default=DEFAULT_EXPORT)
     parser.add_argument("--out", type=Path, default=WORK_DIR / "out")
-    parser.add_argument("--ids", type=Path, default=WORK_DIR / "ids.json")
+    parser.add_argument("--ids", type=Path, default=IDS_FILE)
+    parser.add_argument("--cleanup-notes", type=Path, default=WORK_DIR / "db_cleanup_notes.json")
     args = parser.parse_args()
 
     assembler = Assembler(load_snapshot(args.snapshot), load_extractions(args.entries), args.export, args.ids)
@@ -721,6 +877,7 @@ def main():
         (args.out / f"{collection}.json").write_text(json.dumps(docs, ensure_ascii=False, indent=2), encoding="utf-8")
     updates = [assembler.updates[k] for k in sorted(assembler.updates)]
     (args.out / "updates.json").write_text(json.dumps(updates, ensure_ascii=False, indent=2), encoding="utf-8")
+    assembler.report.sections["db_cleanup"] = assembler.db_cleanup(args.cleanup_notes)
     (args.out / "report.json").write_text(json.dumps(assembler.report.sections, ensure_ascii=False, indent=2), encoding="utf-8")
     args.ids.write_text(json.dumps(assembler.ids, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
 

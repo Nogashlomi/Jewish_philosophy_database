@@ -56,6 +56,14 @@ def main():
             ops.append(UpdateOne({"_id": doc_id}, {"$addToSet": {field: {"$each": values} for field, values in add.items()}}))
         for field, value in update.get("set_if_missing", {}).items():
             ops.append(UpdateOne({"_id": doc_id, field: {"$exists": False}}, {"$set": {field: value}}))
+        for change in update.get("set_element_fields", []):
+            element_filter = {f"e.{k}": v if v is not None else {"$exists": False} for k, v in change["match"].items()}
+            element_filter["e.source"] = {"$exists": False}
+            ops.append(UpdateOne(
+                {"_id": doc_id},
+                {"$set": {f"{change['field']}.$[e].{k}": v for k, v in change["set"].items()}},
+                array_filters=[element_filter],
+            ))
     for collection, ops in operations.items():
         print(f"{collection}: {len(ops)} update operations")
         if ops and not args.dry_run:

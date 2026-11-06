@@ -6,13 +6,15 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[4]
 WORK_DIR = REPO / "data" / "sep_import"
-SNAPSHOT = WORK_DIR / "db_snapshot.json"
+SNAPSHOT = REPO / "data" / "db_snapshot.json"
 ENTRIES_DIR = WORK_DIR / "entries"
+IDS_FILE = REPO / "data" / "sep_ids.json"
 DEFAULT_EXPORT = Path("/home/liri/Stanford_Encyclopedia_of_Philosophy__Dump/export")
 APOSTROPHES = re.compile(r"[’‘'`ʿʾʼ´]")
 PUNCTUATION = re.compile(r"[^\w\s]")
 BRACKETED = re.compile(r"\[([^\]]+)\]|\(([^)]+)\)")
 SPAN_TOLERANCE = 40
+UNNAMED = {"anonymous", "anon", "unknown", "pseudo"}
 
 
 def normalize(text: str) -> str:
@@ -28,15 +30,22 @@ def variants(*names: str) -> set:
     for name in names:
         if not name:
             continue
+        pseudo = False
         for match in BRACKETED.finditer(name):
-            inner = match.group(1) or match.group(2)
-            if not re.search(r"\d", inner):
-                found.add(normalize(inner))
+            inner = (match.group(1) or match.group(2)).strip()
+            if normalize(inner).startswith("pseudo"):
+                pseudo = True
+                continue
+            if re.search(r"[\d?]", inner) or not inner[:1].isupper() or normalize(inner) in UNNAMED or len(normalize(inner)) < 4:
+                continue
+            found.add(normalize(inner))
         base = BRACKETED.sub("", name)
-        found.add(normalize(base))
+        if normalize(base).split(" ")[0] in UNNAMED:
+            continue
+        found.add(("pseudo " if pseudo else "") + normalize(base))
         if base.count(",") == 1:
             last, first = base.split(",")
-            found.add(normalize(f"{first} {last}"))
+            found.add(("pseudo " if pseudo else "") + normalize(f"{first} {last}"))
     return {v for v in found if v}
 
 
@@ -78,7 +87,7 @@ def load_json(path: Path):
 
 def load_snapshot(path: Path = SNAPSHOT) -> dict:
     if not path.exists():
-        raise SystemExit(f"missing DB snapshot {path}; ask the user to run snapshot_db.py")
+        raise SystemExit(f"missing DB snapshot {path}; run the db-snapshot skill")
     return load_json(path)
 
 

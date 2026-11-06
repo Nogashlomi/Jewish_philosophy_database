@@ -13,11 +13,11 @@ sys.path.insert(0, str(REPO / "backend"))
 from app.core.db_schema import COLLECTIONS
 
 DB_NAME = "jephy"
-DEFAULT_OUT = REPO / "data" / "sep_import" / "db_snapshot.json"
+DEFAULT_OUT = REPO / "data" / "db_snapshot.json"
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Dump the jephy MongoDB collections (read-only) for SEP dedup and merging.")
+    parser = argparse.ArgumentParser(description="Dump the jephy MongoDB collections (read-only) to a local JSON file.")
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
 
